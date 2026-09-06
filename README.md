@@ -319,6 +319,41 @@ Figura 1
 Lean UX Canvas — SkyCrop
 ![Lean UX Canvas](resources/imgs/Lean_UX_Canvas.png)
 ## 1.3. Segmentos objetivo. 
+**Segmento Objetivo 1: Trabajadores de turno nocturno**
+**Aspectos demográficos:**
+- **Edad:** 18 - 55 años.
+- **Nivel socioeconómico:** Media - Baja.
+- **Tipo de trabajador:** Personal de primera línea, trabajadores empleos temporales y servicios esenciales.
+- **Rubro:** Seguridad privada, salud, delivery, call centers, limpieza y transporte.
+- **Nivel de necesidad:** Alta dependencia de herramientas que garanticen su seguridad en rutas desoladas y faciliten encontrar servicios básicos abiertos de madrugada.
+
+**Aspectos geográficos:**
+- **Nacionalidad:** Peruana.
+- **Zona geográfica:** Urbana y metropolitana (Lima).
+
+**Aspectos psicográficos:**
+- **Motivación:** Llegar sanos y salvos a sus hogares y lugares de trabajo, cuidar su salud del sueño, optimizar su tiempo y reducir sus gastos nocturnos.
+- **Valores:** La seguridad personal, el bienestar físico y el respaldo de una comunidad.
+- **Intereses:** Adopción de tecnología rápida y colaborativa que les permita evitar zonas de riesgo y acceder a beneficios o alertas en tiempo real.
+
+---
+
+**Segmento Objetivo 2: Contactos de confianza**
+**Aspectos demográficos:**
+- **Edad:** 18 - 60 años.
+- **Nivel socioeconómico:** Media - Baja.
+- **Vínculo:** Familiares directos (padres, hermanos), parejas o amigos cercanos del trabajador de turno nocturno.
+- **Rubro:** Ocupaciones diversas.
+- **Nivel de necesidad:** Alta necesidad de información y certeza sobre el estado y ubicación de su ser querido para mitigar la angustia durante la noche.
+
+**Aspectos geográficos:**
+- **Nacionalidad:** Peruana.
+- **Zona geográfica:** Urbana y metropolitana (Lima).
+
+**Aspectos psicográficos:**
+- **Motivación:** Velar por la integridad física de su ser querido mientras este se encuentra trabajando, asegurándose de que llegue con bien a su destino sin tener que interrumpir su jornada laboral.
+- **Valores:** La familia, la protección, la empatía y la tranquilidad.
+- **Intereses:** Uso de aplicaciones confiables de monitoreo pasivo y notificaciones automáticas que no requieran conocimientos técnicos avanzados para su configuración.
 
 
 
