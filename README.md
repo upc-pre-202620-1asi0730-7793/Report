@@ -349,20 +349,71 @@ En esta sección, se han planteado diversas preguntas dirigidas a nuestros segme
 ### 2.2.3. Análisis de entrevistas. 
 
 ## 2.3. Needfinding. 
-
 ### 2.3.1. User Personas. 
+En esta sección se presentan las fichas de User Personas construidas a partir de los datos recolectados del análisis de entrevistas a nuestros segmentos objetivos. Estas fichas permiten representar de forma clara y estratégica los perfiles de cada segmento objetivo, considerando sus metas, habilidades, motivaciones y dificultades. De esta manera se integra la perspectiva del usuario y tendencias del sector para identificar oportunidades en el mercado y ofrecer una solución alineada a lo que el usuario necesita.
+
+#### Segmento Objetivo 1: Trabajador de Turno Nocturno
+![User Persona - Jorge Luis Huamán](resources/imgs/up-Jorge%20Luis%20Huaman.png)
+
+#### Segmento Objetivo 2: Contacto de Confianza
+![User Persona - Rosa Elena Paredes](resources/imgs/up-Rosa%20Elena%20Paredes.png)
 
 ### 2.3.2. User Task Matrix. 
+En esta sección se presenta el User Task Matrix, construido a partir de los User Persona que representan a los dos segmentos clave identificados:
+* **Segmento Objetivo 1:** Trabajador de Turno Nocturno
+* **Segmento Objetivo 2:** Contacto de Confianza
+
+Las tareas fueron identificadas a partir del análisis cualitativo de entrevistas, y cada una fue evaluada según su frecuencia y nivel de importancia para los respectivos perfiles.
+
+| Tarea / Actividad | Trabajador de Turno Nocturno (Frecuencia) | Trabajador de Turno Nocturno (Importancia) | Contacto de Confianza (Frecuencia) | Contacto de Confianza (Importancia) |
+| :--- | :--- | :--- | :--- | :--- |
+| Activar monitoreo o check-in de trayecto seguro al salir de casa o trabajo | Alta | Alta | Baja | Media |
+| Consultar mapa colaborativo de zonas de riesgo y rutas seguras | Media | Alta | Baja | Baja |
+| Buscar establecimientos nocturnos abiertos 24h (farmacias, comida, grifos) | Media | Media | Baja | Baja |
+| Recibir notificación pasiva de salida y llegada segura del trabajador | Baja | Baja | Alta | Alta |
+| Recibir alerta automática ante retraso excesivo o posible incidente | Baja | Alta | Baja | Alta |
+| Calificar la seguridad de la ruta al completar el desplazamiento | Media | Media | Nunca | Baja |
+| Registrar horas de descanso en la bitácora de sueño y bienestar | Media | Media | Nunca | Baja |
+| Acceder a beneficios grupales y coberturas de seguro mediante membresía | Baja | Media | Baja | Baja |
 
 ### 2.3.3. User Journey Mapping. 
+En esta sección se presentan los mapas de viaje de usuario, reflejando la experiencia integral de nuestros segmentos objetivos en el contexto actual: un entorno urbano carente de herramientas digitales especializadas para la dinámica del trabajo nocturno. Se analizan los puntos de fricción, canales y emociones que experimentan tanto el trabajador nocturno durante sus trayectos y jornadas, como su contacto de confianza desde el hogar.
 
-### 2.3.4. Empathy Mapping. 
+#### Segmento Objetivo 1: Trabajador de Turno Nocturno
+![User Journey Map - Jorge Luis Huamán](resources/imgs/jm-Jorge%20Luis%20Huaman.png)
+
+#### Segmento Objetivo 2: Contacto de Confianza
+![User Journey Map - Rosa Elena Paredes](resources/imgs/jm-Rosa%20Elena%20Paredes.png)
+
+### 2.3.4. Empathy Mapping.
+En esta sección se presentan los Empathy Maps. Estos nos ayudarán a comprender las experiencias, emociones y pensamientos que expresan los usuarios de cada segmento objetivo.
+
+#### Segmento Objetivo 1: Trabajador de Turno Nocturno
+![Empathy Map - Jorge Luis Huamán](resources/imgs/em-Jorge%20Luis%20Huaman.png)
+
+#### Segmento Objetivo 2: Contacto de Confianza
+![Empathy Map - Valeria Ríos](resources/imgs/em-Valeria%20R%C3%ADos.png)
 
 ## 2.4. Big Picture EventStorming. 
+En esta sección, el equipo presenta el modelado integral del dominio del negocio mediante la técnica de Big Picture EventStorming. A través de un espacio colaborativo virtual (Miro / Mural), exploramos de extremo a extremo el flujo operativo de nuestra solución: desde el registro y vinculación de contactos, la ejecución de trayectos seguros nocturnos y la gestión de alertas, hasta la colaboración comunitaria en mapas de servicios y la administración de beneficios por suscripción. Este ejercicio permite alinear el lenguaje ubicuo, identificar cuellos de botella y delimitar los subdominios del sistema.
+
+![Event Storming](resources/imgs/eventStorming.png)
 
 ## 2.5. Ubiquitous Language. 
-
-
+* **Night-Shift Worker (Trabajador de Turno Nocturno):** Usuario principal del sistema cuya jornada laboral se desarrolla durante horas nocturnas o de madrugada en rubros esenciales (seguridad privada, salud, delivery, call center, limpieza, etc.) y que enfrenta riesgos específicos de movilidad y aislamiento.
+* **Trusted Contact (Contacto de Confianza):** Familiar directo, pareja o allegado designado por el trabajador nocturno para recibir notificaciones automáticas sobre el estado, inicio y término de sus trayectos sin invadir su privacidad.
+* **Safe-Trip Check-In (Check-In de Trayecto Seguro):** Acción explícita mediante la cual el trabajador confirma el inicio o la llegada exitosa a su destino, activando o cerrando el protocolo de acompañamiento pasivo del sistema.
+* **Safe Commute / Night Commute (Trayecto Seguro / Desplazamiento Nocturno):** Recorrido físico realizado por el trabajador entre su hogar y su lugar de trabajo (o viceversa) durante horarios nocturnos donde el transporte es limitado y el entorno urbano presenta mayor vulnerabilidad.
+* **Possible Incident (Posible Incidente):** Estado de alerta temprana que se activa automáticamente cuando un trabajador no confirma su llegada dentro del tiempo estimado más el margen de tolerancia establecido, notificando al contacto de confianza.
+* **Route Safety Rating (Calificación de Seguridad de Ruta):** Valoración colaborativa y cualitativa que realiza un trabajador al culminar su desplazamiento, calificando factores del entorno como iluminación, presencia de sospechosos, patrullaje o transitabilidad.
+* **Risk Zone / Danger Spot (Zona de Riesgo / Punto de Peligro):** Ubicación geográfica o tramo vial reportado por la comunidad de trabajadores como inseguro debido a antecedentes de robos, escasa visibilidad o falta de resguardo ciudadano.
+* **Night-Time Services Map (Mapa de Servicios Nocturnos):** Directorio georreferenciado y colaborativo de establecimientos que operan formalmente durante la madrugada (farmacias, grifos, locales de comida, talleres) y que han sido verificados por los usuarios.
+* **Sleep & Rest Log (Bitácora de Descanso y Salud del Sueño):** Registro personal donde el trabajador documenta sus ciclos de sueño diurno y hábitos de reposo para monitorear su desgaste físico y recibir sugerencias de higiene del sueño.
+* **Collective Benefits (Beneficios Colectivos):** Conjunto de ventajas comerciales, seguros básicos de accidentes y descuentos negociados en grupo para los usuarios que cuentan con una membresía activa.
+* **Monthly Subscription (Suscripción Mensual):** Modelo de membresía recurrente que otorga acceso a coberturas complementarias de seguridad, seguros y beneficios exclusivos dentro de la plataforma.
+* **Companion View (Panel de Seguimiento del Acompañante):** Interfaz simplificada y pasiva diseñada para el contacto de confianza, donde consulta el estado general del viaje y recibe alertas sin necesidad de realizar configuraciones complejas.
+* **Community Moderator (Moderador de la Comunidad):** Rol asignado a usuarios verificados o miembros del equipo encargados de revisar, aprobar o desestimar reportes de nuevos servicios nocturnos o incidentes en el mapa.
+* **Grace Period (Margen de Tolerancia de Arribo):** Ventana de tiempo prudencial añadida a la hora estimada de llegada que permite absorber retrasos de tráfico habituales antes de disparar un estado de posible incidente.
 
 # Capítulo III: Requirements Specification 
 
