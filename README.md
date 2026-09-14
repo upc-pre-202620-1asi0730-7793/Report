@@ -169,35 +169,306 @@
 
 # Capítulo II: Requirements Elicitation & Analysis 
 
-## 2.1. Competidores. 
+## 2.1. Competidores.
+**Competidor 1: BSafe**
+bSafe es una aplicación de seguridad personal originada en Noruega, enfocada en prevenir y documentar situaciones de riesgo mediante activación por voz, transmisión en vivo, grabación de audio/video, llamadas falsas y una red de contactos de confianza ("Guardians") que reciben la ubicación en tiempo real del usuario ante una alerta SOS.
 
-### 2.1.1. Análisis competitivo. 
+---
 
-### 2.1.2. Estrategias y tácticas frente a competidores. 
+**Competidor 2: Noonlight**
+Noonlight (anteriormente SafeTrek) es una plataforma de seguridad conectada que permite pedir ayuda de forma silenciosa con un botón de pánico, enviando la ubicación exacta del usuario a despachadores profesionales que pueden movilizar servicios de emergencia sin necesidad de hablar o marcar a la policía.
+
+---
+
+**Competidor 3: Safetipin**
+Safetipin es una aplicación originada en India que genera "puntajes de seguridad" de calles, rutas y zonas urbanas a partir de auditorías y calificaciones hechas por la propia comunidad de usuarios (iluminación, visibilidad, presencia de gente, transporte disponible, entre otros factores). Con esta información, recomienda a los usuarios la ruta más segura (no necesariamente la más corta) y permite compartir la ubicación en tiempo real con contactos de confianza.
+
+### 2.1.1. Análisis competitivo
+<table> 
+  <tr>
+    <th colspan="7"> Competitive Analysis Landscape </th>
+  </tr>
+  <tr>
+    <td colspan="2" rowspan="2">¿Por qué llevar a cabo este análisis?</td>
+    <td colspan="5"> Con el objetivo de evaluar y comparar funcionalidades, tecnología, precios y estrategias de marketing de los principales competidores en seguridad personal y trayectos, para identificar nuestras fortalezas y debilidades, detectar oportunidades de negocio y definir los puntos que nos diferencian de la competencia frente al segmento específico de trabajadores de turno nocturno y sus contactos de confianza. </td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td colspan="2"></td>
+    <td> (producto) <br> <img src="resources/imgs/producto-logo.png"></img> </td>
+    <td> bSafe <br> <img src="resources/imgs/bsafe-logo.png"></img> </td>
+    <td> Noonlight <br> <img src="resources/imgs/noonlight-logo.png"></img> </td>
+    <td> Safetipin <br> <img src="resources/imgs/safetipin-logo.png"></img> </td>
+  </tr>
+  <tr>
+    <td rowspan="2">Perfil</td>
+    <td>Overview</td>
+    <td> (producto) es una plataforma integral de seguridad, información y comunidad diseñada específicamente para trabajadores de turno nocturno y sus contactos de confianza, que combina check-in de trayecto seguro, calificación y reporte comunitario de rutas, mapa de servicios activos de noche y una comunidad con beneficios colectivos. </td>
+    <td> bSafe es una app de seguridad personal que previene y documenta situaciones de riesgo mediante alarma SOS, grabación automática y una red de contactos "Guardians" que monitorean al usuario en tiempo real. </td>
+    <td> Noonlight es una plataforma de seguridad conectada que permite pedir ayuda de forma silenciosa, enviando la ubicación exacta del usuario a despachadores profesionales que pueden movilizar servicios de emergencia. </td>
+    <td> Safetipin es una app que genera puntajes de seguridad de calles y rutas a partir de auditorías y calificaciones de la comunidad, recomendando la ruta más segura y permitiendo compartir ubicación con contactos de confianza. </td>
+  </tr>
+  <tr>
+    <td>Ventaja competitiva ¿Qué valor ofrece a los clientes?</td>
+    <td> Ofrece una solución especializada para la realidad del trabajo nocturno; seguridad activa en el trayecto, calificación de rutas por la propia comunidad de trabajadores, e información confiable sobre servicios abiertos de noche. </td>
+    <td> Ofrece prevención y evidencia documentada ante situaciones de riesgo mediante grabación automática y una red de contactos de confianza. </td>
+    <td> Ofrece conexión directa y silenciosa con servicios de emergencia profesionales, sin depender de contactos personales. </td>
+    <td> Ofrece información colectiva y verificada sobre qué tan segura es una calle o ruta específica, permitiendo decisiones de trayecto basadas en datos reales de la comunidad. </td>
+  </tr>
+  <tr>
+    <td rowspan="2">Perfil de Marketing</td>
+    <td> Mercado Objetivo </td>
+    <td> Trabajadores de turno nocturno (seguridad, delivery, salud, call centers, limpieza, etc) y sus contactos de confianza (familiares, parejas), en zonas urbanas de Lima. </td>
+    <td> Personas en general que buscan seguridad personal, con fuerte enfoque en mujeres y estudiantes universitarios. </td>
+    <td> Usuarios individuales, estudiantes, y empresas que integran la app a dispositivos IoT y sistemas de seguridad residencial. </td>
+    <td> Mujeres, jóvenes y comunidades urbanas en general, así como gobiernos locales y planificadores urbanos interesados en datos de seguridad de sus ciudades. </td>
+  </tr>
+  <tr>
+    <td> Estrategias de Marketing </td>
+    <td> Marketing de nicho dirigido a comunidades y grupos de trabajadores nocturnos en redes sociales, programa de referidos entre trabajadores y sus contactos de confianza. </td>
+    <td> Testimonios de figuras públicas, presencia en medios internacionales, alianzas con instituciones educativas y comunidades. </td>
+    <td> Alianzas B2B con marcas de seguridad del hogar e IoT (Wyze, Sabre, Roku), relaciones públicas con medios especializados en seguridad. </td>
+    <td> Alianzas con ONGs, gobiernos locales y organizaciones de mujeres; presencia en medios enfocados en urbanismo y seguridad de género. </td>
+  </tr>
+  <tr>
+    <td rowspan="3">Perfil de Producto</td>
+    <td> Productos & Servicios </td>
+    <td> Check-in de trayecto seguro, calificación y reporte de ruta, marcado automático de posible incidente, mapa comunitario de servicios nocturnos, bitácora de descanso y salud del sueño, comunidad con beneficios colectivos, panel de seguimiento para contactos de confianza. </td>
+    <td> Botón SOS por voz o táctil, transmisión en vivo, grabación automática de audio/video, llamadas falsas, red de contactos "Guardians". </td>
+    <td> Botón de pánico silencioso, conexión directa con despachadores profesionales, monitoreo 24/7 opcional, integración con dispositivos IoT. </td>
+    <td> Auditorías de seguridad por parámetros (iluminación, visibilidad, transporte, gente en la calle), puntaje de seguridad por zona/ruta, recomendación de ruta más segura, seguimiento de ubicación con contactos. </td>
+  </tr>
+  <tr>
+    <td> Precios & Costos </td>
+    <td> Suscripción mensual con beneficios (seguro básico, descuentos negociados colectivamente y alertas de seguridad prioritarias). </td>
+    <td> Versión gratuita limitada; planes premium desde USD 1.99/mes hasta USD 19.99/año con funciones adicionales. </td>
+    <td> Versión gratuita con funciones esenciales; monitoreo profesional 24/7 desde USD 9.99/mes. </td>
+    <td> Aplicación gratuita para usuarios finales; el modelo de negocio principal es la venta de datos y reportes a gobiernos y organizaciones urbanas. </td>
+  </tr>
+  <tr>
+    <td>Canales de distribución (Web y/o Móvil)</td>
+    <td> Aplicación móvil disponible para iOS y Android, con integración a mapas y geolocalización. </td>
+    <td> Aplicación móvil disponible para iOS y Android. </td>
+    <td> Aplicación móvil disponible para iOS y Android, con APIs para integración con productos de terceros. </td>
+    <td> Aplicación móvil disponible para iOS y Android, además de una plataforma web para gobiernos y organizaciones. </td>
+  </tr>
+  <tr>
+    <td rowspan="4"> Análisis SWOT </td>
+    <td> Fortalezas </td>
+    <td> Especialización total en la realidad del trabajo nocturno, combinación única de check-in + calificación de rutas + comunidad, modelo de suscripción con beneficios tangibles adicionales. </td>
+    <td> Reconocimiento internacional, tecnología robusta de grabación y evidencia, alianzas mediáticas de alto perfil. </td>
+    <td> Conexión directa y profesional con servicios de emergencia, integración amplia con dispositivos IoT. </td>
+    <td> Metodología de auditoría de seguridad probada y validada en 16 países, gran volumen de datos históricos, reconocimiento internacional en temas de seguridad urbana. </td>
+  </tr>
+  <tr>
+    <td> Debilidades </td>
+    <td> Dependencia de la adopción inicial y de la masa crítica de usuarios para que la calificación de rutas sea confiable. </td>
+    <td> No está enfocada en las necesidades específicas de trabajadores nocturnos ni ofrece información comunitaria del entorno. </td>
+    <td> Costo elevado del monitoreo profesional continuo; no ofrece funciones de comunidad ni calificación de rutas. </td>
+    <td> No cuenta con check-in de trayecto ni aviso automático a contactos de confianza; su enfoque está más en datos para políticas públicas que en la experiencia diaria del usuario individual. </td>
+  </tr>
+  <tr>
+    <td> Oportunidades </td>
+    <td> Expansión hacia distintos rubros de trabajo nocturno y hacia otras ciudades del Perú. </td>
+    <td> Expansión hacia nuevos segmentos corporativos y de seguridad comunitaria. </td>
+    <td> Expansión de alianzas B2B con más fabricantes de dispositivos de seguridad. </td>
+    <td> Expansión hacia nuevos países de Latinoamérica y alianzas con más gobiernos locales. </td>
+  </tr>
+  <tr>
+    <td> Amenazas </td>
+    <td> Ingreso de aplicaciones genéricas de seguridad personal al mercado peruano con mayor reconocimiento de marca. </td>
+    <td> Competencia de apps con enfoque más específico por industria o segmento. </td>
+    <td> Dependencia de asociaciones B2B que podrían cambiar de proveedor. </td>
+    <td> Al no monetizar directamente con el usuario final, depende de financiamiento externo (ONGs, gobiernos) que puede ser inestable. </td>
+  </tr>
+</table>
+
+### 2.1.2. Estrategias y tácticas frente a competidores.
+A partir del análisis competitivo, se han identificado las siguientes estrategias y tácticas para diferenciar a **(producto)** frente a los actores del mercado de seguridad personal y trayectos:
+
+1. **Estrategias de Diferenciación:**
+
+**Especialización en el trabajo nocturno:** A diferencia de bSafe, Noonlight y Safetipin, que ofrecen seguridad personal o auditoría urbana de forma genérica, **(producto)** se enfoca exclusivamente en la realidad de quienes trabajan de noche, combinando check-in de trayecto seguro, calificación de rutas, información comunitaria del entorno y bitácora de descanso, algo que ningún competidor ofrece de forma integrada.
+
+**Calificación de rutas orientada a la acción, no solo al dato:** A diferencia de Safetipin, cuyo enfoque principal es generar datos para gobiernos y planificadores urbanos, **(producto)** utiliza la calificación de rutas directamente para beneficio inmediato del propio usuario (elegir una ruta más segura, recibir alertas de zonas de riesgo cerca de su ubicación en tiempo real).
+
+**Vínculo emocional con contactos de confianza:** A diferencia de bSafe y Noonlight, donde el contacto de confianza solo recibe una alerta puntual ante una emergencia, **(producto)** ofrece un panel de seguimiento continuo pensado para la tranquilidad de familiares y parejas durante todo el trayecto, no solo en el peor escenario.
+
+2. **Tácticas de Marketing:**
+
+**Marketing de nicho y comunidades existentes:** Se realizarán campañas dirigidas específicamente a comunidades y grupos de trabajadores nocturnos en redes sociales, diferenciándonos del marketing masivo y genérico de bSafe y Noonlight.
+
+**Programa de referidos entre trabajador y contacto de confianza:** A diferencia de los competidores, que no explotan este vínculo, **(producto)** incentivará que cada trabajador invite a sus contactos de confianza a la plataforma, generando crecimiento orgánico natural.
+
+3. **Estrategias de Precios:**
+
+**Suscripción con beneficios tangibles desde el inicio:** A diferencia del modelo freemium muy limitado de bSafe y Noonlight, y del modelo sin monetización directa al usuario de Safetipin, **(producto)** ofrecerá una suscripción mensual accesible que desde el primer mes incluye beneficios concretos (seguro básico, descuentos, alertas prioritarias), reforzando la percepción de valor frente al costo.
+
+4. **Expansión y Adaptabilidad:**
+
+**Enfoque regional inicial y expansión nacional:** **(producto)** comenzará en Lima, adaptándose a las necesidades específicas del contexto urbano peruano, antes de expandirse a otros departamentos del pais, a diferencia de competidores como Noonlight y Safetipin, que operan con un enfoque global desde su origen.
+
+**Ecosistema local de servicios nocturnos:** Se buscarán alianzas con negocios y proveedores locales (farmacias, restaurantes, grifos) que deseen aparecer destacados en el mapa comunitario de servicios nocturnos, generando un ecosistema local que ningún competidor internacional replica.
 
 ## 2.2. Entrevistas. 
 
 ### 2.2.1. Diseño de entrevistas. 
+En esta sección, se han planteado diversas preguntas dirigidas a nuestros segmentos objetivos con el objetivo de obtener información relevante, como opiniones o descripciones. Estos datos serán fundamentales para el desarrollo de nuestra solución.
+
+### Segmento Objetivo 1: Trabajadores de turno nocturno
+
+1. ¿Cuál es su nombre, edad, género, distrito de residencia y estado civil?
+2. ¿A qué se dedica actualmente, en qué rubro (seguridad, delivery, salud, call center, limpieza, etc.) y hace cuánto tiempo trabaja en turno nocturno?
+3. ¿Cómo describiría su personalidad, y qué tan cómodo(a) se siente usando aplicaciones o herramientas tecnológicas nuevas?
+4. ¿Qué dispositivo utiliza con más frecuencia y a través de qué canales digitales suele comunicarse o informarse (WhatsApp, redes sociales, apps, etc.)?
+5. ¿Cuál es su principal objetivo relacionado con su trabajo nocturno, y cuál es su mayor frustración o preocupación al respecto?
+6. Cuénteme cómo es un día típico de su turno nocturno, desde que sale de casa hasta que regresa, incluyendo cómo es su trayecto de ida y vuelta.
+7. ¿Alguna vez se ha sentido inseguro(a) o ha vivido una situación de riesgo durante su trayecto nocturno? ¿Puede describirla?
+8. ¿Actualmente utiliza alguna herramienta o método para sentirse más seguro(a) en sus trayectos (llamar a alguien, compartir ubicación, etc.)?
+9. ¿Qué tan valioso le resultaría contar con una aplicación que avise automáticamente a un contacto de confianza si usted no llega a su destino, y que además le permita calificar o reportar qué tan segura sintió una ruta?
+10. ¿Le interesaría formar parte de una comunidad de trabajadores de su mismo rubro para compartir información o beneficios, y estaría dispuesto(a) a pagar una suscripción mensual por ello?
+11. ¿Qué características considera indispensables para usar una aplicación de este tipo, y qué situaciones lo llevarían a dejar de usarla?
+
+### Segmento Objetivo 2: Contactos de confianza de trabajadores de turno nocturno
+
+1. ¿Cuál es su nombre, edad, género, distrito de residencia y estado civil?
+2. ¿A qué se dedica, y tiene algún familiar, pareja o amigo cercano que trabaje en turno nocturno? ¿Qué relación tiene con esa persona y hace cuánto tiempo trabaja de noche?
+3. ¿Cómo describiría su personalidad? ¿Se considera una persona más bien tranquila o más bien ansiosa frente a este tipo de situaciones?
+4. ¿Qué aplicaciones usa con más frecuencia en su día a día, y qué tan cómodo(a) se siente aprendiendo a usar una app nueva?
+5. Describa cómo es para usted una noche o madrugada típica mientras esa persona está trabajando: ¿qué hace, en qué piensa, revisa el celular con frecuencia?
+6. ¿Qué es lo que más le preocupa cuando piensa en la seguridad de esa persona durante su turno o trayecto nocturno?
+7. ¿Ha vivido algún momento de angustia real pensando que algo le pudo haber pasado a esa persona? Cuénteme qué ocurrió y cómo lo resolvió.
+8. Actualmente, ¿cómo se entera usted de que esa persona llegó bien a su destino? ¿Espera una llamada, un mensaje, o simplemente asume que todo está bien si no recibe noticias?
+9. Si esa persona no le avisara dentro del tiempo que usted espera, ¿qué haría? ¿Cuánto tiempo suele esperar antes de preocuparse o intentar contactarla?
+10. ¿Qué opina de que una aplicación pueda avisarle automáticamente si esa persona no confirma su llegada, sin que usted tenga que estar pendiente o llamando?
+11. ¿Le generaría alguna duda o incomodidad que la ubicación de esa persona se comparta con usted a través de una app? ¿Por qué?
+12. ¿Qué la haría confiar en una herramienta así, y qué la haría dejar de usarla o desconfiar de ella?
 
 ### 2.2.2. Registro de entrevistas. 
+*Registro de entrevistas — Segmento 1*
+
+**Entrevista 1**
+
+| Campo | Detalle                                                                                                                                                                                                                                                                                                                      |
+| :--- |:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Nombre** | Drago Duarte                                                                                                                                                                                                                                                                                                                 |
+| **Edad** | 24 años                                                                                                                                                                                                                                                                                                                      |
+| **Distrito** | Chorrillos                                                                                                                                                                                                                                                                                                                   |
+| **Duración** | 6:02 min                                                                                                                                                                                                                                                                                                                     |
+| **Enlace** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423775_upc_edu_pe/IQDux7_TpQIoTKigcJ3OziyvAXGE5JXh1KMyGmiDjG4cnek?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=au78gP |
+
+<div align="center">
+<img src="resources/imgs/chapter_ii/entrevista1_segmento1.png" alt="Entrevista 1 - Segmento 1" width="600">
+</div>
+
+**Resumen**: En esta entrevista, Drago Duarte, un joven de 24 años que trabaja como cajero y vendedor en un Tambo en Chorrillos, comparte su experiencia en el turno de madrugada (9:00 p.m. a 5:00 a.m.). Destaca que su mayor temor es el trayecto de regreso a casa, donde camina por calles desoladas y suele quedarse dormido en el bus, temiendo que le arranchen el celular. Relata un momento de angustia cuando fue seguido por una mototaxi sin luces y tuvo que refugiarse en un grifo. Actualmente, depende de WhatsApp para avisar a su madre y compartir su ubicación, pero se preocupa por quedarse sin datos o batería. Drago valida fuertemente la propuesta de una aplicación que notifique automáticamente a sus contactos y muestre zonas de riesgo en el mapa. Asimismo, afirma que pagaría una suscripción mensual si esta le brinda beneficios tangibles, como un seguro contra robos o descuentos. Sin embargo, recalca que desinstalaría la aplicación si esta consume demasiada batería, presenta errores técnicos o envía falsas alarmas que asusten a su familia.
+
+---
+**Entrevista 2**
+
+
+---
+**Entrevista 3**
+
+
+---
+
+*Registro de entrevistas — Segmento 2*
+
+**Entrevista 1**
+
+| Campo | Detalle                |
+| :--- |:-----------------------|
+| **Nombre** | Juan Gutierrez         |
+| **Edad** | 24 años                |
+| **Distrito** | San Juan de Miraflores |
+| **Duración** | 5:57 min               |
+| **Enlace** |https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423775_upc_edu_pe/IQBBwCDLDYdtSJDvTpf3VT-EAY3r4Ss02w-EYfW38XfSQ2E?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=hDDVYf |
+
+<div align="center">
+<img src="resources/imgs/chapter_ii/entrevista1_segmento2.png" alt="Entrevista 1 - Segmento 2" width="600">
+</div>
+
+**Resumen**: En esta entrevista, Juan Gutiérrez, un estudiante universitario de 24 años, comparte su experiencia como contacto de confianza de su hermano menor, quien trabaja de madrugada en un Oxxo. Destaca que su mayor preocupación es el trayecto desolado que su hermano debe recorrer desde el trabajo hasta el paradero del bus a las 5:00 a.m. También menciona que actualmente dependen de mensajes de WhatsApp para confirmar que su hermano ha subido al transporte y ha llegado a casa, relatando un episodio de mucha angustia que vivió cuando el celular de su hermano se apagó en el trayecto. Explica que compartir la ubicación no genera ninguna incomodidad entre ellos, ya que la prioridad absoluta es la protección familiar. Finalmente, describe que confiaría en una aplicación de monitoreo pasivo si las notificaciones son precisas y llegan a tiempo, pero la descartaría inmediatamente si presenta errores técnicos, consume rápidamente la batería del celular o si lanza falsas alarmas de pánico que lo asusten de la nada.
+
+---
+**Entrevista 2**
+
+
+---
+**Entrevista 3**
+
+
+---
 
 ### 2.2.3. Análisis de entrevistas. 
 
 ## 2.3. Needfinding. 
-
 ### 2.3.1. User Personas. 
+En esta sección se presentan las fichas de User Personas construidas a partir de los datos recolectados del análisis de entrevistas a nuestros segmentos objetivos. Estas fichas permiten representar de forma clara y estratégica los perfiles de cada segmento objetivo, considerando sus metas, habilidades, motivaciones y dificultades. De esta manera se integra la perspectiva del usuario y tendencias del sector para identificar oportunidades en el mercado y ofrecer una solución alineada a lo que el usuario necesita.
+
+#### Segmento Objetivo 1: Trabajador de Turno Nocturno
+![User Persona - Jorge Luis Huamán](resources/imgs/up-Jorge%20Luis%20Huaman.png)
+
+#### Segmento Objetivo 2: Contacto de Confianza
+![User Persona - Rosa Elena Paredes](resources/imgs/up-Rosa%20Elena%20Paredes.png)
 
 ### 2.3.2. User Task Matrix. 
+En esta sección se presenta el User Task Matrix, construido a partir de los User Persona que representan a los dos segmentos clave identificados:
+* **Segmento Objetivo 1:** Trabajador de Turno Nocturno
+* **Segmento Objetivo 2:** Contacto de Confianza
+
+Las tareas fueron identificadas a partir del análisis cualitativo de entrevistas, y cada una fue evaluada según su frecuencia y nivel de importancia para los respectivos perfiles.
+
+| Tarea / Actividad | Trabajador de Turno Nocturno (Frecuencia) | Trabajador de Turno Nocturno (Importancia) | Contacto de Confianza (Frecuencia) | Contacto de Confianza (Importancia) |
+| :--- | :--- | :--- | :--- | :--- |
+| Activar monitoreo o check-in de trayecto seguro al salir de casa o trabajo | Alta | Alta | Baja | Media |
+| Consultar mapa colaborativo de zonas de riesgo y rutas seguras | Media | Alta | Baja | Baja |
+| Buscar establecimientos nocturnos abiertos 24h (farmacias, comida, grifos) | Media | Media | Baja | Baja |
+| Recibir notificación pasiva de salida y llegada segura del trabajador | Baja | Baja | Alta | Alta |
+| Recibir alerta automática ante retraso excesivo o posible incidente | Baja | Alta | Baja | Alta |
+| Calificar la seguridad de la ruta al completar el desplazamiento | Media | Media | Nunca | Baja |
+| Registrar horas de descanso en la bitácora de sueño y bienestar | Media | Media | Nunca | Baja |
+| Acceder a beneficios grupales y coberturas de seguro mediante membresía | Baja | Media | Baja | Baja |
 
 ### 2.3.3. User Journey Mapping. 
+En esta sección se presentan los mapas de viaje de usuario, reflejando la experiencia integral de nuestros segmentos objetivos en el contexto actual: un entorno urbano carente de herramientas digitales especializadas para la dinámica del trabajo nocturno. Se analizan los puntos de fricción, canales y emociones que experimentan tanto el trabajador nocturno durante sus trayectos y jornadas, como su contacto de confianza desde el hogar.
 
-### 2.3.4. Empathy Mapping. 
+#### Segmento Objetivo 1: Trabajador de Turno Nocturno
+![User Journey Map - Jorge Luis Huamán](resources/imgs/jm-Jorge%20Luis%20Huaman.png)
+
+#### Segmento Objetivo 2: Contacto de Confianza
+![User Journey Map - Rosa Elena Paredes](resources/imgs/jm-Rosa%20Elena%20Paredes.png)
+
+### 2.3.4. Empathy Mapping.
+En esta sección se presentan los Empathy Maps. Estos nos ayudarán a comprender las experiencias, emociones y pensamientos que expresan los usuarios de cada segmento objetivo.
+
+#### Segmento Objetivo 1: Trabajador de Turno Nocturno
+![Empathy Map - Jorge Luis Huamán](resources/imgs/em-Jorge%20Luis%20Huaman.png)
+
+#### Segmento Objetivo 2: Contacto de Confianza
+![Empathy Map - Valeria Ríos](resources/imgs/em-Valeria%20R%C3%ADos.png)
 
 ## 2.4. Big Picture EventStorming. 
+En esta sección, el equipo presenta el modelado integral del dominio del negocio mediante la técnica de Big Picture EventStorming. A través de un espacio colaborativo virtual (Miro / Mural), exploramos de extremo a extremo el flujo operativo de nuestra solución: desde el registro y vinculación de contactos, la ejecución de trayectos seguros nocturnos y la gestión de alertas, hasta la colaboración comunitaria en mapas de servicios y la administración de beneficios por suscripción. Este ejercicio permite alinear el lenguaje ubicuo, identificar cuellos de botella y delimitar los subdominios del sistema.
+
+![Event Storming](resources/imgs/eventStorming.png)
 
 ## 2.5. Ubiquitous Language. 
-
-
+* **Night-Shift Worker (Trabajador de Turno Nocturno):** Usuario principal del sistema cuya jornada laboral se desarrolla durante horas nocturnas o de madrugada en rubros esenciales (seguridad privada, salud, delivery, call center, limpieza, etc.) y que enfrenta riesgos específicos de movilidad y aislamiento.
+* **Trusted Contact (Contacto de Confianza):** Familiar directo, pareja o allegado designado por el trabajador nocturno para recibir notificaciones automáticas sobre el estado, inicio y término de sus trayectos sin invadir su privacidad.
+* **Safe-Trip Check-In (Check-In de Trayecto Seguro):** Acción explícita mediante la cual el trabajador confirma el inicio o la llegada exitosa a su destino, activando o cerrando el protocolo de acompañamiento pasivo del sistema.
+* **Safe Commute / Night Commute (Trayecto Seguro / Desplazamiento Nocturno):** Recorrido físico realizado por el trabajador entre su hogar y su lugar de trabajo (o viceversa) durante horarios nocturnos donde el transporte es limitado y el entorno urbano presenta mayor vulnerabilidad.
+* **Possible Incident (Posible Incidente):** Estado de alerta temprana que se activa automáticamente cuando un trabajador no confirma su llegada dentro del tiempo estimado más el margen de tolerancia establecido, notificando al contacto de confianza.
+* **Route Safety Rating (Calificación de Seguridad de Ruta):** Valoración colaborativa y cualitativa que realiza un trabajador al culminar su desplazamiento, calificando factores del entorno como iluminación, presencia de sospechosos, patrullaje o transitabilidad.
+* **Risk Zone / Danger Spot (Zona de Riesgo / Punto de Peligro):** Ubicación geográfica o tramo vial reportado por la comunidad de trabajadores como inseguro debido a antecedentes de robos, escasa visibilidad o falta de resguardo ciudadano.
+* **Night-Time Services Map (Mapa de Servicios Nocturnos):** Directorio georreferenciado y colaborativo de establecimientos que operan formalmente durante la madrugada (farmacias, grifos, locales de comida, talleres) y que han sido verificados por los usuarios.
+* **Sleep & Rest Log (Bitácora de Descanso y Salud del Sueño):** Registro personal donde el trabajador documenta sus ciclos de sueño diurno y hábitos de reposo para monitorear su desgaste físico y recibir sugerencias de higiene del sueño.
+* **Collective Benefits (Beneficios Colectivos):** Conjunto de ventajas comerciales, seguros básicos de accidentes y descuentos negociados en grupo para los usuarios que cuentan con una membresía activa.
+* **Monthly Subscription (Suscripción Mensual):** Modelo de membresía recurrente que otorga acceso a coberturas complementarias de seguridad, seguros y beneficios exclusivos dentro de la plataforma.
+* **Companion View (Panel de Seguimiento del Acompañante):** Interfaz simplificada y pasiva diseñada para el contacto de confianza, donde consulta el estado general del viaje y recibe alertas sin necesidad de realizar configuraciones complejas.
+* **Community Moderator (Moderador de la Comunidad):** Rol asignado a usuarios verificados o miembros del equipo encargados de revisar, aprobar o desestimar reportes de nuevos servicios nocturnos o incidentes en el mapa.
+* **Grace Period (Margen de Tolerancia de Arribo):** Ventana de tiempo prudencial añadida a la hora estimada de llegada que permite absorber retrasos de tráfico habituales antes de disparar un estado de posible incidente.
 
 # Capítulo III: Requirements Specification 
 
@@ -279,6 +550,58 @@
 ## 5.1. Software Configuration Management. 
 
 ### 5.1.1. Software Development Environment Configuration. 
+
+**Project Management**
+
+Para la administración del proyecto, se utilizaron varias herramientas para la comunicación, la planificación y el control de versiones.
+
+| Plataforma                   | Descripción                                                                                                                                                                                             | Enlace               |
+| :--------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :------------------- |
+| Trello                       | Esta plataforma de gestión de proyectos ofrece el seguimiento detallado del progreso de cada tarea, además de permitir la designación de responsables para cada actividad dentro del equipo de trabajo. | https://trello.com   |
+| Herramientas de Comunicación | La comunicación interna del equipo se gestionó a través de Discord y WhatsApp para reuniones y mensajes rápidos, respectivamente.                                                                       | https://discord.com/ |
+| GitHub                       | Se creó una organización para centralizar el código fuente y su versionado, lo que permitió un control de versiones eficiente y una gestión ordenada.                                                   | https://github.com   |
+
+**Requirement Management**
+
+En la fase inicial, se emplearon herramientas para la recolección y organización de los requisitos del proyecto, lo que aseguró una base sólida para el desarrollo.
+
+| Plataforma | Descripción                                                                                                                                                                                                     | Enlace                 |
+| :--------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------- |
+| UXPressia  | Fue la herramienta principal para el diseño. Permitió al equipo crear y validar propuestas de diseño con wireframes, mockups y prototipos interactivos, lo que aseguró un producto final efectivo y atractivo.  | https://uxpressia.com/ |
+| Miro       | Esta herramienta se usó para visualizar y desarrollar los escenarios "As-Is" (estado actual) y "To-Be" (estado futuro), lo que ayudó a planificar la evolución del proyecto.                                    | https://miro.com/es/   |
+
+**Product UX/UI Desing**
+
+Para el diseño de la experiencia y la interfaz de usuario, se usó una plataforma colaborativa que simplificó el flujo de trabajo.
+
+| Plataforma | Descripción        																																															  |						  |
+| :--------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------- |
+| Figma      | Fue la herramienta principal para el diseño. Permitió al equipo crear y validar propuestas de diseño con wireframes, mockups y prototipos interactivos, lo que aseguró un producto final efectivo y atractivo. | https://www.figma.com |
+
+**Software Development**
+
+El desarrollo se realizó utilizando un conjunto de lenguajes y entornos de programación que garantizan la estructura, el estilo y la interactividad del producto.
+
+| Plataforma          | Descripción                                                                                                                                    | Link                                       |
+|---------------------| :--------------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------- |
+| HTML                | Sirve para definir la estructura y el contenido de una página web.                                                                             | https://www.w3schools.com/html/default.asp |
+| CSS                 | Se encarga de la presentación visual y el estilo de la página web.                                                                             | https://www.w3schools.com/css/default.asp  |
+| JS                  | Añade interactividad y dinamismo a la página web.                                                                                              | https://www.w3schools.com/js/default.asp   |
+| Visual Studio Code  | Entorno de desarrollo que facilita la escritura, edición, depuración y gestión de código para una amplia gama de lenguajes y proyectos.        | https://code.visualstudio.com              |
+| JetBrains ToolBox   | Aplicación de gestión que contiene IDEs como IntelliJ IDEA, WebStorm y Rider (cada miembro del equipo trabajó en alguna de estas herramientas) | https://www.jetbrains.com/toolbox-app/     |
+
+**Software Documentation**
+
+La documentación y la publicación del proyecto se manejaron con herramientas que optimizan la colaboración y el despliegue final.
+
+| Plataforma | Descripción                                             | Link                                                              |
+|------------|---------------------------------------------------------|-------------------------------------------------------------------|
+| GitHub     | Gestión de la documentación en función a repositorios y organizaciones | https://github.com      |
+| Markdown   | Formato base para la presentación y documentación del proyecto | https://markdown.es/                     |
+
+Se utilizó la estrategia GitHub Flow para la colaboración y el control de versiones, usando ramas específicas para cada funcionalidad. Esto mantuvo el proyecto organizado. También sirvió como repositorio central para toda la documentación.
+Para el despliegue de la Landing Page se utilizó GitHub Pages, una herramienta perfecta para publicar sitios web estáticos.
+<br>
 
 ### 5.1.2. Source Code Management. 
 
