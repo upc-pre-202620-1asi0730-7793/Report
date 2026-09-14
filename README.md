@@ -551,6 +551,58 @@ En esta sección, el equipo presenta el modelado integral del dominio del negoci
 
 ### 5.1.1. Software Development Environment Configuration. 
 
+**Project Management**
+
+Para la administración del proyecto, se utilizaron varias herramientas para la comunicación, la planificación y el control de versiones.
+
+| Plataforma                   | Descripción                                                                                                                                                                                             | Enlace               |
+| :--------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :------------------- |
+| Trello                       | Esta plataforma de gestión de proyectos ofrece el seguimiento detallado del progreso de cada tarea, además de permitir la designación de responsables para cada actividad dentro del equipo de trabajo. | https://trello.com   |
+| Herramientas de Comunicación | La comunicación interna del equipo se gestionó a través de Discord y WhatsApp para reuniones y mensajes rápidos, respectivamente.                                                                       | https://discord.com/ |
+| GitHub                       | Se creó una organización para centralizar el código fuente y su versionado, lo que permitió un control de versiones eficiente y una gestión ordenada.                                                   | https://github.com   |
+
+**Requirement Management**
+
+En la fase inicial, se emplearon herramientas para la recolección y organización de los requisitos del proyecto, lo que aseguró una base sólida para el desarrollo.
+
+| Plataforma | Descripción                                                                                                                                                                                                     | Enlace                 |
+| :--------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------- |
+| UXPressia  | Fue la herramienta principal para el diseño. Permitió al equipo crear y validar propuestas de diseño con wireframes, mockups y prototipos interactivos, lo que aseguró un producto final efectivo y atractivo.  | https://uxpressia.com/ |
+| Miro       | Esta herramienta se usó para visualizar y desarrollar los escenarios "As-Is" (estado actual) y "To-Be" (estado futuro), lo que ayudó a planificar la evolución del proyecto.                                    | https://miro.com/es/   |
+
+**Product UX/UI Desing**
+
+Para el diseño de la experiencia y la interfaz de usuario, se usó una plataforma colaborativa que simplificó el flujo de trabajo.
+
+| Plataforma | Descripción        																																															  |						  |
+| :--------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------- |
+| Figma      | Fue la herramienta principal para el diseño. Permitió al equipo crear y validar propuestas de diseño con wireframes, mockups y prototipos interactivos, lo que aseguró un producto final efectivo y atractivo. | https://www.figma.com |
+
+**Software Development**
+
+El desarrollo se realizó utilizando un conjunto de lenguajes y entornos de programación que garantizan la estructura, el estilo y la interactividad del producto.
+
+| Plataforma          | Descripción                                                                                                                                    | Link                                       |
+|---------------------| :--------------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------- |
+| HTML                | Sirve para definir la estructura y el contenido de una página web.                                                                             | https://www.w3schools.com/html/default.asp |
+| CSS                 | Se encarga de la presentación visual y el estilo de la página web.                                                                             | https://www.w3schools.com/css/default.asp  |
+| JS                  | Añade interactividad y dinamismo a la página web.                                                                                              | https://www.w3schools.com/js/default.asp   |
+| Visual Studio Code  | Entorno de desarrollo que facilita la escritura, edición, depuración y gestión de código para una amplia gama de lenguajes y proyectos.        | https://code.visualstudio.com              |
+| JetBrains ToolBox   | Aplicación de gestión que contiene IDEs como IntelliJ IDEA, WebStorm y Rider (cada miembro del equipo trabajó en alguna de estas herramientas) | https://www.jetbrains.com/toolbox-app/     |
+
+**Software Documentation**
+
+La documentación y la publicación del proyecto se manejaron con herramientas que optimizan la colaboración y el despliegue final.
+
+| Plataforma | Descripción                                             | Link                                                              |
+|------------|---------------------------------------------------------|-------------------------------------------------------------------|
+| GitHub     | Gestión de la documentación en función a repositorios y organizaciones | https://github.com      |
+| Markdown   | Formato base para la presentación y documentación del proyecto | https://markdown.es/                     |
+
+Se utilizó la estrategia GitHub Flow para la colaboración y el control de versiones, usando ramas específicas para cada funcionalidad. Esto mantuvo el proyecto organizado. También sirvió como repositorio central para toda la documentación.
+Para el despliegue de la Landing Page se utilizó GitHub Pages, una herramienta perfecta para publicar sitios web estáticos.
+<br>
+
 ### 5.1.2. Source Code Management. 
 
 ### 5.1.3. Source Code Style Guide & Conventions. 
