@@ -145,7 +145,7 @@
 
 ## 1.1. Startup Profile 
 ### 1.1.1 Descripción de la Startup
-**(startup)** es una startup dedicada a mejorar la seguridad, el bienestar y la vida social de los trabajadores que realizan su labor en horario nocturno. Nuestro alcance está dirigido a un segmento históricamente desatendido por las soluciones tecnológicas actuales: personal de seguridad, repartidores (delivery), enfermeros y personal de salud de turno noche, agentes de call centers 24 horas, y personal de limpieza nocturna, entre otros rubros que sostienen la operatividad de las ciudades mientras la mayoría de servicios están pensados para el horario diurno.
+**Noctiva** es una startup dedicada a mejorar la seguridad, el bienestar y la vida social de los trabajadores que realizan su labor en horario nocturno. Nuestro alcance está dirigido a un segmento históricamente desatendido por las soluciones tecnológicas actuales: personal de seguridad, repartidores (delivery), enfermeros y personal de salud de turno noche, agentes de call centers 24 horas, y personal de limpieza nocturna, entre otros rubros que sostienen la operatividad de las ciudades mientras la mayoría de servicios están pensados para el horario diurno.
 Como startup, buscamos posicionarnos como un referente en soluciones de seguridad y bienestar para trabajadores nocturnos, entendiendo las particularidades de un segmento que enfrenta mayores riesgos al transitar solo, dificultad para acceder a servicios abiertos de noche, y aislamiento de su círculo social por dormir cuando otros están despiertos.
 **Misión:** Queremos ofrecer soluciones tecnológicas que devuelvan seguridad, comunidad y bienestar a quienes trabajan mientras la ciudad duerme, adaptando servicios y herramientas pensadas para el horario diurno a la realidad del turno nocturno.
 **Visión:** Ser la startup líder en seguridad y bienestar para trabajadores de turno nocturno en el mercado peruano, comenzando por consolidar nuestra posición en Lima, para luego expandirnos a otras ciudades y sectores del país.
@@ -207,18 +207,22 @@ Como startup, buscamos posicionarnos como un referente en soluciones de segurida
 
 ### 1.2.2 Lean UX Process.
 #### 1.2.2.1. Lean UX Problem Statements.
-The current state of **night-shift worker safety and well-being in urban areas of Peru** has focused mainly on **daytime workers**, leaving out **security guards, delivery riders, healthcare staff, call center agents, cleaning personnel, etc. who work night shifts**, along with their pain points such as **constant risk while commuting alone at night, difficulty finding open and trustworthy services, isolation from their social circle due to sleeping while others are awake, and no ability to organize collectively due to scattered schedules**.
-What existing personal safety and location-sharing products/services fail to address is **a specialized platform that combines active safety during commutes, reliable community-driven information about route safety and the nighttime environment, and a community and collective benefits space designed specifically for the reality of night-shift work**.
-**(producto)** will address this gap by **offering a safe-trip check-in with automatic alerts to trusted contacts, a community-driven route safety rating and reporting system, a community map of services open at night, an automatic possible-incident flagging system when a trip is not confirmed, a rest and sleep-health log, and a community with collective benefits negotiated through a monthly subscription**.
-Our initial focus will be **night-shift workers in the security, delivery, healthcare, call center, etc. sectors in Metropolitan Lima, along with their trusted contacts (family members and partners) who share the emotional weight of their safety during these commutes**.
-We'll know we are successful when we see **a reduction in safety incidents reported by our users, sustained recurring use of the safe-trip check-in feature, a growing volume of route safety ratings submitted by the community, organic growth of the user community, and a relevant conversion rate from free-trial users to paying subscribers**.
+
+El estado actual de **la seguridad y el bienestar de los trabajadores del turno nocturno en zonas urbanas del Perú** se ha enfocado principalmente en **los trabajadores del horario diurno**, dejando de lado a **guardias de seguridad, repartidores (delivery), personal de salud, agentes de call center, personal de limpieza, entre otros, que laboran en turno nocturno**, junto con sus puntos de dolor tales como **el riesgo constante al transitar solos de noche, la dificultad para encontrar servicios abiertos y confiables, el aislamiento de su círculo social debido a que duermen mientras otros están despiertos, y la nula capacidad de organizarse colectivamente debido a sus horarios dispersos**.
+
+Lo que los productos/servicios existentes de seguridad personal y de compartición de ubicación no logran abordar es **una plataforma especializada que combine seguridad activa durante los trayectos, información confiable generada por la comunidad sobre la seguridad de las rutas y el entorno nocturno, y un espacio de comunidad y beneficios colectivos diseñado específicamente para la realidad del trabajo en turno nocturno**.
+
+**Noxway** abordará esta brecha **ofreciendo un check-in de trayecto seguro con alertas automáticas a contactos de confianza, un sistema de calificación y reporte de seguridad de rutas alimentado por la comunidad, un mapa comunitario de servicios abiertos durante la noche, un sistema automático de alerta ante posibles incidentes cuando un trayecto no es confirmado, una bitácora de descanso y salud del sueño, y una comunidad con beneficios colectivos negociados mediante una suscripción mensual**.
+
+Nuestro enfoque inicial serán **los trabajadores de turno nocturno de los rubros de seguridad, delivery, salud, call center, entre otros, en Lima Metropolitana, junto con sus contactos de confianza (familiares y parejas) que comparten la carga emocional de su seguridad durante estos trayectos**.
+
+Sabremos que hemos tenido éxito cuando veamos **una reducción de los incidentes de seguridad reportados por nuestros usuarios, un uso recurrente y sostenido de la función de check-in de trayecto seguro, un volumen creciente de calificaciones de seguridad de rutas enviadas por la comunidad, un crecimiento orgánico de la comunidad de usuarios, y una tasa de conversión relevante de usuarios de prueba gratuita a suscriptores de pago**.
 
 #### 1.2.2.2. Lean UX Assumptions.
 **Business Assumptions**
 * Creemos que existe un mercado desatendido de trabajadores nocturnos dispuestos a utilizar una plataforma dedicada a su bienestar.
-* Creemos que nuestro modelo de suscripción mensual será viable al poder negociar seguros básicos y descuentos colectivos con terceros.
-* Creemos que el modelo de monetización mediante suscripción mensual con beneficios como (seguro básico, descuentos negociados colectivamente y alertas de seguridad prioritarias) es viable y sostenible para este segmento.
 * Creemos que un modelo de crecimiento basado en referidos entre el trabajador y sus contactos de confianza (familiares, parejas) reducirá el costo de adquisición de usuarios y acelerará el crecimiento orgánico de la plataforma.
+* Creemos que un modelo de monetización mediante suscripción mensual con beneficios como seguro básico, descuentos negociados colectivamente y alertas de seguridad prioritarias es viable y sostenible para este segmento, gracias a la posibilidad de negociar estos beneficios con terceros.
 
 **Business Outcome Assumptions**
 * Creemos que lograremos una reducción medible en los incidentes de seguridad reportados por nuestros usuarios activos frente a su situación previa sin la plataforma.
@@ -250,74 +254,81 @@ We'll know we are successful when we see **a reduction in safety incidents repor
 
 #### 1.2.2.3. Lean UX Hypothesis Statements.
 
-**Hypothesis 1**
+**Hipótesis 1**
 
-We believe we will achieve **increased monthly active user retention**
-If **night-shift workers in Lima**
-Attain **greater peace of mind and support during their commutes**
-With **the safe-trip check-in feature and automatic alerts to trusted contacts**.
-
----
-
-**Hypothesis 2**
-
-We believe we will achieve **an increase in daily app usage frequency**
-If **night-shift workers**
-Attain **quick and reliable access to open services near their location**
-With **the community-driven map of services open at night**.
+Creemos que lograremos **un aumento en la retención mensual de usuarios activos**
+Si **los trabajadores de turno nocturno en Lima**
+Obtienen **mayor tranquilidad y acompañamiento durante sus trayectos**
+Con **la función de check-in de trayecto seguro y alertas automáticas a contactos de confianza**.
 
 ---
 
-**Hypothesis 3**
+**Hipótesis 2**
 
-We believe we will achieve **improved quality and reliability of the platform's safety information**
-If **night-shift workers**
-Attain **visibility of risk zones identified by other users**
-With **the community-based incident reporting system**.
-
----
-
-**Hypothesis 4**
-
-We believe we will achieve **increased long-term user engagement with the platform**
-If **night-shift workers**
-Attain **visibility of their rest patterns and alerts about insufficient rest**
-With **the rest and sleep-health log**.
+Creemos que lograremos **un aumento en la frecuencia diaria de uso de la aplicación**
+Si **los trabajadores de turno nocturno**
+Obtienen **acceso rápido y confiable a servicios abiertos cerca de su ubicación**
+Con **el mapa comunitario de servicios activos durante la noche**.
 
 ---
 
-**Hypothesis 5**
-We believe we will achieve **increased subscriber retention and organic word-of-mouth growth**
-If **night-shift workers**
-Attain **a sense of belonging and access to collectively negotiated benefits (discounts, basic insurance)**
-With **the community and its collective benefits negotiated through the monthly subscription**.
+**Hipótesis 3**
+
+Creemos que lograremos **una mejora en la calidad y confiabilidad de la información de seguridad de la plataforma**
+Si **los trabajadores de turno nocturno**
+Obtienen **visibilidad de las zonas de riesgo identificadas por otros usuarios**
+Con **el sistema de reporte comunitario de incidentes**.
 
 ---
 
-**Hypothesis 6**
-We believe we will achieve **an increase in the volume and quality of community safety information available on the platform**
-If **night-shift workers**
-Attain **the ability to rate their trip and report specific risk points upon finishing each trip**
-With **the route rating and reporting system**.
+**Hipótesis 4**
+
+Creemos que lograremos **un mayor compromiso (engagement) de los usuarios con la plataforma a largo plazo**
+Si **los trabajadores de turno nocturno**
+Obtienen **visibilidad de sus patrones de descanso y alertas sobre descanso insuficiente**
+Con **la bitácora de descanso y salud del sueño**.
 
 ---
-**Hypothesis 7**
-We believe we will achieve **a reduced reaction time to a real risk situation during a trip**
-If **trusted contacts and the user community**
-Attain **an early, verified alert about a possible incident on a specific route**
-With **the automatic "possible incident" flagging feature triggered when arrival is not confirmed**.
+
+**Hipótesis 5**
+
+Creemos que lograremos **una mayor retención de suscriptores y crecimiento orgánico por recomendación (boca a boca)**
+Si **los trabajadores de turno nocturno**
+Obtienen **un sentido de pertenencia y acceso a beneficios negociados colectivamente (descuentos, seguro básico)**
+Con **la comunidad y sus beneficios colectivos negociados a través de la suscripción mensual**.
 
 ---
-**Hypothesis 8**
-We believe we will achieve **increased organic growth through word-of-mouth and reduced user acquisition cost**
-If **trusted contacts (family members and partners) of night-shift workers**
-Attain **real-time visibility and peace of mind regarding their loved one's trip status**
-With **a dedicated companion view for trusted contacts**.
+
+**Hipótesis 6**
+
+Creemos que lograremos **un aumento en el volumen y la calidad de la información de seguridad comunitaria disponible en la plataforma**
+Si **los trabajadores de turno nocturno**
+Obtienen **la posibilidad de calificar su trayecto y reportar puntos de riesgo específicos al finalizar cada viaje**
+Con **el sistema de calificación y reporte de rutas**.
+
+---
+
+**Hipótesis 7**
+
+Creemos que lograremos **una reducción en el tiempo de reacción ante una situación de riesgo real durante un trayecto**
+Si **los contactos de confianza y la comunidad de usuarios**
+Obtienen **una alerta temprana y verificada sobre un posible incidente en una ruta específica**
+Con **la función de marcado automático de "posible incidente" activada cuando la llegada no es confirmada**.
+
+---
+
+**Hipótesis 8**
+
+Creemos que lograremos **un mayor crecimiento orgánico por recomendación (boca a boca) y una reducción del costo de adquisición de usuarios**
+Si **los contactos de confianza (familiares y parejas) de los trabajadores de turno nocturno**
+Obtienen **visibilidad en tiempo real y tranquilidad respecto al estado del trayecto de su ser querido**
+Con **una vista de acompañamiento dedicada para contactos de confianza**.
 
 #### 1.2.2.4. Lean UX Canvas. 
 Figura 1
 Lean UX Canvas — SkyCrop
 ![Lean UX Canvas](resources/imgs/Lean_UX_Canvas.png)
+
 ## 1.3. Segmentos objetivo. 
 **Segmento Objetivo 1: Trabajadores de turno nocturno**
 **Aspectos demográficos:**
@@ -354,8 +365,6 @@ Lean UX Canvas — SkyCrop
 - **Motivación:** Velar por la integridad física de su ser querido mientras este se encuentra trabajando, asegurándose de que llegue con bien a su destino sin tener que interrumpir su jornada laboral.
 - **Valores:** La familia, la protección, la empatía y la tranquilidad.
 - **Intereses:** Uso de aplicaciones confiables de monitoreo pasivo y notificaciones automáticas que no requieran conocimientos técnicos avanzados para su configuración.
-
-
 
 # Capítulo II: Requirements Elicitation & Analysis 
 
