@@ -1368,8 +1368,42 @@ La navegación mantendrá una estructura consistente en todas las vistas para qu
 ## 4.3. Landing Page UI Design. 
 
 ### 4.3.1. Landing Page Wireframe. 
+El wireframe de la Landing Page de Noxway fue elaborado en un nivel de fidelidad media para definir la distribución espacial, la jerarquía de los contenidos, la cuadrícula de diseño y los flujos de interacción del usuario, prescindiendo deliberadamente de ornamentos estéticos, fotografía o colores finales. Esto permitió concentrar la evaluación en la usabilidad estructural, el orden lógico del mensaje y los puntos de contacto para la conversión.
+La estructura alámbrica de la página está organizada en diez secciones continuas que conducen al usuario a través de un embudo informativo coherente:
+
+
+**Header:** Contiene el logotipo de la marca (Noxway by Noctiva), un menú de navegación principal con enlaces de anclaje rápido a los bloques clave, un selector de idioma bilingüe (EN/ES) y una llamada a la acción principal de registro orientada al ingreso directo a la plataforma. 
+
+
+**Hero Section:** Presenta la propuesta de valor principal de forma contundente mediante un titular de alto impacto y un subtítulo explicativo enfocado en el acompañamiento y seguridad de trayectos nocturnos. Integra un llamado a la acción dual segmentado (Protect My Commute para el trabajador nocturno e I'm a Trusted Contact para acompañantes o familiares), complementado por un indicador visual de desplazamiento. 
+
+
+**Protocolo:** Desglosa visualmente el flujo de funcionamiento operativo de la solución en cuatro fases consecutivas y numeradas: vinculación del círculo de confianza, inicio y estimación del trayecto de salida de turno, monitoreo pasivo de anomalías en segundo plano y confirmación unificada de llegada segura. 
+
+
+**Ecosistema:** Organiza en una cuadrícula modular las cuatro capacidades tecnológicas y de bienestar clave que componen el servicio: Route & Commute Check-In (monitoreo de trayecto), 24-Hour Community Map (geolocalización de farmacias, grifos y puntos seguros abiertos de madrugada), Smart Alerts & Companion View (detección de desvíos y enlaces cifrados para familiares) y Rest Log & Collective Benefits (higiene del sueño circadiano y convenios). 
+
+
+**Testimonios:** Dispone de una interfaz basada en pestañas interactivas para reproducir dos piezas audiovisuales estratégicas: el recorrido demostrativo funcional del producto (About the Product) y el video de sustentación de ingeniería, retrospectiva ágil y equipo (About the Team) 
+
+
+**Planes de Suscripción:** Expone un modelo comparativo horizontal tipo ledger con alternador de facturación mensual y anual (con descuento visible). Contrasta con claridad los niveles de cobertura: Plan Esencial (gratuito), Plan Centinela Pro (monitoreo prioritario recomendado) y Plan Familiar/Cuadrilla (protección multiusuario colaborativa), finalizando con una barra de resumen dinámico para confirmar la selección. 
+
+
+**Contacto(Formulario):** Contenedor asimétrico de conversión final que aloja un formulario lineal y accesible compuesto por campos mínimos estructurados (nombre, canal de contacto directo y perfil de rol), asociado al plan seleccionado para agilizar la captación de usuarios tempranos. 
+
+
+**Footer:** Cierra la arquitectura de la página con la identidad corporativa, enlaces a redes sociales oficiales, mapa de navegación interno, indicador de estado operativo en tiempo real del servicio en Lima y un acceso directo e inequívoco a los Términos de Servicio y Código de Ética profesional (alineado a los estándares ACM/IEEE y CIP). 
+
+<img src="resources/imgs/LandingPage-Wireframe.png"
+     alt="UPC_logo_transparente"
+     style="">
+
+*Nota:* Elaboración propia. Elaborado en: https://www.figma.com/design/kARtlqhljeRK63rGx1Dmea/Sin-t%C3%ADtulo?node-id=0-1
+
 
 ### 4.3.2. Landing Page Mock-up. 
+
 
 ## 4.4. Web Applications UX/UI Design. 
 
