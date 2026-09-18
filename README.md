@@ -1598,15 +1598,68 @@ Prototipo de la aplicacion web Noxway en figma: [Prototipo Noxway](https://www.f
 Video del flujo del prototipo: [FLUJO PROTOTIPO NOXWAY](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202421065_upc_edu_pe/IQAYZZW6h9uES4m-8cKkzqzdAS0EJflx7OEtdVV1vr92oU4?e=fZUsN5)
 
 
-## 4.6. Domain-Driven Software Architecture. 
+## 4.6. Domain-Driven Software Architecture
+### 4.6.1. Design-Level EventStorming
+En esta sección se presenta la arquitectura de software de Noxway desde el enfoque de Domain-Driven Design, tomando como base el Big Picture Event Storming desarrollado previamente[cite: 5].
 
-### 4.6.1. Design-Level EventStorming. 
+**Identity & Network Management**
+<br>
+<br>
+<img src="resources/imgs/Identity & Network Management.png"
+     alt="AppWeb-Mockup10"
+     style="">
+<br>
+<br>
+**Safe Commute Execution**
+<br>
+<br>
+<img src="resources/imgs/safees.png"
+     alt="AppWeb-Mockup10"
+     style="">
+<br>
+<br>
+**Incident & Alert Management**
+<br>
+<br>
+<img src="resources/imgs/incident.png"
+     alt="AppWeb-Mockup10"
+     style="">
+<br>
+<br>
+**Community Intelligence**
+<br>
+<br>
+<img src="resources/imgs/comuni.png"
+     alt="AppWeb-Mockup10"
+     style="">
+<br>
+<br>
+**Sleep Health & Wellness**
+<br>
+<br>
+<img src="resources/imgs/sleep.png"
+     alt="AppWeb-Mockup10"
+     style="">
+<br>
+<br>
+**Subscriptions & Collective Benefits**
+<br>
+<br>
+<img src="resources/imgs/subscription.png"
+     alt="AppWeb-Mockup10"
+     style="">
+<br>
+<br>
+**Moderation & Governance**
+<br>
+<br>
+<img src="resources/imgs/governance.png"
+     alt="AppWeb-Mockup10"
+     style="">
 
-### 4.6.2. Software Architecture Context Diagram. 
+Miro: https://miro.com/app/board/uXjVGa9f9SI=/?share_link_id=254891487404
 
-### 4.6.3. Software Architecture Container Diagrams. 
 
-### 4.6.4. Software Architecture Components Diagrams. 
 
 ## 4.7. Software Object-Oriented Design. 
 
