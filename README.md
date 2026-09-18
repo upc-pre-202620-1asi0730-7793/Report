@@ -1587,8 +1587,16 @@ Para la versión móvil de Noxway, los flujos de usuario fueron derivados direct
      style="">
 
 
-
 ## 4.5. Web Applications Prototyping. 
+
+Prototipo de la aplicacion web Noxway en figma: [Prototipo Noxway](https://www.figma.com/design/kARtlqhljeRK63rGx1Dmea/Sin-t%C3%ADtulo?node-id=1-2)
+
+<img src="resources/imgs/AppWeb-Mockup10.png"
+     alt="AppWeb-Mockup10"
+     style="">
+
+Video del flujo del prototipo: [FLUJO PROTOTIPO NOXWAY](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202421065_upc_edu_pe/IQAYZZW6h9uES4m-8cKkzqzdAS0EJflx7OEtdVV1vr92oU4?e=fZUsN5)
+
 
 ## 4.6. Domain-Driven Software Architecture. 
 
