@@ -564,10 +564,52 @@ En esta sección, se han planteado diversas preguntas dirigidas a nuestros segme
 
 ---
 **Entrevista 2**
+| Campo | Detalle                                                                                                                                                                                                                                                                                                                      |
+| :--- |:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Nombre** | Marco Antonio Quispe |
+| **Edad** | 30 años                                                                                                                                                                                                                                                                                                                      |
+| **Distrito** | San Martín de Porres   |
+| **Duración** | 7:16 min     |
+| **Estado civil** | Soltero   |
+| **Ocupación** | Agente de seguridad en almacén logístico (Callao) - Turno nocturno (4 años de experiencia). |
+| **Enlace** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202421823_upc_edu_pe/IQBt_DltFWNKTqbjRVt3MTrsAV1-egdQTWMKSC1w_pa1fGg?e=6o9jIc |
+
+<div align="center">
+<img src="resources/imgs/chapter_ii/entrevista2segmento1.png" alt="Entrevista 2 - Segmento 1" width="600">
+</div>
+
+**Resumen**: Marco Antonio es un hombre de 30 años, soltero, que reside en San Martín de Porres. Trabaja desde hace 4 años como agente de seguridad en el turno nocturno de un almacén logístico en el Callao. Su rutina implica desplazamientos largos y desgastantes, cruzando la Panamericana Norte de 5:30 p.m. a 7:00 p.m., y retornando a las 6:00 a.m. Su principal motivación es mantener su empleo para aportar económicamente a su hogar, pero su mayor vulnerabilidad y frustración radican en el trayecto de regreso, cuando el agotamiento extremo y el frío se combinan con la desolación y el peligro de las calles a primeras horas de la mañana. 
+
+El trayecto de salida representa una fricción crítica y un riesgo latente comprobado, habiendo sido ya víctima de robo en el transporte público por quedarse dormido debido al cansancio. Para mitigar esta inseguridad, actualmente tiene un protocolo analógico/digital básico: envía mensajes por WhatsApp a su hermano al subir y bajar del bus. Evita compartir su ubicación en tiempo real porque su dispositivo suele terminar el turno con batería crítica (alrededor del 15%), y prioriza mantener el celular encendido antes que activar el GPS continuo. 
+
+De personalidad tranquila pero siempre alerta y pragmática, Marco es un usuario tecnológico funcional y estrictamente "Mobile-First" que utiliza un smartphone Android. Sus canales digitales principales son WhatsApp, que usa tanto para reportes laborales como familiares, y plataformas de consumo rápido como Facebook y TikTok para entretenerse en "tiempos muertos". No busca sofisticación tecnológica; adopta herramientas nuevas solo si son sumamente fáciles de entender y van directo al grano. 
+
+Respecto a la adopción de una nueva plataforma de seguridad, valora altamente la automatización de alertas a contactos de confianza, pero rechaza funcionalidades que exijan esfuerzo adicional, como sacar el móvil en la calle para "calificar rutas" debido a la fatiga y el riesgo de robo. Es financieramente conservador y descarta pagar una suscripción mensual por simple acceso a una comunidad o mapas; solo invertiría si hay un retorno económico directo (descuentos o micro-seguros). Sus factores absolutos de abandono (churn) son dos: que la aplicación drene la poca batería que le queda al salir del trabajo, o que el sistema presente fallas y envíe falsas alarmas que generen pánico innecesario a su familia.
 
 
 ---
 **Entrevista 3**
+| Campo | Detalle                                                                                                                                                                                                                                                                                                                      |
+| :--- |:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Nombre** | Luis Mendoza Miranda|
+| **Edad** | 32 años                                                                                                                                                                                                                                                                                                                      |
+| **Distrito** | San Martín de Porres   |
+| **Duración** | 5:36     |
+| **Estado civil** | Soltero   |
+| **Ocupación** | agente de seguridad privada |
+| **Enlace** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202421065_upc_edu_pe/IQAoJA0AjDdKS7A-8S3BD1zeAQ49mq6jaTduIZbRZUYsQSM?e=9jxrdJ |
+
+<div align="center">
+<img src="resources/imgs/chapter_ii/entrevista3_segmento1.png" alt="Entrevista 3 - Segmento 1" width="600">
+</div>
+
+**Resumen**: Luis Mendoza Miranda es un hombre soltero de 32 años ,  que reside en el distrito de San Martín de Porres. Trabaja desde hace 2 años y medio como agente de seguridad privada en el turno nocturno de un centro corporativo en San Isidro. Su jornada implica traslados largos y pesados en transporte público, saliendo a las 5:20 p.m. para iniciar a las 7:00 p.m. y retornando a las 7:00 a.m. Su principal motivación es la estabilidad económica de su hogar, aprovechando el ingreso adicional del bono nocturno, pero su mayor preocupación es la inseguridad latente durante los traslados y el agotamiento físico crónico provocado por el cambio de ciclo de sueño.
+
+El trayecto de retorno y la espera en paraderos representan una fricción crítica y un riesgo comprobado, habiendo vivido un intento de asalto por parte de delincuentes en moto mientras esperaba transporte de madrugada. Para mitigar esta vulnerabilidad, mantiene un protocolo de prevención activo: comparte su ubicación en tiempo real por WhatsApp con su pareja al finalizar su guardia y guarda el celular en un bolsillo interno con cierre mientras viaja en el transporte público.
+
+De personalidad reservada, observadora y práctica, Luis es un usuario tecnológico funcional que utiliza un smartphone Android de gama media. Sus canales digitales principales son WhatsApp, herramienta clave para la coordinación laboral y la comunicación familiar, y redes como Facebook, TikTok y grupos vecinales para mantenerse informado sobre alertas locales. Tiene una adopción tecnológica pragmática: maneja sin problemas herramientas de uso diario, pero descarta interfaces engorrosas o aplicaciones que requieran pasos innecesarios.
+
+Respecto a una nueva solución tecnológica de seguridad, considera sumamente valiosa la automatización de avisos a contactos de confianza ante eventualidades o falta de batería, así como el reporte de rutas para prevenir paraderos peligrosos. Muestra un claro interés por integrarse a una comunidad laboral para intercambiar alertas, aunque descarta por completo pagar una suscripción mensual debido a que prioriza los gastos básicos familiares, aceptando el servicio únicamente bajo un modelo gratuito. Sus factores determinantes de abandono (churn) son el consumo excesivo de batería o datos móviles durante el turno nocturno, y los errores de sistema que detonen falsas alarmas y generen angustia innecesaria en su familia. 
 
 
 ---
@@ -593,6 +635,25 @@ En esta sección, se han planteado diversas preguntas dirigidas a nuestros segme
 ---
 **Entrevista 2**
 
+| Campo | Detalle                |
+| :--- |:-----------------------|
+| **Nombre** | Roberto Carlos Fernández  |
+| **Edad** | 42 años                |
+| **Estado civil** | Casado                |
+| **Ocupación** | Freelance             |
+| **Distrito** | San Juan de Lurigancho |
+| **Duración** | 6:46 min               |
+| **Enlace** |https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241i469_upc_edu_pe/IQAz-r_0LzsSQJUPbxKTl7oaAcTpRAyzqHmi6tNBz6vn7d0?e=qeV5bz&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D|
+
+<div align="center">
+<img src="resources/imgs/chapter_ii/entrevistaSegmento2-Roberto.png" alt="Entrevista 1 - Segmento 2" width="600">
+</div>
+
+**Resumen**: Roberto Carlos Fernández es un trabajador independiente de 42 años, casado y residente en el distrito de San Juan de Lurigancho, Lima. Su esposa se desempeña desde hace cuatro años como técnico de mantenimiento en turnos rotativos y nocturnos, cubriendo usualmente jornadas de diez de la noche a seis de la mañana. Aunque durante el día se considera una persona tranquila, experimenta constantes episodios de ansiedad y preocupación en torno a la seguridad de su cónyuge, atribuyendo su inquietud a la peligrosidad de la zona donde residen y a la desolación de las calles durante las madrugadas. Durante el turno de su esposa, su descanso suele ser intermitente, despertándose en varias oportunidades para escribirle y consultar cómo se encuentra.
+
+El mayor temor del entrevistado se concentra en los trayectos de regreso a casa a tempranas horas de la mañana, debido al riesgo latente de accidentes o actos delictivos en avenidas poco transitadas. Relata como experiencia de angustia crítica un episodio en el que su esposa demoró cerca de dos horas en comunicarse tras finalizar su turno laboral. En una ocasión no se podia contactar con ella tras reiteradas llamadas fallidas, la situación se esclareció al confirmarse que el teléfono de ella se había quedado sin batería hasta que pudo recargarlo mediante una batería externa y se logro comunicar con el. Actualmente, el protocolo de verificación recae en el envío voluntario de mensajes por WhatsApp al momento de abordar el transporte y al llegar a destino, esperando un margen de tolerancia aproximado de 30 minutos antes de escalar a llamadas telefónicas directas o contactar a compañeras de trabajo.
+
+Ante esta constante incertidumbre, Roberto considera fundamental contar con una herramienta tecnológica que emita alertas automáticas únicamente ante retrasos o anomalías en los trayectos, permitiéndole descansar sin revisar el celular compulsivamente. No obstante, condiciona el uso de este sistema a que el rastreo de ubicación opere de forma puntual y transparente durante los traslados hacia o desde el trabajo, resguardando la privacidad de su pareja para evitar conductas invasivas y garantizando la estricta protección de sus datos.
 
 ---
 **Entrevista 3**
