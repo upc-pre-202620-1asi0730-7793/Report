@@ -394,6 +394,25 @@ En esta sección, se han planteado diversas preguntas dirigidas a nuestros segme
 ---
 **Entrevista 2**
 
+| Campo | Detalle                |
+| :--- |:-----------------------|
+| **Nombre** | Roberto Carlos Fernández  |
+| **Edad** | 42 años                |
+| **Estado civil** | Casado                |
+| **Ocupación** | Freelance             |
+| **Distrito** | San Juan de Lurigancho |
+| **Duración** | 6:46 min               |
+| **Enlace** |https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241i469_upc_edu_pe/IQAz-r_0LzsSQJUPbxKTl7oaAcTpRAyzqHmi6tNBz6vn7d0?e=qeV5bz&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D|
+
+<div align="center">
+<img src="resources/imgs/chapter_ii/entrevistaSegmento2-Roberto.png" alt="Entrevista 1 - Segmento 2" width="600">
+</div>
+
+**Resumen**: Roberto Carlos Fernández es un trabajador independiente de 42 años, casado y residente en el distrito de San Juan de Lurigancho, Lima. Su esposa se desempeña desde hace cuatro años como técnico de mantenimiento en turnos rotativos y nocturnos, cubriendo usualmente jornadas de diez de la noche a seis de la mañana. Aunque durante el día se considera una persona tranquila, experimenta constantes episodios de ansiedad y preocupación en torno a la seguridad de su cónyuge, atribuyendo su inquietud a la peligrosidad de la zona donde residen y a la desolación de las calles durante las madrugadas. Durante el turno de su esposa, su descanso suele ser intermitente, despertándose en varias oportunidades para escribirle y consultar cómo se encuentra.
+
+El mayor temor del entrevistado se concentra en los trayectos de regreso a casa a tempranas horas de la mañana, debido al riesgo latente de accidentes o actos delictivos en avenidas poco transitadas. Relata como experiencia de angustia crítica un episodio en el que su esposa demoró cerca de dos horas en comunicarse tras finalizar su turno laboral. En una ocasión no se podia contactar con ella tras reiteradas llamadas fallidas, la situación se esclareció al confirmarse que el teléfono de ella se había quedado sin batería hasta que pudo recargarlo mediante una batería externa y se logro comunicar con el. Actualmente, el protocolo de verificación recae en el envío voluntario de mensajes por WhatsApp al momento de abordar el transporte y al llegar a destino, esperando un margen de tolerancia aproximado de 30 minutos antes de escalar a llamadas telefónicas directas o contactar a compañeras de trabajo.
+
+Ante esta constante incertidumbre, Roberto considera fundamental contar con una herramienta tecnológica que emita alertas automáticas únicamente ante retrasos o anomalías en los trayectos, permitiéndole descansar sin revisar el celular compulsivamente. No obstante, condiciona el uso de este sistema a que el rastreo de ubicación opere de forma puntual y transparente durante los traslados hacia o desde el trabajo, resguardando la privacidad de su pareja para evitar conductas invasivas y garantizando la estricta protección de sus datos.
 
 ---
 **Entrevista 3**
