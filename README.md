@@ -365,6 +365,27 @@ En esta sección, se han planteado diversas preguntas dirigidas a nuestros segme
 
 ---
 **Entrevista 2**
+| Campo | Detalle                                                                                                                                                                                                                                                                                                                      |
+| :--- |:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Nombre** | Marco Antonio Quispe |
+| **Edad** | 30 años                                                                                                                                                                                                                                                                                                                      |
+| **Distrito** | San Martín de Porres   |
+| **Duración** | 7:16 min     |
+| **Estado civil** | Soltero   |
+| **Ocupación** | Agente de seguridad en almacén logístico (Callao) - Turno nocturno (4 años de experiencia). |
+| **Enlace** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202421823_upc_edu_pe/IQBt_DltFWNKTqbjRVt3MTrsAV1-egdQTWMKSC1w_pa1fGg?e=6o9jIc |
+
+<div align="center">
+<img src="resources/imgs/chapter_ii/entrevista2segmento1.png" alt="Entrevista 2 - Segmento 1" width="600">
+</div>
+
+**Resumen**: Marco Antonio es un hombre de 30 años, soltero, que reside en San Martín de Porres. Trabaja desde hace 4 años como agente de seguridad en el turno nocturno de un almacén logístico en el Callao. Su rutina implica desplazamientos largos y desgastantes, cruzando la Panamericana Norte de 5:30 p.m. a 7:00 p.m., y retornando a las 6:00 a.m. Su principal motivación es mantener su empleo para aportar económicamente a su hogar, pero su mayor vulnerabilidad y frustración radican en el trayecto de regreso, cuando el agotamiento extremo y el frío se combinan con la desolación y el peligro de las calles a primeras horas de la mañana. 
+
+El trayecto de salida representa una fricción crítica y un riesgo latente comprobado, habiendo sido ya víctima de robo en el transporte público por quedarse dormido debido al cansancio. Para mitigar esta inseguridad, actualmente tiene un protocolo analógico/digital básico: envía mensajes por WhatsApp a su hermano al subir y bajar del bus. Evita compartir su ubicación en tiempo real porque su dispositivo suele terminar el turno con batería crítica (alrededor del 15%), y prioriza mantener el celular encendido antes que activar el GPS continuo. 
+
+De personalidad tranquila pero siempre alerta y pragmática, Marco es un usuario tecnológico funcional y estrictamente "Mobile-First" que utiliza un smartphone Android. Sus canales digitales principales son WhatsApp, que usa tanto para reportes laborales como familiares, y plataformas de consumo rápido como Facebook y TikTok para entretenerse en "tiempos muertos". No busca sofisticación tecnológica; adopta herramientas nuevas solo si son sumamente fáciles de entender y van directo al grano. 
+
+Respecto a la adopción de una nueva plataforma de seguridad, valora altamente la automatización de alertas a contactos de confianza, pero rechaza funcionalidades que exijan esfuerzo adicional, como sacar el móvil en la calle para "calificar rutas" debido a la fatiga y el riesgo de robo. Es financieramente conservador y descarta pagar una suscripción mensual por simple acceso a una comunidad o mapas; solo invertiría si hay un retorno económico directo (descuentos o micro-seguros). Sus factores absolutos de abandono (churn) son dos: que la aplicación drene la poca batería que le queda al salir del trabajo, o que el sistema presente fallas y envíe falsas alarmas que generen pánico innecesario a su familia.
 
 
 ---
