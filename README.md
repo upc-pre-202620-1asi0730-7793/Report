@@ -1570,7 +1570,23 @@ Los diagramas de wireflow para aplicaciones web son esquemas que integran la est
 Elaborado en: https://www.figma.com/design/kARtlqhljeRK63rGx1Dmea/Sin-t%C3%ADtulo?node-id=1-2
 
 
-### 4.4.3. Web Applications User Flow Diagrams. 
+### 4.4.4. Web Applications User Flow Diagrams. 
+El diagrama de flujo de usuario (User Flow Diagram) es una representación visual de los pasos que un usuario sigue al interactuar con una aplicación o sitio web. Muestra la secuencia de acciones que el usuario realiza para completar una tarea o meta específica (User Goal), lo que permite identificar posibles puntos de fricción, reducir la carga cognitiva en horarios nocturnos de alta fatiga y optimizar la experiencia integral del usuario.
+Para la versión móvil de Noxway, los flujos de usuario fueron derivados directamente de la arquitectura de pantallas de la aplicación web, adaptando los componentes a un factor de forma compacto de una sola columna y áreas táctiles ergonómicas. A continuación, se detallan y grafican los tres User Goals principales del sistema:
+
+<img src="resources/imgs/User-Flow-Diagrams-1.png"
+     alt="User Flow Diagrams 1"
+     style="">
+
+<img src="resources/imgs/User-Flow-Diagrams-2.png"
+     alt="User Flow Diagrams 2"
+     style="">
+
+<img src="resources/imgs/User-Flow-Diagrams-3.png"
+     alt="User Flow Diagrams 3"
+     style="">
+
+
 
 ## 4.5. Web Applications Prototyping. 
 
