@@ -1486,7 +1486,12 @@ Los wireframes de las aplicaciones web de **Noxway** muestran cómo se estructur
      alt="AppWeb-Wireframe18"
      style=""> 
 
-### 4.4.2. Web Applications Wireflow Diagrams. 
+### 4.4.2. Web Applications Wireflow Diagrams.
+Los diagramas de wireflow para aplicaciones web son esquemas que integran la estructura visual de las pantallas (wireframes) con la lógica de transición de los diagramas de flujo. Esta herramienta articula la arquitectura de información y las rutas de navegación del sistema, ofreciendo una perspectiva integral sobre cómo el usuario interactúa y se desplaza a través de los distintos escenarios de la interfaz. 
+
+<img src="resources/imgs/Wireflow Diagrams.png"
+     alt="AppWeb-Wireframe18"
+     style=""> 
 
 ### 4.4.2. Web Applications Mock-ups. 
 
