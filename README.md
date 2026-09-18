@@ -1396,7 +1396,7 @@ La estructura alámbrica de la página está organizada en diez secciones contin
 **Footer:** Cierra la arquitectura de la página con la identidad corporativa, enlaces a redes sociales oficiales, mapa de navegación interno, indicador de estado operativo en tiempo real del servicio en Lima y un acceso directo e inequívoco a los Términos de Servicio y Código de Ética profesional (alineado a los estándares ACM/IEEE y CIP). 
 
 <img src="resources/imgs/LandingPage-Wireframe.png"
-     alt="UPC_logo_transparente"
+     alt="Landing-Wireframe"
      style="">
 
 *Nota:* Elaboración propia. Elaborado en: https://www.figma.com/design/kARtlqhljeRK63rGx1Dmea/Sin-t%C3%ADtulo?node-id=0-1
@@ -1404,6 +1404,10 @@ La estructura alámbrica de la página está organizada en diez secciones contin
 
 ### 4.3.2. Landing Page Mock-up. 
 
+<img src="resources/imgs/LandingPage-Mockup.png"
+     alt="Landing-Wireframe"
+     style="">
+Elaborado en: https://www.figma.com/design/kARtlqhljeRK63rGx1Dmea/Sin-t%C3%ADtulo?node-id=0-1
 
 ## 4.4. Web Applications UX/UI Design. 
 
