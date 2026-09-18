@@ -1492,8 +1492,83 @@ Los diagramas de wireflow para aplicaciones web son esquemas que integran la est
 <img src="resources/imgs/Wireflow Diagrams.png"
      alt="AppWeb-Wireframe18"
      style=""> 
+     
+### 4.4.3. Web Applications Mock-ups.
 
-### 4.4.2. Web Applications Mock-ups. 
+<img src="resources/imgs/AppWeb-Mockup1.png"
+     alt="AppWeb-Mockup1"
+     style="">
+
+<img src="resources/imgs/AppWeb-Mockup2.png"
+     alt="AppWeb-Mockup2"
+     style="">
+
+<img src="resources/imgs/AppWeb-Mockup3.png"
+     alt="AppWeb-Mockup3"
+     style="">
+
+<img src="resources/imgs/AppWeb-Mockup4.png"
+     alt="AppWeb-Mockup4"
+     style="">
+
+<img src="resources/imgs/AppWeb-Mockup5.png"
+     alt="AppWeb-Mockup5"
+     style="">
+
+<img src="resources/imgs/AppWeb-Mockup6.png"
+     alt="AppWeb-Mockup6"
+     style="">
+
+<img src="resources/imgs/AppWeb-Mockup7.png"
+     alt="AppWeb-Mockup7"
+     style="">
+
+<img src="resources/imgs/AppWeb-Mockup8.png"
+     alt="AppWeb-Mockup8"
+     style="">
+
+<img src="resources/imgs/AppWeb-Mockup9.png"
+     alt="AppWeb-Mockup9"
+     style="">
+
+<img src="resources/imgs/AppWeb-Mockup10.png"
+     alt="AppWeb-Mockup10"
+     style="">
+
+<img src="resources/imgs/AppWeb-Mockup11.png"
+     alt="AppWeb-Mockup11"
+     style="">
+
+<img src="resources/imgs/AppWeb-Mockup12.png"
+     alt="AppWeb-Mockup12"
+     style="">
+
+<img src="resources/imgs/AppWeb-Mockup13.png"
+     alt="AppWeb-Mockup13"
+     style="">
+
+<img src="resources/imgs/AppWeb-Mockup14.png"
+     alt="AppWeb-Mockup14"
+     style="">
+
+<img src="resources/imgs/AppWeb-Mockup15.png"
+     alt="AppWeb-Mockup15"
+     style="">
+
+<img src="resources/imgs/AppWeb-Mockup16.png"
+     alt="AppWeb-Mockup16"
+     style="">
+
+<img src="resources/imgs/AppWeb-Mockup17.png"
+     alt="AppWeb-Mockup17"
+     style="">
+
+<img src="resources/imgs/AppWeb-Mockup18.png"
+     alt="AppWeb-Mockup18"
+     style="">
+
+Elaborado en: https://www.figma.com/design/kARtlqhljeRK63rGx1Dmea/Sin-t%C3%ADtulo?node-id=1-2
+
 
 ### 4.4.3. Web Applications User Flow Diagrams. 
 
