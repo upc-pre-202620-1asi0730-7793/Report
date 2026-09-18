@@ -1600,13 +1600,13 @@ Video del flujo del prototipo: [FLUJO PROTOTIPO NOXWAY](https://upcedupe-my.shar
 
 ## 4.6. Domain-Driven Software Architecture
 ### 4.6.1. Design-Level EventStorming
-En esta sección se presenta la arquitectura de software de Noxway desde el enfoque de Domain-Driven Design, tomando como base el Big Picture Event Storming desarrollado previamente[cite: 5].
+En esta sección se presenta la arquitectura de software de Noxway desde el enfoque de Domain-Driven Design, tomando como base el Big Picture Event Storming desarrollado previamente.
 
 **Identity & Network Management**
 <br>
 <br>
 <img src="resources/imgs/Identity & Network Management.png"
-     alt="AppWeb-Mockup10"
+     alt="eventstorming"
      style="">
 <br>
 <br>
@@ -1614,7 +1614,7 @@ En esta sección se presenta la arquitectura de software de Noxway desde el enfo
 <br>
 <br>
 <img src="resources/imgs/safees.png"
-     alt="AppWeb-Mockup10"
+     alt="eventstorming"
      style="">
 <br>
 <br>
@@ -1622,7 +1622,7 @@ En esta sección se presenta la arquitectura de software de Noxway desde el enfo
 <br>
 <br>
 <img src="resources/imgs/incident.png"
-     alt="AppWeb-Mockup10"
+     alt="eventstorming"
      style="">
 <br>
 <br>
@@ -1630,7 +1630,7 @@ En esta sección se presenta la arquitectura de software de Noxway desde el enfo
 <br>
 <br>
 <img src="resources/imgs/comuni.png"
-     alt="AppWeb-Mockup10"
+     alt="eventstorming"
      style="">
 <br>
 <br>
@@ -1638,7 +1638,7 @@ En esta sección se presenta la arquitectura de software de Noxway desde el enfo
 <br>
 <br>
 <img src="resources/imgs/sleep.png"
-     alt="AppWeb-Mockup10"
+     alt="eventstorming"
      style="">
 <br>
 <br>
@@ -1646,7 +1646,7 @@ En esta sección se presenta la arquitectura de software de Noxway desde el enfo
 <br>
 <br>
 <img src="resources/imgs/subscription.png"
-     alt="AppWeb-Mockup10"
+     alt="eventstorming"
      style="">
 <br>
 <br>
@@ -1654,20 +1654,208 @@ En esta sección se presenta la arquitectura de software de Noxway desde el enfo
 <br>
 <br>
 <img src="resources/imgs/governance.png"
-     alt="AppWeb-Mockup10"
+     alt="eventstorming"
      style="">
 
 Miro: https://miro.com/app/board/uXjVGa9f9SI=/?share_link_id=254891487404
 
+## 4.6.2. Software Architecture Context Diagram
 
+El Context Diagram representa a Noxway como un único sistema de software y muestra a los principales actores y sistemas externos con los que interactúa. Los actores considerados son Night-Shift Worker, Trusted Contact y Community Moderator, de acuerdo con las interacciones principales representadas en la solución. Esta separación permite reflejar las responsabilidades relacionadas con el monitoreo de trayectos, la supervisión en vivo mediante el Companion View y la moderación del mapa comunitario.
 
-## 4.7. Software Object-Oriented Design. 
+Como sistemas externos se consideran Payment Gateway, Email Service, Push & SMS Service y Mapping & Geolocation Service. El Payment Gateway procesa los pagos asociados a las suscripciones de los planes (Centinela Pro, Cuadrilla Familiar); el Email Service soporta recuperación de contraseña y comunicaciones transaccionales; el Push & SMS Service suministra la infraestructura crítica para el envío de alertas de emergencia; y el Mapping Service provee la telemetría y geocodificación utilizada durante el monitoreo del trabajador.
 
-### 4.7.1. Class Diagrams. 
+C4 System Context Diagram de Noxway.
 
-## 4.8. Database Design. 
+<img src="resources/imgs/context.png"
+     alt="contextdiagram"
+     style="">
 
-### 4.8.1. Database Diagrams. 
+## 4.6.3. Software Architecture Container Diagrams
+
+La solución se distribuye en cinco containers principales: Landing Page, Mobile Application, Web Application, RESTful API y Relational Database. La Landing Page utiliza React y Next.js para presentar el modelo de negocio, el protocolo nocturno y captar registros. La Mobile Application, construida con Flutter y Dart, proporciona la experiencia principal en ruta para el trabajador nocturno. La Web Application utiliza React y TypeScript para proporcionar las experiencias autenticadas del Companion Portal y el panel de moderación. El RESTful API utiliza Node.js y Express para exponer servicios, aplicar reglas de negocio automáticas de incidentes y coordinar persistencia e integraciones. La información relacional y espacial se almacena en PostgreSQL.
+
+Los CTA de la Landing Page redirigen hacia el flujo de registro centralizado. Tanto la Mobile App como la Web Application se comunican con el RESTful API mediante HTTPS y JSON. El RESTful API es el único container que accede a la base de datos y a los servicios externos.
+
+C4 Container Diagram de Noxway.
+
+<img src="resources/imgs/container.png"
+     alt="containerdiagram"
+     style="">
+
+## 4.6.4. Software Architecture Components Diagrams
+
+### Landing Page Components
+
+La Landing Page se descompone en Hero & Protocol Section, Ecosystem & Features, Subscription Plans View y Registration Funnel. Estas secciones exponen visualmente el flujo de cuatro pasos (Vincular, Iniciar, Monitorear, Confirmar) y las capacidades tecnológicas del sistema. El Registration Funnel permite captar datos iniciales y redirigir a los visitantes hacia la experiencia correspondiente (Worker o Contact) en la Web Application, comunicándose directamente con el RESTful API.
+
+C4 Component Diagram - Landing Page.
+
+<img src="resources/imgs/landingdiagram.png"
+     alt="componentdiagram"
+     style="">
+
+### Web Application Components
+
+La Web Application separa el Auth & Onboarding Module, Worker Portal, Companion Portal, Active Commute Tracker, 24h Community Map, Sleep & Wellness Log y Benefits & Subscriptions. Todas estas experiencias utilizan llamadas centralizadas y comparten componentes interactivos, manteniendo una única vía de comunicación con el RESTful API para garantizar la sincronización en tiempo real del estado de los trayectos.
+
+C4 Component Diagram - Web Application.
+
+<img src="resources/imgs/web.png"
+     alt="componentdiagram"
+     style="">
+
+### RESTful API Components
+
+El RESTful API organiza sus componentes principales de acuerdo con los Bounded Contexts identificados en el Design-Level EventStorming: Account & Auth Controller, Trust Network Controller, Commute & Check-In Controller, Incident & Alert Manager, Community Map Service, Sleep Wellness Service, Subscription Controller y Moderation Controller.
+
+Account & Auth Controller y Trust Network API concentran el registro, autenticación y gestión de vínculos. Commute Controller y el Incident Manager en segundo plano gestionan la telemetría, evaluación de tolerancia y disparo de alertas. Community Map Service procesa consultas espaciales de locales y zonas de riesgo. Sleep Wellness Service administra los registros de descanso diurno y sugerencias de fatiga. Subscription Controller gestiona planes, pagos y convenios colectivos.
+
+Persistence Layer concentra el acceso hacia PostgreSQL y External Integrations encapsula la comunicación con Payment Gateway, Email Service, SMS/Push Service y Map APIs.
+
+C4 Component Diagram - RESTful API.
+
+<img src="resources/imgs/api.png"
+     alt="componentdiagram"
+     style="">
+
+### Relational Database Components
+
+El container Relational Database se organiza mediante separación lógica de datos. Los esquemas `users_network_schema`, `commute_incident_schema`, `community_data_schema`, `wellness_schema`, `subscription_schema` y `moderation_schema` corresponden a los Bounded Contexts identificados. 
+
+Esta organización permite conservar límites de responsabilidad a nivel de persistencia, separando datos transaccionales críticos (como la telemetría) de datos espaciales y de facturación, aun cuando PostgreSQL sea desplegado inicialmente como una única instancia.
+
+C4 Component Diagram - Relational Database.
+
+<img src="resources/imgs/database.png"
+     alt="componentdiagram"
+     style="">
+
+## 4.7. Software Object-Oriented Design
+
+El diseño orientado a objetos se organiza de acuerdo con los Bounded Contexts identificados en el Design-Level EventStorming y con los módulos de soporte necesarios para mantener trazabilidad con las User Stories del Capítulo III. Los nombres de clases, atributos, métodos e interfaces se mantienen en inglés y se especifican relaciones, multiplicidades y visibilidad de miembros.
+
+## 4.7.1. Class Diagrams
+
+### Identity & Network Management
+
+El modelo concentra la abstracción `User`, de la cual heredan los roles específicos `NightWorker` y `TrustedContact`. `TrustLink` modela la clase de asociación que representa el vínculo de acompañamiento seguro entre un trabajador y su contacto de confianza, encapsulando su estado y vigencia.
+
+Class Diagram - Identity & Network Management.
+
+<img src="resources/imgs/identity&networkmanagement.png"
+     style="">
+
+### Safe Commute & Incident Management
+
+`Commute` representa el núcleo del ciclo de vida del trayecto y se relaciona fuertemente con `TelemetryPing` mediante composición para registrar la ubicación y velocidad. `SafetyIncident` modela las situaciones de riesgo o demoras generadas durante el trayecto, interactuando con `NotificationPreference` para escalar las alertas a los canales correspondientes.
+
+Class Diagram - Safe Commute Incident Management.
+
+<img src="resources/imgs/safecommute.png"
+     style="">
+
+### Community Intelligence
+
+`CommunityMap` actúa como la entidad agregadora para la consulta espacial. `NightServicePoint` representa los servicios verificados que operan en la madrugada y `RiskZone` modela los puntos de peligro reportados. `RouteRating` registra la calificación de seguridad asignada a las rutas una vez finalizado el desplazamiento.
+
+Class Diagram - Community Intelligence.
+
+<img src="resources/imgs/community intelligence.png"
+     style="">
+
+### Sleep Health & Wellness
+
+`SleepLog` representa el registro agregado diario de metas y déficits de sueño, mientras que `RestSession` registra periodos individuales de descanso fragmentado. `HygieneSuggestion` modela las recomendaciones emitidas por el sistema en función del nivel de fatiga detectado en el trabajador nocturno.
+
+Class Diagram - Sleep Health Wellness.
+
+<img src="resources/imgs/sleephealth.png"
+     style="">
+
+### Subscriptions & Collective Benefits
+
+`Subscription` representa el plan (Esencial, Centinela Pro, etc.) activo de un trabajador, el cual genera registros en `PaymentTransaction` por su facturación recurrente. `CollectiveBenefit` modela los seguros y convenios habilitados, mientras que `ReferralCode` administra la lógica del programa de crecimiento por referidos.
+
+Class Diagram - Subscriptions Collective Benefits.
+
+<img src="resources/imgs/subscriptions.png"
+     style="">
+
+### Moderation & Governance
+
+`ModerationQueue` representa la bandeja de tareas de los moderadores del sistema. `CommunityReport` modela de forma abstracta los elementos enviados por los usuarios y `ModerationAction` mantiene el registro auditable de las decisiones (aprobación o rechazo) aplicadas sobre dichos reportes.
+
+Class Diagram - Moderation Governance.
+
+<img src="resources/imgs/moderation.png"
+     style="">
+
+---
+
+## 4.8. Database Design
+
+El diseño de base de datos utiliza PostgreSQL como DBMS relacional y conserva la separación lógica establecida por los Bounded Contexts identificados en el Design-Level EventStorming. Se ha considerado el soporte de PostGIS para los esquemas que requieren consultas espaciales (latitud y longitud).
+
+Se utiliza lowercase_snake_case para tablas y columnas, UUID para identificadores, TIMESTAMPTZ para instantes que representan un momento real en el tiempo, DATE para fechas sin componente horario y NUMERIC para valores exactos. Los diagramas especifican claves primarias, claves foráneas internas, restricciones de unicidad, nulabilidad y reglas CHECK necesarias para mantener la integridad de los datos.
+
+Las relaciones internas de cada Bounded Context se representan mediante claves foráneas. Cuando una entidad necesita identificar información administrada por otro contexto, se conserva únicamente el identificador como referencia lógica, evitando introducir dependencias de persistencia que mezclen responsabilidades de dominio.
+
+### 4.8.1. Database Diagrams
+
+#### Identity & Network Management
+
+El modelo persiste las cuentas en `users` y su información demográfica en `user_profiles`. El control de acceso se maneja a través de `roles` y `user_roles`. Los dispositivos móviles se registran en `user_devices` para posibilitar el envío de notificaciones push. La creación de la red de acompañamiento utiliza `trust_invitations` para gestionar los tokens enviados externamente y `trust_links` para consolidar el vínculo aceptado.
+
+Database Diagram - Identity & Network Management.
+
+<img src="resources/imgs/iden.png"
+     style="">
+
+#### Safe Commute & Incident Management
+
+El modelo persiste los trayectos en la tabla `commutes`, complementada por `commute_checkpoints` para trazar los hitos de la ruta. La telemetría de alto volumen se aísla en `telemetry_pings`. Las anomalías generan registros en `safety_incidents`, los cuales mantienen su ciclo de vida y disparan registros de auditoría de notificaciones en `incident_alerts`.
+
+Database Diagram - Safe Commute Incident Management.
+
+<img src="resources/imgs/comu.png"
+     style="">
+
+#### Community Intelligence
+
+El modelo persiste ubicaciones geoespaciales como `night_services` y `risk_zones`. Para garantizar la confiabilidad comunitaria, se emplean las tablas transaccionales `service_validations` y `risk_zone_confirmations`, que evitan votos duplicados por parte del mismo trabajador. Las encuestas de los desplazamientos se almacenan en `route_ratings`.
+
+Database Diagram - Community Intelligence.
+
+<img src="resources/imgs/commu.png"
+     style="">
+
+#### Sleep Health & Wellness
+
+El modelo organiza la higiene del sueño separando el consolidado diario (`daily_sleep_logs`) de los periodos de descanso fraccionado (`sleep_sessions`). El sistema almacena en `hygiene_suggestions` las alertas emitidas por déficit de horas, las cuales se vinculan lógicamente al usuario que las recibe.
+
+Database Diagram - Sleep Health Wellness.
+
+<img src="resources/imgs/health.png"
+     style="">
+
+#### Subscriptions & Collective Benefits
+
+El modelo persiste el catálogo de servicios en `subscription_plans`. La tabla `subscriptions` mantiene el estado de membresía del usuario, apoyándose en `payment_transactions` para el historial de facturación. Los convenios de seguros y descuentos se guardan en `collective_benefits`. El esquema de fidelización emplea `referral_codes` y audita sus canjes mediante `referral_usages`.
+
+Database Diagram - Subscriptions Payment Management.
+
+<img src="resources/imgs/sub.png"
+     style="">
+
+#### Moderation & Governance
+
+El modelo implementa un diseño polimórfico en `moderation_tasks` (`entity_type` y `entity_id`) para centralizar en una sola cola los reportes de distintos orígenes. Las decisiones tomadas por los moderadores generan una pista de auditoría inmutable en `moderation_logs` para sustentar cualquier aprobación o rechazo.
+
+Database Diagram - Moderation Governance.
+
+<img src="resources/imgs/mode.png"
+     style="">
 
 
 # Capítulo V: Product Implementation, Validation & Deployment  
