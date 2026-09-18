@@ -727,29 +727,17 @@ En esta sección se presenta el Impact Mapping de la solución, técnica que per
 
 #### El estilo visual de la startup
 
-El estilo visual de la startup se fundamenta en los principios de seguridad, confianza, bienestar, accesibilidad y claridad visual...
+El estilo visual de la startup se fundamenta en los principios de seguridad, confianza, bienestar, accesibilidad y claridad visual, considerando que los usuarios principales son trabajadores que desarrollan sus actividades durante la noche, así como familiares, parejas y contactos de confianza que necesitan conocer su estado durante sus desplazamientos.
 
-La interfaz está diseñada para funcionar en contextos nocturnos...
+La interfaz está diseñada para funcionar en contextos nocturnos, donde la iluminación puede ser reducida y el usuario puede encontrarse realizando actividades laborales o desplazándose. Por ello, se prioriza una experiencia simple, intuitiva y de rápida comprensión, reduciendo la cantidad de elementos innecesarios y destacando únicamente la información relevante.
 
-Asimismo, la solución está dirigida a usuarios con distintos niveles de alfabetización digital...
+Asimismo, la solución está dirigida a usuarios con distintos niveles de alfabetización digital, por lo que se evita el uso de tecnicismos y se emplean componentes visuales familiares, mensajes directos e iconografía universal.
 
 #### Principios de diseño
 
-### 4.1.2. Web Style Guidelines.
-
-## 4.2. Information Architecture.
-
-### 4.2.1. Organization Systems.
-
-### 4.2.2. Labeling Systems.
-
-### 4.2.3. SEO Tags and Meta Tags
-
 **Simplicidad:** Se priorizan interfaces limpias y fáciles de comprender, reduciendo la carga cognitiva y mostrando únicamente las acciones e información necesarias para cada momento.
 
-**Seguridad:** Las funciones relacionadas con emergencias, trayectos y posibles incidentes deben ser fácilmente identificables...
-
-### 4.2.5. Navigation Systems.
+**Seguridad:** Las funciones relacionadas con emergencias, trayectos y posibles incidentes deben ser fácilmente identificables. Las acciones críticas tendrán una ubicación y comportamiento consistente para que puedan ejecutarse rápidamente.
 
 **Confianza:** La interfaz debe transmitir protección y confiabilidad mediante colores, mensajes y componentes visuales coherentes. El usuario debe comprender en todo momento qué información está compartiendo y con quién.
 
@@ -1337,6 +1325,7 @@ El nombre y logotipo de la startup estarán visibles en las principales vistas d
 Los colores, tipografías, iconografía y componentes visuales seguirán los lineamientos definidos en la guía de estilo, reforzando los conceptos de seguridad, confianza, bienestar y comunidad.
 
 La navegación mantendrá una estructura consistente en todas las vistas para que los usuarios puedan identificar rápidamente dónde se encuentran y cómo regresar a las funciones principales
+
 ## 4.3. Landing Page UI Design. 
 
 ### 4.3.1. Landing Page Wireframe. 
