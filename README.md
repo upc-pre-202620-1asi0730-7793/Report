@@ -44,7 +44,7 @@
 ---
 # Registro de Versiones del Informe 
 
-|Versión|Fecha|Autor|Fecha de modificación|
+|Versión|Fecha|Autor|Descripción de modificación|
 |:------|:----|:----|:--------------------|
 |||||
 
@@ -156,8 +156,8 @@ Como startup, buscamos posicionarnos como un referente en soluciones de segurida
 | :--- |:---------------------------|
 | **Código del Estudiante** |  U20241I469   |
 | **Carrera** | Ingeniería de Software  |
-| **Descripción** |                            |
-| **Foto** |                            |
+| **Descripción** | Mi nombre es Camila Patricio. Tengo 20 años, soy estudiante de Ingeniería de Software y considero que mis principales fortalezas son la responsabilidad, el compromiso y la disposición para aprender constantemente. Puedo aportar a mi grupo habilidades en programación, análisis de problemas y búsqueda de soluciones creativas. Además, me caracterizo por trabajar en equipo de manera colaborativa y organizada. Mi propósito es aportar mis conocimientos y esfuerzo para que logremos juntos los objetivos de nuestro proyecto.                           |
+| **Foto** | <img src="../Report/resources/imgs/Camila.png" alt="" width="200" height="240">                            |
 --------------
 
 
