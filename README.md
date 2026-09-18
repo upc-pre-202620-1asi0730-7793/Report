@@ -1411,7 +1411,80 @@ Elaborado en: https://www.figma.com/design/kARtlqhljeRK63rGx1Dmea/Sin-t%C3%ADtul
 
 ## 4.4. Web Applications UX/UI Design. 
 
-### 4.4.1. Web Applications Wireframes. 
+### 4.4.1. Web Applications Wireframes.
+Los wireframes de las aplicaciones web de **Noxway** muestran cómo se estructuran las pantallas y dónde se ubican los elementos de navegación para cada uno de los roles clave del sistema: el **trabajador nocturno** y su **contacto de confianza**. Estos esquemas visuales, que se centran en la funcionalidad, la accesibilidad en entornos con poca luz y la facilidad de uso bajo condiciones de fatiga o urgencia, guían el diseño final. Su objetivo es asegurar que la aplicación sea intuitiva y que la interacción del usuario —desde iniciar un trayecto seguro y consultar el mapa 24 horas hasta monitorear un desplazamiento en vivo o coordinar auxilio distrital— sea fluida, rápida y eficiente, lo que ayuda a diseñadores y desarrolladores a optimizar la disposición de cada componente. 
+
+<img src="resources/imgs/AppWeb-Wireframe1.png"
+     alt="AppWeb-Wireframe1"
+     style="">
+
+<img src="resources/imgs/AppWeb-Wireframe2.png"
+     alt="AppWeb-Wireframe2"
+     style="">
+
+<img src="resources/imgs/AppWeb-Wireframe3.png"
+     alt="AppWeb-Wireframe3"
+     style="">
+
+<img src="resources/imgs/AppWeb-Wireframe4.png"
+     alt="AppWeb-Wireframe4"
+     style="">
+
+<img src="resources/imgs/AppWeb-Wireframe5.png"
+     alt="AppWeb-Wireframe5"
+     style="">
+
+<img src="resources/imgs/AppWeb-Wireframe6.png"
+     alt="AppWeb-Wireframe6"
+     style="">
+
+<img src="resources/imgs/AppWeb-Wireframe7.png"
+     alt="AppWeb-Wireframe7"
+     style="">
+
+<img src="resources/imgs/AppWeb-Wireframe8.png"
+     alt="AppWeb-Wireframe8"
+     style="">
+
+<img src="resources/imgs/AppWeb-Wireframe9.png"
+     alt="AppWeb-Wireframe9"
+     style="">
+
+<img src="resources/imgs/AppWeb-Wireframe10.png"
+     alt="AppWeb-Wireframe10"
+     style="">
+
+<img src="resources/imgs/AppWeb-Wireframe11.png"
+     alt="AppWeb-Wireframe11"
+     style="">
+
+<img src="resources/imgs/AppWeb-Wireframe12.png"
+     alt="AppWeb-Wireframe12"
+     style="">
+
+<img src="resources/imgs/AppWeb-Wireframe13.png"
+     alt="AppWeb-Wireframe13"
+     style="">
+
+<img src="resources/imgs/AppWeb-Wireframe14.png"
+     alt="AppWeb-Wireframe14"
+     style="">
+
+<img src="resources/imgs/AppWeb-Wireframe15.png"
+     alt="AppWeb-Wireframe15"
+     style="">
+
+<img src="resources/imgs/AppWeb-Wireframe16.png"
+     alt="AppWeb-Wireframe16"
+     style="">
+
+<img src="resources/imgs/AppWeb-Wireframe17.png"
+     alt="AppWeb-Wireframe17"
+     style="">
+
+<img src="resources/imgs/AppWeb-Wireframe18.png"
+     alt="AppWeb-Wireframe18"
+     style=""> 
 
 ### 4.4.2. Web Applications Wireflow Diagrams. 
 
