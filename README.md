@@ -390,6 +390,27 @@ Respecto a la adopción de una nueva plataforma de seguridad, valora altamente l
 
 ---
 **Entrevista 3**
+| Campo | Detalle                                                                                                                                                                                                                                                                                                                      |
+| :--- |:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Nombre** | Luis Mendoza Miranda|
+| **Edad** | 32 años                                                                                                                                                                                                                                                                                                                      |
+| **Distrito** | San Martín de Porres   |
+| **Duración** | 5:36     |
+| **Estado civil** | Soltero   |
+| **Ocupación** | agente de seguridad privada |
+| **Enlace** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202421065_upc_edu_pe/IQAoJA0AjDdKS7A-8S3BD1zeAQ49mq6jaTduIZbRZUYsQSM?e=9jxrdJ |
+
+<div align="center">
+<img src="resources/imgs/chapter_ii/entrevista3_segmento1.png" alt="Entrevista 3 - Segmento 1" width="600">
+</div>
+
+**Resumen**: Luis Mendoza Miranda es un hombre soltero de 32 años ,  que reside en el distrito de San Martín de Porres. Trabaja desde hace 2 años y medio como agente de seguridad privada en el turno nocturno de un centro corporativo en San Isidro. Su jornada implica traslados largos y pesados en transporte público, saliendo a las 5:20 p.m. para iniciar a las 7:00 p.m. y retornando a las 7:00 a.m. Su principal motivación es la estabilidad económica de su hogar, aprovechando el ingreso adicional del bono nocturno, pero su mayor preocupación es la inseguridad latente durante los traslados y el agotamiento físico crónico provocado por el cambio de ciclo de sueño.
+
+El trayecto de retorno y la espera en paraderos representan una fricción crítica y un riesgo comprobado, habiendo vivido un intento de asalto por parte de delincuentes en moto mientras esperaba transporte de madrugada. Para mitigar esta vulnerabilidad, mantiene un protocolo de prevención activo: comparte su ubicación en tiempo real por WhatsApp con su pareja al finalizar su guardia y guarda el celular en un bolsillo interno con cierre mientras viaja en el transporte público.
+
+De personalidad reservada, observadora y práctica, Luis es un usuario tecnológico funcional que utiliza un smartphone Android de gama media. Sus canales digitales principales son WhatsApp, herramienta clave para la coordinación laboral y la comunicación familiar, y redes como Facebook, TikTok y grupos vecinales para mantenerse informado sobre alertas locales. Tiene una adopción tecnológica pragmática: maneja sin problemas herramientas de uso diario, pero descarta interfaces engorrosas o aplicaciones que requieran pasos innecesarios.
+
+Respecto a una nueva solución tecnológica de seguridad, considera sumamente valiosa la automatización de avisos a contactos de confianza ante eventualidades o falta de batería, así como el reporte de rutas para prevenir paraderos peligrosos. Muestra un claro interés por integrarse a una comunidad laboral para intercambiar alertas, aunque descarta por completo pagar una suscripción mensual debido a que prioriza los gastos básicos familiares, aceptando el servicio únicamente bajo un modelo gratuito. Sus factores determinantes de abandono (churn) son el consumo excesivo de batería o datos móviles durante el turno nocturno, y los errores de sistema que detonen falsas alarmas y generen angustia innecesaria en su familia. 
 
 
 ---
