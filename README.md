@@ -157,7 +157,7 @@ Como startup, buscamos posicionarnos como un referente en soluciones de segurida
 | **Código del Estudiante** |  U20241I469   |
 | **Carrera** | Ingeniería de Software  |
 | **Descripción** | Mi nombre es Camila Patricio. Tengo 20 años, soy estudiante de Ingeniería de Software y considero que mis principales fortalezas son la responsabilidad, el compromiso y la disposición para aprender constantemente. Puedo aportar a mi grupo habilidades en programación, análisis de problemas y búsqueda de soluciones creativas. Además, me caracterizo por trabajar en equipo de manera colaborativa y organizada. Mi propósito es aportar mis conocimientos y esfuerzo para que logremos juntos los objetivos de nuestro proyecto.                           |
-| **Foto** | <img src="../Report/resources/imgs/Camila.png" alt="" width="200" height="240">                            |
+| **Foto** | <img src="resources/imgs/Camila.png" alt="Camila" width="200" height="240">                            |
 --------------
 
 
@@ -182,7 +182,7 @@ Como startup, buscamos posicionarnos como un referente en soluciones de segurida
 | **Código del Estudiante** | U202218235 |
 | **Carrera** | Ingeniería de Software |
 | **Descripción** | Estudiante de Ingeniería de Software de 22 años, orientado al desarrollo de soluciones tecnológicas eficientes y de alto impacto. Me caracterizo por mi responsabilidad, alto grado de compromiso y una constante disposición hacia el aprendizaje adaptativo y la mejora continua. Aporto al equipo competencias en lógica de programación, análisis y resolución de problemas complejos, así como un enfoque estructurado para el diseño de soluciones creativas. Además, me destaco por mi capacidad para trabajar en equipo de manera colaborativa, proactiva y organizada. Mi propósito fundamental es integrar mis conocimientos técnicos y disciplina de trabajo para asegurar el cumplimiento riguroso de los objetivos planteados en nuestro proyecto. |
-| **Foto** | ![Mauricio Ramirez](resources/imgs/chapter_ii/Mauricio.jpeg) |
+| **Foto** | <img src="resources/imgs/Mauricio.jpeg" alt="Mauricio Ramirez" width="200" height="240">  |
 
 | **Integrante** | Salcedo Correa Carlos Matthew |
 | :--- |:-----------------------------|
