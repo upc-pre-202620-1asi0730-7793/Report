@@ -659,9 +659,50 @@ Ante esta constante incertidumbre, Roberto considera fundamental contar con una 
 **Entrevista 3**
 
 
+| Campo | Detalle                |
+| :--- |:-----------------------|
+| **Nombre** | Ronald Ramírez         |
+| **Edad** | 51 años                |
+| **Distrito** | Bellavista, Callao     |
+| **Duración** | 5:00 min               |
+| **Enlace** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218235_upc_edu_pe/IQCHCDbrqzODRKhF84bxBViOAcXq2EV7CrAvOLCkhijcgb8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=cURYcK |
+
+<div align="center">
+<img src="resources/imgs/chapter_ii/entrevista3_segmento2.png" alt="Entrevista 2 - Segmento 2" width="600">
+</div>
+
+**Resumen**: En esta entrevista, Ronald Ramírez, un asistente administrativo de 51 años residente en Bellavista, Callao, comparte su experiencia como contacto de confianza de su esposa, quien labora como enfermera en el turno nocturno. Explica que se considera organizado y previsor, pero siente constante ansiedad por la seguridad de su esposa frente a la delincuencia y posibles accidentes de tránsito durante sus traslados. Menciona que en su rutina nocturna duerme con el celular a volumen alto para estar alerta ante cualquier emergencia y que siempre esperan un mensaje de confirmación al llegar a su destino, relatando un episodio de mucha angustia donde su esposa demoró más de 30 minutos sin responder porque se le había descargado el celular. Destaca que compartir la ubicación entre ambos es un acuerdo normal que no le genera ninguna incomodidad y que una aplicación de notificación automática de llegada le brindaría un gran alivio para conciliar el sueño. Finalmente, afirma que confiaría en una herramienta así si las alertas y la ubicación son precisas, pero la descartaría si genera falsas alarmas constantemente o consume la batería demasiado rápido.
+
 ---
 
 ### 2.2.3. Análisis de entrevistas. 
+
+#### **Análisis del Segmento 1: Trabajadores Nocturnos (Usuarios Principales)**
+
+A partir de las entrevistas realizadas a trabajadores de turno nocturno (cajeros de tiendas de conveniencia y agentes de seguridad), se identifican patrones claros en sus hábitos de traslado, nivel de exposición al riesgo, uso de tecnología y expectativas de seguridad:
+
+* **Entorno laboral y nivel de riesgo:** El 100% de los entrevistados (3 de 3) labora en jornadas de madrugada (entre 5:00 p. m. y 7:00 a. m.) y señala que los trayectos a pie de regreso a casa y la espera en paraderos representan el momento de mayor vulnerabilidad y temor. Asimismo, el 100% (3 de 3) ha sido víctima directa de la delincuencia o ha enfrentado situaciones de riesgo alto en el transporte público o la vía pública (como ser perseguidos por vehículos sospechosos, intentos de asalto en moto o robos al quedarse dormidos por cansancio).
+* **Protocolos actuales de prevención:** El 100% utiliza WhatsApp como herramienta principal para enviar mensajes a sus contactos de confianza al abordar o descender del transporte. Sin embargo, el 100% enfrenta una restricción crítica: la falta de batería (llegando al final del turno con carga crítica de 15% o totalmente descargados) y el temor a quedarse sin datos móviles, lo que limita el uso continuo del GPS en tiempo real.
+* **Perfil tecnológico y usabilidad:** El 100% de los entrevistados es usuario de smartphones Android con un enfoque estrictamente *Mobile-First* y pragmático. Utilizan redes sociales (Facebook, TikTok) e interacción por WhatsApp, pero el 100% rechaza tajantemente aplicaciones con interfaces complejas o que exijan interactuar de forma activa con el teléfono en la calle (como calificar rutas manualmente), ya que el cansancio acumulado y el riesgo de exhibir el celular en la vía pública representan una fricción inaceptable.
+* **Valoración de la propuesta de solución:** El 100% de los entrevistados valida positivamente la automatización de notificaciones a sus contactos de confianza ante eventualidades o falta de confirmación de llegada, así como la visualización de zonas de riesgo o paraderos peligrosos.
+* **Disposición al pago (monetización):** Solo el 33% (1 de 3) estaría dispuesto a pagar una suscripción mensual si esta incluye beneficios tangibles (como seguros contra robos o descuentos), mientras que el 66% (2 de 3) prioriza los gastos básicos del hogar y descarta pagos recurrentes, aceptando el servicio únicamente bajo un modelo gratuito o con retorno económico directo.
+* **Criterios de abandono (*churn*):** El 100% de los entrevistados afirma que desinstalaría la aplicación de manera inmediata si genera un consumo excesivo de batería o datos, si presenta errores técnicos (*bugs*) o si emite falsas alarmas que generen angustia o pánico innecesario en sus familias.
+
+---
+
+#### **Análisis del Segmento 2: Contactos de Confianza (Familiares y Parejas)**
+
+A partir de las entrevistas realizadas a los contactos de confianza (familiares directos y cónyuges de trabajadores nocturnos), se identifican patrones comunes sobre el impacto emocional del turno nocturno, los hábitos de verificación y la aceptación de herramientas de monitoreo:
+
+* **Impacto emocional y percepción del riesgo:** El 100% de los entrevistados (2 de 2) experimenta altos niveles de ansiedad, preocupación constante e interrupción de su descanso nocturno debido a la inseguridad ciudadana y al riesgo de accidentes durante los traslados de sus familiares. El 100% identifica los trayectos solitarios desde el centro de trabajo hacia el transporte público a tempranas horas de la mañana como la principal fuente de inquietud.
+* **Gestión de comunicación y verificación:** El 100% depende del envío voluntario de mensajes de WhatsApp por parte del trabajador al iniciar el retorno o llegar a su destino, estableciendo un margen de tolerancia previo de entre 15 y 30 minutos antes de escalar a llamadas insistentes o contactar a terceros. Además, el 100% ha vivido episodios de angustia crítica provocados por la imposibilidad de comunicarse cuando el teléfono del trabajador se apaga por falta de batería durante el trayecto.
+* **Privacidad y consentimiento:** El 100% de los entrevistados indica que compartir la ubicación en tiempo real no genera ninguna incomodidad entre las partes, siempre que se realice bajo un acuerdo mutuo enfocado en la protección familiar y resguardando la privacidad sin caer en conductas invasivas.
+* **Validación de la propuesta tecnológica:** El 100% considera fundamental contar con un sistema de monitoreo pasivo que emita alertas automáticas únicamente ante retrasos desmedidos o anomalías en la ruta, permitiéndoles conciliar el sueño y descansar sin la necesidad de revisar compulsivamente el celular.
+* **Factores de desconfianza y abandono:** El 100% de los entrevistados condiciona la adopción del sistema a la precisión y puntualidad del rastreo. Del mismo modo, el 100% dejaría de utilizar la herramienta si emite falsas alarmas de pánico de manera recurrente, si genera errores de sistema o si agota rápidamente la batería del dispositivo de su familiar.
+
+---
+
+
 
 ## 2.3. Needfinding. 
 
