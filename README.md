@@ -182,7 +182,7 @@ Como startup, buscamos posicionarnos como un referente en soluciones de segurida
 | **Código del Estudiante** | U202218235 |
 | **Carrera** | Ingeniería de Software |
 | **Descripción** | Estudiante de Ingeniería de Software de 22 años, orientado al desarrollo de soluciones tecnológicas eficientes y de alto impacto. Me caracterizo por mi responsabilidad, alto grado de compromiso y una constante disposición hacia el aprendizaje adaptativo y la mejora continua. Aporto al equipo competencias en lógica de programación, análisis y resolución de problemas complejos, así como un enfoque estructurado para el diseño de soluciones creativas. Además, me destaco por mi capacidad para trabajar en equipo de manera colaborativa, proactiva y organizada. Mi propósito fundamental es integrar mis conocimientos técnicos y disciplina de trabajo para asegurar el cumplimiento riguroso de los objetivos planteados en nuestro proyecto. |
-| **Foto** | <img src="resources/imgs/Mauricio.jpeg" alt="Mauricio Ramirez" width="200" height="240">   ![Mauricio Ramirez](resources/imgs/Mauricio.jpeg) |
+| **Foto** | <img src="resources/imgs/Mauricio.jpeg" alt="Mauricio Ramirez" width="200" height="240">   |
 
 | **Integrante** | Salcedo Correa Carlos Matthew |
 | :--- |:-----------------------------|
