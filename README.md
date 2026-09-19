@@ -44,7 +44,7 @@
 ---
 # Registro de Versiones del Informe 
 
-|Versión|Fecha|Autor|Fecha de modificación|
+|Versión|Fecha|Autor|Descripción de modificación|
 |:------|:----|:----|:--------------------|
 |||||
 
@@ -156,8 +156,8 @@ Como startup, buscamos posicionarnos como un referente en soluciones de segurida
 | :--- |:---------------------------|
 | **Código del Estudiante** |  U20241I469   |
 | **Carrera** | Ingeniería de Software  |
-| **Descripción** |                            |
-| **Foto** |                            |
+| **Descripción** | Mi nombre es Camila Patricio. Tengo 20 años, soy estudiante de Ingeniería de Software y considero que mis principales fortalezas son la responsabilidad, el compromiso y la disposición para aprender constantemente. Puedo aportar a mi grupo habilidades en programación, análisis de problemas y búsqueda de soluciones creativas. Además, me caracterizo por trabajar en equipo de manera colaborativa y organizada. Mi propósito es aportar mis conocimientos y esfuerzo para que logremos juntos los objetivos de nuestro proyecto.                           |
+| **Foto** | <img src="resources/imgs/Camila.png" alt="Camila" width="200" height="240">                            |
 --------------
 
 
@@ -178,12 +178,11 @@ Como startup, buscamos posicionarnos como un referente en soluciones de segurida
 ---------------------
 
 | **Integrante** | Ramirez Rodriguez, Mauricio Joao |
-| :--- |:---------------------------------|
-| **Código del Estudiante** | U202218235                       |
-| **Carrera** | Ingeniería de Software           |
-| **Descripción** |                                  |
-| **Foto** |                                  |
----------------------
+| :--- | :--- |
+| **Código del Estudiante** | U202218235 |
+| **Carrera** | Ingeniería de Software |
+| **Descripción** | Estudiante de Ingeniería de Software de 22 años, orientado al desarrollo de soluciones tecnológicas eficientes y de alto impacto. Me caracterizo por mi responsabilidad, alto grado de compromiso y una constante disposición hacia el aprendizaje adaptativo y la mejora continua. Aporto al equipo competencias en lógica de programación, análisis y resolución de problemas complejos, así como un enfoque estructurado para el diseño de soluciones creativas. Además, me destaco por mi capacidad para trabajar en equipo de manera colaborativa, proactiva y organizada. Mi propósito fundamental es integrar mis conocimientos técnicos y disciplina de trabajo para asegurar el cumplimiento riguroso de los objetivos planteados en nuestro proyecto. |
+| **Foto** | <img src="resources/imgs/Mauricio.jpeg" alt="Mauricio Ramirez" width="200" height="240">   ![Mauricio Ramirez](resources/imgs/Mauricio.jpeg) |
 
 | **Integrante** | Salcedo Correa Carlos Matthew |
 | :--- |:-----------------------------|
@@ -394,10 +393,10 @@ Safetipin es una aplicación originada en India que genera "puntajes de segurida
   <tr></tr>
   <tr>
     <td colspan="2"></td>
-    <td> (producto) <br> <img src="resources/imgs/producto-logo.png"></img> </td>
-    <td> bSafe <br> <img src="resources/imgs/bsafe-logo.png"></img> </td>
-    <td> Noonlight <br> <img src="resources/imgs/noonlight-logo.png"></img> </td>
-    <td> Safetipin <br> <img src="resources/imgs/safetipin-logo.png"></img> </td>
+    <td> Noxway <br> <img src="resources/imgs/chapter_ii/logo-noctiva.jpg" alt="Noxway" width="110" height="100"></img> </td>
+    <td> bSafe <br> <img src="resources/imgs/chapter_ii/logo-bsafe.png" alt="bSafe" width="110" height="100"></img> </td>
+    <td> Noonlight <br> <img src="resources/imgs/chapter_ii/logo-noonlight.png" alt="Noonlight" width="140" height="100"></img> </td>
+    <td> Safetipin <br> <img src="resources/imgs/chapter_ii/logo-safetipin.png" alt="Safetipin" width="150" height="100"></img> </td>
   </tr>
   <tr>
     <td rowspan="2">Perfil</td>
