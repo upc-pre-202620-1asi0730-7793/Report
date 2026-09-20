@@ -2083,23 +2083,36 @@ Para el despliegue de la Landing Page se utilizó GitHub Pages, una herramienta 
 
 ## 5.2. Landing Page, Services & Applications Implementation. 
 
-### 5.2.X. Sprint n 
+### 5.2.1. Sprint 1
 
-#### 5.2.X.1. Sprint Planning n. 
+#### 5.2.1.1. Sprint Planning 1. 
 
-#### 5.2.X.2. Aspect Leaders and Collaborators. 
+#### 5.2.1.2. Aspect Leaders and Collaborators. 
 
-#### 5.2.X.3. Sprint Backlog n. 
+#### 5.2.1.3. Sprint Backlog 1. 
+| User Story Id | User Story Title | Task Id | Task Title | Task Description | Estimation (Hours) | Assigned To | Status |
+| :---: | :--- | :---: | :--- | :--- | :---: | :---: | :---: |
+| **US-05** | Conocer la propuesta de valor | **UT-01** | Crear la sección 'Hero' y Beneficios | Añadir la sección principal con la propuesta de valor y el llamado a la acción hacia el registro. | 2 | Camila | Done |
+| **US-24** | Consultar planes de suscripción (Landing Page) | **UT-01** | Crear la sección 'Planes' | Maquetar las tarjetas con los planes de suscripción, beneficios y redirección con plan preseleccionado. | 2 | Leonardo | Done |
+| **US-31** | Visualizar video de demostración y equipo en la Landing Page | **UT-01** | Integrar sección multimedia y equipo | Añadir el reproductor de video explicativo y mensaje de fallback ante fallas de carga. | 2 | Carlos | Done |
+| **US-32** | Consultar testimonios y casos de éxito en la Landing Page | **UT-01** | Crear la sección 'Testimonios' | Implementar el slider/carrusel responsivo con citas, autores y casos de éxito de trabajadores nocturnos. | 2 | Yam | Done |
+| **US-33** | Desplegar preguntas frecuentes (FAQ) en la Landing Page | **UT-01** | Crear la sección 'FAQ' | Agregar el acordeón interactivo para expandir y colapsar las dudas frecuentes. | 1 | Mauricio | Done |
+| **US-34** | Enviar formulario de contacto o soporte desde la Landing Page | **UT-01** | Crear formulario de contacto | Agregar formulario con validación de campos obligatorios, formato de email y confirmación de envío. | 1.5 | Camila | Done |
+| **US-35** | Cambiar idioma y tema visual en la Landing Page | **UT-01** | Implementar switch de idioma y tema | Añadir selector para alternar español/inglés y botón para modo claro/oscuro. | 2 | Carlos | Done |
 
-#### 5.2.X.4. Development Evidence for Sprint Review. 
+<img src="resources/imgs/sprin1.png">
 
-#### 5.2.X.5. Execution Evidence for Sprint Review. 
+[NoxWay Sprint Backlog](https://trello.com/invite/b/690c87e2eddd3d52ed83189d/ATTI96b986ca465d37e1b647b2fb1690fee5DC6EC0DE/noxway)
 
-#### 5.2.X.6. Services Documentation Evidence for Sprint Review. 
+#### 5.2.1.4. Development Evidence for Sprint Review. 
 
-#### 5.2.X.7. Software Deployment Evidence for Sprint Review. 
+#### 5.2.1.5. Execution Evidence for Sprint Review. 
 
-#### 5.2.X.8. Team Collaboration Insights during Sprint. 
+#### 5.2.1.6. Services Documentation Evidence for Sprint Review. 
+
+#### 5.2.1.7. Software Deployment Evidence for Sprint Review. 
+
+#### 5.2.1.8. Team Collaboration Insights during Sprint. 
 
 
 # Conclusiones 
