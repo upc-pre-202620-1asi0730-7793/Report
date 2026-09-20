@@ -2157,6 +2157,8 @@ Durante este sprint, se completó el despliegue de la landing page para habilita
 <img src="resources/imgs/Github-Pages-Nowxay.png">
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint. 
+<img src="resources/imgs/Colaboration1.png">
+<img src="resources/imgs/Colaboration2.png">
 
 
 # Conclusiones 
