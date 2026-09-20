@@ -2141,6 +2141,12 @@ A continuación, se detalla la matriz de liderazgo y colaboración (LACX) para l
 #### 5.2.1.4. Development Evidence for Sprint Review. 
 
 #### 5.2.1.5. Execution Evidence for Sprint Review. 
+Capturas de la página desplegada junto a un video demostrativo de su diseño y usabilidad
+
+<img src="resources/imgs/Landing-Desplegada.png">
+
+link de la landing: https://upc-pre-202620-1asi0730-7793.github.io/Landing-Page/
+link del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202421065_upc_edu_pe/IQBfINsAKTsuTZ5_fDXp19sKAa5z-SRiOqBqVa2xgvU_l0I?e=q8RIZT
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review. 
 
