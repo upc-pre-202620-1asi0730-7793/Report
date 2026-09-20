@@ -188,8 +188,8 @@ Como startup, buscamos posicionarnos como un referente en soluciones de segurida
 | :--- |:-----------------------------|
 | **Código del Estudiante** | U202421065|
 | **Carrera** | Ingeniería de Software       |
-| **Descripción** |                              |
-| **Foto** |                              |
+| **Descripción** | Soy Carlos Salcedo, tengo 18 años y actualmente curso el cuarto ciclo de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Cuento con conocimientos de nivel básico a intermedio en el lenguaje de programación C++, así como habilidades básicas en diseño. Además, tengo afinidad por el arte, especialmente el dibujo, y un fuerte interés por la música. Me considero una persona comprometida, responsable y con disposición constante para aprender. Mi objetivo en este curso es profundizar en los temas relacionados con mi carrera, fortalecer mis habilidades y prepararme para aplicarlas de manera efectiva en mi futuro profesional.                             |
+| **Foto** |  <img src="resources/imgs/salcedo.png" alt="Salcedo.png" width="200" height="240">                            |
 
 
 ## 1.2. Solution Profile
