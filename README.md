@@ -2357,3 +2357,6 @@ Rosenfeld, L., Morville, P., & Arango, J. (2015). Information architecture: For 
 https://www.oreilly.com/library/view/information-architecture-4th/9781491913529/
 
 # Anexos
+Enlaces teams archivos complementarios
+Landing Page: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202421065_upc_edu_pe/IQBfINsAKTsuTZ5_fDXp19sKAa5z-SRiOqBqVa2xgvU_l0I?e=q8RIZT
+Needfinding: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241i469_upc_edu_pe/IQAU7GDYOY4SSIVp6gNJG9wTAQNGKB7fI-6AUR8smTqqgLA?e=Rxeyjz
