@@ -2308,6 +2308,11 @@ link de la landing: https://upc-pre-202620-1asi0730-7793.github.io/Landing-Page/
 link del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202421065_upc_edu_pe/IQBfINsAKTsuTZ5_fDXp19sKAa5z-SRiOqBqVa2xgvU_l0I?e=q8RIZT
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review. 
+Durante este Sprint, el equipo de desarrollo se centró en definir la visión inicial del backend y la arquitectura de servicios RESTful de Noxway, estableciendo las bases necesarias para el funcionamiento interno de la plataforma. Esta etapa permitió organizar la estructura principal del sistema y proyectar cómo se gestionará la información crítica relacionada con los check-ins de trayectos, la vinculación de contactos de confianza y el mapa comunitario 24 horas.
+
+El backend de Noxway estará orientado a facilitar la administración de procesos clave dentro del entorno de trabajo nocturno, permitiendo un manejo más ordenado y seguro de la telemetría, el envío automático de alertas ante posibles incidentes y la gestión de la bitácora de descanso. Asimismo, servirá como soporte centralizado para garantizar la integración fluida y en tiempo real entre la aplicación móvil de los trabajadores y el portal web de los acompañantes (Companion View), contribuyendo a mejorar la eficiencia y el control durante situaciones de vulnerabilidad en la madrugada.
+
+Este avance representa un paso importante para el crecimiento del proyecto, ya que permitirá consolidar una base tecnológica sólida y bien documentada sobre la cual se desarrollarán e integrarán las siguientes etapas del ecosistema de seguridad nocturna.
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review. 
 Durante este sprint, se completó el despliegue de la landing page para habilitar su acceso público mediante GitHub Pages. El procedimiento inició con la creación y configuración de un repositorio público bajo la nomenclatura asignada al proyecto. Posteriormente, se cargó el código fuente y se activó el servicio de publicación web desde los ajustes del repositorio. Finalmente, se validó la disponibilidad y operatividad del sitio en línea, estableciendo un flujo de mantenimiento continuo en el cual cualquier cambio subido al repositorio se refleja automáticamente en producción.
