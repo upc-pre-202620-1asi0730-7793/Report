@@ -2332,5 +2332,28 @@ Arquitectura de software robusta y escalable: A nivel técnico, el proyecto exhi
 Modelo de negocio validado y sostenible: El proyecto concluye con una estrategia de monetización viable mediante un modelo de suscripción (Plan Centinela Pro y Cuadrilla Familiar) que ofrece beneficios colectivos tangibles. Al incluir descuentos negociados y seguros básicos de accidentes, Noxway supera la resistencia al pago de su segmento objetivo, al mismo tiempo que fomenta el crecimiento orgánico a través de un programa de referidos.
 
 # Bibliografía 
+Adzic, G. (2012). Impact mapping: Making a big impact with software products and projects. Provoking Thoughts.
+https://www.impactmapping.org/book.html
+
+Brandolini, A. (2021). Introducing EventStorming. Leanpub.
+https://leanpub.com/introducing_eventstorming
+
+Brown, S. (2018). Software architecture for developers. Leanpub.
+https://leanpub.com/software-architecture-for-developers
+
+Cohn, M. (2004). User stories applied: For agile software development. Addison-Wesley Professional.
+https://www.oreilly.com/library/view/user-stories-applied/0321205685/
+
+Evans, E. (2004). Domain-driven design: Tackling complexity in the heart of software. Addison-Wesley Professional.
+https://www.domainlanguage.com/ddd/
+
+Gothelf, J., & Seiden, J. (2021). Lean UX: Designing great products with agile teams (3.ª ed.). O'Reilly Media.
+https://www.oreilly.com/library/view/lean-ux-3rd/9781492092885/
+
+Osterwalder, A., Pigneur, Y., Bernarda, G., & Smith, A. (2014). Value proposition design: How to create products and services customers want. John Wiley & Sons.
+https://www.strategyzer.com/books/value-proposition-design
+
+Rosenfeld, L., Morville, P., & Arango, J. (2015). Information architecture: For the web and beyond (4.ª ed.). O'Reilly Media.
+https://www.oreilly.com/library/view/information-architecture-4th/9781491913529/
 
 # Anexos
