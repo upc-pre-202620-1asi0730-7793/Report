@@ -2271,6 +2271,34 @@ A continuación, se detalla la matriz de liderazgo y colaboración (LACX) para l
 
 #### 5.2.1.4. Development Evidence for Sprint Review. 
 
+#### 5.2.1.4. Development Evidence for Sprint Review.
+
+En este primer Sprint hemos realizado la implementación de nuestra Landing Page, donde todo el equipo ha aportado en varias tareas. En la siguiente tabla se muestran los commits realizados para evidenciar el desarrollo.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| upc-pre-202620-1asi0730-7793 | develop | 1712d6c | Merge pull request #4 from upc-pre-202620-1asi0730-7793/develop | Merge pull request #4 from upc-pre-202620-1asi0730-7793/develop | 19/09/2026 |
+| upc-pre-202620-1asi0730-7793 | develop | 7fe7538 | fix(landing): link youtube in index.html | link youtube in index.html | 19/09/2026 |
+| upc-pre-202620-1asi0730-7793 | develop | ed85441 | Merge pull request #3 from upc-pre-202620-1asi0730-7793/develop | Merge pull request #3 from upc-pre-202620-1asi0730-7793/develop | 19/09/2026 |
+| upc-pre-202620-1asi0730-7793 | develop | 2889157 | feat(i18n): implement bilingual dictionaries and translation engine in i18n.js | implement bilingual dictionaries and translation engine in i18n.js | 19/09/2026 |
+| upc-pre-202620-1asi0730-7793 | develop | 47d9cd6 | fix(landing): correct general structure and syntax errors in main.js | correct general structure and syntax errors in main.js | 19/09/2026 |
+| upc-pre-202620-1asi0730-7793 | develop | 3685bb3 | fix(landing): correct general structure and syntax errors in index.html | correct general structure and syntax errors in index.html | 19/09/2026 |
+| upc-pre-202620-1asi0730-7793 | develop | 2ed91c3 | Merge pull request feature/final-finalpart-style | Merge pull request feature/final-finalpart-style | 19/09/2026 |
+| upc-pre-202620-1asi0730-7793 | develop | 4045767 | feat: add final style adjustments to landing page | add final style adjustments to landing page | 19/09/2026 |
+| upc-pre-202620-1asi0730-7793 | develop | db796f1 | feat(landing): add subscription plans section in index.html | add subscription plans section in index.html | 19/09/2026 |
+| upc-pre-202620-1asi0730-7793 | develop | f8d0f1d | feat(landing): implement reveal on scroll logic for protocol and ecosystem in main.js | implement reveal on scroll logic for protocol and ecosystem in main.js | 19/09/2026 |
+| upc-pre-202620-1asi0730-7793 | develop | 8d6439e | style(landing): add styles for video and testimonial sections in styles.css | add styles for video and testimonial sections in styles.css | 19/09/2026 |
+| upc-pre-202620-1asi0730-7793 | develop | 5627df0 | feat(landing): implement initialization, responsive menu and hero video control | implement initialization, responsive menu and hero video control | 19/09/2026 |
+| upc-pre-202620-1asi0730-7793 | develop | f0a6a1f | style(landing): add styles for night protocol and ecosystem sections in styles.css | add styles for night protocol and ecosystem sections in styles.css | 19/09/2026 |
+| upc-pre-202620-1asi0730-7793 | develop | ae391c4 | style(landing): add css variables, reset, header, navigation and hero styles in styles.css | add css variables, reset, header, navigation and hero styles in styles.css | 19/09/2026 |
+| upc-pre-202620-1asi0730-7793 | develop | 795c91c | Merge pull request feature/final-preview-landingpage | Merge pull request feature/final-preview-landingpage | 19/09/2026 |
+| upc-pre-202620-1asi0730-7793 | develop | f20d424 | feat(landing): add contact section, footer and terms modal markup | add contact section, footer and terms modal markup | 19/09/2026 |
+| upc-pre-202620-1asi0730-7793 | develop | 3e57cf8 | feat(landing): add video showcase and testimonials sections in index.html | add video showcase and testimonials sections in index.html | 19/09/2026 |
+| upc-pre-202620-1asi0730-7793 | develop | 7816c6c | chore(assets): add required image assets for landing page | add required image assets for landing page | 19/09/2026 |
+| upc-pre-202620-1asi0730-7793 | develop | aa5543b | feat(landing): add night protocol and ecosystem sections in index.html | add night protocol and ecosystem sections in index.html | 19/09/2026 |
+| upc-pre-202620-1asi0730-7793 | develop | 1c254f0 | feat(landing): add base html structure, navigation bar and hero section in index.html | add base html structure, navigation bar and hero section in index.html | 19/09/2026 |
+| upc-pre-202620-1asi0730-7793 | develop | 0ec1b1e | feat(landing): add core structure, styles, main scripts and i18n support | add core structure, styles, main scripts and i18n support | 19/09/2026 |
+
 #### 5.2.1.5. Execution Evidence for Sprint Review. 
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review. 
