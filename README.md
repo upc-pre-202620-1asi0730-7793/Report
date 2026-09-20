@@ -56,11 +56,12 @@ Durante la fase de preparación del informe, se llevaron a cabo las siguientes a
 AV1: Las tareas asignadas al AV1 han sido finalizadas y se encuentran correctamente documentadas en el repositorio de GitHub:
 
 Se redactaron y crearon los contenidos asignados a cada miembro utilizando el formato Markdown, y se realizaron Conventional Commits para documentar el avance en el repositorio.
-Se generaron los recursos necesarios y se agregaron las imágenes al repositorio en la carpeta assets correspondiente a cada rama del informe.
+Se generaron los recursos necesarios y se agregaron las imágenes al repositorio en la carpeta resources correspondiente a cada rama del informe.
 Se organizaron reuniones para coordinar el progreso de los componentes del informe y del Sprint 1, enfocado en el desarrollo de la Landing Page.
 
 <div align="center">
-<img src="assets/chapter01/commits informe - 1.png" alt="Commits del informe">
+<img src="resources/imgs/MainColaboration.png" alt="Commits del informe">
+<img src="resources/imgs/MainColaboration2.png" alt="Commits del informe">
 </div>
 
 
