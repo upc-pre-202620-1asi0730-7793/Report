@@ -42,7 +42,7 @@
 
 |Versión|Fecha|Autor|Descripción de modificación|
 |:------|:----|:----|:--------------------|
-|||||
+| 1.0 | 2026-09-19 | Noctiva | Desarrollo del Capítulo I, Capítulo II, Capítulo III, Capítulo IV y el Sprint 1 del Capítulo V |
 
 # Project Report Collaboration Insights 
 
