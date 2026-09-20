@@ -2088,7 +2088,15 @@ Para el despliegue de la Landing Page se utilizó GitHub Pages, una herramienta 
 #### 5.2.1.1. Sprint Planning 1. 
 
 #### 5.2.1.2. Aspect Leaders and Collaborators. 
+A continuación, se detalla la matriz de liderazgo y colaboración (LACX) para los aspectos clave abordados en este sprint.  
 
+| Team Member (Last Name, First Name) | GitHub Username | Landing Page (HTML/CSS/JS)<br>Leader (L) / Collaborator (C) | UX/UI & Prototyping<br>Leader (L) / Collaborator (C) | Project Documentation<br>Leader (L) / Collaborator (C) |
+| :--- | :--- | :---: | :---: | :---: |
+| Cano Gomez, Yam Antony  | Yam-1CG | C | C | L |
+| Ramirez Rodriguez, Mauricio Joao  | MauRicio1321rr  | C | C | C |
+| Dextre Dextre Flores, Leonardo | Leo-dex45 | C | C | C |
+| Patricio Farias, Ana Camila | anacamilapatricio-sketch | C | L | C |
+| Salcedo Correa, Carlos Mathhew | Matthewnhfe | L | L | C |
 #### 5.2.1.3. Sprint Backlog 1. 
 | User Story Id | User Story Title | Task Id | Task Title | Task Description | Estimation (Hours) | Assigned To | Status |
 | :---: | :--- | :---: | :--- | :--- | :---: | :---: | :---: |
