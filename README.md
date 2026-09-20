@@ -21,14 +21,13 @@
 
 ### Integrantes
 
-```text
-Código         Apellidos y Nombres
-     U20241I469     Patricio Farias, Ana Camila
-U202423775     Cano Gomez, Yam Antony
-       U202421823     Dextre Flores, Leonardo Felix
-          U202218235     Ramirez Rodriguez, Mauricio Joao
-        U202421065     Salcedo Correa, Carlos Matthew
-```
+| Código | Apellidos y Nombres |
+| :---: | :--- |
+| **U20241I469** | Patricio Farias, Ana Camila |
+| **U202423775** | Cano Gomez, Yam Antony |
+| **U202421823** | Dextre Flores, Leonardo Felix |
+| **U202218235** | Ramirez Rodriguez, Mauricio Joao |
+| **U202421065** | Salcedo Correa, Carlos Matthew |
 
 
 
