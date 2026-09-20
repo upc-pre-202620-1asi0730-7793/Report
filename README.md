@@ -2300,12 +2300,24 @@ En este primer Sprint hemos realizado la implementación de nuestra Landing Page
 | upc-pre-202620-1asi0730-7793 | develop | 0ec1b1e | feat(landing): add core structure, styles, main scripts and i18n support | add core structure, styles, main scripts and i18n support | 19/09/2026 |
 
 #### 5.2.1.5. Execution Evidence for Sprint Review. 
+Capturas de la página desplegada junto a un video demostrativo de su diseño y usabilidad
+
+<img src="resources/imgs/Landing-Desplegada.png">
+
+link de la landing: https://upc-pre-202620-1asi0730-7793.github.io/Landing-Page/
+link del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202421065_upc_edu_pe/IQBfINsAKTsuTZ5_fDXp19sKAa5z-SRiOqBqVa2xgvU_l0I?e=q8RIZT
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review. 
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review. 
+Durante este sprint, se completó el despliegue de la landing page para habilitar su acceso público mediante GitHub Pages. El procedimiento inició con la creación y configuración de un repositorio público bajo la nomenclatura asignada al proyecto. Posteriormente, se cargó el código fuente y se activó el servicio de publicación web desde los ajustes del repositorio. Finalmente, se validó la disponibilidad y operatividad del sitio en línea, estableciendo un flujo de mantenimiento continuo en el cual cualquier cambio subido al repositorio se refleja automáticamente en producción.
+
+*Evidencia de deployment 1*
+<img src="resources/imgs/Github-Pages-Nowxay.png">
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint. 
+<img src="resources/imgs/Colaboration1.png">
+<img src="resources/imgs/Colaboration2.png">
 
 
 # Conclusiones 
