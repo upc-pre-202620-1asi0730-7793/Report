@@ -2094,6 +2094,24 @@ Para el despliegue de la Landing Page se utilizó GitHub Pages, una herramienta 
 ### 5.2.1. Sprint 1
 
 #### 5.2.1.1. Sprint Planning 1. 
+#### 5.2.1.1. Sprint Planning 1.
+
+El Sprint Planning 1 se enfocó en el desarrollo e implementación de la primera versión funcional del sitio web estático (Landing Page) de Noxway. El objetivo principal de esta iteración es establecer la presencia digital del producto, comunicando claramente la propuesta de valor tanto para los trabajadores de turno nocturno como para sus contactos de confianza, integrando información sobre los planes de suscripción, testimonios y demostraciones visuales de la plataforma.
+
+| Sprint # | Sprint 1 |
+| :--- | :--- |
+| **Sprint Planning Background** | |
+| **Date** | 2026-09-19 |
+| **Time** | 1:00 PM |
+| **Location** | Reunión virtual mediante Discord |
+| **Prepared By** |  Ana Camila Patricio Farias|
+| **Attendees (to planning meeting)** | Ana Patricio,Yam Cano,Leonardo Dextre,Mauricio Ramirez,Carlos Salcedo|
+| **Sprint 1 Review Summary** |  |
+| **Sprint 1 Retrospective Summary** | Durante este sprint, todos los integrantes compartieron sus ideas respecto a la plataforma web, tales como el rubro, los segmentos objetivos, beneficios, funcionalidades. Tuvimos tareas bien organizadas y realizadas, que se puede verificar en los avances del informe y del Landing Page |
+| **Sprint Goal & User Stories** | |
+| **Sprint 1 Goal** | Nuestro enfoque está en implementar la landing page de nuestra plataforma, asegurando su adaptabilidad a diferentes dispositivos, coherencia visual y funcionalidad multilingüe. Creemos que esto ofrece una experiencia de navegación más clara, atractiva y accesible a los usuarios potenciales de nuestra solución. Esto se confirmará cuando los usuarios puedan cambiar el idioma fácilmente desde la interfaz, navegar la página sin errores visuales desde cualquier dispositivo, y se valide que imágenes y textos estén correctamente integrados y espaciados.|
+| **Sprint 1 Velocity** | 15 Story Points |
+| **Sum of Story Points** | 14 Story Points |
 
 #### 5.2.1.2. Aspect Leaders and Collaborators. 
 A continuación, se detalla la matriz de liderazgo y colaboración (LACX) para los aspectos clave abordados en este sprint.  
