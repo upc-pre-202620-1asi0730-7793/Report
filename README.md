@@ -2085,15 +2085,146 @@ Para el despliegue de la Landing Page se utilizó GitHub Pages, una herramienta 
 
 ### 5.1.2. Source Code Management. 
 
-### 5.1.3. Source Code Style Guide & Conventions. 
+En esta sección, el equipo establece los medios y esquemas de organización para el seguimiento de modificaciones durante el ciclo de vida del proyecto. Para ello, se utiliza **GitHub** como plataforma y sistema de control de versiones.
 
-### 5.1.4. Software Deployment Configuration. 
+**Repositorios del Proyecto:**
+*   **Organización:** https://github.com/upc-pre-202620-1asi0730-7793
+*   **Informe (Report):** https://github.com/upc-pre-202620-1asi0730-7793/Report
+*   **Landing Page:** https://github.com/upc-pre-202620-1asi0730-7793/Landing-Page
+
+**Flujo de Trabajo (Workflow): GitFlow**
+Se adopta como referencia el modelo [GitFlow de Vincent Driessen](https://nvie.com/posts/a-successful-git-branching-model/) como esquema de control de versiones, definiendo las siguientes ramas principales para proteger el código de producción:
+*   `main`: Contiene el código de producción final. Siempre estable y listo para el público.
+*   `develop`: Rama de integración o desarrollo. Aquí se une todo el código nuevo de las características terminadas antes de preparar un lanzamiento.
+
+**Convenciones de Nomenclatura de Ramas (En inglés):**
+Para las ramas de apoyo temporales que se derivan de `develop` o `main`, se aplican las siguientes convenciones:
+
+| Tipo | Prefijo | Formato | Ejemplo |
+| :--- | :--- | :--- | :--- |
+| **Característica (Feature)** | `feature/` | `feature/descriptive-name` | `feature/hero-section` |
+| **Lanzamiento (Release)** | `release/` | `release/x.y.z` | `release/1.0.0` |
+| **Corrección urgente (Hotfix)** | `hotfix/` | `hotfix/x.y.z-description` | `hotfix/1.0.1-navbar-fix` |
+
+**Versionado de releases:**
+
+Los releases de software seguirán [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0.0.html), con el formato `MAJOR.MINOR.PATCH`. Una vez establecida la API pública en `1.0.0`, se incrementará `MAJOR` ante cambios incompatibles, `MINOR` al agregar funcionalidades compatibles y `PATCH` al corregir errores sin romper compatibilidad. Durante el desarrollo inicial se utilizará `0.y.z`. Estos números corresponden a releases de software; el registro de versiones del informe identifica sus revisiones mediante commits.
+
+**Convenciones de Commits (Conventional Commits 1.0.0):**
+Para asegurar la trazabilidad y mantener un historial estructurado, se aplica el estándar [Conventional Commits 1.0.0](https://www.conventionalcommits.org/en/v1.0.0/) para los mensajes de los commits en todos los repositorios, utilizando el idioma inglés de forma predeterminada. Basándonos en la Convención Angular, se emplearán los siguientes prefijos estandarizados:
+
+*   `feat:` Introduce una nueva característica a la base de código.
+*   `fix:` Corrige un error (bug) en el código.
+*   `docs:` Actualizaciones exclusivas de documentación.
+*   `style:` Cambios que no afectan el significado del código (espacios, formato, etc.).
+*   `refactor:` Cambio de código que ni corrige un error ni añade una característica.
+*   `perf:` Mejora de rendimiento.
+*   `test:` Adición o corrección de pruebas.
+*   `build:` Cambios en el sistema de construcción o dependencias externas.
+*   `ci:` Cambios en archivos de configuración y scripts de CI.
+*   `chore:` Mantenimiento general, sin cambios en el código de producción.
+
+
+### 5.1.3. Source Code Style Guide & Conventions.
+
+Para asegurar la calidad, mantenibilidad y coherencia de nuestra solución, hemos definido un conjunto de convenciones y buenas prácticas. Dado que la plataforma Noxway se presenta inicialmente a través de una landing page interactiva, nos centramos en los estándares para HTML, CSS y JavaScript, los pilares de nuestro desarrollo.
+
+## Convenciones de Nomenclatura
+
+Para mantener la consistencia y la claridad a lo largo del código fuente, seguimos las siguientes reglas de nombrado:
+
+* **Variables y Funciones en JavaScript**: Se utiliza la convención `camelCase` (ej. `selectedPlan`, `initializeVideos()`). Los nombres deben ser completamente descriptivos del comportamiento o dato almacenado.
+* **Constantes en JavaScript**: Se utilizan letras mayúsculas separadas por guiones bajos (`SNAKE_CASE`) para definir valores inmutables o de configuración global.
+* **Clases e Identificadores en HTML/CSS**: Se utiliza estrictamente la convención `kebab-case` en minúsculas para todos los nombres de clases e identificadores `id` (ej. `site-header`, `hero-section`, `btn-primary-hero`, `hamburger-btn`, `mobile-drawer`).
+* **Atributos Personalizados (`data-*`)**: Se emplean nombres en `kebab-case` para almacenar metadatos de traducción e interacción dinámica (ej. `data-i18n`, `data-lang`, `data-plan-id`, `data-role-target`).
+* **Archivos y Directorios**: Los nombres de archivos y carpetas se escriben íntegramente en minúsculas separando las palabras mediante guiones cortos (`kebab-case`) (ej. `index.html`, `style.css`, `i18n.js`, `main.js`, `hero-night-poster.jpg`).
+
+## Estructura Semántica (HTML)
+
+La estructura de nuestro documento HTML se basa en la semántica web, utilizando etiquetas con un significado claro tanto para el navegador como para los desarrolladores. Esto no solo mejora la accesibilidad (WAI-ARIA) y el posicionamiento SEO, sino que también facilita la comprensión y auditoría del código. A continuación, se detallan las etiquetas utilizadas en el proyecto:
+
+* `<!DOCTYPE html>`: Define el tipo de documento como HTML5.
+* `<html lang="en">`: Elemento raíz del documento HTML con la declaración del idioma principal.
+* `<head>`: Encabezado del documento donde se incluyen metadatos esenciales, favicon, etiquetas Open Graph y enlaces a hojas de estilo y tipografías externas.
+* `<meta>`: Define los metadatos del sitio (codificación `UTF-8`, configuración de `viewport` para diseño adaptable, descripción, palabras clave y metadatos para redes sociales).
+* `<title>`: Especifica el título visible del sitio en la pestaña del navegador.
+* `<link>`: Enlaza recursos externos como las fuentes tipográficas (`Poppins` y `Roboto`), librerías de iconos (`FontAwesome`) y la hoja de estilos principal (`css/style.css`).
+* `<body>`: Cuerpo del documento que alberga todo el contenido visible e interactivo de la interfaz.
+* `<a>`: Enlaces de navegación interna, accesos directos de accesibilidad (`skip-to-content`), redes sociales y botones de acción.
+* `<header>`: Encabezado principal del sitio (`site-header`) que contiene el logotipo de Noxway y el menú de navegación.
+* `<nav>`: Contenedor semántico para la barra de navegación principal (`desktop-nav`) y el menú desplegable para dispositivos móviles (`mobile-nav-drawer`).
+* `<ul>` y `<li>`: Listas no ordenadas para agrupar las opciones del menú de navegación y características de los planes.
+* `<button>`: Elementos interactivos para el control de accesibilidad, selección de idioma (`EN` | `ES`), menú hamburguesa, acordeón de preguntas frecuentes y navegadores de testimonios y videos.
+* `<main>`: Contenedor principal que agrupa las secciones funcionales de la landing page:
+  * **Sección Inicio (`#inicio`)**: Presentación principal (*Hero*) estructurada con `<h1>`, `<p>`, video de fondo (`<video>`, `<source>`) y botones de llamada a la acción.
+  * **Protocolo Nocturno (`#trayecto`)**: Describe el flujo del servicio mediante tarjetas estructuradas con `<article class="protocol-step">`.
+  * **Ecosistema (`#mapa`)**: Muestra las funcionalidades clave organizadas en tarjetas `<article class="ecosystem-card">` e imágenes con carga diferida (`loading="lazy"`).
+  * **Muestra Multimedia (`#videos`)**: Sección interactiva con reproductores de video embebidos mediante la etiqueta `<iframe>`.
+  * **Testimonios (`#comunidad`)**: Galería interactiva con pestañas de selección y testimonios destacados en bloques `<blockquote>`.
+  * **Planes de Suscripción (`#planes`)**: Matriz de tarifas estructurada con artículos interactivos (`<article class="pricing-row">`).
+  * **Preguntas Frecuentes (`#faq`)**: Acordeón funcional construido con `<button>` y paneles `<div class="faq-answer-panel">`.
+  * **Registro y Contacto (`#registro`)**: Formulario interactivo compuesto por `<form>`, `<input>` y `<select>`.
+* `<article>`: Define bloques de contenido independientes y reutilizables dentro de las secciones.
+* `<footer>`: Pie de página (`site-footer`) que incluye derechos de autor, enlaces a términos legales y navegación secundaria.
+* `<div>`: Contenedores genéricos utilizados para maquetación, ventanas modales de términos y condiciones (`terms-modal-overlay`) y agrupaciones visuales.
+* `<script>`: Carga de los archivos JavaScript (`js/i18n.js` y `js/main.js`) para gestionar la internacionalización y la interactividad del sitio.
+
+## Estilos y Maquetación (CSS)
+
+Nuestra guía de estilo para CSS se centra en la claridad, simplicidad y consistencia visual. Se han definido propiedades clave para el diseño visual y la adaptabilidad del sitio:
+
+* `width` y `height`: Controlan las dimensiones y proporciones de contenedores, tarjetas e imágenes.
+* `padding` y `margin`: Establecen el espaciado interno y externo entre elementos para mantener una maquetación limpia.
+* `font-family`: Establece la tipografía del sitio, utilizando `Poppins` para títulos y `Roboto` para textos de cuerpo.
+* `font-size` y `font-weight`: Determinan la jerarquía visual y el grosor del texto.
+* `color` y `background-color`: Definen la paleta croma nocturna del sitio (tonos oscuros con acentos brillantes).
+* `display` y `flexbox`: Estructuran la alineación y distribución responsiva de los elementos en la barra de navegación, cuadrículas y formularios.
+
+## Estándares de Accesibilidad (WAI-ARIA)
+
+El código fuente implementa los siguientes estándares para garantizar el cumplimiento de accesibilidad[cite: 2]:
+
+* **Roles explícitos**: Uso de roles WAI-ARIA como `role="banner"`, `role="dialog"`, `role="tablist"`, `role="tab"`, `role="tabpanel"`, `role="radiogroup"`, `role="radio"` y `role="contentinfo"`[cite: 2].
+* **Estados dinámicos**: Control de visibilidad e interacción mediante los atributos `aria-expanded`, `aria-pressed`, `aria-selected`, `aria-hidden` y `hidden`[cite: 2].
+* **Etiquetado claro**: Vinculación de controles mediante `aria-label`, `aria-labelledby`, `aria-controls` y `aria-live="polite"` para la lectura por tecnologías de asistencia[cite: 2].
+
+### 5.1.4. Software Deployment Configuration.
+
+Para poder publicar nuestra landing page, seguimos una serie de pasos específicos utilizando GitHub Pages, que permite alojar sitios web estáticos directamente desde un repositorio.
+
+El despliegue en GitHub Pages requiere que los archivos estén organizados de una manera particular para que la plataforma los reconozca y los sirva correctamente.
+
+## 1. Organización del Repositorio
+
+Los archivos del proyecto están organizados de la siguiente manera dentro del repositorio:
+
+* **Página Principal**: El archivo `index.html` se ubica en la carpeta raíz del repositorio como punto de entrada de la solución.
+* **Hojas de Estilo**: Los estilos globales del sitio se encuentran dentro de la carpeta `css/` bajo el archivo `css/style.css`.
+* **Archivos JavaScript**: Los scripts se organizan en la carpeta `js/`. El archivo `js/i18n.js` se utiliza para gestionar las traducciones del sitio, mientras que `js/main.js` controla las interacciones del usuario.
+* **Recursos Multimedia**: Las imágenes, gráficos y fondos multimedia se guardan dentro de la carpeta `assets/images/`.
+
+## 2. Subida de Archivos
+
+Una vez que los archivos están correctamente organizados y verificados en el entorno local, se suben al repositorio a través de un *commit* y se sincronizan con la rama principal.
+
+## 3. Configuración en GitHub Pages
+
+Para habilitar la publicación en la plataforma, se realiza la siguiente configuración:
+
+1. Se navega a la pestaña **Settings** > **Pages** dentro del repositorio.
+2. Se selecciona la rama `main` como la fuente de despliegue.
+3. Se configura la carpeta raíz (`/root`) como el origen de la página.
+
+## 4. Despliegue Automático
+
+* GitHub Pages inicia un proceso de verificación y despliegue automático.
+* Al finalizar el proceso, la plataforma genera una URL pública para acceder a la landing page.
+* El archivo `js/i18n.js` es cargado por el script principal `js/main.js` para permitir que los usuarios cambien el idioma de la página de forma dinámica.
 
 ## 5.2. Landing Page, Services & Applications Implementation. 
 
 ### 5.2.1. Sprint 1
 
-#### 5.2.1.1. Sprint Planning 1. 
 #### 5.2.1.1. Sprint Planning 1.
 
 El Sprint Planning 1 se enfocó en el desarrollo e implementación de la primera versión funcional del sitio web estático (Landing Page) de Noxway. El objetivo principal de esta iteración es establecer la presencia digital del producto, comunicando claramente la propuesta de valor tanto para los trabajadores de turno nocturno como para sus contactos de confianza, integrando información sobre los planes de suscripción, testimonios y demostraciones visuales de la plataforma.
