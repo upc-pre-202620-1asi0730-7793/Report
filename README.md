@@ -164,8 +164,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 | Criterio específico                                                                             | Acciones realizadas                                                      | Conclusiones                   |
 |-------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|--------------------------------|
-| Trabaja en equipo para proporcionar liderazgo en forma conjunta                                 |<ul><li><b>Patricio Farias, Ana Camila</b> <br> <b>AV1</b>:Lideré la gestión ágil, facilitación y articulación operativa del equipo a lo largo del ciclo de vida del sprint, asegurando el cumplimiento riguroso de los hitos y entregables fijados. Fomenté una comunicación transversal y continua entre las áreas de diseño, arquitectura y desarrollo, organizando y desglosando las tareas en el tablero de trabajo para optimizar la carga y mitigar bloqueos tempranos. Asimismo, impulsé sesiones colaborativas de toma de decisiones para resolver discrepancias técnicas y de alcance, garantizando la trazabilidad, coherencia e integración de los artefactos producidos y asegurando la alineación constante de los objetivos individuales con la visión global de la solución.</li><br><li><b>Dextre Flores, Leonardo Felix</b> <br> <b>AV1</b>: Organicé mi contribución en una secuencia de artefactos relacionados entre sí, avanzando desde la vista general de la arquitectura hasta el diseño de clases y persistencia. Mantuve una nomenclatura consistente entre los Bounded Contexts, componentes, clases y estructuras de datos, y documenté las responsabilidades principales de cada elemento para facilitar su revisión y posterior utilización por los demás integrantes. También verifiqué la correspondencia entre las decisiones arquitectónicas y las User Stories previamente definidas, procurando evitar dependencias innecesarias entre contextos y dejando una estructura organizada que facilite posteriormente la distribución de tareas de implementación de frontend, backend y persistencia.</li><br><li><b>Salcedo Correa, Carlos Matthew</b> <br> <b>AV1</b>: Asumí el liderazgo técnico en el diseño de experiencia e interfaces de usuario (UX/UI) y en la estructuración de la arquitectura de información para el ecosistema digital de Prothia. Lideré la definición estratégica de SEO y metadatos tanto para la Landing Page pública como para la Web Application, y coordiné activamente con los responsables de requisitos la traducción de los objetivos de usuario hacia los flujos visuales del sistema (wireflows y user flows). Asimismo, proporcioné dirección técnica durante la implementación frontend del Landing Page, asegurando la consistencia entre los artefactos de diseño y el código fuente.</li></ul> <ul><li><b>Ramirez Rodriguez, Mauricio Joao</b> <br> <b>AV1</b>: Colaboré con el equipo planificando y llevando a cabo la fase de entrevistas para recoger los requerimientos del usuario, y elaboré los Style Guidelines del proyecto. Al definir y entregar estas pautas visuales a tiempo, facilité una referencia clara para el diseño de la interfaz, coordinando con el grupo para resolver dudas y cumplir con los objetivos fijados dentro del plazo previsto.</li><br><li><b>Cano Gomez, Yam</b> <br> <b>AV1</b>: Participé activamente en la coordinación y dinamización de las actividades del equipo, facilitando los canales de comunicación y la toma de decisiones conjuntas para asegurar el avance continuo del proyecto. Colaboré estrechamente en la revisión, consolidación y control de calidad de los distintos entregables, apoyando de manera constante a mis compañeros ante bloqueos o contingencias técnicas. Asimismo, promoví la alineación del grupo respecto a las prioridades y cronogramas establecidos, fomentando un entorno de trabajo colaborativo e integrando los aportes individuales para garantizar la coherencia global y el cumplimiento exitoso de los objetivos planteados.</li>  | El trabajo conjunto y la comunicación continua me permitieron asumir un rol activo en la toma de decisiones técnicas y metodológicas del grupo. Al facilitar la coordinación en la estructuración de los requisitos y consensuar la priorización de los artefactos ágiles, contribuí a un liderazgo distribuido donde cada integrante aportó valor de manera equitativa, logrando un flujo de trabajo organizado y alineado con los objetivos del proyecto. Asimismo, la coordinación entre UX/UI, SEO y desarrollo frontend permitió alinear la visión del producto con las necesidades del usuario, reforzando la colaboración y el liderazgo técnico del equipo. |
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. |<ul><li><b>Patricio Farias, Ana Camila</b> <br> <b>AV1</b>: Relalice las preguntas de la entrevistas, lo que permitió estructurar el needfinding mediante arquetipos de usuario, matrices de tareas, Journey Map y Empathy Mapp. A partir de estos hallazgos, modelé la lógica del dominio aplicando Big Picture EventStorming y definiendo un lenguaje ubicuo para alinear el negocio con el diseño del sistema. Finalmente, traduje estos requisitos a un marco ágil construyendo el Impact Mapping, especificando las historias de usuario y consolidando el Product Backlog priorizado para el desarrollo del producto.</li><br><li><b>Dextre Flores, Leonardo Felix</b> <br> <b>AV1</b>: Contribuí al diseño técnico de Prothia desarrollando los artefactos de arquitectura comprendidos entre las secciones 4.6.2 y 4.8.1. Definí la representación del sistema mediante los diagramas C4 de contexto, contenedores y componentes, estableciendo los principales actores, sistemas externos, unidades de software y responsabilidades de la solución. Posteriormente desarrollé los diagramas de clases correspondientes a los Bounded Contexts y módulos de soporte, manteniendo consistencia entre las entidades, servicios, interfaces, enumeraciones y relaciones del dominio. Finalmente, estructuré los diagramas de base de datos en PostgreSQL, especificando tablas, atributos, identificadores, claves y restricciones necesarias para mantener la integridad y la separación de responsabilidades entre contextos. Estas decisiones permitieron establecer una referencia técnica común para el equipo durante las siguientes etapas de desarrollo.</li><br><li><b>Salcedo Correa, Carlos Matthew</b> <br> <b>AV1</b>: Diseñé la arquitectura de información integral estableciendo los sistemas de búsqueda, navegación, SEO Tags y Meta Tags para la Landing Page y Web Application. A nivel visual y de interacción, diseñé los wireframes y mock-ups responsive (desktop y mobile) de la Landing Page, así como los wireframes, wireflows por User Goal, mock-ups y User Flow Diagrams (happy y unhappy paths) de la Web Application. Desarrollé además el prototipo interactivo en Figma y apoyé de forma colaborativa en la maquetación y desarrollo web de la Landing Page (HTML5, CSS3 y JavaScript), cumpliendo con los estándares de diseño y accesibilidad definidos.</li></ul> <ul><li><b>Ramirez Rodriguez, Mauricio Joao</b> <br> <b>AV1</b>:Fomenté un entorno colaborativo y estructurado al planificar y ejecutar la fase de entrevistas a los usuarios, definiendo objetivos claros para la recolección de información relevante para el equipo. Con base en estos hallazgos, elaboré los Style Guidelines del proyecto, estableciendo de manera organizada los estándares visuales, componentes y lineamientos de diseño. Gracias a la entrega oportuna de estas guías, facilité la alineación del equipo en el desarrollo de la interfaz, asegurando la coherencia del diseño y el cumplimiento puntual de las metas establecidas para el sprint. </li><br><li><b>Cano Gomez, Yam</b> <br> <b>AV1</b>: Promoví un entorno de trabajo colaborativo durante el desarrollo del Capítulo 1, organizando con el equipo el plan para las entrevistas y el Needfinding. Establecí metas para la recolección de información, prioricé las actividades del entregable y aseguré la participación activa de todos en el análisis de hallazgos. Además, facilité la consolidación de las User Personas, Empathy Maps y User Journey Maps, logrando que el equipo trabajara alineado y cumpliera a tiempo con los objetivos del proyecto.</li>| La articulación de las entrevistas y el análisis competitivo permitió integrar una visión común y fundamentada dentro del equipo, facilitando una planificación clara mediante herramientas como el EventStorming y el Impact Mapping. Este proceso colaborativo aseguró que la definición de historias de usuario y el Product Backlog respondieran a metas viables y medibles, cumpliendo oportunamente con los entregables de elicitación y especificación de requisitos. Asimismo, la definición de la arquitectura de información, el prototipado y la implementación visual aportaron un marco compartido para coordinar tareas, mantener consistencia entre diseño y desarrollo y asegurar la entrega de una experiencia alineada con los objetivos del proyecto. |
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta                                 |<ul><li><b>Patricio Farias, Ana Camila</b> <br> <b>AV1</b>:Lideré la gestión ágil, facilitación y articulación operativa del equipo a lo largo del ciclo de vida del sprint, asegurando el cumplimiento riguroso de los hitos y entregables fijados. Fomenté una comunicación transversal y continua entre las áreas de diseño, arquitectura y desarrollo, organizando y desglosando las tareas en el tablero de trabajo para optimizar la carga y mitigar bloqueos tempranos. Asimismo, impulsé sesiones colaborativas de toma de decisiones para resolver discrepancias técnicas y de alcance, garantizando la trazabilidad, coherencia e integración de los artefactos producidos y asegurando la alineación constante de los objetivos individuales con la visión global de la solución.</li><br><li><b>Dextre Flores, Leonardo Felix</b> <br> <b>AV1</b>: Organicé mi contribución en una secuencia de artefactos relacionados entre sí, avanzando desde la vista general de la arquitectura hasta el diseño de clases y persistencia. Mantuve una nomenclatura consistente entre los Bounded Contexts, componentes, clases y estructuras de datos, y documenté las responsabilidades principales de cada elemento para facilitar su revisión y posterior utilización por los demás integrantes. También verifiqué la correspondencia entre las decisiones arquitectónicas y las User Stories previamente definidas, procurando evitar dependencias innecesarias entre contextos y dejando una estructura organizada que facilite posteriormente la distribución de tareas de implementación de frontend, backend y persistencia.</li><br><li><b>Salcedo Correa, Carlos Matthew</b> <br> <b>AV1</b>: Asumí el liderazgo técnico en el diseño de experiencia e interfaces de usuario (UX/UI) y en la estructuración de la arquitectura de información para el ecosistema digital de Noctiva. Lideré la definición estratégica de SEO y metadatos tanto para la Landing Page pública como para la Web Application, y coordiné activamente con los responsables de requisitos la traducción de los objetivos de usuario hacia los flujos visuales del sistema (wireflows y user flows). Asimismo, proporcioné dirección técnica durante la implementación frontend del Landing Page, asegurando la consistencia entre los artefactos de diseño y el código fuente.</li></ul> <ul><li><b>Ramirez Rodriguez, Mauricio Joao</b> <br> <b>AV1</b>: Colaboré con el equipo planificando y llevando a cabo la fase de entrevistas para recoger los requerimientos del usuario, y elaboré los Style Guidelines del proyecto. Al definir y entregar estas pautas visuales a tiempo, facilité una referencia clara para el diseño de la interfaz, coordinando con el grupo para resolver dudas y cumplir con los objetivos fijados dentro del plazo previsto.</li><br><li><b>Cano Gomez, Yam</b> <br> <b>AV1</b>: Participé activamente en la coordinación y dinamización de las actividades del equipo, facilitando los canales de comunicación y la toma de decisiones conjuntas para asegurar el avance continuo del proyecto. Colaboré estrechamente en la revisión, consolidación y control de calidad de los distintos entregables, apoyando de manera constante a mis compañeros ante bloqueos o contingencias técnicas. Asimismo, promoví la alineación del grupo respecto a las prioridades y cronogramas establecidos, fomentando un entorno de trabajo colaborativo e integrando los aportes individuales para garantizar la coherencia global y el cumplimiento exitoso de los objetivos planteados.</li>  | El trabajo conjunto y la comunicación continua me permitieron asumir un rol activo en la toma de decisiones técnicas y metodológicas del grupo. Al facilitar la coordinación en la estructuración de los requisitos y consensuar la priorización de los artefactos ágiles, contribuí a un liderazgo distribuido donde cada integrante aportó valor de manera equitativa, logrando un flujo de trabajo organizado y alineado con los objetivos del proyecto. Asimismo, la coordinación entre UX/UI, SEO y desarrollo frontend permitió alinear la visión del producto con las necesidades del usuario, reforzando la colaboración y el liderazgo técnico del equipo. |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. |<ul><li><b>Patricio Farias, Ana Camila</b> <br> <b>AV1</b>: Relalice las preguntas de la entrevistas, lo que permitió estructurar el needfinding mediante arquetipos de usuario, matrices de tareas, Journey Map y Empathy Mapp. A partir de estos hallazgos, modelé la lógica del dominio aplicando Big Picture EventStorming y definiendo un lenguaje ubicuo para alinear el negocio con el diseño del sistema. Finalmente, traduje estos requisitos a un marco ágil construyendo el Impact Mapping, especificando las historias de usuario y consolidando el Product Backlog priorizado para el desarrollo del producto.</li><br><li><b>Dextre Flores, Leonardo Felix</b> <br> <b>AV1</b>: Contribuí al diseño técnico de Noctiva desarrollando los artefactos de arquitectura comprendidos entre las secciones 4.6.2 y 4.8.1. Definí la representación del sistema mediante los diagramas C4 de contexto, contenedores y componentes, estableciendo los principales actores, sistemas externos, unidades de software y responsabilidades de la solución. Posteriormente desarrollé los diagramas de clases correspondientes a los Bounded Contexts y módulos de soporte, manteniendo consistencia entre las entidades, servicios, interfaces, enumeraciones y relaciones del dominio. Finalmente, estructuré los diagramas de base de datos en PostgreSQL, especificando tablas, atributos, identificadores, claves y restricciones necesarias para mantener la integridad y la separación de responsabilidades entre contextos. Estas decisiones permitieron establecer una referencia técnica común para el equipo durante las siguientes etapas de desarrollo.</li><br><li><b>Salcedo Correa, Carlos Matthew</b> <br> <b>AV1</b>: Diseñé la arquitectura de información integral estableciendo los sistemas de búsqueda, navegación, SEO Tags y Meta Tags para la Landing Page y Web Application. A nivel visual y de interacción, diseñé los wireframes y mock-ups responsive (desktop y mobile) de la Landing Page, así como los wireframes, wireflows por User Goal, mock-ups y User Flow Diagrams (happy y unhappy paths) de la Web Application. Desarrollé además el prototipo interactivo en Figma y apoyé de forma colaborativa en la maquetación y desarrollo web de la Landing Page (HTML5, CSS3 y JavaScript), cumpliendo con los estándares de diseño y accesibilidad definidos.</li></ul> <ul><li><b>Ramirez Rodriguez, Mauricio Joao</b> <br> <b>AV1</b>:Fomenté un entorno colaborativo y estructurado al planificar y ejecutar la fase de entrevistas a los usuarios, definiendo objetivos claros para la recolección de información relevante para el equipo. Con base en estos hallazgos, elaboré los Style Guidelines del proyecto, estableciendo de manera organizada los estándares visuales, componentes y lineamientos de diseño. Gracias a la entrega oportuna de estas guías, facilité la alineación del equipo en el desarrollo de la interfaz, asegurando la coherencia del diseño y el cumplimiento puntual de las metas establecidas para el sprint. </li><br><li><b>Cano Gomez, Yam</b> <br> <b>AV1</b>: Promoví un entorno de trabajo colaborativo durante el desarrollo del Capítulo 1, organizando con el equipo el plan para las entrevistas y el Needfinding. Establecí metas para la recolección de información, prioricé las actividades del entregable y aseguré la participación activa de todos en el análisis de hallazgos. Además, facilité la consolidación de las User Personas, Empathy Maps y User Journey Maps, logrando que el equipo trabajara alineado y cumpliera a tiempo con los objetivos del proyecto.</li>| La articulación de las entrevistas y el análisis competitivo permitió integrar una visión común y fundamentada dentro del equipo, facilitando una planificación clara mediante herramientas como el EventStorming y el Impact Mapping. Este proceso colaborativo aseguró que la definición de historias de usuario y el Product Backlog respondieran a metas viables y medibles, cumpliendo oportunamente con los entregables de elicitación y especificación de requisitos. Asimismo, la definición de la arquitectura de información, el prototipado y la implementación visual aportaron un marco compartido para coordinar tareas, mantener consistencia entre diseño y desarrollo y asegurar la entrega de una experiencia alineada con los objetivos del proyecto. |
 
 # Capítulo I: Introducción 
 
@@ -250,9 +250,15 @@ Sabremos que hemos tenido éxito cuando veamos **una reducción de los incidente
 * Creemos que un modelo de monetización mediante suscripción mensual con beneficios como seguro básico, descuentos negociados colectivamente y alertas de seguridad prioritarias es viable y sostenible para este segmento, gracias a la posibilidad de negociar estos beneficios con terceros.
 
 **Business Outcome Assumptions**
-* Creemos que lograremos una reducción medible en los incidentes de seguridad reportados por nuestros usuarios activos frente a su situación previa sin la plataforma.
-* Creemos que lograremos un incremento sostenido en el número de suscripciones mensuales activas mes a mes.
-* Creemos que lograremos reducir el costo de adquisición de usuarios mediante el programa de referidos entre trabajadores nocturnos y sus contactos de confianza.
+* Creemos que lograremos una reducción de al menos 30 % en los incidentes de seguridad reportados por los usuarios activos respecto a su línea base autodeclarada, en un plazo de 8 meses desde el lanzamiento del MVP.
+* Creemos que lograremos al menos 500 suscripciones mensuales activas, en un plazo de 8 meses desde el lanzamiento.
+* Creemos que lograremos que al menos 30 % de los nuevos registros provenga de invitaciones de contactos de confianza y que el costo de adquisición por usuario sea 25 % menor al de canales pagados, durante los 6 meses posteriores al lanzamiento.
+* Creemos que lograremos una retención a 30 días (usuarios con al menos un check-in en el mes 2 sobre usuarios con check-in en el mes 1) de al menos 60 %, durante los 3 meses posteriores al lanzamiento.
+* Creemos que lograremos un promedio de al menos 4 sesiones semanales por usuario activo y 3 búsquedas de servicios por semana, durante los 3 meses posteriores al lanzamiento.
+* Creemos que lograremos que al menos 80 % de los reportes de riesgo sean aprobados por moderación y que 70 % de las zonas de riesgo tengan 2 o más confirmaciones independientes, durante los 3 meses posteriores al lanzamiento.
+* Creemos que lograremos una tasa de renovación de suscripción de al menos 70 % al tercer mes y que al menos 20 % de los nuevos registros llegue por recomendación, durante los 6 meses posteriores al lanzamiento.
+* Creemos que lograremos que al menos 40 % de los trayectos finalizados reciba una calificación de ruta, durante los 3 meses posteriores al lanzamiento.
+* Creemos que lograremos una mediana de 5 minutos o menos entre el vencimiento del margen de tolerancia y la primera acción del contacto de confianza, con no más de 15 % de incidentes cerrados como falso positivo, durante un piloto de 8 semanas.
 
 **User Assumptions**
 1. Nuestros usuarios principales son trabajadores de turno nocturno entre 20 y 45 años, residentes en zonas urbanas de Lima, pertenecientes a los rubros de seguridad, delivery, salud y call centers, etc.
@@ -264,7 +270,9 @@ Sabremos que hemos tenido éxito cuando veamos **una reducción de los incidente
 2. Los trabajadores nocturnos desean encontrar rápidamente servicios abiertos y confiables durante la noche, y obtienen ahorro de tiempo y menor exposición a situaciones de riesgo.
 3. Los trabajadores nocturnos desean sentirse parte de una comunidad que comprenda su realidad laboral, y obtienen acceso a información relevante y beneficios negociados colectivamente.
 4. Los contactos de confianza desean tener certeza y tranquilidad sobre la seguridad de su familiar o pareja durante su trayecto nocturno, y obtienen visibilidad del estado del check-in y de la llegada segura, sin necesidad de estar llamando o preguntando constantemente.
-5. Los trabajadores nocturnos desean saber qué tan segura es una ruta específica antes de tomarla, y obtienen esa información gracias a las calificaciones y reportes dejados por otros usuarios que la transitaron recientemente.
+5. Los trabajadores nocturnos desean saber qué tan segura es una ruta específica antes de tomarla, y obtienen información sobre la seguridad de la ruta gracias a las calificaciones y reportes dejados por otros usuarios que la transitaron recientemente.
+6. Los trabajadores nocturnos desean comprender cómo su horario afecta su descanso, y obtienen visibilidad de sus patrones de sueño y alertas ante descanso insuficiente.
+7. Los contactos de confianza desean enterarse a tiempo cuando el trayecto de su familiar o pareja presenta una situación anómala, y obtienen una alerta temprana y verificada sobre un posible incidente en el trayecto.
 
 **Feature Assumptions**
 
@@ -281,78 +289,78 @@ Sabremos que hemos tenido éxito cuando veamos **una reducción de los incidente
 
 **Hipótesis 1**
 
-Creemos que lograremos **un aumento en la retención mensual de usuarios activos**
-Si **los trabajadores de turno nocturno en Lima**
-Obtienen **mayor tranquilidad y acompañamiento durante sus trayectos**
-Con **la función de check-in de trayecto seguro y alertas automáticas a contactos de confianza**.
+Creemos que lograremos **una retención a 30 días (usuarios con al menos un check-in en el mes 2 sobre usuarios con check-in en el mes 1) de al menos 60 %, durante los 3 meses posteriores al lanzamiento**  
+Si **los trabajadores de turno nocturno en Lima**  
+Alcanzan **tranquilidad al saber que un contacto de confianza será notificado automáticamente ante cualquier eventualidad**  
+Con **la función de check-in de trayecto seguro con alertas automáticas a contactos de confianza**.
 
 ---
 
 **Hipótesis 2**
 
-Creemos que lograremos **un aumento en la frecuencia diaria de uso de la aplicación**
-Si **los trabajadores de turno nocturno**
-Obtienen **acceso rápido y confiable a servicios abiertos cerca de su ubicación**
+Creemos que lograremos **un promedio de al menos 4 sesiones semanales por usuario activo y 3 búsquedas de servicios por semana, durante los 3 meses posteriores al lanzamiento**  
+Si **los trabajadores de turno nocturno**  
+Alcanzan **ahorro de tiempo y menor exposición a situaciones de riesgo**  
 Con **el mapa comunitario de servicios activos durante la noche**.
 
 ---
 
 **Hipótesis 3**
 
-Creemos que lograremos **una mejora en la calidad y confiabilidad de la información de seguridad de la plataforma**
-Si **los trabajadores de turno nocturno**
-Obtienen **visibilidad de las zonas de riesgo identificadas por otros usuarios**
+Creemos que lograremos **que al menos 80 % de los reportes de riesgo sean aprobados por moderación y que 70 % de las zonas de riesgo tengan 2 o más confirmaciones independientes, durante los 3 meses posteriores al lanzamiento**  
+Si **los trabajadores de turno nocturno**  
+Alcanzan **información sobre la seguridad de la ruta gracias a las calificaciones y reportes dejados por otros usuarios que la transitaron recientemente**  
 Con **el sistema de reporte comunitario de incidentes**.
 
 ---
 
 **Hipótesis 4**
 
-Creemos que lograremos **un mayor compromiso (engagement) de los usuarios con la plataforma a largo plazo**
-Si **los trabajadores de turno nocturno**
-Obtienen **visibilidad de sus patrones de descanso y alertas sobre descanso insuficiente**
+Creemos que lograremos **una retención a 30 días (usuarios con al menos un check-in en el mes 2 sobre usuarios con check-in en el mes 1) de al menos 60 %, durante los 3 meses posteriores al lanzamiento**  
+Si **los trabajadores de turno nocturno**  
+Alcanzan **visibilidad de sus patrones de sueño y alertas ante descanso insuficiente**  
 Con **la bitácora de descanso y salud del sueño**.
 
 ---
 
 **Hipótesis 5**
 
-Creemos que lograremos **una mayor retención de suscriptores y crecimiento orgánico por recomendación (boca a boca)**
-Si **los trabajadores de turno nocturno**
-Obtienen **un sentido de pertenencia y acceso a beneficios negociados colectivamente (descuentos, seguro básico)**
+Creemos que lograremos **una tasa de renovación de suscripción de al menos 70 % al tercer mes y que al menos 20 % de los nuevos registros llegue por recomendación, durante los 6 meses posteriores al lanzamiento**  
+Si **los trabajadores de turno nocturno**  
+Alcanzan **acceso a información relevante y beneficios negociados colectivamente**  
 Con **la comunidad y sus beneficios colectivos negociados a través de la suscripción mensual**.
 
 ---
 
 **Hipótesis 6**
 
-Creemos que lograremos **un aumento en el volumen y la calidad de la información de seguridad comunitaria disponible en la plataforma**
-Si **los trabajadores de turno nocturno**
-Obtienen **la posibilidad de calificar su trayecto y reportar puntos de riesgo específicos al finalizar cada viaje**
+Creemos que lograremos **que al menos 40 % de los trayectos finalizados reciba una calificación de ruta, durante los 3 meses posteriores al lanzamiento**  
+Si **los trabajadores de turno nocturno**  
+Alcanzan **información sobre la seguridad de la ruta gracias a las calificaciones y reportes dejados por otros usuarios que la transitaron recientemente**  
 Con **el sistema de calificación y reporte de rutas**.
 
 ---
 
 **Hipótesis 7**
 
-Creemos que lograremos **una reducción en el tiempo de reacción ante una situación de riesgo real durante un trayecto**
-Si **los contactos de confianza y la comunidad de usuarios**
-Obtienen **una alerta temprana y verificada sobre un posible incidente en una ruta específica**
-Con **la función de marcado automático de "posible incidente" activada cuando la llegada no es confirmada**.
+Creemos que lograremos **una mediana de 5 minutos o menos entre el vencimiento del margen de tolerancia y la primera acción del contacto de confianza, con no más de 15 % de incidentes cerrados como falso positivo, durante un piloto de 8 semanas**  
+Si **los contactos de confianza**  
+Alcanzan **una alerta temprana y verificada sobre un posible incidente en el trayecto**  
+Con **la función de marcado automático de "posible incidente" cuando la llegada no es confirmada**.
 
 ---
 
 **Hipótesis 8**
 
-Creemos que lograremos **un mayor crecimiento orgánico por recomendación (boca a boca) y una reducción del costo de adquisición de usuarios**
-Si **los contactos de confianza (familiares y parejas) de los trabajadores de turno nocturno**
-Obtienen **visibilidad en tiempo real y tranquilidad respecto al estado del trayecto de su ser querido**
-Con **una vista de acompañamiento dedicada para contactos de confianza**.
+Creemos que lograremos **que al menos 30 % de los nuevos registros provenga de invitaciones de contactos de confianza y que el costo de adquisición por usuario sea 25 % menor al de canales pagados, durante los 6 meses posteriores al lanzamiento**  
+Si **los contactos de confianza (familiares y parejas de los trabajadores de turno nocturno)**  
+Alcanzan **visibilidad del estado del check-in y de la llegada segura, sin necesidad de estar llamando o preguntando constantemente**  
+Con **un panel de seguimiento dedicado para contactos de confianza**.
 
 #### 1.2.2.4. Lean UX Canvas. 
 Figura 1
 <br>
-Lean UX Canvas — SkyCrop
+Lean UX Canvas — Noctiva
 <br>
 ![Lean UX Canvas](resources/imgs/Lean_UX_Canvas.png)
 
@@ -2289,33 +2297,32 @@ A continuación, se detalla la matriz de liderazgo y colaboración (LACX) para l
 
 #### 5.2.1.4. Development Evidence for Sprint Review. 
 
-#### 5.2.1.4. Development Evidence for Sprint Review.
 
 En este primer Sprint hemos realizado la implementación de nuestra Landing Page, donde todo el equipo ha aportado en varias tareas. En la siguiente tabla se muestran los commits realizados para evidenciar el desarrollo.
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| upc-pre-202620-1asi0730-7793 | develop | 1712d6c | Merge pull request #4 from upc-pre-202620-1asi0730-7793/develop | Merge pull request #4 from upc-pre-202620-1asi0730-7793/develop | 19/09/2026 |
-| upc-pre-202620-1asi0730-7793 | develop | 7fe7538 | fix(landing): link youtube in index.html | link youtube in index.html | 19/09/2026 |
-| upc-pre-202620-1asi0730-7793 | develop | ed85441 | Merge pull request #3 from upc-pre-202620-1asi0730-7793/develop | Merge pull request #3 from upc-pre-202620-1asi0730-7793/develop | 19/09/2026 |
-| upc-pre-202620-1asi0730-7793 | develop | 2889157 | feat(i18n): implement bilingual dictionaries and translation engine in i18n.js | implement bilingual dictionaries and translation engine in i18n.js | 19/09/2026 |
-| upc-pre-202620-1asi0730-7793 | develop | 47d9cd6 | fix(landing): correct general structure and syntax errors in main.js | correct general structure and syntax errors in main.js | 19/09/2026 |
-| upc-pre-202620-1asi0730-7793 | develop | 3685bb3 | fix(landing): correct general structure and syntax errors in index.html | correct general structure and syntax errors in index.html | 19/09/2026 |
-| upc-pre-202620-1asi0730-7793 | develop | 2ed91c3 | Merge pull request feature/final-finalpart-style | Merge pull request feature/final-finalpart-style | 19/09/2026 |
-| upc-pre-202620-1asi0730-7793 | develop | 4045767 | feat: add final style adjustments to landing page | add final style adjustments to landing page | 19/09/2026 |
-| upc-pre-202620-1asi0730-7793 | develop | db796f1 | feat(landing): add subscription plans section in index.html | add subscription plans section in index.html | 19/09/2026 |
-| upc-pre-202620-1asi0730-7793 | develop | f8d0f1d | feat(landing): implement reveal on scroll logic for protocol and ecosystem in main.js | implement reveal on scroll logic for protocol and ecosystem in main.js | 19/09/2026 |
-| upc-pre-202620-1asi0730-7793 | develop | 8d6439e | style(landing): add styles for video and testimonial sections in styles.css | add styles for video and testimonial sections in styles.css | 19/09/2026 |
-| upc-pre-202620-1asi0730-7793 | develop | 5627df0 | feat(landing): implement initialization, responsive menu and hero video control | implement initialization, responsive menu and hero video control | 19/09/2026 |
-| upc-pre-202620-1asi0730-7793 | develop | f0a6a1f | style(landing): add styles for night protocol and ecosystem sections in styles.css | add styles for night protocol and ecosystem sections in styles.css | 19/09/2026 |
-| upc-pre-202620-1asi0730-7793 | develop | ae391c4 | style(landing): add css variables, reset, header, navigation and hero styles in styles.css | add css variables, reset, header, navigation and hero styles in styles.css | 19/09/2026 |
-| upc-pre-202620-1asi0730-7793 | develop | 795c91c | Merge pull request feature/final-preview-landingpage | Merge pull request feature/final-preview-landingpage | 19/09/2026 |
-| upc-pre-202620-1asi0730-7793 | develop | f20d424 | feat(landing): add contact section, footer and terms modal markup | add contact section, footer and terms modal markup | 19/09/2026 |
-| upc-pre-202620-1asi0730-7793 | develop | 3e57cf8 | feat(landing): add video showcase and testimonials sections in index.html | add video showcase and testimonials sections in index.html | 19/09/2026 |
-| upc-pre-202620-1asi0730-7793 | develop | 7816c6c | chore(assets): add required image assets for landing page | add required image assets for landing page | 19/09/2026 |
-| upc-pre-202620-1asi0730-7793 | develop | aa5543b | feat(landing): add night protocol and ecosystem sections in index.html | add night protocol and ecosystem sections in index.html | 19/09/2026 |
-| upc-pre-202620-1asi0730-7793 | develop | 1c254f0 | feat(landing): add base html structure, navigation bar and hero section in index.html | add base html structure, navigation bar and hero section in index.html | 19/09/2026 |
-| upc-pre-202620-1asi0730-7793 | develop | 0ec1b1e | feat(landing): add core structure, styles, main scripts and i18n support | add core structure, styles, main scripts and i18n support | 19/09/2026 |
+| upc-pre-202620-1asi0730-7793 | main | 1712d6c | Merge pull request #4 from upc-pre-202620-1asi0730-7793/develop | Merge pull request #4 from upc-pre-202620-1asi0730-7793/develop | 19/09/2026 |
+| upc-pre-202620-1asi0730-7793 | main | 7fe7538 | fix(landing): link youtube in index.html | link youtube in index.html | 19/09/2026 |
+| upc-pre-202620-1asi0730-7793 | main | ed85441 | Merge pull request #3 from upc-pre-202620-1asi0730-7793/develop | Merge pull request #3 from upc-pre-202620-1asi0730-7793/develop | 19/09/2026 |
+| upc-pre-202620-1asi0730-7793 | main | 2889157 | feat(i18n): implement bilingual dictionaries and translation engine in i18n.js | implement bilingual dictionaries and translation engine in i18n.js | 19/09/2026 |
+| upc-pre-202620-1asi0730-7793 | main | 47d9cd6 | fix(landing): correct general structure and syntax errors in main.js | correct general structure and syntax errors in main.js | 19/09/2026 |
+| upc-pre-202620-1asi0730-7793 | main | 3685bb3 | fix(landing): correct general structure and syntax errors in index.html | correct general structure and syntax errors in index.html | 19/09/2026 |
+| upc-pre-202620-1asi0730-7793 | main | 2ed91c3 | Merge pull request feature/final-finalpart-style | Merge pull request feature/final-finalpart-style | 19/09/2026 |
+| upc-pre-202620-1asi0730-7793 | main | 4045767 | feat: add final style adjustments to landing page | add final style adjustments to landing page | 19/09/2026 |
+| upc-pre-202620-1asi0730-7793 | main | db796f1 | feat(landing): add subscription plans section in index.html | add subscription plans section in index.html | 19/09/2026 |
+| upc-pre-202620-1asi0730-7793 | main | f8d0f1d | feat(landing): implement reveal on scroll logic for protocol and ecosystem in main.js | implement reveal on scroll logic for protocol and ecosystem in main.js | 19/09/2026 |
+| upc-pre-202620-1asi0730-7793 | main | 8d6439e | style(landing): add styles for video and testimonial sections in styles.css | add styles for video and testimonial sections in styles.css | 19/09/2026 |
+| upc-pre-202620-1asi0730-7793 | main | 5627df0 | feat(landing): implement initialization, responsive menu and hero video control | implement initialization, responsive menu and hero video control | 19/09/2026 |
+| upc-pre-202620-1asi0730-7793 | main | f0a6a1f | style(landing): add styles for night protocol and ecosystem sections in styles.css | add styles for night protocol and ecosystem sections in styles.css | 19/09/2026 |
+| upc-pre-202620-1asi0730-7793 | main | ae391c4 | style(landing): add css variables, reset, header, navigation and hero styles in styles.css | add css variables, reset, header, navigation and hero styles in styles.css | 19/09/2026 |
+| upc-pre-202620-1asi0730-7793 | main | 795c91c | Merge pull request feature/final-preview-landingpage | Merge pull request feature/final-preview-landingpage | 19/09/2026 |
+| upc-pre-202620-1asi0730-7793 | main | f20d424 | feat(landing): add contact section, footer and terms modal markup | add contact section, footer and terms modal markup | 19/09/2026 |
+| upc-pre-202620-1asi0730-7793 | main | 3e57cf8 | feat(landing): add video showcase and testimonials sections in index.html | add video showcase and testimonials sections in index.html | 19/09/2026 |
+| upc-pre-202620-1asi0730-7793 | main | 7816c6c | chore(assets): add required image assets for landing page | add required image assets for landing page | 19/09/2026 |
+| upc-pre-202620-1asi0730-7793 | main | aa5543b | feat(landing): add night protocol and ecosystem sections in index.html | add night protocol and ecosystem sections in index.html | 19/09/2026 |
+| upc-pre-202620-1asi0730-7793 | main | 1c254f0 | feat(landing): add base html structure, navigation bar and hero section in index.html | add base html structure, navigation bar and hero section in index.html | 19/09/2026 |
+| upc-pre-202620-1asi0730-7793 | main | 0ec1b1e | feat(landing): add core structure, styles, main scripts and i18n support | add core structure, styles, main scripts and i18n support | 19/09/2026 |
 
 #### 5.2.1.5. Execution Evidence for Sprint Review. 
 Capturas de la página desplegada junto a un video demostrativo de su diseño y usabilidad
