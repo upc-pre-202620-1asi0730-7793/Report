@@ -3,8 +3,14 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="CMakeProjectFlavorService">
+    <option name="flavorId" value="CMakePlainProjectFlavor" />
+  </component>
+  <component name="CMakeSettings">
+    <configurations />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ea645c2-7c2c-4990-ba09-a0e7abaf20cd" name="Changes" comment="">
+    <list default="true" id="8ea645c2-7c2c-4990-ba09-a0e7abaf20cd" name="Changes" comment="﻿Merge remote-tracking branch 'origin/develop' into feature/chapter-5&#10;# Please enter a commit message to explain why this merge is necessary,&#10;# especially if it merges an updated upstream into a topic branch.&#10;#&#10;# Lines starting with '#' will be ignored, and an empty message aborts&#10;# the commit.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -30,9 +36,72 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/upc-pre-202620-1asi0730-7793/Report.git&quot;,
-    &quot;accountId&quot;: &quot;da1076ec-25ac-49d2-9499-b9446c13a53e&quot;
+    &quot;accountId&quot;: &quot;86e8c516-5fb8-40d2-94c2-a0085e88909a&quot;
   }
 }</component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.3446845533763383" />
+      <entry key="MS500" value="2.76205807607571" />
+      <entry key="S2" value="4.955075401596556" />
+      <entry key="S5" value="6.0252407539709445" />
+      <entry key="S10" value="6.481273347687854" />
+      <entry key="S30" value="6.873196881389296" />
+      <entry key="S60" value="7.6411647998788785" />
+      <entry key="M2" value="9.660333956362557" />
+      <entry key="M5" value="12.91004936868672" />
+      <entry key="M10" value="14.690427038356047" />
+      <entry key="M15" value="15.394518344205078" />
+      <entry key="M30" value="16.162999762877696" />
+      <entry key="H1" value="16.629683972517096" />
+      <entry key="H2" value="17.370188298003214" />
+      <entry key="H4" value="18.766140111202546" />
+      <entry key="D1" value="21.9240316854913" />
+      <entry key="W1" value="22.83343322545569" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="0.0" />
+      <entry key="M2" value="0.0" />
+      <entry key="M5" value="0.0" />
+      <entry key="M10" value="0.0" />
+      <entry key="M15" value="0.0" />
+      <entry key="M30" value="0.0" />
+      <entry key="H1" value="0.0" />
+      <entry key="H2" value="0.0" />
+      <entry key="H4" value="0.0" />
+      <entry key="D1" value="0.0" />
+      <entry key="W1" value="0.0" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="1.2959821665205724" />
+      <entry key="MS500" value="2.725273581447242" />
+      <entry key="S2" value="4.936161710345558" />
+      <entry key="S5" value="6.016139908096764" />
+      <entry key="S10" value="6.476414752993159" />
+      <entry key="S30" value="6.871455974366075" />
+      <entry key="S60" value="7.639982549017025" />
+      <entry key="M2" value="9.659297565097118" />
+      <entry key="M5" value="12.90934366875084" />
+      <entry key="M10" value="14.68999404435717" />
+      <entry key="M15" value="15.394208520796633" />
+      <entry key="M30" value="16.16283324932584" />
+      <entry key="H1" value="16.629594592745622" />
+      <entry key="H2" value="17.370127948481276" />
+      <entry key="H4" value="18.76609110334534" />
+      <entry key="D1" value="21.924015946219676" />
+      <entry key="W1" value="22.83343065931057" />
+    </decayedShown>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -43,11 +112,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "cidr.known.project.marker": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "feature/chapter-5",
+    "git-widget-placeholder": "feature/general-fixes",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.jshint": "true",
@@ -95,5 +168,27 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.OperationCanceledException" breakIfHandledByOtherCode="false" displayValue="System.OperationCanceledException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.Tasks.TaskCanceledException" breakIfHandledByOtherCode="false" displayValue="System.Threading.Tasks.TaskCanceledException" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
