@@ -2319,7 +2319,22 @@ Durante este sprint, se completó el despliegue de la landing page para habilita
 ### 5.2.1. Sprint 2
 
 #### 5.2.2.1.Sprint Planning 2.
+El Sprint Planning 2 se enfocó en el despliegue funcional del sitio web estático (Landing Page) de Noxway y de la primera version de la pagina web de Noxway. El objetivo principal de esta iteración es establecer la presencia digital del producto, comunicando claramente la propuesta de valor tanto para los trabajadores de turno nocturno como para sus contactos de confianza, integrando información sobre los planes de suscripción, testimonios y demostraciones visuales de la plataforma.
 
+| Sprint # | Sprint 2 |
+| :--- | :--- |
+| **Sprint Planning Background** | |
+| **Date** | 2026-10-01 |
+| **Time** | 1:00 PM |
+| **Location** | Reunión virtual mediante Discord |
+| **Prepared By** |  Ana Camila Patricio Farias|
+| **Attendees (to planning meeting)** | Ana Patricio,Yam Cano,Leonardo Dextre,Mauricio Ramirez,Carlos Salcedo|
+| **Sprint 2 Review Summary** |  |
+| **Sprint 2 Retrospective Summary** | Durante este sprint, todos los integrantes compartieron sus ideas respecto a la aplicacion web, los bounded context, arquitectura DDD, funcionalidades. Tuvimos tareas bien organizadas y realizadas, que se puede verificar en los avances del informe y de la pagina web |
+| **Sprint Goal & User Stories** | |
+| **Sprint 2 Goal** | Nuestro enfoque está en implementar las correciones a la Landing Page y el despliegue de la aplicacion web, asegurando su coherencia visual y funcionalidad multilingüe y que la puedan usar nuestro dos segementos objetivos. Creemos que esto ofrece una experiencia de navegación más clara, atractiva y accesible a nuestros usuarios potenciales de nuestra solución. Esto se confirmará cuando los usuarios puedan cambiar el idioma fácilmente desde la interfaz, que puedan navergar intuitivamente en la aplicacion sin errores visuales desde cualquier dispositivo, y se valide que imágenes, textos y direcciones estén correctamente integrados y espaciados.|
+| **Sprint 2 Velocity** | 13 Story Points |
+| **Sum of Story Points** | 14 Story Points |
 
 #### 5.2.2.2. Aspect Leaders and Collaborators.
 
