@@ -909,7 +909,7 @@ Las historias de usuario para este proyecto se crearon en colaboración con el e
 
 Para mantener la organización, las historias se agruparon en épicas según sus funcionalidades. Los criterios de aceptación de cada historia se definieron utilizando la sintaxis Gherkin, asegurando que el equipo comprendiera el problema desde la perspectiva del usuario final.
 
-### Epics:
+**Epics**:
 A continuación se presentan las Epics identificadas para el proyecto, que agrupan las principales funcionalidades de la plataforma orientada a la seguridad y el bienestar de los trabajadores de turno nocturno y sus contactos de confianza.
 
 | Epic ID | Título | Descripción |
@@ -927,7 +927,7 @@ A continuación se presentan las Epics identificadas para el proyecto, que agrup
 
 ---
 
-### User Stories:
+**User Stories**:
 Requisitos definidos junto con el conjunto de User Stories y Epics para los requisitos identificados. Las User Stories incluyen Acceptance Criteria redactados en tiempo presente, tercera persona, sin hacer referencia a detalles de interfaz de usuario, siguiendo la estructura de Gherkin (Given-When-Then). Se incluyen además User Stories para el sitio web estático (Landing Page), tomando como rol base visitante.
 
 # Historias de Usuario - Noxway
@@ -975,7 +975,7 @@ Requisitos definidos junto con el conjunto de User Stories y Epics para los requ
 | **US-30** | Moderar comunidad | Como moderador (Noxway), quiero auditar zonas y servicios reportados para evitar spam o "trolls", manteniendo el prestigio de los datos comunitarios frente a nuevos usuarios. | **Escenario 1:** Dado que ve un reporte pendiente, Cuando pulsa "Aprobar", Entonces el punto se publica a todos.<br><br>**Escenario 2:** Dado que es un reporte vacío o de broma, Cuando pulsa "Rechazar", Entonces desaparece y el usuario generador pierde "Trust Score". | EP-10 |
 ---
 
-### Technical Stories:
+**Technical Stories:**
 Las Technical Stories consideran el rol Developer en la redacción de la descripción, y se enfocan en las features del RESTful API necesarias para soportar cada una de las Epics del proyecto. Se ha definido una Technical Story por cada Epic identificada.
 
 | Epic / Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
@@ -1052,7 +1052,7 @@ En esta sección se presenta el Impact Mapping de la solución, técnica que per
 
 ### 4.1.1. General Style Guidelines.
 
-#### El estilo visual de la startup
+**El estilo visual de la startup**
 
 El estilo visual de la startup se fundamenta en los principios de seguridad, confianza, bienestar, accesibilidad y claridad visual, considerando que los usuarios principales son trabajadores que desarrollan sus actividades durante la noche, así como familiares, parejas y contactos de confianza que necesitan conocer su estado durante sus desplazamientos.
 
@@ -1076,7 +1076,7 @@ Asimismo, la solución está dirigida a usuarios con distintos niveles de alfabe
 
 **Privacidad:** La información relacionada con ubicación, trayectos y contactos de confianza se presenta de manera clara, evitando exponer información personal innecesaria y permitiendo al usuario comprender cuándo se está compartiendo su ubicación.
 
-#### Paleta de colores
+**Paleta de colores**
 
 La selección de colores de la startup busca transmitir seguridad, confianza, tranquilidad y bienestar, utilizando una combinación que funcione correctamente tanto en ambientes nocturnos como en situaciones donde el usuario necesita identificar rápidamente una alerta.
 
@@ -1093,14 +1093,14 @@ Se propone utilizar una paleta basada en tonos oscuros y colores de acento:
 
 La utilización de colores de alerta se realizará de manera controlada. El rojo estará reservado principalmente para situaciones críticas, como una emergencia o un posible incidente, evitando utilizarlo como elemento decorativo.
 
-#### Tipografía
+**Tipografía**
 
 Se seleccionan las tipografías Poppins y Roboto debido a su buena legibilidad en dispositivos digitales y a su apariencia moderna y accesible.
 
 - **Poppins:** títulos, encabezados y elementos destacados.
 - **Roboto:** textos, descripciones, formularios, mensajes y contenido informativo.
 
-#### Jerarquía tipográfica
+**Jerarquía tipográfica**
 
 | Elemento | Tipografía | Uso | Tamaño |
 |---|---|---|---|
@@ -1111,7 +1111,7 @@ Se seleccionan las tipografías Poppins y Roboto debido a su buena legibilidad e
 | Texto secundario | Roboto | Información complementaria | 12-14 px |
 | Botones | Roboto | Acciones | 14-16 px |
 
-#### Espaciado
+**Espaciado**
 
 Se define un sistema de espaciado basado en múltiplos de 8 px, con el objetivo de mantener una distribución consistente:
 
@@ -1123,7 +1123,7 @@ Se define un sistema de espaciado basado en múltiplos de 8 px, con el objetivo 
 
 Este sistema permite mantener una estructura ordenada y facilita la adaptación de la interfaz a diferentes tamaños de pantalla.
 
-#### Tono de comunicación
+**Tono de comunicación**
 
 El tono de comunicación de la startup es:
 
@@ -1143,7 +1143,7 @@ En lugar de utilizar mensajes técnicos como:
 > "El servicio de geolocalización se encuentra ejecutando el proceso de seguimiento."
 
 ### 4.1.2. Web Style Guidelines.
-#### 1. Diseño y estructura
+**1. Diseño y estructura**
 
 La interfaz de la startup sigue una estructura orientada a proporcionar acceso rápido a las principales funciones de seguridad, comunidad y bienestar.
 
@@ -1163,7 +1163,7 @@ Las funciones críticas, como iniciar trayecto, confirmar llegada o reportar una
 
 **Justificación:** Esta estructura permite que los trabajadores nocturnos puedan utilizar la aplicación rápidamente mientras se encuentran trabajando o desplazándose.
 
-#### 2. Sistema de grillas
+**2. Sistema de grillas**
 
 Se utiliza un sistema de diseño basado en una grilla de 12 columnas para escritorio y estructuras adaptativas para dispositivos móviles.
 
@@ -1177,9 +1177,9 @@ Las principales características son:
 
 **Justificación:** Permite mantener una estructura visual consistente y facilita la adaptación de la plataforma a diferentes dispositivos y resoluciones.
 
-#### 3. Componentes UI principales
+**3. Componentes UI principales**
 
-##### Tarjetas
+**Tarjetas**
 
 Las tarjetas se utilizan para agrupar información relacionada, por ejemplo:
 
@@ -1193,7 +1193,7 @@ Las tarjetas se utilizan para agrupar información relacionada, por ejemplo:
 
 Cada tarjeta debe mostrar información concreta y permitir identificar rápidamente su función.
 
-##### Botones
+**Botones**
 
 Se establecen tres tipos principales:
 
@@ -1213,7 +1213,7 @@ Los botones contemplan los siguientes estados:
 
 Las acciones críticas deberán presentar una diferenciación visual clara para evitar errores.
 
-##### Insignias o Badges
+**Insignias o Badges**
 
 Las insignias permiten identificar rápidamente los estados dentro del sistema.
 
@@ -1228,7 +1228,7 @@ Algunos ejemplos son:
 
 Los colores siempre estarán acompañados por texto o iconografía para no depender únicamente del color.
 
-##### Formularios
+**Formularios**
 
 Los formularios deben presentar:
 
@@ -1246,7 +1246,7 @@ En lugar de utilizar mensajes genéricos como:
 
 > "Error de validación."
 
-##### Notificaciones
+**Notificaciones**
 
 Las notificaciones proporcionarán retroalimentación sobre eventos importantes.
 
@@ -1268,7 +1268,7 @@ Se contemplan dos tipos principales:
 
 #### 4. Interacción (comportamiento UX)
 
-##### Feedback inmediato
+**Feedback inmediato**
 
 El sistema debe proporcionar retroalimentación inmediata después de cada acción relevante.
 
@@ -1281,7 +1281,7 @@ Ejemplos:
 
 **Justificación:** La retroalimentación inmediata permite reducir la incertidumbre y aumenta la confianza del usuario en el funcionamiento de la plataforma.
 
-##### Restricciones de acciones
+**Restricciones de acciones**
 
 El sistema debe evitar acciones que puedan generar información incorrecta o poner en riesgo al usuario.
 
@@ -1293,7 +1293,7 @@ Por ejemplo:
 - La información de ubicación solo se comparte durante el periodo autorizado por el usuario.
 - Un posible incidente puede requerir confirmación posterior por parte del trabajador.
 
-##### Visualización del estado
+**Visualización del estado**
 
 Los estados del sistema se representan mediante una combinación de:
 
@@ -1309,7 +1309,7 @@ Por ejemplo, un trayecto puede visualizarse como:
 
 Esto permite que tanto el trabajador como su contacto de confianza comprendan rápidamente el estado actual del trayecto.
 
-#### 5. Diseño adaptable
+**5. Diseño adaptable**
 
 La startup está diseñada principalmente para dispositivos móviles, debido a que los trabajadores utilizarán la plataforma durante sus desplazamientos nocturnos.
 
@@ -1319,7 +1319,7 @@ También se contempla su uso en:
 - Tablet.
 - Escritorio.
 
-##### Móvil
+**Móvil**
 
 La versión móvil prioriza:
 
@@ -1332,7 +1332,7 @@ La versión móvil prioriza:
 - Notificaciones.
 - Lectura clara en ambientes con poca iluminación.
 
-##### Tablet y escritorio
+**Tablet y escritorio**
 
 Se aprovecha el espacio disponible para presentar:
 
@@ -1343,11 +1343,11 @@ Se aprovecha el espacio disponible para presentar:
 - Administración de contactos.
 - Beneficios y servicios disponibles.
 
-#### 6. Navegación
+**6. Navegación**
 
 La navegación debe ser simple y consistente.
 
-##### Móvil
+**Móvil**
 
 Se utiliza una barra de navegación inferior para acceder a las funciones principales:
 
@@ -1355,7 +1355,7 @@ Se utiliza una barra de navegación inferior para acceder a las funciones princi
 
 Las funciones de emergencia y seguridad deben permanecer fácilmente accesibles.
 
-##### Escritorio
+**Escritorio**
 
 Se utiliza una barra lateral persistente con las principales secciones:
 
@@ -1370,7 +1370,7 @@ Se utiliza una barra lateral persistente con las principales secciones:
 
 También se pueden utilizar migas de pan en las secciones con mayor profundidad de navegación.
 
-#### 7. Iconografía
+**7. Iconografía**
 
 Se utilizarán iconos simples, reconocibles y consistentes para facilitar la comprensión de las funcionalidades.
 
@@ -1393,19 +1393,19 @@ Algunos ejemplos son:
 
 Los iconos deberán utilizarse como complemento del texto y no como único mecanismo de comunicación.
 
-#### 8. Componentes específicos de la solución
+**8. Componentes específicos de la solución**
 
 Debido a que la plataforma está orientada específicamente a trabajadores nocturnos, se establecen algunos componentes propios del sistema.
 
-##### Registro de trayecto seguro
+**Registro de trayecto seguro**
 
 Permite iniciar un trayecto, seleccionar un destino y compartir el estado con los contactos de confianza.
 
-##### Contactos de confianza
+**Contactos de confianza**
 
 Permite registrar familiares, parejas o amigos que recibirán notificaciones relacionadas con el trayecto.
 
-##### Mapa nocturno
+**Mapa nocturno**
 
 Permite visualizar:
 
@@ -1414,7 +1414,7 @@ Permite visualizar:
 - Incidentes registrados.
 - Información proporcionada por la comunidad.
 
-##### Reporte de incidentes
+**Reporte de incidentes**
 
 Permite registrar situaciones como:
 
@@ -1425,7 +1425,7 @@ Permite registrar situaciones como:
 - Accidente.
 - Situación sospechosa.
 
-##### Registro de bienestar
+**Registro de bienestar**
 
 Permite registrar información relacionada con:
 
@@ -1434,11 +1434,11 @@ Permite registrar información relacionada con:
 - Fatiga.
 - Hábitos relacionados con el turno nocturno.
 
-##### Comunidad
+**Comunidad**
 
 Permite a los trabajadores compartir información, experiencias y recomendaciones relacionadas con el trabajo nocturno.
 
-##### Beneficios
+**Beneficios**
 
 Permite consultar descuentos, servicios y beneficios negociados para los trabajadores nocturnos mediante la suscripción a la plataforma.
 ## 4.2. Information Architecture.
@@ -1464,7 +1464,7 @@ En la startup, el sistema de etiquetado ha sido diseñado para maximizar la clar
 
 El sistema de etiquetado considera que los usuarios principales pueden tener diferentes niveles de alfabetización digital. Por ello, se evitarán términos técnicos innecesarios y se utilizarán expresiones familiares para los trabajadores nocturnos y sus contactos de confianza.
 
-#### Principios clave del sistema de etiquetado:
+**Principios clave del sistema de etiquetado:**
 
 Las etiquetas evitarán tecnicismos innecesarios y ambigüedades. Se emplearán términos comunes que puedan ser comprendidos rápidamente por trabajadores, familiares y otros usuarios de la plataforma.
 
@@ -1474,7 +1474,7 @@ Las etiquetas se limitarán preferentemente a 1-3 palabras, procurando que sean 
 
 Las etiquetas relacionadas con situaciones de seguridad tendrán un mayor peso visual y utilizarán colores e iconos de acuerdo con las directrices establecidas en la guía de estilo.
 
-#### Etiquetas principales por área
+**Etiquetas principales por área**
 
 **Navegación global:** Inicio, Trayecto, Mapa, Comunidad, Bienestar, Beneficios, Perfil.
 
@@ -1492,7 +1492,7 @@ Las etiquetas relacionadas con situaciones de seguridad tendrán un mayor peso v
 
 **Acciones del usuario:** Crear cuenta, Iniciar sesión, Iniciar trayecto, Confirmar llegada, Reportar incidente, Compartir ubicación, Añadir contacto, Registrar descanso, Ver beneficio, Cerrar sesión.
 
-#### Asociaciones entre etiquetas
+**Asociaciones entre etiquetas**
 
 Algunas etiquetas se utilizarán en conjunto para facilitar la comprensión del estado del sistema:
 
@@ -1506,8 +1506,7 @@ Algunas etiquetas se utilizarán en conjunto para facilitar la comprensión del 
 - "Beneficio disponible"
 - "Reporte verificado"
 ### 4.2.3. SEO Tags and Meta Tags
-#### Página de inicio
-
+**Página de inicio**
 **Título:** Seguridad y bienestar para trabajadores nocturnos.
 
 **Meta Descripción:** Plataforma digital para trabajadores nocturnos que ofrece seguimiento de trayectos, contactos de confianza, información sobre servicios abiertos, reportes comunitarios y herramientas de bienestar.
@@ -1516,7 +1515,7 @@ Algunas etiquetas se utilizarán en conjunto para facilitar la comprensión del 
 
 **Autor de la metaetiqueta:** [Noxway]
 
-#### Aplicación web
+**Aplicación web**
 
 **Título:** Seguridad y bienestar durante tu jornada nocturna.
 
@@ -1529,7 +1528,7 @@ Algunas etiquetas se utilizarán en conjunto para facilitar la comprensión del 
 ### 4.2.4. Searching Systems.
 Las decisiones de búsqueda en Noxway están orientadas a garantizar que los usuarios encuentren rápidamente información relevante sobre servicios nocturnos, zonas de riesgo, rutas, reportes comunitarios y beneficios, evitando que tengan que revisar grandes cantidades de información.
 
-#### Opciones de búsqueda
+**Opciones de búsqueda**
 
 **Barra de búsqueda**
 
@@ -1558,7 +1557,7 @@ Los resultados podrán actualizarse conforme el usuario escribe, mostrando las o
 - Ruta recomendada
 - Beneficio disponible
 
-#### Filtros disponibles
+**Filtros disponibles**
 
 **Por tipo de servicio:** Restaurantes, farmacias, tiendas, centros de salud, transporte y otros servicios disponibles durante la noche.
 
@@ -1572,7 +1571,7 @@ Los resultados podrán actualizarse conforme el usuario escribe, mostrando las o
 
 **Por fecha:** Reportes recientes, últimos 7 días y últimos 30 días.
 
-#### Apariencia de los datos después de la búsqueda
+**Apariencia de los datos después de la búsqueda**
 
 **Listados de resultados:** Incluyen nombre del lugar o reporte, ubicación, distancia, horario de atención y valoración cuando corresponda.
 
@@ -1589,7 +1588,7 @@ La estructura de navegación de la startup está diseñada para ofrecer una expe
 
 La navegación prioriza especialmente las funciones que pueden ser utilizadas durante un desplazamiento nocturno, reduciendo la cantidad de pasos necesarios para acceder a información importante.
 
-#### Páginas principales
+**Páginas principales**
 
 **Inicio:** Dashboard principal con el estado del usuario, trayecto activo, alertas importantes, servicios cercanos y accesos rápidos.
 
@@ -1605,7 +1604,7 @@ La navegación prioriza especialmente las funciones que pueden ser utilizadas du
 
 **Perfil:** Permite administrar información personal, contactos de confianza, preferencias, privacidad y configuración de la cuenta.
 
-#### Opciones de usuario
+**Opciones de usuario**
 
 **Iniciar sesión:** Acceso para usuarios registrados.
 
@@ -1619,7 +1618,7 @@ La navegación prioriza especialmente las funciones que pueden ser utilizadas du
 
 **Cerrar sesión:** Salida segura de la cuenta.
 
-#### Búsqueda y navegación
+**Búsqueda y navegación**
 
 **Barra de búsqueda:** Disponible en las secciones donde sea necesario localizar servicios, lugares, reportes o beneficios.
 
@@ -1629,7 +1628,7 @@ La navegación prioriza especialmente las funciones que pueden ser utilizadas du
 
 **Mapa:** Permite navegar visualmente por la ubicación del usuario y consultar información relevante del entorno nocturno.
 
-#### Navegación de seguridad
+**Navegación de seguridad**
 
 Las funciones relacionadas con seguridad tendrán acceso prioritario desde la interfaz.
 
@@ -1645,7 +1644,7 @@ El usuario podrá acceder rápidamente a:
 
 Estas funciones tendrán una ubicación consistente para facilitar su identificación y reducir el tiempo de interacción en situaciones críticas.
 
-#### Marca e identidad
+**Marca e identidad**
 
 El nombre y logotipo de la startup estarán visibles en las principales vistas de la plataforma, asegurando coherencia de marca.
 
@@ -1973,8 +1972,7 @@ C4 Container Diagram de Noxway.
 
 ## 4.6.4. Software Architecture Components Diagrams
 
-### Landing Page Components
-
+**Landing Page Components**
 La Landing Page se descompone en Hero & Protocol Section, Ecosystem & Features, Subscription Plans View y Registration Funnel. Estas secciones exponen visualmente el flujo de cuatro pasos (Vincular, Iniciar, Monitorear, Confirmar) y las capacidades tecnológicas del sistema. El Registration Funnel permite captar datos iniciales y redirigir a los visitantes hacia la experiencia correspondiente (Worker o Contact) en la Web Application, comunicándose directamente con el RESTful API.
 
 C4 Component Diagram - Landing Page.
@@ -1982,8 +1980,8 @@ C4 Component Diagram - Landing Page.
 <img src="resources/imgs/landingdiagram.png"
      alt="componentdiagram"
      style="">
-
-### Web Application Components
+     
+     **Web Application Components**
 
 La Web Application separa el Auth & Onboarding Module, Worker Portal, Companion Portal, Active Commute Tracker, 24h Community Map, Sleep & Wellness Log y Benefits & Subscriptions. Todas estas experiencias utilizan llamadas centralizadas y comparten componentes interactivos, manteniendo una única vía de comunicación con el RESTful API para garantizar la sincronización en tiempo real del estado de los trayectos.
 
@@ -1993,7 +1991,7 @@ C4 Component Diagram - Web Application.
      alt="componentdiagram"
      style="">
 
-### RESTful API Components
+**RESTful API Components**
 
 El RESTful API organiza sus componentes principales de acuerdo con los Bounded Contexts identificados en el Design-Level EventStorming: Account & Auth Controller, Trust Network Controller, Commute & Check-In Controller, Incident & Alert Manager, Community Map Service, Sleep Wellness Service, Subscription Controller y Moderation Controller.
 
@@ -2007,7 +2005,7 @@ C4 Component Diagram - RESTful API.
      alt="componentdiagram"
      style="">
 
-### Relational Database Components
+**Relational Database Components**
 
 El container Relational Database se organiza mediante separación lógica de datos. Los esquemas `users_network_schema`, `commute_incident_schema`, `community_data_schema`, `wellness_schema`, `subscription_schema` y `moderation_schema` corresponden a los Bounded Contexts identificados. 
 
@@ -2025,7 +2023,7 @@ El diseño orientado a objetos se organiza de acuerdo con los Bounded Contexts i
 
 ## 4.7.1. Class Diagrams
 
-### Identity & Network Management
+**Identity & Network Management**
 
 El modelo concentra la abstracción `User`, de la cual heredan los roles específicos `NightWorker` y `TrustedContact`. `TrustLink` modela la clase de asociación que representa el vínculo de acompañamiento seguro entre un trabajador y su contacto de confianza, encapsulando su estado y vigencia.
 
@@ -2034,7 +2032,7 @@ Class Diagram - Identity & Network Management.
 <img src="resources/imgs/identity&networkmanagement.png"
      style="">
 
-### Safe Commute & Incident Management
+**Safe Commute & Incident Management**
 
 `Commute` representa el núcleo del ciclo de vida del trayecto y se relaciona fuertemente con `TelemetryPing` mediante composición para registrar la ubicación y velocidad. `SafetyIncident` modela las situaciones de riesgo o demoras generadas durante el trayecto, interactuando con `NotificationPreference` para escalar las alertas a los canales correspondientes.
 
@@ -2043,7 +2041,7 @@ Class Diagram - Safe Commute Incident Management.
 <img src="resources/imgs/safecommute.png"
      style="">
 
-### Community Intelligence
+**Community Intelligence**
 
 `CommunityMap` actúa como la entidad agregadora para la consulta espacial. `NightServicePoint` representa los servicios verificados que operan en la madrugada y `RiskZone` modela los puntos de peligro reportados. `RouteRating` registra la calificación de seguridad asignada a las rutas una vez finalizado el desplazamiento.
 
@@ -2052,7 +2050,7 @@ Class Diagram - Community Intelligence.
 <img src="resources/imgs/community intelligence.png"
      style="">
 
-### Sleep Health & Wellness
+**Sleep Health & Wellness**
 
 `SleepLog` representa el registro agregado diario de metas y déficits de sueño, mientras que `RestSession` registra periodos individuales de descanso fragmentado. `HygieneSuggestion` modela las recomendaciones emitidas por el sistema en función del nivel de fatiga detectado en el trabajador nocturno.
 
@@ -2061,7 +2059,7 @@ Class Diagram - Sleep Health Wellness.
 <img src="resources/imgs/sleephealth.png"
      style="">
 
-### Subscriptions & Collective Benefits
+**Subscriptions & Collective Benefits**
 
 `Subscription` representa el plan (Esencial, Centinela Pro, etc.) activo de un trabajador, el cual genera registros en `PaymentTransaction` por su facturación recurrente. `CollectiveBenefit` modela los seguros y convenios habilitados, mientras que `ReferralCode` administra la lógica del programa de crecimiento por referidos.
 
@@ -2070,7 +2068,7 @@ Class Diagram - Subscriptions Collective Benefits.
 <img src="resources/imgs/subscriptions.png"
      style="">
 
-### Moderation & Governance
+**Moderation & Governance**
 
 `ModerationQueue` representa la bandeja de tareas de los moderadores del sistema. `CommunityReport` modela de forma abstracta los elementos enviados por los usuarios y `ModerationAction` mantiene el registro auditable de las decisiones (aprobación o rechazo) aplicadas sobre dichos reportes.
 
@@ -2091,7 +2089,7 @@ Las relaciones internas de cada Bounded Context se representan mediante claves f
 
 ### 4.8.1. Database Diagrams
 
-#### Identity & Network Management
+**Identity & Network Management**
 
 El modelo persiste las cuentas en `users` y su información demográfica en `user_profiles`. El control de acceso se maneja a través de `roles` y `user_roles`. Los dispositivos móviles se registran en `user_devices` para posibilitar el envío de notificaciones push. La creación de la red de acompañamiento utiliza `trust_invitations` para gestionar los tokens enviados externamente y `trust_links` para consolidar el vínculo aceptado.
 
@@ -2100,7 +2098,7 @@ Database Diagram - Identity & Network Management.
 <img src="resources/imgs/iden.png"
      style="">
 
-#### Safe Commute & Incident Management
+**Safe Commute & Incident Management**
 
 El modelo persiste los trayectos en la tabla `commutes`, complementada por `commute_checkpoints` para trazar los hitos de la ruta. La telemetría de alto volumen se aísla en `telemetry_pings`. Las anomalías generan registros en `safety_incidents`, los cuales mantienen su ciclo de vida y disparan registros de auditoría de notificaciones en `incident_alerts`.
 
@@ -2109,7 +2107,7 @@ Database Diagram - Safe Commute Incident Management.
 <img src="resources/imgs/comu.png"
      style="">
 
-#### Community Intelligence
+**Community Intelligence**
 
 El modelo persiste ubicaciones geoespaciales como `night_services` y `risk_zones`. Para garantizar la confiabilidad comunitaria, se emplean las tablas transaccionales `service_validations` y `risk_zone_confirmations`, que evitan votos duplicados por parte del mismo trabajador. Las encuestas de los desplazamientos se almacenan en `route_ratings`.
 
@@ -2118,7 +2116,7 @@ Database Diagram - Community Intelligence.
 <img src="resources/imgs/commu.png"
      style="">
 
-#### Sleep Health & Wellness
+**Sleep Health & Wellness**
 
 El modelo organiza la higiene del sueño separando el consolidado diario (`daily_sleep_logs`) de los periodos de descanso fraccionado (`sleep_sessions`). El sistema almacena en `hygiene_suggestions` las alertas emitidas por déficit de horas, las cuales se vinculan lógicamente al usuario que las recibe.
 
@@ -2127,7 +2125,7 @@ Database Diagram - Sleep Health Wellness.
 <img src="resources/imgs/health.png"
      style="">
 
-#### Subscriptions & Collective Benefits
+**Subscriptions & Collective Benefits**
 
 El modelo persiste el catálogo de servicios en `subscription_plans`. La tabla `subscriptions` mantiene el estado de membresía del usuario, apoyándose en `payment_transactions` para el historial de facturación. Los convenios de seguros y descuentos se guardan en `collective_benefits`. El esquema de fidelización emplea `referral_codes` y audita sus canjes mediante `referral_usages`.
 
@@ -2136,7 +2134,7 @@ Database Diagram - Subscriptions Payment Management.
 <img src="resources/imgs/sub.png"
      style="">
 
-#### Moderation & Governance
+**Moderation & Governance**
 
 El modelo implementa un diseño polimórfico en `moderation_tasks` (`entity_type` y `entity_id`) para centralizar en una sola cola los reportes de distintos orígenes. Las decisiones tomadas por los moderadores generan una pista de auditoría inmutable en `moderation_logs` para sustentar cualquier aprobación o rechazo.
 
@@ -2251,7 +2249,7 @@ Para asegurar la trazabilidad y mantener un historial estructurado, se aplica el
 
 Para asegurar la calidad, mantenibilidad y coherencia de nuestra solución, hemos definido un conjunto de convenciones y buenas prácticas. Dado que la plataforma Noxway se presenta inicialmente a través de una landing page interactiva, nos centramos en los estándares para HTML, CSS y JavaScript, los pilares de nuestro desarrollo.
 
-## Convenciones de Nomenclatura
+**Convenciones de Nomenclatura**
 
 Para mantener la consistencia y la claridad a lo largo del código fuente, seguimos las siguientes reglas de nombrado:
 
@@ -2261,7 +2259,7 @@ Para mantener la consistencia y la claridad a lo largo del código fuente, segui
 * **Atributos Personalizados (`data-*`)**: Se emplean nombres en `kebab-case` para almacenar metadatos de traducción e interacción dinámica (ej. `data-i18n`, `data-lang`, `data-plan-id`, `data-role-target`).
 * **Archivos y Directorios**: Los nombres de archivos y carpetas se escriben íntegramente en minúsculas separando las palabras mediante guiones cortos (`kebab-case`) (ej. `index.html`, `style.css`, `i18n.js`, `main.js`, `hero-night-poster.jpg`).
 
-## Estructura Semántica (HTML)
+**Estructura Semántica (HTML)**
 
 La estructura de nuestro documento HTML se basa en la semántica web, utilizando etiquetas con un significado claro tanto para el navegador como para los desarrolladores. Esto no solo mejora la accesibilidad (WAI-ARIA) y el posicionamiento SEO, sino que también facilita la comprensión y auditoría del código. A continuación, se detallan las etiquetas utilizadas en el proyecto:
 
@@ -2291,7 +2289,7 @@ La estructura de nuestro documento HTML se basa en la semántica web, utilizando
 * `<div>`: Contenedores genéricos utilizados para maquetación, ventanas modales de términos y condiciones (`terms-modal-overlay`) y agrupaciones visuales.
 * `<script>`: Carga de los archivos JavaScript (`js/i18n.js` y `js/main.js`) para gestionar la internacionalización y la interactividad del sitio.
 
-## Estilos y Maquetación (CSS)
+**Estilos y Maquetación (CSS)**
 
 Nuestra guía de estilo para CSS se centra en la claridad, simplicidad y consistencia visual. Se han definido propiedades clave para el diseño visual y la adaptabilidad del sitio:
 
@@ -2302,7 +2300,7 @@ Nuestra guía de estilo para CSS se centra en la claridad, simplicidad y consist
 * `color` y `background-color`: Definen la paleta croma nocturna del sitio (tonos oscuros con acentos brillantes).
 * `display` y `flexbox`: Estructuran la alineación y distribución responsiva de los elementos en la barra de navegación, cuadrículas y formularios.
 
-## Estándares de Accesibilidad (WAI-ARIA)
+**Estándares de Accesibilidad (WAI-ARIA)**
 
 El código fuente implementa los siguientes estándares para garantizar el cumplimiento de accesibilidad[cite: 2]:
 
@@ -2316,7 +2314,7 @@ Para poder publicar nuestra landing page, seguimos una serie de pasos específic
 
 El despliegue en GitHub Pages requiere que los archivos estén organizados de una manera particular para que la plataforma los reconozca y los sirva correctamente.
 
-## 1. Organización del Repositorio
+ **1. Organización del Repositorio**
 
 Los archivos del proyecto están organizados de la siguiente manera dentro del repositorio:
 
@@ -2325,11 +2323,10 @@ Los archivos del proyecto están organizados de la siguiente manera dentro del r
 * **Archivos JavaScript**: Los scripts se organizan en la carpeta `js/`. El archivo `js/i18n.js` se utiliza para gestionar las traducciones del sitio, mientras que `js/main.js` controla las interacciones del usuario.
 * **Recursos Multimedia**: Las imágenes, gráficos y fondos multimedia se guardan dentro de la carpeta `assets/images/`.
 
-## 2. Subida de Archivos
-
+** 2. Subida de Archivos**
 Una vez que los archivos están correctamente organizados y verificados en el entorno local, se suben al repositorio a través de un *commit* y se sincronizan con la rama principal.
 
-## 3. Configuración en GitHub Pages
+ **3. Configuración en GitHub Pages**
 
 Para habilitar la publicación en la plataforma, se realiza la siguiente configuración:
 
@@ -2337,7 +2334,7 @@ Para habilitar la publicación en la plataforma, se realiza la siguiente configu
 2. Se selecciona la rama `main` como la fuente de despliegue.
 3. Se configura la carpeta raíz (`/root`) como el origen de la página.
 
-## 4. Despliegue Automático
+**4. Despliegue Automático**
 
 * GitHub Pages inicia un proceso de verificación y despliegue automático.
 * Al finalizar el proceso, la plataforma genera una URL pública para acceder a la landing page.
@@ -2389,9 +2386,9 @@ A continuación, se detalla la matriz de liderazgo y colaboración (LACX) para l
 
 <img src="resources/imgs/sprin1.png">
 
-[NoxWay Sprint Backlog](https://trello.com/invite/b/690c87e2eddd3d52ed83189d/ATTI96b986ca465d37e1b647b2fb1690fee5DC6EC0DE/noxway)
+NoxWay Sprint Backlog 
+https://trello.com/invite/b/690c87e2eddd3d52ed83189d/ATTI96b986ca465d37e1b647b2fb1690fee5DC6EC0DE/noxway
 
-#### 5.2.1.4. Development Evidence for Sprint Review. 
 
 
 En este primer Sprint hemos realizado la implementación de nuestra Landing Page, donde todo el equipo ha aportado en varias tareas. En la siguiente tabla se muestran los commits realizados para evidenciar el desarrollo.
@@ -2443,63 +2440,99 @@ Debido a que la arquitectura de servicios (RESTful API), la base de datos y la l
 Durante este sprint, se completó el despliegue de la landing page para habilitar su acceso público mediante GitHub Pages. El procedimiento inició con la creación y configuración de un repositorio público bajo la nomenclatura asignada al proyecto. Posteriormente, se cargó el código fuente y se activó el servicio de publicación web desde los ajustes del repositorio. Finalmente, se validó la disponibilidad y operatividad del sitio en línea, estableciendo un flujo de mantenimiento continuo en el cual cualquier cambio subido al repositorio se refleja automáticamente en producción.
 
 *Evidencia de deployment 1*
+<br>
 <img src="resources/imgs/Github-Pages-Nowxay.png">
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint. 
-Durante el Sprint 1, el equipo de Noctiva adoptó un enfoque de trabajo colaborativo basado en la metodología GitHub Flow, lo que nos permitió desarrollar la Landing Page de Noxway de manera ágil. A través del control de versiones, logramos paralelizar el trabajo en distintas secciones de la página, integrando los cambios progresivamente mediante ramas de características (*feature branches*) y Pull Requests (PRs).
-
-A continuación, se detalla el análisis de la colaboración del equipo, evidenciando la trazabilidad directa entre cada integrante, su trabajo en el repositorio y el valor entregado al producto:
-
-**Trazabilidad de Colaboración Individual (Integrante $\rightarrow$ Branch / Commit / PR $\rightarrow$ Resultado):**
-
-* **Dextre Flores, Leonardo Felix (leo-dex45):**
-* **Commits clave:** `0ec1b1e` (core structure), `1c254f0` (hero html), `ae391c4` (hero css), `5627df0` (responsive menu js).
-
-
-* **Resultado:** Leonardo estableció la estructura fundacional del proyecto. Maquetó la barra de navegación y la sección inicial (Hero), configurando las variables CSS globales y la lógica JavaScript para el menú responsivo.
-
-
-
-* **Salcedo Correa, Carlos Matthew (Matthewnhfe):**
-* **PR / Commits clave:** Pull Request #3 (`ed85441`), Pull Request #4 (`1712d6c`), `aa5543b` (protocol html), `f8d0f1d` (reveal on scroll js), `2889157` (i18n.js).
-
-
-* **Resultado:** Carlos lideró la integración de las secciones Core (Protocolo y Ecosistema) y programó las animaciones de *scroll*. Además, implementó el motor de diccionarios bilingües (i18n.js) y fue el responsable de autorizar y gestionar las integraciones finales mediante los Pull Requests #3 y #4 para estabilizar la rama de desarrollo.
-
-
-
-* **Patricio Farias, Ana Camila (anacamilapatricio-sketch):**
-* **Commits clave:** `3e57cf8` (video/testimonials HTML), `8d6439e` (video/testimonials CSS), `47d9cd6` (syntax fixes in main.js).
-
-
-* **Resultado:** Ana desarrolló la galería de testimonios y la vitrina multimedia de la plataforma. Durante la fase de pruebas, identificó y resolvió errores de sintaxis críticos en la lógica general de JavaScript (main.js) para asegurar un despliegue sin fallas.
-
-
-
-* **Cano Gomez, Yam Antony (Yam-1CG):**
-* **Branch / PR clave:** `feature/final-preview-landingpage` (PR `795c91c`), `feature/final-finalpart-style` (PR `2ed91c3`), `f20d424` (contact section html), `4045767` (final style adjustments).
-
-
-* **Resultado:** Yam gestionó las ramas de características dedicadas a la revisión visual final del producto. Construyó el formulario de contacto, el pie de página (footer) y los modales legales, aplicando los ajustes de estilo definitivos antes de autorizar el *merge* de sus ramas.
-
-
-
-* **Ramirez Rodriguez, Mauricio Joao (MauRicio1321rr):**
-* **Commits clave:** `db796f1` (subscription plans section).
-
-
-* **Resultado:** Mauricio se encargó de desarrollar e integrar la sección de planes de suscripción en el documento principal, garantizando la correcta visualización de la matriz de precios.
-
-
-
-**Dinámica del equipo y resolución de conflictos:**
-El flujo de trabajo permitió que cada integrante se apropiara de una sección de la Landing Page. Se utilizaron ramas específicas como `feature/final-preview-landingpage` y `feature/final-finalpart-style` para aislar los ajustes visuales y evitar conflictos directos. Durante la integración final, se identificaron errores de sintaxis estructural y enlaces rotos (como el reproductor de YouTube). Estos bloqueos fueron resueltos colaborativamente mediante *commits* de corrección rápida (`fix(landing)...`) liderados por Carlos y Ana, culminando en la ejecución de los Pull Requests #3 y #4 que dejaron la base de código estable y lista para su despliegue público.
-
-*Evidencia de integración y colaboración en el repositorio:*
 
 <img src="resources/imgs/Colaboration1.png">
+
 <img src="resources/imgs/Colaboration2.png">
 
+
+### 5.2.1. Sprint 2
+
+#### 5.2.2.1.Sprint Planning 2.
+El Sprint Planning 2 se enfocó en el despliegue funcional del sitio web estático (Landing Page) de Noxway y de la primera version de la pagina web de Noxway. El objetivo principal de esta iteración es establecer la presencia digital del producto, comunicando claramente la propuesta de valor tanto para los trabajadores de turno nocturno como para sus contactos de confianza, integrando información sobre los planes de suscripción, testimonios y demostraciones visuales de la plataforma.
+
+| Sprint # | Sprint 2 |
+| :--- | :--- |
+| **Sprint Planning Background** | |
+| **Date** | 2026-10-01 |
+| **Time** | 1:00 PM |
+| **Location** | Reunión virtual mediante Discord |
+| **Prepared By** |  Ana Camila Patricio Farias|
+| **Attendees (to planning meeting)** | Ana Patricio,Yam Cano,Leonardo Dextre,Mauricio Ramirez,Carlos Salcedo|
+| **Sprint 2 Review Summary** |  |
+| **Sprint 2 Retrospective Summary** | Durante este sprint, todos los integrantes compartieron sus ideas respecto a la aplicacion web, los bounded context, arquitectura DDD, funcionalidades. Tuvimos tareas bien organizadas y realizadas, que se puede verificar en los avances del informe y de la pagina web |
+| **Sprint Goal & User Stories** | |
+| **Sprint 2 Goal** | Nuestro enfoque está en implementar las correciones a la Landing Page y el despliegue de la aplicacion web, asegurando su coherencia visual y funcionalidad multilingüe y que la puedan usar nuestro dos segementos objetivos. Creemos que esto ofrece una experiencia de navegación más clara, atractiva y accesible a nuestros usuarios potenciales de nuestra solución. Esto se confirmará cuando los usuarios puedan cambiar el idioma fácilmente desde la interfaz, que puedan navergar intuitivamente en la aplicacion sin errores visuales desde cualquier dispositivo, y se valide que imágenes, textos y direcciones estén correctamente integrados y espaciados.|
+| **Sprint 2 Velocity** | 13 Story Points |
+| **Sum of Story Points** | 14 Story Points |
+
+#### 5.2.2.2. Aspect Leaders and Collaborators.
+
+A continuación, se detalla la matriz de liderazgo y colaboración (LACX) para los aspectos clave abordados en este sprint.  
+
+| Team Member (Last Name, First Name) | GitHub Username | Aplicaion web <br>Leader (L) / Collaborator (C) | Despliegue de la aplicacion web <br>Leader (L) / Collaborator (C) | Project Documentation<br>Leader (L) / Collaborator (C) |
+| :--- | :--- | :---: | :---: | :---: |
+| Cano Gomez, Yam Antony  | Yam-1CG | C | C | L |
+| Ramirez Rodriguez, Mauricio Joao  | MauRicio1321rr  | C | C | C |
+| Dextre Dextre Flores, Leonardo | Leo-dex45 | L | L | C |
+| Patricio Farias, Ana Camila | anacamilapatricio-sketch | L | C | L |
+| Salcedo Correa, Carlos Mathhew | Matthewnhfe | L | L | C |
+
+#### 5.2.2.3.Sprint Backlog 2.
+
+| User Story Id | User Story Title | Task Id | Task Title | Task Description | Estimation (Hours) | Assigned To | Status |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **US-06** | Invitar contacto de confianza | UT-01 | Formulario de invitación | Implementar formulario para enviar invitaciones por correo/teléfono y conectar con el API. | 3 | Camila | Done |
+| **US-07** | Aceptar o rechazar invitación | UT-01 | Gestión de invitación entrante | Desarrollar la vista para que el contacto acepte/rechace y actualizar el estado del vínculo. | 2 | Carlos | Done |
+| **US-08** | Remover contacto de confianza | UT-01 | Opción de eliminar contacto | Añadir botón de eliminación con modal de confirmación en la lista de contactos vinculados. | 2 | Leonardo | Done |
+| **US-09** | Iniciar check-in de trayecto seguro | UT-01 | Interfaz de inicio de check-in | Crear formulario para ingresar destino y tiempo estimado e iniciar la telemetría en vivo. | 5 | Carlos | Done |
+| **US-10** | Confirmar llegada segura | UT-01 | Botón de confirmación de llegada | Implementar botón para finalizar el check-in activo, deteniendo el rastreo y notificando. | 3 | Camila | Done |
+| **US-11** | Cancelar check-in activo | UT-01 | Cancelación de trayecto | Desarrollar lógica para cancelar un trayecto en curso desde el dashboard del trabajador. | 2 | Camila | Done |
+| **US-12** | Marcado automático de posible incidente | UT-01 | Cronómetro y alerta automática | Implementar lógica para evaluar tolerancia de tiempo y disparar el incidente en la UI. | 4 | Leonardo | Done |
+| **US-13** | Validar posible incidente | UT-01 | Modal de validación | Crear interfaz para que el trabajador descarte (falso positivo) o confirme una alerta. | 3 | Carlos | Done |
+| **US-14** | Recibir alerta de posible incidente | UT-01 | Recepción de alertas en Companion | Desarrollar notificaciones push y alertas visuales resaltadas en el portal del contacto. | 3 | Camila | Done |
+| **US-15** | Buscar servicios nocturnos cercanos | UT-01 | Mapa de servicios 24h | Integrar mapa interactivo con pines de locales abiertos de madrugada y barra de búsqueda. | 5 | Yam | Done |
+| **US-16** | Reportar nuevo servicio nocturno | UT-01 | Formulario de nuevo local | Crear formulario para registrar información y coordenadas de un nuevo servicio 24h. | 3 | Leonardo | Done |
+| **US-17** | Calificar un servicio nocturno reportado | UT-01 | Sistema de votos para servicios | Añadir botones de upvote/downvote para calificar la veracidad en los detalles del servicio. | 2 | Carlos | Done |
+| **US-18** | Calificar seguridad de ruta | UT-01 | Encuesta de seguridad post-trayecto | Implementar modal de estrellas y comentarios que aparece al confirmar la llegada segura. | 3 | Camila | Done |
+| **US-19** | Reportar punto de riesgo específico | UT-01 | Marcador de riesgo en mapa | Desarrollar opción para colocar un pin de peligro con descripción en el mapa comunitario. | 3 | Yam | Done |
+| **US-20** | Visualizar mapa de zonas de riesgo | UT-01 | Capa de zonas de riesgo | Mostrar perímetros sombreados y advertencias de peligro superpuestas sobre el mapa 24h. | 4 | Leonardo | Done |
+| **US-21** | Registrar horas de descanso | UT-01 | Formulario de bitácora de sueño | Implementar vista para ingresar horas de inicio y fin del descanso diurno del trabajador. | 2 | Carlos | Done |
+| **US-22** | Visualizar historial de descanso | UT-01 | Gráficos de historial de sueño | Integrar librería de gráficos para mostrar patrones de descanso semanales y déficits. | 4 | Camila | Done |
+| **US-23** | Recibir sugerencia de higiene del sueño | UT-01 | Tarjetas de sugerencias | Mostrar alertas de interfaz y recomendaciones basadas en el déficit de sueño calculado. | 2 | Yam | Done |
+| **US-25** | Suscribirse al plan mensual | UT-01 | Flujo de pago y suscripción | Integrar pasarela de pago y actualizar el estado de membresía (Centinela Pro) en el perfil. | 5 | Leonardo | Done |
+| **US-26** | Acceder a beneficios y descuentos | UT-01 | Catálogo de convenios y QR | Desarrollar la vista de recompensas con generación de código QR dinámico para suscriptores. | 3 | Carlos | Done |
+| **US-27** | Referir a un contacto (beneficio) | UT-01 | Generador de enlaces | Implementar sección para copiar código de referido personal y ver el progreso de recompensas. | 2 | Camila | Done |
+| **US-28** | Visualizar estado de trayecto en tiempo real | UT-01 | Mapa de rastreo en vivo | Desarrollar el panel del contacto para mostrar la ubicación en movimiento, velocidad y ETA. | 5 | Yam | Done |
+| **US-29** | Configurar preferencias de notificación | UT-01 | Panel de ajustes de alertas | Crear vista con interruptores (switches) para habilitar/deshabilitar notificaciones de rutina. | 2 | Leonardo | Done |
+| **US-30** | Revisar y aprobar reportes de la comunidad | UT-01 | Bandeja de moderación | Implementar interfaz para listar reportes pendientes y botones de aprobación/rechazo. | 4 | Carlos | Done |
+
+<img src="resources/imgs/spring2.png">
+
+NoxWay Sprint Backlog 
+https://trello.com/invite/b/690c87e2eddd3d52ed83189d/ATTI96b986ca465d37e1b647b2fb1690fee5DC6EC0DE/noxway
+
+#### 5.2.2.4.Development Evidence for Sprint Review.
+
+
+#### 5.2.2.5.Execution Evidence for Sprint Review.
+Capturas de la aplicacion web desplegada junto a un video demostrativo de su diseño y usabilidad
+
+
+#### 5.2.2.6.Services Documentation Evidence for Sprint Review.
+
+
+#### 5.2.2.7.Software Deployment Evidence for Sprint Review.
+Durante este sprint, se completó el despliegue de la aplicacion web para habilitar su acceso público. El procedimiento inició con la creación y configuración de un repositorio público bajo la nomenclatura asignada al proyecto. Posteriormente, se cargó el código fuente y se activó el servicio de publicación web desde los ajustes del repositorio. Finalmente, se validó la disponibilidad y operatividad del sitio en línea, estableciendo un flujo de mantenimiento continuo en el cual cualquier cambio subido al repositorio se refleja automáticamente en producción.
+
+*Evidencia de deployment 1*
+
+
+#### 5.2.2.8.Team Collaboration Insights during Sprint.
 
 
 # Conclusiones 
