@@ -42,9 +42,27 @@
 
 |Versión|Fecha|Autor|Descripción de modificación|
 |:------|:----|:----|:--------------------|
-|||||
+| 1.0 | 2026-09-19 | Noctiva | Desarrollo del Capítulo I, Capítulo II, Capítulo III, Capítulo IV y el Sprint 1 del Capítulo V |
 
 # Project Report Collaboration Insights 
+| Recurso | URL |
+| :--- | :--- |
+| Organización del proyecto | https://github.com/upc-pre-202620-1asi0730-7793 |
+| Repositorio del reporte | https://github.com/upc-pre-202620-1asi0730-7793/Report |
+| Repositorio de la Landing Page | https://github.com/upc-pre-202620-1asi0730-7793/Landing-Page |
+
+Durante la fase de preparación del informe, se llevaron a cabo las siguientes actividades:
+
+AV1: Las tareas asignadas al AV1 han sido finalizadas y se encuentran correctamente documentadas en el repositorio de GitHub:
+
+Se redactaron y crearon los contenidos asignados a cada miembro utilizando el formato Markdown, y se realizaron Conventional Commits para documentar el avance en el repositorio.
+Se generaron los recursos necesarios y se agregaron las imágenes al repositorio en la carpeta assets correspondiente a cada rama del informe.
+Se organizaron reuniones para coordinar el progreso de los componentes del informe y del Sprint 1, enfocado en el desarrollo de la Landing Page.
+
+<div align="center">
+<img src="assets/chapter01/commits informe - 1.png" alt="Commits del informe">
+</div>
+
 
 # Contenido 
 
@@ -322,9 +340,15 @@ Sabremos que hemos tenido éxito cuando veamos **una reducción de los incidente
 * Creemos que un modelo de monetización mediante suscripción mensual con beneficios como seguro básico, descuentos negociados colectivamente y alertas de seguridad prioritarias es viable y sostenible para este segmento, gracias a la posibilidad de negociar estos beneficios con terceros.
 
 **Business Outcome Assumptions**
-* Creemos que lograremos una reducción medible en los incidentes de seguridad reportados por nuestros usuarios activos frente a su situación previa sin la plataforma.
-* Creemos que lograremos un incremento sostenido en el número de suscripciones mensuales activas mes a mes.
-* Creemos que lograremos reducir el costo de adquisición de usuarios mediante el programa de referidos entre trabajadores nocturnos y sus contactos de confianza.
+* Creemos que lograremos una reducción de al menos 30 % en los incidentes de seguridad reportados por los usuarios activos respecto a su línea base autodeclarada, en un plazo de 8 meses desde el lanzamiento del MVP.
+* Creemos que lograremos al menos 500 suscripciones mensuales activas, en un plazo de 8 meses desde el lanzamiento.
+* Creemos que lograremos que al menos 30 % de los nuevos registros provenga de invitaciones de contactos de confianza y que el costo de adquisición por usuario sea 25 % menor al de canales pagados, durante los 6 meses posteriores al lanzamiento.
+* Creemos que lograremos una retención a 30 días (usuarios con al menos un check-in en el mes 2 sobre usuarios con check-in en el mes 1) de al menos 60 %, durante los 3 meses posteriores al lanzamiento.
+* Creemos que lograremos un promedio de al menos 4 sesiones semanales por usuario activo y 3 búsquedas de servicios por semana, durante los 3 meses posteriores al lanzamiento.
+* Creemos que lograremos que al menos 80 % de los reportes de riesgo sean aprobados por moderación y que 70 % de las zonas de riesgo tengan 2 o más confirmaciones independientes, durante los 3 meses posteriores al lanzamiento.
+* Creemos que lograremos una tasa de renovación de suscripción de al menos 70 % al tercer mes y que al menos 20 % de los nuevos registros llegue por recomendación, durante los 6 meses posteriores al lanzamiento.
+* Creemos que lograremos que al menos 40 % de los trayectos finalizados reciba una calificación de ruta, durante los 3 meses posteriores al lanzamiento.
+* Creemos que lograremos una mediana de 5 minutos o menos entre el vencimiento del margen de tolerancia y la primera acción del contacto de confianza, con no más de 15 % de incidentes cerrados como falso positivo, durante un piloto de 8 semanas.
 
 **User Assumptions**
 1. Nuestros usuarios principales son trabajadores de turno nocturno entre 20 y 45 años, residentes en zonas urbanas de Lima, pertenecientes a los rubros de seguridad, delivery, salud y call centers, etc.
@@ -336,7 +360,9 @@ Sabremos que hemos tenido éxito cuando veamos **una reducción de los incidente
 2. Los trabajadores nocturnos desean encontrar rápidamente servicios abiertos y confiables durante la noche, y obtienen ahorro de tiempo y menor exposición a situaciones de riesgo.
 3. Los trabajadores nocturnos desean sentirse parte de una comunidad que comprenda su realidad laboral, y obtienen acceso a información relevante y beneficios negociados colectivamente.
 4. Los contactos de confianza desean tener certeza y tranquilidad sobre la seguridad de su familiar o pareja durante su trayecto nocturno, y obtienen visibilidad del estado del check-in y de la llegada segura, sin necesidad de estar llamando o preguntando constantemente.
-5. Los trabajadores nocturnos desean saber qué tan segura es una ruta específica antes de tomarla, y obtienen esa información gracias a las calificaciones y reportes dejados por otros usuarios que la transitaron recientemente.
+5. Los trabajadores nocturnos desean saber qué tan segura es una ruta específica antes de tomarla, y obtienen información sobre la seguridad de la ruta gracias a las calificaciones y reportes dejados por otros usuarios que la transitaron recientemente.
+6. Los trabajadores nocturnos desean comprender cómo su horario afecta su descanso, y obtienen visibilidad de sus patrones de sueño y alertas ante descanso insuficiente.
+7. Los contactos de confianza desean enterarse a tiempo cuando el trayecto de su familiar o pareja presenta una situación anómala, y obtienen una alerta temprana y verificada sobre un posible incidente en el trayecto.
 
 **Feature Assumptions**
 
@@ -353,73 +379,73 @@ Sabremos que hemos tenido éxito cuando veamos **una reducción de los incidente
 
 **Hipótesis 1**
 
-Creemos que lograremos **un aumento en la retención mensual de usuarios activos**
-Si **los trabajadores de turno nocturno en Lima**
-Obtienen **mayor tranquilidad y acompañamiento durante sus trayectos**
-Con **la función de check-in de trayecto seguro y alertas automáticas a contactos de confianza**.
+Creemos que lograremos **una retención a 30 días (usuarios con al menos un check-in en el mes 2 sobre usuarios con check-in en el mes 1) de al menos 60 %, durante los 3 meses posteriores al lanzamiento**  
+Si **los trabajadores de turno nocturno en Lima**  
+Alcanzan **tranquilidad al saber que un contacto de confianza será notificado automáticamente ante cualquier eventualidad**  
+Con **la función de check-in de trayecto seguro con alertas automáticas a contactos de confianza**.
 
 ---
 
 **Hipótesis 2**
 
-Creemos que lograremos **un aumento en la frecuencia diaria de uso de la aplicación**
-Si **los trabajadores de turno nocturno**
-Obtienen **acceso rápido y confiable a servicios abiertos cerca de su ubicación**
+Creemos que lograremos **un promedio de al menos 4 sesiones semanales por usuario activo y 3 búsquedas de servicios por semana, durante los 3 meses posteriores al lanzamiento**  
+Si **los trabajadores de turno nocturno**  
+Alcanzan **ahorro de tiempo y menor exposición a situaciones de riesgo**  
 Con **el mapa comunitario de servicios activos durante la noche**.
 
 ---
 
 **Hipótesis 3**
 
-Creemos que lograremos **una mejora en la calidad y confiabilidad de la información de seguridad de la plataforma**
-Si **los trabajadores de turno nocturno**
-Obtienen **visibilidad de las zonas de riesgo identificadas por otros usuarios**
+Creemos que lograremos **que al menos 80 % de los reportes de riesgo sean aprobados por moderación y que 70 % de las zonas de riesgo tengan 2 o más confirmaciones independientes, durante los 3 meses posteriores al lanzamiento**  
+Si **los trabajadores de turno nocturno**  
+Alcanzan **información sobre la seguridad de la ruta gracias a las calificaciones y reportes dejados por otros usuarios que la transitaron recientemente**  
 Con **el sistema de reporte comunitario de incidentes**.
 
 ---
 
 **Hipótesis 4**
 
-Creemos que lograremos **un mayor compromiso (engagement) de los usuarios con la plataforma a largo plazo**
-Si **los trabajadores de turno nocturno**
-Obtienen **visibilidad de sus patrones de descanso y alertas sobre descanso insuficiente**
+Creemos que lograremos **una retención a 30 días (usuarios con al menos un check-in en el mes 2 sobre usuarios con check-in en el mes 1) de al menos 60 %, durante los 3 meses posteriores al lanzamiento**  
+Si **los trabajadores de turno nocturno**  
+Alcanzan **visibilidad de sus patrones de sueño y alertas ante descanso insuficiente**  
 Con **la bitácora de descanso y salud del sueño**.
 
 ---
 
 **Hipótesis 5**
 
-Creemos que lograremos **una mayor retención de suscriptores y crecimiento orgánico por recomendación (boca a boca)**
-Si **los trabajadores de turno nocturno**
-Obtienen **un sentido de pertenencia y acceso a beneficios negociados colectivamente (descuentos, seguro básico)**
+Creemos que lograremos **una tasa de renovación de suscripción de al menos 70 % al tercer mes y que al menos 20 % de los nuevos registros llegue por recomendación, durante los 6 meses posteriores al lanzamiento**  
+Si **los trabajadores de turno nocturno**  
+Alcanzan **acceso a información relevante y beneficios negociados colectivamente**  
 Con **la comunidad y sus beneficios colectivos negociados a través de la suscripción mensual**.
 
 ---
 
 **Hipótesis 6**
 
-Creemos que lograremos **un aumento en el volumen y la calidad de la información de seguridad comunitaria disponible en la plataforma**
-Si **los trabajadores de turno nocturno**
-Obtienen **la posibilidad de calificar su trayecto y reportar puntos de riesgo específicos al finalizar cada viaje**
+Creemos que lograremos **que al menos 40 % de los trayectos finalizados reciba una calificación de ruta, durante los 3 meses posteriores al lanzamiento**  
+Si **los trabajadores de turno nocturno**  
+Alcanzan **información sobre la seguridad de la ruta gracias a las calificaciones y reportes dejados por otros usuarios que la transitaron recientemente**  
 Con **el sistema de calificación y reporte de rutas**.
 
 ---
 
 **Hipótesis 7**
 
-Creemos que lograremos **una reducción en el tiempo de reacción ante una situación de riesgo real durante un trayecto**
-Si **los contactos de confianza y la comunidad de usuarios**
-Obtienen **una alerta temprana y verificada sobre un posible incidente en una ruta específica**
-Con **la función de marcado automático de "posible incidente" activada cuando la llegada no es confirmada**.
+Creemos que lograremos **una mediana de 5 minutos o menos entre el vencimiento del margen de tolerancia y la primera acción del contacto de confianza, con no más de 15 % de incidentes cerrados como falso positivo, durante un piloto de 8 semanas**  
+Si **los contactos de confianza**  
+Alcanzan **una alerta temprana y verificada sobre un posible incidente en el trayecto**  
+Con **la función de marcado automático de "posible incidente" cuando la llegada no es confirmada**.
 
 ---
 
 **Hipótesis 8**
 
-Creemos que lograremos **un mayor crecimiento orgánico por recomendación (boca a boca) y una reducción del costo de adquisición de usuarios**
-Si **los contactos de confianza (familiares y parejas) de los trabajadores de turno nocturno**
-Obtienen **visibilidad en tiempo real y tranquilidad respecto al estado del trayecto de su ser querido**
-Con **una vista de acompañamiento dedicada para contactos de confianza**.
+Creemos que lograremos **que al menos 30 % de los nuevos registros provenga de invitaciones de contactos de confianza y que el costo de adquisición por usuario sea 25 % menor al de canales pagados, durante los 6 meses posteriores al lanzamiento**  
+Si **los contactos de confianza (familiares y parejas de los trabajadores de turno nocturno)**  
+Alcanzan **visibilidad del estado del check-in y de la llegada segura, sin necesidad de estar llamando o preguntando constantemente**  
+Con **un panel de seguimiento dedicado para contactos de confianza**.
 
 #### 1.2.2.4. Lean UX Canvas. 
 Figura 1
@@ -2367,33 +2393,32 @@ A continuación, se detalla la matriz de liderazgo y colaboración (LACX) para l
 
 #### 5.2.1.4. Development Evidence for Sprint Review. 
 
-#### 5.2.1.4. Development Evidence for Sprint Review.
 
 En este primer Sprint hemos realizado la implementación de nuestra Landing Page, donde todo el equipo ha aportado en varias tareas. En la siguiente tabla se muestran los commits realizados para evidenciar el desarrollo.
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| upc-pre-202620-1asi0730-7793 | develop | 1712d6c | Merge pull request #4 from upc-pre-202620-1asi0730-7793/develop | Merge pull request #4 from upc-pre-202620-1asi0730-7793/develop | 19/09/2026 |
-| upc-pre-202620-1asi0730-7793 | develop | 7fe7538 | fix(landing): link youtube in index.html | link youtube in index.html | 19/09/2026 |
-| upc-pre-202620-1asi0730-7793 | develop | ed85441 | Merge pull request #3 from upc-pre-202620-1asi0730-7793/develop | Merge pull request #3 from upc-pre-202620-1asi0730-7793/develop | 19/09/2026 |
-| upc-pre-202620-1asi0730-7793 | develop | 2889157 | feat(i18n): implement bilingual dictionaries and translation engine in i18n.js | implement bilingual dictionaries and translation engine in i18n.js | 19/09/2026 |
-| upc-pre-202620-1asi0730-7793 | develop | 47d9cd6 | fix(landing): correct general structure and syntax errors in main.js | correct general structure and syntax errors in main.js | 19/09/2026 |
-| upc-pre-202620-1asi0730-7793 | develop | 3685bb3 | fix(landing): correct general structure and syntax errors in index.html | correct general structure and syntax errors in index.html | 19/09/2026 |
-| upc-pre-202620-1asi0730-7793 | develop | 2ed91c3 | Merge pull request feature/final-finalpart-style | Merge pull request feature/final-finalpart-style | 19/09/2026 |
-| upc-pre-202620-1asi0730-7793 | develop | 4045767 | feat: add final style adjustments to landing page | add final style adjustments to landing page | 19/09/2026 |
-| upc-pre-202620-1asi0730-7793 | develop | db796f1 | feat(landing): add subscription plans section in index.html | add subscription plans section in index.html | 19/09/2026 |
-| upc-pre-202620-1asi0730-7793 | develop | f8d0f1d | feat(landing): implement reveal on scroll logic for protocol and ecosystem in main.js | implement reveal on scroll logic for protocol and ecosystem in main.js | 19/09/2026 |
-| upc-pre-202620-1asi0730-7793 | develop | 8d6439e | style(landing): add styles for video and testimonial sections in styles.css | add styles for video and testimonial sections in styles.css | 19/09/2026 |
-| upc-pre-202620-1asi0730-7793 | develop | 5627df0 | feat(landing): implement initialization, responsive menu and hero video control | implement initialization, responsive menu and hero video control | 19/09/2026 |
-| upc-pre-202620-1asi0730-7793 | develop | f0a6a1f | style(landing): add styles for night protocol and ecosystem sections in styles.css | add styles for night protocol and ecosystem sections in styles.css | 19/09/2026 |
-| upc-pre-202620-1asi0730-7793 | develop | ae391c4 | style(landing): add css variables, reset, header, navigation and hero styles in styles.css | add css variables, reset, header, navigation and hero styles in styles.css | 19/09/2026 |
-| upc-pre-202620-1asi0730-7793 | develop | 795c91c | Merge pull request feature/final-preview-landingpage | Merge pull request feature/final-preview-landingpage | 19/09/2026 |
-| upc-pre-202620-1asi0730-7793 | develop | f20d424 | feat(landing): add contact section, footer and terms modal markup | add contact section, footer and terms modal markup | 19/09/2026 |
-| upc-pre-202620-1asi0730-7793 | develop | 3e57cf8 | feat(landing): add video showcase and testimonials sections in index.html | add video showcase and testimonials sections in index.html | 19/09/2026 |
-| upc-pre-202620-1asi0730-7793 | develop | 7816c6c | chore(assets): add required image assets for landing page | add required image assets for landing page | 19/09/2026 |
-| upc-pre-202620-1asi0730-7793 | develop | aa5543b | feat(landing): add night protocol and ecosystem sections in index.html | add night protocol and ecosystem sections in index.html | 19/09/2026 |
-| upc-pre-202620-1asi0730-7793 | develop | 1c254f0 | feat(landing): add base html structure, navigation bar and hero section in index.html | add base html structure, navigation bar and hero section in index.html | 19/09/2026 |
-| upc-pre-202620-1asi0730-7793 | develop | 0ec1b1e | feat(landing): add core structure, styles, main scripts and i18n support | add core structure, styles, main scripts and i18n support | 19/09/2026 |
+| upc-pre-202620-1asi0730-7793 | main | 1712d6c | Merge pull request #4 from upc-pre-202620-1asi0730-7793/develop | Merge pull request #4 from upc-pre-202620-1asi0730-7793/develop | 19/09/2026 |
+| upc-pre-202620-1asi0730-7793 | main | 7fe7538 | fix(landing): link youtube in index.html | link youtube in index.html | 19/09/2026 |
+| upc-pre-202620-1asi0730-7793 | main | ed85441 | Merge pull request #3 from upc-pre-202620-1asi0730-7793/develop | Merge pull request #3 from upc-pre-202620-1asi0730-7793/develop | 19/09/2026 |
+| upc-pre-202620-1asi0730-7793 | main | 2889157 | feat(i18n): implement bilingual dictionaries and translation engine in i18n.js | implement bilingual dictionaries and translation engine in i18n.js | 19/09/2026 |
+| upc-pre-202620-1asi0730-7793 | main | 47d9cd6 | fix(landing): correct general structure and syntax errors in main.js | correct general structure and syntax errors in main.js | 19/09/2026 |
+| upc-pre-202620-1asi0730-7793 | main | 3685bb3 | fix(landing): correct general structure and syntax errors in index.html | correct general structure and syntax errors in index.html | 19/09/2026 |
+| upc-pre-202620-1asi0730-7793 | main | 2ed91c3 | Merge pull request feature/final-finalpart-style | Merge pull request feature/final-finalpart-style | 19/09/2026 |
+| upc-pre-202620-1asi0730-7793 | main | 4045767 | feat: add final style adjustments to landing page | add final style adjustments to landing page | 19/09/2026 |
+| upc-pre-202620-1asi0730-7793 | main | db796f1 | feat(landing): add subscription plans section in index.html | add subscription plans section in index.html | 19/09/2026 |
+| upc-pre-202620-1asi0730-7793 | main | f8d0f1d | feat(landing): implement reveal on scroll logic for protocol and ecosystem in main.js | implement reveal on scroll logic for protocol and ecosystem in main.js | 19/09/2026 |
+| upc-pre-202620-1asi0730-7793 | main | 8d6439e | style(landing): add styles for video and testimonial sections in styles.css | add styles for video and testimonial sections in styles.css | 19/09/2026 |
+| upc-pre-202620-1asi0730-7793 | main | 5627df0 | feat(landing): implement initialization, responsive menu and hero video control | implement initialization, responsive menu and hero video control | 19/09/2026 |
+| upc-pre-202620-1asi0730-7793 | main | f0a6a1f | style(landing): add styles for night protocol and ecosystem sections in styles.css | add styles for night protocol and ecosystem sections in styles.css | 19/09/2026 |
+| upc-pre-202620-1asi0730-7793 | main | ae391c4 | style(landing): add css variables, reset, header, navigation and hero styles in styles.css | add css variables, reset, header, navigation and hero styles in styles.css | 19/09/2026 |
+| upc-pre-202620-1asi0730-7793 | main | 795c91c | Merge pull request feature/final-preview-landingpage | Merge pull request feature/final-preview-landingpage | 19/09/2026 |
+| upc-pre-202620-1asi0730-7793 | main | f20d424 | feat(landing): add contact section, footer and terms modal markup | add contact section, footer and terms modal markup | 19/09/2026 |
+| upc-pre-202620-1asi0730-7793 | main | 3e57cf8 | feat(landing): add video showcase and testimonials sections in index.html | add video showcase and testimonials sections in index.html | 19/09/2026 |
+| upc-pre-202620-1asi0730-7793 | main | 7816c6c | chore(assets): add required image assets for landing page | add required image assets for landing page | 19/09/2026 |
+| upc-pre-202620-1asi0730-7793 | main | aa5543b | feat(landing): add night protocol and ecosystem sections in index.html | add night protocol and ecosystem sections in index.html | 19/09/2026 |
+| upc-pre-202620-1asi0730-7793 | main | 1c254f0 | feat(landing): add base html structure, navigation bar and hero section in index.html | add base html structure, navigation bar and hero section in index.html | 19/09/2026 |
+| upc-pre-202620-1asi0730-7793 | main | 0ec1b1e | feat(landing): add core structure, styles, main scripts and i18n support | add core structure, styles, main scripts and i18n support | 19/09/2026 |
 
 #### 5.2.1.5. Execution Evidence for Sprint Review. 
 Capturas de la página desplegada junto a un video demostrativo de su diseño y usabilidad
@@ -2404,6 +2429,11 @@ link de la landing: https://upc-pre-202620-1asi0730-7793.github.io/Landing-Page/
 link del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202421065_upc_edu_pe/IQBfINsAKTsuTZ5_fDXp19sKAa5z-SRiOqBqVa2xgvU_l0I?e=q8RIZT
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review. 
+Durante este Sprint, el equipo de desarrollo se centró en definir la visión inicial del backend y la arquitectura de servicios RESTful de Noxway, estableciendo las bases necesarias para el funcionamiento interno de la plataforma. Esta etapa permitió organizar la estructura principal del sistema y proyectar cómo se gestionará la información crítica relacionada con los check-ins de trayectos, la vinculación de contactos de confianza y el mapa comunitario 24 horas.
+
+El backend de Noxway estará orientado a facilitar la administración de procesos clave dentro del entorno de trabajo nocturno, permitiendo un manejo más ordenado y seguro de la telemetría, el envío automático de alertas ante posibles incidentes y la gestión de la bitácora de descanso. Asimismo, servirá como soporte centralizado para garantizar la integración fluida y en tiempo real entre la aplicación móvil de los trabajadores y el portal web de los acompañantes (Companion View), contribuyendo a mejorar la eficiencia y el control durante situaciones de vulnerabilidad en la madrugada.
+
+Este avance representa un paso importante para el crecimiento del proyecto, ya que permitirá consolidar una base tecnológica sólida y bien documentada sobre la cual se desarrollarán e integrarán las siguientes etapas del ecosistema de seguridad nocturna.
 
 Durante el Sprint 1, el alcance de desarrollo e implementación técnica estuvo enfocado de manera exclusiva en la construcción, optimización y despliegue público de la Landing Page estática de Noxway, con el objetivo de validar la propuesta de valor comercial y captar el interés de los segmentos objetivo (trabajadores nocturnos y contactos de confianza).
 
@@ -2473,7 +2503,42 @@ El flujo de trabajo permitió que cada integrante se apropiara de una sección d
 
 
 # Conclusiones 
+Identificación de un nicho desatendido y vulnerable: El proyecto identifica y atiende a un segmento de mercado que ha sido históricamente ignorado por las soluciones tecnológicas: los trabajadores de turno nocturno y sus contactos de confianza. El análisis y las entrevistas demuestran que las aplicaciones genéricas diseñadas para el horario diurno no logran resolver los riesgos de transitar de madrugada ni el aislamiento social que sufren estos trabajadores.
+
+Solución integral y multifacética: Noxway no se limita a ser un simple botón de pánico, sino que propone un ecosistema tecnológico completo que aborda los principales puntos de dolor del usuario. Integra herramientas de seguridad activa (check-in de trayectos y alertas automáticas de posibles incidentes), inteligencia comunitaria (mapas de servicios 24h y reporte de zonas de riesgo) y monitoreo de la salud (bitácora de descanso y sueño).
+
+Diseño altamente centrado en el usuario (UX/UI): La aplicación de la metodología Lean UX garantizó que el diseño de la interfaz considere las limitaciones físicas y el entorno del usuario. Se concluye que la plataforma prioriza interacciones rápidas, simples y de baja fricción, lo cual es crítico para trabajadores que operan bajo fatiga extrema o que temen exponer su teléfono celular en calles desoladas y peligrosas.
+
+Arquitectura de software robusta y escalable: A nivel técnico, el proyecto exhibe una madurez arquitectónica estructurada a través de Domain-Driven Design (EventStorming) y el modelo C4. El sistema está correctamente modularizado en contextos de dominio claros, separando la gestión de trayectos seguros, la inteligencia de la comunidad, el bienestar del usuario y la gestión de suscripciones.
+
+Modelo de negocio validado y sostenible: El proyecto concluye con una estrategia de monetización viable mediante un modelo de suscripción (Plan Centinela Pro y Cuadrilla Familiar) que ofrece beneficios colectivos tangibles. Al incluir descuentos negociados y seguros básicos de accidentes, Noxway supera la resistencia al pago de su segmento objetivo, al mismo tiempo que fomenta el crecimiento orgánico a través de un programa de referidos.
 
 # Bibliografía 
+Adzic, G. (2012). Impact mapping: Making a big impact with software products and projects. Provoking Thoughts.
+https://www.impactmapping.org/book.html
+
+Brandolini, A. (2021). Introducing EventStorming. Leanpub.
+https://leanpub.com/introducing_eventstorming
+
+Brown, S. (2018). Software architecture for developers. Leanpub.
+https://leanpub.com/software-architecture-for-developers
+
+Cohn, M. (2004). User stories applied: For agile software development. Addison-Wesley Professional.
+https://www.oreilly.com/library/view/user-stories-applied/0321205685/
+
+Evans, E. (2004). Domain-driven design: Tackling complexity in the heart of software. Addison-Wesley Professional.
+https://www.domainlanguage.com/ddd/
+
+Gothelf, J., & Seiden, J. (2021). Lean UX: Designing great products with agile teams (3.ª ed.). O'Reilly Media.
+https://www.oreilly.com/library/view/lean-ux-3rd/9781492092885/
+
+Osterwalder, A., Pigneur, Y., Bernarda, G., & Smith, A. (2014). Value proposition design: How to create products and services customers want. John Wiley & Sons.
+https://www.strategyzer.com/books/value-proposition-design
+
+Rosenfeld, L., Morville, P., & Arango, J. (2015). Information architecture: For the web and beyond (4.ª ed.). O'Reilly Media.
+https://www.oreilly.com/library/view/information-architecture-4th/9781491913529/
 
 # Anexos
+Enlaces teams archivos complementarios
+Landing Page: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202421065_upc_edu_pe/IQBfINsAKTsuTZ5_fDXp19sKAa5z-SRiOqBqVa2xgvU_l0I?e=q8RIZT
+Needfinding: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241i469_upc_edu_pe/IQAU7GDYOY4SSIVp6gNJG9wTAQNGKB7fI-6AUR8smTqqgLA?e=Rxeyjz
