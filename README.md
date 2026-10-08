@@ -54,10 +54,14 @@
 - [Contenido](#contenido)
   - [Tabla de contenidos](#tabla-de-contenidos)
 - [Student Outcome](#student-outcome)
+  - [Student Outcome](#student-outcome-1)
 - [Capítulo I: Introducción](#capítulo-i-introducción)
   - [1.1. Startup Profile](#11-startup-profile)
-    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
+    - [1.1.1 Descripción de la Startup](#111-descripción-de-la-startup)
     - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+  - [| **Foto** |                             |](#-foto------------------------------)
+  - [| **Foto** | |](#-foto--)
+  - [| **Foto** |                              |](#-foto-------------------------------)
   - [1.2. Solution Profile](#12-solution-profile)
     - [1.2.1 Antecedentes y problemática](#121-antecedentes-y-problemática)
     - [1.2.2 Lean UX Process.](#122-lean-ux-process)
@@ -68,67 +72,153 @@
   - [1.3. Segmentos objetivo.](#13-segmentos-objetivo)
 - [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
   - [2.1. Competidores.](#21-competidores)
-    - [2.1.1. Análisis competitivo.](#211-análisis-competitivo)
+    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
     - [2.1.2. Estrategias y tácticas frente a competidores.](#212-estrategias-y-tácticas-frente-a-competidores)
   - [2.2. Entrevistas.](#22-entrevistas)
     - [2.2.1. Diseño de entrevistas.](#221-diseño-de-entrevistas)
+    - [Segmento Objetivo 1: Trabajadores de turno nocturno](#segmento-objetivo-1-trabajadores-de-turno-nocturno)
+    - [Segmento Objetivo 2: Contactos de confianza de trabajadores de turno nocturno](#segmento-objetivo-2-contactos-de-confianza-de-trabajadores-de-turno-nocturno)
     - [2.2.2. Registro de entrevistas.](#222-registro-de-entrevistas)
     - [2.2.3. Análisis de entrevistas.](#223-análisis-de-entrevistas)
+      - [**Análisis del Segmento 1: Trabajadores Nocturnos (Usuarios Principales)**](#análisis-del-segmento-1-trabajadores-nocturnos-usuarios-principales)
+      - [**Análisis del Segmento 2: Contactos de Confianza (Familiares y Parejas)**](#análisis-del-segmento-2-contactos-de-confianza-familiares-y-parejas)
   - [2.3. Needfinding.](#23-needfinding)
     - [2.3.1. User Personas.](#231-user-personas)
+      - [Segmento Objetivo 1: Trabajador de Turno Nocturno](#segmento-objetivo-1-trabajador-de-turno-nocturno)
+      - [Segmento Objetivo 2: Contacto de Confianza](#segmento-objetivo-2-contacto-de-confianza)
     - [2.3.2. User Task Matrix.](#232-user-task-matrix)
     - [2.3.3. User Journey Mapping.](#233-user-journey-mapping)
+      - [Segmento Objetivo 1: Trabajador de Turno Nocturno](#segmento-objetivo-1-trabajador-de-turno-nocturno-1)
+      - [Segmento Objetivo 2: Contacto de Confianza](#segmento-objetivo-2-contacto-de-confianza-1)
     - [2.3.4. Empathy Mapping.](#234-empathy-mapping)
+      - [Segmento Objetivo 1: Trabajador de Turno Nocturno](#segmento-objetivo-1-trabajador-de-turno-nocturno-2)
+      - [Segmento Objetivo 2: Contacto de Confianza](#segmento-objetivo-2-contacto-de-confianza-2)
   - [2.4. Big Picture EventStorming.](#24-big-picture-eventstorming)
   - [2.5. Ubiquitous Language.](#25-ubiquitous-language)
 - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
   - [3.1. User Stories.](#31-user-stories)
+    - [Epics:](#epics)
+    - [User Stories:](#user-stories)
+  - [| **US-35** | Cambiar idioma y tema visual en la Landing Page | Como visitante del sitio web, quiero alternar entre los idiomas disponibles (español e inglés) y ajustar el modo de visualización para adaptar la lectura a mis preferencias. | **Escenario 1: Alternancia de idioma**Dado que la landing page se muestra en el idioma predeterminado,Cuando el visitante acciona el selector de idioma (ES/EN),Entonces todos los textos, títulos y llamados a la acción se traducen de forma coherente y dinámica.**Escenario 2: Conmutación de tema claro y oscuro**Dado que el visitante interactúa con el interruptor de modo visual en la barra de navegación,Cuando activa el cambio de tema,Entonces la paleta de colores de la interfaz se adapta inmediatamente al esquema seleccionado manteniendo los contrastes y legibilidad. | EP-01 |](#-us-35--cambiar-idioma-y-tema-visual-en-la-landing-page--como-visitante-del-sitio-web-quiero-alternar-entre-los-idiomas-disponibles-español-e-inglés-y-ajustar-el-modo-de-visualización-para-adaptar-la-lectura-a-mis-preferencias--escenario-1-alternancia-de-idiomadado-que-la-landing-page-se-muestra-en-el-idioma-predeterminadocuando-el-visitante-acciona-el-selector-de-idioma-esenentonces-todos-los-textos-títulos-y-llamados-a-la-acción-se-traducen-de-forma-coherente-y-dinámicaescenario-2-conmutación-de-tema-claro-y-oscurodado-que-el-visitante-interactúa-con-el-interruptor-de-modo-visual-en-la-barra-de-navegacióncuando-activa-el-cambio-de-temaentonces-la-paleta-de-colores-de-la-interfaz-se-adapta-inmediatamente-al-esquema-seleccionado-manteniendo-los-contrastes-y-legibilidad--ep-01-)
+    - [Technical Stories:](#technical-stories)
   - [3.2. Impact Mapping.](#32-impact-mapping)
   - [3.3. Product Backlog.](#33-product-backlog)
 - [Capítulo IV: Product Design](#capítulo-iv-product-design)
   - [4.1. Style Guidelines.](#41-style-guidelines)
     - [4.1.1. General Style Guidelines.](#411-general-style-guidelines)
+      - [El estilo visual de la startup](#el-estilo-visual-de-la-startup)
+      - [Principios de diseño](#principios-de-diseño)
+      - [Paleta de colores](#paleta-de-colores)
+      - [Tipografía](#tipografía)
+      - [Jerarquía tipográfica](#jerarquía-tipográfica)
+      - [Espaciado](#espaciado)
+      - [Tono de comunicación](#tono-de-comunicación)
     - [4.1.2. Web Style Guidelines.](#412-web-style-guidelines)
+      - [1. Diseño y estructura](#1-diseño-y-estructura)
+      - [2. Sistema de grillas](#2-sistema-de-grillas)
+      - [3. Componentes UI principales](#3-componentes-ui-principales)
+        - [Tarjetas](#tarjetas)
+        - [Botones](#botones)
+        - [Insignias o Badges](#insignias-o-badges)
+        - [Formularios](#formularios)
+        - [Notificaciones](#notificaciones)
+      - [4. Interacción (comportamiento UX)](#4-interacción-comportamiento-ux)
+        - [Feedback inmediato](#feedback-inmediato)
+        - [Restricciones de acciones](#restricciones-de-acciones)
+        - [Visualización del estado](#visualización-del-estado)
+      - [5. Diseño adaptable](#5-diseño-adaptable)
+        - [Móvil](#móvil)
+        - [Tablet y escritorio](#tablet-y-escritorio)
+      - [6. Navegación](#6-navegación)
+        - [Móvil](#móvil-1)
+        - [Escritorio](#escritorio)
+      - [7. Iconografía](#7-iconografía)
+      - [8. Componentes específicos de la solución](#8-componentes-específicos-de-la-solución)
+        - [Registro de trayecto seguro](#registro-de-trayecto-seguro)
+        - [Contactos de confianza](#contactos-de-confianza)
+        - [Mapa nocturno](#mapa-nocturno)
+        - [Reporte de incidentes](#reporte-de-incidentes)
+        - [Registro de bienestar](#registro-de-bienestar)
+        - [Comunidad](#comunidad)
+        - [Beneficios](#beneficios)
   - [4.2. Information Architecture.](#42-information-architecture)
     - [4.2.1. Organization Systems.](#421-organization-systems)
     - [4.2.2. Labeling Systems.](#422-labeling-systems)
+      - [Principios clave del sistema de etiquetado:](#principios-clave-del-sistema-de-etiquetado)
+      - [Etiquetas principales por área](#etiquetas-principales-por-área)
+      - [Asociaciones entre etiquetas](#asociaciones-entre-etiquetas)
     - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
+      - [Página de inicio](#página-de-inicio)
+      - [Aplicación web](#aplicación-web)
     - [4.2.4. Searching Systems.](#424-searching-systems)
+      - [Opciones de búsqueda](#opciones-de-búsqueda)
+      - [Filtros disponibles](#filtros-disponibles)
+      - [Apariencia de los datos después de la búsqueda](#apariencia-de-los-datos-después-de-la-búsqueda)
     - [4.2.5. Navigation Systems.](#425-navigation-systems)
+      - [Páginas principales](#páginas-principales)
+      - [Opciones de usuario](#opciones-de-usuario)
+      - [Búsqueda y navegación](#búsqueda-y-navegación)
+      - [Navegación de seguridad](#navegación-de-seguridad)
+      - [Marca e identidad](#marca-e-identidad)
   - [4.3. Landing Page UI Design.](#43-landing-page-ui-design)
     - [4.3.1. Landing Page Wireframe.](#431-landing-page-wireframe)
     - [4.3.2. Landing Page Mock-up.](#432-landing-page-mock-up)
   - [4.4. Web Applications UX/UI Design.](#44-web-applications-uxui-design)
     - [4.4.1. Web Applications Wireframes.](#441-web-applications-wireframes)
     - [4.4.2. Web Applications Wireflow Diagrams.](#442-web-applications-wireflow-diagrams)
-    - [4.4.2. Web Applications Mock-ups.](#442-web-applications-mock-ups)
-    - [4.4.3. Web Applications User Flow Diagrams.](#443-web-applications-user-flow-diagrams)
+    - [4.4.3. Web Applications Mock-ups.](#443-web-applications-mock-ups)
+    - [4.4.4. Web Applications User Flow Diagrams.](#444-web-applications-user-flow-diagrams)
   - [4.5. Web Applications Prototyping.](#45-web-applications-prototyping)
-  - [4.6. Domain-Driven Software Architecture.](#46-domain-driven-software-architecture)
-    - [4.6.1. Design-Level EventStorming.](#461-design-level-eventstorming)
-    - [4.6.2. Software Architecture Context Diagram.](#462-software-architecture-context-diagram)
-    - [4.6.3. Software Architecture Container Diagrams.](#463-software-architecture-container-diagrams)
-    - [4.6.4. Software Architecture Components Diagrams.](#464-software-architecture-components-diagrams)
-  - [4.7. Software Object-Oriented Design.](#47-software-object-oriented-design)
-    - [4.7.1. Class Diagrams.](#471-class-diagrams)
-  - [4.8. Database Design.](#48-database-design)
-    - [4.8.1. Database Diagrams.](#481-database-diagrams)
+  - [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
+    - [4.6.1. Design-Level EventStorming](#461-design-level-eventstorming)
+  - [4.6.2. Software Architecture Context Diagram](#462-software-architecture-context-diagram)
+  - [4.6.3. Software Architecture Container Diagrams](#463-software-architecture-container-diagrams)
+  - [4.6.4. Software Architecture Components Diagrams](#464-software-architecture-components-diagrams)
+    - [Landing Page Components](#landing-page-components)
+    - [Web Application Components](#web-application-components)
+    - [RESTful API Components](#restful-api-components)
+    - [Relational Database Components](#relational-database-components)
+  - [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
+  - [4.7.1. Class Diagrams](#471-class-diagrams)
+    - [Identity \& Network Management](#identity--network-management)
+    - [Safe Commute \& Incident Management](#safe-commute--incident-management)
+    - [Community Intelligence](#community-intelligence)
+    - [Sleep Health \& Wellness](#sleep-health--wellness)
+    - [Subscriptions \& Collective Benefits](#subscriptions--collective-benefits)
+    - [Moderation \& Governance](#moderation--governance)
+  - [4.8. Database Design](#48-database-design)
+    - [4.8.1. Database Diagrams](#481-database-diagrams)
+      - [Identity \& Network Management](#identity--network-management-1)
+      - [Safe Commute \& Incident Management](#safe-commute--incident-management-1)
+      - [Community Intelligence](#community-intelligence-1)
+      - [Sleep Health \& Wellness](#sleep-health--wellness-1)
+      - [Subscriptions \& Collective Benefits](#subscriptions--collective-benefits-1)
+      - [Moderation \& Governance](#moderation--governance-1)
 - [Capítulo V: Product Implementation, Validation \& Deployment](#capítulo-v-product-implementation-validation--deployment)
   - [5.1. Software Configuration Management.](#51-software-configuration-management)
     - [5.1.1. Software Development Environment Configuration.](#511-software-development-environment-configuration)
     - [5.1.2. Source Code Management.](#512-source-code-management)
     - [5.1.3. Source Code Style Guide \& Conventions.](#513-source-code-style-guide--conventions)
+  - [Convenciones de Nomenclatura](#convenciones-de-nomenclatura)
+  - [Estructura Semántica (HTML)](#estructura-semántica-html)
+  - [Estilos y Maquetación (CSS)](#estilos-y-maquetación-css)
+  - [Estándares de Accesibilidad (WAI-ARIA)](#estándares-de-accesibilidad-wai-aria)
     - [5.1.4. Software Deployment Configuration.](#514-software-deployment-configuration)
+  - [1. Organización del Repositorio](#1-organización-del-repositorio)
+  - [2. Subida de Archivos](#2-subida-de-archivos)
+  - [3. Configuración en GitHub Pages](#3-configuración-en-github-pages)
+  - [4. Despliegue Automático](#4-despliegue-automático)
   - [5.2. Landing Page, Services \& Applications Implementation.](#52-landing-page-services--applications-implementation)
-    - [5.2.X. Sprint n](#52x-sprint-n)
-      - [5.2.X.1. Sprint Planning n.](#52x1-sprint-planning-n)
-      - [5.2.X.2. Aspect Leaders and Collaborators.](#52x2-aspect-leaders-and-collaborators)
-      - [5.2.X.3. Sprint Backlog n.](#52x3-sprint-backlog-n)
-      - [5.2.X.4. Development Evidence for Sprint Review.](#52x4-development-evidence-for-sprint-review)
-      - [5.2.X.5. Execution Evidence for Sprint Review.](#52x5-execution-evidence-for-sprint-review)
-      - [5.2.X.6. Services Documentation Evidence for Sprint Review.](#52x6-services-documentation-evidence-for-sprint-review)
-      - [5.2.X.7. Software Deployment Evidence for Sprint Review.](#52x7-software-deployment-evidence-for-sprint-review)
-      - [5.2.X.8. Team Collaboration Insights during Sprint.](#52x8-team-collaboration-insights-during-sprint)
+    - [5.2.1. Sprint 1](#521-sprint-1)
+      - [5.2.1.1. Sprint Planning 1.](#5211-sprint-planning-1)
+      - [5.2.1.2. Aspect Leaders and Collaborators.](#5212-aspect-leaders-and-collaborators)
+      - [5.2.1.3. Sprint Backlog 1.](#5213-sprint-backlog-1)
+      - [5.2.1.4. Development Evidence for Sprint Review.](#5214-development-evidence-for-sprint-review)
+      - [5.2.1.4. Development Evidence for Sprint Review.](#5214-development-evidence-for-sprint-review-1)
+      - [5.2.1.5. Execution Evidence for Sprint Review.](#5215-execution-evidence-for-sprint-review)
+      - [5.2.1.6. Services Documentation Evidence for Sprint Review.](#5216-services-documentation-evidence-for-sprint-review)
+      - [5.2.1.7. Software Deployment Evidence for Sprint Review.](#5217-software-deployment-evidence-for-sprint-review)
+      - [5.2.1.8. Team Collaboration Insights during Sprint.](#5218-team-collaboration-insights-during-sprint)
 - [Conclusiones](#conclusiones)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
@@ -2316,8 +2406,60 @@ Durante este sprint, se completó el despliegue de la landing page para habilita
 <img src="resources/imgs/Github-Pages-Nowxay.png">
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint. 
+Durante el Sprint 1, el equipo de Noctiva adoptó un enfoque de trabajo colaborativo basado en la metodología GitHub Flow, lo que nos permitió desarrollar la Landing Page de Noxway de manera ágil. A través del control de versiones, logramos paralelizar el trabajo en distintas secciones de la página, integrando los cambios progresivamente mediante ramas de características (*feature branches*) y Pull Requests (PRs).
+
+A continuación, se detalla el análisis de la colaboración del equipo, evidenciando la trazabilidad directa entre cada integrante, su trabajo en el repositorio y el valor entregado al producto:
+
+**Trazabilidad de Colaboración Individual (Integrante $\rightarrow$ Branch / Commit / PR $\rightarrow$ Resultado):**
+
+* **Dextre Flores, Leonardo Felix (leo-dex45):**
+* **Commits clave:** `0ec1b1e` (core structure), `1c254f0` (hero html), `ae391c4` (hero css), `5627df0` (responsive menu js).
+
+
+* **Resultado:** Leonardo estableció la estructura fundacional del proyecto. Maquetó la barra de navegación y la sección inicial (Hero), configurando las variables CSS globales y la lógica JavaScript para el menú responsivo.
+
+
+
+* **Salcedo Correa, Carlos Matthew (Matthewnhfe):**
+* **PR / Commits clave:** Pull Request #3 (`ed85441`), Pull Request #4 (`1712d6c`), `aa5543b` (protocol html), `f8d0f1d` (reveal on scroll js), `2889157` (i18n.js).
+
+
+* **Resultado:** Carlos lideró la integración de las secciones Core (Protocolo y Ecosistema) y programó las animaciones de *scroll*. Además, implementó el motor de diccionarios bilingües (i18n.js) y fue el responsable de autorizar y gestionar las integraciones finales mediante los Pull Requests #3 y #4 para estabilizar la rama de desarrollo.
+
+
+
+* **Patricio Farias, Ana Camila (anacamilapatricio-sketch):**
+* **Commits clave:** `3e57cf8` (video/testimonials HTML), `8d6439e` (video/testimonials CSS), `47d9cd6` (syntax fixes in main.js).
+
+
+* **Resultado:** Ana desarrolló la galería de testimonios y la vitrina multimedia de la plataforma. Durante la fase de pruebas, identificó y resolvió errores de sintaxis críticos en la lógica general de JavaScript (main.js) para asegurar un despliegue sin fallas.
+
+
+
+* **Cano Gomez, Yam Antony (Yam-1CG):**
+* **Branch / PR clave:** `feature/final-preview-landingpage` (PR `795c91c`), `feature/final-finalpart-style` (PR `2ed91c3`), `f20d424` (contact section html), `4045767` (final style adjustments).
+
+
+* **Resultado:** Yam gestionó las ramas de características dedicadas a la revisión visual final del producto. Construyó el formulario de contacto, el pie de página (footer) y los modales legales, aplicando los ajustes de estilo definitivos antes de autorizar el *merge* de sus ramas.
+
+
+
+* **Ramirez Rodriguez, Mauricio Joao (MauRicio1321rr):**
+* **Commits clave:** `db796f1` (subscription plans section).
+
+
+* **Resultado:** Mauricio se encargó de desarrollar e integrar la sección de planes de suscripción en el documento principal, garantizando la correcta visualización de la matriz de precios.
+
+
+
+**Dinámica del equipo y resolución de conflictos:**
+El flujo de trabajo permitió que cada integrante se apropiara de una sección de la Landing Page. Se utilizaron ramas específicas como `feature/final-preview-landingpage` y `feature/final-finalpart-style` para aislar los ajustes visuales y evitar conflictos directos. Durante la integración final, se identificaron errores de sintaxis estructural y enlaces rotos (como el reproductor de YouTube). Estos bloqueos fueron resueltos colaborativamente mediante *commits* de corrección rápida (`fix(landing)...`) liderados por Carlos y Ana, culminando en la ejecución de los Pull Requests #3 y #4 que dejaron la base de código estable y lista para su despliegue público.
+
+*Evidencia de integración y colaboración en el repositorio:*
+
 <img src="resources/imgs/Colaboration1.png">
 <img src="resources/imgs/Colaboration2.png">
+
 
 
 # Conclusiones 
