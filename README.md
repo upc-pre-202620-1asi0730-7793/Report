@@ -634,108 +634,68 @@ A partir del análisis competitivo, se han identificado las siguientes estrategi
 
 **Ecosistema local de servicios nocturnos:** Se buscarán alianzas con negocios y proveedores locales (farmacias, restaurantes, grifos) que deseen aparecer destacados en el mapa comunitario de servicios nocturnos, generando un ecosistema local que ningún competidor internacional replica.
 
-## 2.2. Entrevistas. 
+### 2.2.2. Registro de entrevistas
 
-### 2.2.1. Diseño de entrevistas. 
-En esta sección, se han planteado diversas preguntas dirigidas a nuestros segmentos objetivos con el objetivo de obtener información relevante, como opiniones o descripciones. Estos datos serán fundamentales para el desarrollo de nuestra solución.
-
-### Segmento Objetivo 1: Trabajadores de turno nocturno
-
-1. ¿Cuál es su nombre, edad, género, distrito de residencia y estado civil?
-2. ¿A qué se dedica actualmente, en qué rubro (seguridad, delivery, salud, call center, limpieza, etc.) y hace cuánto tiempo trabaja en turno nocturno?
-3. ¿Cómo describiría su personalidad, y qué tan cómodo(a) se siente usando aplicaciones o herramientas tecnológicas nuevas?
-4. ¿Qué dispositivo utiliza con más frecuencia y a través de qué canales digitales suele comunicarse o informarse (WhatsApp, redes sociales, apps, etc.)?
-5. ¿Cuál es su principal objetivo relacionado con su trabajo nocturno, y cuál es su mayor frustración o preocupación al respecto?
-6. Cuénteme cómo es un día típico de su turno nocturno, desde que sale de casa hasta que regresa, incluyendo cómo es su trayecto de ida y vuelta.
-7. ¿Alguna vez se ha sentido inseguro(a) o ha vivido una situación de riesgo durante su trayecto nocturno? ¿Puede describirla?
-8. ¿Actualmente utiliza alguna herramienta o método para sentirse más seguro(a) en sus trayectos (llamar a alguien, compartir ubicación, etc.)?
-9. ¿Qué tan valioso le resultaría contar con una aplicación que avise automáticamente a un contacto de confianza si usted no llega a su destino, y que además le permita calificar o reportar qué tan segura sintió una ruta?
-10. ¿Le interesaría formar parte de una comunidad de trabajadores de su mismo rubro para compartir información o beneficios, y estaría dispuesto(a) a pagar una suscripción mensual por ello?
-11. ¿Qué características considera indispensables para usar una aplicación de este tipo, y qué situaciones lo llevarían a dejar de usarla?
-
-### Segmento Objetivo 2: Contactos de confianza de trabajadores de turno nocturno
-
-1. ¿Cuál es su nombre, edad, género, distrito de residencia y estado civil?
-2. ¿A qué se dedica, y tiene algún familiar, pareja o amigo cercano que trabaje en turno nocturno? ¿Qué relación tiene con esa persona y hace cuánto tiempo trabaja de noche?
-3. ¿Cómo describiría su personalidad? ¿Se considera una persona más bien tranquila o más bien ansiosa frente a este tipo de situaciones?
-4. ¿Qué aplicaciones usa con más frecuencia en su día a día, y qué tan cómodo(a) se siente aprendiendo a usar una app nueva?
-5. Describa cómo es para usted una noche o madrugada típica mientras esa persona está trabajando: ¿qué hace, en qué piensa, revisa el celular con frecuencia?
-6. ¿Qué es lo que más le preocupa cuando piensa en la seguridad de esa persona durante su turno o trayecto nocturno?
-7. ¿Ha vivido algún momento de angustia real pensando que algo le pudo haber pasado a esa persona? Cuénteme qué ocurrió y cómo lo resolvió.
-8. Actualmente, ¿cómo se entera usted de que esa persona llegó bien a su destino? ¿Espera una llamada, un mensaje, o simplemente asume que todo está bien si no recibe noticias?
-9. Si esa persona no le avisara dentro del tiempo que usted espera, ¿qué haría? ¿Cuánto tiempo suele esperar antes de preocuparse o intentar contactarla?
-10. ¿Qué opina de que una aplicación pueda avisarle automáticamente si esa persona no confirma su llegada, sin que usted tenga que estar pendiente o llamando?
-11. ¿Le generaría alguna duda o incomodidad que la ubicación de esa persona se comparta con usted a través de una app? ¿Por qué?
-12. ¿Qué la haría confiar en una herramienta así, y qué la haría dejar de usarla o desconfiar de ella?
-
-### 2.2.2. Registro de entrevistas. 
 *Registro de entrevistas — Segmento 1*
 
 **Entrevista 1**
 
-| Campo | Detalle                                                                                                                                                                                                                                                                                                                      |
-| :--- |:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Nombre** | Drago Duarte                                                                                                                                                                                                                                                                                                                 |
-| **Edad** | 24 años                                                                                                                                                                                                                                                                                                                      |
-| **Distrito** | Chorrillos                                                                                                                                                                                                                                                                                                                   |
-| **Duración** | 6:02 min                                                                                                                                                                                                                                                                                                                     |
-| **Enlace** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423775_upc_edu_pe/IQDux7_TpQIoTKigcJ3OziyvAXGE5JXh1KMyGmiDjG4cnek?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=au78gP |
+| Campo        | Detalle                                                                                                                                                                                                                                                                                                                |
+| :----------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Nombre**   | Drago Duarte                                                                                                                                                                                                                                                                                                           |
+| **Edad**     | 24 años                                                                                                                                                                                                                                                                                                                |
+| **Distrito** | Chorrillos                                                                                                                                                                                                                                                                                                             |
+| **Duración** | 4:31 min                                                                                                                                                                                                                                                                                                               |
+| **Timing**   | Inicia 0:00 - Termina 4:31                                                                                                                                                                                                                                                                                           |
+| **Enlace**   | [Ver entrevista](https://onedrive.live.com/photos?photosData=%2Fshare%2F59720A664BBCD4C3%21sb06a811007d645cda1d31517e8b2a7fa%3Fithint%3Dvideo%26e%3DwwHFBM%26migratedtospo%3Dtrue&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3YvYy81OTcyMGE2NjRiYmNkNGMzL0lRQVFnV3F3MWdmTlJhSFRGUmZvc3FmNkFSMnFYV3VFTFVQMkQxU0JxUHpJQmNrP2U9d3dIRkJN) |
 
 <div align="center">
 <img src="resources/imgs/chapter_ii/entrevista1_segmento1.png" alt="Entrevista 1 - Segmento 1" width="600">
 </div>
 
-**Resumen**: En esta entrevista, Drago Duarte, un joven de 24 años que trabaja como cajero y vendedor en un Tambo en Chorrillos, comparte su experiencia en el turno de madrugada (9:00 p.m. a 5:00 a.m.). Destaca que su mayor temor es el trayecto de regreso a casa, donde camina por calles desoladas y suele quedarse dormido en el bus, temiendo que le arranchen el celular. Relata un momento de angustia cuando fue seguido por una mototaxi sin luces y tuvo que refugiarse en un grifo. Actualmente, depende de WhatsApp para avisar a su madre y compartir su ubicación, pero se preocupa por quedarse sin datos o batería. Drago valida fuertemente la propuesta de una aplicación que notifique automáticamente a sus contactos y muestre zonas de riesgo en el mapa. Asimismo, afirma que pagaría una suscripción mensual si esta le brinda beneficios tangibles, como un seguro contra robos o descuentos. Sin embargo, recalca que desinstalaría la aplicación si esta consume demasiada batería, presenta errores técnicos o envía falsas alarmas que asusten a su familia.
+**Resumen:** Drago Duarte trabaja en el turno de madrugada en una tienda Tambo de Chorrillos. Su mayor preocupación es regresar a casa por calles desoladas y quedarse dormido en el transporte público. Actualmente, utiliza WhatsApp para avisar a su madre y compartir su ubicación. Considera útil una aplicación que envíe alertas automáticas y muestre zonas peligrosas, siempre que no consuma demasiada batería ni genere falsas alarmas. Estaría dispuesto a pagar si ofrece beneficios concretos, como seguros contra robos o descuentos.
 
 ---
+
 **Entrevista 2**
-| Campo | Detalle                                                                                                                                                                                                                                                                                                                      |
-| :--- |:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Nombre** | Marco Antonio Quispe |
-| **Edad** | 30 años                                                                                                                                                                                                                                                                                                                      |
-| **Distrito** | San Martín de Porres   |
-| **Duración** | 7:16 min     |
-| **Estado civil** | Soltero   |
-| **Ocupación** | Agente de seguridad en almacén logístico (Callao) - Turno nocturno (4 años de experiencia). |
-| **Enlace** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202421823_upc_edu_pe/IQBt_DltFWNKTqbjRVt3MTrsAV1-egdQTWMKSC1w_pa1fGg?e=6o9jIc |
+
+| Campo            | Detalle                                                                                                                                                                                                                                                                                                                |
+| :--------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Nombre**       | Marco Antonio Quispe                                                                                                                                                                                                                                                                                                   |
+| **Edad**         | 30 años                                                                                                                                                                                                                                                                                                                |
+| **Distrito**     | San Martín de Porres                                                                                                                                                                                                                                                                                                   |
+| **Duración**     | 5:34 min                                                                                                                                                                                                                                                                                                               |
+| **Timing**       | Inicia 4:32 - Termina 10:06                                                                                                                                                                                                                                                                                           |
+| **Estado civil** | Soltero                                                                                                                                                                                                                                                                                                                |
+| **Ocupación**    | Agente de seguridad en almacén logístico (Callao), turno nocturno                                                                                                                                                                                                                                                      |
+| **Enlace**       | [Ver entrevista](https://onedrive.live.com/photos?photosData=%2Fshare%2F59720A664BBCD4C3%21sb06a811007d645cda1d31517e8b2a7fa%3Fithint%3Dvideo%26e%3DwwHFBM%26migratedtospo%3Dtrue&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3YvYy81OTcyMGE2NjRiYmNkNGMzL0lRQVFnV3F3MWdmTlJhSFRGUmZvc3FmNkFSMnFYV3VFTFVQMkQxU0JxUHpJQmNrP2U9d3dIRkJN) |
 
 <div align="center">
 <img src="resources/imgs/chapter_ii/entrevista2segmento1.png" alt="Entrevista 2 - Segmento 1" width="600">
 </div>
 
-**Resumen**: Marco Antonio es un hombre de 30 años, soltero, que reside en San Martín de Porres. Trabaja desde hace 4 años como agente de seguridad en el turno nocturno de un almacén logístico en el Callao. Su rutina implica desplazamientos largos y desgastantes, cruzando la Panamericana Norte de 5:30 p.m. a 7:00 p.m., y retornando a las 6:00 a.m. Su principal motivación es mantener su empleo para aportar económicamente a su hogar, pero su mayor vulnerabilidad y frustración radican en el trayecto de regreso, cuando el agotamiento extremo y el frío se combinan con la desolación y el peligro de las calles a primeras horas de la mañana. 
-
-El trayecto de salida representa una fricción crítica y un riesgo latente comprobado, habiendo sido ya víctima de robo en el transporte público por quedarse dormido debido al cansancio. Para mitigar esta inseguridad, actualmente tiene un protocolo analógico/digital básico: envía mensajes por WhatsApp a su hermano al subir y bajar del bus. Evita compartir su ubicación en tiempo real porque su dispositivo suele terminar el turno con batería crítica (alrededor del 15%), y prioriza mantener el celular encendido antes que activar el GPS continuo. 
-
-De personalidad tranquila pero siempre alerta y pragmática, Marco es un usuario tecnológico funcional y estrictamente "Mobile-First" que utiliza un smartphone Android. Sus canales digitales principales son WhatsApp, que usa tanto para reportes laborales como familiares, y plataformas de consumo rápido como Facebook y TikTok para entretenerse en "tiempos muertos". No busca sofisticación tecnológica; adopta herramientas nuevas solo si son sumamente fáciles de entender y van directo al grano. 
-
-Respecto a la adopción de una nueva plataforma de seguridad, valora altamente la automatización de alertas a contactos de confianza, pero rechaza funcionalidades que exijan esfuerzo adicional, como sacar el móvil en la calle para "calificar rutas" debido a la fatiga y el riesgo de robo. Es financieramente conservador y descarta pagar una suscripción mensual por simple acceso a una comunidad o mapas; solo invertiría si hay un retorno económico directo (descuentos o micro-seguros). Sus factores absolutos de abandono (churn) son dos: que la aplicación drene la poca batería que le queda al salir del trabajo, o que el sistema presente fallas y envíe falsas alarmas que generen pánico innecesario a su familia.
-
+**Resumen:** Marco Antonio trabaja como agente de seguridad en un almacén logístico del Callao durante el turno nocturno. Su principal preocupación es el regreso a casa, debido al cansancio y la inseguridad en el transporte público. Se comunica con su hermano por WhatsApp, pero evita compartir su ubicación continuamente porque necesita conservar la batería. Valora las alertas automáticas y una aplicación fácil de utilizar. No pagaría por una suscripción básica, salvo que incluya beneficios económicos, y dejaría de utilizarla si consume mucha batería o genera falsas alarmas.
 
 ---
+
 **Entrevista 3**
-| Campo | Detalle                                                                                                                                                                                                                                                                                                                      |
-| :--- |:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Nombre** | Luis Mendoza Miranda|
-| **Edad** | 32 años                                                                                                                                                                                                                                                                                                                      |
-| **Distrito** | San Martín de Porres   |
-| **Duración** | 5:36     |
-| **Estado civil** | Soltero   |
-| **Ocupación** | agente de seguridad privada |
-| **Enlace** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202421065_upc_edu_pe/IQAoJA0AjDdKS7A-8S3BD1zeAQ49mq6jaTduIZbRZUYsQSM?e=9jxrdJ |
+
+| Campo            | Detalle                                                                                                                                                                                                                                                                                                                |
+| :--------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Nombre**       | Luis Mendoza Miranda                                                                                                                                                                                                                                                                                                   |
+| **Edad**         | 32 años                                                                                                                                                                                                                                                                                                                |
+| **Distrito**     | San Martín de Porres                                                                                                                                                                                                                                                                                                   |
+| **Duración**     | 4:20 min                                                                                                                                                                                                                                                                                                               |
+| **Timing**       | Inicia 10:07 - Termina 14:27                                                                                                                                                                                                                                                                                          |
+| **Estado civil** | Soltero                                                                                                                                                                                                                                                                                                                |
+| **Ocupación**    | Agente de seguridad privada                                                                                                                                                                                                                                                                                            |
+| **Enlace**       | [Ver entrevista](https://onedrive.live.com/photos?photosData=%2Fshare%2F59720A664BBCD4C3%21sb06a811007d645cda1d31517e8b2a7fa%3Fithint%3Dvideo%26e%3DwwHFBM%26migratedtospo%3Dtrue&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3YvYy81OTcyMGE2NjRiYmNkNGMzL0lRQVFnV3F3MWdmTlJhSFRGUmZvc3FmNkFSMnFYV3VFTFVQMkQxU0JxUHpJQmNrP2U9d3dIRkJN) |
 
 <div align="center">
 <img src="resources/imgs/chapter_ii/entrevista3_segmento1.png" alt="Entrevista 3 - Segmento 1" width="600">
 </div>
 
-**Resumen**: Luis Mendoza Miranda es un hombre soltero de 32 años ,  que reside en el distrito de San Martín de Porres. Trabaja desde hace 2 años y medio como agente de seguridad privada en el turno nocturno de un centro corporativo en San Isidro. Su jornada implica traslados largos y pesados en transporte público, saliendo a las 5:20 p.m. para iniciar a las 7:00 p.m. y retornando a las 7:00 a.m. Su principal motivación es la estabilidad económica de su hogar, aprovechando el ingreso adicional del bono nocturno, pero su mayor preocupación es la inseguridad latente durante los traslados y el agotamiento físico crónico provocado por el cambio de ciclo de sueño.
-
-El trayecto de retorno y la espera en paraderos representan una fricción crítica y un riesgo comprobado, habiendo vivido un intento de asalto por parte de delincuentes en moto mientras esperaba transporte de madrugada. Para mitigar esta vulnerabilidad, mantiene un protocolo de prevención activo: comparte su ubicación en tiempo real por WhatsApp con su pareja al finalizar su guardia y guarda el celular en un bolsillo interno con cierre mientras viaja en el transporte público.
-
-De personalidad reservada, observadora y práctica, Luis es un usuario tecnológico funcional que utiliza un smartphone Android de gama media. Sus canales digitales principales son WhatsApp, herramienta clave para la coordinación laboral y la comunicación familiar, y redes como Facebook, TikTok y grupos vecinales para mantenerse informado sobre alertas locales. Tiene una adopción tecnológica pragmática: maneja sin problemas herramientas de uso diario, pero descarta interfaces engorrosas o aplicaciones que requieran pasos innecesarios.
-
-Respecto a una nueva solución tecnológica de seguridad, considera sumamente valiosa la automatización de avisos a contactos de confianza ante eventualidades o falta de batería, así como el reporte de rutas para prevenir paraderos peligrosos. Muestra un claro interés por integrarse a una comunidad laboral para intercambiar alertas, aunque descarta por completo pagar una suscripción mensual debido a que prioriza los gastos básicos familiares, aceptando el servicio únicamente bajo un modelo gratuito. Sus factores determinantes de abandono (churn) son el consumo excesivo de batería o datos móviles durante el turno nocturno, y los errores de sistema que detonen falsas alarmas y generen angustia innecesaria en su familia. 
-
+**Resumen:** Luis trabaja como agente de seguridad privada en el turno nocturno y realiza largos desplazamientos entre San Martín de Porres y San Isidro. Su principal preocupación es la inseguridad durante los trayectos y la espera en los paraderos. Comparte su ubicación por WhatsApp con su pareja y considera valiosas las alertas automáticas y los reportes de zonas peligrosas. También le interesa una comunidad para compartir alertas, pero solo utilizaría la aplicación si es gratuita, sencilla y no consume demasiada batería o datos.
 
 ---
 
@@ -743,90 +703,60 @@ Respecto a una nueva solución tecnológica de seguridad, considera sumamente va
 
 **Entrevista 1**
 
-| Campo | Detalle                |
-| :--- |:-----------------------|
-| **Nombre** | Juan Gutierrez         |
-| **Edad** | 24 años                |
-| **Distrito** | San Juan de Miraflores |
-| **Duración** | 5:57 min               |
-| **Enlace** |https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423775_upc_edu_pe/IQBBwCDLDYdtSJDvTpf3VT-EAY3r4Ss02w-EYfW38XfSQ2E?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=hDDVYf |
+| Campo        | Detalle                                                                                                                                                                                                                                                                                                                |
+| :----------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Nombre**   | Juan Gutiérrez                                                                                                                                                                                                                                                                                                         |
+| **Edad**     | 24 años                                                                                                                                                                                                                                                                                                                |
+| **Distrito** | San Juan de Miraflores                                                                                                                                                                                                                                                                                                 |
+| **Duración** | 4:25 min                                                                                                                                                                                                                                                                                                               |
+| **Timing**   |Inicia 23:42 - Termina 28:07                                                                                                                                                                                                                                                                                        |
+| **Enlace**   | [Ver entrevista](https://onedrive.live.com/photos?photosData=%2Fshare%2F59720A664BBCD4C3%21sb06a811007d645cda1d31517e8b2a7fa%3Fithint%3Dvideo%26e%3DwwHFBM%26migratedtospo%3Dtrue&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3YvYy81OTcyMGE2NjRiYmNkNGMzL0lRQVFnV3F3MWdmTlJhSFRGUmZvc3FmNkFSMnFYV3VFTFVQMkQxU0JxUHpJQmNrP2U9d3dIRkJN) |
 
 <div align="center">
 <img src="resources/imgs/chapter_ii/entrevista1_segmento2.png" alt="Entrevista 1 - Segmento 2" width="600">
 </div>
 
-**Resumen**: En esta entrevista, Juan Gutiérrez, un estudiante universitario de 24 años, comparte su experiencia como contacto de confianza de su hermano menor, quien trabaja de madrugada en un Oxxo. Destaca que su mayor preocupación es el trayecto desolado que su hermano debe recorrer desde el trabajo hasta el paradero del bus a las 5:00 a.m. También menciona que actualmente dependen de mensajes de WhatsApp para confirmar que su hermano ha subido al transporte y ha llegado a casa, relatando un episodio de mucha angustia que vivió cuando el celular de su hermano se apagó en el trayecto. Explica que compartir la ubicación no genera ninguna incomodidad entre ellos, ya que la prioridad absoluta es la protección familiar. Finalmente, describe que confiaría en una aplicación de monitoreo pasivo si las notificaciones son precisas y llegan a tiempo, pero la descartaría inmediatamente si presenta errores técnicos, consume rápidamente la batería del celular o si lanza falsas alarmas de pánico que lo asusten de la nada.
+**Resumen:** Juan Gutiérrez es un estudiante universitario que cumple el papel de contacto de confianza de su hermano menor, quien trabaja de madrugada. Su principal preocupación es que su hermano llegue sano y salvo a casa. Actualmente, se comunican por WhatsApp para confirmar sus desplazamientos y ha experimentado angustia cuando el celular de su hermano se quedó sin batería. Considera útil una aplicación que envíe notificaciones automáticas y precisas, siempre que proteja la batería y evite falsas alarmas.
 
 ---
+
 **Entrevista 2**
 
-| Campo | Detalle                |
-| :--- |:-----------------------|
-| **Nombre** | Roberto Carlos Fernández  |
-| **Edad** | 42 años                |
-| **Estado civil** | Casado                |
-| **Ocupación** | Freelance             |
-| **Distrito** | San Juan de Lurigancho |
-| **Duración** | 6:46 min               |
-| **Enlace** |https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241i469_upc_edu_pe/IQAz-r_0LzsSQJUPbxKTl7oaAcTpRAyzqHmi6tNBz6vn7d0?e=qeV5bz&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D|
+| Campo            | Detalle                                                                                                                                                                                                                                                                                                                |
+| :--------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Nombre**       | Roberto Carlos Fernández                                                                                                                                                                                                                                                                                               |
+| **Edad**         | 42 años                                                                                                                                                                                                                                                                                                                |
+| **Estado civil** | Casado                                                                                                                                                                                                                                                                                                                 |
+| **Ocupación**    | Freelance                                                                                                                                                                                                                                                                                                              |
+| **Distrito**     | San Juan de Lurigancho                                                                                                                                                                                                                                                                                                 |
+| **Duración**     | 5:19 min                                                                                                                                                                                                                                                                                                               |
+| **Timing**       | Inicia 18:22 - Termina 23:41                                                                                                                                                                                                                                                                                         |
+| **Enlace**       | [Ver entrevista](https://onedrive.live.com/photos?photosData=%2Fshare%2F59720A664BBCD4C3%21sb06a811007d645cda1d31517e8b2a7fa%3Fithint%3Dvideo%26e%3DwwHFBM%26migratedtospo%3Dtrue&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3YvYy81OTcyMGE2NjRiYmNkNGMzL0lRQVFnV3F3MWdmTlJhSFRGUmZvc3FmNkFSMnFYV3VFTFVQMkQxU0JxUHpJQmNrP2U9d3dIRkJN) |
 
 <div align="center">
-<img src="resources/imgs/chapter_ii/entrevistaSegmento2-Roberto.png" alt="Entrevista 1 - Segmento 2" width="600">
+<img src="resources/imgs/chapter_ii/entrevistaSegmento2-Roberto.png" alt="Entrevista 2 - Segmento 2" width="600">
 </div>
 
-**Resumen**: Roberto Carlos Fernández es un trabajador independiente de 42 años, casado y residente en el distrito de San Juan de Lurigancho, Lima. Su esposa se desempeña desde hace cuatro años como técnico de mantenimiento en turnos rotativos y nocturnos, cubriendo usualmente jornadas de diez de la noche a seis de la mañana. Aunque durante el día se considera una persona tranquila, experimenta constantes episodios de ansiedad y preocupación en torno a la seguridad de su cónyuge, atribuyendo su inquietud a la peligrosidad de la zona donde residen y a la desolación de las calles durante las madrugadas. Durante el turno de su esposa, su descanso suele ser intermitente, despertándose en varias oportunidades para escribirle y consultar cómo se encuentra.
-
-El mayor temor del entrevistado se concentra en los trayectos de regreso a casa a tempranas horas de la mañana, debido al riesgo latente de accidentes o actos delictivos en avenidas poco transitadas. Relata como experiencia de angustia crítica un episodio en el que su esposa demoró cerca de dos horas en comunicarse tras finalizar su turno laboral. En una ocasión no se podia contactar con ella tras reiteradas llamadas fallidas, la situación se esclareció al confirmarse que el teléfono de ella se había quedado sin batería hasta que pudo recargarlo mediante una batería externa y se logro comunicar con el. Actualmente, el protocolo de verificación recae en el envío voluntario de mensajes por WhatsApp al momento de abordar el transporte y al llegar a destino, esperando un margen de tolerancia aproximado de 30 minutos antes de escalar a llamadas telefónicas directas o contactar a compañeras de trabajo.
-
-Ante esta constante incertidumbre, Roberto considera fundamental contar con una herramienta tecnológica que emita alertas automáticas únicamente ante retrasos o anomalías en los trayectos, permitiéndole descansar sin revisar el celular compulsivamente. No obstante, condiciona el uso de este sistema a que el rastreo de ubicación opere de forma puntual y transparente durante los traslados hacia o desde el trabajo, resguardando la privacidad de su pareja para evitar conductas invasivas y garantizando la estricta protección de sus datos.
+**Resumen:** Roberto Carlos Fernández es un trabajador independiente que se preocupa por la seguridad de su esposa durante sus turnos nocturnos. La falta de comunicación y un episodio en el que el celular de ella se quedó sin batería le generaron mucha angustia. Actualmente, esperan mensajes por WhatsApp para confirmar la llegada a casa. Considera que una aplicación con alertas automáticas ante retrasos o anomalías le permitiría descansar con mayor tranquilidad. Sin embargo, exige que la ubicación se comparta únicamente durante los trayectos autorizados y que se proteja la privacidad de su esposa.
 
 ---
+
 **Entrevista 3**
 
-
-| Campo | Detalle                |
-| :--- |:-----------------------|
-| **Nombre** | Ronald Ramírez         |
-| **Edad** | 51 años                |
-| **Distrito** | Bellavista, Callao     |
-| **Duración** | 5:00 min               |
-| **Enlace** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218235_upc_edu_pe/IQCHCDbrqzODRKhF84bxBViOAcXq2EV7CrAvOLCkhijcgb8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=cURYcK |
+| Campo        | Detalle                                                                                                                                                                                                                                                                                                                |
+| :----------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Nombre**   | Ronald Ramírez                                                                                                                                                                                                                                                                                                         |
+| **Edad**     | 51 años                                                                                                                                                                                                                                                                                                                |
+| **Distrito** | Bellavista, Callao                                                                                                                                                                                                                                                                                                     |
+| **Duración** | 3:53 min                                                                                                                                                                                                                                                                                                               |
+| **Timing**   |Inicia 14:28 - Termina 18:21                                                                                                                                                                                                                                                                                         |
+| **Enlace**   | [Ver entrevista](https://onedrive.live.com/photos?photosData=%2Fshare%2F59720A664BBCD4C3%21sb06a811007d645cda1d31517e8b2a7fa%3Fithint%3Dvideo%26e%3DwwHFBM%26migratedtospo%3Dtrue&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3YvYy81OTcyMGE2NjRiYmNkNGMzL0lRQVFnV3F3MWdmTlJhSFRGUmZvc3FmNkFSMnFYV3VFTFVQMkQxU0JxUHpJQmNrP2U9d3dIRkJN) |
 
 <div align="center">
-<img src="resources/imgs/chapter_ii/entrevista3_segmento2.png" alt="Entrevista 2 - Segmento 2" width="600">
+<img src="resources/imgs/chapter_ii/entrevista3_segmento2.png" alt="Entrevista 3 - Segmento 2" width="600">
 </div>
 
-**Resumen**: En esta entrevista, Ronald Ramírez, un asistente administrativo de 51 años residente en Bellavista, Callao, comparte su experiencia como contacto de confianza de su esposa, quien labora como enfermera en el turno nocturno. Explica que se considera organizado y previsor, pero siente constante ansiedad por la seguridad de su esposa frente a la delincuencia y posibles accidentes de tránsito durante sus traslados. Menciona que en su rutina nocturna duerme con el celular a volumen alto para estar alerta ante cualquier emergencia y que siempre esperan un mensaje de confirmación al llegar a su destino, relatando un episodio de mucha angustia donde su esposa demoró más de 30 minutos sin responder porque se le había descargado el celular. Destaca que compartir la ubicación entre ambos es un acuerdo normal que no le genera ninguna incomodidad y que una aplicación de notificación automática de llegada le brindaría un gran alivio para conciliar el sueño. Finalmente, afirma que confiaría en una herramienta así si las alertas y la ubicación son precisas, pero la descartaría si genera falsas alarmas constantemente o consume la batería demasiado rápido.
-
----
-
-### 2.2.3. Análisis de entrevistas. 
-
-#### **Análisis del Segmento 1: Trabajadores Nocturnos (Usuarios Principales)**
-
-A partir de las entrevistas realizadas a trabajadores de turno nocturno (cajeros de tiendas de conveniencia y agentes de seguridad), se identifican patrones claros en sus hábitos de traslado, nivel de exposición al riesgo, uso de tecnología y expectativas de seguridad:
-
-* **Entorno laboral y nivel de riesgo:** El 100% de los entrevistados (3 de 3) labora en jornadas de madrugada (entre 5:00 p. m. y 7:00 a. m.) y señala que los trayectos a pie de regreso a casa y la espera en paraderos representan el momento de mayor vulnerabilidad y temor. Asimismo, el 100% (3 de 3) ha sido víctima directa de la delincuencia o ha enfrentado situaciones de riesgo alto en el transporte público o la vía pública (como ser perseguidos por vehículos sospechosos, intentos de asalto en moto o robos al quedarse dormidos por cansancio).
-* **Protocolos actuales de prevención:** El 100% utiliza WhatsApp como herramienta principal para enviar mensajes a sus contactos de confianza al abordar o descender del transporte. Sin embargo, el 100% enfrenta una restricción crítica: la falta de batería (llegando al final del turno con carga crítica de 15% o totalmente descargados) y el temor a quedarse sin datos móviles, lo que limita el uso continuo del GPS en tiempo real.
-* **Perfil tecnológico y usabilidad:** El 100% de los entrevistados es usuario de smartphones Android con un enfoque estrictamente *Mobile-First* y pragmático. Utilizan redes sociales (Facebook, TikTok) e interacción por WhatsApp, pero el 100% rechaza tajantemente aplicaciones con interfaces complejas o que exijan interactuar de forma activa con el teléfono en la calle (como calificar rutas manualmente), ya que el cansancio acumulado y el riesgo de exhibir el celular en la vía pública representan una fricción inaceptable.
-* **Valoración de la propuesta de solución:** El 100% de los entrevistados valida positivamente la automatización de notificaciones a sus contactos de confianza ante eventualidades o falta de confirmación de llegada, así como la visualización de zonas de riesgo o paraderos peligrosos.
-* **Disposición al pago (monetización):** Solo el 33% (1 de 3) estaría dispuesto a pagar una suscripción mensual si esta incluye beneficios tangibles (como seguros contra robos o descuentos), mientras que el 66% (2 de 3) prioriza los gastos básicos del hogar y descarta pagos recurrentes, aceptando el servicio únicamente bajo un modelo gratuito o con retorno económico directo.
-* **Criterios de abandono (*churn*):** El 100% de los entrevistados afirma que desinstalaría la aplicación de manera inmediata si genera un consumo excesivo de batería o datos, si presenta errores técnicos (*bugs*) o si emite falsas alarmas que generen angustia o pánico innecesario en sus familias.
-
----
-
-#### **Análisis del Segmento 2: Contactos de Confianza (Familiares y Parejas)**
-
-A partir de las entrevistas realizadas a los contactos de confianza (familiares directos y cónyuges de trabajadores nocturnos), se identifican patrones comunes sobre el impacto emocional del turno nocturno, los hábitos de verificación y la aceptación de herramientas de monitoreo:
-
-* **Impacto emocional y percepción del riesgo:** El 100% de los entrevistados (2 de 2) experimenta altos niveles de ansiedad, preocupación constante e interrupción de su descanso nocturno debido a la inseguridad ciudadana y al riesgo de accidentes durante los traslados de sus familiares. El 100% identifica los trayectos solitarios desde el centro de trabajo hacia el transporte público a tempranas horas de la mañana como la principal fuente de inquietud.
-* **Gestión de comunicación y verificación:** El 100% depende del envío voluntario de mensajes de WhatsApp por parte del trabajador al iniciar el retorno o llegar a su destino, estableciendo un margen de tolerancia previo de entre 15 y 30 minutos antes de escalar a llamadas insistentes o contactar a terceros. Además, el 100% ha vivido episodios de angustia crítica provocados por la imposibilidad de comunicarse cuando el teléfono del trabajador se apaga por falta de batería durante el trayecto.
-* **Privacidad y consentimiento:** El 100% de los entrevistados indica que compartir la ubicación en tiempo real no genera ninguna incomodidad entre las partes, siempre que se realice bajo un acuerdo mutuo enfocado en la protección familiar y resguardando la privacidad sin caer en conductas invasivas.
-* **Validación de la propuesta tecnológica:** El 100% considera fundamental contar con un sistema de monitoreo pasivo que emita alertas automáticas únicamente ante retrasos desmedidos o anomalías en la ruta, permitiéndoles conciliar el sueño y descansar sin la necesidad de revisar compulsivamente el celular.
-* **Factores de desconfianza y abandono:** El 100% de los entrevistados condiciona la adopción del sistema a la precisión y puntualidad del rastreo. Del mismo modo, el 100% dejaría de utilizar la herramienta si emite falsas alarmas de pánico de manera recurrente, si genera errores de sistema o si agota rápidamente la batería del dispositivo de su familiar.
-
----
-
+**Resumen:** Ronald Ramírez trabaja como asistente administrativo y se preocupa por la seguridad de su esposa, quien labora como enfermera en el turno nocturno. Para mantenerse informado, espera mensajes de confirmación cuando ella llega a su destino y permanece atento al celular durante la noche. Considera que las notificaciones automáticas de llegada le brindarían tranquilidad y le permitirían descansar mejor. Confiaría en una aplicación que ofrezca ubicación y alertas precisas, siempre que evite falsas alarmas y no consuma demasiada batería.
 
 
 ## 2.3. Needfinding. 
