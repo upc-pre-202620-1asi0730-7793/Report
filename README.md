@@ -2399,6 +2399,10 @@ link del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202421065_upc
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review. 
 
+Durante el Sprint 1, el alcance de desarrollo e implementación técnica estuvo enfocado de manera exclusiva en la construcción, optimización y despliegue público de la Landing Page estática de Noxway, con el objetivo de validar la propuesta de valor comercial y captar el interés de los segmentos objetivo (trabajadores nocturnos y contactos de confianza).
+
+Debido a que la arquitectura de servicios (RESTful API), la base de datos y la lógica de negocio central de la plataforma móvil y web forman parte del alcance de las siguientes iteraciones (Sprints posteriores), en esta fase inicial aún no se cuenta con implementaciones a nivel de backend.
+
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review. 
 Durante este sprint, se completó el despliegue de la landing page para habilitar su acceso público mediante GitHub Pages. El procedimiento inició con la creación y configuración de un repositorio público bajo la nomenclatura asignada al proyecto. Posteriormente, se cargó el código fuente y se activó el servicio de publicación web desde los ajustes del repositorio. Finalmente, se validó la disponibilidad y operatividad del sitio en línea, estableciendo un flujo de mantenimiento continuo en el cual cualquier cambio subido al repositorio se refleja automáticamente en producción.
 
