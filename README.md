@@ -2338,6 +2338,15 @@ El Sprint Planning 2 se enfocó en el despliegue funcional del sitio web estáti
 
 #### 5.2.2.2. Aspect Leaders and Collaborators.
 
+A continuación, se detalla la matriz de liderazgo y colaboración (LACX) para los aspectos clave abordados en este sprint.  
+
+| Team Member (Last Name, First Name) | GitHub Username | Aplicaion web <br>Leader (L) / Collaborator (C) | Despliegue de la aplicacion web <br>Leader (L) / Collaborator (C) | Project Documentation<br>Leader (L) / Collaborator (C) |
+| :--- | :--- | :---: | :---: | :---: |
+| Cano Gomez, Yam Antony  | Yam-1CG | C | C | L |
+| Ramirez Rodriguez, Mauricio Joao  | MauRicio1321rr  | C | C | C |
+| Dextre Dextre Flores, Leonardo | Leo-dex45 | L | L | C |
+| Patricio Farias, Ana Camila | anacamilapatricio-sketch | L | C | L |
+| Salcedo Correa, Carlos Mathhew | Matthewnhfe | L | L | C |
 
 #### 5.2.2.3.Sprint Backlog 2.
 
