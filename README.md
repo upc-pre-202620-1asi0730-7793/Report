@@ -2264,9 +2264,9 @@ A continuación, se detalla la matriz de liderazgo y colaboración (LACX) para l
 
 <img src="resources/imgs/sprin1.png">
 
-[NoxWay Sprint Backlog](https://trello.com/invite/b/690c87e2eddd3d52ed83189d/ATTI96b986ca465d37e1b647b2fb1690fee5DC6EC0DE/noxway)
+NoxWay Sprint Backlog 
+https://trello.com/invite/b/690c87e2eddd3d52ed83189d/ATTI96b986ca465d37e1b647b2fb1690fee5DC6EC0DE/noxway
 
-#### 5.2.1.4. Development Evidence for Sprint Review. 
 
 #### 5.2.1.4. Development Evidence for Sprint Review.
 
@@ -2310,11 +2310,15 @@ link del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202421065_upc
 Durante este sprint, se completó el despliegue de la landing page para habilitar su acceso público mediante GitHub Pages. El procedimiento inició con la creación y configuración de un repositorio público bajo la nomenclatura asignada al proyecto. Posteriormente, se cargó el código fuente y se activó el servicio de publicación web desde los ajustes del repositorio. Finalmente, se validó la disponibilidad y operatividad del sitio en línea, estableciendo un flujo de mantenimiento continuo en el cual cualquier cambio subido al repositorio se refleja automáticamente en producción.
 
 *Evidencia de deployment 1*
+<br>
 <img src="resources/imgs/Github-Pages-Nowxay.png">
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint. 
+
 <img src="resources/imgs/Colaboration1.png">
+
 <img src="resources/imgs/Colaboration2.png">
+
 
 ### 5.2.1. Sprint 2
 
@@ -2350,17 +2354,52 @@ A continuación, se detalla la matriz de liderazgo y colaboración (LACX) para l
 
 #### 5.2.2.3.Sprint Backlog 2.
 
+| User Story Id | User Story Title | Task Id | Task Title | Task Description | Estimation (Hours) | Assigned To | Status |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **US-06** | Invitar contacto de confianza | UT-01 | Formulario de invitación | Implementar formulario para enviar invitaciones por correo/teléfono y conectar con el API. | 3 | Camila | Done |
+| **US-07** | Aceptar o rechazar invitación | UT-01 | Gestión de invitación entrante | Desarrollar la vista para que el contacto acepte/rechace y actualizar el estado del vínculo. | 2 | Carlos | Done |
+| **US-08** | Remover contacto de confianza | UT-01 | Opción de eliminar contacto | Añadir botón de eliminación con modal de confirmación en la lista de contactos vinculados. | 2 | Leonardo | Done |
+| **US-09** | Iniciar check-in de trayecto seguro | UT-01 | Interfaz de inicio de check-in | Crear formulario para ingresar destino y tiempo estimado e iniciar la telemetría en vivo. | 5 | Carlos | Done |
+| **US-10** | Confirmar llegada segura | UT-01 | Botón de confirmación de llegada | Implementar botón para finalizar el check-in activo, deteniendo el rastreo y notificando. | 3 | Camila | Done |
+| **US-11** | Cancelar check-in activo | UT-01 | Cancelación de trayecto | Desarrollar lógica para cancelar un trayecto en curso desde el dashboard del trabajador. | 2 | Camila | Done |
+| **US-12** | Marcado automático de posible incidente | UT-01 | Cronómetro y alerta automática | Implementar lógica para evaluar tolerancia de tiempo y disparar el incidente en la UI. | 4 | Leonardo | Done |
+| **US-13** | Validar posible incidente | UT-01 | Modal de validación | Crear interfaz para que el trabajador descarte (falso positivo) o confirme una alerta. | 3 | Carlos | Done |
+| **US-14** | Recibir alerta de posible incidente | UT-01 | Recepción de alertas en Companion | Desarrollar notificaciones push y alertas visuales resaltadas en el portal del contacto. | 3 | Camila | Done |
+| **US-15** | Buscar servicios nocturnos cercanos | UT-01 | Mapa de servicios 24h | Integrar mapa interactivo con pines de locales abiertos de madrugada y barra de búsqueda. | 5 | Yam | Done |
+| **US-16** | Reportar nuevo servicio nocturno | UT-01 | Formulario de nuevo local | Crear formulario para registrar información y coordenadas de un nuevo servicio 24h. | 3 | Leonardo | Done |
+| **US-17** | Calificar un servicio nocturno reportado | UT-01 | Sistema de votos para servicios | Añadir botones de upvote/downvote para calificar la veracidad en los detalles del servicio. | 2 | Carlos | Done |
+| **US-18** | Calificar seguridad de ruta | UT-01 | Encuesta de seguridad post-trayecto | Implementar modal de estrellas y comentarios que aparece al confirmar la llegada segura. | 3 | Camila | Done |
+| **US-19** | Reportar punto de riesgo específico | UT-01 | Marcador de riesgo en mapa | Desarrollar opción para colocar un pin de peligro con descripción en el mapa comunitario. | 3 | Yam | Done |
+| **US-20** | Visualizar mapa de zonas de riesgo | UT-01 | Capa de zonas de riesgo | Mostrar perímetros sombreados y advertencias de peligro superpuestas sobre el mapa 24h. | 4 | Leonardo | Done |
+| **US-21** | Registrar horas de descanso | UT-01 | Formulario de bitácora de sueño | Implementar vista para ingresar horas de inicio y fin del descanso diurno del trabajador. | 2 | Carlos | Done |
+| **US-22** | Visualizar historial de descanso | UT-01 | Gráficos de historial de sueño | Integrar librería de gráficos para mostrar patrones de descanso semanales y déficits. | 4 | Camila | Done |
+| **US-23** | Recibir sugerencia de higiene del sueño | UT-01 | Tarjetas de sugerencias | Mostrar alertas de interfaz y recomendaciones basadas en el déficit de sueño calculado. | 2 | Yam | Done |
+| **US-25** | Suscribirse al plan mensual | UT-01 | Flujo de pago y suscripción | Integrar pasarela de pago y actualizar el estado de membresía (Centinela Pro) en el perfil. | 5 | Leonardo | Done |
+| **US-26** | Acceder a beneficios y descuentos | UT-01 | Catálogo de convenios y QR | Desarrollar la vista de recompensas con generación de código QR dinámico para suscriptores. | 3 | Carlos | Done |
+| **US-27** | Referir a un contacto (beneficio) | UT-01 | Generador de enlaces | Implementar sección para copiar código de referido personal y ver el progreso de recompensas. | 2 | Camila | Done |
+| **US-28** | Visualizar estado de trayecto en tiempo real | UT-01 | Mapa de rastreo en vivo | Desarrollar el panel del contacto para mostrar la ubicación en movimiento, velocidad y ETA. | 5 | Yam | Done |
+| **US-29** | Configurar preferencias de notificación | UT-01 | Panel de ajustes de alertas | Crear vista con interruptores (switches) para habilitar/deshabilitar notificaciones de rutina. | 2 | Leonardo | Done |
+| **US-30** | Revisar y aprobar reportes de la comunidad | UT-01 | Bandeja de moderación | Implementar interfaz para listar reportes pendientes y botones de aprobación/rechazo. | 4 | Carlos | Done |
+
+<img src="resources/imgs/spring2.png">
+
+NoxWay Sprint Backlog 
+https://trello.com/invite/b/690c87e2eddd3d52ed83189d/ATTI96b986ca465d37e1b647b2fb1690fee5DC6EC0DE/noxway
 
 #### 5.2.2.4.Development Evidence for Sprint Review.
 
 
 #### 5.2.2.5.Execution Evidence for Sprint Review.
+Capturas de la aplicacion web desplegada junto a un video demostrativo de su diseño y usabilidad
 
 
 #### 5.2.2.6.Services Documentation Evidence for Sprint Review.
 
 
 #### 5.2.2.7.Software Deployment Evidence for Sprint Review.
+Durante este sprint, se completó el despliegue de la aplicacion web para habilitar su acceso público. El procedimiento inició con la creación y configuración de un repositorio público bajo la nomenclatura asignada al proyecto. Posteriormente, se cargó el código fuente y se activó el servicio de publicación web desde los ajustes del repositorio. Finalmente, se validó la disponibilidad y operatividad del sitio en línea, estableciendo un flujo de mantenimiento continuo en el cual cualquier cambio subido al repositorio se refleja automáticamente en producción.
+
+*Evidencia de deployment 1*
 
 
 #### 5.2.2.8.Team Collaboration Insights during Sprint.
