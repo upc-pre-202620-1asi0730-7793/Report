@@ -1861,23 +1861,23 @@ En esta sección se presenta la arquitectura de software de Noxway desde el enfo
 **Identity & Network Management**
 <br>
 <br>
-<img src="resources/imgs/Identity & Network Management.png"
+<img src="resources/imgs/iam.png"
      alt="eventstorming"
      style="">
 <br>
 <br>
-**Safe Commute Execution**
+**Safe Commute & Incident Mangement**
 <br>
 <br>
-<img src="resources/imgs/safees.png"
+<img src="resources/imgs/safe-commute.png"
      alt="eventstorming"
      style="">
 <br>
 <br>
-**Incident & Alert Management**
+**Sleep Health & Wellnes**
 <br>
 <br>
-<img src="resources/imgs/incident.png"
+<img src="resources/imgs/sleep-health.png"
      alt="eventstorming"
      style="">
 <br>
@@ -1885,15 +1885,7 @@ En esta sección se presenta la arquitectura de software de Noxway desde el enfo
 **Community Intelligence**
 <br>
 <br>
-<img src="resources/imgs/comuni.png"
-     alt="eventstorming"
-     style="">
-<br>
-<br>
-**Sleep Health & Wellness**
-<br>
-<br>
-<img src="resources/imgs/sleep.png"
+<img src="resources/imgs/community.png"
      alt="eventstorming"
      style="">
 <br>
@@ -1909,7 +1901,7 @@ En esta sección se presenta la arquitectura de software de Noxway desde el enfo
 **Moderation & Governance**
 <br>
 <br>
-<img src="resources/imgs/governance.png"
+<img src="resources/imgs/modera.png"
      alt="eventstorming"
      style="">
 
