@@ -1861,7 +1861,7 @@ En esta sección se presenta la arquitectura de software de Noxway desde el enfo
 **Identity & Network Management**
 <br>
 <br>
-<img src="resources/imgs/iam.png"
+<img src="resources/imgs/management.png"
      alt="eventstorming"
      style="">
 <br>
@@ -1991,7 +1991,7 @@ El modelo concentra la abstracción `User`, de la cual heredan los roles especí
 
 Class Diagram - Identity & Network Management.
 
-<img src="resources/imgs/identity&networkmanagement.png"
+<img src="resources/imgs/ia-m.png"
      style="">
 
 ### Safe Commute & Incident Management
@@ -2000,7 +2000,7 @@ Class Diagram - Identity & Network Management.
 
 Class Diagram - Safe Commute Incident Management.
 
-<img src="resources/imgs/safecommute.png"
+<img src="resources/imgs/management.png"
      style="">
 
 ### Community Intelligence
@@ -2009,7 +2009,7 @@ Class Diagram - Safe Commute Incident Management.
 
 Class Diagram - Community Intelligence.
 
-<img src="resources/imgs/community intelligence.png"
+<img src="resources/imgs/com.png"
      style="">
 
 ### Sleep Health & Wellness
@@ -2018,7 +2018,7 @@ Class Diagram - Community Intelligence.
 
 Class Diagram - Sleep Health Wellness.
 
-<img src="resources/imgs/sleephealth.png"
+<img src="resources/imgs/sleep.png"
      style="">
 
 ### Subscriptions & Collective Benefits
@@ -2027,7 +2027,7 @@ Class Diagram - Sleep Health Wellness.
 
 Class Diagram - Subscriptions Collective Benefits.
 
-<img src="resources/imgs/subscriptions.png"
+<img src="resources/imgs/subs.png"
      style="">
 
 ### Moderation & Governance
