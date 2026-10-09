@@ -2156,11 +2156,11 @@ Nuestra guía de estilo para CSS se centra en la claridad, simplicidad y consist
 
 **Estándares de Accesibilidad (WAI-ARIA)**
 
-El código fuente implementa los siguientes estándares para garantizar el cumplimiento de accesibilidad[cite: 2]:
+El código fuente implementa los siguientes estándares para garantizar el cumplimiento de accesibilidad:
 
-* **Roles explícitos**: Uso de roles WAI-ARIA como `role="banner"`, `role="dialog"`, `role="tablist"`, `role="tab"`, `role="tabpanel"`, `role="radiogroup"`, `role="radio"` y `role="contentinfo"`[cite: 2].
-* **Estados dinámicos**: Control de visibilidad e interacción mediante los atributos `aria-expanded`, `aria-pressed`, `aria-selected`, `aria-hidden` y `hidden`[cite: 2].
-* **Etiquetado claro**: Vinculación de controles mediante `aria-label`, `aria-labelledby`, `aria-controls` y `aria-live="polite"` para la lectura por tecnologías de asistencia[cite: 2].
+* **Roles explícitos**: Uso de roles WAI-ARIA como `role="banner"`, `role="dialog"`, `role="tablist"`, `role="tab"`, `role="tabpanel"`, `role="radiogroup"`, `role="radio"` y `role="contentinfo"`.
+* **Estados dinámicos**: Control de visibilidad e interacción mediante los atributos `aria-expanded`, `aria-pressed`, `aria-selected`, `aria-hidden` y `hidden`.
+* **Etiquetado claro**: Vinculación de controles mediante `aria-label`, `aria-labelledby`, `aria-controls` y `aria-live="polite"` para la lectura por tecnologías de asistencia.
 
 ### 5.1.4. Software Deployment Configuration.
 
