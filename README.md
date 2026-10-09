@@ -63,7 +63,7 @@ Se generaron los recursos necesarios y se agregaron las imágenes al repositorio
 Se organizaron reuniones para coordinar el progreso de los componentes del informe y del Sprint 1, enfocado en el desarrollo de la Landing Page.
 
 <div align="center">
-<img src="assets/chapter01/commits informe - 1.png" alt="Commits del informe">
+<img src="resources/imgs/contributorsav1.png" alt="Commits del informe">
 </div>
 
 
