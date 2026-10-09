@@ -52,6 +52,8 @@
 | Organización del proyecto | https://github.com/upc-pre-202620-1asi0730-7793 |
 | Repositorio del reporte | https://github.com/upc-pre-202620-1asi0730-7793/Report |
 | Repositorio de la Landing Page | https://github.com/upc-pre-202620-1asi0730-7793/Landing-Page |
+| Repositorio del Frontend | https://github.com/upc-pre-202620-1asi0730-7793/Noxway-Frontend.git |
+
 
 Durante la fase de preparación del informe, se llevaron a cabo las siguientes actividades:
 
@@ -65,6 +67,15 @@ Se organizaron reuniones para coordinar el progreso de los componentes del infor
 <img src="resources/imgs/contributorsav1.png" alt="Commits del informe">
 </div>
 
+TB1: Las tareas correspondientes al Sprint 2 se documentaron en el repositorio de GitHub:
+
+Se redactaron y actualizaron los contenidos del informe utilizando el formato Markdown, y se realizaron Conventional Commits para registrar los avances y la resolución de conflictos durante la integración de las ramas.
+Se incorporaron las capturas de la aplicación web, la configuración de Firebase y las evidencias de despliegue en la carpeta resources/imgs/chapter_v del repositorio del informe.
+Se organizaron los aportes del equipo mediante ramas de funcionalidades y Pull Requests para integrar los avances del frontend y de la documentación del Sprint 2.
+
+<div align="center">
+<img src="resources/imgs/tb1-collaboration.png" alt="Commits del informe">
+</div>
 
 # Contenido 
 
@@ -79,9 +90,6 @@ Se organizaron reuniones para coordinar el progreso de los componentes del infor
   - [1.1. Startup Profile](#11-startup-profile)
     - [1.1.1 Descripción de la Startup](#111-descripción-de-la-startup)
     - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
-  - [| **Foto** |                             |](#-foto------------------------------)
-  - [| **Foto** | |](#-foto--)
-  - [| **Foto** |                              |](#-foto-------------------------------)
   - [1.2. Solution Profile](#12-solution-profile)
     - [1.2.1 Antecedentes y problemática](#121-antecedentes-y-problemática)
     - [1.2.2 Lean UX Process.](#122-lean-ux-process)
@@ -110,8 +118,6 @@ Se organizaron reuniones para coordinar el progreso de los componentes del infor
   - [2.5. Ubiquitous Language.](#25-ubiquitous-language)
 - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
   - [3.1. User Stories.](#31-user-stories)
-- [Historias de Usuario - Noxway](#historias-de-usuario---noxway)
-  - [| **US-30** | Moderar comunidad | Como moderador (Noxway), quiero auditar zonas y servicios reportados para evitar spam o "trolls", manteniendo el prestigio de los datos comunitarios frente a nuevos usuarios. | **Escenario 1:** Dado que ve un reporte pendiente, Cuando pulsa "Aprobar", Entonces el punto se publica a todos.**Escenario 2:** Dado que es un reporte vacío o de broma, Cuando pulsa "Rechazar", Entonces desaparece y el usuario generador pierde "Trust Score". | EP-10 |](#-us-30--moderar-comunidad--como-moderador-noxway-quiero-auditar-zonas-y-servicios-reportados-para-evitar-spam-o-trolls-manteniendo-el-prestigio-de-los-datos-comunitarios-frente-a-nuevos-usuarios--escenario-1-dado-que-ve-un-reporte-pendiente-cuando-pulsa-aprobar-entonces-el-punto-se-publica-a-todosescenario-2-dado-que-es-un-reporte-vacío-o-de-broma-cuando-pulsa-rechazar-entonces-desaparece-y-el-usuario-generador-pierde-trust-score--ep-10-)
   - [3.2. Impact Mapping.](#32-impact-mapping)
   - [3.3. Product Backlog.](#33-product-backlog)
 - [Capítulo IV: Product Design](#capítulo-iv-product-design)
