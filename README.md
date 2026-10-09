@@ -115,69 +115,22 @@ Se organizaron reuniones para coordinar el progreso de los componentes del infor
   - [2.5. Ubiquitous Language.](#25-ubiquitous-language)
 - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
   - [3.1. User Stories.](#31-user-stories)
-    - [Epics:](#epics)
-    - [User Stories:](#user-stories)
-  - [| **US-35** | Cambiar idioma y tema visual en la Landing Page | Como visitante del sitio web, quiero alternar entre los idiomas disponibles (español e inglés) y ajustar el modo de visualización para adaptar la lectura a mis preferencias. | **Escenario 1: Alternancia de idioma**Dado que la landing page se muestra en el idioma predeterminado,Cuando el visitante acciona el selector de idioma (ES/EN),Entonces todos los textos, títulos y llamados a la acción se traducen de forma coherente y dinámica.**Escenario 2: Conmutación de tema claro y oscuro**Dado que el visitante interactúa con el interruptor de modo visual en la barra de navegación,Cuando activa el cambio de tema,Entonces la paleta de colores de la interfaz se adapta inmediatamente al esquema seleccionado manteniendo los contrastes y legibilidad. | EP-01 |](#-us-35--cambiar-idioma-y-tema-visual-en-la-landing-page--como-visitante-del-sitio-web-quiero-alternar-entre-los-idiomas-disponibles-español-e-inglés-y-ajustar-el-modo-de-visualización-para-adaptar-la-lectura-a-mis-preferencias--escenario-1-alternancia-de-idiomadado-que-la-landing-page-se-muestra-en-el-idioma-predeterminadocuando-el-visitante-acciona-el-selector-de-idioma-esenentonces-todos-los-textos-títulos-y-llamados-a-la-acción-se-traducen-de-forma-coherente-y-dinámicaescenario-2-conmutación-de-tema-claro-y-oscurodado-que-el-visitante-interactúa-con-el-interruptor-de-modo-visual-en-la-barra-de-navegacióncuando-activa-el-cambio-de-temaentonces-la-paleta-de-colores-de-la-interfaz-se-adapta-inmediatamente-al-esquema-seleccionado-manteniendo-los-contrastes-y-legibilidad--ep-01-)
-    - [Technical Stories:](#technical-stories)
+- [Historias de Usuario - Noxway](#historias-de-usuario---noxway)
+  - [| **US-30** | Moderar comunidad | Como moderador (Noxway), quiero auditar zonas y servicios reportados para evitar spam o "trolls", manteniendo el prestigio de los datos comunitarios frente a nuevos usuarios. | **Escenario 1:** Dado que ve un reporte pendiente, Cuando pulsa "Aprobar", Entonces el punto se publica a todos.**Escenario 2:** Dado que es un reporte vacío o de broma, Cuando pulsa "Rechazar", Entonces desaparece y el usuario generador pierde "Trust Score". | EP-10 |](#-us-30--moderar-comunidad--como-moderador-noxway-quiero-auditar-zonas-y-servicios-reportados-para-evitar-spam-o-trolls-manteniendo-el-prestigio-de-los-datos-comunitarios-frente-a-nuevos-usuarios--escenario-1-dado-que-ve-un-reporte-pendiente-cuando-pulsa-aprobar-entonces-el-punto-se-publica-a-todosescenario-2-dado-que-es-un-reporte-vacío-o-de-broma-cuando-pulsa-rechazar-entonces-desaparece-y-el-usuario-generador-pierde-trust-score--ep-10-)
   - [3.2. Impact Mapping.](#32-impact-mapping)
   - [3.3. Product Backlog.](#33-product-backlog)
 - [Capítulo IV: Product Design](#capítulo-iv-product-design)
   - [4.1. Style Guidelines.](#41-style-guidelines)
     - [4.1.1. General Style Guidelines.](#411-general-style-guidelines)
-      - [El estilo visual de la startup](#el-estilo-visual-de-la-startup)
       - [Principios de diseño](#principios-de-diseño)
-      - [Paleta de colores](#paleta-de-colores)
-      - [Tipografía](#tipografía)
-      - [Jerarquía tipográfica](#jerarquía-tipográfica)
-      - [Espaciado](#espaciado)
-      - [Tono de comunicación](#tono-de-comunicación)
     - [4.1.2. Web Style Guidelines.](#412-web-style-guidelines)
-      - [1. Diseño y estructura](#1-diseño-y-estructura)
-      - [2. Sistema de grillas](#2-sistema-de-grillas)
-      - [3. Componentes UI principales](#3-componentes-ui-principales)
-        - [Tarjetas](#tarjetas)
-        - [Botones](#botones)
-        - [Insignias o Badges](#insignias-o-badges)
-        - [Formularios](#formularios)
-        - [Notificaciones](#notificaciones)
       - [4. Interacción (comportamiento UX)](#4-interacción-comportamiento-ux)
-        - [Feedback inmediato](#feedback-inmediato)
-        - [Restricciones de acciones](#restricciones-de-acciones)
-        - [Visualización del estado](#visualización-del-estado)
-      - [5. Diseño adaptable](#5-diseño-adaptable)
-        - [Móvil](#móvil)
-        - [Tablet y escritorio](#tablet-y-escritorio)
-      - [6. Navegación](#6-navegación)
-        - [Móvil](#móvil-1)
-        - [Escritorio](#escritorio)
-      - [7. Iconografía](#7-iconografía)
-      - [8. Componentes específicos de la solución](#8-componentes-específicos-de-la-solución)
-        - [Registro de trayecto seguro](#registro-de-trayecto-seguro)
-        - [Contactos de confianza](#contactos-de-confianza)
-        - [Mapa nocturno](#mapa-nocturno)
-        - [Reporte de incidentes](#reporte-de-incidentes)
-        - [Registro de bienestar](#registro-de-bienestar)
-        - [Comunidad](#comunidad)
-        - [Beneficios](#beneficios)
   - [4.2. Information Architecture.](#42-information-architecture)
     - [4.2.1. Organization Systems.](#421-organization-systems)
     - [4.2.2. Labeling Systems.](#422-labeling-systems)
-      - [Principios clave del sistema de etiquetado:](#principios-clave-del-sistema-de-etiquetado)
-      - [Etiquetas principales por área](#etiquetas-principales-por-área)
-      - [Asociaciones entre etiquetas](#asociaciones-entre-etiquetas)
     - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
-      - [Página de inicio](#página-de-inicio)
-      - [Aplicación web](#aplicación-web)
     - [4.2.4. Searching Systems.](#424-searching-systems)
-      - [Opciones de búsqueda](#opciones-de-búsqueda)
-      - [Filtros disponibles](#filtros-disponibles)
-      - [Apariencia de los datos después de la búsqueda](#apariencia-de-los-datos-después-de-la-búsqueda)
     - [4.2.5. Navigation Systems.](#425-navigation-systems)
-      - [Páginas principales](#páginas-principales)
-      - [Opciones de usuario](#opciones-de-usuario)
-      - [Búsqueda y navegación](#búsqueda-y-navegación)
-      - [Navegación de seguridad](#navegación-de-seguridad)
-      - [Marca e identidad](#marca-e-identidad)
   - [4.3. Landing Page UI Design.](#43-landing-page-ui-design)
     - [4.3.1. Landing Page Wireframe.](#431-landing-page-wireframe)
     - [4.3.2. Landing Page Mock-up.](#432-landing-page-mock-up)
@@ -192,51 +145,35 @@ Se organizaron reuniones para coordinar el progreso de los componentes del infor
   - [4.6.2. Software Architecture Context Diagram](#462-software-architecture-context-diagram)
   - [4.6.3. Software Architecture Container Diagrams](#463-software-architecture-container-diagrams)
   - [4.6.4. Software Architecture Components Diagrams](#464-software-architecture-components-diagrams)
-    - [Landing Page Components](#landing-page-components)
-    - [Web Application Components](#web-application-components)
-    - [RESTful API Components](#restful-api-components)
-    - [Relational Database Components](#relational-database-components)
   - [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
   - [4.7.1. Class Diagrams](#471-class-diagrams)
-    - [Identity \& Network Management](#identity--network-management)
-    - [Safe Commute \& Incident Management](#safe-commute--incident-management)
-    - [Community Intelligence](#community-intelligence)
-    - [Sleep Health \& Wellness](#sleep-health--wellness)
-    - [Subscriptions \& Collective Benefits](#subscriptions--collective-benefits)
-    - [Moderation \& Governance](#moderation--governance)
   - [4.8. Database Design](#48-database-design)
     - [4.8.1. Database Diagrams](#481-database-diagrams)
-      - [Identity \& Network Management](#identity--network-management-1)
-      - [Safe Commute \& Incident Management](#safe-commute--incident-management-1)
-      - [Community Intelligence](#community-intelligence-1)
-      - [Sleep Health \& Wellness](#sleep-health--wellness-1)
-      - [Subscriptions \& Collective Benefits](#subscriptions--collective-benefits-1)
-      - [Moderation \& Governance](#moderation--governance-1)
 - [Capítulo V: Product Implementation, Validation \& Deployment](#capítulo-v-product-implementation-validation--deployment)
   - [5.1. Software Configuration Management.](#51-software-configuration-management)
     - [5.1.1. Software Development Environment Configuration.](#511-software-development-environment-configuration)
     - [5.1.2. Source Code Management.](#512-source-code-management)
     - [5.1.3. Source Code Style Guide \& Conventions.](#513-source-code-style-guide--conventions)
-  - [Convenciones de Nomenclatura](#convenciones-de-nomenclatura)
-  - [Estructura Semántica (HTML)](#estructura-semántica-html)
-  - [Estilos y Maquetación (CSS)](#estilos-y-maquetación-css)
-  - [Estándares de Accesibilidad (WAI-ARIA)](#estándares-de-accesibilidad-wai-aria)
     - [5.1.4. Software Deployment Configuration.](#514-software-deployment-configuration)
-  - [1. Organización del Repositorio](#1-organización-del-repositorio)
-  - [2. Subida de Archivos](#2-subida-de-archivos)
-  - [3. Configuración en GitHub Pages](#3-configuración-en-github-pages)
-  - [4. Despliegue Automático](#4-despliegue-automático)
   - [5.2. Landing Page, Services \& Applications Implementation.](#52-landing-page-services--applications-implementation)
     - [5.2.1. Sprint 1](#521-sprint-1)
       - [5.2.1.1. Sprint Planning 1.](#5211-sprint-planning-1)
       - [5.2.1.2. Aspect Leaders and Collaborators.](#5212-aspect-leaders-and-collaborators)
       - [5.2.1.3. Sprint Backlog 1.](#5213-sprint-backlog-1)
-      - [5.2.1.4. Development Evidence for Sprint Review.](#5214-development-evidence-for-sprint-review)
-      - [5.2.1.4. Development Evidence for Sprint Review.](#5214-development-evidence-for-sprint-review-1)
       - [5.2.1.5. Execution Evidence for Sprint Review.](#5215-execution-evidence-for-sprint-review)
       - [5.2.1.6. Services Documentation Evidence for Sprint Review.](#5216-services-documentation-evidence-for-sprint-review)
       - [5.2.1.7. Software Deployment Evidence for Sprint Review.](#5217-software-deployment-evidence-for-sprint-review)
       - [5.2.1.8. Team Collaboration Insights during Sprint.](#5218-team-collaboration-insights-during-sprint)
+    - [5.2.1. Sprint 2](#521-sprint-2)
+      - [5.2.2.1.Sprint Planning 2.](#5221sprint-planning-2)
+      - [5.2.2.2. Aspect Leaders and Collaborators.](#5222-aspect-leaders-and-collaborators)
+      - [5.2.2.3.Sprint Backlog 2.](#5223sprint-backlog-2)
+      - [5.2.2.4.Development Evidence for Sprint Review.](#5224development-evidence-for-sprint-review)
+      - [5.2.2.4. Development Evidence for Sprint Review.](#5224-development-evidence-for-sprint-review)
+      - [5.2.2.5.Execution Evidence for Sprint Review.](#5225execution-evidence-for-sprint-review)
+      - [5.2.2.6.Services Documentation Evidence for Sprint Review.](#5226services-documentation-evidence-for-sprint-review)
+      - [5.2.2.7.Software Deployment Evidence for Sprint Review.](#5227software-deployment-evidence-for-sprint-review)
+      - [5.2.2.8.Team Collaboration Insights during Sprint.](#5228team-collaboration-insights-during-sprint)
 - [Conclusiones](#conclusiones)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
@@ -2513,27 +2450,174 @@ A continuación, se detalla la matriz de liderazgo y colaboración (LACX) para l
 
 <img src="resources/imgs/spring2.png">
 
-NoxWay Sprint Backlog 
+**NoxWay Sprint Backlog:** 
 https://trello.com/invite/b/690c87e2eddd3d52ed83189d/ATTI96b986ca465d37e1b647b2fb1690fee5DC6EC0DE/noxway
+
+Durante el Sprint 2, el equipo trabajó en la implementación del frontend de la aplicación web de Noxway, tomando como referencia las historias de usuario y las tareas definidas en el Sprint Backlog 2. A continuación, se presentan los commits realizados en el repositorio Noxway-Frontend como evidencia del desarrollo y de la integración de los cambios durante esta iteración.
 
 #### 5.2.2.4.Development Evidence for Sprint Review.
 
+#### 5.2.2.4. Development Evidence for Sprint Review.
+
+Durante el Sprint 2, el equipo desarrolló el frontend de la aplicación web de Noxway, incorporando la estructura de navegación, el dashboard del trabajador y las vistas correspondientes a contactos de confianza, trayectos, comunidad, descanso y beneficios. Asimismo, se realizaron ajustes de traducción, configuración de servicios y correcciones de navegación para integrar los distintos módulos de la aplicación.
+
+A continuación, se presenta una selección de commits representativos del repositorio Noxway-Frontend, perteneciente a la organización upc-pre-202620-1asi0730-7793. Esta selección evidencia los principales cambios registrados durante la iteración. El historial también registra el uso de datos simulados mediante JSON Server y endpoints mock de Beeceptor.
+
+| Repository | Branch | Commit Id | Commit Message | Descripción del cambio | Committed on (Date) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Noxway-Frontend | main | b197353 | feat(shared): align application layout with Figma design | Alinea la estructura visual de la aplicación con el diseño de referencia en Figma. | 06/10/2026 |
+| Noxway-Frontend | main | 36e037a | feat(routes): configure application routes | Configura las rutas de navegación de la aplicación web. | 06/10/2026 |
+| Noxway-Frontend | main | a47a1f5 | feat(dashboard): align worker dashboard with Figma design | Ajusta el dashboard del trabajador al diseño de referencia en Figma. | 06/10/2026 |
+| Noxway-Frontend | main | 7a009d6 | feat(dashboard): consume dashboard data from json server | Incorpora el consumo de datos del dashboard desde JSON Server. | 06/10/2026 |
+| Noxway-Frontend | main | 1712d7c | feat(shared): implement base api configuration and core services | Implementa la configuración base de la API y los servicios centrales compartidos. | 08/10/2026 |
+| Noxway-Frontend | main | d61eb6d | feat(shared): create layout, footer and language switcher components | Crea los componentes de estructura general, pie de página y selector de idioma. | 08/10/2026 |
+| Noxway-Frontend | main | 93801e5 | feat(iam): implement trustedcontacts component logic and invitation actions | Implementa la lógica del componente de contactos de confianza y las acciones de invitación. | 08/10/2026 |
+| Noxway-Frontend | main | 0a8bcf9 | feat(iam): implement profile component logic with privacy toggles | Implementa la lógica del perfil y los controles de privacidad. | 08/10/2026 |
+| Noxway-Frontend | main | ac3646d | feat(companion): create history and invitations views | Crea las vistas de historial e invitaciones del contacto de confianza. | 08/10/2026 |
+| Noxway-Frontend | main | ebe93a0 | feat(companion): build alerts and emergency views | Construye las vistas de alertas y emergencias del módulo Companion. | 08/10/2026 |
+| Noxway-Frontend | main | 5d88583 | feat(companion): implement live tracking and profile views | Incorpora las vistas de seguimiento y perfil del módulo Companion. | 08/10/2026 |
+| Noxway-Frontend | main | bd44b9b | feat(commute): implement journey component logic and telemetry events | Implementa la lógica del componente de trayecto y sus eventos de telemetría. | 08/10/2026 |
+| Noxway-Frontend | main | 4c5a377 | feat(commute): create journey tracking template with checkpoint progress | Crea la plantilla de seguimiento del trayecto con visualización del progreso por puntos de control. | 08/10/2026 |
+| Noxway-Frontend | main | 0e9aac8 | feat(community): implement mapview component logic with filter signals | Implementa la lógica de la vista del mapa y el estado de sus filtros mediante signals. | 08/10/2026 |
+| Noxway-Frontend | main | 65cbe49 | feat(community): implement community feed component logic | Implementa la lógica del componente de publicaciones de la comunidad. | 08/10/2026 |
+| Noxway-Frontend | main | 82568ff | feat(wellness): implement Wellness component logic and rest logger | Implementa la lógica del componente de bienestar y el registro de descanso. | 08/10/2026 |
+| Noxway-Frontend | main | 66cd1d0 | feat(wellness): add Wellness view template with diurnal sleep chart and habits | Añade la plantilla de bienestar con gráfico de sueño diurno y hábitos. | 08/10/2026 |
+| Noxway-Frontend | main | dfc61ce | feat(subscriptions): implement Benefits component logic and signals | Implementa la lógica del componente de beneficios y su estado mediante signals. | 08/10/2026 |
+| Noxway-Frontend | main | 888fb27 | fix(i18n): correct translation dictionary keys and dynamic page titles | Corrige las claves del diccionario de traducciones y los títulos dinámicos de las páginas. | 08/10/2026 |
+| Noxway-Frontend | main | 9818459 | fix(layout): correct sidebar navigation options and language bindings | Corrige las opciones de navegación de la barra lateral y sus enlaces con el idioma seleccionado. | 08/10/2026 |
+| Noxway-Frontend | main | ab4b9aa | feat(api): connect services to beeceptor mock endpoints for production | Conecta los servicios con endpoints simulados de Beeceptor para el entorno de producción. | 08/10/2026 |
+| Noxway-Frontend | main | 698e327 | Merge pull request #2 from upc-pre-202620-1asi0730-7793/develop | Registra la integración de la rama develop en main mediante el Pull Request #2. | 08/10/2026 |
+
+**Historial completo de commits:** [Noxway-Frontend — main](https://github.com/upc-pre-202620-1asi0730-7793/Noxway-Frontend/commits/main/).
 
 #### 5.2.2.5.Execution Evidence for Sprint Review.
-Capturas de la aplicacion web desplegada junto a un video demostrativo de su diseño y usabilidad
+En esta sección se presentan las evidencias de ejecución de la aplicación web de Noxway correspondientes al Sprint 2. Las capturas muestran las interfaces desarrolladas y los resultados de las interacciones realizadas desde los perfiles del trabajador nocturno y del contacto de confianza.
 
+**Aplicación web desplegada:** [Noxway](https://noxway-frontend.web.app/)
+
+**Dashboard del trabajador**
+
+![Dashboard del trabajador](resources/imgs/chapter_v/Noxway-dashboard.png)
+
+*Figura 1. Vista principal del dashboard del trabajador.*
+
+**Perfil del usuario**
+
+![Perfil del usuario](resources/imgs/chapter_v/Noxway-perfil.png)
+
+*Figura 2. Interfaz del perfil del usuario.*
+
+**Contactos de confianza**
+
+![Contactos de confianza](resources/imgs/chapter_v/Noxway-Contactos%20de%20confianza.png)
+
+*Figura 3. Interfaz de gestión de contactos de confianza.*
+
+**Trayecto seguro**
+
+![Trayecto seguro](resources/imgs/chapter_v/Noxway-trayecto.png)
+
+*Figura 4. Vista del trayecto del trabajador.*
+
+**Mapa nocturno**
+
+![Mapa nocturno](resources/imgs/chapter_v/Noxway-mapa.png)
+
+*Figura 5. Interfaz del mapa nocturno.*
+
+**Comunidad**
+
+![Comunidad de Noxway](resources/imgs/chapter_v/Noxway-Comunidad.png)
+
+*Figura 6. Vista del módulo de comunidad.*
+
+**Beneficios**
+
+![Beneficios de Noxway](resources/imgs/chapter_v/Noxway-Beneficios.png)
+
+*Figura 7. Vista del módulo de beneficios.*
 
 #### 5.2.2.6.Services Documentation Evidence for Sprint Review.
 
+Durante el Sprint 2 se implementaron servicios de consulta en el frontend de Noxway para obtener información del dashboard, los trayectos, los contactos de confianza, la comunidad, el bienestar, las suscripciones y el módulo Companion.
+
+En el entorno de desarrollo se utiliza JSON Server con datos de muestra definidos en db.json. La configuración de producción establece Beeceptor como servidor mock para los servicios que utilizan environment.apiUrl. El servicio de trayectos mantiene una dirección local independiente.
+
+Las operaciones identificadas en los servicios específicos del frontend corresponden a solicitudes GET, sin parámetros de ruta, parámetros de consulta ni cuerpo de solicitud. Las respuestas esperadas se describen a continuación. Los ejemplos presentan únicamente algunos campos de los datos de muestra; no representan respuestas completas ni pruebas de ejecución.
+
+**URL base local:** `http://localhost:3000`
+
+**URL base configurada para producción:** `https://noxwayapi.free.beeceptor.com`
+
+| Acción | Método HTTP | Sintaxis de llamada local | Parámetros / cuerpo | Ejemplo parcial de respuesta | Explicación |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Consultar dashboard | GET | `http://localhost:3000/dashboard` | Ninguno | `[{"id":1,"safeTripsPercentage":100,"servicesCount":14}]` | Devuelve una colección con indicadores y datos del dashboard del trabajador. |
+| Consultar trayecto | GET | `http://localhost:3000/commute` | Ninguno | `[{"id":1,"remainingTime":"18:42 min","routeRating":5}]` | Devuelve una colección de trayectos. El frontend selecciona el primer elemento para mostrarlo. |
+| Consultar puntos del mapa | GET | `http://localhost:3000/mapPoints` | Ninguno | `[{"id":1,"type":"pharmacy","lat":-11.992,"lng":-77.072}]` | Devuelve los puntos de servicios nocturnos y zonas de riesgo representados en el mapa. |
+| Consultar publicaciones | GET | `http://localhost:3000/communityPosts` | Ninguno | `[{"id":1,"authorName":"Marcos Huamán","upvotes":28}]` | Devuelve las publicaciones de muestra de la comunidad. |
+| Consultar bienestar | GET | `http://localhost:3000/wellness` | Ninguno | `[{"id":1,"lastRestDuration":"6h 45m","weeklyAverage":"6.8 hrs"}]` | Devuelve una colección con resumen, historial y sugerencias de descanso. El frontend selecciona el primer elemento. |
+| Consultar suscripción | GET | `http://localhost:3000/subscriptions` | Ninguno | `[{"id":1,"planName":"Plan Centinela Pro","referralCode":"JORGE-NOX26"}]` | Devuelve una colección con el plan, los beneficios y los datos de referidos. El frontend selecciona el primer elemento. |
+| Consultar contactos | GET | `http://localhost:3000/trustedContacts` | Ninguno | `[{"id":1,"name":"Rosa Elena Paredes","statusType":"active"}]` | Devuelve la lista de contactos de confianza de muestra. |
+| Consultar perfil del trabajador | GET | `http://localhost:3000/userProfile` | Ninguno | `[{"id":1,"fullName":"Jorge Luis Huamán Quispe","privacyGpsActiveOnly":true}]` | Devuelve una colección con información del perfil. El frontend selecciona el primer elemento. |
+| Consultar seguimiento Companion | GET | `http://localhost:3000/companionLive` | Ninguno | `[{"id":1,"workerName":"Jorge Luis Huamán","battery":"84%"}]` | Devuelve una colección con datos simulados de seguimiento del trabajador. El frontend selecciona el primer elemento. |
+| Consultar historial Companion | GET | `http://localhost:3000/companionHistory` | Ninguno | `{"stats":{"monitoredRoutes":"48 Rutas"},"records":[{"id":1,"status":"Monitoreo Activo"}]}` | Devuelve un objeto con estadísticas y registros de trayectos. |
+| Consultar alertas Companion | GET | `http://localhost:3000/companionAlerts` | Ninguno | `{"channels":[{"id":"whatsapp","enabled":true}],"logs":[{"id":1,"type":"check"}]}` | Devuelve la configuración de canales y el historial de alertas de muestra. |
+| Consultar información de emergencia | GET | `http://localhost:3000/companionEmergency` | Ninguno | `{"rescueProtocol":{"title":"Protocolo de Auxilio Rápido & Ficha de Rescate"},"serenazgo":[{"id":1}],"nationalLines":[{"id":"pnp"}]}` | Devuelve información de muestra del protocolo de auxilio y los contactos de emergencia. |
+| Consultar invitaciones Companion | GET | `http://localhost:3000/companionInvitations` | Ninguno | `{"pending":{"id":1,"status":"PENDIENTE DE CONFIRMACIÓN"},"activeWorkers":[{"id":1}],"steps":[{"step":"01"}]}` | Devuelve la invitación pendiente, los trabajadores vinculados y los pasos informativos de vinculación. |
+| Consultar perfil Companion | GET | `http://localhost:3000/companionProfile` | Ninguno | `{"fullName":"Rosa Elena Paredes Morales","verified":true}` | Devuelve un objeto con los datos del perfil del contacto de confianza. |
+
+**Repositorio que contiene los servicios de consumo y datos simulados:** [Noxway-Frontend](https://github.com/upc-pre-202620-1asi0730-7793/Noxway-Frontend).
 
 #### 5.2.2.7.Software Deployment Evidence for Sprint Review.
-Durante este sprint, se completó el despliegue de la aplicacion web para habilitar su acceso público. El procedimiento inició con la creación y configuración de un repositorio público bajo la nomenclatura asignada al proyecto. Posteriormente, se cargó el código fuente y se activó el servicio de publicación web desde los ajustes del repositorio. Finalmente, se validó la disponibilidad y operatividad del sitio en línea, estableciendo un flujo de mantenimiento continuo en el cual cualquier cambio subido al repositorio se refleja automáticamente en producción.
 
-*Evidencia de deployment 1*
+
+Durante el Sprint 2 se realizó el despliegue de la primera versión del frontend de Noxway mediante Firebase Hosting, habilitando su acceso público desde un navegador web. El proyecto utilizado para el alojamiento se identifica como noxway-frontend.
+
+La configuración del proyecto Angular contempla una compilación para producción y el uso del archivo environment.production.ts. La consola de Firebase registra la publicación de la aplicación el 8 de octubre de 2026. A continuación, se presentan las evidencias del proyecto utilizado y de la publicación realizada.
+
+**Plataforma de alojamiento:** Firebase Hosting.
+
+**Repositorio del frontend:** [Noxway-Frontend](https://github.com/upc-pre-202620-1asi0730-7793/Noxway-Frontend).
+
+**Aplicación web desplegada:** [Noxway](https://noxway-frontend.web.app/).
+
+**Configuración del proyecto en Firebase**
+
+![Configuración del proyecto Firebase](resources/imgs/chapter_v/Noxway-firebase-configuracion.png)
+
+*Figura 1. Configuración general del proyecto noxway-frontend utilizado para el alojamiento de la aplicación web.*
+
+**Evidencia de publicación en Firebase Hosting**
+
+![Publicación en Firebase Hosting](resources/imgs/chapter_v/Noxway-firebase-despliegue.png)
+
+*Figura 2. Panel de Firebase Hosting que registra el estado «Implementado» y la publicación realizada el 8 de octubre de 2026.*
 
 
 #### 5.2.2.8.Team Collaboration Insights during Sprint.
 
+Durante el Sprint 2, el equipo organizó el desarrollo del frontend de Noxway mediante ramas de funcionalidades y la integración de cambios en develop y main. El historial de GitHub registra aportes en la estructura compartida, el dashboard, los contactos de confianza, los trayectos, la comunidad, el bienestar y el módulo Companion.
+
+La siguiente tabla resume los aportes identificados en el historial de commits revisado:
+
+| Integrante | Usuario de GitHub | Aportes registrados |
+| :--- | :--- | :--- |
+| Cano Gomez, Yam Antony | Yam-1CG | Desarrollo de la estructura visual, navegación y dashboard; configuración y consumo de datos mediante JSON Server. |
+| Dextre Flores, Leonardo Felix | leo-dex45 | Desarrollo de los módulos de perfil, contactos de confianza, comunidad, mapa y trayectos, incluyendo modelos y servicios. |
+| Patricio Farias, Ana Camila | anacamilapatricio-sketch | Desarrollo de las vistas y servicios de Companion, componentes compartidos y dashboard; integración de develop en main mediante el Pull Request #2. |
+| Salcedo Correa, Carlos Matthew | Matthewnhfe | Desarrollo de bienestar y suscripciones; configuración de entornos y conexión con Beeceptor; correcciones de navegación y traducciones. |
+
+**Contribuciones al repositorio**
+
+![Contribuciones del equipo durante el Sprint 2](resources/imgs/chapter_v/Noxway-colaboracion-contributors.png)
+
+*Figura 1. Analíticos de contribución de los integrantes al repositorio Noxway-Frontend.*
+
+**Historial de commits e integración**
+
+![Commits e integración del Sprint 2](resources/imgs/chapter_v/Noxway-colaboracion-commits.png)
+
+*Figura 2. Historial de commits que registra aportes e integración de las funcionalidades desarrolladas durante el Sprint 2.*
 
 # Conclusiones 
 Identificación de un nicho desatendido y vulnerable: El proyecto identifica y atiende a un segmento de mercado que ha sido históricamente ignorado por las soluciones tecnológicas: los trabajadores de turno nocturno y sus contactos de confianza. El análisis y las entrevistas demuestran que las aplicaciones genéricas diseñadas para el horario diurno no logran resolver los riesgos de transitar de madrugada ni el aislamiento social que sufren estos trabajadores.
