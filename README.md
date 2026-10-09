@@ -163,7 +163,6 @@ Se organizaron reuniones para coordinar el progreso de los componentes del infor
       - [5.2.2.1.Sprint Planning 2.](#5221sprint-planning-2)
       - [5.2.2.2. Aspect Leaders and Collaborators.](#5222-aspect-leaders-and-collaborators)
       - [5.2.2.3.Sprint Backlog 2.](#5223sprint-backlog-2)
-      - [5.2.2.4.Development Evidence for Sprint Review.](#5224development-evidence-for-sprint-review)
       - [5.2.2.4. Development Evidence for Sprint Review.](#5224-development-evidence-for-sprint-review)
       - [5.2.2.5.Execution Evidence for Sprint Review.](#5225execution-evidence-for-sprint-review)
       - [5.2.2.6.Services Documentation Evidence for Sprint Review.](#5226services-documentation-evidence-for-sprint-review)
@@ -2371,8 +2370,6 @@ A continuación, se detalla la matriz de liderazgo y colaboración (LACX) para l
 https://trello.com/invite/b/690c87e2eddd3d52ed83189d/ATTI96b986ca465d37e1b647b2fb1690fee5DC6EC0DE/noxway
 
 Durante el Sprint 2, el equipo trabajó en la implementación del frontend de la aplicación web de Noxway, tomando como referencia las historias de usuario y las tareas definidas en el Sprint Backlog 2. A continuación, se presentan los commits realizados en el repositorio Noxway-Frontend como evidencia del desarrollo y de la integración de los cambios durante esta iteración.
-
-#### 5.2.2.4.Development Evidence for Sprint Review.
 
 #### 5.2.2.4. Development Evidence for Sprint Review.
 
