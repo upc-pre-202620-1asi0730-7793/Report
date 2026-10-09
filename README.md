@@ -32,17 +32,19 @@
 
 
 **Período:** 202620  
-**Fecha:** Septiembre 2026  
+**Fecha:** Octubre 2026  
 </div>
 
 
 
 ---
-# Registro de Versiones del Informe 
 
-|Versión|Fecha|Autor|Descripción de modificación|
-|:------|:----|:----|:--------------------|
+# Registro de Versiones del Informe
+
+| Versión | Fecha | Autor | Descripción de modificación |
+| :------ | :---- | :---- | :-------------------------- |
 | 1.0 | 2026-09-19 | Noctiva | Desarrollo del Capítulo I, Capítulo II, Capítulo III, Capítulo IV y el Sprint 1 del Capítulo V |
+| 2.0 | 2026-10-08 | Noctiva | Implementación de mejoras según el feedback de evaluación en los Capítulos I al IV, y desarrollo del Sprint 2 del Capítulo V |
 
 # Project Report Collaboration Insights 
 | Recurso | URL |
@@ -60,8 +62,7 @@ Se generaron los recursos necesarios y se agregaron las imágenes al repositorio
 Se organizaron reuniones para coordinar el progreso de los componentes del informe y del Sprint 1, enfocado en el desarrollo de la Landing Page.
 
 <div align="center">
-<img src="resources/imgs/MainColaboration.png" alt="Commits del informe">
-<img src="resources/imgs/MainColaboration2.png" alt="Commits del informe">
+<img src="resources/imgs/contributorsav1.png" alt="Commits del informe">
 </div>
 
 
@@ -73,10 +74,14 @@ Se organizaron reuniones para coordinar el progreso de los componentes del infor
 - [Contenido](#contenido)
   - [Tabla de contenidos](#tabla-de-contenidos)
 - [Student Outcome](#student-outcome)
+  - [Student Outcome](#student-outcome-1)
 - [Capítulo I: Introducción](#capítulo-i-introducción)
   - [1.1. Startup Profile](#11-startup-profile)
-    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
+    - [1.1.1 Descripción de la Startup](#111-descripción-de-la-startup)
     - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+  - [| **Foto** |                             |](#-foto------------------------------)
+  - [| **Foto** | |](#-foto--)
+  - [| **Foto** |                              |](#-foto-------------------------------)
   - [1.2. Solution Profile](#12-solution-profile)
     - [1.2.1 Antecedentes y problemática](#121-antecedentes-y-problemática)
     - [1.2.2 Lean UX Process.](#122-lean-ux-process)
@@ -87,27 +92,34 @@ Se organizaron reuniones para coordinar el progreso de los componentes del infor
   - [1.3. Segmentos objetivo.](#13-segmentos-objetivo)
 - [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
   - [2.1. Competidores.](#21-competidores)
-    - [2.1.1. Análisis competitivo.](#211-análisis-competitivo)
+    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
     - [2.1.2. Estrategias y tácticas frente a competidores.](#212-estrategias-y-tácticas-frente-a-competidores)
-  - [2.2. Entrevistas.](#22-entrevistas)
-    - [2.2.1. Diseño de entrevistas.](#221-diseño-de-entrevistas)
-    - [2.2.2. Registro de entrevistas.](#222-registro-de-entrevistas)
-    - [2.2.3. Análisis de entrevistas.](#223-análisis-de-entrevistas)
+    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
   - [2.3. Needfinding.](#23-needfinding)
     - [2.3.1. User Personas.](#231-user-personas)
+      - [Segmento Objetivo 1: Trabajador de Turno Nocturno](#segmento-objetivo-1-trabajador-de-turno-nocturno)
+      - [Segmento Objetivo 2: Contacto de Confianza](#segmento-objetivo-2-contacto-de-confianza)
     - [2.3.2. User Task Matrix.](#232-user-task-matrix)
     - [2.3.3. User Journey Mapping.](#233-user-journey-mapping)
+      - [Segmento Objetivo 1: Trabajador de Turno Nocturno](#segmento-objetivo-1-trabajador-de-turno-nocturno-1)
+      - [Segmento Objetivo 2: Contacto de Confianza](#segmento-objetivo-2-contacto-de-confianza-1)
     - [2.3.4. Empathy Mapping.](#234-empathy-mapping)
+      - [Segmento Objetivo 1: Trabajador de Turno Nocturno](#segmento-objetivo-1-trabajador-de-turno-nocturno-2)
+      - [Segmento Objetivo 2: Contacto de Confianza](#segmento-objetivo-2-contacto-de-confianza-2)
   - [2.4. Big Picture EventStorming.](#24-big-picture-eventstorming)
   - [2.5. Ubiquitous Language.](#25-ubiquitous-language)
 - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
   - [3.1. User Stories.](#31-user-stories)
+- [Historias de Usuario - Noxway](#historias-de-usuario---noxway)
+  - [| **US-30** | Moderar comunidad | Como moderador (Noxway), quiero auditar zonas y servicios reportados para evitar spam o "trolls", manteniendo el prestigio de los datos comunitarios frente a nuevos usuarios. | **Escenario 1:** Dado que ve un reporte pendiente, Cuando pulsa "Aprobar", Entonces el punto se publica a todos.**Escenario 2:** Dado que es un reporte vacío o de broma, Cuando pulsa "Rechazar", Entonces desaparece y el usuario generador pierde "Trust Score". | EP-10 |](#-us-30--moderar-comunidad--como-moderador-noxway-quiero-auditar-zonas-y-servicios-reportados-para-evitar-spam-o-trolls-manteniendo-el-prestigio-de-los-datos-comunitarios-frente-a-nuevos-usuarios--escenario-1-dado-que-ve-un-reporte-pendiente-cuando-pulsa-aprobar-entonces-el-punto-se-publica-a-todosescenario-2-dado-que-es-un-reporte-vacío-o-de-broma-cuando-pulsa-rechazar-entonces-desaparece-y-el-usuario-generador-pierde-trust-score--ep-10-)
   - [3.2. Impact Mapping.](#32-impact-mapping)
   - [3.3. Product Backlog.](#33-product-backlog)
 - [Capítulo IV: Product Design](#capítulo-iv-product-design)
   - [4.1. Style Guidelines.](#41-style-guidelines)
     - [4.1.1. General Style Guidelines.](#411-general-style-guidelines)
+      - [Principios de diseño](#principios-de-diseño)
     - [4.1.2. Web Style Guidelines.](#412-web-style-guidelines)
+      - [4. Interacción (comportamiento UX)](#4-interacción-comportamiento-ux)
   - [4.2. Information Architecture.](#42-information-architecture)
     - [4.2.1. Organization Systems.](#421-organization-systems)
     - [4.2.2. Labeling Systems.](#422-labeling-systems)
@@ -120,18 +132,18 @@ Se organizaron reuniones para coordinar el progreso de los componentes del infor
   - [4.4. Web Applications UX/UI Design.](#44-web-applications-uxui-design)
     - [4.4.1. Web Applications Wireframes.](#441-web-applications-wireframes)
     - [4.4.2. Web Applications Wireflow Diagrams.](#442-web-applications-wireflow-diagrams)
-    - [4.4.2. Web Applications Mock-ups.](#442-web-applications-mock-ups)
-    - [4.4.3. Web Applications User Flow Diagrams.](#443-web-applications-user-flow-diagrams)
+    - [4.4.3. Web Applications Mock-ups.](#443-web-applications-mock-ups)
+    - [4.4.4. Web Applications User Flow Diagrams.](#444-web-applications-user-flow-diagrams)
   - [4.5. Web Applications Prototyping.](#45-web-applications-prototyping)
-  - [4.6. Domain-Driven Software Architecture.](#46-domain-driven-software-architecture)
-    - [4.6.1. Design-Level EventStorming.](#461-design-level-eventstorming)
-    - [4.6.2. Software Architecture Context Diagram.](#462-software-architecture-context-diagram)
-    - [4.6.3. Software Architecture Container Diagrams.](#463-software-architecture-container-diagrams)
-    - [4.6.4. Software Architecture Components Diagrams.](#464-software-architecture-components-diagrams)
-  - [4.7. Software Object-Oriented Design.](#47-software-object-oriented-design)
-    - [4.7.1. Class Diagrams.](#471-class-diagrams)
-  - [4.8. Database Design.](#48-database-design)
-    - [4.8.1. Database Diagrams.](#481-database-diagrams)
+  - [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
+    - [4.6.1. Design-Level EventStorming](#461-design-level-eventstorming)
+  - [4.6.2. Software Architecture Context Diagram](#462-software-architecture-context-diagram)
+  - [4.6.3. Software Architecture Container Diagrams](#463-software-architecture-container-diagrams)
+  - [4.6.4. Software Architecture Components Diagrams](#464-software-architecture-components-diagrams)
+  - [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
+  - [4.7.1. Class Diagrams](#471-class-diagrams)
+  - [4.8. Database Design](#48-database-design)
+    - [4.8.1. Database Diagrams](#481-database-diagrams)
 - [Capítulo V: Product Implementation, Validation \& Deployment](#capítulo-v-product-implementation-validation--deployment)
   - [5.1. Software Configuration Management.](#51-software-configuration-management)
     - [5.1.1. Software Development Environment Configuration.](#511-software-development-environment-configuration)
@@ -139,15 +151,23 @@ Se organizaron reuniones para coordinar el progreso de los componentes del infor
     - [5.1.3. Source Code Style Guide \& Conventions.](#513-source-code-style-guide--conventions)
     - [5.1.4. Software Deployment Configuration.](#514-software-deployment-configuration)
   - [5.2. Landing Page, Services \& Applications Implementation.](#52-landing-page-services--applications-implementation)
-    - [5.2.X. Sprint n](#52x-sprint-n)
-      - [5.2.X.1. Sprint Planning n.](#52x1-sprint-planning-n)
-      - [5.2.X.2. Aspect Leaders and Collaborators.](#52x2-aspect-leaders-and-collaborators)
-      - [5.2.X.3. Sprint Backlog n.](#52x3-sprint-backlog-n)
-      - [5.2.X.4. Development Evidence for Sprint Review.](#52x4-development-evidence-for-sprint-review)
-      - [5.2.X.5. Execution Evidence for Sprint Review.](#52x5-execution-evidence-for-sprint-review)
-      - [5.2.X.6. Services Documentation Evidence for Sprint Review.](#52x6-services-documentation-evidence-for-sprint-review)
-      - [5.2.X.7. Software Deployment Evidence for Sprint Review.](#52x7-software-deployment-evidence-for-sprint-review)
-      - [5.2.X.8. Team Collaboration Insights during Sprint.](#52x8-team-collaboration-insights-during-sprint)
+    - [5.2.1. Sprint 1](#521-sprint-1)
+      - [5.2.1.1. Sprint Planning 1.](#5211-sprint-planning-1)
+      - [5.2.1.2. Aspect Leaders and Collaborators.](#5212-aspect-leaders-and-collaborators)
+      - [5.2.1.3. Sprint Backlog 1.](#5213-sprint-backlog-1)
+      - [5.2.1.5. Execution Evidence for Sprint Review.](#5215-execution-evidence-for-sprint-review)
+      - [5.2.1.6. Services Documentation Evidence for Sprint Review.](#5216-services-documentation-evidence-for-sprint-review)
+      - [5.2.1.7. Software Deployment Evidence for Sprint Review.](#5217-software-deployment-evidence-for-sprint-review)
+      - [5.2.1.8. Team Collaboration Insights during Sprint.](#5218-team-collaboration-insights-during-sprint)
+    - [5.2.1. Sprint 2](#521-sprint-2)
+      - [5.2.2.1.Sprint Planning 2.](#5221sprint-planning-2)
+      - [5.2.2.2. Aspect Leaders and Collaborators.](#5222-aspect-leaders-and-collaborators)
+      - [5.2.2.3.Sprint Backlog 2.](#5223sprint-backlog-2)
+      - [5.2.2.4. Development Evidence for Sprint Review.](#5224-development-evidence-for-sprint-review)
+      - [5.2.2.5.Execution Evidence for Sprint Review.](#5225execution-evidence-for-sprint-review)
+      - [5.2.2.6.Services Documentation Evidence for Sprint Review.](#5226services-documentation-evidence-for-sprint-review)
+      - [5.2.2.7.Software Deployment Evidence for Sprint Review.](#5227software-deployment-evidence-for-sprint-review)
+      - [5.2.2.8.Team Collaboration Insights during Sprint.](#5228team-collaboration-insights-during-sprint)
 - [Conclusiones](#conclusiones)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
@@ -165,8 +185,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 | Criterio específico                                                                             | Acciones realizadas                                                      | Conclusiones                   |
 |-------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|--------------------------------|
-| Trabaja en equipo para proporcionar liderazgo en forma conjunta                                 |<ul><li><b>Patricio Farias, Ana Camila</b> <br> <b>AV1</b>:Lideré la gestión ágil, facilitación y articulación operativa del equipo a lo largo del ciclo de vida del sprint, asegurando el cumplimiento riguroso de los hitos y entregables fijados. Fomenté una comunicación transversal y continua entre las áreas de diseño, arquitectura y desarrollo, organizando y desglosando las tareas en el tablero de trabajo para optimizar la carga y mitigar bloqueos tempranos. Asimismo, impulsé sesiones colaborativas de toma de decisiones para resolver discrepancias técnicas y de alcance, garantizando la trazabilidad, coherencia e integración de los artefactos producidos y asegurando la alineación constante de los objetivos individuales con la visión global de la solución.</li><br><li><b>Dextre Flores, Leonardo Felix</b> <br> <b>AV1</b>: Organicé mi contribución en una secuencia de artefactos relacionados entre sí, avanzando desde la vista general de la arquitectura hasta el diseño de clases y persistencia. Mantuve una nomenclatura consistente entre los Bounded Contexts, componentes, clases y estructuras de datos, y documenté las responsabilidades principales de cada elemento para facilitar su revisión y posterior utilización por los demás integrantes. También verifiqué la correspondencia entre las decisiones arquitectónicas y las User Stories previamente definidas, procurando evitar dependencias innecesarias entre contextos y dejando una estructura organizada que facilite posteriormente la distribución de tareas de implementación de frontend, backend y persistencia.</li><br><li><b>Salcedo Correa, Carlos Matthew</b> <br> <b>AV1</b>: Asumí el liderazgo técnico en el diseño de experiencia e interfaces de usuario (UX/UI) y en la estructuración de la arquitectura de información para el ecosistema digital de Prothia. Lideré la definición estratégica de SEO y metadatos tanto para la Landing Page pública como para la Web Application, y coordiné activamente con los responsables de requisitos la traducción de los objetivos de usuario hacia los flujos visuales del sistema (wireflows y user flows). Asimismo, proporcioné dirección técnica durante la implementación frontend del Landing Page, asegurando la consistencia entre los artefactos de diseño y el código fuente.</li></ul> <ul><li><b>Ramirez Rodriguez, Mauricio Joao</b> <br> <b>AV1</b>: Colaboré con el equipo planificando y llevando a cabo la fase de entrevistas para recoger los requerimientos del usuario, y elaboré los Style Guidelines del proyecto. Al definir y entregar estas pautas visuales a tiempo, facilité una referencia clara para el diseño de la interfaz, coordinando con el grupo para resolver dudas y cumplir con los objetivos fijados dentro del plazo previsto.</li><br><li><b>Cano Gomez, Yam</b> <br> <b>AV1</b>: Participé activamente en la coordinación y dinamización de las actividades del equipo, facilitando los canales de comunicación y la toma de decisiones conjuntas para asegurar el avance continuo del proyecto. Colaboré estrechamente en la revisión, consolidación y control de calidad de los distintos entregables, apoyando de manera constante a mis compañeros ante bloqueos o contingencias técnicas. Asimismo, promoví la alineación del grupo respecto a las prioridades y cronogramas establecidos, fomentando un entorno de trabajo colaborativo e integrando los aportes individuales para garantizar la coherencia global y el cumplimiento exitoso de los objetivos planteados.</li>  | El trabajo conjunto y la comunicación continua me permitieron asumir un rol activo en la toma de decisiones técnicas y metodológicas del grupo. Al facilitar la coordinación en la estructuración de los requisitos y consensuar la priorización de los artefactos ágiles, contribuí a un liderazgo distribuido donde cada integrante aportó valor de manera equitativa, logrando un flujo de trabajo organizado y alineado con los objetivos del proyecto. Asimismo, la coordinación entre UX/UI, SEO y desarrollo frontend permitió alinear la visión del producto con las necesidades del usuario, reforzando la colaboración y el liderazgo técnico del equipo. |
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. |<ul><li><b>Patricio Farias, Ana Camila</b> <br> <b>AV1</b>: Relalice las preguntas de la entrevistas, lo que permitió estructurar el needfinding mediante arquetipos de usuario, matrices de tareas, Journey Map y Empathy Mapp. A partir de estos hallazgos, modelé la lógica del dominio aplicando Big Picture EventStorming y definiendo un lenguaje ubicuo para alinear el negocio con el diseño del sistema. Finalmente, traduje estos requisitos a un marco ágil construyendo el Impact Mapping, especificando las historias de usuario y consolidando el Product Backlog priorizado para el desarrollo del producto.</li><br><li><b>Dextre Flores, Leonardo Felix</b> <br> <b>AV1</b>: Contribuí al diseño técnico de Prothia desarrollando los artefactos de arquitectura comprendidos entre las secciones 4.6.2 y 4.8.1. Definí la representación del sistema mediante los diagramas C4 de contexto, contenedores y componentes, estableciendo los principales actores, sistemas externos, unidades de software y responsabilidades de la solución. Posteriormente desarrollé los diagramas de clases correspondientes a los Bounded Contexts y módulos de soporte, manteniendo consistencia entre las entidades, servicios, interfaces, enumeraciones y relaciones del dominio. Finalmente, estructuré los diagramas de base de datos en PostgreSQL, especificando tablas, atributos, identificadores, claves y restricciones necesarias para mantener la integridad y la separación de responsabilidades entre contextos. Estas decisiones permitieron establecer una referencia técnica común para el equipo durante las siguientes etapas de desarrollo.</li><br><li><b>Salcedo Correa, Carlos Matthew</b> <br> <b>AV1</b>: Diseñé la arquitectura de información integral estableciendo los sistemas de búsqueda, navegación, SEO Tags y Meta Tags para la Landing Page y Web Application. A nivel visual y de interacción, diseñé los wireframes y mock-ups responsive (desktop y mobile) de la Landing Page, así como los wireframes, wireflows por User Goal, mock-ups y User Flow Diagrams (happy y unhappy paths) de la Web Application. Desarrollé además el prototipo interactivo en Figma y apoyé de forma colaborativa en la maquetación y desarrollo web de la Landing Page (HTML5, CSS3 y JavaScript), cumpliendo con los estándares de diseño y accesibilidad definidos.</li></ul> <ul><li><b>Ramirez Rodriguez, Mauricio Joao</b> <br> <b>AV1</b>:Fomenté un entorno colaborativo y estructurado al planificar y ejecutar la fase de entrevistas a los usuarios, definiendo objetivos claros para la recolección de información relevante para el equipo. Con base en estos hallazgos, elaboré los Style Guidelines del proyecto, estableciendo de manera organizada los estándares visuales, componentes y lineamientos de diseño. Gracias a la entrega oportuna de estas guías, facilité la alineación del equipo en el desarrollo de la interfaz, asegurando la coherencia del diseño y el cumplimiento puntual de las metas establecidas para el sprint. </li><br><li><b>Cano Gomez, Yam</b> <br> <b>AV1</b>: Promoví un entorno de trabajo colaborativo durante el desarrollo del Capítulo 1, organizando con el equipo el plan para las entrevistas y el Needfinding. Establecí metas para la recolección de información, prioricé las actividades del entregable y aseguré la participación activa de todos en el análisis de hallazgos. Además, facilité la consolidación de las User Personas, Empathy Maps y User Journey Maps, logrando que el equipo trabajara alineado y cumpliera a tiempo con los objetivos del proyecto.</li>| La articulación de las entrevistas y el análisis competitivo permitió integrar una visión común y fundamentada dentro del equipo, facilitando una planificación clara mediante herramientas como el EventStorming y el Impact Mapping. Este proceso colaborativo aseguró que la definición de historias de usuario y el Product Backlog respondieran a metas viables y medibles, cumpliendo oportunamente con los entregables de elicitación y especificación de requisitos. Asimismo, la definición de la arquitectura de información, el prototipado y la implementación visual aportaron un marco compartido para coordinar tareas, mantener consistencia entre diseño y desarrollo y asegurar la entrega de una experiencia alineada con los objetivos del proyecto. |
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta                                 |<ul><li><b>Patricio Farias, Ana Camila</b> <br> <b>AV1</b>:Lideré la gestión ágil, facilitación y articulación operativa del equipo a lo largo del ciclo de vida del sprint, asegurando el cumplimiento riguroso de los hitos y entregables fijados. Fomenté una comunicación transversal y continua entre las áreas de diseño, arquitectura y desarrollo, organizando y desglosando las tareas en el tablero de trabajo para optimizar la carga y mitigar bloqueos tempranos. Asimismo, impulsé sesiones colaborativas de toma de decisiones para resolver discrepancias técnicas y de alcance, garantizando la trazabilidad, coherencia e integración de los artefactos producidos y asegurando la alineación constante de los objetivos individuales con la visión global de la solución.<br> <b>TB1</b>: Lideré la estructuración y planificación del Sprint 2, asumiendo la responsabilidad de la gestión ágil del equipo. Como parte de este liderazgo, refiné el Product Backlog mediante la revisión y corrección exhaustiva de diversas User Stories, asegurando su viabilidad técnica y alineación con los objetivos de negocio de Noctiva.</li><br><li><b>Dextre Flores, Leonardo Felix</b> <br> <b>AV1</b>: Organicé mi contribución en una secuencia de artefactos relacionados entre sí, avanzando desde la vista general de la arquitectura hasta el diseño de clases y persistencia. Mantuve una nomenclatura consistente entre los Bounded Contexts, componentes, clases y estructuras de datos, y documenté las responsabilidades principales de cada elemento para facilitar su revisión y posterior utilización por los demás integrantes. También verifiqué la correspondencia entre las decisiones arquitectónicas y las User Stories previamente definidas, procurando evitar dependencias innecesarias entre contextos y dejando una estructura organizada que facilite posteriormente la distribución de tareas de implementación de frontend, backend y persistencia. <br> <b>TB1</b>: Asumí la responsabilidad sobre la consistencia técnica de la arquitectura al liderar la revisión y corrección de los diagramas del sistema. Asimismo, tomé la iniciativa en la refactorización y corrección de mis respectivos Bounded Contexts para garantizar una arquitectura limpia y escalable de cara al desarrollo del software. </li><br><li><b>Salcedo Correa, Carlos Matthew</b> <br> <b>AV1</b>: Asumí el liderazgo técnico en el diseño de experiencia e interfaces de usuario (UX/UI) y en la estructuración de la arquitectura de información para el ecosistema digital de Noxway. Lideré la definición estratégica de SEO y metadatos tanto para la Landing Page pública como para la Web Application, y coordiné activamente con los responsables de requisitos la traducción de los objetivos de usuario hacia los flujos visuales del sistema (wireflows y user flows). Asimismo, proporcioné dirección técnica durante la implementación frontend del Landing Page, asegurando la consistencia entre los artefactos de diseño y el código fuente. <br> <b>TB1</b>: Lideré las actividades orientadas a la puesta en producción, asumiendo un rol clave en el proceso de despliegue (deployment) de la aplicación web. De igual forma, tomé la iniciativa para optimizar la Landing Page, diseñando e integrando nuevos elementos y secciones que enriquecen la propuesta de valor del producto. </li></ul> <ul><li><b>Ramirez Rodriguez, Mauricio Joao</b> <br> <b>AV1</b>: Colaboré con el equipo planificando y llevando a cabo la fase de entrevistas para recoger los requerimientos del usuario, y elaboré los Style Guidelines del proyecto. Al definir y entregar estas pautas visuales a tiempo, facilité una referencia clara para el diseño de la interfaz, coordinando con el grupo para resolver dudas y cumplir con los objetivos fijados dentro del plazo previsto. <br> <b>TB1</b>: Contribuí al control de calidad de los entregables mediante la revisión transversal del documento formal, aplicando correcciones de formato y afinando pequeños detalles técnicos para asegurar una presentación adecuada de los artefactos del proyecto. </li><br><li><b>Cano Gomez, Yam</b> <br> <b>AV1</b>: Participé activamente en la coordinación y dinamización de las actividades del equipo, facilitando los canales de comunicación y la toma de decisiones conjuntas para asegurar el avance continuo del proyecto. Colaboré estrechamente en la revisión, consolidación y control de calidad de los distintos entregables, apoyando de manera constante a mis compañeros ante bloqueos o contingencias técnicas. Asimismo, promoví la alineación del grupo respecto a las prioridades y cronogramas establecidos, fomentando un entorno de trabajo colaborativo e integrando los aportes individuales para garantizar la coherencia global y el cumplimiento exitoso de los objetivos planteados. <br> <b>TB1</b>: Apoyé de manera activa en el liderazgo de la gestión del proyecto, colaborando estrechamente en la creación y organización del Sprint 2. Mi participación ayudó a distribuir estratégicamente la carga de trabajo y a establecer una hoja de ruta técnica clara para la iteración. </li>  | **av1:** El trabajo conjunto y la comunicación continua me permitieron asumir un rol activo en la toma de decisiones técnicas y metodológicas del grupo. Al facilitar la coordinación en la estructuración de los requisitos y consensuar la priorización de los artefactos ágiles, contribuí a un liderazgo distribuido donde cada integrante aportó valor de manera equitativa, logrando un flujo de trabajo organizado y alineado con los objetivos del proyecto. Asimismo, la coordinación entre UX/UI, SEO y desarrollo frontend permitió alinear la visión del producto con las necesidades del usuario, reforzando la colaboración y el liderazgo técnico del equipo. <br> **tb1:** Durante el Sprint 2 correspondiente a la entrega TB1, el equipo consolidó un modelo de liderazgo distribuido en el que los roles de gestión ágil, arquitectura, despliegue y documentación fueron asumidos proactivamente por distintos integrantes. La articulación continua entre la mayoría de los miembros permitió una toma de decisiones eficiente para organizar la carga de trabajo y superar desafíos técnicos en la programación. Esto garantizó que los avances individuales se integraran de forma coherente bajo una misma visión arquitectónica.|
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. |<ul><li><b>Patricio Farias, Ana Camila</b> <br> <b>AV1</b>: Relalice las preguntas de la entrevistas, lo que permitió estructurar el needfinding mediante arquetipos de usuario, matrices de tareas, Journey Map y Empathy Mapp. A partir de estos hallazgos, modelé la lógica del dominio aplicando Big Picture EventStorming y definiendo un lenguaje ubicuo para alinear el negocio con el diseño del sistema. Finalmente, traduje estos requisitos a un marco ágil construyendo el Impact Mapping, especificando las historias de usuario y consolidando el Product Backlog priorizado para el desarrollo del producto. <br> <b>TB1</b>: Fomenté un entorno estructurado al planificar las metas del Sprint 2 y participar activamente en la implementación de la aplicación web. Desarrollé la lógica de mis respectivos Bounded Contexts, coordinando de forma continua con mis compañeros para integrar mi código sin fricciones y cumplir con los plazos pactados. </li><br><li><b>Dextre Flores, Leonardo Felix</b> <br> <b>AV1</b>: Contribuí al diseño técnico de Noxway desarrollando los artefactos de arquitectura comprendidos entre las secciones 4.6.2 y 4.8.1. Definí la representación del sistema mediante los diagramas C4 de contexto, contenedores y componentes, estableciendo los principales actores, sistemas externos, unidades de software y responsabilidades de la solución. Posteriormente desarrollé los diagramas de clases correspondientes a los Bounded Contexts y módulos de soporte, manteniendo consistencia entre las entidades, servicios, interfaces, enumeraciones y relaciones del dominio. Finalmente, estructuré los diagramas de base de datos en PostgreSQL, especificando tablas, atributos, identificadores, claves y restricciones necesarias para mantener la integridad y la separación de responsabilidades entre contextos. Estas decisiones permitieron establecer una referencia técnica común para el equipo durante las siguientes etapas de desarrollo. <br> <b>TB1</b>: Colaboré decididamente en la fase de implementación de Noxway, sincronizando el avance de mi código con el de mis compañeros. Al alinear las correcciones de mis Bounded Contexts con los objetivos del sprint, aseguré el cumplimiento oportuno de mis responsabilidades de desarrollo. </li><br><li><b>Salcedo Correa, Carlos Matthew</b> <br> <b>AV1</b>: Diseñé la arquitectura de información integral estableciendo los sistemas de búsqueda, navegación, SEO Tags y Meta Tags para la Landing Page y Web Application. A nivel visual y de interacción, diseñé los wireframes y mock-ups responsive (desktop y mobile) de la Landing Page, así como los wireframes, wireflows por User Goal, mock-ups y User Flow Diagrams (happy y unhappy paths) de la Web Application. Desarrollé además el prototipo interactivo en Figma y apoyé de forma colaborativa en la maquetación y desarrollo web de la Landing Page (HTML5, CSS3 y JavaScript), cumpliendo con los estándares de diseño y accesibilidad definidos. <br> <b>TB1</b>: Impulsé el avance del grupo mediante el desarrollo de mis Bounded Contexts asignados y brindando soporte continuo durante la codificación de la aplicación web. Mi colaboración en la fase final de despliegue aseguró que alcanzáramos la meta conjunta de tener una versión accesible y funcional para la evaluación. </li></ul> <ul><li><b>Ramirez Rodriguez, Mauricio Joao</b> <br> <b>AV1</b>:Fomenté un entorno colaborativo y estructurado al planificar y ejecutar la fase de entrevistas a los usuarios, definiendo objetivos claros para la recolección de información relevante para el equipo. Con base en estos hallazgos, elaboré los Style Guidelines del proyecto, estableciendo de manera organizada los estándares visuales, componentes y lineamientos de diseño. Gracias a la entrega oportuna de estas guías, facilité la alineación del equipo en el desarrollo de la interfaz, asegurando la coherencia del diseño y el cumplimiento puntual de las metas establecidas para el sprint. <br> <b>TB1</b>: Apoyé en el cumplimiento de las metas documentales del sprint revisando el trabajo conjunto de forma asíncrona. Mi enfoque estuvo dirigido a pulir detalles formales del informe final, aportando a la consolidación del entregable requerido para el cierre de la iteración. </li><br><li><b>Cano Gomez, Yam</b> <br> <b>AV1</b>: Promoví un entorno de trabajo colaborativo durante el desarrollo del Capítulo 1, organizando con el equipo el plan para las entrevistas y el Needfinding. Establecí metas para la recolección de información, prioricé las actividades del entregable y aseguré la participación activa de todos en el análisis de hallazgos. Además, facilité la consolidación de las User Personas, Empathy Maps y User Journey Maps, logrando que el equipo trabajara alineado y cumpliera a tiempo con los objetivos del proyecto.<br> <bTB1</b>: Mantuve una comunicación fluida y constante con las áreas de desarrollo para avanzar de forma sostenida en la implementación de mis Bounded Contexts. Al apoyar en la corrección de la documentación y en la planificación del sprint, fortalecí la organización interna para el cumplimiento de nuestros plazos. </li>| **av1:** La articulación de las entrevistas y el análisis competitivo permitió integrar una visión común y fundamentada dentro del equipo, facilitando una planificación clara mediante herramientas como el EventStorming y el Impact Mapping. Este proceso colaborativo aseguró que la definición de historias de usuario y el Product Backlog respondieran a metas viables y medibles, cumpliendo oportunamente con los entregables de elicitación y especificación de requisitos. Asimismo, la definición de la arquitectura de información, el prototipado y la implementación visual aportaron un marco compartido para coordinar tareas, mantener consistencia entre diseño y desarrollo y asegurar la entrega de una experiencia alineada con los objetivos del proyecto.  <br> **tb1:** La planificación del Sprint 2 y la alta interacción comunicativa establecida entre Ana Camila, Leonardo, Yam y Carlos establecieron un entorno altamente colaborativo que fue clave para cumplir con las metas de implementación y despliegue de la aplicación web. A pesar de presentarse una participación asíncrona y de menor involucramiento por parte de algunos integrantes, el sólido compromiso, la comunicación constante y el apoyo mutuo del núcleo central de desarrollo garantizaron que se superaran los bloqueos técnicos y se lograran exitosamente los objetivos de este hito. |
 
 # Capítulo I: Introducción 
 
@@ -251,9 +271,15 @@ Sabremos que hemos tenido éxito cuando veamos **una reducción de los incidente
 * Creemos que un modelo de monetización mediante suscripción mensual con beneficios como seguro básico, descuentos negociados colectivamente y alertas de seguridad prioritarias es viable y sostenible para este segmento, gracias a la posibilidad de negociar estos beneficios con terceros.
 
 **Business Outcome Assumptions**
-* Creemos que lograremos una reducción medible en los incidentes de seguridad reportados por nuestros usuarios activos frente a su situación previa sin la plataforma.
-* Creemos que lograremos un incremento sostenido en el número de suscripciones mensuales activas mes a mes.
-* Creemos que lograremos reducir el costo de adquisición de usuarios mediante el programa de referidos entre trabajadores nocturnos y sus contactos de confianza.
+* Creemos que lograremos una reducción de al menos 30 % en los incidentes de seguridad reportados por los usuarios activos respecto a su línea base autodeclarada, en un plazo de 8 meses desde el lanzamiento del MVP.
+* Creemos que lograremos al menos 500 suscripciones mensuales activas, en un plazo de 8 meses desde el lanzamiento.
+* Creemos que lograremos que al menos 30 % de los nuevos registros provenga de invitaciones de contactos de confianza y que el costo de adquisición por usuario sea 25 % menor al de canales pagados, durante los 6 meses posteriores al lanzamiento.
+* Creemos que lograremos una retención a 30 días (usuarios con al menos un check-in en el mes 2 sobre usuarios con check-in en el mes 1) de al menos 60 %, durante los 3 meses posteriores al lanzamiento.
+* Creemos que lograremos un promedio de al menos 4 sesiones semanales por usuario activo y 3 búsquedas de servicios por semana, durante los 3 meses posteriores al lanzamiento.
+* Creemos que lograremos que al menos 80 % de los reportes de riesgo sean aprobados por moderación y que 70 % de las zonas de riesgo tengan 2 o más confirmaciones independientes, durante los 3 meses posteriores al lanzamiento.
+* Creemos que lograremos una tasa de renovación de suscripción de al menos 70 % al tercer mes y que al menos 20 % de los nuevos registros llegue por recomendación, durante los 6 meses posteriores al lanzamiento.
+* Creemos que lograremos que al menos 40 % de los trayectos finalizados reciba una calificación de ruta, durante los 3 meses posteriores al lanzamiento.
+* Creemos que lograremos una mediana de 5 minutos o menos entre el vencimiento del margen de tolerancia y la primera acción del contacto de confianza, con no más de 15 % de incidentes cerrados como falso positivo, durante un piloto de 8 semanas.
 
 **User Assumptions**
 1. Nuestros usuarios principales son trabajadores de turno nocturno entre 20 y 45 años, residentes en zonas urbanas de Lima, pertenecientes a los rubros de seguridad, delivery, salud y call centers, etc.
@@ -265,7 +291,9 @@ Sabremos que hemos tenido éxito cuando veamos **una reducción de los incidente
 2. Los trabajadores nocturnos desean encontrar rápidamente servicios abiertos y confiables durante la noche, y obtienen ahorro de tiempo y menor exposición a situaciones de riesgo.
 3. Los trabajadores nocturnos desean sentirse parte de una comunidad que comprenda su realidad laboral, y obtienen acceso a información relevante y beneficios negociados colectivamente.
 4. Los contactos de confianza desean tener certeza y tranquilidad sobre la seguridad de su familiar o pareja durante su trayecto nocturno, y obtienen visibilidad del estado del check-in y de la llegada segura, sin necesidad de estar llamando o preguntando constantemente.
-5. Los trabajadores nocturnos desean saber qué tan segura es una ruta específica antes de tomarla, y obtienen esa información gracias a las calificaciones y reportes dejados por otros usuarios que la transitaron recientemente.
+5. Los trabajadores nocturnos desean saber qué tan segura es una ruta específica antes de tomarla, y obtienen información sobre la seguridad de la ruta gracias a las calificaciones y reportes dejados por otros usuarios que la transitaron recientemente.
+6. Los trabajadores nocturnos desean comprender cómo su horario afecta su descanso, y obtienen visibilidad de sus patrones de sueño y alertas ante descanso insuficiente.
+7. Los contactos de confianza desean enterarse a tiempo cuando el trayecto de su familiar o pareja presenta una situación anómala, y obtienen una alerta temprana y verificada sobre un posible incidente en el trayecto.
 
 **Feature Assumptions**
 
@@ -282,78 +310,78 @@ Sabremos que hemos tenido éxito cuando veamos **una reducción de los incidente
 
 **Hipótesis 1**
 
-Creemos que lograremos **un aumento en la retención mensual de usuarios activos**
-Si **los trabajadores de turno nocturno en Lima**
-Obtienen **mayor tranquilidad y acompañamiento durante sus trayectos**
-Con **la función de check-in de trayecto seguro y alertas automáticas a contactos de confianza**.
+Creemos que lograremos **una retención a 30 días (usuarios con al menos un check-in en el mes 2 sobre usuarios con check-in en el mes 1) de al menos 60 %, durante los 3 meses posteriores al lanzamiento**  
+Si **los trabajadores de turno nocturno en Lima**  
+Alcanzan **tranquilidad al saber que un contacto de confianza será notificado automáticamente ante cualquier eventualidad**  
+Con **la función de check-in de trayecto seguro con alertas automáticas a contactos de confianza**.
 
 ---
 
 **Hipótesis 2**
 
-Creemos que lograremos **un aumento en la frecuencia diaria de uso de la aplicación**
-Si **los trabajadores de turno nocturno**
-Obtienen **acceso rápido y confiable a servicios abiertos cerca de su ubicación**
+Creemos que lograremos **un promedio de al menos 4 sesiones semanales por usuario activo y 3 búsquedas de servicios por semana, durante los 3 meses posteriores al lanzamiento**  
+Si **los trabajadores de turno nocturno**  
+Alcanzan **ahorro de tiempo y menor exposición a situaciones de riesgo**  
 Con **el mapa comunitario de servicios activos durante la noche**.
 
 ---
 
 **Hipótesis 3**
 
-Creemos que lograremos **una mejora en la calidad y confiabilidad de la información de seguridad de la plataforma**
-Si **los trabajadores de turno nocturno**
-Obtienen **visibilidad de las zonas de riesgo identificadas por otros usuarios**
+Creemos que lograremos **que al menos 80 % de los reportes de riesgo sean aprobados por moderación y que 70 % de las zonas de riesgo tengan 2 o más confirmaciones independientes, durante los 3 meses posteriores al lanzamiento**  
+Si **los trabajadores de turno nocturno**  
+Alcanzan **información sobre la seguridad de la ruta gracias a las calificaciones y reportes dejados por otros usuarios que la transitaron recientemente**  
 Con **el sistema de reporte comunitario de incidentes**.
 
 ---
 
 **Hipótesis 4**
 
-Creemos que lograremos **un mayor compromiso (engagement) de los usuarios con la plataforma a largo plazo**
-Si **los trabajadores de turno nocturno**
-Obtienen **visibilidad de sus patrones de descanso y alertas sobre descanso insuficiente**
+Creemos que lograremos **una retención a 30 días (usuarios con al menos un check-in en el mes 2 sobre usuarios con check-in en el mes 1) de al menos 60 %, durante los 3 meses posteriores al lanzamiento**  
+Si **los trabajadores de turno nocturno**  
+Alcanzan **visibilidad de sus patrones de sueño y alertas ante descanso insuficiente**  
 Con **la bitácora de descanso y salud del sueño**.
 
 ---
 
 **Hipótesis 5**
 
-Creemos que lograremos **una mayor retención de suscriptores y crecimiento orgánico por recomendación (boca a boca)**
-Si **los trabajadores de turno nocturno**
-Obtienen **un sentido de pertenencia y acceso a beneficios negociados colectivamente (descuentos, seguro básico)**
+Creemos que lograremos **una tasa de renovación de suscripción de al menos 70 % al tercer mes y que al menos 20 % de los nuevos registros llegue por recomendación, durante los 6 meses posteriores al lanzamiento**  
+Si **los trabajadores de turno nocturno**  
+Alcanzan **acceso a información relevante y beneficios negociados colectivamente**  
 Con **la comunidad y sus beneficios colectivos negociados a través de la suscripción mensual**.
 
 ---
 
 **Hipótesis 6**
 
-Creemos que lograremos **un aumento en el volumen y la calidad de la información de seguridad comunitaria disponible en la plataforma**
-Si **los trabajadores de turno nocturno**
-Obtienen **la posibilidad de calificar su trayecto y reportar puntos de riesgo específicos al finalizar cada viaje**
+Creemos que lograremos **que al menos 40 % de los trayectos finalizados reciba una calificación de ruta, durante los 3 meses posteriores al lanzamiento**  
+Si **los trabajadores de turno nocturno**  
+Alcanzan **información sobre la seguridad de la ruta gracias a las calificaciones y reportes dejados por otros usuarios que la transitaron recientemente**  
 Con **el sistema de calificación y reporte de rutas**.
 
 ---
 
 **Hipótesis 7**
 
-Creemos que lograremos **una reducción en el tiempo de reacción ante una situación de riesgo real durante un trayecto**
-Si **los contactos de confianza y la comunidad de usuarios**
-Obtienen **una alerta temprana y verificada sobre un posible incidente en una ruta específica**
-Con **la función de marcado automático de "posible incidente" activada cuando la llegada no es confirmada**.
+Creemos que lograremos **una mediana de 5 minutos o menos entre el vencimiento del margen de tolerancia y la primera acción del contacto de confianza, con no más de 15 % de incidentes cerrados como falso positivo, durante un piloto de 8 semanas**  
+Si **los contactos de confianza**  
+Alcanzan **una alerta temprana y verificada sobre un posible incidente en el trayecto**  
+Con **la función de marcado automático de "posible incidente" cuando la llegada no es confirmada**.
 
 ---
 
 **Hipótesis 8**
 
-Creemos que lograremos **un mayor crecimiento orgánico por recomendación (boca a boca) y una reducción del costo de adquisición de usuarios**
-Si **los contactos de confianza (familiares y parejas) de los trabajadores de turno nocturno**
-Obtienen **visibilidad en tiempo real y tranquilidad respecto al estado del trayecto de su ser querido**
-Con **una vista de acompañamiento dedicada para contactos de confianza**.
+Creemos que lograremos **que al menos 30 % de los nuevos registros provenga de invitaciones de contactos de confianza y que el costo de adquisición por usuario sea 25 % menor al de canales pagados, durante los 6 meses posteriores al lanzamiento**  
+Si **los contactos de confianza (familiares y parejas de los trabajadores de turno nocturno)**  
+Alcanzan **visibilidad del estado del check-in y de la llegada segura, sin necesidad de estar llamando o preguntando constantemente**  
+Con **un panel de seguimiento dedicado para contactos de confianza**.
 
 #### 1.2.2.4. Lean UX Canvas. 
 Figura 1
 <br>
-Lean UX Canvas — SkyCrop
+Lean UX Canvas — Noxway
 <br>
 ![Lean UX Canvas](resources/imgs/Lean_UX_Canvas.png)
 
@@ -430,7 +458,7 @@ Safetipin es una aplicación originada en India que genera "puntajes de segurida
   <tr>
     <td rowspan="2">Perfil</td>
     <td>Overview</td>
-    <td> (producto) es una plataforma integral de seguridad, información y comunidad diseñada específicamente para trabajadores de turno nocturno y sus contactos de confianza, que combina check-in de trayecto seguro, calificación y reporte comunitario de rutas, mapa de servicios activos de noche y una comunidad con beneficios colectivos. </td>
+    <td> Noxway es una plataforma integral de seguridad, información y comunidad diseñada específicamente para trabajadores de turno nocturno y sus contactos de confianza, que combina check-in de trayecto seguro, calificación y reporte comunitario de rutas, mapa de servicios activos de noche y una comunidad con beneficios colectivos. </td>
     <td> bSafe es una app de seguridad personal que previene y documenta situaciones de riesgo mediante alarma SOS, grabación automática y una red de contactos "Guardians" que monitorean al usuario en tiempo real. </td>
     <td> Noonlight es una plataforma de seguridad conectada que permite pedir ayuda de forma silenciosa, enviando la ubicación exacta del usuario a despachadores profesionales que pueden movilizar servicios de emergencia. </td>
     <td> Safetipin es una app que genera puntajes de seguridad de calles y rutas a partir de auditorías y calificaciones de la comunidad, recomendando la ruta más segura y permitiendo compartir ubicación con contactos de confianza. </td>
@@ -511,134 +539,94 @@ Safetipin es una aplicación originada en India que genera "puntajes de segurida
 </table>
 
 ### 2.1.2. Estrategias y tácticas frente a competidores.
-A partir del análisis competitivo, se han identificado las siguientes estrategias y tácticas para diferenciar a **(producto)** frente a los actores del mercado de seguridad personal y trayectos:
+A partir del análisis competitivo, se han identificado las siguientes estrategias y tácticas para diferenciar a **Noxway** frente a los actores del mercado de seguridad personal y trayectos:
 
 1. **Estrategias de Diferenciación:**
 
-**Especialización en el trabajo nocturno:** A diferencia de bSafe, Noonlight y Safetipin, que ofrecen seguridad personal o auditoría urbana de forma genérica, **(producto)** se enfoca exclusivamente en la realidad de quienes trabajan de noche, combinando check-in de trayecto seguro, calificación de rutas, información comunitaria del entorno y bitácora de descanso, algo que ningún competidor ofrece de forma integrada.
+**Especialización en el trabajo nocturno:** A diferencia de bSafe, Noonlight y Safetipin, que ofrecen seguridad personal o auditoría urbana de forma genérica, **Noxway** se enfoca exclusivamente en la realidad de quienes trabajan de noche, combinando check-in de trayecto seguro, calificación de rutas, información comunitaria del entorno y bitácora de descanso, algo que ningún competidor ofrece de forma integrada.
 
-**Calificación de rutas orientada a la acción, no solo al dato:** A diferencia de Safetipin, cuyo enfoque principal es generar datos para gobiernos y planificadores urbanos, **(producto)** utiliza la calificación de rutas directamente para beneficio inmediato del propio usuario (elegir una ruta más segura, recibir alertas de zonas de riesgo cerca de su ubicación en tiempo real).
+**Calificación de rutas orientada a la acción, no solo al dato:** A diferencia de Safetipin, cuyo enfoque principal es generar datos para gobiernos y planificadores urbanos, **Noxway** utiliza la calificación de rutas directamente para beneficio inmediato del propio usuario (elegir una ruta más segura, recibir alertas de zonas de riesgo cerca de su ubicación en tiempo real).
 
-**Vínculo emocional con contactos de confianza:** A diferencia de bSafe y Noonlight, donde el contacto de confianza solo recibe una alerta puntual ante una emergencia, **(producto)** ofrece un panel de seguimiento continuo pensado para la tranquilidad de familiares y parejas durante todo el trayecto, no solo en el peor escenario.
+**Vínculo emocional con contactos de confianza:** A diferencia de bSafe y Noonlight, donde el contacto de confianza solo recibe una alerta puntual ante una emergencia, **Noxway** ofrece un panel de seguimiento continuo pensado para la tranquilidad de familiares y parejas durante todo el trayecto, no solo en el peor escenario.
 
 2. **Tácticas de Marketing:**
 
 **Marketing de nicho y comunidades existentes:** Se realizarán campañas dirigidas específicamente a comunidades y grupos de trabajadores nocturnos en redes sociales, diferenciándonos del marketing masivo y genérico de bSafe y Noonlight.
 
-**Programa de referidos entre trabajador y contacto de confianza:** A diferencia de los competidores, que no explotan este vínculo, **(producto)** incentivará que cada trabajador invite a sus contactos de confianza a la plataforma, generando crecimiento orgánico natural.
+**Programa de referidos entre trabajador y contacto de confianza:** A diferencia de los competidores, que no explotan este vínculo, **Noxway** incentivará que cada trabajador invite a sus contactos de confianza a la plataforma, generando crecimiento orgánico natural.
 
 3. **Estrategias de Precios:**
 
-**Suscripción con beneficios tangibles desde el inicio:** A diferencia del modelo freemium muy limitado de bSafe y Noonlight, y del modelo sin monetización directa al usuario de Safetipin, **(producto)** ofrecerá una suscripción mensual accesible que desde el primer mes incluye beneficios concretos (seguro básico, descuentos, alertas prioritarias), reforzando la percepción de valor frente al costo.
+**Suscripción con beneficios tangibles desde el inicio:** A diferencia del modelo freemium muy limitado de bSafe y Noonlight, y del modelo sin monetización directa al usuario de Safetipin, **Noxway** ofrecerá una suscripción mensual accesible que desde el primer mes incluye beneficios concretos (seguro básico, descuentos, alertas prioritarias), reforzando la percepción de valor frente al costo.
 
 4. **Expansión y Adaptabilidad:**
 
-**Enfoque regional inicial y expansión nacional:** **(producto)** comenzará en Lima, adaptándose a las necesidades específicas del contexto urbano peruano, antes de expandirse a otros departamentos del pais, a diferencia de competidores como Noonlight y Safetipin, que operan con un enfoque global desde su origen.
+**Enfoque regional inicial y expansión nacional:** **Noxway** comenzará en Lima, adaptándose a las necesidades específicas del contexto urbano peruano, antes de expandirse a otros departamentos del pais, a diferencia de competidores como Noonlight y Safetipin, que operan con un enfoque global desde su origen.
 
 **Ecosistema local de servicios nocturnos:** Se buscarán alianzas con negocios y proveedores locales (farmacias, restaurantes, grifos) que deseen aparecer destacados en el mapa comunitario de servicios nocturnos, generando un ecosistema local que ningún competidor internacional replica.
 
-## 2.2. Entrevistas. 
+### 2.2.2. Registro de entrevistas
 
-### 2.2.1. Diseño de entrevistas. 
-En esta sección, se han planteado diversas preguntas dirigidas a nuestros segmentos objetivos con el objetivo de obtener información relevante, como opiniones o descripciones. Estos datos serán fundamentales para el desarrollo de nuestra solución.
-
-### Segmento Objetivo 1: Trabajadores de turno nocturno
-
-1. ¿Cuál es su nombre, edad, género, distrito de residencia y estado civil?
-2. ¿A qué se dedica actualmente, en qué rubro (seguridad, delivery, salud, call center, limpieza, etc.) y hace cuánto tiempo trabaja en turno nocturno?
-3. ¿Cómo describiría su personalidad, y qué tan cómodo(a) se siente usando aplicaciones o herramientas tecnológicas nuevas?
-4. ¿Qué dispositivo utiliza con más frecuencia y a través de qué canales digitales suele comunicarse o informarse (WhatsApp, redes sociales, apps, etc.)?
-5. ¿Cuál es su principal objetivo relacionado con su trabajo nocturno, y cuál es su mayor frustración o preocupación al respecto?
-6. Cuénteme cómo es un día típico de su turno nocturno, desde que sale de casa hasta que regresa, incluyendo cómo es su trayecto de ida y vuelta.
-7. ¿Alguna vez se ha sentido inseguro(a) o ha vivido una situación de riesgo durante su trayecto nocturno? ¿Puede describirla?
-8. ¿Actualmente utiliza alguna herramienta o método para sentirse más seguro(a) en sus trayectos (llamar a alguien, compartir ubicación, etc.)?
-9. ¿Qué tan valioso le resultaría contar con una aplicación que avise automáticamente a un contacto de confianza si usted no llega a su destino, y que además le permita calificar o reportar qué tan segura sintió una ruta?
-10. ¿Le interesaría formar parte de una comunidad de trabajadores de su mismo rubro para compartir información o beneficios, y estaría dispuesto(a) a pagar una suscripción mensual por ello?
-11. ¿Qué características considera indispensables para usar una aplicación de este tipo, y qué situaciones lo llevarían a dejar de usarla?
-
-### Segmento Objetivo 2: Contactos de confianza de trabajadores de turno nocturno
-
-1. ¿Cuál es su nombre, edad, género, distrito de residencia y estado civil?
-2. ¿A qué se dedica, y tiene algún familiar, pareja o amigo cercano que trabaje en turno nocturno? ¿Qué relación tiene con esa persona y hace cuánto tiempo trabaja de noche?
-3. ¿Cómo describiría su personalidad? ¿Se considera una persona más bien tranquila o más bien ansiosa frente a este tipo de situaciones?
-4. ¿Qué aplicaciones usa con más frecuencia en su día a día, y qué tan cómodo(a) se siente aprendiendo a usar una app nueva?
-5. Describa cómo es para usted una noche o madrugada típica mientras esa persona está trabajando: ¿qué hace, en qué piensa, revisa el celular con frecuencia?
-6. ¿Qué es lo que más le preocupa cuando piensa en la seguridad de esa persona durante su turno o trayecto nocturno?
-7. ¿Ha vivido algún momento de angustia real pensando que algo le pudo haber pasado a esa persona? Cuénteme qué ocurrió y cómo lo resolvió.
-8. Actualmente, ¿cómo se entera usted de que esa persona llegó bien a su destino? ¿Espera una llamada, un mensaje, o simplemente asume que todo está bien si no recibe noticias?
-9. Si esa persona no le avisara dentro del tiempo que usted espera, ¿qué haría? ¿Cuánto tiempo suele esperar antes de preocuparse o intentar contactarla?
-10. ¿Qué opina de que una aplicación pueda avisarle automáticamente si esa persona no confirma su llegada, sin que usted tenga que estar pendiente o llamando?
-11. ¿Le generaría alguna duda o incomodidad que la ubicación de esa persona se comparta con usted a través de una app? ¿Por qué?
-12. ¿Qué la haría confiar en una herramienta así, y qué la haría dejar de usarla o desconfiar de ella?
-
-### 2.2.2. Registro de entrevistas. 
 *Registro de entrevistas — Segmento 1*
 
 **Entrevista 1**
 
-| Campo | Detalle                                                                                                                                                                                                                                                                                                                      |
-| :--- |:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Nombre** | Drago Duarte                                                                                                                                                                                                                                                                                                                 |
-| **Edad** | 24 años                                                                                                                                                                                                                                                                                                                      |
-| **Distrito** | Chorrillos                                                                                                                                                                                                                                                                                                                   |
-| **Duración** | 6:02 min                                                                                                                                                                                                                                                                                                                     |
-| **Enlace** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423775_upc_edu_pe/IQDux7_TpQIoTKigcJ3OziyvAXGE5JXh1KMyGmiDjG4cnek?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=au78gP |
+| Campo        | Detalle                                                                                                                                                                                                                                                                                                                |
+| :----------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Nombre**   | Drago Duarte                                                                                                                                                                                                                                                                                                           |
+| **Edad**     | 24 años                                                                                                                                                                                                                                                                                                                |
+| **Distrito** | Chorrillos                                                                                                                                                                                                                                                                                                             |
+| **Duración** | 4:31 min                                                                                                                                                                                                                                                                                                               |
+| **Timing**   | Inicia 0:00 - Termina 4:31                                                                                                                                                                                                                                                                                           |
+| **Enlace**   | [Ver entrevista](https://onedrive.live.com/photos?photosData=%2Fshare%2F59720A664BBCD4C3%21sb06a811007d645cda1d31517e8b2a7fa%3Fithint%3Dvideo%26e%3DwwHFBM%26migratedtospo%3Dtrue&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3YvYy81OTcyMGE2NjRiYmNkNGMzL0lRQVFnV3F3MWdmTlJhSFRGUmZvc3FmNkFSMnFYV3VFTFVQMkQxU0JxUHpJQmNrP2U9d3dIRkJN) |
 
 <div align="center">
 <img src="resources/imgs/chapter_ii/entrevista1_segmento1.png" alt="Entrevista 1 - Segmento 1" width="600">
 </div>
 
-**Resumen**: En esta entrevista, Drago Duarte, un joven de 24 años que trabaja como cajero y vendedor en un Tambo en Chorrillos, comparte su experiencia en el turno de madrugada (9:00 p.m. a 5:00 a.m.). Destaca que su mayor temor es el trayecto de regreso a casa, donde camina por calles desoladas y suele quedarse dormido en el bus, temiendo que le arranchen el celular. Relata un momento de angustia cuando fue seguido por una mototaxi sin luces y tuvo que refugiarse en un grifo. Actualmente, depende de WhatsApp para avisar a su madre y compartir su ubicación, pero se preocupa por quedarse sin datos o batería. Drago valida fuertemente la propuesta de una aplicación que notifique automáticamente a sus contactos y muestre zonas de riesgo en el mapa. Asimismo, afirma que pagaría una suscripción mensual si esta le brinda beneficios tangibles, como un seguro contra robos o descuentos. Sin embargo, recalca que desinstalaría la aplicación si esta consume demasiada batería, presenta errores técnicos o envía falsas alarmas que asusten a su familia.
+**Resumen:** Drago Duarte trabaja en el turno de madrugada en una tienda Tambo de Chorrillos. Su mayor preocupación es regresar a casa por calles desoladas y quedarse dormido en el transporte público. Actualmente, utiliza WhatsApp para avisar a su madre y compartir su ubicación. Considera útil una aplicación que envíe alertas automáticas y muestre zonas peligrosas, siempre que no consuma demasiada batería ni genere falsas alarmas. Estaría dispuesto a pagar si ofrece beneficios concretos, como seguros contra robos o descuentos.
 
 ---
+
 **Entrevista 2**
-| Campo | Detalle                                                                                                                                                                                                                                                                                                                      |
-| :--- |:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Nombre** | Marco Antonio Quispe |
-| **Edad** | 30 años                                                                                                                                                                                                                                                                                                                      |
-| **Distrito** | San Martín de Porres   |
-| **Duración** | 7:16 min     |
-| **Estado civil** | Soltero   |
-| **Ocupación** | Agente de seguridad en almacén logístico (Callao) - Turno nocturno (4 años de experiencia). |
-| **Enlace** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202421823_upc_edu_pe/IQBt_DltFWNKTqbjRVt3MTrsAV1-egdQTWMKSC1w_pa1fGg?e=6o9jIc |
+
+| Campo            | Detalle                                                                                                                                                                                                                                                                                                                |
+| :--------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Nombre**       | Marco Antonio Quispe                                                                                                                                                                                                                                                                                                   |
+| **Edad**         | 30 años                                                                                                                                                                                                                                                                                                                |
+| **Distrito**     | San Martín de Porres                                                                                                                                                                                                                                                                                                   |
+| **Duración**     | 5:34 min                                                                                                                                                                                                                                                                                                               |
+| **Timing**       | Inicia 4:32 - Termina 10:06                                                                                                                                                                                                                                                                                           |
+| **Estado civil** | Soltero                                                                                                                                                                                                                                                                                                                |
+| **Ocupación**    | Agente de seguridad en almacén logístico (Callao), turno nocturno                                                                                                                                                                                                                                                      |
+| **Enlace**       | [Ver entrevista](https://onedrive.live.com/photos?photosData=%2Fshare%2F59720A664BBCD4C3%21sb06a811007d645cda1d31517e8b2a7fa%3Fithint%3Dvideo%26e%3DwwHFBM%26migratedtospo%3Dtrue&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3YvYy81OTcyMGE2NjRiYmNkNGMzL0lRQVFnV3F3MWdmTlJhSFRGUmZvc3FmNkFSMnFYV3VFTFVQMkQxU0JxUHpJQmNrP2U9d3dIRkJN) |
 
 <div align="center">
 <img src="resources/imgs/chapter_ii/entrevista2segmento1.png" alt="Entrevista 2 - Segmento 1" width="600">
 </div>
 
-**Resumen**: Marco Antonio es un hombre de 30 años, soltero, que reside en San Martín de Porres. Trabaja desde hace 4 años como agente de seguridad en el turno nocturno de un almacén logístico en el Callao. Su rutina implica desplazamientos largos y desgastantes, cruzando la Panamericana Norte de 5:30 p.m. a 7:00 p.m., y retornando a las 6:00 a.m. Su principal motivación es mantener su empleo para aportar económicamente a su hogar, pero su mayor vulnerabilidad y frustración radican en el trayecto de regreso, cuando el agotamiento extremo y el frío se combinan con la desolación y el peligro de las calles a primeras horas de la mañana. 
-
-El trayecto de salida representa una fricción crítica y un riesgo latente comprobado, habiendo sido ya víctima de robo en el transporte público por quedarse dormido debido al cansancio. Para mitigar esta inseguridad, actualmente tiene un protocolo analógico/digital básico: envía mensajes por WhatsApp a su hermano al subir y bajar del bus. Evita compartir su ubicación en tiempo real porque su dispositivo suele terminar el turno con batería crítica (alrededor del 15%), y prioriza mantener el celular encendido antes que activar el GPS continuo. 
-
-De personalidad tranquila pero siempre alerta y pragmática, Marco es un usuario tecnológico funcional y estrictamente "Mobile-First" que utiliza un smartphone Android. Sus canales digitales principales son WhatsApp, que usa tanto para reportes laborales como familiares, y plataformas de consumo rápido como Facebook y TikTok para entretenerse en "tiempos muertos". No busca sofisticación tecnológica; adopta herramientas nuevas solo si son sumamente fáciles de entender y van directo al grano. 
-
-Respecto a la adopción de una nueva plataforma de seguridad, valora altamente la automatización de alertas a contactos de confianza, pero rechaza funcionalidades que exijan esfuerzo adicional, como sacar el móvil en la calle para "calificar rutas" debido a la fatiga y el riesgo de robo. Es financieramente conservador y descarta pagar una suscripción mensual por simple acceso a una comunidad o mapas; solo invertiría si hay un retorno económico directo (descuentos o micro-seguros). Sus factores absolutos de abandono (churn) son dos: que la aplicación drene la poca batería que le queda al salir del trabajo, o que el sistema presente fallas y envíe falsas alarmas que generen pánico innecesario a su familia.
-
+**Resumen:** Marco Antonio trabaja como agente de seguridad en un almacén logístico del Callao durante el turno nocturno. Su principal preocupación es el regreso a casa, debido al cansancio y la inseguridad en el transporte público. Se comunica con su hermano por WhatsApp, pero evita compartir su ubicación continuamente porque necesita conservar la batería. Valora las alertas automáticas y una aplicación fácil de utilizar. No pagaría por una suscripción básica, salvo que incluya beneficios económicos, y dejaría de utilizarla si consume mucha batería o genera falsas alarmas.
 
 ---
+
 **Entrevista 3**
-| Campo | Detalle                                                                                                                                                                                                                                                                                                                      |
-| :--- |:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Nombre** | Luis Mendoza Miranda|
-| **Edad** | 32 años                                                                                                                                                                                                                                                                                                                      |
-| **Distrito** | San Martín de Porres   |
-| **Duración** | 5:36     |
-| **Estado civil** | Soltero   |
-| **Ocupación** | agente de seguridad privada |
-| **Enlace** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202421065_upc_edu_pe/IQAoJA0AjDdKS7A-8S3BD1zeAQ49mq6jaTduIZbRZUYsQSM?e=9jxrdJ |
+
+| Campo            | Detalle                                                                                                                                                                                                                                                                                                                |
+| :--------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Nombre**       | Luis Mendoza Miranda                                                                                                                                                                                                                                                                                                   |
+| **Edad**         | 32 años                                                                                                                                                                                                                                                                                                                |
+| **Distrito**     | San Martín de Porres                                                                                                                                                                                                                                                                                                   |
+| **Duración**     | 4:20 min                                                                                                                                                                                                                                                                                                               |
+| **Timing**       | Inicia 10:07 - Termina 14:27                                                                                                                                                                                                                                                                                          |
+| **Estado civil** | Soltero                                                                                                                                                                                                                                                                                                                |
+| **Ocupación**    | Agente de seguridad privada                                                                                                                                                                                                                                                                                            |
+| **Enlace**       | [Ver entrevista](https://onedrive.live.com/photos?photosData=%2Fshare%2F59720A664BBCD4C3%21sb06a811007d645cda1d31517e8b2a7fa%3Fithint%3Dvideo%26e%3DwwHFBM%26migratedtospo%3Dtrue&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3YvYy81OTcyMGE2NjRiYmNkNGMzL0lRQVFnV3F3MWdmTlJhSFRGUmZvc3FmNkFSMnFYV3VFTFVQMkQxU0JxUHpJQmNrP2U9d3dIRkJN) |
 
 <div align="center">
 <img src="resources/imgs/chapter_ii/entrevista3_segmento1.png" alt="Entrevista 3 - Segmento 1" width="600">
 </div>
 
-**Resumen**: Luis Mendoza Miranda es un hombre soltero de 32 años ,  que reside en el distrito de San Martín de Porres. Trabaja desde hace 2 años y medio como agente de seguridad privada en el turno nocturno de un centro corporativo en San Isidro. Su jornada implica traslados largos y pesados en transporte público, saliendo a las 5:20 p.m. para iniciar a las 7:00 p.m. y retornando a las 7:00 a.m. Su principal motivación es la estabilidad económica de su hogar, aprovechando el ingreso adicional del bono nocturno, pero su mayor preocupación es la inseguridad latente durante los traslados y el agotamiento físico crónico provocado por el cambio de ciclo de sueño.
-
-El trayecto de retorno y la espera en paraderos representan una fricción crítica y un riesgo comprobado, habiendo vivido un intento de asalto por parte de delincuentes en moto mientras esperaba transporte de madrugada. Para mitigar esta vulnerabilidad, mantiene un protocolo de prevención activo: comparte su ubicación en tiempo real por WhatsApp con su pareja al finalizar su guardia y guarda el celular en un bolsillo interno con cierre mientras viaja en el transporte público.
-
-De personalidad reservada, observadora y práctica, Luis es un usuario tecnológico funcional que utiliza un smartphone Android de gama media. Sus canales digitales principales son WhatsApp, herramienta clave para la coordinación laboral y la comunicación familiar, y redes como Facebook, TikTok y grupos vecinales para mantenerse informado sobre alertas locales. Tiene una adopción tecnológica pragmática: maneja sin problemas herramientas de uso diario, pero descarta interfaces engorrosas o aplicaciones que requieran pasos innecesarios.
-
-Respecto a una nueva solución tecnológica de seguridad, considera sumamente valiosa la automatización de avisos a contactos de confianza ante eventualidades o falta de batería, así como el reporte de rutas para prevenir paraderos peligrosos. Muestra un claro interés por integrarse a una comunidad laboral para intercambiar alertas, aunque descarta por completo pagar una suscripción mensual debido a que prioriza los gastos básicos familiares, aceptando el servicio únicamente bajo un modelo gratuito. Sus factores determinantes de abandono (churn) son el consumo excesivo de batería o datos móviles durante el turno nocturno, y los errores de sistema que detonen falsas alarmas y generen angustia innecesaria en su familia. 
-
+**Resumen:** Luis trabaja como agente de seguridad privada en el turno nocturno y realiza largos desplazamientos entre San Martín de Porres y San Isidro. Su principal preocupación es la inseguridad durante los trayectos y la espera en los paraderos. Comparte su ubicación por WhatsApp con su pareja y considera valiosas las alertas automáticas y los reportes de zonas peligrosas. También le interesa una comunidad para compartir alertas, pero solo utilizaría la aplicación si es gratuita, sencilla y no consume demasiada batería o datos.
 
 ---
 
@@ -646,90 +634,60 @@ Respecto a una nueva solución tecnológica de seguridad, considera sumamente va
 
 **Entrevista 1**
 
-| Campo | Detalle                |
-| :--- |:-----------------------|
-| **Nombre** | Juan Gutierrez         |
-| **Edad** | 24 años                |
-| **Distrito** | San Juan de Miraflores |
-| **Duración** | 5:57 min               |
-| **Enlace** |https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423775_upc_edu_pe/IQBBwCDLDYdtSJDvTpf3VT-EAY3r4Ss02w-EYfW38XfSQ2E?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=hDDVYf |
+| Campo        | Detalle                                                                                                                                                                                                                                                                                                                |
+| :----------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Nombre**   | Juan Gutiérrez                                                                                                                                                                                                                                                                                                         |
+| **Edad**     | 24 años                                                                                                                                                                                                                                                                                                                |
+| **Distrito** | San Juan de Miraflores                                                                                                                                                                                                                                                                                                 |
+| **Duración** | 4:25 min                                                                                                                                                                                                                                                                                                               |
+| **Timing**   |Inicia 23:42 - Termina 28:07                                                                                                                                                                                                                                                                                        |
+| **Enlace**   | [Ver entrevista](https://onedrive.live.com/photos?photosData=%2Fshare%2F59720A664BBCD4C3%21sb06a811007d645cda1d31517e8b2a7fa%3Fithint%3Dvideo%26e%3DwwHFBM%26migratedtospo%3Dtrue&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3YvYy81OTcyMGE2NjRiYmNkNGMzL0lRQVFnV3F3MWdmTlJhSFRGUmZvc3FmNkFSMnFYV3VFTFVQMkQxU0JxUHpJQmNrP2U9d3dIRkJN) |
 
 <div align="center">
 <img src="resources/imgs/chapter_ii/entrevista1_segmento2.png" alt="Entrevista 1 - Segmento 2" width="600">
 </div>
 
-**Resumen**: En esta entrevista, Juan Gutiérrez, un estudiante universitario de 24 años, comparte su experiencia como contacto de confianza de su hermano menor, quien trabaja de madrugada en un Oxxo. Destaca que su mayor preocupación es el trayecto desolado que su hermano debe recorrer desde el trabajo hasta el paradero del bus a las 5:00 a.m. También menciona que actualmente dependen de mensajes de WhatsApp para confirmar que su hermano ha subido al transporte y ha llegado a casa, relatando un episodio de mucha angustia que vivió cuando el celular de su hermano se apagó en el trayecto. Explica que compartir la ubicación no genera ninguna incomodidad entre ellos, ya que la prioridad absoluta es la protección familiar. Finalmente, describe que confiaría en una aplicación de monitoreo pasivo si las notificaciones son precisas y llegan a tiempo, pero la descartaría inmediatamente si presenta errores técnicos, consume rápidamente la batería del celular o si lanza falsas alarmas de pánico que lo asusten de la nada.
+**Resumen:** Juan Gutiérrez es un estudiante universitario que cumple el papel de contacto de confianza de su hermano menor, quien trabaja de madrugada. Su principal preocupación es que su hermano llegue sano y salvo a casa. Actualmente, se comunican por WhatsApp para confirmar sus desplazamientos y ha experimentado angustia cuando el celular de su hermano se quedó sin batería. Considera útil una aplicación que envíe notificaciones automáticas y precisas, siempre que proteja la batería y evite falsas alarmas.
 
 ---
+
 **Entrevista 2**
 
-| Campo | Detalle                |
-| :--- |:-----------------------|
-| **Nombre** | Roberto Carlos Fernández  |
-| **Edad** | 42 años                |
-| **Estado civil** | Casado                |
-| **Ocupación** | Freelance             |
-| **Distrito** | San Juan de Lurigancho |
-| **Duración** | 6:46 min               |
-| **Enlace** |https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241i469_upc_edu_pe/IQAz-r_0LzsSQJUPbxKTl7oaAcTpRAyzqHmi6tNBz6vn7d0?e=qeV5bz&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D|
+| Campo            | Detalle                                                                                                                                                                                                                                                                                                                |
+| :--------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Nombre**       | Roberto Carlos Fernández                                                                                                                                                                                                                                                                                               |
+| **Edad**         | 42 años                                                                                                                                                                                                                                                                                                                |
+| **Estado civil** | Casado                                                                                                                                                                                                                                                                                                                 |
+| **Ocupación**    | Freelance                                                                                                                                                                                                                                                                                                              |
+| **Distrito**     | San Juan de Lurigancho                                                                                                                                                                                                                                                                                                 |
+| **Duración**     | 5:19 min                                                                                                                                                                                                                                                                                                               |
+| **Timing**       | Inicia 18:22 - Termina 23:41                                                                                                                                                                                                                                                                                         |
+| **Enlace**       | [Ver entrevista](https://onedrive.live.com/photos?photosData=%2Fshare%2F59720A664BBCD4C3%21sb06a811007d645cda1d31517e8b2a7fa%3Fithint%3Dvideo%26e%3DwwHFBM%26migratedtospo%3Dtrue&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3YvYy81OTcyMGE2NjRiYmNkNGMzL0lRQVFnV3F3MWdmTlJhSFRGUmZvc3FmNkFSMnFYV3VFTFVQMkQxU0JxUHpJQmNrP2U9d3dIRkJN) |
 
 <div align="center">
-<img src="resources/imgs/chapter_ii/entrevistaSegmento2-Roberto.png" alt="Entrevista 1 - Segmento 2" width="600">
+<img src="resources/imgs/chapter_ii/entrevistaSegmento2-Roberto.png" alt="Entrevista 2 - Segmento 2" width="600">
 </div>
 
-**Resumen**: Roberto Carlos Fernández es un trabajador independiente de 42 años, casado y residente en el distrito de San Juan de Lurigancho, Lima. Su esposa se desempeña desde hace cuatro años como técnico de mantenimiento en turnos rotativos y nocturnos, cubriendo usualmente jornadas de diez de la noche a seis de la mañana. Aunque durante el día se considera una persona tranquila, experimenta constantes episodios de ansiedad y preocupación en torno a la seguridad de su cónyuge, atribuyendo su inquietud a la peligrosidad de la zona donde residen y a la desolación de las calles durante las madrugadas. Durante el turno de su esposa, su descanso suele ser intermitente, despertándose en varias oportunidades para escribirle y consultar cómo se encuentra.
-
-El mayor temor del entrevistado se concentra en los trayectos de regreso a casa a tempranas horas de la mañana, debido al riesgo latente de accidentes o actos delictivos en avenidas poco transitadas. Relata como experiencia de angustia crítica un episodio en el que su esposa demoró cerca de dos horas en comunicarse tras finalizar su turno laboral. En una ocasión no se podia contactar con ella tras reiteradas llamadas fallidas, la situación se esclareció al confirmarse que el teléfono de ella se había quedado sin batería hasta que pudo recargarlo mediante una batería externa y se logro comunicar con el. Actualmente, el protocolo de verificación recae en el envío voluntario de mensajes por WhatsApp al momento de abordar el transporte y al llegar a destino, esperando un margen de tolerancia aproximado de 30 minutos antes de escalar a llamadas telefónicas directas o contactar a compañeras de trabajo.
-
-Ante esta constante incertidumbre, Roberto considera fundamental contar con una herramienta tecnológica que emita alertas automáticas únicamente ante retrasos o anomalías en los trayectos, permitiéndole descansar sin revisar el celular compulsivamente. No obstante, condiciona el uso de este sistema a que el rastreo de ubicación opere de forma puntual y transparente durante los traslados hacia o desde el trabajo, resguardando la privacidad de su pareja para evitar conductas invasivas y garantizando la estricta protección de sus datos.
+**Resumen:** Roberto Carlos Fernández es un trabajador independiente que se preocupa por la seguridad de su esposa durante sus turnos nocturnos. La falta de comunicación y un episodio en el que el celular de ella se quedó sin batería le generaron mucha angustia. Actualmente, esperan mensajes por WhatsApp para confirmar la llegada a casa. Considera que una aplicación con alertas automáticas ante retrasos o anomalías le permitiría descansar con mayor tranquilidad. Sin embargo, exige que la ubicación se comparta únicamente durante los trayectos autorizados y que se proteja la privacidad de su esposa.
 
 ---
+
 **Entrevista 3**
 
-
-| Campo | Detalle                |
-| :--- |:-----------------------|
-| **Nombre** | Ronald Ramírez         |
-| **Edad** | 51 años                |
-| **Distrito** | Bellavista, Callao     |
-| **Duración** | 5:00 min               |
-| **Enlace** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218235_upc_edu_pe/IQCHCDbrqzODRKhF84bxBViOAcXq2EV7CrAvOLCkhijcgb8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=cURYcK |
+| Campo        | Detalle                                                                                                                                                                                                                                                                                                                |
+| :----------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Nombre**   | Ronald Ramírez                                                                                                                                                                                                                                                                                                         |
+| **Edad**     | 51 años                                                                                                                                                                                                                                                                                                                |
+| **Distrito** | Bellavista, Callao                                                                                                                                                                                                                                                                                                     |
+| **Duración** | 3:53 min                                                                                                                                                                                                                                                                                                               |
+| **Timing**   |Inicia 14:28 - Termina 18:21                                                                                                                                                                                                                                                                                         |
+| **Enlace**   | [Ver entrevista](https://onedrive.live.com/photos?photosData=%2Fshare%2F59720A664BBCD4C3%21sb06a811007d645cda1d31517e8b2a7fa%3Fithint%3Dvideo%26e%3DwwHFBM%26migratedtospo%3Dtrue&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3YvYy81OTcyMGE2NjRiYmNkNGMzL0lRQVFnV3F3MWdmTlJhSFRGUmZvc3FmNkFSMnFYV3VFTFVQMkQxU0JxUHpJQmNrP2U9d3dIRkJN) |
 
 <div align="center">
-<img src="resources/imgs/chapter_ii/entrevista3_segmento2.png" alt="Entrevista 2 - Segmento 2" width="600">
+<img src="resources/imgs/chapter_ii/entrevista3_segmento2.png" alt="Entrevista 3 - Segmento 2" width="600">
 </div>
 
-**Resumen**: En esta entrevista, Ronald Ramírez, un asistente administrativo de 51 años residente en Bellavista, Callao, comparte su experiencia como contacto de confianza de su esposa, quien labora como enfermera en el turno nocturno. Explica que se considera organizado y previsor, pero siente constante ansiedad por la seguridad de su esposa frente a la delincuencia y posibles accidentes de tránsito durante sus traslados. Menciona que en su rutina nocturna duerme con el celular a volumen alto para estar alerta ante cualquier emergencia y que siempre esperan un mensaje de confirmación al llegar a su destino, relatando un episodio de mucha angustia donde su esposa demoró más de 30 minutos sin responder porque se le había descargado el celular. Destaca que compartir la ubicación entre ambos es un acuerdo normal que no le genera ninguna incomodidad y que una aplicación de notificación automática de llegada le brindaría un gran alivio para conciliar el sueño. Finalmente, afirma que confiaría en una herramienta así si las alertas y la ubicación son precisas, pero la descartaría si genera falsas alarmas constantemente o consume la batería demasiado rápido.
-
----
-
-### 2.2.3. Análisis de entrevistas. 
-
-#### **Análisis del Segmento 1: Trabajadores Nocturnos (Usuarios Principales)**
-
-A partir de las entrevistas realizadas a trabajadores de turno nocturno (cajeros de tiendas de conveniencia y agentes de seguridad), se identifican patrones claros en sus hábitos de traslado, nivel de exposición al riesgo, uso de tecnología y expectativas de seguridad:
-
-* **Entorno laboral y nivel de riesgo:** El 100% de los entrevistados (3 de 3) labora en jornadas de madrugada (entre 5:00 p. m. y 7:00 a. m.) y señala que los trayectos a pie de regreso a casa y la espera en paraderos representan el momento de mayor vulnerabilidad y temor. Asimismo, el 100% (3 de 3) ha sido víctima directa de la delincuencia o ha enfrentado situaciones de riesgo alto en el transporte público o la vía pública (como ser perseguidos por vehículos sospechosos, intentos de asalto en moto o robos al quedarse dormidos por cansancio).
-* **Protocolos actuales de prevención:** El 100% utiliza WhatsApp como herramienta principal para enviar mensajes a sus contactos de confianza al abordar o descender del transporte. Sin embargo, el 100% enfrenta una restricción crítica: la falta de batería (llegando al final del turno con carga crítica de 15% o totalmente descargados) y el temor a quedarse sin datos móviles, lo que limita el uso continuo del GPS en tiempo real.
-* **Perfil tecnológico y usabilidad:** El 100% de los entrevistados es usuario de smartphones Android con un enfoque estrictamente *Mobile-First* y pragmático. Utilizan redes sociales (Facebook, TikTok) e interacción por WhatsApp, pero el 100% rechaza tajantemente aplicaciones con interfaces complejas o que exijan interactuar de forma activa con el teléfono en la calle (como calificar rutas manualmente), ya que el cansancio acumulado y el riesgo de exhibir el celular en la vía pública representan una fricción inaceptable.
-* **Valoración de la propuesta de solución:** El 100% de los entrevistados valida positivamente la automatización de notificaciones a sus contactos de confianza ante eventualidades o falta de confirmación de llegada, así como la visualización de zonas de riesgo o paraderos peligrosos.
-* **Disposición al pago (monetización):** Solo el 33% (1 de 3) estaría dispuesto a pagar una suscripción mensual si esta incluye beneficios tangibles (como seguros contra robos o descuentos), mientras que el 66% (2 de 3) prioriza los gastos básicos del hogar y descarta pagos recurrentes, aceptando el servicio únicamente bajo un modelo gratuito o con retorno económico directo.
-* **Criterios de abandono (*churn*):** El 100% de los entrevistados afirma que desinstalaría la aplicación de manera inmediata si genera un consumo excesivo de batería o datos, si presenta errores técnicos (*bugs*) o si emite falsas alarmas que generen angustia o pánico innecesario en sus familias.
-
----
-
-#### **Análisis del Segmento 2: Contactos de Confianza (Familiares y Parejas)**
-
-A partir de las entrevistas realizadas a los contactos de confianza (familiares directos y cónyuges de trabajadores nocturnos), se identifican patrones comunes sobre el impacto emocional del turno nocturno, los hábitos de verificación y la aceptación de herramientas de monitoreo:
-
-* **Impacto emocional y percepción del riesgo:** El 100% de los entrevistados (2 de 2) experimenta altos niveles de ansiedad, preocupación constante e interrupción de su descanso nocturno debido a la inseguridad ciudadana y al riesgo de accidentes durante los traslados de sus familiares. El 100% identifica los trayectos solitarios desde el centro de trabajo hacia el transporte público a tempranas horas de la mañana como la principal fuente de inquietud.
-* **Gestión de comunicación y verificación:** El 100% depende del envío voluntario de mensajes de WhatsApp por parte del trabajador al iniciar el retorno o llegar a su destino, estableciendo un margen de tolerancia previo de entre 15 y 30 minutos antes de escalar a llamadas insistentes o contactar a terceros. Además, el 100% ha vivido episodios de angustia crítica provocados por la imposibilidad de comunicarse cuando el teléfono del trabajador se apaga por falta de batería durante el trayecto.
-* **Privacidad y consentimiento:** El 100% de los entrevistados indica que compartir la ubicación en tiempo real no genera ninguna incomodidad entre las partes, siempre que se realice bajo un acuerdo mutuo enfocado en la protección familiar y resguardando la privacidad sin caer en conductas invasivas.
-* **Validación de la propuesta tecnológica:** El 100% considera fundamental contar con un sistema de monitoreo pasivo que emita alertas automáticas únicamente ante retrasos desmedidos o anomalías en la ruta, permitiéndoles conciliar el sueño y descansar sin la necesidad de revisar compulsivamente el celular.
-* **Factores de desconfianza y abandono:** El 100% de los entrevistados condiciona la adopción del sistema a la precisión y puntualidad del rastreo. Del mismo modo, el 100% dejaría de utilizar la herramienta si emite falsas alarmas de pánico de manera recurrente, si genera errores de sistema o si agota rápidamente la batería del dispositivo de su familiar.
-
----
-
+**Resumen:** Ronald Ramírez trabaja como asistente administrativo y se preocupa por la seguridad de su esposa, quien labora como enfermera en el turno nocturno. Para mantenerse informado, espera mensajes de confirmación cuando ella llega a su destino y permanece atento al celular durante la noche. Considera que las notificaciones automáticas de llegada le brindarían tranquilidad y le permitirían descansar mejor. Confiaría en una aplicación que ofrezca ubicación y alertas precisas, siempre que evite falsas alarmas y no consuma demasiada batería.
 
 
 ## 2.3. Needfinding. 
@@ -812,7 +770,7 @@ Las historias de usuario para este proyecto se crearon en colaboración con el e
 
 Para mantener la organización, las historias se agruparon en épicas según sus funcionalidades. Los criterios de aceptación de cada historia se definieron utilizando la sintaxis Gherkin, asegurando que el equipo comprendiera el problema desde la perspectiva del usuario final.
 
-### Epics:
+**Epics**:
 A continuación se presentan las Epics identificadas para el proyecto, que agrupan las principales funcionalidades de la plataforma orientada a la seguridad y el bienestar de los trabajadores de turno nocturno y sus contactos de confianza.
 
 | Epic ID | Título | Descripción |
@@ -830,49 +788,55 @@ A continuación se presentan las Epics identificadas para el proyecto, que agrup
 
 ---
 
-### User Stories:
+**User Stories**:
 Requisitos definidos junto con el conjunto de User Stories y Epics para los requisitos identificados. Las User Stories incluyen Acceptance Criteria redactados en tiempo presente, tercera persona, sin hacer referencia a detalles de interfaz de usuario, siguiendo la estructura de Gherkin (Given-When-Then). Se incluyen además User Stories para el sitio web estático (Landing Page), tomando como rol base visitante.
+
+# Historias de Usuario - Noxway
 
 | Epic / Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
 | :--- | :--- | :--- | :--- | :--- |
-| **US-01** | Registro de usuario | Como nuevo usuario, quiero registrarme indicando mi rol (trabajador de turno nocturno o contacto de confianza) para poder acceder a la plataforma y sus funcionalidades. | **Escenario 1: Registro exitoso**<br>Dado que el nuevo usuario ingresa todos los datos requeridos de forma correcta,<br>Cuando envía el formulario de registro,<br>Entonces su cuenta es creada correctamente y se le asigna el rol seleccionado.<br><br>**Escenario 2: Registro con correo ya existente**<br>Dado que el nuevo usuario intenta registrarse con un correo ya registrado en el sistema,<br>Cuando envía el formulario de registro,<br>Entonces el sistema muestra un mensaje indicando que el correo ya existe. | EP-01 |
-| **US-02** | Inicio de sesión | Como usuario registrado, quiero iniciar sesión con mi correo y contraseña para acceder a mi cuenta y a las funcionalidades correspondientes a mi rol. | **Escenario 1: Inicio de sesión exitoso**<br>Dado que el usuario tiene una cuenta activa y credenciales correctas,<br>Cuando inicia sesión,<br>Entonces el sistema le concede acceso a su cuenta según su rol.<br><br>**Escenario 2: Credenciales incorrectas**<br>Dado que el usuario ingresa una contraseña incorrecta,<br>Cuando intenta iniciar sesión,<br>Entonces el sistema deniega el acceso y muestra un mensaje de error. | EP-01 |
-| **US-03** | Recuperación de contraseña | Como usuario, quiero solicitar la recuperación de mi contraseña olvidada para poder restablecer el acceso a mi cuenta. | **Escenario 1: Solicitud de recuperación exitosa**<br>Dado que el usuario registra un correo asociado a una cuenta existente,<br>Cuando solicita la recuperación de contraseña,<br>Entonces el sistema envía un enlace de restablecimiento a dicho correo.<br><br>**Escenario 2: Correo no registrado**<br>Dado que el usuario ingresa un correo que no está registrado en el sistema,<br>Cuando solicita la recuperación de contraseña,<br>Entonces el sistema indica que no existe una cuenta asociada a ese correo. | EP-01 |
-| **US-04** | Edición de perfil | Como usuario, quiero editar mis datos personales y de contacto para mantener mi información actualizada dentro de la plataforma. | **Escenario 1: Edición exitosa de perfil**<br>Dado que el usuario ha iniciado sesión y modifica alguno de sus datos personales,<br>Cuando guarda los cambios,<br>Entonces el sistema actualiza la información del perfil correctamente.<br><br>**Escenario 2: Edición con dato inválido**<br>Dado que el usuario ingresa un dato con un formato inválido en su perfil,<br>Cuando intenta guardar los cambios,<br>Entonces el sistema rechaza la actualización y señala el campo inválido. | EP-01 |
-| **US-05** | Conocer la propuesta de valor | Como visitante del sitio web, quiero conocer la propuesta de valor y las funcionalidades principales de la plataforma en la landing page para decidir si deseo registrarme. | **Escenario 1: Visualización de la propuesta de valor**<br>Dado que el visitante ingresa a la landing page,<br>Cuando la página carga completamente,<br>Entonces se muestran la propuesta de valor, las funcionalidades principales y un llamado a la acción para registrarse.<br><br>**Escenario 2: Acceso desde la landing page al registro**<br>Dado que el visitante se encuentra en la landing page,<br>Cuando selecciona la opción de registro,<br>Entonces el sistema lo redirige al formulario de creación de cuenta. | EP-01 |
-| **US-06** | Invitar contacto de confianza | Como trabajador nocturno, quiero invitar a un contacto de confianza mediante su correo o número de teléfono para que pueda recibir notificaciones sobre mis trayectos. | **Escenario 1: Invitación enviada correctamente**<br>Dado que el trabajador nocturno ingresa un correo o número válido,<br>Cuando envía la invitación,<br>Entonces el sistema notifica al contacto de confianza sobre la invitación recibida.<br><br>**Escenario 2: Invitación a contacto ya vinculado**<br>Dado que el trabajador nocturno intenta invitar a un contacto que ya está vinculado a su cuenta,<br>Cuando envía la invitación,<br>Entonces el sistema indica que el contacto ya se encuentra vinculado. | EP-02 |
-| **US-07** | Aceptar o rechazar invitación | Como contacto de confianza, quiero aceptar o rechazar una invitación recibida para decidir si deseo vincularme a un trabajador nocturno. | **Escenario 1: Invitación aceptada**<br>Dado que el contacto de confianza recibe una invitación pendiente,<br>Cuando acepta la invitación,<br>Entonces el vínculo entre ambos usuarios queda establecido.<br><br>**Escenario 2: Invitación rechazada**<br>Dado que el contacto de confianza recibe una invitación pendiente,<br>Cuando rechaza la invitación,<br>Entonces el vínculo no se establece y el trabajador nocturno es notificado del rechazo. | EP-02 |
-| **US-08** | Remover contacto de confianza | Como trabajador nocturno, quiero eliminar un contacto de confianza vinculado para dejar de compartir información sobre mis trayectos con él. | **Escenario 1: Eliminación exitosa**<br>Dado que el trabajador nocturno tiene un contacto de confianza vinculado,<br>Cuando elimina el vínculo,<br>Entonces el contacto deja de recibir notificaciones sobre sus trayectos.<br><br>**Escenario 2: Confirmación previa a la eliminación**<br>Dado que el trabajador nocturno solicita eliminar un contacto vinculado,<br>Cuando el sistema solicita confirmación,<br>Entonces la eliminación solo se ejecuta si el trabajador confirma la acción. | EP-02 |
-| **US-09** | Iniciar check-in de trayecto seguro | Como trabajador nocturno, quiero iniciar un check-in de trayecto indicando mi destino y tiempo estimado de llegada para activar el acompañamiento pasivo del sistema. | **Escenario 1: Check-in iniciado correctamente**<br>Dado que el trabajador nocturno indica un destino y un tiempo estimado válido,<br>Cuando inicia el check-in,<br>Entonces el sistema activa el seguimiento del trayecto y notifica a sus contactos de confianza.<br><br>**Escenario 2: Intento de iniciar check-in con uno activo**<br>Dado que el trabajador nocturno ya tiene un check-in activo,<br>Cuando intenta iniciar un nuevo check-in,<br>Entonces el sistema le indica que primero debe finalizar o cancelar el trayecto en curso. | EP-03 |
-| **US-10** | Confirmar llegada segura | Como trabajador nocturno, quiero confirmar mi llegada al finalizar el trayecto para cerrar el check-in y notificar a mis contactos de confianza que llegué bien. | **Escenario 1: Confirmación de llegada dentro del tiempo estimado**<br>Dado que el trabajador nocturno tiene un check-in activo,<br>Cuando confirma su llegada,<br>Entonces el sistema cierra el check-in y notifica a sus contactos de confianza que llegó de forma segura.<br><br>**Escenario 2: Confirmación de llegada fuera del margen de tolerancia**<br>Dado que el trabajador nocturno confirma su llegada después de haberse generado un posible incidente,<br>Cuando registra la confirmación,<br>Entonces el sistema cierra el incidente como falso positivo y notifica a los contactos de confianza. | EP-03 |
-| **US-11** | Cancelar check-in activo | Como trabajador nocturno, quiero cancelar un check-in en curso en caso de un cambio de planes para evitar que se generen alertas innecesarias. | **Escenario 1: Cancelación exitosa**<br>Dado que el trabajador nocturno tiene un check-in activo,<br>Cuando cancela el check-in,<br>Entonces el sistema detiene el seguimiento del trayecto sin generar alertas.<br><br>**Escenario 2: Intento de cancelar un check-in ya cerrado**<br>Dado que el check-in del trabajador nocturno ya fue cerrado previamente,<br>Cuando intenta cancelarlo,<br>Entonces el sistema indica que no existe un check-in activo para cancelar. | EP-03 |
-| **US-12** | Marcado automático de posible incidente | Como trabajador nocturno, quiero que el sistema marque automáticamente un posible incidente cuando no confirmo mi llegada dentro del margen de tolerancia, para que mis contactos de confianza sean alertados. | **Escenario 1: Generación automática de posible incidente**<br>Dado que un check-in activo supera el tiempo estimado más el margen de tolerancia sin confirmación de llegada,<br>Cuando el sistema evalúa el estado del trayecto,<br>Entonces se genera un posible incidente y se notifica a los contactos de confianza.<br><br>**Escenario 2: Sin generación de incidente dentro del margen de tolerancia**<br>Dado que un check-in activo aún se encuentra dentro del margen de tolerancia establecido,<br>Cuando el sistema evalúa el estado del trayecto,<br>Entonces no se genera ningún posible incidente. | EP-04 |
-| **US-13** | Validar posible incidente | Como trabajador nocturno, quiero validar o descartar un posible incidente marcado por el sistema para confirmar mi estado real ante mis contactos de confianza. | **Escenario 1: Incidente descartado por el usuario**<br>Dado que existe un posible incidente activo asociado al trabajador nocturno,<br>Cuando el trabajador indica que se encuentra bien,<br>Entonces el sistema cierra el incidente como falso positivo y notifica a los contactos de confianza.<br><br>**Escenario 2: Incidente confirmado por el usuario**<br>Dado que existe un posible incidente activo asociado al trabajador nocturno,<br>Cuando el trabajador confirma que necesita ayuda,<br>Entonces el sistema mantiene el incidente como activo y escala la alerta a los contactos de confianza. | EP-04 |
-| **US-14** | Recibir alerta de posible incidente | Como contacto de confianza, quiero recibir una alerta inmediata cuando se detecte un posible incidente en el trayecto de mi trabajador vinculado para poder actuar rápidamente. | **Escenario 1: Alerta recibida correctamente**<br>Dado que se genera un posible incidente para un trabajador vinculado,<br>Cuando el sistema procesa la alerta,<br>Entonces el contacto de confianza recibe la notificación de forma inmediata.<br><br>**Escenario 2: Actualización del estado del incidente**<br>Dado que un posible incidente previamente notificado es descartado por el trabajador nocturno,<br>Cuando el sistema actualiza el estado del incidente,<br>Entonces el contacto de confianza recibe una notificación indicando que el trabajador se encuentra bien. | EP-04 |
-| **US-15** | Buscar servicios nocturnos cercanos | Como trabajador nocturno, quiero buscar en el mapa comunitario los servicios abiertos cerca de mi ubicación para encontrar rápidamente lo que necesito durante mi turno. | **Escenario 1: Búsqueda con resultados**<br>Dado que existen servicios nocturnos validados cerca de la ubicación del trabajador,<br>Cuando realiza la búsqueda,<br>Entonces el sistema muestra la lista de servicios disponibles ordenados por cercanía.<br><br>**Escenario 2: Búsqueda sin resultados**<br>Dado que no existen servicios nocturnos registrados cerca de la ubicación del trabajador,<br>Cuando realiza la búsqueda,<br>Entonces el sistema indica que no se encontraron servicios en la zona. | EP-05 |
-| **US-16** | Reportar nuevo servicio nocturno | Como trabajador nocturno, quiero reportar un nuevo establecimiento abierto de madrugada para contribuir con información útil a la comunidad. | **Escenario 1: Reporte enviado correctamente**<br>Dado que el trabajador nocturno completa los datos requeridos de un nuevo servicio,<br>Cuando envía el reporte,<br>Entonces el sistema lo registra con estado pendiente de validación.<br><br>**Escenario 2: Reporte de un servicio ya existente**<br>Dado que el trabajador nocturno intenta reportar un servicio que ya se encuentra registrado en la misma ubicación,<br>Cuando envía el reporte,<br>Entonces el sistema le indica que el servicio ya existe en el mapa. | EP-05 |
-| **US-17** | Calificar un servicio nocturno reportado | Como trabajador nocturno, quiero calificar la veracidad de un servicio reportado por otro usuario para ayudar a mantener el mapa comunitario actualizado y confiable. | **Escenario 1: Calificación registrada**<br>Dado que el trabajador nocturno visita un servicio previamente reportado,<br>Cuando envía su calificación sobre la veracidad del servicio,<br>Entonces el sistema actualiza el puntaje de confiabilidad del servicio.<br><br>**Escenario 2: Servicio con baja confiabilidad**<br>Dado que un servicio acumula un número de calificaciones negativas por encima del umbral definido,<br>Cuando el sistema recalcula el puntaje de confiabilidad,<br>Entonces el servicio es marcado para revisión de un moderador. | EP-05 |
-| **US-18** | Calificar seguridad de ruta | Como trabajador nocturno, quiero calificar qué tan segura se sintió una ruta al finalizar mi trayecto para aportar información a la comunidad de trabajadores. | **Escenario 1: Calificación registrada al finalizar el trayecto**<br>Dado que el trabajador nocturno finaliza un check-in de trayecto,<br>Cuando registra una calificación de seguridad de la ruta,<br>Entonces el sistema almacena la calificación asociada a esa ruta.<br><br>**Escenario 2: Intento de calificar sin trayecto finalizado**<br>Dado que el trabajador nocturno no cuenta con un trayecto recientemente finalizado,<br>Cuando intenta registrar una calificación de ruta,<br>Entonces el sistema le indica que debe finalizar un trayecto antes de calificarlo. | EP-06 |
-| **US-19** | Reportar punto de riesgo específico | Como trabajador nocturno, quiero marcar un punto específico de la ruta como sospechoso o peligroso para alertar a otros usuarios sobre esa zona. | **Escenario 1: Reporte de punto de riesgo exitoso**<br>Dado que el trabajador nocturno identifica un punto específico durante su trayecto,<br>Cuando reporta dicho punto como zona de riesgo,<br>Entonces el sistema registra la ubicación y la asocia al mapa comunitario de riesgo.<br><br>**Escenario 2: Reporte con descripción insuficiente**<br>Dado que el trabajador nocturno intenta reportar un punto de riesgo sin indicar el motivo,<br>Cuando envía el reporte,<br>Entonces el sistema rechaza el envío y solicita completar el motivo del reporte. | EP-06 |
-| **US-20** | Visualizar mapa de zonas de riesgo | Como trabajador nocturno, quiero visualizar en el mapa las zonas calificadas como riesgosas por la comunidad para evitarlas antes de iniciar mi trayecto. | **Escenario 1: Visualización de zonas de riesgo**<br>Dado que existen zonas de riesgo reportadas y validadas en el área del trabajador,<br>Cuando consulta el mapa comunitario,<br>Entonces el sistema muestra dichas zonas señaladas junto con su nivel de riesgo.<br><br>**Escenario 2: Área sin reportes de riesgo**<br>Dado que no existen reportes de riesgo validados en el área consultada,<br>Cuando el trabajador consulta el mapa,<br>Entonces el sistema indica que no hay zonas de riesgo registradas en esa área. | EP-06 |
-| **US-21** | Registrar horas de descanso | Como trabajador nocturno, quiero registrar mis horas de sueño diurno para llevar un control de mi descanso y bienestar físico. | **Escenario 1: Registro exitoso de descanso**<br>Dado que el trabajador nocturno ingresa la hora de inicio y fin de su descanso,<br>Cuando guarda el registro,<br>Entonces el sistema almacena la información en su bitácora de sueño.<br><br>**Escenario 2: Registro con datos inconsistentes**<br>Dado que el trabajador nocturno ingresa una hora de fin anterior a la hora de inicio,<br>Cuando intenta guardar el registro,<br>Entonces el sistema rechaza el registro y señala la inconsistencia. | EP-07 |
-| **US-22** | Visualizar historial de descanso | Como trabajador nocturno, quiero visualizar el historial de mis registros de sueño para identificar patrones en mi descanso a lo largo del tiempo. | **Escenario 1: Historial disponible**<br>Dado que el trabajador nocturno cuenta con registros previos de descanso,<br>Cuando consulta su bitácora,<br>Entonces el sistema muestra el historial ordenado cronológicamente.<br><br>**Escenario 2: Historial vacío**<br>Dado que el trabajador nocturno no cuenta con registros previos de descanso,<br>Cuando consulta su bitácora,<br>Entonces el sistema indica que aún no existen registros disponibles. | EP-07 |
-| **US-23** | Recibir sugerencia de higiene del sueño | Como trabajador nocturno, quiero recibir sugerencias cuando mi descanso ha sido insuficiente durante un periodo determinado para cuidar mi bienestar físico. | **Escenario 1: Sugerencia generada por descanso insuficiente**<br>Dado que el trabajador nocturno registra un promedio de horas de sueño por debajo del umbral recomendado,<br>Cuando el sistema evalúa su bitácora,<br>Entonces se genera una sugerencia de higiene del sueño para el trabajador.<br><br>**Escenario 2: Descanso dentro de parámetros saludables**<br>Dado que el trabajador nocturno mantiene un promedio de horas de sueño dentro del rango recomendado,<br>Cuando el sistema evalúa su bitácora,<br>Entonces no se genera ninguna sugerencia adicional. | EP-07 |
-| **US-24** | Consultar planes de suscripción (Landing Page) | Como visitante del sitio web, quiero consultar los planes de suscripción disponibles y sus beneficios para decidir si deseo registrarme en la plataforma. | **Escenario 1: Visualización de planes**<br>Dado que el visitante accede a la sección de planes en la landing page,<br>Cuando la página carga,<br>Entonces se muestran los planes de suscripción disponibles con sus respectivos beneficios y precios.<br><br>**Escenario 2: Selección de un plan desde la landing page**<br>Dado que el visitante revisa los planes disponibles,<br>Cuando selecciona un plan específico,<br>Entonces el sistema lo redirige al formulario de registro con el plan preseleccionado. | EP-08 |
-| **US-25** | Suscribirse al plan mensual | Como trabajador nocturno, quiero suscribirme al plan mensual de la plataforma para acceder a los beneficios colectivos negociados. | **Escenario 1: Suscripción exitosa**<br>Dado que el trabajador nocturno selecciona un plan y completa el pago correctamente,<br>Cuando confirma la suscripción,<br>Entonces el sistema activa su membresía y le otorga acceso a los beneficios correspondientes.<br><br>**Escenario 2: Pago rechazado**<br>Dado que el trabajador nocturno intenta suscribirse con un medio de pago rechazado,<br>Cuando el sistema procesa el pago,<br>Entonces la suscripción no se activa y se le notifica el motivo del rechazo. | EP-08 |
-| **US-26** | Acceder a beneficios y descuentos | Como trabajador nocturno con suscripción activa, quiero visualizar y acceder a los descuentos y beneficios negociados colectivamente para aprovecharlos. | **Escenario 1: Acceso a beneficios con suscripción activa**<br>Dado que el trabajador nocturno cuenta con una suscripción activa,<br>Cuando consulta la sección de beneficios,<br>Entonces el sistema muestra los descuentos y coberturas disponibles para su membresía.<br><br>**Escenario 2: Intento de acceso sin suscripción activa**<br>Dado que el trabajador nocturno no cuenta con una suscripción activa,<br>Cuando intenta acceder a la sección de beneficios,<br>Entonces el sistema le indica que debe suscribirse para acceder a dicho contenido. | EP-08 |
-| **US-27** | Referir a un contacto para obtener beneficio | Como trabajador nocturno, quiero invitar a otro trabajador mediante un código de referido para obtener un beneficio en mi suscripción cuando este se registre. | **Escenario 1: Referido registrado exitosamente**<br>Dado que un nuevo usuario se registra utilizando el código de referido de un trabajador nocturno,<br>Cuando el registro se completa,<br>Entonces el sistema otorga el beneficio correspondiente al trabajador que refirió.<br><br>**Escenario 2: Uso de código de referido inválido**<br>Dado que un nuevo usuario ingresa un código de referido inexistente,<br>Cuando intenta completar el registro,<br>Entonces el sistema le indica que el código ingresado no es válido, sin bloquear el registro. | EP-08 |
-| **US-28** | Visualizar estado de trayecto en tiempo real | Como contacto de confianza, quiero visualizar el estado actual del trayecto de mi trabajador vinculado para tener tranquilidad sin necesidad de llamarlo. | **Escenario 1: Trayecto en curso**<br>Dado que el trabajador vinculado tiene un check-in activo,<br>Cuando el contacto de confianza consulta el panel de seguimiento,<br>Entonces el sistema muestra el estado actual del trayecto y el tiempo estimado de llegada.<br><br>**Escenario 2: Sin trayecto activo**<br>Dado que el trabajador vinculado no tiene ningún check-in activo,<br>Cuando el contacto de confianza consulta el panel de seguimiento,<br>Entonces el sistema indica que no hay un trayecto en curso. | EP-09 |
-| **US-29** | Configurar preferencias de notificación | Como contacto de confianza, quiero configurar qué tipo de notificaciones deseo recibir (inicio de trayecto, llegada, posibles incidentes) para adaptar la app a mis necesidades. | **Escenario 1: Preferencias guardadas correctamente**<br>Dado que el contacto de confianza selecciona los tipos de notificación que desea recibir,<br>Cuando guarda su configuración,<br>Entonces el sistema aplica dichas preferencias a las futuras notificaciones.<br><br>**Escenario 2: Intento de deshabilitar notificaciones de incidentes**<br>Dado que el contacto de confianza intenta deshabilitar las notificaciones de posibles incidentes,<br>Cuando guarda la configuración,<br>Entonces el sistema le advierte que este tipo de notificación es obligatoria y no puede deshabilitarse. | EP-09 |
-| **US-30** | Revisar y aprobar reportes de la comunidad | Como moderador de la comunidad, quiero revisar los reportes de nuevos servicios e incidentes enviados por los usuarios para aprobarlos o rechazarlos antes de que sean visibles públicamente. | **Escenario 1: Reporte aprobado**<br>Dado que existe un reporte pendiente de validación,<br>Cuando el moderador lo revisa y lo aprueba,<br>Entonces el reporte pasa a estar visible para toda la comunidad.<br><br>**Escenario 2: Reporte rechazado**<br>Dado que existe un reporte pendiente de validación que no cumple con los criterios de calidad,<br>Cuando el moderador lo rechaza,<br>Entonces el reporte no se publica y se notifica al usuario que lo envió. | EP-10 |
-| **US-31** | Visualizar video de demostración y equipo en la Landing Page | Como visitante del sitio web, quiero reproducir el video explicativo sobre la plataforma y el equipo para comprender mejor el funcionamiento del servicio antes de crear una cuenta. | **Escenario 1: Reproducción del video demostrativo**<br>Dado que el visitante se ubica en la sección de demostración en video de la landing page,<br>Cuando interactúa con el reproductor interactivo,<br>Entonces el contenido audiovisual se reproduce sin interrupciones y con controles de reproducción funcionales.<br><br>**Escenario 2: Falla de carga del recurso multimedia**<br>Dado que el servicio de video no se encuentra disponible o presenta fallos de red,<br>Cuando la landing page carga la sección multimedia,<br>Entonces el sistema muestra un mensaje alternativo indicando la indisponibilidad temporal del video sin romper el diseño de la página. | EP-01 |
-| **US-32** | Consultar testimonios y casos de éxito en la Landing Page | Como visitante del sitio web, quiero explorar las experiencias y testimonios de otros trabajadores nocturnos para verificar la credibilidad y efectividad de la plataforma. | **Escenario 1: Navegación entre testimonios**<br>Dado que el visitante visualiza el módulo de testimonios en la landing page,<br>Cuando selecciona un caso de éxito o avanza entre las opiniones disponibles,<br>Entonces el sistema actualiza la cita mostrada con el detalle del testimonio y la ocupación del usuario correspondiente.<br><br>**Escenario 2: Visualización estática en vista móvil**<br>Dado que el visitante accede desde una pantalla de formato reducido,<br>When consulta la sección de testimonios,<br>Then los testimonios se adaptan al espacio disponible permitiendo deslizar de forma accesible entre cada historia. | EP-01 |
-| **US-33** | Desplegar preguntas frecuentes (FAQ) en la Landing Page | Como visitante del sitio web, quiero expandir y colapsar preguntas frecuentes para resolver dudas clave sobre el funcionamiento, privacidad y costos de la plataforma de manera inmediata. | **Escenario 1: Despliegue interactivo de respuesta**<br>Dado que el visitante se encuentra en la sección de preguntas frecuentes con todos los ítems colapsados,<br>Cuando selecciona una pregunta específica,<br>Entonces la sección correspondiente se expande revelando la respuesta detallada y contrayendo las demás si aplica.<br><br>**Escenario 2: Colapso de respuesta activa**<br>Dado que el visitante tiene una pregunta abierta,<br>Cuando hace clic nuevamente sobre el encabezado de dicha pregunta,<br>Entonces el contenido se repliega ocultando la respuesta. | EP-01 |
-| **US-34** | Enviar formulario de contacto o soporte desde la Landing Page | Como visitante del sitio web, quiero enviar mis consultas a través del formulario de contacto para recibir asistencia o información personalizada por parte del equipo. | **Escenario 1: Envío exitoso de consulta**<br>Dado que el visitante completa su nombre, correo electrónico y mensaje válido en el formulario de pie de página,<br>Cuando hace clic en el botón de envío,<br>Entonces el sistema registra la consulta, muestra un mensaje de confirmación y restablece los campos del formulario.<br><br>**Escenario 2: Validación de campos obligatorios o formato erróneo**<br>Dado que el visitante omite un campo requerido o escribe una dirección de correo con formato inválido,<br>Cuando intenta enviar el formulario,<br>Entonces el sistema bloquea el envío y resalta los campos con error solicitando su corrección. | EP-01 |
-| **US-35** | Cambiar idioma y tema visual en la Landing Page | Como visitante del sitio web, quiero alternar entre los idiomas disponibles (español e inglés) y ajustar el modo de visualización para adaptar la lectura a mis preferencias. | **Escenario 1: Alternancia de idioma**<br>Dado que la landing page se muestra en el idioma predeterminado,<br>Cuando el visitante acciona el selector de idioma (ES/EN),<br>Entonces todos los textos, títulos y llamados a la acción se traducen de forma coherente y dinámica.<br><br>**Escenario 2: Conmutación de tema claro y oscuro**<br>Dado que el visitante interactúa con el interruptor de modo visual en la barra de navegación,<br>Cuando activa el cambio de tema,<br>Entonces la paleta de colores de la interfaz se adapta inmediatamente al esquema seleccionado manteniendo los contrastes y legibilidad. | EP-01 |
+| **US-01** | Registro de usuario | Como nuevo usuario, quiero registrarme indicando mi rol (trabajador o contacto) para integrarme a la red de soporte nocturno, contribuyendo a la meta de alcanzar 2,500 usuarios activos verificados. | **Escenario 1:** Dado que el nuevo usuario ingresa datos correctos, Cuando envía el formulario, Entonces su cuenta es creada y se le asigna el rol.<br><br>**Escenario 2:** Dado que el usuario omite campos o usa un correo ya registrado, Cuando envía el formulario, Entonces el sistema bloquea el registro y resalta el error. | EP-01 |
+| **US-02** | Inicio de sesión | Como usuario registrado, quiero iniciar sesión de forma segura para acceder rápidamente a mis herramientas de protección, garantizando la meta de 75% de uso semanal de la plataforma. | **Escenario 1:** Dado que el usuario ingresa credenciales correctas, Cuando inicia sesión, Entonces el sistema concede el acceso a su panel.<br><br>**Escenario 2:** Dado que el usuario ingresa una contraseña errónea, Cuando intenta iniciar sesión, Entonces el sistema deniega el acceso con un mensaje de error. | EP-01 |
+| **US-03** | Recuperación de contraseña | Como usuario, quiero solicitar la recuperación de mi contraseña para restablecer mi acceso sin fricciones, reduciendo la tasa de abandono temporal de la plataforma. | **Escenario 1:** Dado que el usuario ingresa un correo registrado, Cuando solicita la recuperación, Entonces se envía un enlace de restablecimiento.<br><br>**Escenario 2:** Dado que ingresa un correo no registrado, Cuando lo solicita, Entonces el sistema notifica que la cuenta no existe. | EP-01 |
+| **US-04** | Edición de perfil | Como usuario, quiero editar mis datos para mantener mis métodos de contacto actualizados, asegurando que las alertas de emergencia lleguen al destino correcto sin retrasos. | **Escenario 1:** Dado que el usuario modifica sus datos, Cuando guarda los cambios, Entonces el perfil se actualiza.<br><br>**Escenario 2:** Dado que el usuario ingresa un teléfono con formato inválido, Cuando intenta guardar, Entonces el sistema rechaza la acción. | EP-01 |
+| **US-05** | Conocer propuesta de valor (Landing) | Como visitante, quiero conocer la propuesta de valor en el "Hero" para entender cómo Noxway protege mis trayectos, acelerando mi decisión de registro para lograr la adopción temprana. | **Escenario 1:** Dado que el visitante entra a la Landing Page, Cuando carga la sección inicial, Entonces se muestra la propuesta de valor y los botones de llamado a la acción.<br><br>**Escenario 2:** Dado que el navegador tiene red inestable, Cuando la página carga parcialmente, Entonces se prioriza el texto principal de la propuesta de valor. | EP-01 |
+| **US-31** | Visualizar video demostrativo | Como visitante, quiero reproducir el video explicativo para confiar en la solidez técnica del producto, impulsando el volumen de registros calificados a la plataforma. | **Escenario 1:** Dado que el visitante ubica la sección multimedia, Cuando pulsa reproducir, Entonces el video inicia sin interrupciones.<br><br>**Escenario 2:** Dado que el servidor de video falla, Cuando la sección carga, Entonces se muestra un mensaje alternativo de indisponibilidad. | EP-01 |
+| **US-32** | Consultar testimonios | Como visitante, quiero leer testimonios de colegas para sentir respaldo y empatía, reduciendo la fricción emocional antes de comprometerme a usar la aplicación. | **Escenario 1:** Dado que el visitante ve el carrusel, Cuando desliza entre opciones, Entonces el sistema muestra testimonios diferentes.<br><br>**Escenario 2:** Dado que intenta interactuar en una pantalla táctil sin responder, Cuando hace swipe, Entonces el sistema asegura que la lectura del testimonio actual permanezca estática y legible. | EP-01 |
+| **US-33** | Desplegar FAQ (Landing) | Como visitante, quiero expandir las preguntas frecuentes para resolver mis dudas de privacidad y costos, derribando objeciones e incentivando la creación de una cuenta. | **Escenario 1:** Dado que el visitante ve una pregunta colapsada, Cuando hace clic, Entonces la respuesta se expande.<br><br>**Escenario 2:** Dado que una respuesta ya está abierta, Cuando hace clic en otra, Entonces la anterior se repliega automáticamente para no saturar la pantalla. | EP-01 |
+| **US-34** | Formulario de contacto | Como visitante, quiero enviar preguntas directas al equipo para resolver inquietudes técnicas, capturando "leads" interesados que contribuyan al crecimiento corporativo. | **Escenario 1:** Dado que completa todos los campos válidos, Cuando envía el formulario, Entonces recibe un mensaje de éxito.<br><br>**Escenario 2:** Dado que omite el correo electrónico, Cuando envía, Entonces el sistema bloquea el envío resaltando el campo requerido. | EP-01 |
+| **US-35** | Cambiar idioma y tema | Como visitante, quiero alternar a "Modo Oscuro" o idioma para adaptar la visibilidad a mi turno nocturno, demostrando empatía con el usuario desde el primer contacto. | **Escenario 1:** Dado que el visitante acciona el interruptor de tema, Cuando se activa el modo oscuro, Entonces la paleta de colores cambia a contrastes aptos para la noche.<br><br>**Escenario 2:** Dado que el dispositivo no soporta el cambio dinámico, Cuando hace clic, Entonces se respeta el tema configurado a nivel de sistema por defecto. | EP-01 |
+| **US-36** | Consultar Términos y Código Ético | Como visitante, quiero acceder a los Términos de Servicio y Código Ético desde el Footer para validar el tratamiento seguro de mi geolocalización, impulsando la confianza para registrarme. | **Escenario 1:** Dado que el visitante se desplaza al footer, Cuando hace clic en "Términos de Servicio", Entonces se despliega una ventana modal con las políticas (ACM/IEEE).<br><br>**Escenario 2:** Dado que hay una interrupción de carga, Cuando intenta abrir el enlace, Entonces se descarga una versión PDF de respaldo. | EP-01 |
+| **US-37** |  Accesos Institucionales (Redes) | Como visitante, quiero poder ir a las redes sociales oficiales desde la Landing Page para validar que la comunidad está activa, reforzando la credibilidad institucional. | **Escenario 1:** Dado que el usuario visualiza los íconos de redes, Cuando hace clic en uno, Entonces se abre la página oficial en una pestaña nueva.<br><br>**Escenario 2:** Dado que el enlace de red social se encuentre temporalmente roto, Cuando se hace clic, Entonces el usuario se mantiene en la página sin errores 404 intrusivos. | EP-01 |
+| **US-38** | Validar Zonas de Cobertura | Como visitante, quiero verificar el indicador de "Cobertura en Lima y Callao" para cerciorarme de que el servicio opera en mi distrito, mitigando el riesgo de suscribirme y no poder usarlo. | **Escenario 1:** Dado que el visitante localiza el bloque de Cobertura, Cuando lee la información, Entonces verifica el estado operativo (Ej. 24h Services Operational).<br><br>**Escenario 2:** Dado que el servicio sufra una caída regional, Cuando carga la sección, Entonces el indicador debe reflejar de forma transparente "Degradado" o "En mantenimiento". | EP-01 |
+| **US-39** | Navegación Anclada (Smooth Scroll) | Como visitante, quiero utilizar los enlaces del header (Protocolo, Ecosistema, Planes) para desplazarme velozmente a mi área de interés, optimizando mi tiempo antes del turno. | **Escenario 1:** Dado que el visitante está en el Hero, Cuando hace clic en "Planes" en el header, Entonces la página hace scroll suave hasta la sección de suscripción.<br><br>**Escenario 2:** Dado que JavaScript esté desactivado en el navegador, Cuando hace clic en el enlace, Entonces la página salta de forma nativa a la sección (Fallback anchor link). | EP-01 |
+| **US-06** | Invitar contacto de confianza | Como trabajador nocturno, quiero invitar a un contacto para integrarlo a mi monitoreo, contribuyendo directamente al objetivo estratégico de 60% de contactos vinculados. | **Escenario 1:** Dado que el trabajador ingresa un número válido, Cuando envía invitación, Entonces el sistema envía el enlace.<br><br>**Escenario 2:** Dado que intenta invitar a alguien ya vinculado, Cuando envía, Entonces el sistema informa la duplicidad y aborta el proceso. | EP-02 |
+| **US-07** | Aceptar invitación de contacto | Como contacto de confianza, quiero aceptar una invitación para establecer el vínculo oficial de protección mutua, sumando al KPI de crecimiento de red de soporte activo. | **Escenario 1:** Dado que el contacto recibe la solicitud, Cuando hace clic en aceptar, Entonces el vínculo se formaliza en la base de datos.<br><br>**Escenario 2:** Dado que el contacto recibe la solicitud, Cuando hace clic en rechazar, Entonces el vínculo no se establece y el trabajador es notificado. | EP-02 |
+| **US-08** | Remover contacto | Como trabajador nocturno, quiero eliminar un contacto obsoleto para resguardar la privacidad de mi geolocalización, evitando el envío de alertas erróneas a personas equivocadas. | **Escenario 1:** Dado que el trabajador confirma la eliminación, Cuando acciona el borrado, Entonces el contacto deja de recibir alertas.<br><br>**Escenario 2:** Dado que el trabajador presiona eliminar por error, Cuando el sistema solicita confirmación y este cancela, Entonces el contacto se mantiene vinculado. | EP-02 |
+| **US-09** | Iniciar check-in seguro | Como trabajador nocturno, quiero iniciar mi trayecto con tiempo estimado para activar el seguimiento pasivo, garantizando el cumplimiento de la meta del 75% de uso semanal. | **Escenario 1:** Dado que el usuario fija destino y tiempo, Cuando inicia check-in, Entonces el sistema activa telemetría y avisa a contactos.<br><br>**Escenario 2:** Dado que intenta iniciar otro trayecto con uno ya en curso, Cuando pulsa iniciar, Entonces el sistema exige finalizar el anterior. | EP-03 |
+| **US-10** | Confirmar llegada segura | Como trabajador nocturno, quiero marcar mi llegada para desactivar el rastreo y dar tranquilidad, evitando detenciones y falsas alarmas antes de la intervención de terceros. | **Escenario 1:** Dado que el trayecto está en curso, Cuando confirma llegada, Entonces se cierra el trayecto y se avisa a contactos.<br><br>**Escenario 2:** Dado que el trabajador pierde conexión a red, Cuando confirma llegada, Entonces la app guarda el estado localmente y sincroniza en cuanto vuelve el internet. | EP-03 |
+| **US-11** | Cancelar check-in | Como trabajador nocturno, quiero cancelar un viaje activo por cambio de planes para mantener limpios mis registros, evitando el disparo de alertas de seguridad injustificadas. | **Escenario 1:** Dado que el trayecto está activo, Cuando se cancela, Entonces el monitoreo cesa sin alarmas.<br><br>**Escenario 2:** Dado que el viaje se encuentra en estado de "Posible Incidente", Cuando intenta cancelar sin justificar, Entonces el sistema exige un PIN o validación para descartar secuestro. | EP-03 |
+| **US-12** | Marcado automático de incidente | Como trabajador nocturno, quiero que la app genere un posible incidente automático al vencer el tiempo, asegurando una intervención inmediata que reduzca un 30% los incidentes sin atender. | **Escenario 1:** Dado que el tiempo límite y tolerancia expiran, Cuando el cronómetro evalúa, Entonces dispara la alerta a contactos.<br><br>**Escenario 2:** Dado que el usuario se encuentra dentro del margen de tolerancia (ej. +10m por tráfico), Cuando el sistema evalúa, Entonces no se dispara aún el incidente. | EP-04 |
+| **US-13** | Validar posible incidente | Como trabajador nocturno, quiero poder descartar un incidente marcado por el sistema para detener el pánico familiar, cumpliendo la meta de filtrar falsas alarmas efectivamente. | **Escenario 1:** Dado que se marca posible incidente, Cuando el usuario pulsa "Estoy Bien", Entonces se cierra la alerta como falso positivo.<br><br>**Escenario 2:** Dado que se marca posible incidente, Cuando el usuario no responde en 5 minutos, Entonces el sistema escala la severidad y muestra la ficha de rescate al contacto. | EP-04 |
+| **US-14** | Recibir alerta en tiempo real | Como contacto de confianza, quiero recibir una notificación inmediata de emergencia para accionar directorios policiales, reduciendo tiempos de respuesta a incidentes críticos. | **Escenario 1:** Dado que se genera un incidente, Cuando se procesa en el backend, Entonces el contacto recibe SMS y push.<br><br>**Escenario 2:** Dado que el celular del contacto no tenga datos, Cuando el push falle, Entonces el sistema envía automáticamente un SMS tradicional (fallback). | EP-04 |
+| **US-15** | Buscar servicios cercanos | Como trabajador nocturno, quiero ubicar farmacias/grifos abiertos de noche para evitar exponerme en calles vacías, incentivando la adopción y utilidad diaria de la plataforma. | **Escenario 1:** Dado que busca locales cerca, Cuando ejecuta, Entonces ve un mapa con servicios validados.<br><br>**Escenario 2:** Dado que no existan locales reportados en 5km, Cuando busca, Entonces se muestra un mensaje de área vacía sugiriendo reportar lugares conocidos. | EP-05 |
+| **US-16** | Reportar servicio nuevo | Como trabajador nocturno, quiero añadir un comercio 24h al mapa para nutrir el ecosistema, contribuyendo a la meta de alcanzar 1,000 puntos nocturnos validados. | **Escenario 1:** Dado que ingresa datos válidos del comercio, Cuando envía, Entonces pasa a estado "Pendiente de validación".<br><br>**Escenario 2:** Dado que reporta una ubicación ya existente, Cuando envía, Entonces el sistema fusiona o alerta de la duplicidad. | EP-05 |
+| **US-17** | Calificar servicio reportado | Como trabajador nocturno, quiero auditar y calificar servicios ajenos para mantener la veracidad del mapa, garantizando información segura para la comunidad activa. | **Escenario 1:** Dado que evalúa un servicio existente, Cuando vota positivo, Entonces sube el score de confiabilidad.<br><br>**Escenario 2:** Dado que un servicio recibe múltiples votos negativos, Cuando cruza el umbral bajo, Entonces es ocultado y mandado a moderación. | EP-05 |
+| **US-18** | Calificar seguridad de ruta | Como trabajador nocturno, quiero calificar qué tan segura fue mi ruta al finalizar para crear mapas de calor, ayudando a lograr la métrica del 40% de viajes calificados. | **Escenario 1:** Dado que finaliza su viaje, Cuando califica con estrellas, Entonces se asocia el puntaje a esa vía.<br><br>**Escenario 2:** Dado que descarta la pantalla de calificación, Cuando lo hace, Entonces la ruta queda "sin calificar" pero no se bloquea la app. | EP-06 |
+| **US-19** | Reportar punto de riesgo | Como trabajador nocturno, quiero marcar un cruce peligroso para prevenir asaltos a colegas, impactando en la reducción de incidentes reportados a nivel global. | **Escenario 1:** Dado que señala un punto con descripción, Cuando envía, Entonces aparece un marcador de peligro comunitario.<br><br>**Escenario 2:** Dado que marca un punto sin texto explicativo, Cuando envía, Entonces el sistema rechaza obligando a escribir un motivo corto. | EP-06 |
+| **US-20** | Ver zonas de riesgo en mapa | Como trabajador nocturno, quiero visualizar las alertas de riesgo antes de arrancar mi moto/caminata para planificar desvíos seguros, materializando el valor de inteligencia comunitaria. | **Escenario 1:** Dado que consulta el mapa, Cuando navega, Entonces visualiza perímetros sombreados por riesgo.<br><br>**Escenario 2:** Dado que apaga su geolocalización, Cuando abre el mapa, Entonces el sistema pide permiso para ubicarlo antes de mostrar riesgos locales. | EP-06 |
+| **US-21** | Registrar descanso | Como trabajador nocturno, quiero anotar mis horas de sueño diurno para monitorear desgaste crónico, incrementando la retención de usuarios preocupados por su salud. | **Escenario 1:** Dado que ingresa hora de dormir y despertar lógicas, Cuando guarda, Entonces se suman al acumulado semanal.<br><br>**Escenario 2:** Dado que pone hora final anterior a la inicial, Cuando guarda, Entonces arroja error de incongruencia horaria. | EP-07 |
+| **US-22** | Historial de descanso | Como trabajador nocturno, quiero revisar mis gráficos semanales de descanso para demostrar mis patrones de higiene del sueño, justificando el valor de los módulos de bienestar. | **Escenario 1:** Dado que tiene datos históricos, Cuando abre la vista, Entonces ve gráficos estadísticos claros.<br><br>**Escenario 2:** Dado que no tiene registros previos, Cuando entra a la sección, Entonces se le presenta un "Estado vacío" amigable invitando a empezar. | EP-07 |
+| **US-23** | Alerta por déficit de sueño | Como trabajador nocturno, quiero recibir advertencias si mi promedio de sueño baja drásticamente, previniendo accidentes laborales u operativos graves. | **Escenario 1:** Dado que el promedio baja de 5 horas semanales, Cuando el motor evalúa, Entonces lanza sugerencia de fatiga aguda.<br><br>**Escenario 2:** Dado que sus horas están estables, Cuando evalúa, Entonces no genera notificaciones intrusivas. | EP-07 |
+| **US-24** | Consultar planes (Landing) | Como visitante, quiero comparar los planes (Esencial vs Centinela Pro) para visualizar beneficios y seguros, facilitando la conversión hacia la meta de 600 suscriptores de pago. | **Escenario 1:** Dado que mira los planes, Cuando hace clic en suscribir a "Centinela Pro", Entonces el checkout pre-selecciona el plan.<br><br>**Escenario 2:** Dado que la API de precios falla, Cuando carga la web, Entonces se muestran precios base almacenados en caché para no perder la venta. | EP-08 |
+| **US-25** | Suscribirse (Pago) | Como trabajador nocturno, quiero ejecutar el pago de mi suscripción para desbloquear el monitoreo avanzado, garantizando el flujo de monetización de la plataforma. | **Escenario 1:** Dado que ingresa un método de pago válido, Cuando se procesa, Entonces se activa la membresía premium.<br><br>**Escenario 2:** Dado que la tarjeta no tiene fondos, Cuando se procesa, Entonces el sistema rechaza y mantiene al usuario en la capa Esencial gratuita. | EP-08 |
+| **US-26** | Acceder a beneficios | Como suscriptor activo, quiero usar mi seguro y cupones de descuento (grifos/boticas) para obtener retorno de mi inversión mensual, asegurando una retención del 70%. | **Escenario 1:** Dado que tiene cuenta pro, Cuando entra a beneficios, Entonces genera códigos QR válidos para descuentos.<br><br>**Escenario 2:** Dado que es usuario gratuito, Cuando intenta acceder a seguros, Entonces la app le invita a hacer "Upgrade" mostrando el candado. | EP-08 |
+| **US-27** | Referir contacto (Beneficio) | Como trabajador nocturno, quiero dar un código de invitación a un compañero para ganar meses gratis, acelerando la meta de adquisición y bajando el costo de marketing (CAC). | **Escenario 1:** Dado que un referido usa su código al registrarse, Cuando finaliza, Entonces el referidor gana su bonificación.<br><br>**Escenario 2:** Dado que el código ingresado es falso o expirado, Cuando se evalúa, Entonces arroja "Código inválido" pero deja que el registro fluya sin bono. | EP-08 |
+| **US-28** | Companion View (Panel) | Como contacto de confianza, quiero ver el mapa satelital del viaje de mi familiar en tiempo real para no tener que llamarlo, cumpliendo la promesa de paz mental pasiva de la app. | **Escenario 1:** Dado que el viaje está activo, Cuando abre el enlace, Entonces ve un vehículo moviéndose en el mapa web.<br><br>**Escenario 2:** Dado que el viaje terminó hace horas, Cuando abre el enlace, Entonces se muestra estado "Llegada Confirmada" en lugar del mapa en vivo. | EP-09 |
+| **US-29** | Configurar Notificaciones | Como contacto, quiero elegir solo alertas de inicio y emergencia (silenciando las de rutina) para no hartarme de la app, manteniendo mi cuenta vinculada permanentemente. | **Escenario 1:** Dado que apaga las alertas "SMS rutina", Cuando guarda, Entonces solo recibe emergencias.<br><br>**Escenario 2:** Dado que intenta apagar las "Alertas SOS", Cuando guarda, Entonces el sistema bloquea y advierte que las alertas críticas no se pueden apagar. | EP-09 |
+| **US-30** | Moderar comunidad | Como moderador (Noxway), quiero auditar zonas y servicios reportados para evitar spam o "trolls", manteniendo el prestigio de los datos comunitarios frente a nuevos usuarios. | **Escenario 1:** Dado que ve un reporte pendiente, Cuando pulsa "Aprobar", Entonces el punto se publica a todos.<br><br>**Escenario 2:** Dado que es un reporte vacío o de broma, Cuando pulsa "Rechazar", Entonces desaparece y el usuario generador pierde "Trust Score". | EP-10 |
 ---
 
-### Technical Stories:
+**Technical Stories:**
 Las Technical Stories consideran el rol Developer en la redacción de la descripción, y se enfocan en las features del RESTful API necesarias para soportar cada una de las Epics del proyecto. Se ha definido una Technical Story por cada Epic identificada.
 
 | Epic / Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
@@ -949,7 +913,7 @@ En esta sección se presenta el Impact Mapping de la solución, técnica que per
 
 ### 4.1.1. General Style Guidelines.
 
-#### El estilo visual de la startup
+**El estilo visual de la startup**
 
 El estilo visual de la startup se fundamenta en los principios de seguridad, confianza, bienestar, accesibilidad y claridad visual, considerando que los usuarios principales son trabajadores que desarrollan sus actividades durante la noche, así como familiares, parejas y contactos de confianza que necesitan conocer su estado durante sus desplazamientos.
 
@@ -973,7 +937,7 @@ Asimismo, la solución está dirigida a usuarios con distintos niveles de alfabe
 
 **Privacidad:** La información relacionada con ubicación, trayectos y contactos de confianza se presenta de manera clara, evitando exponer información personal innecesaria y permitiendo al usuario comprender cuándo se está compartiendo su ubicación.
 
-#### Paleta de colores
+**Paleta de colores**
 
 La selección de colores de la startup busca transmitir seguridad, confianza, tranquilidad y bienestar, utilizando una combinación que funcione correctamente tanto en ambientes nocturnos como en situaciones donde el usuario necesita identificar rápidamente una alerta.
 
@@ -990,14 +954,14 @@ Se propone utilizar una paleta basada en tonos oscuros y colores de acento:
 
 La utilización de colores de alerta se realizará de manera controlada. El rojo estará reservado principalmente para situaciones críticas, como una emergencia o un posible incidente, evitando utilizarlo como elemento decorativo.
 
-#### Tipografía
+**Tipografía**
 
 Se seleccionan las tipografías Poppins y Roboto debido a su buena legibilidad en dispositivos digitales y a su apariencia moderna y accesible.
 
 - **Poppins:** títulos, encabezados y elementos destacados.
 - **Roboto:** textos, descripciones, formularios, mensajes y contenido informativo.
 
-#### Jerarquía tipográfica
+**Jerarquía tipográfica**
 
 | Elemento | Tipografía | Uso | Tamaño |
 |---|---|---|---|
@@ -1008,7 +972,7 @@ Se seleccionan las tipografías Poppins y Roboto debido a su buena legibilidad e
 | Texto secundario | Roboto | Información complementaria | 12-14 px |
 | Botones | Roboto | Acciones | 14-16 px |
 
-#### Espaciado
+**Espaciado**
 
 Se define un sistema de espaciado basado en múltiplos de 8 px, con el objetivo de mantener una distribución consistente:
 
@@ -1020,7 +984,7 @@ Se define un sistema de espaciado basado en múltiplos de 8 px, con el objetivo 
 
 Este sistema permite mantener una estructura ordenada y facilita la adaptación de la interfaz a diferentes tamaños de pantalla.
 
-#### Tono de comunicación
+**Tono de comunicación**
 
 El tono de comunicación de la startup es:
 
@@ -1040,7 +1004,7 @@ En lugar de utilizar mensajes técnicos como:
 > "El servicio de geolocalización se encuentra ejecutando el proceso de seguimiento."
 
 ### 4.1.2. Web Style Guidelines.
-#### 1. Diseño y estructura
+**1. Diseño y estructura**
 
 La interfaz de la startup sigue una estructura orientada a proporcionar acceso rápido a las principales funciones de seguridad, comunidad y bienestar.
 
@@ -1060,7 +1024,7 @@ Las funciones críticas, como iniciar trayecto, confirmar llegada o reportar una
 
 **Justificación:** Esta estructura permite que los trabajadores nocturnos puedan utilizar la aplicación rápidamente mientras se encuentran trabajando o desplazándose.
 
-#### 2. Sistema de grillas
+**2. Sistema de grillas**
 
 Se utiliza un sistema de diseño basado en una grilla de 12 columnas para escritorio y estructuras adaptativas para dispositivos móviles.
 
@@ -1074,9 +1038,9 @@ Las principales características son:
 
 **Justificación:** Permite mantener una estructura visual consistente y facilita la adaptación de la plataforma a diferentes dispositivos y resoluciones.
 
-#### 3. Componentes UI principales
+**3. Componentes UI principales**
 
-##### Tarjetas
+**Tarjetas**
 
 Las tarjetas se utilizan para agrupar información relacionada, por ejemplo:
 
@@ -1090,7 +1054,7 @@ Las tarjetas se utilizan para agrupar información relacionada, por ejemplo:
 
 Cada tarjeta debe mostrar información concreta y permitir identificar rápidamente su función.
 
-##### Botones
+**Botones**
 
 Se establecen tres tipos principales:
 
@@ -1110,7 +1074,7 @@ Los botones contemplan los siguientes estados:
 
 Las acciones críticas deberán presentar una diferenciación visual clara para evitar errores.
 
-##### Insignias o Badges
+**Insignias o Badges**
 
 Las insignias permiten identificar rápidamente los estados dentro del sistema.
 
@@ -1125,7 +1089,7 @@ Algunos ejemplos son:
 
 Los colores siempre estarán acompañados por texto o iconografía para no depender únicamente del color.
 
-##### Formularios
+**Formularios**
 
 Los formularios deben presentar:
 
@@ -1143,7 +1107,7 @@ En lugar de utilizar mensajes genéricos como:
 
 > "Error de validación."
 
-##### Notificaciones
+**Notificaciones**
 
 Las notificaciones proporcionarán retroalimentación sobre eventos importantes.
 
@@ -1165,7 +1129,7 @@ Se contemplan dos tipos principales:
 
 #### 4. Interacción (comportamiento UX)
 
-##### Feedback inmediato
+**Feedback inmediato**
 
 El sistema debe proporcionar retroalimentación inmediata después de cada acción relevante.
 
@@ -1178,7 +1142,7 @@ Ejemplos:
 
 **Justificación:** La retroalimentación inmediata permite reducir la incertidumbre y aumenta la confianza del usuario en el funcionamiento de la plataforma.
 
-##### Restricciones de acciones
+**Restricciones de acciones**
 
 El sistema debe evitar acciones que puedan generar información incorrecta o poner en riesgo al usuario.
 
@@ -1190,7 +1154,7 @@ Por ejemplo:
 - La información de ubicación solo se comparte durante el periodo autorizado por el usuario.
 - Un posible incidente puede requerir confirmación posterior por parte del trabajador.
 
-##### Visualización del estado
+**Visualización del estado**
 
 Los estados del sistema se representan mediante una combinación de:
 
@@ -1206,7 +1170,7 @@ Por ejemplo, un trayecto puede visualizarse como:
 
 Esto permite que tanto el trabajador como su contacto de confianza comprendan rápidamente el estado actual del trayecto.
 
-#### 5. Diseño adaptable
+**5. Diseño adaptable**
 
 La startup está diseñada principalmente para dispositivos móviles, debido a que los trabajadores utilizarán la plataforma durante sus desplazamientos nocturnos.
 
@@ -1216,7 +1180,7 @@ También se contempla su uso en:
 - Tablet.
 - Escritorio.
 
-##### Móvil
+**Móvil**
 
 La versión móvil prioriza:
 
@@ -1229,7 +1193,7 @@ La versión móvil prioriza:
 - Notificaciones.
 - Lectura clara en ambientes con poca iluminación.
 
-##### Tablet y escritorio
+**Tablet y escritorio**
 
 Se aprovecha el espacio disponible para presentar:
 
@@ -1240,11 +1204,11 @@ Se aprovecha el espacio disponible para presentar:
 - Administración de contactos.
 - Beneficios y servicios disponibles.
 
-#### 6. Navegación
+**6. Navegación**
 
 La navegación debe ser simple y consistente.
 
-##### Móvil
+**Móvil**
 
 Se utiliza una barra de navegación inferior para acceder a las funciones principales:
 
@@ -1252,7 +1216,7 @@ Se utiliza una barra de navegación inferior para acceder a las funciones princi
 
 Las funciones de emergencia y seguridad deben permanecer fácilmente accesibles.
 
-##### Escritorio
+**Escritorio**
 
 Se utiliza una barra lateral persistente con las principales secciones:
 
@@ -1267,7 +1231,7 @@ Se utiliza una barra lateral persistente con las principales secciones:
 
 También se pueden utilizar migas de pan en las secciones con mayor profundidad de navegación.
 
-#### 7. Iconografía
+**7. Iconografía**
 
 Se utilizarán iconos simples, reconocibles y consistentes para facilitar la comprensión de las funcionalidades.
 
@@ -1290,19 +1254,19 @@ Algunos ejemplos son:
 
 Los iconos deberán utilizarse como complemento del texto y no como único mecanismo de comunicación.
 
-#### 8. Componentes específicos de la solución
+**8. Componentes específicos de la solución**
 
 Debido a que la plataforma está orientada específicamente a trabajadores nocturnos, se establecen algunos componentes propios del sistema.
 
-##### Registro de trayecto seguro
+**Registro de trayecto seguro**
 
 Permite iniciar un trayecto, seleccionar un destino y compartir el estado con los contactos de confianza.
 
-##### Contactos de confianza
+**Contactos de confianza**
 
 Permite registrar familiares, parejas o amigos que recibirán notificaciones relacionadas con el trayecto.
 
-##### Mapa nocturno
+**Mapa nocturno**
 
 Permite visualizar:
 
@@ -1311,7 +1275,7 @@ Permite visualizar:
 - Incidentes registrados.
 - Información proporcionada por la comunidad.
 
-##### Reporte de incidentes
+**Reporte de incidentes**
 
 Permite registrar situaciones como:
 
@@ -1322,7 +1286,7 @@ Permite registrar situaciones como:
 - Accidente.
 - Situación sospechosa.
 
-##### Registro de bienestar
+**Registro de bienestar**
 
 Permite registrar información relacionada con:
 
@@ -1331,11 +1295,11 @@ Permite registrar información relacionada con:
 - Fatiga.
 - Hábitos relacionados con el turno nocturno.
 
-##### Comunidad
+**Comunidad**
 
 Permite a los trabajadores compartir información, experiencias y recomendaciones relacionadas con el trabajo nocturno.
 
-##### Beneficios
+**Beneficios**
 
 Permite consultar descuentos, servicios y beneficios negociados para los trabajadores nocturnos mediante la suscripción a la plataforma.
 ## 4.2. Information Architecture.
@@ -1361,7 +1325,7 @@ En la startup, el sistema de etiquetado ha sido diseñado para maximizar la clar
 
 El sistema de etiquetado considera que los usuarios principales pueden tener diferentes niveles de alfabetización digital. Por ello, se evitarán términos técnicos innecesarios y se utilizarán expresiones familiares para los trabajadores nocturnos y sus contactos de confianza.
 
-#### Principios clave del sistema de etiquetado:
+**Principios clave del sistema de etiquetado:**
 
 Las etiquetas evitarán tecnicismos innecesarios y ambigüedades. Se emplearán términos comunes que puedan ser comprendidos rápidamente por trabajadores, familiares y otros usuarios de la plataforma.
 
@@ -1371,7 +1335,7 @@ Las etiquetas se limitarán preferentemente a 1-3 palabras, procurando que sean 
 
 Las etiquetas relacionadas con situaciones de seguridad tendrán un mayor peso visual y utilizarán colores e iconos de acuerdo con las directrices establecidas en la guía de estilo.
 
-#### Etiquetas principales por área
+**Etiquetas principales por área**
 
 **Navegación global:** Inicio, Trayecto, Mapa, Comunidad, Bienestar, Beneficios, Perfil.
 
@@ -1389,7 +1353,7 @@ Las etiquetas relacionadas con situaciones de seguridad tendrán un mayor peso v
 
 **Acciones del usuario:** Crear cuenta, Iniciar sesión, Iniciar trayecto, Confirmar llegada, Reportar incidente, Compartir ubicación, Añadir contacto, Registrar descanso, Ver beneficio, Cerrar sesión.
 
-#### Asociaciones entre etiquetas
+**Asociaciones entre etiquetas**
 
 Algunas etiquetas se utilizarán en conjunto para facilitar la comprensión del estado del sistema:
 
@@ -1403,17 +1367,16 @@ Algunas etiquetas se utilizarán en conjunto para facilitar la comprensión del 
 - "Beneficio disponible"
 - "Reporte verificado"
 ### 4.2.3. SEO Tags and Meta Tags
-#### Página de inicio
-
+**Página de inicio**
 **Título:** Seguridad y bienestar para trabajadores nocturnos.
 
 **Meta Descripción:** Plataforma digital para trabajadores nocturnos que ofrece seguimiento de trayectos, contactos de confianza, información sobre servicios abiertos, reportes comunitarios y herramientas de bienestar.
 
 **Meta Palabras clave:** trabajadores nocturnos, seguridad nocturna, bienestar laboral, seguridad personal, trayecto seguro, servicios nocturnos, comunidad nocturna, Lima.
 
-**Autor de la metaetiqueta:** [Noctiva]
+**Autor de la metaetiqueta:** [Noxway]
 
-#### Aplicación web
+**Aplicación web**
 
 **Título:** Seguridad y bienestar durante tu jornada nocturna.
 
@@ -1421,12 +1384,12 @@ Algunas etiquetas se utilizarán en conjunto para facilitar la comprensión del 
 
 **Meta Palabras clave:** seguridad para trabajadores nocturnos, seguimiento de trayectos, contactos de confianza, mapa nocturno, zonas de riesgo, servicios abiertos, bienestar nocturno.
 
-**Autor de la metaetiqueta:** [Noctiva]
+**Autor de la metaetiqueta:** [Noxway]
 
 ### 4.2.4. Searching Systems.
 Las decisiones de búsqueda en Noxway están orientadas a garantizar que los usuarios encuentren rápidamente información relevante sobre servicios nocturnos, zonas de riesgo, rutas, reportes comunitarios y beneficios, evitando que tengan que revisar grandes cantidades de información.
 
-#### Opciones de búsqueda
+**Opciones de búsqueda**
 
 **Barra de búsqueda**
 
@@ -1455,7 +1418,7 @@ Los resultados podrán actualizarse conforme el usuario escribe, mostrando las o
 - Ruta recomendada
 - Beneficio disponible
 
-#### Filtros disponibles
+**Filtros disponibles**
 
 **Por tipo de servicio:** Restaurantes, farmacias, tiendas, centros de salud, transporte y otros servicios disponibles durante la noche.
 
@@ -1469,7 +1432,7 @@ Los resultados podrán actualizarse conforme el usuario escribe, mostrando las o
 
 **Por fecha:** Reportes recientes, últimos 7 días y últimos 30 días.
 
-#### Apariencia de los datos después de la búsqueda
+**Apariencia de los datos después de la búsqueda**
 
 **Listados de resultados:** Incluyen nombre del lugar o reporte, ubicación, distancia, horario de atención y valoración cuando corresponda.
 
@@ -1486,7 +1449,7 @@ La estructura de navegación de la startup está diseñada para ofrecer una expe
 
 La navegación prioriza especialmente las funciones que pueden ser utilizadas durante un desplazamiento nocturno, reduciendo la cantidad de pasos necesarios para acceder a información importante.
 
-#### Páginas principales
+**Páginas principales**
 
 **Inicio:** Dashboard principal con el estado del usuario, trayecto activo, alertas importantes, servicios cercanos y accesos rápidos.
 
@@ -1502,7 +1465,7 @@ La navegación prioriza especialmente las funciones que pueden ser utilizadas du
 
 **Perfil:** Permite administrar información personal, contactos de confianza, preferencias, privacidad y configuración de la cuenta.
 
-#### Opciones de usuario
+**Opciones de usuario**
 
 **Iniciar sesión:** Acceso para usuarios registrados.
 
@@ -1516,7 +1479,7 @@ La navegación prioriza especialmente las funciones que pueden ser utilizadas du
 
 **Cerrar sesión:** Salida segura de la cuenta.
 
-#### Búsqueda y navegación
+**Búsqueda y navegación**
 
 **Barra de búsqueda:** Disponible en las secciones donde sea necesario localizar servicios, lugares, reportes o beneficios.
 
@@ -1526,7 +1489,7 @@ La navegación prioriza especialmente las funciones que pueden ser utilizadas du
 
 **Mapa:** Permite navegar visualmente por la ubicación del usuario y consultar información relevante del entorno nocturno.
 
-#### Navegación de seguridad
+**Navegación de seguridad**
 
 Las funciones relacionadas con seguridad tendrán acceso prioritario desde la interfaz.
 
@@ -1542,7 +1505,7 @@ El usuario podrá acceder rápidamente a:
 
 Estas funciones tendrán una ubicación consistente para facilitar su identificación y reducir el tiempo de interacción en situaciones críticas.
 
-#### Marca e identidad
+**Marca e identidad**
 
 El nombre y logotipo de la startup estarán visibles en las principales vistas de la plataforma, asegurando coherencia de marca.
 
@@ -1790,23 +1753,23 @@ En esta sección se presenta la arquitectura de software de Noxway desde el enfo
 **Identity & Network Management**
 <br>
 <br>
-<img src="resources/imgs/Identity & Network Management.png"
+<img src="resources/imgs/management.png"
      alt="eventstorming"
      style="">
 <br>
 <br>
-**Safe Commute Execution**
+**Safe Commute & Incident Mangement**
 <br>
 <br>
-<img src="resources/imgs/safees.png"
+<img src="resources/imgs/safe-commute.png"
      alt="eventstorming"
      style="">
 <br>
 <br>
-**Incident & Alert Management**
+**Sleep Health & Wellnes**
 <br>
 <br>
-<img src="resources/imgs/incident.png"
+<img src="resources/imgs/sleep-health.png"
      alt="eventstorming"
      style="">
 <br>
@@ -1814,15 +1777,7 @@ En esta sección se presenta la arquitectura de software de Noxway desde el enfo
 **Community Intelligence**
 <br>
 <br>
-<img src="resources/imgs/comuni.png"
-     alt="eventstorming"
-     style="">
-<br>
-<br>
-**Sleep Health & Wellness**
-<br>
-<br>
-<img src="resources/imgs/sleep.png"
+<img src="resources/imgs/community.png"
      alt="eventstorming"
      style="">
 <br>
@@ -1838,7 +1793,7 @@ En esta sección se presenta la arquitectura de software de Noxway desde el enfo
 **Moderation & Governance**
 <br>
 <br>
-<img src="resources/imgs/governance.png"
+<img src="resources/imgs/modera.png"
      alt="eventstorming"
      style="">
 
@@ -1870,8 +1825,7 @@ C4 Container Diagram de Noxway.
 
 ## 4.6.4. Software Architecture Components Diagrams
 
-### Landing Page Components
-
+**Landing Page Components**
 La Landing Page se descompone en Hero & Protocol Section, Ecosystem & Features, Subscription Plans View y Registration Funnel. Estas secciones exponen visualmente el flujo de cuatro pasos (Vincular, Iniciar, Monitorear, Confirmar) y las capacidades tecnológicas del sistema. El Registration Funnel permite captar datos iniciales y redirigir a los visitantes hacia la experiencia correspondiente (Worker o Contact) en la Web Application, comunicándose directamente con el RESTful API.
 
 C4 Component Diagram - Landing Page.
@@ -1879,8 +1833,8 @@ C4 Component Diagram - Landing Page.
 <img src="resources/imgs/landingdiagram.png"
      alt="componentdiagram"
      style="">
-
-### Web Application Components
+     
+     **Web Application Components**
 
 La Web Application separa el Auth & Onboarding Module, Worker Portal, Companion Portal, Active Commute Tracker, 24h Community Map, Sleep & Wellness Log y Benefits & Subscriptions. Todas estas experiencias utilizan llamadas centralizadas y comparten componentes interactivos, manteniendo una única vía de comunicación con el RESTful API para garantizar la sincronización en tiempo real del estado de los trayectos.
 
@@ -1890,7 +1844,7 @@ C4 Component Diagram - Web Application.
      alt="componentdiagram"
      style="">
 
-### RESTful API Components
+**RESTful API Components**
 
 El RESTful API organiza sus componentes principales de acuerdo con los Bounded Contexts identificados en el Design-Level EventStorming: Account & Auth Controller, Trust Network Controller, Commute & Check-In Controller, Incident & Alert Manager, Community Map Service, Sleep Wellness Service, Subscription Controller y Moderation Controller.
 
@@ -1904,7 +1858,7 @@ C4 Component Diagram - RESTful API.
      alt="componentdiagram"
      style="">
 
-### Relational Database Components
+**Relational Database Components**
 
 El container Relational Database se organiza mediante separación lógica de datos. Los esquemas `users_network_schema`, `commute_incident_schema`, `community_data_schema`, `wellness_schema`, `subscription_schema` y `moderation_schema` corresponden a los Bounded Contexts identificados. 
 
@@ -1922,52 +1876,52 @@ El diseño orientado a objetos se organiza de acuerdo con los Bounded Contexts i
 
 ## 4.7.1. Class Diagrams
 
-### Identity & Network Management
+**Identity & Network Management**
 
 El modelo concentra la abstracción `User`, de la cual heredan los roles específicos `NightWorker` y `TrustedContact`. `TrustLink` modela la clase de asociación que representa el vínculo de acompañamiento seguro entre un trabajador y su contacto de confianza, encapsulando su estado y vigencia.
 
 Class Diagram - Identity & Network Management.
 
-<img src="resources/imgs/identity&networkmanagement.png"
+<img src="resources/imgs/ia-m.png"
      style="">
 
-### Safe Commute & Incident Management
+**Safe Commute & Incident Management**
 
 `Commute` representa el núcleo del ciclo de vida del trayecto y se relaciona fuertemente con `TelemetryPing` mediante composición para registrar la ubicación y velocidad. `SafetyIncident` modela las situaciones de riesgo o demoras generadas durante el trayecto, interactuando con `NotificationPreference` para escalar las alertas a los canales correspondientes.
 
 Class Diagram - Safe Commute Incident Management.
 
-<img src="resources/imgs/safecommute.png"
+<img src="resources/imgs/management.png"
      style="">
 
-### Community Intelligence
+**Community Intelligence**
 
 `CommunityMap` actúa como la entidad agregadora para la consulta espacial. `NightServicePoint` representa los servicios verificados que operan en la madrugada y `RiskZone` modela los puntos de peligro reportados. `RouteRating` registra la calificación de seguridad asignada a las rutas una vez finalizado el desplazamiento.
 
 Class Diagram - Community Intelligence.
 
-<img src="resources/imgs/community intelligence.png"
+<img src="resources/imgs/com.png"
      style="">
 
-### Sleep Health & Wellness
+**Sleep Health & Wellness**
 
 `SleepLog` representa el registro agregado diario de metas y déficits de sueño, mientras que `RestSession` registra periodos individuales de descanso fragmentado. `HygieneSuggestion` modela las recomendaciones emitidas por el sistema en función del nivel de fatiga detectado en el trabajador nocturno.
 
 Class Diagram - Sleep Health Wellness.
 
-<img src="resources/imgs/sleephealth.png"
+<img src="resources/imgs/sleep.png"
      style="">
 
-### Subscriptions & Collective Benefits
+**Subscriptions & Collective Benefits**
 
 `Subscription` representa el plan (Esencial, Centinela Pro, etc.) activo de un trabajador, el cual genera registros en `PaymentTransaction` por su facturación recurrente. `CollectiveBenefit` modela los seguros y convenios habilitados, mientras que `ReferralCode` administra la lógica del programa de crecimiento por referidos.
 
 Class Diagram - Subscriptions Collective Benefits.
 
-<img src="resources/imgs/subscriptions.png"
+<img src="resources/imgs/subs.png"
      style="">
 
-### Moderation & Governance
+**Moderation & Governance**
 
 `ModerationQueue` representa la bandeja de tareas de los moderadores del sistema. `CommunityReport` modela de forma abstracta los elementos enviados por los usuarios y `ModerationAction` mantiene el registro auditable de las decisiones (aprobación o rechazo) aplicadas sobre dichos reportes.
 
@@ -1988,7 +1942,7 @@ Las relaciones internas de cada Bounded Context se representan mediante claves f
 
 ### 4.8.1. Database Diagrams
 
-#### Identity & Network Management
+**Identity & Network Management**
 
 El modelo persiste las cuentas en `users` y su información demográfica en `user_profiles`. El control de acceso se maneja a través de `roles` y `user_roles`. Los dispositivos móviles se registran en `user_devices` para posibilitar el envío de notificaciones push. La creación de la red de acompañamiento utiliza `trust_invitations` para gestionar los tokens enviados externamente y `trust_links` para consolidar el vínculo aceptado.
 
@@ -1997,7 +1951,7 @@ Database Diagram - Identity & Network Management.
 <img src="resources/imgs/iden.png"
      style="">
 
-#### Safe Commute & Incident Management
+**Safe Commute & Incident Management**
 
 El modelo persiste los trayectos en la tabla `commutes`, complementada por `commute_checkpoints` para trazar los hitos de la ruta. La telemetría de alto volumen se aísla en `telemetry_pings`. Las anomalías generan registros en `safety_incidents`, los cuales mantienen su ciclo de vida y disparan registros de auditoría de notificaciones en `incident_alerts`.
 
@@ -2006,7 +1960,7 @@ Database Diagram - Safe Commute Incident Management.
 <img src="resources/imgs/comu.png"
      style="">
 
-#### Community Intelligence
+**Community Intelligence**
 
 El modelo persiste ubicaciones geoespaciales como `night_services` y `risk_zones`. Para garantizar la confiabilidad comunitaria, se emplean las tablas transaccionales `service_validations` y `risk_zone_confirmations`, que evitan votos duplicados por parte del mismo trabajador. Las encuestas de los desplazamientos se almacenan en `route_ratings`.
 
@@ -2015,7 +1969,7 @@ Database Diagram - Community Intelligence.
 <img src="resources/imgs/commu.png"
      style="">
 
-#### Sleep Health & Wellness
+**Sleep Health & Wellness**
 
 El modelo organiza la higiene del sueño separando el consolidado diario (`daily_sleep_logs`) de los periodos de descanso fraccionado (`sleep_sessions`). El sistema almacena en `hygiene_suggestions` las alertas emitidas por déficit de horas, las cuales se vinculan lógicamente al usuario que las recibe.
 
@@ -2024,7 +1978,7 @@ Database Diagram - Sleep Health Wellness.
 <img src="resources/imgs/health.png"
      style="">
 
-#### Subscriptions & Collective Benefits
+**Subscriptions & Collective Benefits**
 
 El modelo persiste el catálogo de servicios en `subscription_plans`. La tabla `subscriptions` mantiene el estado de membresía del usuario, apoyándose en `payment_transactions` para el historial de facturación. Los convenios de seguros y descuentos se guardan en `collective_benefits`. El esquema de fidelización emplea `referral_codes` y audita sus canjes mediante `referral_usages`.
 
@@ -2033,7 +1987,7 @@ Database Diagram - Subscriptions Payment Management.
 <img src="resources/imgs/sub.png"
      style="">
 
-#### Moderation & Governance
+**Moderation & Governance**
 
 El modelo implementa un diseño polimórfico en `moderation_tasks` (`entity_type` y `entity_id`) para centralizar en una sola cola los reportes de distintos orígenes. Las decisiones tomadas por los moderadores generan una pista de auditoría inmutable en `moderation_logs` para sustentar cualquier aprobación o rechazo.
 
@@ -2148,7 +2102,7 @@ Para asegurar la trazabilidad y mantener un historial estructurado, se aplica el
 
 Para asegurar la calidad, mantenibilidad y coherencia de nuestra solución, hemos definido un conjunto de convenciones y buenas prácticas. Dado que la plataforma Noxway se presenta inicialmente a través de una landing page interactiva, nos centramos en los estándares para HTML, CSS y JavaScript, los pilares de nuestro desarrollo.
 
-## Convenciones de Nomenclatura
+**Convenciones de Nomenclatura**
 
 Para mantener la consistencia y la claridad a lo largo del código fuente, seguimos las siguientes reglas de nombrado:
 
@@ -2158,7 +2112,7 @@ Para mantener la consistencia y la claridad a lo largo del código fuente, segui
 * **Atributos Personalizados (`data-*`)**: Se emplean nombres en `kebab-case` para almacenar metadatos de traducción e interacción dinámica (ej. `data-i18n`, `data-lang`, `data-plan-id`, `data-role-target`).
 * **Archivos y Directorios**: Los nombres de archivos y carpetas se escriben íntegramente en minúsculas separando las palabras mediante guiones cortos (`kebab-case`) (ej. `index.html`, `style.css`, `i18n.js`, `main.js`, `hero-night-poster.jpg`).
 
-## Estructura Semántica (HTML)
+**Estructura Semántica (HTML)**
 
 La estructura de nuestro documento HTML se basa en la semántica web, utilizando etiquetas con un significado claro tanto para el navegador como para los desarrolladores. Esto no solo mejora la accesibilidad (WAI-ARIA) y el posicionamiento SEO, sino que también facilita la comprensión y auditoría del código. A continuación, se detallan las etiquetas utilizadas en el proyecto:
 
@@ -2188,7 +2142,7 @@ La estructura de nuestro documento HTML se basa en la semántica web, utilizando
 * `<div>`: Contenedores genéricos utilizados para maquetación, ventanas modales de términos y condiciones (`terms-modal-overlay`) y agrupaciones visuales.
 * `<script>`: Carga de los archivos JavaScript (`js/i18n.js` y `js/main.js`) para gestionar la internacionalización y la interactividad del sitio.
 
-## Estilos y Maquetación (CSS)
+**Estilos y Maquetación (CSS)**
 
 Nuestra guía de estilo para CSS se centra en la claridad, simplicidad y consistencia visual. Se han definido propiedades clave para el diseño visual y la adaptabilidad del sitio:
 
@@ -2199,13 +2153,13 @@ Nuestra guía de estilo para CSS se centra en la claridad, simplicidad y consist
 * `color` y `background-color`: Definen la paleta croma nocturna del sitio (tonos oscuros con acentos brillantes).
 * `display` y `flexbox`: Estructuran la alineación y distribución responsiva de los elementos en la barra de navegación, cuadrículas y formularios.
 
-## Estándares de Accesibilidad (WAI-ARIA)
+**Estándares de Accesibilidad (WAI-ARIA)**
 
-El código fuente implementa los siguientes estándares para garantizar el cumplimiento de accesibilidad[cite: 2]:
+El código fuente implementa los siguientes estándares para garantizar el cumplimiento de accesibilidad:
 
-* **Roles explícitos**: Uso de roles WAI-ARIA como `role="banner"`, `role="dialog"`, `role="tablist"`, `role="tab"`, `role="tabpanel"`, `role="radiogroup"`, `role="radio"` y `role="contentinfo"`[cite: 2].
-* **Estados dinámicos**: Control de visibilidad e interacción mediante los atributos `aria-expanded`, `aria-pressed`, `aria-selected`, `aria-hidden` y `hidden`[cite: 2].
-* **Etiquetado claro**: Vinculación de controles mediante `aria-label`, `aria-labelledby`, `aria-controls` y `aria-live="polite"` para la lectura por tecnologías de asistencia[cite: 2].
+* **Roles explícitos**: Uso de roles WAI-ARIA como `role="banner"`, `role="dialog"`, `role="tablist"`, `role="tab"`, `role="tabpanel"`, `role="radiogroup"`, `role="radio"` y `role="contentinfo"`.
+* **Estados dinámicos**: Control de visibilidad e interacción mediante los atributos `aria-expanded`, `aria-pressed`, `aria-selected`, `aria-hidden` y `hidden`.
+* **Etiquetado claro**: Vinculación de controles mediante `aria-label`, `aria-labelledby`, `aria-controls` y `aria-live="polite"` para la lectura por tecnologías de asistencia.
 
 ### 5.1.4. Software Deployment Configuration.
 
@@ -2213,7 +2167,7 @@ Para poder publicar nuestra landing page, seguimos una serie de pasos específic
 
 El despliegue en GitHub Pages requiere que los archivos estén organizados de una manera particular para que la plataforma los reconozca y los sirva correctamente.
 
-## 1. Organización del Repositorio
+ **1. Organización del Repositorio**
 
 Los archivos del proyecto están organizados de la siguiente manera dentro del repositorio:
 
@@ -2222,11 +2176,10 @@ Los archivos del proyecto están organizados de la siguiente manera dentro del r
 * **Archivos JavaScript**: Los scripts se organizan en la carpeta `js/`. El archivo `js/i18n.js` se utiliza para gestionar las traducciones del sitio, mientras que `js/main.js` controla las interacciones del usuario.
 * **Recursos Multimedia**: Las imágenes, gráficos y fondos multimedia se guardan dentro de la carpeta `assets/images/`.
 
-## 2. Subida de Archivos
-
+** 2. Subida de Archivos**
 Una vez que los archivos están correctamente organizados y verificados en el entorno local, se suben al repositorio a través de un *commit* y se sincronizan con la rama principal.
 
-## 3. Configuración en GitHub Pages
+ **3. Configuración en GitHub Pages**
 
 Para habilitar la publicación en la plataforma, se realiza la siguiente configuración:
 
@@ -2234,7 +2187,7 @@ Para habilitar la publicación en la plataforma, se realiza la siguiente configu
 2. Se selecciona la rama `main` como la fuente de despliegue.
 3. Se configura la carpeta raíz (`/root`) como el origen de la página.
 
-## 4. Despliegue Automático
+**4. Despliegue Automático**
 
 * GitHub Pages inicia un proceso de verificación y despliegue automático.
 * Al finalizar el proceso, la plataforma genera una URL pública para acceder a la landing page.
@@ -2286,37 +2239,36 @@ A continuación, se detalla la matriz de liderazgo y colaboración (LACX) para l
 
 <img src="resources/imgs/sprin1.png">
 
-[NoxWay Sprint Backlog](https://trello.com/invite/b/690c87e2eddd3d52ed83189d/ATTI96b986ca465d37e1b647b2fb1690fee5DC6EC0DE/noxway)
+NoxWay Sprint Backlog 
+https://trello.com/invite/b/690c87e2eddd3d52ed83189d/ATTI96b986ca465d37e1b647b2fb1690fee5DC6EC0DE/noxway
 
-#### 5.2.1.4. Development Evidence for Sprint Review. 
 
-#### 5.2.1.4. Development Evidence for Sprint Review.
 
 En este primer Sprint hemos realizado la implementación de nuestra Landing Page, donde todo el equipo ha aportado en varias tareas. En la siguiente tabla se muestran los commits realizados para evidenciar el desarrollo.
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| upc-pre-202620-1asi0730-7793 | develop | 1712d6c | Merge pull request #4 from upc-pre-202620-1asi0730-7793/develop | Merge pull request #4 from upc-pre-202620-1asi0730-7793/develop | 19/09/2026 |
-| upc-pre-202620-1asi0730-7793 | develop | 7fe7538 | fix(landing): link youtube in index.html | link youtube in index.html | 19/09/2026 |
-| upc-pre-202620-1asi0730-7793 | develop | ed85441 | Merge pull request #3 from upc-pre-202620-1asi0730-7793/develop | Merge pull request #3 from upc-pre-202620-1asi0730-7793/develop | 19/09/2026 |
-| upc-pre-202620-1asi0730-7793 | develop | 2889157 | feat(i18n): implement bilingual dictionaries and translation engine in i18n.js | implement bilingual dictionaries and translation engine in i18n.js | 19/09/2026 |
-| upc-pre-202620-1asi0730-7793 | develop | 47d9cd6 | fix(landing): correct general structure and syntax errors in main.js | correct general structure and syntax errors in main.js | 19/09/2026 |
-| upc-pre-202620-1asi0730-7793 | develop | 3685bb3 | fix(landing): correct general structure and syntax errors in index.html | correct general structure and syntax errors in index.html | 19/09/2026 |
-| upc-pre-202620-1asi0730-7793 | develop | 2ed91c3 | Merge pull request feature/final-finalpart-style | Merge pull request feature/final-finalpart-style | 19/09/2026 |
-| upc-pre-202620-1asi0730-7793 | develop | 4045767 | feat: add final style adjustments to landing page | add final style adjustments to landing page | 19/09/2026 |
-| upc-pre-202620-1asi0730-7793 | develop | db796f1 | feat(landing): add subscription plans section in index.html | add subscription plans section in index.html | 19/09/2026 |
-| upc-pre-202620-1asi0730-7793 | develop | f8d0f1d | feat(landing): implement reveal on scroll logic for protocol and ecosystem in main.js | implement reveal on scroll logic for protocol and ecosystem in main.js | 19/09/2026 |
-| upc-pre-202620-1asi0730-7793 | develop | 8d6439e | style(landing): add styles for video and testimonial sections in styles.css | add styles for video and testimonial sections in styles.css | 19/09/2026 |
-| upc-pre-202620-1asi0730-7793 | develop | 5627df0 | feat(landing): implement initialization, responsive menu and hero video control | implement initialization, responsive menu and hero video control | 19/09/2026 |
-| upc-pre-202620-1asi0730-7793 | develop | f0a6a1f | style(landing): add styles for night protocol and ecosystem sections in styles.css | add styles for night protocol and ecosystem sections in styles.css | 19/09/2026 |
-| upc-pre-202620-1asi0730-7793 | develop | ae391c4 | style(landing): add css variables, reset, header, navigation and hero styles in styles.css | add css variables, reset, header, navigation and hero styles in styles.css | 19/09/2026 |
-| upc-pre-202620-1asi0730-7793 | develop | 795c91c | Merge pull request feature/final-preview-landingpage | Merge pull request feature/final-preview-landingpage | 19/09/2026 |
-| upc-pre-202620-1asi0730-7793 | develop | f20d424 | feat(landing): add contact section, footer and terms modal markup | add contact section, footer and terms modal markup | 19/09/2026 |
-| upc-pre-202620-1asi0730-7793 | develop | 3e57cf8 | feat(landing): add video showcase and testimonials sections in index.html | add video showcase and testimonials sections in index.html | 19/09/2026 |
-| upc-pre-202620-1asi0730-7793 | develop | 7816c6c | chore(assets): add required image assets for landing page | add required image assets for landing page | 19/09/2026 |
-| upc-pre-202620-1asi0730-7793 | develop | aa5543b | feat(landing): add night protocol and ecosystem sections in index.html | add night protocol and ecosystem sections in index.html | 19/09/2026 |
-| upc-pre-202620-1asi0730-7793 | develop | 1c254f0 | feat(landing): add base html structure, navigation bar and hero section in index.html | add base html structure, navigation bar and hero section in index.html | 19/09/2026 |
-| upc-pre-202620-1asi0730-7793 | develop | 0ec1b1e | feat(landing): add core structure, styles, main scripts and i18n support | add core structure, styles, main scripts and i18n support | 19/09/2026 |
+| upc-pre-202620-1asi0730-7793 | main | 1712d6c | Merge pull request #4 from upc-pre-202620-1asi0730-7793/develop | Merge pull request #4 from upc-pre-202620-1asi0730-7793/develop | 19/09/2026 |
+| upc-pre-202620-1asi0730-7793 | main | 7fe7538 | fix(landing): link youtube in index.html | link youtube in index.html | 19/09/2026 |
+| upc-pre-202620-1asi0730-7793 | main | ed85441 | Merge pull request #3 from upc-pre-202620-1asi0730-7793/develop | Merge pull request #3 from upc-pre-202620-1asi0730-7793/develop | 19/09/2026 |
+| upc-pre-202620-1asi0730-7793 | main | 2889157 | feat(i18n): implement bilingual dictionaries and translation engine in i18n.js | implement bilingual dictionaries and translation engine in i18n.js | 19/09/2026 |
+| upc-pre-202620-1asi0730-7793 | main | 47d9cd6 | fix(landing): correct general structure and syntax errors in main.js | correct general structure and syntax errors in main.js | 19/09/2026 |
+| upc-pre-202620-1asi0730-7793 | main | 3685bb3 | fix(landing): correct general structure and syntax errors in index.html | correct general structure and syntax errors in index.html | 19/09/2026 |
+| upc-pre-202620-1asi0730-7793 | main | 2ed91c3 | Merge pull request feature/final-finalpart-style | Merge pull request feature/final-finalpart-style | 19/09/2026 |
+| upc-pre-202620-1asi0730-7793 | main | 4045767 | feat: add final style adjustments to landing page | add final style adjustments to landing page | 19/09/2026 |
+| upc-pre-202620-1asi0730-7793 | main | db796f1 | feat(landing): add subscription plans section in index.html | add subscription plans section in index.html | 19/09/2026 |
+| upc-pre-202620-1asi0730-7793 | main | f8d0f1d | feat(landing): implement reveal on scroll logic for protocol and ecosystem in main.js | implement reveal on scroll logic for protocol and ecosystem in main.js | 19/09/2026 |
+| upc-pre-202620-1asi0730-7793 | main | 8d6439e | style(landing): add styles for video and testimonial sections in styles.css | add styles for video and testimonial sections in styles.css | 19/09/2026 |
+| upc-pre-202620-1asi0730-7793 | main | 5627df0 | feat(landing): implement initialization, responsive menu and hero video control | implement initialization, responsive menu and hero video control | 19/09/2026 |
+| upc-pre-202620-1asi0730-7793 | main | f0a6a1f | style(landing): add styles for night protocol and ecosystem sections in styles.css | add styles for night protocol and ecosystem sections in styles.css | 19/09/2026 |
+| upc-pre-202620-1asi0730-7793 | main | ae391c4 | style(landing): add css variables, reset, header, navigation and hero styles in styles.css | add css variables, reset, header, navigation and hero styles in styles.css | 19/09/2026 |
+| upc-pre-202620-1asi0730-7793 | main | 795c91c | Merge pull request feature/final-preview-landingpage | Merge pull request feature/final-preview-landingpage | 19/09/2026 |
+| upc-pre-202620-1asi0730-7793 | main | f20d424 | feat(landing): add contact section, footer and terms modal markup | add contact section, footer and terms modal markup | 19/09/2026 |
+| upc-pre-202620-1asi0730-7793 | main | 3e57cf8 | feat(landing): add video showcase and testimonials sections in index.html | add video showcase and testimonials sections in index.html | 19/09/2026 |
+| upc-pre-202620-1asi0730-7793 | main | 7816c6c | chore(assets): add required image assets for landing page | add required image assets for landing page | 19/09/2026 |
+| upc-pre-202620-1asi0730-7793 | main | aa5543b | feat(landing): add night protocol and ecosystem sections in index.html | add night protocol and ecosystem sections in index.html | 19/09/2026 |
+| upc-pre-202620-1asi0730-7793 | main | 1c254f0 | feat(landing): add base html structure, navigation bar and hero section in index.html | add base html structure, navigation bar and hero section in index.html | 19/09/2026 |
+| upc-pre-202620-1asi0730-7793 | main | 0ec1b1e | feat(landing): add core structure, styles, main scripts and i18n support | add core structure, styles, main scripts and i18n support | 19/09/2026 |
 
 #### 5.2.1.5. Execution Evidence for Sprint Review. 
 Capturas de la página desplegada junto a un video demostrativo de su diseño y usabilidad
@@ -2333,16 +2285,253 @@ El backend de Noxway estará orientado a facilitar la administración de proceso
 
 Este avance representa un paso importante para el crecimiento del proyecto, ya que permitirá consolidar una base tecnológica sólida y bien documentada sobre la cual se desarrollarán e integrarán las siguientes etapas del ecosistema de seguridad nocturna.
 
+Durante el Sprint 1, el alcance de desarrollo e implementación técnica estuvo enfocado de manera exclusiva en la construcción, optimización y despliegue público de la Landing Page estática de Noxway, con el objetivo de validar la propuesta de valor comercial y captar el interés de los segmentos objetivo (trabajadores nocturnos y contactos de confianza).
+
+Debido a que la arquitectura de servicios (RESTful API), la base de datos y la lógica de negocio central de la plataforma móvil y web forman parte del alcance de las siguientes iteraciones (Sprints posteriores), en esta fase inicial aún no se cuenta con implementaciones a nivel de backend.
+
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review. 
 Durante este sprint, se completó el despliegue de la landing page para habilitar su acceso público mediante GitHub Pages. El procedimiento inició con la creación y configuración de un repositorio público bajo la nomenclatura asignada al proyecto. Posteriormente, se cargó el código fuente y se activó el servicio de publicación web desde los ajustes del repositorio. Finalmente, se validó la disponibilidad y operatividad del sitio en línea, estableciendo un flujo de mantenimiento continuo en el cual cualquier cambio subido al repositorio se refleja automáticamente en producción.
 
 *Evidencia de deployment 1*
+<br>
 <img src="resources/imgs/Github-Pages-Nowxay.png">
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint. 
+
 <img src="resources/imgs/Colaboration1.png">
+
 <img src="resources/imgs/Colaboration2.png">
 
+
+### 5.2.1. Sprint 2
+
+#### 5.2.2.1.Sprint Planning 2.
+El Sprint Planning 2 se enfocó en el despliegue funcional del sitio web estático (Landing Page) de Noxway y de la primera version de la pagina web de Noxway. El objetivo principal de esta iteración es establecer la presencia digital del producto, comunicando claramente la propuesta de valor tanto para los trabajadores de turno nocturno como para sus contactos de confianza, integrando información sobre los planes de suscripción, testimonios y demostraciones visuales de la plataforma.
+
+| Sprint # | Sprint 2 |
+| :--- | :--- |
+| **Sprint Planning Background** | |
+| **Date** | 2026-10-01 |
+| **Time** | 1:00 PM |
+| **Location** | Reunión virtual mediante Discord |
+| **Prepared By** |  Ana Camila Patricio Farias|
+| **Attendees (to planning meeting)** | Ana Patricio,Yam Cano,Leonardo Dextre,Mauricio Ramirez,Carlos Salcedo|
+| **Sprint 2 Review Summary** |  |
+| **Sprint 2 Retrospective Summary** | Durante este sprint, todos los integrantes compartieron sus ideas respecto a la aplicacion web, los bounded context, arquitectura DDD, funcionalidades. Tuvimos tareas bien organizadas y realizadas, que se puede verificar en los avances del informe y de la pagina web |
+| **Sprint Goal & User Stories** | |
+| **Sprint 2 Goal** | Nuestro enfoque está en implementar las correciones a la Landing Page y el despliegue de la aplicacion web, asegurando su coherencia visual y funcionalidad multilingüe y que la puedan usar nuestro dos segementos objetivos. Creemos que esto ofrece una experiencia de navegación más clara, atractiva y accesible a nuestros usuarios potenciales de nuestra solución. Esto se confirmará cuando los usuarios puedan cambiar el idioma fácilmente desde la interfaz, que puedan navergar intuitivamente en la aplicacion sin errores visuales desde cualquier dispositivo, y se valide que imágenes, textos y direcciones estén correctamente integrados y espaciados.|
+| **Sprint 2 Velocity** | 13 Story Points |
+| **Sum of Story Points** | 14 Story Points |
+
+#### 5.2.2.2. Aspect Leaders and Collaborators.
+
+A continuación, se detalla la matriz de liderazgo y colaboración (LACX) para los aspectos clave abordados en este sprint.  
+
+| Team Member (Last Name, First Name) | GitHub Username | Aplicaion web <br>Leader (L) / Collaborator (C) | Despliegue de la aplicacion web <br>Leader (L) / Collaborator (C) | Project Documentation<br>Leader (L) / Collaborator (C) |
+| :--- | :--- | :---: | :---: | :---: |
+| Cano Gomez, Yam Antony  | Yam-1CG | C | C | L |
+| Ramirez Rodriguez, Mauricio Joao  | MauRicio1321rr  | C | C | C |
+| Dextre Dextre Flores, Leonardo | Leo-dex45 | L | L | C |
+| Patricio Farias, Ana Camila | anacamilapatricio-sketch | L | C | L |
+| Salcedo Correa, Carlos Mathhew | Matthewnhfe | L | L | C |
+
+#### 5.2.2.3.Sprint Backlog 2.
+
+| User Story Id | User Story Title | Task Id | Task Title | Task Description | Estimation (Hours) | Assigned To | Status |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **US-06** | Invitar contacto de confianza | UT-01 | Formulario de invitación | Implementar formulario para enviar invitaciones por correo/teléfono y conectar con el API. | 3 | Camila | Done |
+| **US-07** | Aceptar o rechazar invitación | UT-01 | Gestión de invitación entrante | Desarrollar la vista para que el contacto acepte/rechace y actualizar el estado del vínculo. | 2 | Carlos | Done |
+| **US-08** | Remover contacto de confianza | UT-01 | Opción de eliminar contacto | Añadir botón de eliminación con modal de confirmación en la lista de contactos vinculados. | 2 | Leonardo | Done |
+| **US-09** | Iniciar check-in de trayecto seguro | UT-01 | Interfaz de inicio de check-in | Crear formulario para ingresar destino y tiempo estimado e iniciar la telemetría en vivo. | 5 | Carlos | Done |
+| **US-10** | Confirmar llegada segura | UT-01 | Botón de confirmación de llegada | Implementar botón para finalizar el check-in activo, deteniendo el rastreo y notificando. | 3 | Camila | Done |
+| **US-11** | Cancelar check-in activo | UT-01 | Cancelación de trayecto | Desarrollar lógica para cancelar un trayecto en curso desde el dashboard del trabajador. | 2 | Camila | Done |
+| **US-12** | Marcado automático de posible incidente | UT-01 | Cronómetro y alerta automática | Implementar lógica para evaluar tolerancia de tiempo y disparar el incidente en la UI. | 4 | Leonardo | Done |
+| **US-13** | Validar posible incidente | UT-01 | Modal de validación | Crear interfaz para que el trabajador descarte (falso positivo) o confirme una alerta. | 3 | Carlos | Done |
+| **US-14** | Recibir alerta de posible incidente | UT-01 | Recepción de alertas en Companion | Desarrollar notificaciones push y alertas visuales resaltadas en el portal del contacto. | 3 | Camila | Done |
+| **US-15** | Buscar servicios nocturnos cercanos | UT-01 | Mapa de servicios 24h | Integrar mapa interactivo con pines de locales abiertos de madrugada y barra de búsqueda. | 5 | Yam | Done |
+| **US-16** | Reportar nuevo servicio nocturno | UT-01 | Formulario de nuevo local | Crear formulario para registrar información y coordenadas de un nuevo servicio 24h. | 3 | Leonardo | Done |
+| **US-17** | Calificar un servicio nocturno reportado | UT-01 | Sistema de votos para servicios | Añadir botones de upvote/downvote para calificar la veracidad en los detalles del servicio. | 2 | Carlos | Done |
+| **US-18** | Calificar seguridad de ruta | UT-01 | Encuesta de seguridad post-trayecto | Implementar modal de estrellas y comentarios que aparece al confirmar la llegada segura. | 3 | Camila | Done |
+| **US-19** | Reportar punto de riesgo específico | UT-01 | Marcador de riesgo en mapa | Desarrollar opción para colocar un pin de peligro con descripción en el mapa comunitario. | 3 | Yam | Done |
+| **US-20** | Visualizar mapa de zonas de riesgo | UT-01 | Capa de zonas de riesgo | Mostrar perímetros sombreados y advertencias de peligro superpuestas sobre el mapa 24h. | 4 | Leonardo | Done |
+| **US-21** | Registrar horas de descanso | UT-01 | Formulario de bitácora de sueño | Implementar vista para ingresar horas de inicio y fin del descanso diurno del trabajador. | 2 | Carlos | Done |
+| **US-22** | Visualizar historial de descanso | UT-01 | Gráficos de historial de sueño | Integrar librería de gráficos para mostrar patrones de descanso semanales y déficits. | 4 | Camila | Done |
+| **US-23** | Recibir sugerencia de higiene del sueño | UT-01 | Tarjetas de sugerencias | Mostrar alertas de interfaz y recomendaciones basadas en el déficit de sueño calculado. | 2 | Yam | Done |
+| **US-25** | Suscribirse al plan mensual | UT-01 | Flujo de pago y suscripción | Integrar pasarela de pago y actualizar el estado de membresía (Centinela Pro) en el perfil. | 5 | Leonardo | Done |
+| **US-26** | Acceder a beneficios y descuentos | UT-01 | Catálogo de convenios y QR | Desarrollar la vista de recompensas con generación de código QR dinámico para suscriptores. | 3 | Carlos | Done |
+| **US-27** | Referir a un contacto (beneficio) | UT-01 | Generador de enlaces | Implementar sección para copiar código de referido personal y ver el progreso de recompensas. | 2 | Camila | Done |
+| **US-28** | Visualizar estado de trayecto en tiempo real | UT-01 | Mapa de rastreo en vivo | Desarrollar el panel del contacto para mostrar la ubicación en movimiento, velocidad y ETA. | 5 | Yam | Done |
+| **US-29** | Configurar preferencias de notificación | UT-01 | Panel de ajustes de alertas | Crear vista con interruptores (switches) para habilitar/deshabilitar notificaciones de rutina. | 2 | Leonardo | Done |
+| **US-30** | Revisar y aprobar reportes de la comunidad | UT-01 | Bandeja de moderación | Implementar interfaz para listar reportes pendientes y botones de aprobación/rechazo. | 4 | Carlos | Done |
+
+<img src="resources/imgs/spring2.png">
+
+**NoxWay Sprint Backlog:** 
+https://trello.com/invite/b/690c87e2eddd3d52ed83189d/ATTI96b986ca465d37e1b647b2fb1690fee5DC6EC0DE/noxway
+
+Durante el Sprint 2, el equipo trabajó en la implementación del frontend de la aplicación web de Noxway, tomando como referencia las historias de usuario y las tareas definidas en el Sprint Backlog 2. A continuación, se presentan los commits realizados en el repositorio Noxway-Frontend como evidencia del desarrollo y de la integración de los cambios durante esta iteración.
+
+#### 5.2.2.4. Development Evidence for Sprint Review.
+
+Durante el Sprint 2, el equipo desarrolló el frontend de la aplicación web de Noxway, incorporando la estructura de navegación, el dashboard del trabajador y las vistas correspondientes a contactos de confianza, trayectos, comunidad, descanso y beneficios. Asimismo, se realizaron ajustes de traducción, configuración de servicios y correcciones de navegación para integrar los distintos módulos de la aplicación.
+
+A continuación, se presenta una selección de commits representativos del repositorio Noxway-Frontend, perteneciente a la organización upc-pre-202620-1asi0730-7793. Esta selección evidencia los principales cambios registrados durante la iteración. El historial también registra el uso de datos simulados mediante JSON Server y endpoints mock de Beeceptor.
+
+| Repository | Branch | Commit Id | Commit Message | Descripción del cambio | Committed on (Date) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Noxway-Frontend | main | b197353 | feat(shared): align application layout with Figma design | Alinea la estructura visual de la aplicación con el diseño de referencia en Figma. | 06/10/2026 |
+| Noxway-Frontend | main | 36e037a | feat(routes): configure application routes | Configura las rutas de navegación de la aplicación web. | 06/10/2026 |
+| Noxway-Frontend | main | a47a1f5 | feat(dashboard): align worker dashboard with Figma design | Ajusta el dashboard del trabajador al diseño de referencia en Figma. | 06/10/2026 |
+| Noxway-Frontend | main | 7a009d6 | feat(dashboard): consume dashboard data from json server | Incorpora el consumo de datos del dashboard desde JSON Server. | 06/10/2026 |
+| Noxway-Frontend | main | 1712d7c | feat(shared): implement base api configuration and core services | Implementa la configuración base de la API y los servicios centrales compartidos. | 08/10/2026 |
+| Noxway-Frontend | main | d61eb6d | feat(shared): create layout, footer and language switcher components | Crea los componentes de estructura general, pie de página y selector de idioma. | 08/10/2026 |
+| Noxway-Frontend | main | 93801e5 | feat(iam): implement trustedcontacts component logic and invitation actions | Implementa la lógica del componente de contactos de confianza y las acciones de invitación. | 08/10/2026 |
+| Noxway-Frontend | main | 0a8bcf9 | feat(iam): implement profile component logic with privacy toggles | Implementa la lógica del perfil y los controles de privacidad. | 08/10/2026 |
+| Noxway-Frontend | main | ac3646d | feat(companion): create history and invitations views | Crea las vistas de historial e invitaciones del contacto de confianza. | 08/10/2026 |
+| Noxway-Frontend | main | ebe93a0 | feat(companion): build alerts and emergency views | Construye las vistas de alertas y emergencias del módulo Companion. | 08/10/2026 |
+| Noxway-Frontend | main | 5d88583 | feat(companion): implement live tracking and profile views | Incorpora las vistas de seguimiento y perfil del módulo Companion. | 08/10/2026 |
+| Noxway-Frontend | main | bd44b9b | feat(commute): implement journey component logic and telemetry events | Implementa la lógica del componente de trayecto y sus eventos de telemetría. | 08/10/2026 |
+| Noxway-Frontend | main | 4c5a377 | feat(commute): create journey tracking template with checkpoint progress | Crea la plantilla de seguimiento del trayecto con visualización del progreso por puntos de control. | 08/10/2026 |
+| Noxway-Frontend | main | 0e9aac8 | feat(community): implement mapview component logic with filter signals | Implementa la lógica de la vista del mapa y el estado de sus filtros mediante signals. | 08/10/2026 |
+| Noxway-Frontend | main | 65cbe49 | feat(community): implement community feed component logic | Implementa la lógica del componente de publicaciones de la comunidad. | 08/10/2026 |
+| Noxway-Frontend | main | 82568ff | feat(wellness): implement Wellness component logic and rest logger | Implementa la lógica del componente de bienestar y el registro de descanso. | 08/10/2026 |
+| Noxway-Frontend | main | 66cd1d0 | feat(wellness): add Wellness view template with diurnal sleep chart and habits | Añade la plantilla de bienestar con gráfico de sueño diurno y hábitos. | 08/10/2026 |
+| Noxway-Frontend | main | dfc61ce | feat(subscriptions): implement Benefits component logic and signals | Implementa la lógica del componente de beneficios y su estado mediante signals. | 08/10/2026 |
+| Noxway-Frontend | main | 888fb27 | fix(i18n): correct translation dictionary keys and dynamic page titles | Corrige las claves del diccionario de traducciones y los títulos dinámicos de las páginas. | 08/10/2026 |
+| Noxway-Frontend | main | 9818459 | fix(layout): correct sidebar navigation options and language bindings | Corrige las opciones de navegación de la barra lateral y sus enlaces con el idioma seleccionado. | 08/10/2026 |
+| Noxway-Frontend | main | ab4b9aa | feat(api): connect services to beeceptor mock endpoints for production | Conecta los servicios con endpoints simulados de Beeceptor para el entorno de producción. | 08/10/2026 |
+| Noxway-Frontend | main | 698e327 | Merge pull request #2 from upc-pre-202620-1asi0730-7793/develop | Registra la integración de la rama develop en main mediante el Pull Request #2. | 08/10/2026 |
+
+**Historial completo de commits:** [Noxway-Frontend — main](https://github.com/upc-pre-202620-1asi0730-7793/Noxway-Frontend/commits/main/).
+
+#### 5.2.2.5.Execution Evidence for Sprint Review.
+En esta sección se presentan las evidencias de ejecución de la aplicación web de Noxway correspondientes al Sprint 2. Las capturas muestran las interfaces desarrolladas y los resultados de las interacciones realizadas desde los perfiles del trabajador nocturno y del contacto de confianza.
+
+**Aplicación web desplegada:** [Noxway](https://noxway-frontend.web.app/)
+
+**Dashboard del trabajador**
+
+![Dashboard del trabajador](resources/imgs/chapter_v/Noxway-dashboard.png)
+
+*Figura 1. Vista principal del dashboard del trabajador.*
+
+**Perfil del usuario**
+
+![Perfil del usuario](resources/imgs/chapter_v/Noxway-perfil.png)
+
+*Figura 2. Interfaz del perfil del usuario.*
+
+**Contactos de confianza**
+
+![Contactos de confianza](resources/imgs/chapter_v/Noxway-Contactos%20de%20confianza.png)
+
+*Figura 3. Interfaz de gestión de contactos de confianza.*
+
+**Trayecto seguro**
+
+![Trayecto seguro](resources/imgs/chapter_v/Noxway-trayecto.png)
+
+*Figura 4. Vista del trayecto del trabajador.*
+
+**Mapa nocturno**
+
+![Mapa nocturno](resources/imgs/chapter_v/Noxway-mapa.png)
+
+*Figura 5. Interfaz del mapa nocturno.*
+
+**Comunidad**
+
+![Comunidad de Noxway](resources/imgs/chapter_v/Noxway-Comunidad.png)
+
+*Figura 6. Vista del módulo de comunidad.*
+
+**Beneficios**
+
+![Beneficios de Noxway](resources/imgs/chapter_v/Noxway-Beneficios.png)
+
+*Figura 7. Vista del módulo de beneficios.*
+
+#### 5.2.2.6.Services Documentation Evidence for Sprint Review.
+
+Durante el Sprint 2 se implementaron servicios de consulta en el frontend de Noxway para obtener información del dashboard, los trayectos, los contactos de confianza, la comunidad, el bienestar, las suscripciones y el módulo Companion.
+
+En el entorno de desarrollo se utiliza JSON Server con datos de muestra definidos en db.json. La configuración de producción establece Beeceptor como servidor mock para los servicios que utilizan environment.apiUrl. El servicio de trayectos mantiene una dirección local independiente.
+
+Las operaciones identificadas en los servicios específicos del frontend corresponden a solicitudes GET, sin parámetros de ruta, parámetros de consulta ni cuerpo de solicitud. Las respuestas esperadas se describen a continuación. Los ejemplos presentan únicamente algunos campos de los datos de muestra; no representan respuestas completas ni pruebas de ejecución.
+
+**URL base local:** `http://localhost:3000`
+
+**URL base configurada para producción:** `https://noxwayapi.free.beeceptor.com`
+
+| Acción | Método HTTP | Sintaxis de llamada local | Parámetros / cuerpo | Ejemplo parcial de respuesta | Explicación |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Consultar dashboard | GET | `http://localhost:3000/dashboard` | Ninguno | `[{"id":1,"safeTripsPercentage":100,"servicesCount":14}]` | Devuelve una colección con indicadores y datos del dashboard del trabajador. |
+| Consultar trayecto | GET | `http://localhost:3000/commute` | Ninguno | `[{"id":1,"remainingTime":"18:42 min","routeRating":5}]` | Devuelve una colección de trayectos. El frontend selecciona el primer elemento para mostrarlo. |
+| Consultar puntos del mapa | GET | `http://localhost:3000/mapPoints` | Ninguno | `[{"id":1,"type":"pharmacy","lat":-11.992,"lng":-77.072}]` | Devuelve los puntos de servicios nocturnos y zonas de riesgo representados en el mapa. |
+| Consultar publicaciones | GET | `http://localhost:3000/communityPosts` | Ninguno | `[{"id":1,"authorName":"Marcos Huamán","upvotes":28}]` | Devuelve las publicaciones de muestra de la comunidad. |
+| Consultar bienestar | GET | `http://localhost:3000/wellness` | Ninguno | `[{"id":1,"lastRestDuration":"6h 45m","weeklyAverage":"6.8 hrs"}]` | Devuelve una colección con resumen, historial y sugerencias de descanso. El frontend selecciona el primer elemento. |
+| Consultar suscripción | GET | `http://localhost:3000/subscriptions` | Ninguno | `[{"id":1,"planName":"Plan Centinela Pro","referralCode":"JORGE-NOX26"}]` | Devuelve una colección con el plan, los beneficios y los datos de referidos. El frontend selecciona el primer elemento. |
+| Consultar contactos | GET | `http://localhost:3000/trustedContacts` | Ninguno | `[{"id":1,"name":"Rosa Elena Paredes","statusType":"active"}]` | Devuelve la lista de contactos de confianza de muestra. |
+| Consultar perfil del trabajador | GET | `http://localhost:3000/userProfile` | Ninguno | `[{"id":1,"fullName":"Jorge Luis Huamán Quispe","privacyGpsActiveOnly":true}]` | Devuelve una colección con información del perfil. El frontend selecciona el primer elemento. |
+| Consultar seguimiento Companion | GET | `http://localhost:3000/companionLive` | Ninguno | `[{"id":1,"workerName":"Jorge Luis Huamán","battery":"84%"}]` | Devuelve una colección con datos simulados de seguimiento del trabajador. El frontend selecciona el primer elemento. |
+| Consultar historial Companion | GET | `http://localhost:3000/companionHistory` | Ninguno | `{"stats":{"monitoredRoutes":"48 Rutas"},"records":[{"id":1,"status":"Monitoreo Activo"}]}` | Devuelve un objeto con estadísticas y registros de trayectos. |
+| Consultar alertas Companion | GET | `http://localhost:3000/companionAlerts` | Ninguno | `{"channels":[{"id":"whatsapp","enabled":true}],"logs":[{"id":1,"type":"check"}]}` | Devuelve la configuración de canales y el historial de alertas de muestra. |
+| Consultar información de emergencia | GET | `http://localhost:3000/companionEmergency` | Ninguno | `{"rescueProtocol":{"title":"Protocolo de Auxilio Rápido & Ficha de Rescate"},"serenazgo":[{"id":1}],"nationalLines":[{"id":"pnp"}]}` | Devuelve información de muestra del protocolo de auxilio y los contactos de emergencia. |
+| Consultar invitaciones Companion | GET | `http://localhost:3000/companionInvitations` | Ninguno | `{"pending":{"id":1,"status":"PENDIENTE DE CONFIRMACIÓN"},"activeWorkers":[{"id":1}],"steps":[{"step":"01"}]}` | Devuelve la invitación pendiente, los trabajadores vinculados y los pasos informativos de vinculación. |
+| Consultar perfil Companion | GET | `http://localhost:3000/companionProfile` | Ninguno | `{"fullName":"Rosa Elena Paredes Morales","verified":true}` | Devuelve un objeto con los datos del perfil del contacto de confianza. |
+
+**Repositorio que contiene los servicios de consumo y datos simulados:** [Noxway-Frontend](https://github.com/upc-pre-202620-1asi0730-7793/Noxway-Frontend).
+
+#### 5.2.2.7.Software Deployment Evidence for Sprint Review.
+
+
+Durante el Sprint 2 se realizó el despliegue de la primera versión del frontend de Noxway mediante Firebase Hosting, habilitando su acceso público desde un navegador web. El proyecto utilizado para el alojamiento se identifica como noxway-frontend.
+
+La configuración del proyecto Angular contempla una compilación para producción y el uso del archivo environment.production.ts. La consola de Firebase registra la publicación de la aplicación el 8 de octubre de 2026. A continuación, se presentan las evidencias del proyecto utilizado y de la publicación realizada.
+
+**Plataforma de alojamiento:** Firebase Hosting.
+
+**Repositorio del frontend:** [Noxway-Frontend](https://github.com/upc-pre-202620-1asi0730-7793/Noxway-Frontend).
+
+**Aplicación web desplegada:** [Noxway](https://noxway-frontend.web.app/).
+
+**Configuración del proyecto en Firebase**
+
+![Configuración del proyecto Firebase](resources/imgs/chapter_v/Noxway-firebase-configuracion.png)
+
+*Figura 1. Configuración general del proyecto noxway-frontend utilizado para el alojamiento de la aplicación web.*
+
+**Evidencia de publicación en Firebase Hosting**
+
+![Publicación en Firebase Hosting](resources/imgs/chapter_v/Noxway-firebase-despliegue.png)
+
+*Figura 2. Panel de Firebase Hosting que registra el estado «Implementado» y la publicación realizada el 8 de octubre de 2026.*
+
+
+#### 5.2.2.8.Team Collaboration Insights during Sprint.
+
+Durante el Sprint 2, el equipo organizó el desarrollo del frontend de Noxway mediante ramas de funcionalidades y la integración de cambios en develop y main. El historial de GitHub registra aportes en la estructura compartida, el dashboard, los contactos de confianza, los trayectos, la comunidad, el bienestar y el módulo Companion.
+
+La siguiente tabla resume los aportes identificados en el historial de commits revisado:
+
+| Integrante | Usuario de GitHub | Aportes registrados |
+| :--- | :--- | :--- |
+| Cano Gomez, Yam Antony | Yam-1CG | Desarrollo de la estructura visual, navegación y dashboard; configuración y consumo de datos mediante JSON Server. |
+| Dextre Flores, Leonardo Felix | leo-dex45 | Desarrollo de los módulos de perfil, contactos de confianza, comunidad, mapa y trayectos, incluyendo modelos y servicios. |
+| Patricio Farias, Ana Camila | anacamilapatricio-sketch | Desarrollo de las vistas y servicios de Companion, componentes compartidos y dashboard; integración de develop en main mediante el Pull Request #2. |
+| Salcedo Correa, Carlos Matthew | Matthewnhfe | Desarrollo de bienestar y suscripciones; configuración de entornos y conexión con Beeceptor; correcciones de navegación y traducciones. |
+
+**Contribuciones al repositorio**
+
+![Contribuciones del equipo durante el Sprint 2](resources/imgs/chapter_v/Noxway-colaboracion-contributors.png)
+
+*Figura 1. Analíticos de contribución de los integrantes al repositorio Noxway-Frontend.*
+
+**Historial de commits e integración**
+
+![Commits e integración del Sprint 2](resources/imgs/chapter_v/Noxway-colaboracion-commits.png)
+
+*Figura 2. Historial de commits que registra aportes e integración de las funcionalidades desarrolladas durante el Sprint 2.*
 
 # Conclusiones 
 Identificación de un nicho desatendido y vulnerable: El proyecto identifica y atiende a un segmento de mercado que ha sido históricamente ignorado por las soluciones tecnológicas: los trabajadores de turno nocturno y sus contactos de confianza. El análisis y las entrevistas demuestran que las aplicaciones genéricas diseñadas para el horario diurno no logran resolver los riesgos de transitar de madrugada ni el aislamiento social que sufren estos trabajadores.
@@ -2382,5 +2571,15 @@ https://www.oreilly.com/library/view/information-architecture-4th/9781491913529/
 
 # Anexos
 Enlaces teams archivos complementarios
-Landing Page: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202421065_upc_edu_pe/IQBfINsAKTsuTZ5_fDXp19sKAa5z-SRiOqBqVa2xgvU_l0I?e=q8RIZT
-Needfinding: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241i469_upc_edu_pe/IQAU7GDYOY4SSIVp6gNJG9wTAQNGKB7fI-6AUR8smTqqgLA?e=Rxeyjz
+
+Landing Page:
+
+ https://upcedupe-my.sharepoint.com/:v:/g/personal/u202421065_upc_edu_pe/IQBfINsAKTsuTZ5_fDXp19sKAa5z-SRiOqBqVa2xgvU_l0I?e=q8RIZT
+
+Needfinding: 
+
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241i469_upc_edu_pe/IQAU7GDYOY4SSIVp6gNJG9wTAQNGKB7fI-6AUR8smTqqgLA?e=Rxeyjz
+
+Video Fronendt:
+
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u202421065_upc_edu_pe/IQDW4Rio9DvlRKEOT-S5IOoTAVZrK5HIVP8vPeBjPaUsWKY?e=h0f0wH
