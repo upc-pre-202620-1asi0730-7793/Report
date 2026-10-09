@@ -32,13 +32,12 @@
 
 
 **Período:** 202620  
-**Fecha:** Septiembre 2026  
+**Fecha:** Octubre 2026  
 </div>
 
 
 
 ---
-# Registro de Versiones del Informe 
 
 # Registro de Versiones del Informe
 
