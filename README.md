@@ -40,9 +40,12 @@
 ---
 # Registro de Versiones del Informe 
 
-|Versión|Fecha|Autor|Descripción de modificación|
-|:------|:----|:----|:--------------------|
+# Registro de Versiones del Informe
+
+| Versión | Fecha | Autor | Descripción de modificación |
+| :------ | :---- | :---- | :-------------------------- |
 | 1.0 | 2026-09-19 | Noctiva | Desarrollo del Capítulo I, Capítulo II, Capítulo III, Capítulo IV y el Sprint 1 del Capítulo V |
+| 2.0 | 2026-10-08 | Noctiva | Implementación de mejoras según el feedback de evaluación en los Capítulos I al IV, y desarrollo del Sprint 2 del Capítulo V |
 
 # Project Report Collaboration Insights 
 | Recurso | URL |
@@ -60,7 +63,7 @@ Se generaron los recursos necesarios y se agregaron las imágenes al repositorio
 Se organizaron reuniones para coordinar el progreso de los componentes del informe y del Sprint 1, enfocado en el desarrollo de la Landing Page.
 
 <div align="center">
-<img src="assets/chapter01/commits informe - 1.png" alt="Commits del informe">
+<img src="resources/imgs/contributorsav1.png" alt="Commits del informe">
 </div>
 
 
@@ -68,6 +71,7 @@ Se organizaron reuniones para coordinar el progreso de los componentes del infor
 
 ## Tabla de contenidos 
 - [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
+- [Registro de Versiones del Informe](#registro-de-versiones-del-informe-1)
 - [Project Report Collaboration Insights](#project-report-collaboration-insights)
 - [Contenido](#contenido)
   - [Tabla de contenidos](#tabla-de-contenidos)
@@ -92,14 +96,7 @@ Se organizaron reuniones para coordinar el progreso de los componentes del infor
   - [2.1. Competidores.](#21-competidores)
     - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
     - [2.1.2. Estrategias y tácticas frente a competidores.](#212-estrategias-y-tácticas-frente-a-competidores)
-  - [2.2. Entrevistas.](#22-entrevistas)
-    - [2.2.1. Diseño de entrevistas.](#221-diseño-de-entrevistas)
-    - [Segmento Objetivo 1: Trabajadores de turno nocturno](#segmento-objetivo-1-trabajadores-de-turno-nocturno)
-    - [Segmento Objetivo 2: Contactos de confianza de trabajadores de turno nocturno](#segmento-objetivo-2-contactos-de-confianza-de-trabajadores-de-turno-nocturno)
-    - [2.2.2. Registro de entrevistas.](#222-registro-de-entrevistas)
-    - [2.2.3. Análisis de entrevistas.](#223-análisis-de-entrevistas)
-      - [**Análisis del Segmento 1: Trabajadores Nocturnos (Usuarios Principales)**](#análisis-del-segmento-1-trabajadores-nocturnos-usuarios-principales)
-      - [**Análisis del Segmento 2: Contactos de Confianza (Familiares y Parejas)**](#análisis-del-segmento-2-contactos-de-confianza-familiares-y-parejas)
+    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
   - [2.3. Needfinding.](#23-needfinding)
     - [2.3.1. User Personas.](#231-user-personas)
       - [Segmento Objetivo 1: Trabajador de Turno Nocturno](#segmento-objetivo-1-trabajador-de-turno-nocturno)
@@ -115,69 +112,22 @@ Se organizaron reuniones para coordinar el progreso de los componentes del infor
   - [2.5. Ubiquitous Language.](#25-ubiquitous-language)
 - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
   - [3.1. User Stories.](#31-user-stories)
-    - [Epics:](#epics)
-    - [User Stories:](#user-stories)
-  - [| **US-35** | Cambiar idioma y tema visual en la Landing Page | Como visitante del sitio web, quiero alternar entre los idiomas disponibles (español e inglés) y ajustar el modo de visualización para adaptar la lectura a mis preferencias. | **Escenario 1: Alternancia de idioma**Dado que la landing page se muestra en el idioma predeterminado,Cuando el visitante acciona el selector de idioma (ES/EN),Entonces todos los textos, títulos y llamados a la acción se traducen de forma coherente y dinámica.**Escenario 2: Conmutación de tema claro y oscuro**Dado que el visitante interactúa con el interruptor de modo visual en la barra de navegación,Cuando activa el cambio de tema,Entonces la paleta de colores de la interfaz se adapta inmediatamente al esquema seleccionado manteniendo los contrastes y legibilidad. | EP-01 |](#-us-35--cambiar-idioma-y-tema-visual-en-la-landing-page--como-visitante-del-sitio-web-quiero-alternar-entre-los-idiomas-disponibles-español-e-inglés-y-ajustar-el-modo-de-visualización-para-adaptar-la-lectura-a-mis-preferencias--escenario-1-alternancia-de-idiomadado-que-la-landing-page-se-muestra-en-el-idioma-predeterminadocuando-el-visitante-acciona-el-selector-de-idioma-esenentonces-todos-los-textos-títulos-y-llamados-a-la-acción-se-traducen-de-forma-coherente-y-dinámicaescenario-2-conmutación-de-tema-claro-y-oscurodado-que-el-visitante-interactúa-con-el-interruptor-de-modo-visual-en-la-barra-de-navegacióncuando-activa-el-cambio-de-temaentonces-la-paleta-de-colores-de-la-interfaz-se-adapta-inmediatamente-al-esquema-seleccionado-manteniendo-los-contrastes-y-legibilidad--ep-01-)
-    - [Technical Stories:](#technical-stories)
+- [Historias de Usuario - Noxway](#historias-de-usuario---noxway)
+  - [| **US-30** | Moderar comunidad | Como moderador (Noxway), quiero auditar zonas y servicios reportados para evitar spam o "trolls", manteniendo el prestigio de los datos comunitarios frente a nuevos usuarios. | **Escenario 1:** Dado que ve un reporte pendiente, Cuando pulsa "Aprobar", Entonces el punto se publica a todos.**Escenario 2:** Dado que es un reporte vacío o de broma, Cuando pulsa "Rechazar", Entonces desaparece y el usuario generador pierde "Trust Score". | EP-10 |](#-us-30--moderar-comunidad--como-moderador-noxway-quiero-auditar-zonas-y-servicios-reportados-para-evitar-spam-o-trolls-manteniendo-el-prestigio-de-los-datos-comunitarios-frente-a-nuevos-usuarios--escenario-1-dado-que-ve-un-reporte-pendiente-cuando-pulsa-aprobar-entonces-el-punto-se-publica-a-todosescenario-2-dado-que-es-un-reporte-vacío-o-de-broma-cuando-pulsa-rechazar-entonces-desaparece-y-el-usuario-generador-pierde-trust-score--ep-10-)
   - [3.2. Impact Mapping.](#32-impact-mapping)
   - [3.3. Product Backlog.](#33-product-backlog)
 - [Capítulo IV: Product Design](#capítulo-iv-product-design)
   - [4.1. Style Guidelines.](#41-style-guidelines)
     - [4.1.1. General Style Guidelines.](#411-general-style-guidelines)
-      - [El estilo visual de la startup](#el-estilo-visual-de-la-startup)
       - [Principios de diseño](#principios-de-diseño)
-      - [Paleta de colores](#paleta-de-colores)
-      - [Tipografía](#tipografía)
-      - [Jerarquía tipográfica](#jerarquía-tipográfica)
-      - [Espaciado](#espaciado)
-      - [Tono de comunicación](#tono-de-comunicación)
     - [4.1.2. Web Style Guidelines.](#412-web-style-guidelines)
-      - [1. Diseño y estructura](#1-diseño-y-estructura)
-      - [2. Sistema de grillas](#2-sistema-de-grillas)
-      - [3. Componentes UI principales](#3-componentes-ui-principales)
-        - [Tarjetas](#tarjetas)
-        - [Botones](#botones)
-        - [Insignias o Badges](#insignias-o-badges)
-        - [Formularios](#formularios)
-        - [Notificaciones](#notificaciones)
       - [4. Interacción (comportamiento UX)](#4-interacción-comportamiento-ux)
-        - [Feedback inmediato](#feedback-inmediato)
-        - [Restricciones de acciones](#restricciones-de-acciones)
-        - [Visualización del estado](#visualización-del-estado)
-      - [5. Diseño adaptable](#5-diseño-adaptable)
-        - [Móvil](#móvil)
-        - [Tablet y escritorio](#tablet-y-escritorio)
-      - [6. Navegación](#6-navegación)
-        - [Móvil](#móvil-1)
-        - [Escritorio](#escritorio)
-      - [7. Iconografía](#7-iconografía)
-      - [8. Componentes específicos de la solución](#8-componentes-específicos-de-la-solución)
-        - [Registro de trayecto seguro](#registro-de-trayecto-seguro)
-        - [Contactos de confianza](#contactos-de-confianza)
-        - [Mapa nocturno](#mapa-nocturno)
-        - [Reporte de incidentes](#reporte-de-incidentes)
-        - [Registro de bienestar](#registro-de-bienestar)
-        - [Comunidad](#comunidad)
-        - [Beneficios](#beneficios)
   - [4.2. Information Architecture.](#42-information-architecture)
     - [4.2.1. Organization Systems.](#421-organization-systems)
     - [4.2.2. Labeling Systems.](#422-labeling-systems)
-      - [Principios clave del sistema de etiquetado:](#principios-clave-del-sistema-de-etiquetado)
-      - [Etiquetas principales por área](#etiquetas-principales-por-área)
-      - [Asociaciones entre etiquetas](#asociaciones-entre-etiquetas)
     - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
-      - [Página de inicio](#página-de-inicio)
-      - [Aplicación web](#aplicación-web)
     - [4.2.4. Searching Systems.](#424-searching-systems)
-      - [Opciones de búsqueda](#opciones-de-búsqueda)
-      - [Filtros disponibles](#filtros-disponibles)
-      - [Apariencia de los datos después de la búsqueda](#apariencia-de-los-datos-después-de-la-búsqueda)
     - [4.2.5. Navigation Systems.](#425-navigation-systems)
-      - [Páginas principales](#páginas-principales)
-      - [Opciones de usuario](#opciones-de-usuario)
-      - [Búsqueda y navegación](#búsqueda-y-navegación)
-      - [Navegación de seguridad](#navegación-de-seguridad)
-      - [Marca e identidad](#marca-e-identidad)
   - [4.3. Landing Page UI Design.](#43-landing-page-ui-design)
     - [4.3.1. Landing Page Wireframe.](#431-landing-page-wireframe)
     - [4.3.2. Landing Page Mock-up.](#432-landing-page-mock-up)
@@ -192,51 +142,34 @@ Se organizaron reuniones para coordinar el progreso de los componentes del infor
   - [4.6.2. Software Architecture Context Diagram](#462-software-architecture-context-diagram)
   - [4.6.3. Software Architecture Container Diagrams](#463-software-architecture-container-diagrams)
   - [4.6.4. Software Architecture Components Diagrams](#464-software-architecture-components-diagrams)
-    - [Landing Page Components](#landing-page-components)
-    - [Web Application Components](#web-application-components)
-    - [RESTful API Components](#restful-api-components)
-    - [Relational Database Components](#relational-database-components)
   - [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
   - [4.7.1. Class Diagrams](#471-class-diagrams)
-    - [Identity \& Network Management](#identity--network-management)
-    - [Safe Commute \& Incident Management](#safe-commute--incident-management)
-    - [Community Intelligence](#community-intelligence)
-    - [Sleep Health \& Wellness](#sleep-health--wellness)
-    - [Subscriptions \& Collective Benefits](#subscriptions--collective-benefits)
-    - [Moderation \& Governance](#moderation--governance)
   - [4.8. Database Design](#48-database-design)
     - [4.8.1. Database Diagrams](#481-database-diagrams)
-      - [Identity \& Network Management](#identity--network-management-1)
-      - [Safe Commute \& Incident Management](#safe-commute--incident-management-1)
-      - [Community Intelligence](#community-intelligence-1)
-      - [Sleep Health \& Wellness](#sleep-health--wellness-1)
-      - [Subscriptions \& Collective Benefits](#subscriptions--collective-benefits-1)
-      - [Moderation \& Governance](#moderation--governance-1)
 - [Capítulo V: Product Implementation, Validation \& Deployment](#capítulo-v-product-implementation-validation--deployment)
   - [5.1. Software Configuration Management.](#51-software-configuration-management)
     - [5.1.1. Software Development Environment Configuration.](#511-software-development-environment-configuration)
     - [5.1.2. Source Code Management.](#512-source-code-management)
     - [5.1.3. Source Code Style Guide \& Conventions.](#513-source-code-style-guide--conventions)
-  - [Convenciones de Nomenclatura](#convenciones-de-nomenclatura)
-  - [Estructura Semántica (HTML)](#estructura-semántica-html)
-  - [Estilos y Maquetación (CSS)](#estilos-y-maquetación-css)
-  - [Estándares de Accesibilidad (WAI-ARIA)](#estándares-de-accesibilidad-wai-aria)
     - [5.1.4. Software Deployment Configuration.](#514-software-deployment-configuration)
-  - [1. Organización del Repositorio](#1-organización-del-repositorio)
-  - [2. Subida de Archivos](#2-subida-de-archivos)
-  - [3. Configuración en GitHub Pages](#3-configuración-en-github-pages)
-  - [4. Despliegue Automático](#4-despliegue-automático)
   - [5.2. Landing Page, Services \& Applications Implementation.](#52-landing-page-services--applications-implementation)
     - [5.2.1. Sprint 1](#521-sprint-1)
       - [5.2.1.1. Sprint Planning 1.](#5211-sprint-planning-1)
       - [5.2.1.2. Aspect Leaders and Collaborators.](#5212-aspect-leaders-and-collaborators)
       - [5.2.1.3. Sprint Backlog 1.](#5213-sprint-backlog-1)
-      - [5.2.1.4. Development Evidence for Sprint Review.](#5214-development-evidence-for-sprint-review)
-      - [5.2.1.4. Development Evidence for Sprint Review.](#5214-development-evidence-for-sprint-review-1)
       - [5.2.1.5. Execution Evidence for Sprint Review.](#5215-execution-evidence-for-sprint-review)
       - [5.2.1.6. Services Documentation Evidence for Sprint Review.](#5216-services-documentation-evidence-for-sprint-review)
       - [5.2.1.7. Software Deployment Evidence for Sprint Review.](#5217-software-deployment-evidence-for-sprint-review)
       - [5.2.1.8. Team Collaboration Insights during Sprint.](#5218-team-collaboration-insights-during-sprint)
+    - [5.2.1. Sprint 2](#521-sprint-2)
+      - [5.2.2.1.Sprint Planning 2.](#5221sprint-planning-2)
+      - [5.2.2.2. Aspect Leaders and Collaborators.](#5222-aspect-leaders-and-collaborators)
+      - [5.2.2.3.Sprint Backlog 2.](#5223sprint-backlog-2)
+      - [5.2.2.4.Development Evidence for Sprint Review.](#5224development-evidence-for-sprint-review)
+      - [5.2.2.5.Execution Evidence for Sprint Review.](#5225execution-evidence-for-sprint-review)
+      - [5.2.2.6.Services Documentation Evidence for Sprint Review.](#5226services-documentation-evidence-for-sprint-review)
+      - [5.2.2.7.Software Deployment Evidence for Sprint Review.](#5227software-deployment-evidence-for-sprint-review)
+      - [5.2.2.8.Team Collaboration Insights during Sprint.](#5228team-collaboration-insights-during-sprint)
 - [Conclusiones](#conclusiones)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
@@ -254,8 +187,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 | Criterio específico                                                                             | Acciones realizadas                                                      | Conclusiones                   |
 |-------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|--------------------------------|
-| Trabaja en equipo para proporcionar liderazgo en forma conjunta                                 |<ul><li><b>Patricio Farias, Ana Camila</b> <br> <b>AV1</b>:Lideré la gestión ágil, facilitación y articulación operativa del equipo a lo largo del ciclo de vida del sprint, asegurando el cumplimiento riguroso de los hitos y entregables fijados. Fomenté una comunicación transversal y continua entre las áreas de diseño, arquitectura y desarrollo, organizando y desglosando las tareas en el tablero de trabajo para optimizar la carga y mitigar bloqueos tempranos. Asimismo, impulsé sesiones colaborativas de toma de decisiones para resolver discrepancias técnicas y de alcance, garantizando la trazabilidad, coherencia e integración de los artefactos producidos y asegurando la alineación constante de los objetivos individuales con la visión global de la solución.</li><br><li><b>Dextre Flores, Leonardo Felix</b> <br> <b>AV1</b>: Organicé mi contribución en una secuencia de artefactos relacionados entre sí, avanzando desde la vista general de la arquitectura hasta el diseño de clases y persistencia. Mantuve una nomenclatura consistente entre los Bounded Contexts, componentes, clases y estructuras de datos, y documenté las responsabilidades principales de cada elemento para facilitar su revisión y posterior utilización por los demás integrantes. También verifiqué la correspondencia entre las decisiones arquitectónicas y las User Stories previamente definidas, procurando evitar dependencias innecesarias entre contextos y dejando una estructura organizada que facilite posteriormente la distribución de tareas de implementación de frontend, backend y persistencia.</li><br><li><b>Salcedo Correa, Carlos Matthew</b> <br> <b>AV1</b>: Asumí el liderazgo técnico en el diseño de experiencia e interfaces de usuario (UX/UI) y en la estructuración de la arquitectura de información para el ecosistema digital de Noxway. Lideré la definición estratégica de SEO y metadatos tanto para la Landing Page pública como para la Web Application, y coordiné activamente con los responsables de requisitos la traducción de los objetivos de usuario hacia los flujos visuales del sistema (wireflows y user flows). Asimismo, proporcioné dirección técnica durante la implementación frontend del Landing Page, asegurando la consistencia entre los artefactos de diseño y el código fuente.</li></ul> <ul><li><b>Ramirez Rodriguez, Mauricio Joao</b> <br> <b>AV1</b>: Colaboré con el equipo planificando y llevando a cabo la fase de entrevistas para recoger los requerimientos del usuario, y elaboré los Style Guidelines del proyecto. Al definir y entregar estas pautas visuales a tiempo, facilité una referencia clara para el diseño de la interfaz, coordinando con el grupo para resolver dudas y cumplir con los objetivos fijados dentro del plazo previsto.</li><br><li><b>Cano Gomez, Yam</b> <br> <b>AV1</b>: Participé activamente en la coordinación y dinamización de las actividades del equipo, facilitando los canales de comunicación y la toma de decisiones conjuntas para asegurar el avance continuo del proyecto. Colaboré estrechamente en la revisión, consolidación y control de calidad de los distintos entregables, apoyando de manera constante a mis compañeros ante bloqueos o contingencias técnicas. Asimismo, promoví la alineación del grupo respecto a las prioridades y cronogramas establecidos, fomentando un entorno de trabajo colaborativo e integrando los aportes individuales para garantizar la coherencia global y el cumplimiento exitoso de los objetivos planteados.</li>  | El trabajo conjunto y la comunicación continua me permitieron asumir un rol activo en la toma de decisiones técnicas y metodológicas del grupo. Al facilitar la coordinación en la estructuración de los requisitos y consensuar la priorización de los artefactos ágiles, contribuí a un liderazgo distribuido donde cada integrante aportó valor de manera equitativa, logrando un flujo de trabajo organizado y alineado con los objetivos del proyecto. Asimismo, la coordinación entre UX/UI, SEO y desarrollo frontend permitió alinear la visión del producto con las necesidades del usuario, reforzando la colaboración y el liderazgo técnico del equipo. |
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. |<ul><li><b>Patricio Farias, Ana Camila</b> <br> <b>AV1</b>: Relalice las preguntas de la entrevistas, lo que permitió estructurar el needfinding mediante arquetipos de usuario, matrices de tareas, Journey Map y Empathy Mapp. A partir de estos hallazgos, modelé la lógica del dominio aplicando Big Picture EventStorming y definiendo un lenguaje ubicuo para alinear el negocio con el diseño del sistema. Finalmente, traduje estos requisitos a un marco ágil construyendo el Impact Mapping, especificando las historias de usuario y consolidando el Product Backlog priorizado para el desarrollo del producto.</li><br><li><b>Dextre Flores, Leonardo Felix</b> <br> <b>AV1</b>: Contribuí al diseño técnico de Noxway desarrollando los artefactos de arquitectura comprendidos entre las secciones 4.6.2 y 4.8.1. Definí la representación del sistema mediante los diagramas C4 de contexto, contenedores y componentes, estableciendo los principales actores, sistemas externos, unidades de software y responsabilidades de la solución. Posteriormente desarrollé los diagramas de clases correspondientes a los Bounded Contexts y módulos de soporte, manteniendo consistencia entre las entidades, servicios, interfaces, enumeraciones y relaciones del dominio. Finalmente, estructuré los diagramas de base de datos en PostgreSQL, especificando tablas, atributos, identificadores, claves y restricciones necesarias para mantener la integridad y la separación de responsabilidades entre contextos. Estas decisiones permitieron establecer una referencia técnica común para el equipo durante las siguientes etapas de desarrollo.</li><br><li><b>Salcedo Correa, Carlos Matthew</b> <br> <b>AV1</b>: Diseñé la arquitectura de información integral estableciendo los sistemas de búsqueda, navegación, SEO Tags y Meta Tags para la Landing Page y Web Application. A nivel visual y de interacción, diseñé los wireframes y mock-ups responsive (desktop y mobile) de la Landing Page, así como los wireframes, wireflows por User Goal, mock-ups y User Flow Diagrams (happy y unhappy paths) de la Web Application. Desarrollé además el prototipo interactivo en Figma y apoyé de forma colaborativa en la maquetación y desarrollo web de la Landing Page (HTML5, CSS3 y JavaScript), cumpliendo con los estándares de diseño y accesibilidad definidos.</li></ul> <ul><li><b>Ramirez Rodriguez, Mauricio Joao</b> <br> <b>AV1</b>:Fomenté un entorno colaborativo y estructurado al planificar y ejecutar la fase de entrevistas a los usuarios, definiendo objetivos claros para la recolección de información relevante para el equipo. Con base en estos hallazgos, elaboré los Style Guidelines del proyecto, estableciendo de manera organizada los estándares visuales, componentes y lineamientos de diseño. Gracias a la entrega oportuna de estas guías, facilité la alineación del equipo en el desarrollo de la interfaz, asegurando la coherencia del diseño y el cumplimiento puntual de las metas establecidas para el sprint. </li><br><li><b>Cano Gomez, Yam</b> <br> <b>AV1</b>: Promoví un entorno de trabajo colaborativo durante el desarrollo del Capítulo 1, organizando con el equipo el plan para las entrevistas y el Needfinding. Establecí metas para la recolección de información, prioricé las actividades del entregable y aseguré la participación activa de todos en el análisis de hallazgos. Además, facilité la consolidación de las User Personas, Empathy Maps y User Journey Maps, logrando que el equipo trabajara alineado y cumpliera a tiempo con los objetivos del proyecto.</li>| La articulación de las entrevistas y el análisis competitivo permitió integrar una visión común y fundamentada dentro del equipo, facilitando una planificación clara mediante herramientas como el EventStorming y el Impact Mapping. Este proceso colaborativo aseguró que la definición de historias de usuario y el Product Backlog respondieran a metas viables y medibles, cumpliendo oportunamente con los entregables de elicitación y especificación de requisitos. Asimismo, la definición de la arquitectura de información, el prototipado y la implementación visual aportaron un marco compartido para coordinar tareas, mantener consistencia entre diseño y desarrollo y asegurar la entrega de una experiencia alineada con los objetivos del proyecto. |
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta                                 |<ul><li><b>Patricio Farias, Ana Camila</b> <br> <b>AV1</b>:Lideré la gestión ágil, facilitación y articulación operativa del equipo a lo largo del ciclo de vida del sprint, asegurando el cumplimiento riguroso de los hitos y entregables fijados. Fomenté una comunicación transversal y continua entre las áreas de diseño, arquitectura y desarrollo, organizando y desglosando las tareas en el tablero de trabajo para optimizar la carga y mitigar bloqueos tempranos. Asimismo, impulsé sesiones colaborativas de toma de decisiones para resolver discrepancias técnicas y de alcance, garantizando la trazabilidad, coherencia e integración de los artefactos producidos y asegurando la alineación constante de los objetivos individuales con la visión global de la solución.<br> <b>TB1</b>: Lideré la estructuración y planificación del Sprint 2, asumiendo la responsabilidad de la gestión ágil del equipo. Como parte de este liderazgo, refiné el Product Backlog mediante la revisión y corrección exhaustiva de diversas User Stories, asegurando su viabilidad técnica y alineación con los objetivos de negocio de Noctiva.</li><br><li><b>Dextre Flores, Leonardo Felix</b> <br> <b>AV1</b>: Organicé mi contribución en una secuencia de artefactos relacionados entre sí, avanzando desde la vista general de la arquitectura hasta el diseño de clases y persistencia. Mantuve una nomenclatura consistente entre los Bounded Contexts, componentes, clases y estructuras de datos, y documenté las responsabilidades principales de cada elemento para facilitar su revisión y posterior utilización por los demás integrantes. También verifiqué la correspondencia entre las decisiones arquitectónicas y las User Stories previamente definidas, procurando evitar dependencias innecesarias entre contextos y dejando una estructura organizada que facilite posteriormente la distribución de tareas de implementación de frontend, backend y persistencia. <br> <b>TB1</b>: Asumí la responsabilidad sobre la consistencia técnica de la arquitectura al liderar la revisión y corrección de los diagramas del sistema. Asimismo, tomé la iniciativa en la refactorización y corrección de mis respectivos Bounded Contexts para garantizar una arquitectura limpia y escalable de cara al desarrollo del software. </li><br><li><b>Salcedo Correa, Carlos Matthew</b> <br> <b>AV1</b>: Asumí el liderazgo técnico en el diseño de experiencia e interfaces de usuario (UX/UI) y en la estructuración de la arquitectura de información para el ecosistema digital de Noxway. Lideré la definición estratégica de SEO y metadatos tanto para la Landing Page pública como para la Web Application, y coordiné activamente con los responsables de requisitos la traducción de los objetivos de usuario hacia los flujos visuales del sistema (wireflows y user flows). Asimismo, proporcioné dirección técnica durante la implementación frontend del Landing Page, asegurando la consistencia entre los artefactos de diseño y el código fuente. <br> <b>TB1</b>: Lideré las actividades orientadas a la puesta en producción, asumiendo un rol clave en el proceso de despliegue (deployment) de la aplicación web. De igual forma, tomé la iniciativa para optimizar la Landing Page, diseñando e integrando nuevos elementos y secciones que enriquecen la propuesta de valor del producto. </li></ul> <ul><li><b>Ramirez Rodriguez, Mauricio Joao</b> <br> <b>AV1</b>: Colaboré con el equipo planificando y llevando a cabo la fase de entrevistas para recoger los requerimientos del usuario, y elaboré los Style Guidelines del proyecto. Al definir y entregar estas pautas visuales a tiempo, facilité una referencia clara para el diseño de la interfaz, coordinando con el grupo para resolver dudas y cumplir con los objetivos fijados dentro del plazo previsto. <br> <b>TB1</b>: Contribuí al control de calidad de los entregables mediante la revisión transversal del documento formal, aplicando correcciones de formato y afinando pequeños detalles técnicos para asegurar una presentación adecuada de los artefactos del proyecto. </li><br><li><b>Cano Gomez, Yam</b> <br> <b>AV1</b>: Participé activamente en la coordinación y dinamización de las actividades del equipo, facilitando los canales de comunicación y la toma de decisiones conjuntas para asegurar el avance continuo del proyecto. Colaboré estrechamente en la revisión, consolidación y control de calidad de los distintos entregables, apoyando de manera constante a mis compañeros ante bloqueos o contingencias técnicas. Asimismo, promoví la alineación del grupo respecto a las prioridades y cronogramas establecidos, fomentando un entorno de trabajo colaborativo e integrando los aportes individuales para garantizar la coherencia global y el cumplimiento exitoso de los objetivos planteados. <br> <b>TB1</b>: Apoyé de manera activa en el liderazgo de la gestión del proyecto, colaborando estrechamente en la creación y organización del Sprint 2. Mi participación ayudó a distribuir estratégicamente la carga de trabajo y a establecer una hoja de ruta técnica clara para la iteración. </li>  | **av1:** El trabajo conjunto y la comunicación continua me permitieron asumir un rol activo en la toma de decisiones técnicas y metodológicas del grupo. Al facilitar la coordinación en la estructuración de los requisitos y consensuar la priorización de los artefactos ágiles, contribuí a un liderazgo distribuido donde cada integrante aportó valor de manera equitativa, logrando un flujo de trabajo organizado y alineado con los objetivos del proyecto. Asimismo, la coordinación entre UX/UI, SEO y desarrollo frontend permitió alinear la visión del producto con las necesidades del usuario, reforzando la colaboración y el liderazgo técnico del equipo. <br> **tb1:** Durante el Sprint 2 correspondiente a la entrega TB1, el equipo consolidó un modelo de liderazgo distribuido en el que los roles de gestión ágil, arquitectura, despliegue y documentación fueron asumidos proactivamente por distintos integrantes. La articulación continua entre la mayoría de los miembros permitió una toma de decisiones eficiente para organizar la carga de trabajo y superar desafíos técnicos en la programación. Esto garantizó que los avances individuales se integraran de forma coherente bajo una misma visión arquitectónica.|
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. |<ul><li><b>Patricio Farias, Ana Camila</b> <br> <b>AV1</b>: Relalice las preguntas de la entrevistas, lo que permitió estructurar el needfinding mediante arquetipos de usuario, matrices de tareas, Journey Map y Empathy Mapp. A partir de estos hallazgos, modelé la lógica del dominio aplicando Big Picture EventStorming y definiendo un lenguaje ubicuo para alinear el negocio con el diseño del sistema. Finalmente, traduje estos requisitos a un marco ágil construyendo el Impact Mapping, especificando las historias de usuario y consolidando el Product Backlog priorizado para el desarrollo del producto. <br> <b>TB1</b>: Fomenté un entorno estructurado al planificar las metas del Sprint 2 y participar activamente en la implementación de la aplicación web. Desarrollé la lógica de mis respectivos Bounded Contexts, coordinando de forma continua con mis compañeros para integrar mi código sin fricciones y cumplir con los plazos pactados. </li><br><li><b>Dextre Flores, Leonardo Felix</b> <br> <b>AV1</b>: Contribuí al diseño técnico de Noxway desarrollando los artefactos de arquitectura comprendidos entre las secciones 4.6.2 y 4.8.1. Definí la representación del sistema mediante los diagramas C4 de contexto, contenedores y componentes, estableciendo los principales actores, sistemas externos, unidades de software y responsabilidades de la solución. Posteriormente desarrollé los diagramas de clases correspondientes a los Bounded Contexts y módulos de soporte, manteniendo consistencia entre las entidades, servicios, interfaces, enumeraciones y relaciones del dominio. Finalmente, estructuré los diagramas de base de datos en PostgreSQL, especificando tablas, atributos, identificadores, claves y restricciones necesarias para mantener la integridad y la separación de responsabilidades entre contextos. Estas decisiones permitieron establecer una referencia técnica común para el equipo durante las siguientes etapas de desarrollo. <br> <b>TB1</b>: Colaboré decididamente en la fase de implementación de Noxway, sincronizando el avance de mi código con el de mis compañeros. Al alinear las correcciones de mis Bounded Contexts con los objetivos del sprint, aseguré el cumplimiento oportuno de mis responsabilidades de desarrollo. </li><br><li><b>Salcedo Correa, Carlos Matthew</b> <br> <b>AV1</b>: Diseñé la arquitectura de información integral estableciendo los sistemas de búsqueda, navegación, SEO Tags y Meta Tags para la Landing Page y Web Application. A nivel visual y de interacción, diseñé los wireframes y mock-ups responsive (desktop y mobile) de la Landing Page, así como los wireframes, wireflows por User Goal, mock-ups y User Flow Diagrams (happy y unhappy paths) de la Web Application. Desarrollé además el prototipo interactivo en Figma y apoyé de forma colaborativa en la maquetación y desarrollo web de la Landing Page (HTML5, CSS3 y JavaScript), cumpliendo con los estándares de diseño y accesibilidad definidos. <br> <b>TB1</b>: Impulsé el avance del grupo mediante el desarrollo de mis Bounded Contexts asignados y brindando soporte continuo durante la codificación de la aplicación web. Mi colaboración en la fase final de despliegue aseguró que alcanzáramos la meta conjunta de tener una versión accesible y funcional para la evaluación. </li></ul> <ul><li><b>Ramirez Rodriguez, Mauricio Joao</b> <br> <b>AV1</b>:Fomenté un entorno colaborativo y estructurado al planificar y ejecutar la fase de entrevistas a los usuarios, definiendo objetivos claros para la recolección de información relevante para el equipo. Con base en estos hallazgos, elaboré los Style Guidelines del proyecto, estableciendo de manera organizada los estándares visuales, componentes y lineamientos de diseño. Gracias a la entrega oportuna de estas guías, facilité la alineación del equipo en el desarrollo de la interfaz, asegurando la coherencia del diseño y el cumplimiento puntual de las metas establecidas para el sprint. <br> <b>TB1</b>: Apoyé en el cumplimiento de las metas documentales del sprint revisando el trabajo conjunto de forma asíncrona. Mi enfoque estuvo dirigido a pulir detalles formales del informe final, aportando a la consolidación del entregable requerido para el cierre de la iteración. </li><br><li><b>Cano Gomez, Yam</b> <br> <b>AV1</b>: Promoví un entorno de trabajo colaborativo durante el desarrollo del Capítulo 1, organizando con el equipo el plan para las entrevistas y el Needfinding. Establecí metas para la recolección de información, prioricé las actividades del entregable y aseguré la participación activa de todos en el análisis de hallazgos. Además, facilité la consolidación de las User Personas, Empathy Maps y User Journey Maps, logrando que el equipo trabajara alineado y cumpliera a tiempo con los objetivos del proyecto.<br> <bTB1</b>: Mantuve una comunicación fluida y constante con las áreas de desarrollo para avanzar de forma sostenida en la implementación de mis Bounded Contexts. Al apoyar en la corrección de la documentación y en la planificación del sprint, fortalecí la organización interna para el cumplimiento de nuestros plazos. </li>| **av1:** La articulación de las entrevistas y el análisis competitivo permitió integrar una visión común y fundamentada dentro del equipo, facilitando una planificación clara mediante herramientas como el EventStorming y el Impact Mapping. Este proceso colaborativo aseguró que la definición de historias de usuario y el Product Backlog respondieran a metas viables y medibles, cumpliendo oportunamente con los entregables de elicitación y especificación de requisitos. Asimismo, la definición de la arquitectura de información, el prototipado y la implementación visual aportaron un marco compartido para coordinar tareas, mantener consistencia entre diseño y desarrollo y asegurar la entrega de una experiencia alineada con los objetivos del proyecto.  <br> **tb1:** La planificación del Sprint 2 y la alta interacción comunicativa establecida entre Ana Camila, Leonardo, Yam y Carlos establecieron un entorno altamente colaborativo que fue clave para cumplir con las metas de implementación y despliegue de la aplicación web. A pesar de presentarse una participación asíncrona y de menor involucramiento por parte de algunos integrantes, el sólido compromiso, la comunicación constante y el apoyo mutuo del núcleo central de desarrollo garantizaron que se superaran los bloqueos técnicos y se lograran exitosamente los objetivos de este hito. |
 
 # Capítulo I: Introducción 
 
