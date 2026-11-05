@@ -1894,25 +1894,122 @@ Class Diagram - Identity & Network Management.
 
 **Safe Commute & Incident Management**
 
-`Commute` representa el núcleo del ciclo de vida del trayecto y se relaciona fuertemente con `TelemetryPing` mediante composición para registrar la ubicación y velocidad. `SafetyIncident` modela las situaciones de riesgo o demoras generadas durante el trayecto, interactuando con `NotificationPreference` para escalar las alertas a los canales correspondientes.
+`Commute` representa el núcleo del ciclo de vida del trayecto y se relaciona fuertemente con `TelemetryPing` mediante composición para registrar la ubicación y velocidad. `SafetyIncident` modela las situaciones de riesgo o demoras generadas durante el trayecto, interactuando con `NotificationPreference` para escalar las alertas a los canales correspondientes. `startTime` y `estimatedArrivalTime` incluyen fecha y hora: el trayecto puede iniciarse de día o de noche y continuar al día siguiente sin cerrarse a medianoche. La evaluación del margen de tolerancia depende del tiempo transcurrido y del estado del trayecto, no del turno laboral.
 
 Class Diagram - Safe Commute Incident Management.
 
-<img src="resources/imgs/management.png"
+<img src="resources/imgs/incide.png"
+     alt="Class Diagram - Safe Commute and Incident Management"
      style="">
 
 **Community Intelligence**
 
-`CommunityMap` actúa como la entidad agregadora para la consulta espacial. `NightServicePoint` representa los servicios verificados que operan en horarios diurnos, nocturnos o continuos y `RiskZone` modela los puntos de peligro reportados. `RouteRating` registra la calificación de seguridad asignada a las rutas una vez finalizado el desplazamiento.
+`CommunityMap` actúa como la entidad agregadora para la consulta espacial. `ServicePoint` representa los servicios verificados con atención diurna, nocturna o continua, sin restringirlos a establecimientos de 24 horas. Cada servicio conserva su zona horaria y sus intervalos semanales de atención mediante el objeto de valor `ServiceOpeningInterval`, para determinar si está abierto en el momento consultado. `RiskZone` modela los puntos de peligro reportados y `RouteRating` registra la calificación de seguridad asignada a las rutas una vez finalizado el desplazamiento.
 
 Class Diagram - Community Intelligence.
 
-<img src="resources/imgs/com.png"
-     style="">
+```mermaid
+classDiagram
+    direction TB
+    class CommunityMap {
+        <<AggregateRoot>>
+        -UUID mapId
+        -String currentRegion
+        +loadActiveServices(Float radius, DateTime referenceTime) List~ServicePoint~
+        +loadRiskZones(Float radius) List~RiskZone~
+        +registerServicePoint(ServicePoint newService) void
+        +reportRiskZone(RiskZone newZone) void
+    }
+    class ServicePoint {
+        <<Entity>>
+        -UUID serviceId
+        -String name
+        -ServiceType type
+        -Float latitude
+        -Float longitude
+        -Integer trustScore
+        -Boolean isVerified
+        -String timeZone
+        +upvote() void
+        +downvote() void
+        +verifyStatus() Boolean
+        +isOpenAt(DateTime referenceTime) Boolean
+    }
+    class ServiceOpeningInterval {
+        <<ValueObject>>
+        -Integer dayOfWeek
+        -LocalTime opensAt
+        -LocalTime closesAt
+        -Boolean closesNextDay
+        -Boolean is24Hours
+    }
+    class RiskZone {
+        <<Entity>>
+        -UUID zoneId
+        -String description
+        -RiskLevel riskLevel
+        -Float latitude
+        -Float longitude
+        -DateTime reportedAt
+        +confirmRisk() void
+        +resolveRisk() void
+    }
+    class RouteRating {
+        <<Entity>>
+        -UUID ratingId
+        -UUID commuteId
+        -Integer score
+        -String comments
+        -DateTime createdAt
+        +submitRating() void
+    }
+    class ServiceType {
+        <<enumeration>>
+        PHARMACY
+        GAS_STATION
+        HOSPITAL
+        POLICE_STATION
+    }
+    class RiskLevel {
+        <<enumeration>>
+        LOW
+        MEDIUM
+        HIGH
+    }
+    class ServicePointReported {
+        <<DomainEvent>>
+        +UUID serviceId
+        +UUID reportedBy
+        +DateTime timestamp
+    }
+    class DangerSpotReported {
+        <<DomainEvent>>
+        +UUID zoneId
+        +String riskLevel
+        +DateTime timestamp
+    }
+    class RouteSafetyRated {
+        <<DomainEvent>>
+        +UUID commuteId
+        +Integer score
+        +DateTime timestamp
+    }
+    CommunityMap "1" --> "0..*" ServicePoint : displays
+    CommunityMap "1" --> "0..*" RiskZone : displays
+    CommunityMap "1" o-- "0..*" RouteRating : aggregates
+    ServicePoint "1" *-- "1..*" ServiceOpeningInterval : opening hours
+    ServicePoint --> ServiceType : type
+    RiskZone --> RiskLevel : risk level
+    CommunityMap ..> ServicePointReported : generates
+    CommunityMap ..> DangerSpotReported : generates
+    CommunityMap ..> RouteSafetyRated : generates
+```
+
+Los horarios se expresan en la zona horaria del establecimiento, inicialmente `America/Lima`. `dayOfWeek` identifica el día de apertura (1 = lunes, 7 = domingo); se admiten varios intervalos por día y la ausencia de intervalos indica cierre. `closesNextDay` permite representar, por ejemplo, una apertura del lunes a las 22:00 con cierre el martes a las 06:00. `is24Hours` identifica atención continua durante ese día. Las consultas consideran también los intervalos iniciados el día anterior; no se deduce disponibilidad únicamente de la categoría o del turno del trabajador.
 
 **Sleep Health & Wellness**
 
-`SleepLog` representa el registro agregado diario de metas y déficits de sueño, mientras que `RestSession` registra periodos individuales de descanso fragmentado. `HygieneSuggestion` modela las recomendaciones emitidas por el sistema en función del nivel de fatiga detectado en el trabajador de turno diurno o nocturno.
+`SleepLog` representa el registro agregado diario de metas y déficits de sueño, mientras que `RestSession` registra periodos individuales de descanso diurno o nocturno, continuos o fragmentados. Sus valores `startTime` y `endTime` incluyen fecha y hora y permiten que una sesión termine al día siguiente; la duración se calcula entre ambos instantes y no se reinicia a medianoche. `HygieneSuggestion` modela las recomendaciones emitidas por el sistema en función del nivel de fatiga detectado en el trabajador de turno diurno o nocturno.
 
 Class Diagram - Sleep Health Wellness.
 
@@ -1960,7 +2057,7 @@ Database Diagram - Identity & Network Management.
 
 **Safe Commute & Incident Management**
 
-El modelo persiste los trayectos en la tabla `commutes`, complementada por `commute_checkpoints` para trazar los hitos de la ruta. La telemetría de alto volumen se aísla en `telemetry_pings`. Las anomalías generan registros en `safety_incidents`, los cuales mantienen su ciclo de vida y disparan registros de auditoría de notificaciones en `incident_alerts`.
+El modelo persiste los trayectos en la tabla `commutes`, complementada por `commute_checkpoints` para trazar los hitos de la ruta. `start_time` y `estimated_arrival` conservan la fecha y hora completas para desplazamientos diurnos o nocturnos que pueden cruzar medianoche; la llegada estimada debe ser posterior al inicio. La telemetría de alto volumen se aísla en `telemetry_pings`. Las anomalías generan registros en `safety_incidents`, los cuales mantienen su ciclo de vida y disparan registros de auditoría de notificaciones en `incident_alerts`.
 
 Database Diagram - Safe Commute Incident Management.
 
@@ -1969,16 +2066,80 @@ Database Diagram - Safe Commute Incident Management.
 
 **Community Intelligence**
 
-El modelo persiste ubicaciones geoespaciales como `services` y `risk_zones`. Para garantizar la confiabilidad comunitaria, se emplean las tablas transaccionales `service_validations` y `risk_zone_confirmations`, que evitan votos duplicados por parte del mismo trabajador. Las encuestas de los desplazamientos se almacenan en `route_ratings`.
+El modelo persiste ubicaciones geoespaciales como `services` y `risk_zones`. `services.time_zone` y la tabla `service_opening_intervals` permiten consultar la disponibilidad de establecimientos con atención diurna, nocturna o continua. Para garantizar la confiabilidad comunitaria, se emplean las tablas transaccionales `service_validations` y `risk_zone_confirmations`, que evitan votos duplicados por parte del mismo trabajador. Las encuestas de los desplazamientos se almacenan en `route_ratings`. Esta ampliación corresponde al diseño de persistencia propuesto; su implementación se documentará con las evidencias del desarrollo.
 
 Database Diagram - Community Intelligence.
 
-<img src="resources/imgs/commu.png"
-     style="">
+```mermaid
+erDiagram
+    services ||--|{ service_opening_intervals : defines
+    services ||--o{ service_validations : receives
+    risk_zones ||--o{ risk_zone_confirmations : receives
+    services {
+        uuid id PK
+        uuid reported_by
+        varchar name
+        varchar category
+        numeric latitude
+        numeric longitude
+        int verification_score
+        varchar status
+        varchar time_zone
+        timestamptz created_at
+        timestamptz updated_at
+    }
+    service_opening_intervals {
+        uuid id PK
+        uuid service_id FK
+        smallint day_of_week
+        time opens_at
+        time closes_at
+        boolean closes_next_day
+        boolean is_24_hours
+    }
+    service_validations {
+        uuid id PK
+        uuid service_id FK
+        uuid worker_id
+        boolean is_positive
+        timestamptz created_at
+    }
+    risk_zones {
+        uuid id PK
+        uuid reported_by
+        varchar risk_category
+        text description
+        numeric latitude
+        numeric longitude
+        varchar status
+        timestamptz reported_at
+        timestamptz expires_at "nullable"
+    }
+    risk_zone_confirmations {
+        uuid id PK
+        uuid risk_zone_id FK
+        uuid worker_id
+        boolean is_confirmed
+        timestamptz created_at
+    }
+    route_ratings {
+        uuid id PK
+        uuid commute_id
+        uuid worker_id
+        int safety_score
+        varchar lighting_quality "nullable"
+        text comments "nullable"
+        timestamptz created_at
+    }
+```
+
+`service_opening_intervals` traduce el objeto de valor `ServiceOpeningInterval` a persistencia. Sus columnas son obligatorias; `day_of_week` está entre 1 y 7 y `service_id` referencia a `services.id`. Un intervalo normal exige `closes_at > opens_at`; uno que cruza medianoche exige `closes_next_day = true` y `closes_at < opens_at`. Para atención continua se utiliza `is_24_hours = true`, con ambas horas en `00:00` y `closes_next_day = true`. No se admiten intervalos superpuestos del mismo servicio, incluso al cruzar el límite semanal, ni intervalos adicionales en un día cubierto por atención continua. `time_zone` es obligatoria y contiene una zona IANA válida, inicialmente `America/Lima`.
+
+Se mantienen las restricciones `UNIQUE(service_id, worker_id)` en `service_validations` y `UNIQUE(risk_zone_id, worker_id)` en `risk_zone_confirmations`. Los identificadores de trabajadores y trayectos son referencias lógicas a otros contextos. La búsqueda “Abierto ahora” combina el horario semanal con la fecha y hora consultadas en la zona del servicio, incluyendo intervalos iniciados el día anterior.
 
 **Sleep Health & Wellness**
 
-El modelo organiza la higiene del sueño separando el consolidado diario (`daily_sleep_logs`) de los periodos de descanso fraccionado (`sleep_sessions`). El sistema almacena en `hygiene_suggestions` las alertas emitidas por déficit de horas, las cuales se vinculan lógicamente al usuario que las recibe.
+El modelo organiza la higiene del sueño separando el consolidado diario (`daily_sleep_logs`) de los periodos de descanso diurno o nocturno, continuos o fraccionados (`sleep_sessions`). Los campos `start_time` y `end_time` incluyen fecha y hora y admiten fechas distintas, siempre que el fin sea posterior al inicio. Para evitar duplicar minutos al cruzar medianoche, el consolidado asigna cada sesión a la fecha local de inicio y conserva su duración completa. El sistema almacena en `hygiene_suggestions` las alertas emitidas por déficit de horas, las cuales se vinculan lógicamente al usuario que las recibe.
 
 Database Diagram - Sleep Health Wellness.
 
