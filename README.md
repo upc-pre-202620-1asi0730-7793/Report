@@ -113,7 +113,7 @@ Se organizaron los aportes del equipo mediante ramas de funcionalidades y Pull R
       - [Segmento Objetivo 1: Trabajador de Turno Diurno o Nocturno](#segmento-objetivo-1-trabajador-de-turno-diurno-o-nocturno-1)
       - [Segmento Objetivo 2: Contacto de Confianza](#segmento-objetivo-2-contacto-de-confianza-1)
     - [2.3.4. Empathy Mapping.](#234-empathy-mapping)
-      - [Segmento Objetivo 1: Trabajador de Turno Nocturno](#segmento-objetivo-1-trabajador-de-turno-nocturno)
+      - [Segmento Objetivo 1: Trabajador de Turno Diurno o Nocturno](#segmento-objetivo-1-trabajador-de-turno-diurno-o-nocturno-2)
       - [Segmento Objetivo 2: Contacto de Confianza](#segmento-objetivo-2-contacto-de-confianza-2)
   - [2.4. Big Picture EventStorming.](#24-big-picture-eventstorming)
   - [2.5. Ubiquitous Language.](#25-ubiquitous-language)
@@ -742,7 +742,7 @@ En esta sección se presentan los mapas de viaje de usuario, reflejando la exper
 ### 2.3.4. Empathy Mapping.
 En esta sección se presentan los Empathy Maps. Estos nos ayudarán a comprender las experiencias, emociones y pensamientos que expresan los usuarios de cada segmento objetivo.
 
-#### Segmento Objetivo 1: Trabajador de Turno Nocturno
+#### Segmento Objetivo 1: Trabajador de Turno Diurno o Nocturno
 ![Empathy Map - Jorge Luis Huamán](resources/imgs/em-Jorge%20Luis%20Huaman.png)
 
 #### Segmento Objetivo 2: Contacto de Confianza
