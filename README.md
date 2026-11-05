@@ -110,10 +110,10 @@ Se organizaron los aportes del equipo mediante ramas de funcionalidades y Pull R
       - [Segmento Objetivo 2: Contacto de Confianza](#segmento-objetivo-2-contacto-de-confianza)
     - [2.3.2. User Task Matrix.](#232-user-task-matrix)
     - [2.3.3. User Journey Mapping.](#233-user-journey-mapping)
-      - [Segmento Objetivo 1: Trabajador de Turno Nocturno](#segmento-objetivo-1-trabajador-de-turno-nocturno)
+      - [Segmento Objetivo 1: Trabajador de Turno Diurno o Nocturno](#segmento-objetivo-1-trabajador-de-turno-diurno-o-nocturno-1)
       - [Segmento Objetivo 2: Contacto de Confianza](#segmento-objetivo-2-contacto-de-confianza-1)
     - [2.3.4. Empathy Mapping.](#234-empathy-mapping)
-      - [Segmento Objetivo 1: Trabajador de Turno Nocturno](#segmento-objetivo-1-trabajador-de-turno-nocturno-1)
+      - [Segmento Objetivo 1: Trabajador de Turno Nocturno](#segmento-objetivo-1-trabajador-de-turno-nocturno)
       - [Segmento Objetivo 2: Contacto de Confianza](#segmento-objetivo-2-contacto-de-confianza-2)
   - [2.4. Big Picture EventStorming.](#24-big-picture-eventstorming)
   - [2.5. Ubiquitous Language.](#25-ubiquitous-language)
@@ -729,9 +729,9 @@ Las tareas fueron identificadas a partir del análisis cualitativo de entrevista
 | Acceder a beneficios grupales y coberturas de seguro mediante membresía | Baja | Media | Baja | Baja |
 
 ### 2.3.3. User Journey Mapping. 
-En esta sección se presentan los mapas de viaje de usuario, reflejando la experiencia integral de nuestros segmentos objetivos en el contexto actual: un entorno urbano carente de herramientas digitales especializadas para la dinámica del trabajo nocturno. Se analizan los puntos de fricción, canales y emociones que experimentan tanto el trabajador nocturno durante sus trayectos y jornadas, como su contacto de confianza desde el hogar.
+En esta sección se presentan los mapas de viaje de usuario, reflejando la experiencia integral de nuestros segmentos objetivos en el contexto actual: un entorno urbano carente de herramientas digitales especializadas para la dinámica del trabajo en turnos diurnos y nocturnos. Se analizan los puntos de fricción, canales y emociones que experimentan tanto el trabajador de turno diurno o nocturno durante sus trayectos y jornadas, como su contacto de confianza desde el hogar.
 
-#### Segmento Objetivo 1: Trabajador de Turno Nocturno
+#### Segmento Objetivo 1: Trabajador de Turno Diurno o Nocturno
 
 ![User Journey Map - Jorge Luis Huamán](resources/imgs/jm-Jorge%20Luis%20Huaman.png)
 
