@@ -457,7 +457,7 @@ Safetipin es una aplicación originada en India que genera "puntajes de segurida
   <tr></tr>
   <tr>
     <td colspan="2"></td>
-    <td> Noxway <br> <img src="resources/imgs/chapter_ii/logo-noctiva.jpg" alt="Noxway" width="110" height="100"></img> </td>
+    <td> Noxway <br> <img src="resources/imgs/chapter_ii/logo-noxway-day-night.png" alt="Noxway" width="110" height="100"></img> </td>
     <td> bSafe <br> <img src="resources/imgs/chapter_ii/logo-bsafe.png" alt="bSafe" width="110" height="100"></img> </td>
     <td> Noonlight <br> <img src="resources/imgs/chapter_ii/logo-noonlight.png" alt="Noonlight" width="140" height="100"></img> </td>
     <td> Safetipin <br> <img src="resources/imgs/chapter_ii/logo-safetipin.png" alt="Safetipin" width="150" height="100"></img> </td>
