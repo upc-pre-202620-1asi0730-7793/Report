@@ -754,7 +754,7 @@ En esta sección, el equipo presenta el modelado integral del dominio del negoci
 ![Event Storming](resources/imgs/eventStorming.png)
 
 ## 2.5. Ubiquitous Language.
-* **Worker (Trabajador de Turno Nocturno):** Usuario principal del sistema cuya jornada laboral se desarrolla durante horas diurnas o nocturnas en rubros esenciales (seguridad privada, salud, delivery, call center, limpieza, etc.) y que enfrenta riesgos específicos de movilidad y aislamiento.
+* **Worker (Trabajador de Turno Diurno o Nocturno):** Usuario principal del sistema cuya jornada laboral se desarrolla durante horas diurnas o nocturnas en rubros esenciales (seguridad privada, salud, delivery, call center, limpieza, etc.) y que enfrenta riesgos específicos de movilidad y aislamiento.
 * **Trusted Contact (Contacto de Confianza):** Familiar directo, pareja o allegado designado por el trabajador de turno diurno o nocturno para recibir notificaciones automáticas sobre el estado, inicio y término de sus trayectos sin invadir su privacidad.
 * **Safe-Trip Check-In (Check-In de Trayecto Seguro):** Acción explícita mediante la cual el trabajador confirma el inicio o la llegada exitosa a su destino, activando o cerrando el protocolo de acompañamiento pasivo del sistema.
 * **Safe Commute (Trayecto Seguro / Desplazamiento Diurno o Nocturno):** Recorrido físico realizado por el trabajador entre su hogar y su lugar de trabajo (o viceversa) durante horarios diurnos o nocturnos, con condiciones de transporte y del entorno urbano que varían según el momento del desplazamiento.
@@ -1843,7 +1843,7 @@ C4 Component Diagram - Landing Page.
      
      **Web Application Components**
 
-La Web Application separa el Auth & Onboarding Module, Worker Portal, Companion Portal, Active Commute Tracker, 24h Community Map, Sleep & Wellness Log y Benefits & Subscriptions. Todas estas experiencias utilizan llamadas centralizadas y comparten componentes interactivos, manteniendo una única vía de comunicación con el RESTful API para garantizar la sincronización en tiempo real del estado de los trayectos.
+La Web Application separa el Auth & Onboarding Module, Worker Portal, Companion Portal, Active Commute Tracker, Community Services Map, Sleep & Wellness Log y Benefits & Subscriptions. Todas estas experiencias utilizan llamadas centralizadas y comparten componentes interactivos, manteniendo una única vía de comunicación con el RESTful API para garantizar la sincronización en tiempo real del estado de los trayectos.
 
 C4 Component Diagram - Web Application.
 
@@ -1885,7 +1885,7 @@ El diseño orientado a objetos se organiza de acuerdo con los Bounded Contexts i
 
 **Identity & Network Management**
 
-El modelo concentra la abstracción `User`, de la cual heredan los roles específicos `NightWorker` y `TrustedContact`. `TrustLink` modela la clase de asociación que representa el vínculo de acompañamiento seguro entre un trabajador y su contacto de confianza, encapsulando su estado y vigencia.
+El modelo concentra la abstracción `User`, de la cual heredan los roles específicos `Worker` y `TrustedContact`. `TrustLink` modela la clase de asociación que representa el vínculo de acompañamiento seguro entre un trabajador y su contacto de confianza, encapsulando su estado y vigencia.
 
 Class Diagram - Identity & Network Management.
 
