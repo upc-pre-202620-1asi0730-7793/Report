@@ -44,6 +44,7 @@
 | Versión | Fecha | Autor | Descripción de modificación |
 | :------ | :---- | :---- | :-------------------------- |
 | 1.0 | 2026-09-19 | Noctiva | Desarrollo del Capítulo I, Capítulo II, Capítulo III, Capítulo IV y el Sprint 1 del Capítulo V |
+| 2.1 | 2026-11-04 | Noctiva | Ampliación textual del alcance a turnos diurnos, nocturnos y rotativos; se conservan investigación histórica y recursos visuales, con validación ampliada pendiente. |
 | 2.0 | 2026-10-08 | Noctiva | Implementación de mejoras según el feedback de evaluación en los Capítulos I al IV, y desarrollo del Sprint 2 del Capítulo V |
 
 # Project Report Collaboration Insights 
@@ -196,12 +197,18 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 # Capítulo I: Introducción 
 
+> **Actualización de alcance — 2026-11-04:** A partir de la indicación del docente durante la exposición, Noxway amplía su enfoque a trabajadores de turnos diurnos, nocturnos o rotativos y sus contactos de confianza. Esta revisión modifica documentación textual; no acredita nuevas funciones implementadas ni validación con usuarios diurnos. Las entrevistas, evidencias de sprints, Figma, mapas e imágenes de diagramas se conservan en su versión original y su actualización visual queda pendiente.
+
+
 ## 1.1. Startup Profile 
 ### 1.1.1 Descripción de la Startup
-**Noctiva** es una startup dedicada a mejorar la seguridad, el bienestar y la vida social de los trabajadores que realizan su labor en horario nocturno. Nuestro alcance está dirigido a un segmento históricamente desatendido por las soluciones tecnológicas actuales: personal de seguridad, repartidores (delivery), enfermeros y personal de salud de turno noche, agentes de call centers 24 horas, y personal de limpieza nocturna, entre otros rubros que sostienen la operatividad de las ciudades mientras la mayoría de servicios están pensados para el horario diurno.
-Como startup, buscamos posicionarnos como un referente en soluciones de seguridad y bienestar para trabajadores nocturnos, entendiendo las particularidades de un segmento que enfrenta mayores riesgos al transitar solo, dificultad para acceder a servicios abiertos de noche, y aislamiento de su círculo social por dormir cuando otros están despiertos.
-**Misión:** Queremos ofrecer soluciones tecnológicas que devuelvan seguridad, comunidad y bienestar a quienes trabajan mientras la ciudad duerme, adaptando servicios y herramientas pensadas para el horario diurno a la realidad del turno nocturno.
-**Visión:** Ser la startup líder en seguridad y bienestar para trabajadores de turno nocturno en el mercado peruano, comenzando por consolidar nuestra posición en Lima, para luego expandirnos a otras ciudades y sectores del país.
+**Noctiva** es una startup que propone soluciones de seguridad, acompañamiento y bienestar para trabajadores que se desplazan en horarios diurnos, nocturnos o rotativos y para sus contactos de confianza. El alcance inicial comprende Lima Metropolitana y rubros como seguridad, reparto, salud, atención al cliente, limpieza y transporte.
+
+**Noxway** facilita el registro de trayectos, la confirmación de llegada y los avisos a contactos autorizados. Como funciones complementarias contempla información comunitaria sobre rutas, servicios disponibles según el horario de consulta y herramientas de descanso. Su utilidad para los distintos turnos debe comprobarse mediante investigación y pruebas de usabilidad.
+
+**Misión:** Facilitar el acompañamiento durante los desplazamientos laborales de día y de noche mediante herramientas de comunicación, seguimiento autorizado e información del entorno.
+
+**Visión:** Ser una referencia en acompañamiento y bienestar para trabajadores de distintos turnos en el Perú, comenzando por Lima Metropolitana y ampliando su cobertura a partir de evidencia de utilidad.
 
 ### 1.1.2. Perfiles de integrantes del equipo 
 
@@ -246,33 +253,32 @@ Como startup, buscamos posicionarnos como un referente en soluciones de segurida
 
 
 ## 1.2. Solution Profile
-### 1.2.1 Antecedentes y problemática 
-| 5w & 2H | Descripcion                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-|---------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **What: ¿Cuál es el problema?**|Los trabajadores de turno nocturno (seguridad, delivery, salud, call centers, limpieza, etc) se enfrentan a una ciudad y a unos servicios diseñados casi exclusivamente para el horario diurno. Esto se traduce en mayor riesgo al transitar solos por la noche, dificultad para encontrar comida o servicios abiertos, aislamiento de su círculo social por dormir cuando otros están despiertos, y nula capacidad de organizarse colectivamente debido a horarios dispersos.|
-| **When: ¿Cuándo sucede este problema?**|El problema ocurre de manera constante durante las horas nocturnas y de madrugada, siendo más crítico en los trayectos de ida o vuelta del trabajo, cuando el transporte público es escaso, las calles están poco iluminadas y hay menor presencia de otras personas o autoridades.|
-| **Where: ¿Dónde se produce este suceso?** |El problema está presente en las principales ciudades del país, pero es particularmente crítico en zonas urbanas de Lima con alta incidencia delictiva, poca iluminación pública y escasa oferta de servicios nocturnos, donde miles de trabajadores transitan diariamente sin herramientas que respalden su seguridad.|
-| **Who: ¿Quiénes están involucrados?** |Están involucrados directamente los trabajadores de turno nocturno de distintos rubros (seguridad, delivery, enfermería, call centers, limpieza, etc), así como sus familiares, parejas y contactos de confianza, quienes también viven con incertidumbre y preocupación mientras el trabajador está en tránsito o en su jornada nocturna, sin ninguna forma de saber si llegó bien a su destino.|
-| **Why: ¿Cuál es la causa del problema?** |La causa principal es que las ciudades, los servicios comerciales y las herramientas tecnológicas de seguridad y comunidad están mayoritariamente diseñados en función del horario diurno, dejando un vacío de soluciones específicas para quienes trabajan de noche. |
-| **How: ¿Qué llevó a la persona a llegar a esta situación?** |La situación actual es resultado de una economía que exige servicios ininterrumpidos las 24 horas (seguridad, salud, delivery, atención al cliente, etc), sin que exista una infraestructura de apoyo equivalente para quienes sostienen esa operación nocturna, generando desprotección, desgaste físico y aislamiento social progresivo.|
-| **How Much: ¿Cuánto es el impacto financiero?** |El impacto es tanto humano como económico: mayor exposición a asaltos y accidentes en el trayecto, deterioro de la salud por falta de descanso adecuado, pérdida de vínculos sociales y familiares, y un desgaste emocional constante en los contactos de confianza que viven con incertidumbre mientras el trabajador está en su turno nocturno. |
+### 1.2.1 Antecedentes y problemática
+| 5W & 2H | Descripción |
+| --- | --- |
+| **What: ¿Cuál es el problema?** | Los trabajadores y sus contactos pueden experimentar incertidumbre durante los desplazamientos laborales, dificultades para coordinar avisos de llegada y para consultar información reciente sobre rutas y servicios. La investigación inicial recoge experiencias nocturnas; la presencia y características de estas necesidades durante el día están pendientes de validación. |
+| **When: ¿Cuándo sucede?** | En los trayectos de entrada y salida del trabajo, durante el día, la noche o cambios de turno. Las condiciones de tránsito, iluminación y disponibilidad de servicios varían según el horario. |
+| **Where: ¿Dónde sucede?** | El alcance inicial se delimita a desplazamientos urbanos en Lima Metropolitana. La cobertura efectiva y las necesidades por zona deben verificarse. |
+| **Who: ¿Quiénes están involucrados?** | Trabajadores de turnos diurnos, nocturnos o rotativos y sus contactos de confianza autorizados. |
+| **Why: ¿Qué factores se investigarán?** | La dependencia de avisos manuales, las dificultades de comunicación y la disponibilidad de información reciente del entorno. Su importancia para cada turno se contrastará con usuarios. |
+| **How: ¿Cómo se manifiesta?** | Mediante llamadas o mensajes para confirmar llegadas, preocupación ante retrasos sin explicación y búsqueda de servicios disponibles durante el trayecto. Se conservarán las diferencias que revele la investigación por horario. |
+| **How Much: ¿Cuál es el impacto?** | Se investigarán el tiempo dedicado a coordinar avisos, los gastos asociados a los desplazamientos y la preocupación percibida. No se dispone todavía de una cuantificación del impacto económico para el alcance ampliado. |
 
 ### 1.2.2 Lean UX Process.
 #### 1.2.2.1. Lean UX Problem Statements.
+Los trabajadores que se desplazan en horarios diurnos, nocturnos o rotativos y sus contactos de confianza necesitan coordinar el acompañamiento y la confirmación de llegada. La investigación inicial con usuarios vinculados al trabajo nocturno identificó preocupación ante la falta de comunicación y atención al consumo de batería y a las falsas alarmas. Estos hallazgos no constituyen evidencia de validación del público diurno.
 
-El estado actual de **la seguridad y el bienestar de los trabajadores del turno nocturno en zonas urbanas del Perú** se ha enfocado principalmente en **los trabajadores del horario diurno**, dejando de lado a **guardias de seguridad, repartidores (delivery), personal de salud, agentes de call center, personal de limpieza, entre otros, que laboran en turno nocturno**, junto con sus puntos de dolor tales como **el riesgo constante al transitar solos de noche, la dificultad para encontrar servicios abiertos y confiables, el aislamiento de su círculo social debido a que duermen mientras otros están despiertos, y la nula capacidad de organizarse colectivamente debido a sus horarios dispersos**.
+**Noxway** propone un proceso de trayecto con destino, llegada estimada, contacto autorizado, confirmación y avisos ante el vencimiento del tiempo previsto. El proceso debe poder iniciarse a cualquier hora y continuar si cruza la medianoche. Un aviso por falta de confirmación no acredita por sí mismo una emergencia ni garantiza una intervención.
 
-Lo que los productos/servicios existentes de seguridad personal y de compartición de ubicación no logran abordar es **una plataforma especializada que combine seguridad activa durante los trayectos, información confiable generada por la comunidad sobre la seguridad de las rutas y el entorno nocturno, y un espacio de comunidad y beneficios colectivos diseñado específicamente para la realidad del trabajo en turno nocturno**.
+El segmento inicial comprende trabajadores de Lima Metropolitana y sus contactos de confianza. La información comunitaria de rutas y servicios según el horario de atención, el descanso y los beneficios son funciones complementarias.
 
-**Noxway** abordará esta brecha **ofreciendo un check-in de trayecto seguro con alertas automáticas a contactos de confianza, un sistema de calificación y reporte de seguridad de rutas alimentado por la comunidad, un mapa comunitario de servicios abiertos durante la noche, un sistema automático de alerta ante posibles incidentes cuando un trayecto no es confirmado, una bitácora de descanso y salud del sueño, y una comunidad con beneficios colectivos negociados mediante una suscripción mensual**.
-
-Nuestro enfoque inicial serán **los trabajadores de turno nocturno de los rubros de seguridad, delivery, salud, call center, entre otros, en Lima Metropolitana, junto con sus contactos de confianza (familiares y parejas) que comparten la carga emocional de su seguridad durante estos trayectos**.
-
-Sabremos que hemos tenido éxito cuando veamos **una reducción de los incidentes de seguridad reportados por nuestros usuarios, un uso recurrente y sostenido de la función de check-in de trayecto seguro, un volumen creciente de calificaciones de seguridad de rutas enviadas por la comunidad, un crecimiento orgánico de la comunidad de usuarios, y una tasa de conversión relevante de usuarios de prueba gratuita a suscriptores de pago**.
+Se evaluarán la finalización de tareas sin ayuda, el tiempo y pasos para iniciar un trayecto, la comprensión de avisos y la frecuencia de falsas alarmas, comparando turnos y los métodos que ya utilizan los participantes.
 
 #### 1.2.2.2. Lean UX Assumptions.
+
+Las siguientes afirmaciones son supuestos y metas propuestas, pendientes de contraste para el alcance ampliado. La investigación incluirá participantes de turnos diurnos, nocturnos y rotativos y sus contactos. Se registrarán el turno y el horario de las tareas para comparar necesidades y resultados; no se presentan estas metas como logros obtenidos.
 **Business Assumptions**
-* Creemos que existe un mercado desatendido de trabajadores nocturnos dispuestos a utilizar una plataforma dedicada a su bienestar.
+* Creemos que existe un mercado desatendido de trabajadores de distintos turnos dispuestos a utilizar una plataforma dedicada a su bienestar.
 * Creemos que un modelo de crecimiento basado en referidos entre el trabajador y sus contactos de confianza (familiares, parejas) reducirá el costo de adquisición de usuarios y acelerará el crecimiento orgánico de la plataforma.
 * Creemos que un modelo de monetización mediante suscripción mensual con beneficios como seguro básico, descuentos negociados colectivamente y alertas de seguridad prioritarias es viable y sostenible para este segmento, gracias a la posibilidad de negociar estos beneficios con terceros.
 
@@ -288,36 +294,36 @@ Sabremos que hemos tenido éxito cuando veamos **una reducción de los incidente
 * Creemos que lograremos una mediana de 5 minutos o menos entre el vencimiento del margen de tolerancia y la primera acción del contacto de confianza, con no más de 15 % de incidentes cerrados como falso positivo, durante un piloto de 8 semanas.
 
 **User Assumptions**
-1. Nuestros usuarios principales son trabajadores de turno nocturno entre 20 y 45 años, residentes en zonas urbanas de Lima, pertenecientes a los rubros de seguridad, delivery, salud y call centers, etc.
-2. Nuestros usuarios secundarios son los contactos de confianza (familiares, parejas o amigos) de los trabajadores nocturnos, quienes reciben notificaciones automáticas sobre el estado de su trayecto.
-3. Existen usuarios con rol de moderación dentro de la comunidad, encargados de validar reportes de incidentes y de información sobre servicios nocturnos.
+1. Nuestros usuarios principales son trabajadores de turnos diurnos, nocturnos o rotativos entre 18 y 55 años, residentes en zonas urbanas de Lima, pertenecientes a los rubros de seguridad, delivery, salud y call centers, etc.
+2. Nuestros usuarios secundarios son los contactos de confianza (familiares, parejas o amigos) de los trabajadores de distintos turnos, quienes reciben notificaciones automáticas sobre el estado de su trayecto.
+3. Existen usuarios con rol de moderación dentro de la comunidad, encargados de validar reportes de incidentes y de información sobre servicios cercanos.
 
 **User Outcome and Benefit Assumptions**
-1. Los trabajadores nocturnos desean sentirse acompañados y seguros durante sus trayectos, y obtienen tranquilidad al saber que un contacto de confianza será notificado automáticamente ante cualquier eventualidad.
-2. Los trabajadores nocturnos desean encontrar rápidamente servicios abiertos y confiables durante la noche, y obtienen ahorro de tiempo y menor exposición a situaciones de riesgo.
-3. Los trabajadores nocturnos desean sentirse parte de una comunidad que comprenda su realidad laboral, y obtienen acceso a información relevante y beneficios negociados colectivamente.
-4. Los contactos de confianza desean tener certeza y tranquilidad sobre la seguridad de su familiar o pareja durante su trayecto nocturno, y obtienen visibilidad del estado del check-in y de la llegada segura, sin necesidad de estar llamando o preguntando constantemente.
-5. Los trabajadores nocturnos desean saber qué tan segura es una ruta específica antes de tomarla, y obtienen información sobre la seguridad de la ruta gracias a las calificaciones y reportes dejados por otros usuarios que la transitaron recientemente.
-6. Los trabajadores nocturnos desean comprender cómo su horario afecta su descanso, y obtienen visibilidad de sus patrones de sueño y alertas ante descanso insuficiente.
+1. Los trabajadores de distintos turnos desean sentirse acompañados y seguros durante sus trayectos, y obtienen tranquilidad al saber que un contacto de confianza será notificado automáticamente ante cualquier eventualidad.
+2. Los trabajadores de distintos turnos desean encontrar rápidamente servicios abiertos y confiables en el horario de su trayecto, y obtienen ahorro de tiempo y menor exposición a situaciones de riesgo.
+3. Los trabajadores de distintos turnos desean sentirse parte de una comunidad que comprenda su realidad laboral, y obtienen acceso a información relevante y beneficios negociados colectivamente.
+4. Los contactos de confianza desean tener certeza y tranquilidad sobre la seguridad de su familiar o pareja durante su trayecto laboral, y obtienen visibilidad del estado del check-in y de la llegada segura, sin necesidad de estar llamando o preguntando constantemente.
+5. Los trabajadores de distintos turnos desean saber qué tan segura es una ruta específica antes de tomarla, y obtienen información sobre la seguridad de la ruta gracias a las calificaciones y reportes dejados por otros usuarios que la transitaron recientemente.
+6. Los trabajadores de distintos turnos desean comprender cómo su horario afecta su descanso, y obtienen visibilidad de sus patrones de sueño y alertas ante descanso insuficiente.
 7. Los contactos de confianza desean enterarse a tiempo cuando el trayecto de su familiar o pareja presenta una situación anómala, y obtienen una alerta temprana y verificada sobre un posible incidente en el trayecto.
 
 **Feature Assumptions**
 
-1. Un check-in de trayecto seguro con aviso automático a contactos de confianza satisfará la necesidad de seguridad activa durante los desplazamientos nocturnos.
-2. Un mapa comunitario de servicios activos de noche, validado por los propios usuarios, satisfará la necesidad de información confiable sobre el entorno.
+1. Un check-in de trayecto seguro con aviso automático a contactos de confianza satisfará la necesidad de seguridad activa durante los desplazamientos de día y de noche.
+2. Un mapa comunitario de servicios disponibles según su horario de atención, validado por los propios usuarios, satisfará la necesidad de información confiable sobre el entorno.
 3. Un sistema de reporte comunitario de incidentes y zonas de riesgo satisfará la necesidad de anticipar y evitar situaciones peligrosas.
-4. Una bitácora de descanso y salud del sueño satisfará la necesidad de visibilizar y cuidar el bienestar físico del trabajador nocturno.
-5. Una comunidad con beneficios colectivos negociados a través de la suscripción mensual satisfará la necesidad de pertenencia, ahorro y valor añadido para el trabajador nocturno.
+4. Una bitácora de descanso y salud del sueño satisfará la necesidad de visibilizar y cuidar el bienestar físico del trabajador.
+5. Una comunidad con beneficios colectivos negociados a través de la suscripción mensual satisfará la necesidad de pertenencia, ahorro y valor añadido para el trabajador.
 6. Un sistema de calificación y reporte de ruta al finalizar cada trayecto (indicando si el usuario se sintió seguro o marcando un punto específico como sospechoso) satisfará la necesidad de contar con información colectiva y confiable sobre qué tan seguras son las rutas realmente transitadas.
 7. Una función de marcado automático de "posible incidente" cuando el usuario no confirma su llegada dentro del tiempo estimado, con validación posterior del propio usuario, satisfará la necesidad de identificar rápidamente situaciones de riesgo reales y alimentar el mapa comunitario con datos verificados.
-8. Un panel de seguimiento para contactos de confianza, que les permita ver en tiempo real el estado del trayecto y del check-in de la persona que los designó, satisfará la necesidad de tranquilidad y monitoreo sin invadir la privacidad del trabajador nocturno.
+8. Un panel de seguimiento para contactos de confianza, que les permita ver en tiempo real el estado del trayecto y del check-in de la persona que los designó, satisfará la necesidad de tranquilidad y monitoreo sin invadir la privacidad del trabajador.
 
 #### 1.2.2.3. Lean UX Hypothesis Statements.
 
 **Hipótesis 1**
 
 Creemos que lograremos **una retención a 30 días (usuarios con al menos un check-in en el mes 2 sobre usuarios con check-in en el mes 1) de al menos 60 %, durante los 3 meses posteriores al lanzamiento**  
-Si **los trabajadores de turno nocturno en Lima**  
+Si **los trabajadores de turnos diurnos, nocturnos o rotativos en Lima**<br>
 Alcanzan **tranquilidad al saber que un contacto de confianza será notificado automáticamente ante cualquier eventualidad**  
 Con **la función de check-in de trayecto seguro con alertas automáticas a contactos de confianza**.
 
@@ -326,16 +332,16 @@ Con **la función de check-in de trayecto seguro con alertas automáticas a cont
 **Hipótesis 2**
 
 Creemos que lograremos **un promedio de al menos 4 sesiones semanales por usuario activo y 3 búsquedas de servicios por semana, durante los 3 meses posteriores al lanzamiento**  
-Si **los trabajadores de turno nocturno**  
+Si **los trabajadores de turnos diurnos, nocturnos o rotativos**<br>
 Alcanzan **ahorro de tiempo y menor exposición a situaciones de riesgo**  
-Con **el mapa comunitario de servicios activos durante la noche**.
+Con **el mapa comunitario de servicios disponibles según su horario de atención**.
 
 ---
 
 **Hipótesis 3**
 
 Creemos que lograremos **que al menos 80 % de los reportes de riesgo sean aprobados por moderación y que 70 % de las zonas de riesgo tengan 2 o más confirmaciones independientes, durante los 3 meses posteriores al lanzamiento**  
-Si **los trabajadores de turno nocturno**  
+Si **los trabajadores de turnos diurnos, nocturnos o rotativos**<br>
 Alcanzan **información sobre la seguridad de la ruta gracias a las calificaciones y reportes dejados por otros usuarios que la transitaron recientemente**  
 Con **el sistema de reporte comunitario de incidentes**.
 
@@ -344,7 +350,7 @@ Con **el sistema de reporte comunitario de incidentes**.
 **Hipótesis 4**
 
 Creemos que lograremos **una retención a 30 días (usuarios con al menos un check-in en el mes 2 sobre usuarios con check-in en el mes 1) de al menos 60 %, durante los 3 meses posteriores al lanzamiento**  
-Si **los trabajadores de turno nocturno**  
+Si **los trabajadores de turnos diurnos, nocturnos o rotativos**<br>
 Alcanzan **visibilidad de sus patrones de sueño y alertas ante descanso insuficiente**  
 Con **la bitácora de descanso y salud del sueño**.
 
@@ -353,7 +359,7 @@ Con **la bitácora de descanso y salud del sueño**.
 **Hipótesis 5**
 
 Creemos que lograremos **una tasa de renovación de suscripción de al menos 70 % al tercer mes y que al menos 20 % de los nuevos registros llegue por recomendación, durante los 6 meses posteriores al lanzamiento**  
-Si **los trabajadores de turno nocturno**  
+Si **los trabajadores de turnos diurnos, nocturnos o rotativos**<br>
 Alcanzan **acceso a información relevante y beneficios negociados colectivamente**  
 Con **la comunidad y sus beneficios colectivos negociados a través de la suscripción mensual**.
 
@@ -362,7 +368,7 @@ Con **la comunidad y sus beneficios colectivos negociados a través de la suscri
 **Hipótesis 6**
 
 Creemos que lograremos **que al menos 40 % de los trayectos finalizados reciba una calificación de ruta, durante los 3 meses posteriores al lanzamiento**  
-Si **los trabajadores de turno nocturno**  
+Si **los trabajadores de turnos diurnos, nocturnos o rotativos**<br>
 Alcanzan **información sobre la seguridad de la ruta gracias a las calificaciones y reportes dejados por otros usuarios que la transitaron recientemente**  
 Con **el sistema de calificación y reporte de rutas**.
 
@@ -380,11 +386,13 @@ Con **la función de marcado automático de "posible incidente" cuando la llegad
 **Hipótesis 8**
 
 Creemos que lograremos **que al menos 30 % de los nuevos registros provenga de invitaciones de contactos de confianza y que el costo de adquisición por usuario sea 25 % menor al de canales pagados, durante los 6 meses posteriores al lanzamiento**  
-Si **los contactos de confianza (familiares y parejas de los trabajadores de turno nocturno)**  
+Si **los contactos de confianza (familiares y parejas de los trabajadores de turnos diurnos, nocturnos o rotativos)**<br>
 Alcanzan **visibilidad del estado del check-in y de la llegada segura, sin necesidad de estar llamando o preguntando constantemente**  
 Con **un panel de seguimiento dedicado para contactos de confianza**.
 
-#### 1.2.2.4. Lean UX Canvas. 
+#### 1.2.2.4. Lean UX Canvas.
+
+> El Canvas visual conserva el enfoque inicial. Su actualización gráfica queda pendiente; las secciones textuales anteriores describen el alcance vigente.
 Figura 1
 <br>
 Lean UX Canvas — Noxway
@@ -392,20 +400,20 @@ Lean UX Canvas — Noxway
 ![Lean UX Canvas](resources/imgs/Lean_UX_Canvas.png)
 
 ## 1.3. Segmentos objetivo. 
-**Segmento Objetivo 1: Trabajadores de turno nocturno**
+**Segmento Objetivo 1: Trabajadores de turnos diurnos, nocturnos o rotativos**
 **Aspectos demográficos:**
 - **Edad:** 18 - 55 años.
 - **Nivel socioeconómico:** Media - Baja.
 - **Tipo de trabajador:** Personal de primera línea, trabajadores empleos temporales y servicios esenciales.
 - **Rubro:** Seguridad privada, salud, delivery, call centers, limpieza y transporte.
-- **Nivel de necesidad:** Alta dependencia de herramientas que garanticen su seguridad en rutas desoladas y faciliten encontrar servicios básicos abiertos de madrugada.
+- **Nivel de necesidad:** Necesidad por validar de acompañamiento durante los trayectos y de información sobre servicios disponibles según el horario, sin prometer una garantía de seguridad.
 
 **Aspectos geográficos:**
 - **Nacionalidad:** Peruana.
 - **Zona geográfica:** Urbana y metropolitana (Lima).
 
 **Aspectos psicográficos:**
-- **Motivación:** Llegar sanos y salvos a sus hogares y lugares de trabajo, cuidar su salud del sueño, optimizar su tiempo y reducir sus gastos nocturnos.
+- **Motivación:** Llegar sanos y salvos a sus hogares y lugares de trabajo, cuidar su salud del sueño, optimizar su tiempo y reducir sus gastos de desplazamiento.
 - **Valores:** La seguridad personal, el bienestar físico y el respaldo de una comunidad.
 - **Intereses:** Adopción de tecnología rápida y colaborativa que les permita evitar zonas de riesgo y acceder a beneficios o alertas en tiempo real.
 
@@ -415,9 +423,9 @@ Lean UX Canvas — Noxway
 **Aspectos demográficos:**
 - **Edad:** 18 - 60 años.
 - **Nivel socioeconómico:** Media - Baja.
-- **Vínculo:** Familiares directos (padres, hermanos), parejas o amigos cercanos del trabajador de turno nocturno.
+- **Vínculo:** Familiares directos (padres, hermanos), parejas o amigos cercanos del trabajador de cualquier turno.
 - **Rubro:** Ocupaciones diversas.
-- **Nivel de necesidad:** Alta necesidad de información y certeza sobre el estado y ubicación de su ser querido para mitigar la angustia durante la noche.
+- **Nivel de necesidad:** Alta necesidad de información y certeza sobre el estado y ubicación de su ser querido durante los desplazamientos autorizados, independientemente del horario.
 
 **Aspectos geográficos:**
 - **Nacionalidad:** Peruana.
@@ -451,7 +459,7 @@ Safetipin es una aplicación originada en India que genera "puntajes de segurida
   </tr>
   <tr>
     <td colspan="2" rowspan="2">¿Por qué llevar a cabo este análisis?</td>
-    <td colspan="5"> Con el objetivo de evaluar y comparar funcionalidades, tecnología, precios y estrategias de marketing de los principales competidores en seguridad personal y trayectos, para identificar nuestras fortalezas y debilidades, detectar oportunidades de negocio y definir los puntos que nos diferencian de la competencia frente al segmento específico de trabajadores de turno nocturno y sus contactos de confianza. </td>
+    <td colspan="5"> Con el objetivo de evaluar y comparar funcionalidades, tecnología, precios y estrategias de marketing de los principales competidores en seguridad personal y trayectos, para identificar nuestras fortalezas y debilidades, detectar oportunidades de negocio y definir los puntos que nos diferencian de la competencia frente al segmento específico de trabajadores de turnos diurnos, nocturnos o rotativos y sus contactos de confianza. </td>
   </tr>
   <tr></tr>
   <tr>
@@ -464,14 +472,14 @@ Safetipin es una aplicación originada en India que genera "puntajes de segurida
   <tr>
     <td rowspan="2">Perfil</td>
     <td>Overview</td>
-    <td> Noxway es una plataforma integral de seguridad, información y comunidad diseñada específicamente para trabajadores de turno nocturno y sus contactos de confianza, que combina check-in de trayecto seguro, calificación y reporte comunitario de rutas, mapa de servicios activos de noche y una comunidad con beneficios colectivos. </td>
+    <td> Noxway es una plataforma integral de seguridad, información y comunidad diseñada específicamente para trabajadores de turnos diurnos, nocturnos o rotativos y sus contactos de confianza, que combina check-in de trayecto seguro, calificación y reporte comunitario de rutas, mapa de servicios disponibles según su horario de atención y una comunidad con beneficios colectivos. </td>
     <td> bSafe es una app de seguridad personal que previene y documenta situaciones de riesgo mediante alarma SOS, grabación automática y una red de contactos "Guardians" que monitorean al usuario en tiempo real. </td>
     <td> Noonlight es una plataforma de seguridad conectada que permite pedir ayuda de forma silenciosa, enviando la ubicación exacta del usuario a despachadores profesionales que pueden movilizar servicios de emergencia. </td>
     <td> Safetipin es una app que genera puntajes de seguridad de calles y rutas a partir de auditorías y calificaciones de la comunidad, recomendando la ruta más segura y permitiendo compartir ubicación con contactos de confianza. </td>
   </tr>
   <tr>
     <td>Ventaja competitiva ¿Qué valor ofrece a los clientes?</td>
-    <td> Ofrece una solución especializada para la realidad del trabajo nocturno; seguridad activa en el trayecto, calificación de rutas por la propia comunidad de trabajadores, e información confiable sobre servicios abiertos de noche. </td>
+    <td> Ofrece una solución especializada para la realidad del trabajo en distintos turnos; seguridad activa en el trayecto, calificación de rutas por la propia comunidad de trabajadores, e información confiable sobre servicios abiertos en el horario consultado. </td>
     <td> Ofrece prevención y evidencia documentada ante situaciones de riesgo mediante grabación automática y una red de contactos de confianza. </td>
     <td> Ofrece conexión directa y silenciosa con servicios de emergencia profesionales, sin depender de contactos personales. </td>
     <td> Ofrece información colectiva y verificada sobre qué tan segura es una calle o ruta específica, permitiendo decisiones de trayecto basadas en datos reales de la comunidad. </td>
@@ -479,14 +487,14 @@ Safetipin es una aplicación originada en India que genera "puntajes de segurida
   <tr>
     <td rowspan="2">Perfil de Marketing</td>
     <td> Mercado Objetivo </td>
-    <td> Trabajadores de turno nocturno (seguridad, delivery, salud, call centers, limpieza, etc) y sus contactos de confianza (familiares, parejas), en zonas urbanas de Lima. </td>
+    <td> Trabajadores de turnos diurnos, nocturnos o rotativos (seguridad, delivery, salud, call centers, limpieza, etc) y sus contactos de confianza (familiares, parejas), en zonas urbanas de Lima. </td>
     <td> Personas en general que buscan seguridad personal, con fuerte enfoque en mujeres y estudiantes universitarios. </td>
     <td> Usuarios individuales, estudiantes, y empresas que integran la app a dispositivos IoT y sistemas de seguridad residencial. </td>
     <td> Mujeres, jóvenes y comunidades urbanas en general, así como gobiernos locales y planificadores urbanos interesados en datos de seguridad de sus ciudades. </td>
   </tr>
   <tr>
     <td> Estrategias de Marketing </td>
-    <td> Marketing de nicho dirigido a comunidades y grupos de trabajadores nocturnos en redes sociales, programa de referidos entre trabajadores y sus contactos de confianza. </td>
+    <td> Marketing de nicho dirigido a comunidades y grupos de trabajadores de distintos turnos en redes sociales, programa de referidos entre trabajadores y sus contactos de confianza. </td>
     <td> Testimonios de figuras públicas, presencia en medios internacionales, alianzas con instituciones educativas y comunidades. </td>
     <td> Alianzas B2B con marcas de seguridad del hogar e IoT (Wyze, Sabre, Roku), relaciones públicas con medios especializados en seguridad. </td>
     <td> Alianzas con ONGs, gobiernos locales y organizaciones de mujeres; presencia en medios enfocados en urbanismo y seguridad de género. </td>
@@ -494,7 +502,7 @@ Safetipin es una aplicación originada en India que genera "puntajes de segurida
   <tr>
     <td rowspan="3">Perfil de Producto</td>
     <td> Productos & Servicios </td>
-    <td> Check-in de trayecto seguro, calificación y reporte de ruta, marcado automático de posible incidente, mapa comunitario de servicios nocturnos, bitácora de descanso y salud del sueño, comunidad con beneficios colectivos, panel de seguimiento para contactos de confianza. </td>
+    <td> Check-in de trayecto seguro, calificación y reporte de ruta, marcado automático de posible incidente, mapa comunitario de servicios cercanos, bitácora de descanso y salud del sueño, comunidad con beneficios colectivos, panel de seguimiento para contactos de confianza. </td>
     <td> Botón SOS por voz o táctil, transmisión en vivo, grabación automática de audio/video, llamadas falsas, red de contactos "Guardians". </td>
     <td> Botón de pánico silencioso, conexión directa con despachadores profesionales, monitoreo 24/7 opcional, integración con dispositivos IoT. </td>
     <td> Auditorías de seguridad por parámetros (iluminación, visibilidad, transporte, gente en la calle), puntaje de seguridad por zona/ruta, recomendación de ruta más segura, seguimiento de ubicación con contactos. </td>
@@ -516,7 +524,7 @@ Safetipin es una aplicación originada en India que genera "puntajes de segurida
   <tr>
     <td rowspan="4"> Análisis SWOT </td>
     <td> Fortalezas </td>
-    <td> Especialización total en la realidad del trabajo nocturno, combinación única de check-in + calificación de rutas + comunidad, modelo de suscripción con beneficios tangibles adicionales. </td>
+    <td> Especialización total en la realidad del trabajo en distintos turnos, combinación única de check-in + calificación de rutas + comunidad, modelo de suscripción con beneficios tangibles adicionales. </td>
     <td> Reconocimiento internacional, tecnología robusta de grabación y evidencia, alianzas mediáticas de alto perfil. </td>
     <td> Conexión directa y profesional con servicios de emergencia, integración amplia con dispositivos IoT. </td>
     <td> Metodología de auditoría de seguridad probada y validada en 16 países, gran volumen de datos históricos, reconocimiento internacional en temas de seguridad urbana. </td>
@@ -524,13 +532,13 @@ Safetipin es una aplicación originada en India que genera "puntajes de segurida
   <tr>
     <td> Debilidades </td>
     <td> Dependencia de la adopción inicial y de la masa crítica de usuarios para que la calificación de rutas sea confiable. </td>
-    <td> No está enfocada en las necesidades específicas de trabajadores nocturnos ni ofrece información comunitaria del entorno. </td>
+    <td> No está enfocada en las necesidades específicas de trabajadores de distintos turnos ni ofrece información comunitaria del entorno. </td>
     <td> Costo elevado del monitoreo profesional continuo; no ofrece funciones de comunidad ni calificación de rutas. </td>
     <td> No cuenta con check-in de trayecto ni aviso automático a contactos de confianza; su enfoque está más en datos para políticas públicas que en la experiencia diaria del usuario individual. </td>
   </tr>
   <tr>
     <td> Oportunidades </td>
-    <td> Expansión hacia distintos rubros de trabajo nocturno y hacia otras ciudades del Perú. </td>
+    <td> Expansión hacia distintos rubros de trabajo en distintos turnos y hacia otras ciudades del Perú. </td>
     <td> Expansión hacia nuevos segmentos corporativos y de seguridad comunitaria. </td>
     <td> Expansión de alianzas B2B con más fabricantes de dispositivos de seguridad. </td>
     <td> Expansión hacia nuevos países de Latinoamérica y alianzas con más gobiernos locales. </td>
@@ -549,7 +557,7 @@ A partir del análisis competitivo, se han identificado las siguientes estrategi
 
 1. **Estrategias de Diferenciación:**
 
-**Especialización en el trabajo nocturno:** A diferencia de bSafe, Noonlight y Safetipin, que ofrecen seguridad personal o auditoría urbana de forma genérica, **Noxway** se enfoca exclusivamente en la realidad de quienes trabajan de noche, combinando check-in de trayecto seguro, calificación de rutas, información comunitaria del entorno y bitácora de descanso, algo que ningún competidor ofrece de forma integrada.
+**Acompañamiento de desplazamientos laborales:** **Noxway** propone integrar check-in, confirmación de llegada, avisos a contactos autorizados e información comunitaria para trabajadores de turnos diurnos, nocturnos o rotativos. La diferenciación frente a las alternativas se comprobará mediante pruebas de tareas y comprensión de avisos.
 
 **Calificación de rutas orientada a la acción, no solo al dato:** A diferencia de Safetipin, cuyo enfoque principal es generar datos para gobiernos y planificadores urbanos, **Noxway** utiliza la calificación de rutas directamente para beneficio inmediato del propio usuario (elegir una ruta más segura, recibir alertas de zonas de riesgo cerca de su ubicación en tiempo real).
 
@@ -557,7 +565,7 @@ A partir del análisis competitivo, se han identificado las siguientes estrategi
 
 2. **Tácticas de Marketing:**
 
-**Marketing de nicho y comunidades existentes:** Se realizarán campañas dirigidas específicamente a comunidades y grupos de trabajadores nocturnos en redes sociales, diferenciándonos del marketing masivo y genérico de bSafe y Noonlight.
+**Marketing de nicho y comunidades existentes:** Se realizarán campañas dirigidas específicamente a comunidades y grupos de trabajadores de distintos turnos en redes sociales, diferenciándonos del marketing masivo y genérico de bSafe y Noonlight.
 
 **Programa de referidos entre trabajador y contacto de confianza:** A diferencia de los competidores, que no explotan este vínculo, **Noxway** incentivará que cada trabajador invite a sus contactos de confianza a la plataforma, generando crecimiento orgánico natural.
 
@@ -569,9 +577,12 @@ A partir del análisis competitivo, se han identificado las siguientes estrategi
 
 **Enfoque regional inicial y expansión nacional:** **Noxway** comenzará en Lima, adaptándose a las necesidades específicas del contexto urbano peruano, antes de expandirse a otros departamentos del pais, a diferencia de competidores como Noonlight y Safetipin, que operan con un enfoque global desde su origen.
 
-**Ecosistema local de servicios nocturnos:** Se buscarán alianzas con negocios y proveedores locales (farmacias, restaurantes, grifos) que deseen aparecer destacados en el mapa comunitario de servicios nocturnos, generando un ecosistema local que ningún competidor internacional replica.
+**Ecosistema local de servicios cercanos:** Se buscarán alianzas con negocios y proveedores locales (farmacias, restaurantes, grifos) que deseen aparecer destacados en el mapa comunitario de servicios cercanos, generando un ecosistema local que ningún competidor internacional replica.
 
 ### 2.2.2. Registro de entrevistas
+
+> **Evidencia del enfoque inicial:** Se conservan los registros y respuestas originales. La investigación con trabajadores diurnos y rotativos está pendiente; no se extrapolan estos hallazgos como validación del alcance ampliado.
+
 
 *Registro de entrevistas — Segmento 1*
 
@@ -696,7 +707,10 @@ A partir del análisis competitivo, se han identificado las siguientes estrategi
 **Resumen:** Ronald Ramírez trabaja como asistente administrativo y se preocupa por la seguridad de su esposa, quien labora como enfermera en el turno nocturno. Para mantenerse informado, espera mensajes de confirmación cuando ella llega a su destino y permanece atento al celular durante la noche. Considera que las notificaciones automáticas de llegada le brindarían tranquilidad y le permitirían descansar mejor. Confiaría en una aplicación que ofrezca ubicación y alertas precisas, siempre que evite falsas alarmas y no consuma demasiada batería.
 
 
-## 2.3. Needfinding. 
+## 2.3. Needfinding.
+
+> Las personas, matrices y mapas siguientes corresponden a la investigación inicial nocturna. Se mantienen como antecedentes; deberán contrastarse con nuevos participantes y actualizarse en una fase posterior.
+
 
 ### 2.3.1. User Personas. 
 
@@ -748,24 +762,28 @@ En esta sección se presentan los Empathy Maps. Estos nos ayudarán a comprender
 ![Empathy Map - Valeria Ríos](resources/imgs/em-Valeria%20R%C3%ADos.png)
 
 ## 2.4. Big Picture EventStorming.
+
+> El mapa visual se conserva como antecedente del enfoque inicial; su actualización al alcance diurno y nocturno queda pendiente.
+
 En esta sección, el equipo presenta el modelado integral del dominio del negocio mediante la técnica de Big Picture EventStorming. A través de un espacio colaborativo virtual (Miro / Mural), exploramos de extremo a extremo el flujo operativo de nuestra solución: desde el registro y vinculación de contactos, la ejecución de trayectos seguros nocturnos y la gestión de alertas, hasta la colaboración comunitaria en mapas de servicios y la administración de beneficios por suscripción. Este ejercicio permite alinear el lenguaje ubicuo, identificar cuellos de botella y delimitar los subdominios del sistema. 
 
 ![Event Storming](resources/imgs/eventStorming.png)
 
+
 ## 2.5. Ubiquitous Language.
-* **Night-Shift Worker (Trabajador de Turno Nocturno):** Usuario principal del sistema cuya jornada laboral se desarrolla durante horas nocturnas o de madrugada en rubros esenciales (seguridad privada, salud, delivery, call center, limpieza, etc.) y que enfrenta riesgos específicos de movilidad y aislamiento.
-* **Trusted Contact (Contacto de Confianza):** Familiar directo, pareja o allegado designado por el trabajador nocturno para recibir notificaciones automáticas sobre el estado, inicio y término de sus trayectos sin invadir su privacidad.
+* **Worker (Trabajador de Cualquier Turno):** Usuario principal del sistema que realiza desplazamientos laborales en horarios diurnos, nocturnos o rotativos, inicialmente en Lima Metropolitana.
+* **Trusted Contact (Contacto de Confianza):** Familiar directo, pareja o allegado designado por el trabajador para recibir notificaciones automáticas sobre el estado, inicio y término de sus trayectos sin invadir su privacidad.
 * **Safe-Trip Check-In (Check-In de Trayecto Seguro):** Acción explícita mediante la cual el trabajador confirma el inicio o la llegada exitosa a su destino, activando o cerrando el protocolo de acompañamiento pasivo del sistema.
-* **Safe Commute / Night Commute (Trayecto Seguro / Desplazamiento Nocturno):** Recorrido físico realizado por el trabajador entre su hogar y su lugar de trabajo (o viceversa) durante horarios nocturnos donde el transporte es limitado y el entorno urbano presenta mayor vulnerabilidad.
+* **Safe Commute (Trayecto Seguro / Desplazamiento Laboral):** Recorrido autorizado por el trabajador entre un origen y un destino, a cualquier hora, con llegada estimada y contacto designado. Puede continuar al día siguiente sin cerrarse automáticamente a medianoche.
 * **Possible Incident (Posible Incidente):** Estado de alerta temprana que se activa automáticamente cuando un trabajador no confirma su llegada dentro del tiempo estimado más el margen de tolerancia establecido, notificando al contacto de confianza.
 * **Route Safety Rating (Calificación de Seguridad de Ruta):** Valoración colaborativa y cualitativa que realiza un trabajador al culminar su desplazamiento, calificando factores del entorno como iluminación, presencia de sospechosos, patrullaje o transitabilidad.
 * **Risk Zone / Danger Spot (Zona de Riesgo / Punto de Peligro):** Ubicación geográfica o tramo vial reportado por la comunidad de trabajadores como inseguro debido a antecedentes de robos, escasa visibilidad o falta de resguardo ciudadano.
-* **Night-Time Services Map (Mapa de Servicios Nocturnos):** Directorio georreferenciado y colaborativo de establecimientos que operan formalmente durante la madrugada (farmacias, grifos, locales de comida, talleres) y que han sido verificados por los usuarios.
-* **Sleep & Rest Log (Bitácora de Descanso y Salud del Sueño):** Registro personal donde el trabajador documenta sus ciclos de sueño diurno y hábitos de reposo para monitorear su desgaste físico y recibir sugerencias de higiene del sueño.
+* **Nearby Services Map (Mapa de Servicios Cercanos):** Directorio georreferenciado y colaborativo de establecimientos con horarios de atención y estado de validación. Puede incluir servicios diurnos, nocturnos y de atención continua; la disponibilidad se consulta según fecha y hora.
+* **Sleep & Rest Log (Bitácora de Descanso y Salud del Sueño):** Registro personal donde el trabajador documenta sus ciclos de sueño diurno o nocturno y hábitos de reposo para monitorear su desgaste físico y recibir sugerencias de higiene del sueño.
 * **Collective Benefits (Beneficios Colectivos):** Conjunto de ventajas comerciales, seguros básicos de accidentes y descuentos negociados en grupo para los usuarios que cuentan con una membresía activa.
 * **Monthly Subscription (Suscripción Mensual):** Modelo de membresía recurrente que otorga acceso a coberturas complementarias de seguridad, seguros y beneficios exclusivos dentro de la plataforma.
 * **Companion View (Panel de Seguimiento del Acompañante):** Interfaz simplificada y pasiva diseñada para el contacto de confianza, donde consulta el estado general del viaje y recibe alertas sin necesidad de realizar configuraciones complejas.
-* **Community Moderator (Moderador de la Comunidad):** Rol asignado a usuarios verificados o miembros del equipo encargados de revisar, aprobar o desestimar reportes de nuevos servicios nocturnos o incidentes en el mapa.
+* **Community Moderator (Moderador de la Comunidad):** Rol asignado a usuarios verificados o miembros del equipo encargados de revisar, aprobar o desestimar reportes de nuevos servicios cercanos o incidentes en el mapa.
 * **Grace Period (Margen de Tolerancia de Arribo):** Ventana de tiempo prudencial añadida a la hora estimada de llegada que permite absorber retrasos de tráfico habituales antes de disparar un estado de posible incidente. 
 
 # Capítulo III: Requirements Specification 
