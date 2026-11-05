@@ -1198,7 +1198,7 @@ La versión móvil prioriza:
 - Mapa y ubicación.
 - Estado del trayecto.
 - Notificaciones.
-- Lectura clara en ambientes con poca iluminación.
+- Lectura clara tanto bajo luz diurna intensa como en ambientes con poca iluminación, con contraste y tema visual ajustables.
 
 **Tablet y escritorio**
 
@@ -1277,7 +1277,7 @@ Permite registrar familiares, parejas o amigos que recibirán notificaciones rel
 
 Permite visualizar:
 
-- Servicios abiertos durante el día y la noche.
+- Servicios abiertos según la fecha y hora de consulta, con horarios diurnos, nocturnos o de atención continua.
 - Zonas reportadas como inseguras.
 - Incidentes registrados.
 - Información proporcionada por la comunidad.
@@ -1322,7 +1322,7 @@ Se utilizarán diversos métodos para organizar la información según su releva
 
 **Organización Matricial:** Se utilizará para comparar información relacionada con servicios cercanos, zonas de riesgo, reportes comunitarios y beneficios disponibles. Este sistema permitirá al usuario visualizar diferentes alternativas y tomar decisiones según criterios como distancia, horario de atención, nivel de seguridad o valoración de otros usuarios.
 
-**Organización por categorías:** Se empleará para agrupar funcionalidades y contenidos relacionados. Por ejemplo, las opciones de seguridad incluirán trayectos, contactos de confianza y reportes de incidentes; mientras que las opciones de bienestar incluirán descanso, sueño y recomendaciones.ará para agrupar funcionalidades y contenidos relacionados. Por ejemplo, las opciones de seguridad incluirán trayectos, contactos de confianza y reportes de incidentes; mientras que las opciones de bienestar incluirán descanso, sueño y recomendaciones.
+**Organización por categorías:** Se empleará para agrupar funcionalidades y contenidos relacionados. Por ejemplo, las opciones de seguridad incluirán trayectos, contactos de confianza y reportes de incidentes; mientras que las opciones de bienestar incluirán descanso, sueño y recomendaciones.
 
 
 ### 4.2.2. Labeling Systems.
@@ -1431,7 +1431,7 @@ Los resultados podrán actualizarse conforme el usuario escribe, mostrando las o
 
 **Por distancia:** Cerca de mí, menos de 1 km, menos de 3 km, menos de 5 km.
 
-**Por horario:** Abierto ahora, atención 24 horas, apertura próxima.
+**Por horario:** Abierto ahora, atención 24 horas, apertura próxima. La disponibilidad se determina según el horario de atención y la zona horaria del establecimiento; un servicio no necesita operar las 24 horas para aparecer en el mapa. Los intervalos que cruzan medianoche se consideran hasta su cierre del día siguiente.
 
 **Por seguridad:** Ruta recomendada, zona segura, zona de precaución, zona de riesgo.
 
@@ -1533,10 +1533,10 @@ La estructura alámbrica de la página está organizada en diez secciones contin
 **Hero Section:** Presenta la propuesta de valor principal de forma contundente mediante un titular de alto impacto y un subtítulo explicativo enfocado en el acompañamiento y seguridad de trayectos diurnos y nocturnos. Integra un llamado a la acción dual segmentado (Protect My Commute para el trabajador de turno diurno o nocturno e I'm a Trusted Contact para acompañantes o familiares), complementado por un indicador visual de desplazamiento. 
 
 
-**Protocolo:** Desglosa visualmente el flujo de funcionamiento operativo de la solución en cuatro fases consecutivas y numeradas: vinculación del círculo de confianza, inicio y estimación del trayecto de salida de turno, monitoreo pasivo de anomalías en segundo plano y confirmación unificada de llegada segura. 
+**Protocolo:** Desglosa visualmente el flujo de funcionamiento operativo de la solución en cuatro fases consecutivas y numeradas: vinculación del círculo de confianza, inicio y estimación del trayecto de ida o regreso del trabajo, en horario diurno o nocturno, monitoreo pasivo de anomalías en segundo plano y confirmación unificada de llegada segura.
 
 
-**Ecosistema:** Organiza en una cuadrícula modular las cuatro capacidades tecnológicas y de bienestar clave que componen el servicio: Route & Commute Check-In (monitoreo de trayecto), 24-Hour Community Map (geolocalización de farmacias, grifos y puntos de atención abiertos según el horario de consulta), Smart Alerts & Companion View (detección de desvíos y enlaces cifrados para familiares) y Rest Log & Collective Benefits (higiene del sueño circadiano y convenios). 
+**Ecosistema:** Organiza en una cuadrícula modular las cuatro capacidades tecnológicas y de bienestar clave que componen el servicio: Route & Commute Check-In (monitoreo de trayecto), Community Services Map (geolocalización de farmacias, grifos y puntos de atención disponibles según la fecha y hora de consulta), Smart Alerts & Companion View (detección de desvíos y enlaces cifrados para familiares) y Rest Log & Collective Benefits (higiene del sueño circadiano y convenios).
 
 
 **Testimonios:** Dispone de una interfaz basada en pestañas interactivas para reproducir dos piezas audiovisuales estratégicas: el recorrido demostrativo funcional del producto (About the Product) y el video de sustentación de ingeniería, retrospectiva ágil y equipo (About the Team) 
@@ -1567,7 +1567,7 @@ Elaborado en: https://www.figma.com/design/kARtlqhljeRK63rGx1Dmea/Sin-t%C3%ADtul
 ## 4.4. Web Applications UX/UI Design. 
 
 ### 4.4.1. Web Applications Wireframes.
-Los wireframes de las aplicaciones web de **Noxway** muestran cómo se estructuran las pantallas y dónde se ubican los elementos de navegación para cada uno de los roles clave del sistema: el **trabajador de turno diurno o nocturno** y su **contacto de confianza**. Estos esquemas visuales, que se centran en la funcionalidad, la accesibilidad en entornos con poca luz y la facilidad de uso bajo condiciones de fatiga o urgencia, guían el diseño final. Su objetivo es asegurar que la aplicación sea intuitiva y que la interacción del usuario —desde iniciar un trayecto seguro y consultar el mapa 24 horas hasta monitorear un desplazamiento en vivo o coordinar auxilio distrital— sea fluida, rápida y eficiente, lo que ayuda a diseñadores y desarrolladores a optimizar la disposición de cada componente. 
+Los wireframes de las aplicaciones web de **Noxway** muestran cómo se estructuran las pantallas y dónde se ubican los elementos de navegación para cada uno de los roles clave del sistema: el **trabajador de turno diurno o nocturno** y su **contacto de confianza**. Estos esquemas visuales, que se centran en la funcionalidad, la accesibilidad con iluminación diurna o nocturna y la facilidad de uso bajo condiciones de fatiga o urgencia, guían el diseño final. Su objetivo es asegurar que la aplicación sea intuitiva y que la interacción del usuario —desde iniciar un trayecto seguro y consultar el mapa de servicios cercanos según su horario de atención hasta monitorear un desplazamiento en vivo o coordinar auxilio distrital— sea fluida, rápida y eficiente, lo que ayuda a diseñadores y desarrolladores a optimizar la disposición de cada componente.
 
 <img src="resources/imgs/AppWeb-Wireframe1.png"
      alt="AppWeb-Wireframe1"
@@ -1755,7 +1755,7 @@ Video del flujo del prototipo: [FLUJO PROTOTIPO NOXWAY](https://upcedupe-my.shar
 
 ## 4.6. Domain-Driven Software Architecture
 ### 4.6.1. Design-Level EventStorming
-En esta sección se presenta la arquitectura de software de Noxway desde el enfoque de Domain-Driven Design, tomando como base el Big Picture Event Storming desarrollado previamente.
+En esta sección se presenta la arquitectura de software de Noxway desde el enfoque de Domain-Driven Design, tomando como base el Big Picture Event Storming desarrollado previamente. El actor `Worker` representa al trabajador de turno diurno o nocturno; ambos utilizan los mismos contextos de dominio para gestionar trayectos, contactos, servicios, descanso y beneficios.
 
 **Identity & Network Management**
 <br>
@@ -1855,7 +1855,7 @@ C4 Component Diagram - Web Application.
 
 El RESTful API organiza sus componentes principales de acuerdo con los Bounded Contexts identificados en el Design-Level EventStorming: Account & Auth Controller, Trust Network Controller, Commute & Check-In Controller, Incident & Alert Manager, Community Map Service, Sleep Wellness Service, Subscription Controller y Moderation Controller.
 
-Account & Auth Controller y Trust Network API concentran el registro, autenticación y gestión de vínculos. Commute Controller y el Incident Manager en segundo plano gestionan la telemetría, evaluación de tolerancia y disparo de alertas. Community Map Service procesa consultas espaciales de locales y zonas de riesgo. Sleep Wellness Service administra los registros de descanso diurno o nocturno y sugerencias de fatiga. Subscription Controller gestiona planes, pagos y convenios colectivos.
+Account & Auth Controller y Trust Network API concentran el registro, autenticación y gestión de vínculos. Commute Controller y el Incident Manager en segundo plano gestionan la telemetría, evaluación de tolerancia y disparo de alertas. Community Map Service procesa consultas espaciales de locales y zonas de riesgo, considerando la fecha, hora y zona horaria al consultar la disponibilidad de los establecimientos. Sleep Wellness Service administra los registros de descanso diurno o nocturno y sugerencias de fatiga. Subscription Controller gestiona planes, pagos y convenios colectivos.
 
 Persistence Layer concentra el acceso hacia PostgreSQL y External Integrations encapsula la comunicación con Payment Gateway, Email Service, SMS/Push Service y Map APIs.
 
