@@ -712,16 +712,16 @@ En esta sección se presentan las fichas de User Personas construidas a partir d
 
 ### 2.3.2. User Task Matrix. 
 En esta sección se presenta el User Task Matrix, construido a partir de los User Persona que representan a los dos segmentos clave identificados:
-* **Segmento Objetivo 1:** Trabajador de Turno Nocturno
+* **Segmento Objetivo 1:** Trabajador de Turno Diurno o Nocturno
 * **Segmento Objetivo 2:** Contacto de Confianza
 
 Las tareas fueron identificadas a partir del análisis cualitativo de entrevistas, y cada una fue evaluada según su frecuencia y nivel de importancia para los respectivos perfiles.
 
-| Tarea / Actividad | Trabajador de Turno Nocturno (Frecuencia) | Trabajador de Turno Nocturno (Importancia) | Contacto de Confianza (Frecuencia) | Contacto de Confianza (Importancia) |
+| Tarea / Actividad | Trabajador de Turno Diurno o Nocturno (Frecuencia) | Trabajador de Turno Diurno o Nocturno (Importancia) | Contacto de Confianza (Frecuencia) | Contacto de Confianza (Importancia) |
 | :--- | :--- | :--- | :--- | :--- |
 | Activar monitoreo o check-in de trayecto seguro al salir de casa o trabajo | Alta | Alta | Baja | Media |
 | Consultar mapa colaborativo de zonas de riesgo y rutas seguras | Media | Alta | Baja | Baja |
-| Buscar establecimientos nocturnos abiertos 24h (farmacias, comida, grifos) | Media | Media | Baja | Baja |
+| Buscar establecimientos abiertos según el horario del trayecto (farmacias, comida, grifos) | Media | Media | Baja | Baja |
 | Recibir notificación pasiva de salida y llegada segura del trabajador | Baja | Baja | Alta | Alta |
 | Recibir alerta automática ante retraso excesivo o posible incidente | Baja | Alta | Baja | Alta |
 | Calificar la seguridad de la ruta al completar el desplazamiento | Media | Media | Nunca | Baja |
