@@ -2888,6 +2888,105 @@ Roberto Carlos Fernández validó el **Landing Page** destacando la claridad de 
 ---
 ### 5.3.3. Evaluaciones según heurísticas
 
+A continuación, se presenta la consolidación de la evaluación heurística de Usabilidad, Arquitectura de Información y Diseño Inclusivo derivada de las sesiones de validación.
+
+#### UX Heuristics & Principles Evaluation: Usability - Inclusive Design - Information Architecture
+
+* **CARRERA:** Ingeniería de Software
+* **CURSO:** Desarrollo de Aplicaciones Open Source
+* **SECCIÓN:** 7793
+* **PROFESORES:** Todos
+* **AUDITOR:** SeniorsInProcess
+* **CLIENTE(S):** Luis Mendoza Miranda, Drago Duarte, Marco Antonio Quispe, Juan Gutiérrez, Ronald Ramírez, Roberto Carlos Fernández
+
+**SITE / APP A EVALUAR:**
+Noxway (Landing Page, Web Application – Portal del Trabajador y Web Application – Companion Portal)
+
+**TAREAS A EVALUAR:**
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+1. Exploración del Landing Page, cambio de idioma (`ES`/`EN`), revisión de planes y redirección hacia la Web Application.
+2. Inicio de trayecto activo, registro de origen, destino y medio de transporte, y verificación del botón `Estado SOS` en `Mi Trayecto`.
+3. Búsqueda y filtrado de establecimientos abiertos las 24 horas y reporte de locales o peligros en `Mapa 24h`.
+4. Filtrado por distrito y publicación de avisos de seguridad vial/urbana en `Comunidad`.
+5. Registro de sesión de descanso post-turno y actualización de meta diaria de sueño en `Bienestar & Sueño`.
+6. Revisión de planes, registro de pagos offline (`Yape/Plin`), canje de beneficios colectivos e invitación de contactos en `Beneficios & Planes` y `Contactos Confianza`.
+7. Aceptación de invitaciones de vínculo de acompañamiento y supervisión en tiempo real en `Invitaciones` y `Monitoreo en Vivo` (Companion Portal).
+8. Configuración de canales de notificación, reintento de envíos en `Avisos & Alertas` y consulta de números de emergencia en `Auxilio & Serenazgo`.
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+1. Procesamiento de cobros recurrentes automatizados mediante pasarela bancaria de tarjetas de crédito/débito.
+2. Moderación administrativa global de cuentas desde un backoffice externo de soporte técnico.
+3. Integración directa por hardware con dispositivos vestibles (smartwatches) mediante Bluetooth nativo.
+
+**ESCALA DE SEVERIDAD:**
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
+
+| Nivel | Descripción |
+| :---: | :--- |
+| **1** | **Problema superficial:** puede ser fácilmente superado por el usuario u ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+| **2** | **Problema menor:** puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente *release*. |
+| **3** | **Problema mayor:** ocurre frecuentemente o los usuarios no son capaces de resolverlo. Es importante que sea corregido y se le debe asignar una prioridad alta. |
+| **4** | **Problema muy grave:** un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+
+**TABLA RESUMEN:**
+
+| # | Problema | Escala de severidad | Heurística/Principio violada(o) |
+| :---: | :--- | :---: | :--- |
+| **1** | Al iniciar un desplazamiento en `Mi Trayecto`, el usuario debe digitar manualmente el origen y destino en cada turno sin contar con atajos de rutas habituales (p. ej., "San Isidro - San Martín de Porres"). | 2 | Usability: Flexibilidad y eficiencia de uso |
+| **2** | Al publicar un reporte en la vista `Comunidad`, el formulario solo admite texto y no permite adjuntar una fotografía rápida del lugar o incidencia reportada. | 2 | Usability: Correspondencia entre el sistema y el mundo real / Flexibilidad de uso |
+| **3** | Ausencia de notificaciones sonoras opcionales en el navegador del Companion Portal cuando ingresa una alerta de inicio de ruta, demora o llegada segura en `Avisos & Alertas` y `Monitoreo en Vivo`. | 2 | Usability: Visibilidad del estado del sistema / Inclusive Design: Proporciona experiencias comparables |
+| **4** | En la vista `Monitoreo en Vivo` del Companion Portal, la tarjeta del trabajador muestra la ruta de forma textual pero no incluye un pequeño mapa desplegable con el punto GPS exacto. | 2 | Information Architecture: Is it usable? / Usability: Visibilidad del estado del sistema |
+| **5** | Las etiquetas de estado de entrega (`DELIVERED`, `PENDING_PROVIDER`, `FAILED`) y de turno/transporte (`MOTORCYCLE`, `NIGHT`, `ROTATING`), así como subtítulos de rutas HTTP (`POST /wellness/rest`), se muestran con valores técnicos en inglés aun con el idioma español (`ES`) activo. | 1 | Inclusive Design: Internacionalización (`i18n`) / Usability: Diseño estético y minimalista |
+
+---
+
+**DESCRIPCIÓN DE PROBLEMAS:**
+
+##### PROBLEMA #1: Ausencia de atajos de rutas habituales al iniciar un desplazamiento en `Mi Trayecto`
+* **Severidad:** 2
+* **Heurística violada:** Usabilidad – Flexibilidad y eficiencia de uso
+* **Problema:**
+  Cuando el trabajador nocturno ingresa a la vista `Mi Trayecto` al finalizar su jornada (por ejemplo, al salir de un turno de seguridad en San Isidro rumbo a San Martín de Porres o desde un almacén en el Callao), debe escribir manualmente la dirección de origen y de destino antes de presionar "Iniciar Trayecto y Compartir Estado". Dado que el usuario realiza el mismo recorrido habitual todas las noches y se encuentra con cansancio acumulado, digitar ambos campos repetidamente incrementa el esfuerzo de interacción.
+  *(Incluir captura de pantalla de la vista `Mi Trayecto`)*.
+* **Recomendación:**
+  Agregar chips o botones de selección rápida de rutas guardadas ("Casa", "Trabajo" o "Ruta habitual: San Isidro - SMP") debajo de los campos de origen y destino para activar el recorrido y disparar la confirmación automática por WhatsApp con un solo toque.
+
+##### PROBLEMA #2: Imposibilidad de adjuntar evidencia fotográfica al publicar un aviso en `Comunidad`
+* **Severidad:** 2
+* **Heurística violada:** Usabilidad – Correspondencia entre el sistema y el mundo real / Flexibilidad y eficiencia de uso
+* **Problema:**
+  En la vista `Comunidad`, cuando el trabajador nocturno redacta un nuevo aviso sobre el estado de una vía (como falta de iluminación, neblina densa o presencia de serenazgo en distritos como Chorrillos o Lima Centro), el formulario únicamente permite ingresar campos de texto, sin ofrecer un control para subir o capturar una fotografía rápida del lugar que respalde visualmente el reporte ante otros compañeros.
+  *(Incluir captura de pantalla del formulario de publicación en la vista `Comunidad`)*.
+* **Recomendación:**
+  Incorporar un botón opcional de carga de imagen ("Adjuntar foto del lugar") dentro del formulario de creación de avisos comunitarios con previsualización en miniatura antes de publicar.
+
+##### PROBLEMA #3: Falta de alertas sonoras distintivas en el Companion Portal ante eventos de ruta o llegada segura
+* **Severidad:** 2
+* **Heurística violada:** Usabilidad – Visibilidad del estado del sistema / Inclusive Design – Proporciona experiencias comparables
+* **Problema:**
+  En las vistas `Monitoreo en Vivo` y `Avisos & Alertas` del Companion Portal, cuando se registra un evento importante (inicio de trayecto, demora en ruta o llegada segura a destino), la interfaz actualiza los indicadores visuales y el contador numérico rojo del menú lateral, pero no emite una señal auditiva. Si el contacto de confianza tiene la pestaña abierta en su computadora o teléfono durante la madrugada mientras realiza otra actividad o descansa con la luz apagada, puede no percatarse inmediatamente del cambio de estado.
+  *(Incluir captura de pantalla de la vista `Avisos & Alertas`)*.
+* **Recomendación:**
+  Añadir un interruptor de "Alerta sonora en navegador" dentro de las preferencias de `Avisos & Alertas` que reproduzca un tono corto y diferenciable cuando ingrese una notificación de llegada segura o una alerta de demora/SOS.
+
+##### PROBLEMA #4: Falta de un mapa desplegable dentro de las tarjetas de `Monitoreo en Vivo`
+* **Severidad:** 2
+* **Heurística violada:** Information Architecture – Is it usable? / Usabilidad – Visibilidad del estado del sistema
+* **Problema:**
+  En la vista `Monitoreo en Vivo` del Companion Portal, el contacto de confianza visualiza el punto de partida, el destino, el medio de transporte y la hora estimada de llegada (ETA) en formato de texto dentro de la tarjeta de cada trabajador supervisado, pero no cuenta con un pequeño mapa desplegable en la misma tarjeta para observar gráficamente el último punto GPS reportado sin cambiar de contexto.
+  *(Incluir captura de pantalla de la vista `Monitoreo en Vivo`)*.
+* **Recomendación:**
+  Incorporar un acordeón o botón desplegable "Ver ubicación en mapa" dentro de cada tarjeta de trabajador en `Monitoreo en Vivo` reutilizando el visor cartográfico de Leaflet implementado en `Mapa 24h`.
+
+##### PROBLEMA #5: Etiquetas de enumeraciones en inglés (`DELIVERED`, `FAILED`, `MOTORCYCLE`) y subtítulos HTTP visibles en español
+* **Severidad:** 1
+* **Heurística violada:** Inclusive Design – Internacionalización (`i18n`) / Usabilidad – Diseño estético y minimalista
+* **Problema:**
+  En las vistas `Monitoreo en Vivo`, `Historial de Rutas` y `Avisos & Alertas`, algunos *badges* de estado (`DELIVERED`, `PENDING_PROVIDER`, `FAILED`, `MOTORCYCLE`, `NIGHT`, `ROTATING`) conservan su valor técnico en inglés cuando la interfaz está configurada en español (`ES`), y en los encabezados de formularios de `Bienestar & Sueño` y `Mi Perfil` se visualizan subtítulos de rutas HTTP (`POST /wellness/rest`, `PUT /accounts/me`).
+  *(Incluir captura de pantalla de la vista `Avisos & Alertas` o `Bienestar & Sueño`)*.
+* **Recomendación:**
+  Pasar todos los valores de las enumeraciones por los archivos de traducción (`i18n`) según el idioma seleccionado y ocultar las etiquetas de rutas HTTP en el entorno de despliegue final.
+
 
 ## 5.4. Video About-the-Product
 
