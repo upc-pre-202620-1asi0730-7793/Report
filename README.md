@@ -2985,7 +2985,7 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
   En las vistas `Monitoreo en Vivo`, `Historial de Rutas` y `Avisos & Alertas`, algunos *badges* de estado (`DELIVERED`, `PENDING_PROVIDER`, `FAILED`, `MOTORCYCLE`, `NIGHT`, `ROTATING`) conservan su valor técnico en inglés cuando la interfaz está configurada en español (`ES`), y en los encabezados de formularios de `Bienestar & Sueño` y `Mi Perfil` se visualizan subtítulos de rutas HTTP (`POST /wellness/rest`, `PUT /accounts/me`).
   *(Incluir captura de pantalla de la vista `Avisos & Alertas` o `Bienestar & Sueño`)*.
 * **Recomendación:**
-  Pasar todos los valores de enumeraciones por los archivos de traducción (`i18n`) según el idioma seleccionado y ocultar las etiquetas de rutas HTTP en el entorno de despliegue final.
+  Pasar todos los valores de las enumeraciones por los archivos de traducción (`i18n`) según el idioma seleccionado y ocultar las etiquetas de rutas HTTP en el entorno de despliegue final.
 
 
 ## 5.4. Video About-the-Product
