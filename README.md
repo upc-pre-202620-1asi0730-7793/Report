@@ -2701,6 +2701,189 @@ La siguiente tabla resume los aportes identificados en el historial de commits r
 
 *Figura 2. Historial de commits que registra aportes e integración de las funcionalidades desarrolladas durante el Sprint 2.*
 
+## 5.3. Validation Interviews
+
+En esta sección se documentan y detallan las actividades correspondientes a las sesiones de validación realizadas con usuarios representativos de los segmentos objetivo de **Noxway**. El propósito de estas pruebas es evaluar la comprensión del modelo de negocio, la usabilidad, la arquitectura de la información y el diseño inclusivo (internacionalización `i18n` en inglés/español y accesibilidad `a11y` con modo Día/Noche) tanto en el **Landing Page** como en la **Web Application**, la cual comprende el **Portal del Trabajador** y el **Portal del Contacto de Confianza (Companion Portal)**.
+
+### 5.3.1. Diseño de entrevistas
+
+Para estructurar las sesiones de validación de manera consistente y objetiva, el equipo definió un protocolo de prueba centrado en la ejecución de tareas (*task-based usability testing*) aplicando la técnica de pensamiento en voz alta (*Think-Aloud Protocol*), complementado con un banco de preguntas abiertas de cierre para recoger apreciaciones cualitativas sobre cada flujo interactuado.
+
+#### Estructura de la sesión de validación
+
+1. **Bienvenida y contexto:** Explicación del propósito de la sesión de validación (evaluar la experiencia de uso de **Noxway**) y confirmación del consentimiento para registrar la prueba en video con fines académicos.
+2. **Identificación del participante:** Registro de nombres y apellidos, edad, distrito de residencia, ocupación y relación con el segmento objetivo evaluado.
+3. **Interacción con el Landing Page:** Navegación libre y guiada por el sitio web estático para validar la propuesta de valor, las secciones informativas, la tabla de planes y el direccionamiento hacia la aplicación web mediante los botones *call-to-action* (CTA).
+4. **Ejecución de User Flows en la Web Application:** Desarrollo de tareas representativas del *core business* dentro del portal correspondiente a su perfil, alternando entre el Portal del Trabajador y el Companion Portal según el segmento.
+5. **Ronda de preguntas de validación:** Respuesta a las 5 preguntas estandarizadas del segmento para recoger observaciones sobre usabilidad, arquitectura de información y diseño inclusivo.
+
+#### Segmento Objetivo 1: Trabajadores de Turno Nocturno y Rotativo (*Night & Rotating Shift Workers*)
+
+* **Elementos incluidos en la sesión:** Landing Page (`Hero`, `How it Works`, `Features`, `Platform & Team Videos`, `Testimonials`, `Pricing`, `FAQ`) y Web Application – Portal del Trabajador (`Dashboard`, `Mi Trayecto`, `Mapa 24h`, `Comunidad`, `Bienestar & Sueño`, `Beneficios & Planes`, `Contactos Confianza`, `Mi Perfil` y botón `Estado SOS`).
+* **User Flows validados en la sesión:**
+  * **UF-LP-01 (Exploración del Landing Page y redirección):** Revisión de la propuesta de valor, cambio de idioma (`EN`/`ES`), comparación de los planes (*Essential*, *Sentinel Pro*, *Family Crew*) y acceso a la Web Application desde el *call-to-action* principal.
+  * **UF-WK-01 (Registro de trayecto activo, check-in seguro y alerta SOS):** Ingreso a `Mi Trayecto`, registro de origen, destino y medio de transporte (motocicleta, auto o transporte público), activación del monitoreo con telemetría GPS, revisión del historial de desplazamientos y verificación del botón permanente `Estado SOS`.
+  * **UF-WK-02 (Búsqueda de locales seguros y reporte en el Mapa 24h):** Uso de filtros por categoría (`Farmacias`, `Supermercados`, `Grifos`, `Puntos Noxway 24h`, `Zonas de riesgo`), activación de `Solo abiertos 24 horas`, consulta del listado lateral por distancia y uso de los botones `Reportar local` y `Reportar peligro`.
+  * **UF-WK-03 (Consulta y publicación de avisos en la Comunidad):** Filtrado de reportes comunitarios por distrito (Lima Centro, Miraflores, Lince, etc.), lectura de alertas sobre neblina o patrullaje de serenazgo y creación de un nuevo aviso comunitario.
+  * **UF-WK-04 (Gestión de descanso en Bienestar & Sueño):** Consulta de métricas de los últimos 7 días (horas promedio, deuda de sueño y calidad), registro de una sesión de descanso post-turno y actualización de la meta diaria de sueño.
+  * **UF-WK-05 (Suscripción a planes, canje de beneficios e invitación de contactos):** Revisión del catálogo de planes en `Beneficios & Planes`, registro de código de pago offline (`Yape/Plin/Agente`), canje de cupones colectivos (auxilio vial, farmacias, grifos) y envío de invitación por correo electrónico en `Contactos Confianza`.
+
+* **Preguntas de validación aplicadas al Segmento 1:**
+  1. Al explorar la página principal de **Noxway**, ¿qué tan claro te resultó entender los beneficios que ofrece, comparar los planes de suscripción y entrar a tu portal de trabajador?
+  2. Cuando probaste iniciar tu ruta hacia casa indicando tu punto de partida, destino y medio de transporte, ¿qué tan rápido y sencillo te pareció activar el recorrido y ubicar el botón rojo de emergencia (`Estado SOS`)?
+  3. Al buscar lugares abiertos de madrugada (como farmacias o grifos) en el mapa y revisar los avisos de otros trabajadores por distrito, ¿sentiste que la información está bien organizada y es fácil de filtrar?
+  4. ¿Qué te pareció la sección para anotar tus horas de sueño después del turno y qué tan fácil fue revisar los descuentos o invitar a un familiar como contacto de confianza?
+  5. Pensando en que usarías la plataforma de noche y con cansancio acumulado, ¿qué opinas de los colores del modo oscuro (`Noche`/`Día`), el cambio de idioma (`ES`/`EN`) y qué detalle mejorarías para tu uso diario?
+
+#### Segmento Objetivo 2: Contactos de Confianza y Familiares (*Trusted Contacts / Family Companions*)
+
+* **Elementos incluidos en la sesión:** Landing Page (`Hero`, `Testimonials`, `Pricing`, `FAQ`) y Web Application – Companion Portal (`Monitoreo en Vivo`, `Historial de Rutas`, `Avisos & Alertas`, `Auxilio & Serenazgo`, `Invitaciones` y `Mi Perfil de Contacto`).
+* **User Flows validados en la sesión:**
+  * **UF-LP-02 (Revisión del enfoque familiar en el Landing Page):** Exploración de testimonios, revisión de cobertura grupal (*Family Crew*), lectura de preguntas frecuentes y acceso al portal de acompañamiento.
+  * **UF-TC-01 (Aceptación de vínculo de confianza):** Acceso a la vista `Invitaciones`, verificación de solicitudes enviadas por trabajadores (nombre, correo y tipo de turno) y aceptación del vínculo de confianza.
+  * **UF-TC-02 (Monitoreo en vivo e historial de rutas):** Supervisión en `Monitoreo en Vivo` del estado actual de los trabajadores acompañados (en ruta activa con ETA y medio de transporte, o en reposo) y revisión cronológica de llegadas seguras en `Historial de Rutas`.
+  * **UF-TC-03 (Configuración de canales y gestión de cola de alertas):** Revisión en `Avisos & Alertas` del listado de notificaciones (`IN_APP`, `WHATSAPP`, `EMAIL`), habilitación de canales y horarios de recepción (incluyendo SMS) y uso de `Reintentar` o `Despachar Pendientes` en la cola de entregas.
+  * **UF-TC-04 (Consulta del directorio de Auxilio y Serenazgo):** Verificación del estado de incidentes SOS activos y acceso rápido a las líneas oficiales de emergencia en el Perú (Policía `105`, SAMU `106`, Bomberos `116`, Serenazgo de Lima `01-318-5050` y Línea `100`).
+
+* **Preguntas de validación aplicadas al Segmento 2:**
+  1. Al ver la página informativa de **Noxway** y luego entrar a la sección de `Invitaciones` para aceptar acompañar a tu familiar, ¿qué tan claro y sencillo te pareció todo el proceso inicial?
+  2. Al revisar la pantalla de `Monitoreo en Vivo`, ¿lograste identificar rápido si tu familiar está en camino, en qué transporte va y a qué hora llega, así como consultar sus viajes pasados en el historial?
+  3. Dentro del centro de avisos (`Avisos & Alertas`), ¿qué tan fácil fue entender por qué medio te llegan las alertas (WhatsApp, correo o dentro de la web) y cómo reintentar un envío si alguno falló?
+  4. Si ocurriera algún imprevisto en la madrugada, ¿qué tan útil y accesible te parece tener el directorio de emergencias (Policía 105, SAMU 106, Bomberos 116 y Serenazgo) dentro de la misma pantalla?
+  5. ¿Te resultó cómodo moverte por el menú lateral, cambiar entre el modo `Día`/`Noche` o el idioma, y qué cambiarías o agregarías para sentir aún más tranquilidad cuando tu familiar regresa de noche?
+
+---
+
+### 5.3.2. Registro de entrevistas
+#### Segmento Objetivo 1: Trabajadores de Turno Nocturno
+
+##### Entrevista de Validación #1 – Segmento 1
+
+| Campo | Detalle |
+| :--- | :--- |
+| **Nombres y Apellidos** | Jorge Luis Huamán |
+| **Edad** | 29 años |
+| **Distrito** | Pueblo Libre |
+| **Segmento Objetivo** | Trabajadores de Turno Nocturno (Técnico de salud – traslado en motocicleta) |
+| **Fecha de entrevista** | 13/11/2026 |
+| **URL del Video** | `[Colocar URL de Microsoft Stream]` |
+| **Timing de Inicio** | `00:00` |
+| **Duración** | `04:15` |
+
+![Captura Entrevista 1 - Jorge Luis Huamán](path/to/screenshot-validation-1.png)
+
+**Resumen descriptivo de apreciaciones:**
+Durante la sesión de validación, Jorge Luis Huamán interactuó inicialmente con el **Landing Page**, señalando que la propuesta de valor dirigida a quienes trabajan de madrugada se comprende desde el primer vistazo y que la estructura de precios en soles (como el plan *Centinela Pro*) junto con el botón de acceso directo facilitan el ingreso inmediato a la aplicación web. Al ejecutar el flujo de inicio de ruta en la vista `Mi Trayecto`, destacó la rapidez del formulario para registrar su salida desde el Hospital Rebagliati hacia la Av. Brasil en Pueblo Libre seleccionando motocicleta como medio de transporte, aspecto clave para no demorar antes de conducir; asimismo, valoró que el botón rojo de `Estado SOS` permanezca fijo y visible en la esquina inferior izquierda durante toda la navegación. En la prueba del `Mapa 24h` y `Comunidad`, calificó como muy útil el filtro de locales abiertos las 24 horas con cálculo de distancia en kilómetros y los reportes comunitarios sobre neblina densa o patrullaje de serenazgo por distrito. Respecto a `Bienestar & Sueño` y `Beneficios & Planes`, resaltó la utilidad del gráfico semanal para controlar el sueño fragmentado y los descuentos en combustible y tiendas nocturnas. Finalmente, aprobó el contraste del modo oscuro (`Noche`) y el selector de idioma (`ES`/`EN`), recomendando incorporar un botón de "Rutas frecuentes" (Casa/Trabajo) para iniciar el recorrido con un solo clic.
+
+---
+
+##### Entrevista de Validación #2 – Segmento 1
+
+| Campo | Detalle |
+| :--- | :--- |
+| **Nombres y Apellidos** | Carlos Alberto Mendoza |
+| **Edad** | 33 años |
+| **Distrito** | Cercado de Lima |
+| **Segmento Objetivo** | Trabajadores de Turno Nocturno (Técnico de mantenimiento en turnos rotativos) |
+| **Fecha de entrevista** | 13/11/2026 |
+| **URL del Video** | `[Colocar URL de Microsoft Stream]` |
+| **Timing de Inicio** | `04:16` |
+| **Duración** | `04:10` |
+
+![Captura Entrevista 2 - Carlos Alberto Mendoza](path/to/screenshot-validation-2.png)
+
+**Resumen descriptivo de apreciaciones:**
+Carlos Alberto Mendoza evaluó el **Landing Page** resaltando el orden secuencial con el que se explica la protección desde el inicio del turno hasta la llegada a casa y el atractivo del plan *Cuadrilla Familiar* para compartir entre compañeros de trabajo. Al interactuar con el **Portal del Trabajador**, indicó que el `Dashboard` y la vista `Mi Trayecto` permiten activar el seguimiento GPS en pocos segundos y ofrecen confianza al almacenar el historial exacto de salidas y llegadas. Durante la validación de las vistas `Mapa 24h` y `Comunidad`, enfatizó el valor de filtrar avisos por distritos como Lima Centro o Lince para conocer qué farmacias atienden por ventanilla de madrugada o dónde existen operativos de seguridad activos. En cuanto a la vista `Bienestar & Sueño`, mencionó que poder ajustar la meta diaria a 7.5 horas y registrar notas post-turno se adapta muy bien a quienes llevan horarios rotativos, además de valorar la facilidad para registrar pagos mediante Yape o Plin en `Beneficios & Planes` e invitar a su esposa en `Contactos Confianza`. Como oportunidad de mejora sobre la experiencia visual —cuya legibilidad en modo `Noche` e internacionalización funcionaron correctamente—, sugirió permitir adjuntar fotografías opcionales al publicar un nuevo aviso en la vista `Comunidad`.
+
+---
+
+##### Entrevista de Validación #3 – Segmento 1
+
+| Campo | Detalle |
+| :--- | :--- |
+| **Nombres y Apellidos** | Valeria Sofía Gómez |
+| **Edad** | 25 años |
+| **Distrito** | San Miguel |
+| **Segmento Objetivo** | Trabajadores de Turno Nocturno (Operadora de centro de control nocturno) |
+| **Fecha de entrevista** | 13/11/2026 |
+| **URL del Video** | `[Colocar URL de Microsoft Stream]` |
+| **Timing de Inicio** | `08:27` |
+| **Duración** | `03:55` |
+
+![Captura Entrevista 3 - Valeria Sofía Gómez](path/to/screenshot-validation-3.png)
+
+**Resumen descriptivo de apreciaciones:**
+Valeria Sofía Gómez manifestó que el **Landing Page** logra una conexión empática inmediata gracias a los testimonios de usuarios reales y a la transparencia de ofrecer un plan gratuito (*Essential*) junto a opciones escalables. Durante las tareas asignadas en el **Portal del Trabajador**, completó sin asistencia el registro de traslado en `Mi Trayecto`, subrayando que la confirmación visual de monitoreo activo y la presencia constante del botón `Estado SOS` le brindan tranquilidad al abordar transporte de madrugada rumbo a San Miguel. Al explorar la vista `Mapa 24h`, destacó la claridad de la lista lateral derecha que ordena las farmacias, grifos y supermercados desde 0.1 km de distancia, así como la ubicación visible de las acciones `Reportar local` y `Reportar peligro`. De igual forma, calificó como limpias y fáciles de usar las pantallas de `Contactos Confianza`, `Bienestar & Sueño` y `Beneficios & Planes` al probar el canje del cupón de botiquín preventivo en Inkafarma. Sobre la arquitectura de información y el diseño inclusivo, afirmó que las etiquetas cortas del menú lateral facilitan la navegación incluso con fatiga laboral, y sugirió que al canjear un beneficio colectivo se despliegue un código QR en pantalla para agilizar su validación presencial en el establecimiento.
+
+---
+
+#### Segmento Objetivo 2: Contactos de Confianza
+
+##### Entrevista de Validación #4 – Segmento 2
+
+| Campo | Detalle |
+| :--- | :--- |
+| **Nombres y Apellidos** | Rosa Elena Paredes Morales |
+| **Edad** | 52 años |
+| **Distrito** | Pueblo Libre |
+| **Segmento Objetivo** | Contactos de Confianza (Madre de trabajador nocturno) |
+| **Fecha de entrevista** | 13/11/2026 |
+| **URL del Video** | `[Colocar URL de Microsoft Stream]` |
+| **Timing de Inicio** | `12:23` |
+| **Duración** | `04:20` |
+
+![Captura Entrevista 4 - Rosa Elena Paredes Morales](path/to/screenshot-validation-4.png)
+
+**Resumen descriptivo de apreciaciones:**
+Rosa Elena Paredes Morales inició la validación en el **Landing Page**, utilizando el selector de idioma para leer el contenido en español y destacando que el mensaje transmite seguridad para las familias. Al ingresar al **Companion Portal**, completó el flujo en la vista `Invitaciones` aceptando el vínculo de confianza en un solo paso sin requerir conocimientos técnicos avanzados. En la vista `Monitoreo en Vivo`, identificó con rapidez el estado activo del traslado de su hijo Jorge desde el Hospital Rebagliati hacia Pueblo Libre en motocicleta, junto con su hora estimada de llegada (ETA), diferenciándolo claramente de otros perfiles en estado de reposo, y verificó las llegadas previas en `Historial de Rutas`. Respecto a la vista `Avisos & Alertas`, comprendió la distinción por canales (`WHATSAPP`, `EMAIL`, `IN_APP`), configuró su ventana horaria nocturna (22:00 a 06:00) y utilizó la opción `Reintentar` en la cola de entregas. Asimismo, resaltó el gran valor de la vista `Auxilio & Serenazgo` por presentar los números del 105, SAMU 106, Bomberos 116 y Serenazgo con tipografía grande para actuar rápido ante una urgencia. Como mejora puntual de internacionalización, observó que las etiquetas técnicas de estado de envío (`DELIVERED`, `PENDING_PROVIDER`, `FAILED`) deberían mostrarse traducidas al español cuando dicho idioma está activo.
+
+---
+
+##### Entrevista de Validación #5 – Segmento 2
+
+| Campo | Detalle |
+| :--- | :--- |
+| **Nombres y Apellidos** | Roberto Carlos Fernández |
+| **Edad** | 34 años |
+| **Distrito** | San Juan de Lurigancho |
+| **Segmento Objetivo** | Contactos de Confianza (Esposo de trabajadora en turno de 10:00 p. m. a 6:00 a. m.) |
+| **Fecha de entrevista** | 13/11/2026 |
+| **URL del Video** | `[Colocar URL de Microsoft Stream]` |
+| **Timing de Inicio** | `16:44` |
+| **Duración** | `04:05` |
+
+![Captura Entrevista 5 - Roberto Carlos Fernández](path/to/screenshot-validation-5.png)
+
+**Resumen descriptivo de apreciaciones:**
+Roberto Carlos Fernández señaló que el **Landing Page** explica con precisión cómo se articula el acompañamiento entre el trabajador nocturno y su hogar. Al interactuar con la vista `Invitaciones` del **Companion Portal**, destacó la limpieza visual para identificar el nombre del trabajador, su correo y la modalidad de turno antes de aceptar la solicitud. Durante la prueba de `Monitoreo en Vivo` e `Historial de Rutas`, comentó que visualizar el origen, destino y hora estimada de llegada evita que su esposa tenga que exponerse sacando el teléfono en la vía pública para reportar por dónde va durante la madrugada. En la vista `Avisos & Alertas`, valoró el indicador numérico rojo en el menú lateral que alerta sobre los avisos recibidos, así como la opción de habilitar SMS y programar horarios de recepción. Igualmente, calificó la vista `Auxilio & Serenazgo` como un respaldo indispensable al combinar los números oficiales de emergencia con el monitor de incidentes SOS activos. Finalmente, elogió la fluidez del menú lateral y el descanso visual que ofrece el tema `Noche` durante la madrugada, recomendando añadir una alerta sonora opcional en el navegador web cuando ingrese un aviso de demora o emergencia.
+
+---
+
+##### Entrevista de Validación #6 – Segmento 2
+
+| Campo | Detalle |
+| :--- | :--- |
+| **Nombres y Apellidos** | Miguel Ángel Quispe |
+| **Edad** | 38 años |
+| **Distrito** | Jesús María |
+| **Segmento Objetivo** | Contactos de Confianza (Hermano mayor y supervisor de grupo familiar) |
+| **Fecha de entrevista** | 13/11/2026 |
+| **URL del Video** | `[Colocar URL de Microsoft Stream]` |
+| **Timing de Inicio** | `20:50` |
+| **Duración** | `04:00` |
+
+![Captura Entrevista 6 - Miguel Ángel Quispe](path/to/screenshot-validation-6.png)
+
+**Resumen descriptivo de apreciaciones:**
+Miguel Ángel Quispe validó el **Landing Page** destacando la claridad de la sección de videos demostrativos y la comparativa de planes familiares. Dentro del **Companion Portal**, recorrió la vista `Invitaciones` verificando tanto la aceptación de vínculos de confianza individuales como las invitaciones a planes grupales. En la vista `Monitoreo en Vivo`, resaltó la capacidad de supervisar simultáneamente a varios familiares en una sola pantalla, distinguiendo mediante etiquetas de estado quién se encuentra en ruta activa con su respectivo ETA y quién está en reposo, además de comprobar la rapidez de los filtros por canal (`ALL`, `IN_APP`, `WHATSAPP`, `EMAIL`) en `Historial de Rutas`. Al evaluar `Avisos & Alertas`, destacó la distribución en dos columnas que separa el historial recibido de la cola de entregas y el botón `Despachar Pendientes` para reenviar notificaciones retenidas con un solo clic. También valoró la practicidad de `Auxilio & Serenazgo` para evitar buscar teléfonos de emergencia en fuentes externas durante un evento crítico y la sencillez de `Mi Perfil de Contacto`. Como sugerencia de mejora, propuso incorporar una vista previa de mapa desplegable dentro de cada tarjeta de trabajador en `Monitoreo en Vivo` para complementar la dirección textual con la ubicación gráfica.
+
+---
+
+### 5.3.3. Evaluacion segun heuristicas
+
+## 5.4. Video About-the-Product
+
+
 # Conclusiones 
 Identificación de un nicho desatendido y vulnerable: El proyecto identifica y atiende a un segmento de mercado que ha sido históricamente ignorado por las soluciones tecnológicas: los trabajadores de turnos diurnos y nocturnos y sus contactos de confianza. El análisis y las entrevistas iniciales recogen los riesgos de transitar de madrugada y el aislamiento social de los trabajadores nocturnos; estos hallazgos orientan la propuesta para distintos horarios laborales.
 
@@ -2711,6 +2894,9 @@ Diseño altamente centrado en el usuario (UX/UI): La aplicación de la metodolog
 Arquitectura de software robusta y escalable: A nivel técnico, el proyecto exhibe una madurez arquitectónica estructurada a través de Domain-Driven Design (EventStorming) y el modelo C4. El sistema está correctamente modularizado en contextos de dominio claros, separando la gestión de trayectos seguros, la inteligencia de la comunidad, el bienestar del usuario y la gestión de suscripciones.
 
 Modelo de negocio validado y sostenible: El proyecto concluye con una estrategia de monetización viable mediante un modelo de suscripción (Plan Centinela Pro y Cuadrilla Familiar) que ofrece beneficios colectivos tangibles. Al incluir descuentos negociados y seguros básicos de accidentes, Noxway supera la resistencia al pago de su segmento objetivo, al mismo tiempo que fomenta el crecimiento orgánico a través de un programa de referidos.
+
+# Video About-the-Team
+
 
 # Bibliografía 
 Adzic, G. (2012). Impact mapping: Making a big impact with software products and projects. Provoking Thoughts.
