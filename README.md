@@ -2754,26 +2754,34 @@ Para estructurar las sesiones de validación de manera consistente y objetiva, e
 
 ---
 
-### 5.3.2. Registro de entrevistas
+### 5.3.2. Registro de Entrevistas
+
+A continuación, se presenta el consolidado en video y el registro detallado de las 6 entrevistas de validación realizadas.
+
+* **Enlace al video consolidado de Validation Interviews (Microsoft Stream):** `[Colocar aquí URL de Microsoft Stream]`
+* **Nomenclatura del archivo:** `upc-pre-202620-1asi0729-<NRC>-<startup>-validation-sprint-3.mp4`
+
+---
+
 #### Segmento Objetivo 1: Trabajadores de Turno Nocturno
 
 ##### Entrevista de Validación #1 – Segmento 1
 
 | Campo | Detalle |
 | :--- | :--- |
-| **Nombres y Apellidos** | Jorge Luis Huamán |
-| **Edad** | 29 años |
-| **Distrito** | Pueblo Libre |
-| **Segmento Objetivo** | Trabajadores de Turno Nocturno (Técnico de salud – traslado en motocicleta) |
-| **Fecha de entrevista** | 13/11/2026 |
-| **URL del Video** | `[Colocar URL de Microsoft Stream]` |
+| **Nombres y Apellidos** | Luis Mendoza Miranda |
+| **Edad** | 32 años |
+| **Distrito** | San Martín de Porres |
+| **Segmento Objetivo** | Trabajadores de Turno Nocturno (Agente de seguridad privada – ruta San Isidro a San Martín de Porres) |
+| **Fecha de entrevista** | 14/11/2026 |
+| **URL del Video (Stream)** | `[Colocar URL de Microsoft Stream]` |
 | **Timing de Inicio** | `00:00` |
 | **Duración** | `04:15` |
 
-![Captura Entrevista 1 - Jorge Luis Huamán](path/to/screenshot-validation-1.png)
+![Captura Entrevista 1 - Luis Mendoza Miranda](path/to/screenshot-validation-1.png)
 
 **Resumen descriptivo de apreciaciones:**
-Durante la sesión de validación, Jorge Luis Huamán interactuó inicialmente con el **Landing Page**, señalando que la propuesta de valor dirigida a quienes trabajan de madrugada se comprende desde el primer vistazo y que la estructura de precios en soles (como el plan *Centinela Pro*) junto con el botón de acceso directo facilitan el ingreso inmediato a la aplicación web. Al ejecutar el flujo de inicio de ruta en la vista `Mi Trayecto`, destacó la rapidez del formulario para registrar su salida desde el Hospital Rebagliati hacia la Av. Brasil en Pueblo Libre seleccionando motocicleta como medio de transporte, aspecto clave para no demorar antes de conducir; asimismo, valoró que el botón rojo de `Estado SOS` permanezca fijo y visible en la esquina inferior izquierda durante toda la navegación. En la prueba del `Mapa 24h` y `Comunidad`, calificó como muy útil el filtro de locales abiertos las 24 horas con cálculo de distancia en kilómetros y los reportes comunitarios sobre neblina densa o patrullaje de serenazgo por distrito. Respecto a `Bienestar & Sueño` y `Beneficios & Planes`, resaltó la utilidad del gráfico semanal para controlar el sueño fragmentado y los descuentos en combustible y tiendas nocturnas. Finalmente, aprobó el contraste del modo oscuro (`Noche`) y el selector de idioma (`ES`/`EN`), recomendando incorporar un botón de "Rutas frecuentes" (Casa/Trabajo) para iniciar el recorrido con un solo clic.
+Durante la sesión de validación, Luis Mendoza Miranda interactuó inicialmente con el **Landing Page**, señalando que desde el primer vistazo se comprende que la plataforma está pensada para quienes trabajan de madrugada y que las tarjetas informativas junto con los precios en soles (como el plan *Centinela Pro*) permiten ingresar de forma directa a la aplicación web mediante el botón principal. Al ejecutar el flujo de inicio de ruta en la vista `Mi Trayecto`, destacó la rapidez para registrar su punto de partida en San Isidro hacia su domicilio en San Martín de Porres al salir cansado de su turno de seguridad privada, resaltando además que el botón rojo de `Estado SOS` permanece visible en todo momento en la esquina inferior izquierda, lo que brinda tranquilidad en recorridos largos. En la prueba del `Mapa 24h` y `Comunidad`, calificó como excelente el filtro de establecimientos abiertos las 24 horas para ubicar grifos o locales seguros en ruta, así como el filtrado por distritos (San Isidro y San Martín de Porres) para revisar avisos sobre calles oscuras o patrullaje activo. Respecto a `Bienestar & Sueño` y `Beneficios & Planes`, valoró el gráfico semanal para organizar su descanso tras las guardias nocturnas, las opciones de descuentos y la rapidez para invitar a un familiar por correo en `Contactos Confianza`. Finalmente, destacó el alivio visual del modo `Noche` y la respuesta inmediata del cambio de idioma (`ES`/`EN`), sugiriendo como mejora poder guardar rutas habituales (como "San Isidro - San Martín de Porres") para activarlas con un solo toque al salir del trabajo.
 
 ---
 
@@ -2781,19 +2789,19 @@ Durante la sesión de validación, Jorge Luis Huamán interactuó inicialmente c
 
 | Campo | Detalle |
 | :--- | :--- |
-| **Nombres y Apellidos** | Carlos Alberto Mendoza |
-| **Edad** | 33 años |
-| **Distrito** | Cercado de Lima |
-| **Segmento Objetivo** | Trabajadores de Turno Nocturno (Técnico de mantenimiento en turnos rotativos) |
-| **Fecha de entrevista** | 13/11/2026 |
-| **URL del Video** | `[Colocar URL de Microsoft Stream]` |
+| **Nombres y Apellidos** | Drago Duarte |
+| **Edad** | 24 años |
+| **Distrito** | Chorrillos |
+| **Segmento Objetivo** | Trabajadores de Turno Nocturno (Trabajador de turno de madrugada en tienda Tambo – Chorrillos) |
+| **Fecha de entrevista** | 14/11/2026 |
+| **URL del Video (Stream)** | `[Colocar URL de Microsoft Stream]` |
 | **Timing de Inicio** | `04:16` |
 | **Duración** | `04:10` |
 
-![Captura Entrevista 2 - Carlos Alberto Mendoza](path/to/screenshot-validation-2.png)
+![Captura Entrevista 2 - Drago Duarte](path/to/screenshot-validation-2.png)
 
 **Resumen descriptivo de apreciaciones:**
-Carlos Alberto Mendoza evaluó el **Landing Page** resaltando el orden secuencial con el que se explica la protección desde el inicio del turno hasta la llegada a casa y el atractivo del plan *Cuadrilla Familiar* para compartir entre compañeros de trabajo. Al interactuar con el **Portal del Trabajador**, indicó que el `Dashboard` y la vista `Mi Trayecto` permiten activar el seguimiento GPS en pocos segundos y ofrecen confianza al almacenar el historial exacto de salidas y llegadas. Durante la validación de las vistas `Mapa 24h` y `Comunidad`, enfatizó el valor de filtrar avisos por distritos como Lima Centro o Lince para conocer qué farmacias atienden por ventanilla de madrugada o dónde existen operativos de seguridad activos. En cuanto a la vista `Bienestar & Sueño`, mencionó que poder ajustar la meta diaria a 7.5 horas y registrar notas post-turno se adapta muy bien a quienes llevan horarios rotativos, además de valorar la facilidad para registrar pagos mediante Yape o Plin en `Beneficios & Planes` e invitar a su esposa en `Contactos Confianza`. Como oportunidad de mejora sobre la experiencia visual —cuya legibilidad en modo `Noche` e internacionalización funcionaron correctamente—, sugirió permitir adjuntar fotografías opcionales al publicar un nuevo aviso en la vista `Comunidad`.
+Drago Duarte evaluó el **Landing Page** resaltando el orden con el que se presenta el proceso desde la salida del turno hasta la llegada segura a casa, así como la claridad de las preguntas frecuentes y el atractivo del plan *Cuadrilla Familiar* para compartirlo con compañeros de trabajo. Al interactuar con el **Portal del Trabajador**, indicó que el `Dashboard` ofrece un resumen claro de su estado y que la vista `Mi Trayecto` le permitió registrar su salida desde la tienda Tambo en Chorrillos en pocos segundos, brindándole confianza que el historial guarde la hora exacta de salida y llegada junto al botón `Estado SOS` siempre visible sobre el fondo oscuro. Durante la validación de las vistas `Mapa 24h` y `Comunidad`, enfatizó la utilidad de publicar y leer reportes filtrados por distrito cuando sale de madrugada en Chorrillos para identificar calles peligrosas o desiertas con hora exacta y ubicación en el mapa. En cuanto a `Bienestar & Sueño`, destacó la facilidad para ajustar su meta diaria a 7.5 horas y registrar su descanso post-turno ante los cambios constantes de horario, además de valorar la rapidez para agregar a un familiar en `Contactos Confianza` y el soporte de pagos mediante Yape o Plin en `Beneficios & Planes`. Finalmente, aprobó el contraste de las letras blancas y azules en el modo `Noche` y los selectores de idioma y tema, sugiriendo permitir subir una fotografía rápida del lugar al publicar un aviso en `Comunidad` para complementar el reporte.
 
 ---
 
@@ -2801,19 +2809,19 @@ Carlos Alberto Mendoza evaluó el **Landing Page** resaltando el orden secuencia
 
 | Campo | Detalle |
 | :--- | :--- |
-| **Nombres y Apellidos** | Valeria Sofía Gómez |
-| **Edad** | 25 años |
-| **Distrito** | San Miguel |
-| **Segmento Objetivo** | Trabajadores de Turno Nocturno (Operadora de centro de control nocturno) |
-| **Fecha de entrevista** | 13/11/2026 |
-| **URL del Video** | `[Colocar URL de Microsoft Stream]` |
+| **Nombres y Apellidos** | Marco Antonio Quispe |
+| **Edad** | 30 años |
+| **Distrito** | San Martín de Porres |
+| **Segmento Objetivo** | Trabajadores de Turno Nocturno (Agente de seguridad en almacén logístico en el Callao) |
+| **Fecha de entrevista** | 14/11/2026 |
+| **URL del Video (Stream)** | `[Colocar URL de Microsoft Stream]` |
 | **Timing de Inicio** | `08:27` |
 | **Duración** | `03:55` |
 
-![Captura Entrevista 3 - Valeria Sofía Gómez](path/to/screenshot-validation-3.png)
+![Captura Entrevista 3 - Marco Antonio Quispe](path/to/screenshot-validation-3.png)
 
 **Resumen descriptivo de apreciaciones:**
-Valeria Sofía Gómez manifestó que el **Landing Page** logra una conexión empática inmediata gracias a los testimonios de usuarios reales y a la transparencia de ofrecer un plan gratuito (*Essential*) junto a opciones escalables. Durante las tareas asignadas en el **Portal del Trabajador**, completó sin asistencia el registro de traslado en `Mi Trayecto`, subrayando que la confirmación visual de monitoreo activo y la presencia constante del botón `Estado SOS` le brindan tranquilidad al abordar transporte de madrugada rumbo a San Miguel. Al explorar la vista `Mapa 24h`, destacó la claridad de la lista lateral derecha que ordena las farmacias, grifos y supermercados desde 0.1 km de distancia, así como la ubicación visible de las acciones `Reportar local` y `Reportar peligro`. De igual forma, calificó como limpias y fáciles de usar las pantallas de `Contactos Confianza`, `Bienestar & Sueño` y `Beneficios & Planes` al probar el canje del cupón de botiquín preventivo en Inkafarma. Sobre la arquitectura de información y el diseño inclusivo, afirmó que las etiquetas cortas del menú lateral facilitan la navegación incluso con fatiga laboral, y sugirió que al canjear un beneficio colectivo se despliegue un código QR en pantalla para agilizar su validación presencial en el establecimiento.
+Marco Antonio Quispe manifestó que la presentación del **Landing Page** es directa y aborda acertadamente los riesgos de movilizarse de madrugada desde zonas como el Callao, destacando que el precio de 12 soles mensuales del plan *Sentinel Pro* resulta muy razonable y que el acceso a la aplicación web es inmediato. Durante las pruebas en el **Portal del Trabajador**, señaló que al salir de guardia a las 6:00 a. m. o en cambios de turno de medianoche requiere rapidez, logrando registrar en `Mi Trayecto` su salida desde el almacén en el Callao hacia su casa en San Martín de Porres en segundos, respaldado por el botón rojo de `Estado SOS` en la parte inferior izquierda. Al explorar `Mapa 24h` y `Comunidad`, resaltó el valor de filtrar grifos y farmacias abiertas las 24 horas ordenadas por cercanía cuando transita por zonas industriales poco concurridas, así como leer alertas de otros compañeros sobre calles oscuras o patrullaje activo. De igual manera, calificó como muy intuitivo el flujo para agregar a su esposa en `Contactos Confianza`, consultar los descuentos en `Beneficios & Planes` y registrar su sueño en `Bienestar & Sueño`. Respecto al diseño visual e inclusivo, destacó que el modo `Noche` evita la fatiga visual tras una jornada de vigilancia y sugirió que, al iniciar una ruta, el sistema envíe automáticamente un mensaje de confirmación por WhatsApp al contacto de confianza sin necesidad de abrir la web.
 
 ---
 
@@ -2823,19 +2831,19 @@ Valeria Sofía Gómez manifestó que el **Landing Page** logra una conexión emp
 
 | Campo | Detalle |
 | :--- | :--- |
-| **Nombres y Apellidos** | Rosa Elena Paredes Morales |
-| **Edad** | 52 años |
-| **Distrito** | Pueblo Libre |
-| **Segmento Objetivo** | Contactos de Confianza (Madre de trabajador nocturno) |
-| **Fecha de entrevista** | 13/11/2026 |
-| **URL del Video** | `[Colocar URL de Microsoft Stream]` |
+| **Nombres y Apellidos** | Juan Gutiérrez |
+| **Edad** | 24 años |
+| **Distrito** | San Juan de Miraflores |
+| **Segmento Objetivo** | Contactos de Confianza (Estudiante universitario y contacto de confianza de su hermano menor) |
+| **Fecha de entrevista** | 14/11/2026 |
+| **URL del Video (Stream)** | `[Colocar URL de Microsoft Stream]` |
 | **Timing de Inicio** | `12:23` |
 | **Duración** | `04:20` |
 
-![Captura Entrevista 4 - Rosa Elena Paredes Morales](path/to/screenshot-validation-4.png)
+![Captura Entrevista 4 - Juan Gutiérrez](path/to/screenshot-validation-4.png)
 
 **Resumen descriptivo de apreciaciones:**
-Rosa Elena Paredes Morales inició la validación en el **Landing Page**, utilizando el selector de idioma para leer el contenido en español y destacando que el mensaje transmite seguridad para las familias. Al ingresar al **Companion Portal**, completó el flujo en la vista `Invitaciones` aceptando el vínculo de confianza en un solo paso sin requerir conocimientos técnicos avanzados. En la vista `Monitoreo en Vivo`, identificó con rapidez el estado activo del traslado de su hijo Jorge desde el Hospital Rebagliati hacia Pueblo Libre en motocicleta, junto con su hora estimada de llegada (ETA), diferenciándolo claramente de otros perfiles en estado de reposo, y verificó las llegadas previas en `Historial de Rutas`. Respecto a la vista `Avisos & Alertas`, comprendió la distinción por canales (`WHATSAPP`, `EMAIL`, `IN_APP`), configuró su ventana horaria nocturna (22:00 a 06:00) y utilizó la opción `Reintentar` en la cola de entregas. Asimismo, resaltó el gran valor de la vista `Auxilio & Serenazgo` por presentar los números del 105, SAMU 106, Bomberos 116 y Serenazgo con tipografía grande para actuar rápido ante una urgencia. Como mejora puntual de internacionalización, observó que las etiquetas técnicas de estado de envío (`DELIVERED`, `PENDING_PROVIDER`, `FAILED`) deberían mostrarse traducidas al español cuando dicho idioma está activo.
+Juan Gutiérrez inició la validación en el **Landing Page**, señalando que la información permite comprender con rapidez el valor del sistema para las familias. Al ingresar al **Companion Portal** y dirigirse a la vista `Invitaciones`, visualizó de inmediato la solicitud enviada por su hermano menor y completó el vínculo con un solo clic en el botón "Aceptar". En la vista `Monitoreo en Vivo`, identificó con claridad la tarjeta de su hermano indicando que se encontraba en trayecto hacia San Juan de Miraflores, su medio de transporte y la hora estimada de llegada (ETA), además de consultar sin dificultad la constancia de sus recorridos previos en `Historial de Rutas`. Respecto a la vista `Avisos & Alertas`, destacó la claridad de las etiquetas que especifican el canal de envío (`WHATSAPP`, `EMAIL`, `IN_APP`) junto con los indicadores de estado en verde o rojo, resultándole muy práctico configurar WhatsApp como canal principal mientras estudia de noche. Asimismo, calificó como indispensable el directorio de `Auxilio & Serenazgo` con accesos directos a la Policía (105), SAMU (106), Bomberos (116) y Serenazgo para reaccionar sin perder tiempo ante cualquier imprevisto de madrugada. Finalmente, aprobó la fluidez del menú lateral y el selector `Día`/`Noche`, sugiriendo incorporar una alerta sonora distintiva para identificar al instante cuando su hermano llega a salvo a su destino.
 
 ---
 
@@ -2843,19 +2851,19 @@ Rosa Elena Paredes Morales inició la validación en el **Landing Page**, utiliz
 
 | Campo | Detalle |
 | :--- | :--- |
-| **Nombres y Apellidos** | Roberto Carlos Fernández |
-| **Edad** | 34 años |
-| **Distrito** | San Juan de Lurigancho |
-| **Segmento Objetivo** | Contactos de Confianza (Esposo de trabajadora en turno de 10:00 p. m. a 6:00 a. m.) |
-| **Fecha de entrevista** | 13/11/2026 |
-| **URL del Video** | `[Colocar URL de Microsoft Stream]` |
+| **Nombres y Apellidos** | Ronald Ramírez |
+| **Edad** | 51 años |
+| **Distrito** | Bellavista, Callao |
+| **Segmento Objetivo** | Contactos de Confianza (Esposo de trabajadora en turno nocturno) |
+| **Fecha de entrevista** | 14/11/2026 |
+| **URL del Video (Stream)** | `[Colocar URL de Microsoft Stream]` |
 | **Timing de Inicio** | `16:44` |
 | **Duración** | `04:05` |
 
-![Captura Entrevista 5 - Roberto Carlos Fernández](path/to/screenshot-validation-5.png)
+![Captura Entrevista 5 - Ronald Ramírez](path/to/screenshot-validation-5.png)
 
 **Resumen descriptivo de apreciaciones:**
-Roberto Carlos Fernández señaló que el **Landing Page** explica con precisión cómo se articula el acompañamiento entre el trabajador nocturno y su hogar. Al interactuar con la vista `Invitaciones` del **Companion Portal**, destacó la limpieza visual para identificar el nombre del trabajador, su correo y la modalidad de turno antes de aceptar la solicitud. Durante la prueba de `Monitoreo en Vivo` e `Historial de Rutas`, comentó que visualizar el origen, destino y hora estimada de llegada evita que su esposa tenga que exponerse sacando el teléfono en la vía pública para reportar por dónde va durante la madrugada. En la vista `Avisos & Alertas`, valoró el indicador numérico rojo en el menú lateral que alerta sobre los avisos recibidos, así como la opción de habilitar SMS y programar horarios de recepción. Igualmente, calificó la vista `Auxilio & Serenazgo` como un respaldo indispensable al combinar los números oficiales de emergencia con el monitor de incidentes SOS activos. Finalmente, elogió la fluidez del menú lateral y el descanso visual que ofrece el tema `Noche` durante la madrugada, recomendando añadir una alerta sonora opcional en el navegador web cuando ingrese un aviso de demora o emergencia.
+Ronald Ramírez señaló que el **Landing Page** va directo al grano y explica con claridad cómo conecta al trabajador nocturno con su familia. Al interactuar con la vista `Invitaciones` del **Companion Portal**, destacó la limpieza visual para mostrar las solicitudes de vínculo y el tipo de turno, logrando aceptar la invitación de su esposa en apenas cinco segundos. Durante la prueba de `Monitoreo en Vivo` e `Historial de Rutas`, comentó que visualizar directamente el punto de partida, el destino hacia Bellavista (Callao) y la hora estimada de llegada evita que su esposa tenga que exponerse sacando el teléfono en plena calle para mandar mensajes a cada rato. En la vista `Avisos & Alertas`, valoró el indicador numérico rojo en el menú lateral que avisa sobre las 6 alertas registradas, permitiendo distinguir cuáles llegaron por la aplicación, WhatsApp o correo, así como activar el canal de SMS y programar el horario nocturno. Igualmente, afirmó que `Auxilio & Serenazgo` brinda un gran respaldo al centralizar los teléfonos oficiales de la Policía, SAMU y Serenazgo junto al estado de incidentes SOS activos del familiar monitoreado. Por último, elogió la fluidez de la navegación y el contraste del modo `Noche` para revisar la pantalla a las 5:00 a. m. con la luz apagada, recomendando que la página emita un sonido corto de notificación cuando ingrese una alerta de inicio de ruta o demora mientras la pestaña está abierta en la computadora.
 
 ---
 
@@ -2863,23 +2871,23 @@ Roberto Carlos Fernández señaló que el **Landing Page** explica con precisió
 
 | Campo | Detalle |
 | :--- | :--- |
-| **Nombres y Apellidos** | Miguel Ángel Quispe |
-| **Edad** | 38 años |
-| **Distrito** | Jesús María |
-| **Segmento Objetivo** | Contactos de Confianza (Hermano mayor y supervisor de grupo familiar) |
-| **Fecha de entrevista** | 13/11/2026 |
-| **URL del Video** | `[Colocar URL de Microsoft Stream]` |
+| **Nombres y Apellidos** | Roberto Carlos Fernández |
+| **Edad** | 42 años |
+| **Distrito** | San Juan de Lurigancho |
+| **Segmento Objetivo** | Contactos de Confianza (Profesional freelance, casado y supervisor de grupo familiar) |
+| **Fecha de entrevista** | 14/11/2026 |
+| **URL del Video (Stream)** | `[Colocar URL de Microsoft Stream]` |
 | **Timing de Inicio** | `20:50` |
 | **Duración** | `04:00` |
 
-![Captura Entrevista 6 - Miguel Ángel Quispe](path/to/screenshot-validation-6.png)
+![Captura Entrevista 6 - Roberto Carlos Fernández](path/to/screenshot-validation-6.png)
 
 **Resumen descriptivo de apreciaciones:**
-Miguel Ángel Quispe validó el **Landing Page** destacando la claridad de la sección de videos demostrativos y la comparativa de planes familiares. Dentro del **Companion Portal**, recorrió la vista `Invitaciones` verificando tanto la aceptación de vínculos de confianza individuales como las invitaciones a planes grupales. En la vista `Monitoreo en Vivo`, resaltó la capacidad de supervisar simultáneamente a varios familiares en una sola pantalla, distinguiendo mediante etiquetas de estado quién se encuentra en ruta activa con su respectivo ETA y quién está en reposo, además de comprobar la rapidez de los filtros por canal (`ALL`, `IN_APP`, `WHATSAPP`, `EMAIL`) en `Historial de Rutas`. Al evaluar `Avisos & Alertas`, destacó la distribución en dos columnas que separa el historial recibido de la cola de entregas y el botón `Despachar Pendientes` para reenviar notificaciones retenidas con un solo clic. También valoró la practicidad de `Auxilio & Serenazgo` para evitar buscar teléfonos de emergencia en fuentes externas durante un evento crítico y la sencillez de `Mi Perfil de Contacto`. Como sugerencia de mejora, propuso incorporar una vista previa de mapa desplegable dentro de cada tarjeta de trabajador en `Monitoreo en Vivo` para complementar la dirección textual con la ubicación gráfica.
+Roberto Carlos Fernández validó el **Landing Page** destacando la claridad de los videos demostrativos y la tabla comparativa de planes familiares. Dentro del **Companion Portal**, recorrió la vista `Invitaciones` comprobando la facilidad para aceptar o rechazar tanto vínculos de confianza como invitaciones a planes grupales. En la vista `Monitoreo en Vivo`, resaltó la ventaja de supervisar simultáneamente a más de un familiar en pantalla, diferenciando rápidamente quién está en ruta activa con su hora estimada de llegada y quién se encuentra en reposo, además de utilizar los botones superiores en `Historial de Rutas` para filtrar alertas entre todos los canales, WhatsApp o correo. Al evaluar `Avisos & Alertas`, destacó la división lógica de la pantalla entre el listado de alertas recibidas a la izquierda y la configuración de canales y cola de entregas a la derecha, valorando especialmente el botón `Despachar Pendientes` para destrabar avisos retenidos con un solo clic. También calificó como sumamente útil la vista `Auxilio & Serenazgo` por presentar en tarjetas grandes los números del 105, SAMU, Bomberos, Serenazgo y Línea 100 junto al monitor SOS, y la rapidez de `Mi Perfil de Contacto` y del botón para alternar entre portales. Como mejora, propuso incluir un pequeño mapa desplegable dentro de la tarjeta del trabajador en `Monitoreo en Vivo` para visualizar el punto exacto en el mapa además de la dirección escrita.
 
 ---
+### 5.3.3. Evaluaciones según heurísticas
 
-### 5.3.3. Evaluacion segun heuristicas
 
 ## 5.4. Video About-the-Product
 
