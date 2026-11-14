@@ -44,6 +44,7 @@
 | Versión | Fecha | Autor | Descripción de modificación |
 | :------ | :---- | :---- | :-------------------------- |
 | 1.0 | 2026-09-19 | Noctiva | Desarrollo del Capítulo I, Capítulo II, Capítulo III, Capítulo IV y el Sprint 1 del Capítulo V |
+| 2.1 | 2026-11-04 | Noctiva | Adaptación de los textos del informe para trabajadores de turnos diurnos y nocturnos. |
 | 2.0 | 2026-10-08 | Noctiva | Implementación de mejoras según el feedback de evaluación en los Capítulos I al IV, y desarrollo del Sprint 2 del Capítulo V |
 
 # Project Report Collaboration Insights 
@@ -52,6 +53,8 @@
 | Organización del proyecto | https://github.com/upc-pre-202620-1asi0730-7793 |
 | Repositorio del reporte | https://github.com/upc-pre-202620-1asi0730-7793/Report |
 | Repositorio de la Landing Page | https://github.com/upc-pre-202620-1asi0730-7793/Landing-Page |
+| Repositorio del Frontend | https://github.com/upc-pre-202620-1asi0730-7793/Noxway-Frontend.git |
+
 
 Durante la fase de preparación del informe, se llevaron a cabo las siguientes actividades:
 
@@ -65,6 +68,15 @@ Se organizaron reuniones para coordinar el progreso de los componentes del infor
 <img src="resources/imgs/contributorsav1.png" alt="Commits del informe">
 </div>
 
+TB1: Las tareas correspondientes al Sprint 2 se documentaron en el repositorio de GitHub:
+
+Se redactaron y actualizaron los contenidos del informe utilizando el formato Markdown, y se realizaron Conventional Commits para registrar los avances y la resolución de conflictos durante la integración de las ramas.
+Se incorporaron las capturas de la aplicación web, la configuración de Firebase y las evidencias de despliegue en la carpeta resources/imgs/chapter_v del repositorio del informe.
+Se organizaron los aportes del equipo mediante ramas de funcionalidades y Pull Requests para integrar los avances del frontend y de la documentación del Sprint 2.
+
+<div align="center">
+<img src="resources/imgs/tb1-collaboration.png" alt="Commits del informe">
+</div>
 
 # Contenido 
 
@@ -79,9 +91,6 @@ Se organizaron reuniones para coordinar el progreso de los componentes del infor
   - [1.1. Startup Profile](#11-startup-profile)
     - [1.1.1 Descripción de la Startup](#111-descripción-de-la-startup)
     - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
-  - [| **Foto** |                             |](#-foto------------------------------)
-  - [| **Foto** | |](#-foto--)
-  - [| **Foto** |                              |](#-foto-------------------------------)
   - [1.2. Solution Profile](#12-solution-profile)
     - [1.2.1 Antecedentes y problemática](#121-antecedentes-y-problemática)
     - [1.2.2 Lean UX Process.](#122-lean-ux-process)
@@ -97,21 +106,19 @@ Se organizaron reuniones para coordinar el progreso de los componentes del infor
     - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
   - [2.3. Needfinding.](#23-needfinding)
     - [2.3.1. User Personas.](#231-user-personas)
-      - [Segmento Objetivo 1: Trabajador de Turno Nocturno](#segmento-objetivo-1-trabajador-de-turno-nocturno)
+      - [Segmento Objetivo 1: Trabajador de Turno Diurno o Nocturno](#segmento-objetivo-1-trabajador-de-turno-diurno-o-nocturno)
       - [Segmento Objetivo 2: Contacto de Confianza](#segmento-objetivo-2-contacto-de-confianza)
     - [2.3.2. User Task Matrix.](#232-user-task-matrix)
     - [2.3.3. User Journey Mapping.](#233-user-journey-mapping)
-      - [Segmento Objetivo 1: Trabajador de Turno Nocturno](#segmento-objetivo-1-trabajador-de-turno-nocturno-1)
+      - [Segmento Objetivo 1: Trabajador de Turno Diurno o Nocturno](#segmento-objetivo-1-trabajador-de-turno-diurno-o-nocturno-1)
       - [Segmento Objetivo 2: Contacto de Confianza](#segmento-objetivo-2-contacto-de-confianza-1)
     - [2.3.4. Empathy Mapping.](#234-empathy-mapping)
-      - [Segmento Objetivo 1: Trabajador de Turno Nocturno](#segmento-objetivo-1-trabajador-de-turno-nocturno-2)
+      - [Segmento Objetivo 1: Trabajador de Turno Diurno o Nocturno](#segmento-objetivo-1-trabajador-de-turno-diurno-o-nocturno-2)
       - [Segmento Objetivo 2: Contacto de Confianza](#segmento-objetivo-2-contacto-de-confianza-2)
   - [2.4. Big Picture EventStorming.](#24-big-picture-eventstorming)
   - [2.5. Ubiquitous Language.](#25-ubiquitous-language)
 - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
   - [3.1. User Stories.](#31-user-stories)
-- [Historias de Usuario - Noxway](#historias-de-usuario---noxway)
-  - [| **US-30** | Moderar comunidad | Como moderador (Noxway), quiero auditar zonas y servicios reportados para evitar spam o "trolls", manteniendo el prestigio de los datos comunitarios frente a nuevos usuarios. | **Escenario 1:** Dado que ve un reporte pendiente, Cuando pulsa "Aprobar", Entonces el punto se publica a todos.**Escenario 2:** Dado que es un reporte vacío o de broma, Cuando pulsa "Rechazar", Entonces desaparece y el usuario generador pierde "Trust Score". | EP-10 |](#-us-30--moderar-comunidad--como-moderador-noxway-quiero-auditar-zonas-y-servicios-reportados-para-evitar-spam-o-trolls-manteniendo-el-prestigio-de-los-datos-comunitarios-frente-a-nuevos-usuarios--escenario-1-dado-que-ve-un-reporte-pendiente-cuando-pulsa-aprobar-entonces-el-punto-se-publica-a-todosescenario-2-dado-que-es-un-reporte-vacío-o-de-broma-cuando-pulsa-rechazar-entonces-desaparece-y-el-usuario-generador-pierde-trust-score--ep-10-)
   - [3.2. Impact Mapping.](#32-impact-mapping)
   - [3.3. Product Backlog.](#33-product-backlog)
 - [Capítulo IV: Product Design](#capítulo-iv-product-design)
@@ -192,10 +199,10 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 ## 1.1. Startup Profile 
 ### 1.1.1 Descripción de la Startup
-**Noctiva** es una startup dedicada a mejorar la seguridad, el bienestar y la vida social de los trabajadores que realizan su labor en horario nocturno. Nuestro alcance está dirigido a un segmento históricamente desatendido por las soluciones tecnológicas actuales: personal de seguridad, repartidores (delivery), enfermeros y personal de salud de turno noche, agentes de call centers 24 horas, y personal de limpieza nocturna, entre otros rubros que sostienen la operatividad de las ciudades mientras la mayoría de servicios están pensados para el horario diurno.
-Como startup, buscamos posicionarnos como un referente en soluciones de seguridad y bienestar para trabajadores nocturnos, entendiendo las particularidades de un segmento que enfrenta mayores riesgos al transitar solo, dificultad para acceder a servicios abiertos de noche, y aislamiento de su círculo social por dormir cuando otros están despiertos.
-**Misión:** Queremos ofrecer soluciones tecnológicas que devuelvan seguridad, comunidad y bienestar a quienes trabajan mientras la ciudad duerme, adaptando servicios y herramientas pensadas para el horario diurno a la realidad del turno nocturno.
-**Visión:** Ser la startup líder en seguridad y bienestar para trabajadores de turno nocturno en el mercado peruano, comenzando por consolidar nuestra posición en Lima, para luego expandirnos a otras ciudades y sectores del país.
+**Noctiva** es una startup dedicada a mejorar la seguridad, el bienestar y la vida social de los trabajadores que realizan su labor en horarios diurnos y nocturnos. Nuestro alcance está dirigido a un segmento históricamente desatendido por las soluciones tecnológicas actuales: personal de seguridad, repartidores (delivery), enfermeros y personal de salud de turnos diurnos y nocturnos, agentes de call centers 24 horas, y personal de limpieza, entre otros rubros que sostienen la operatividad de las ciudades a lo largo del día y de la noche.
+Como startup, buscamos posicionarnos como un referente en soluciones de seguridad y bienestar para trabajadores de turnos diurnos y nocturnos, entendiendo las particularidades de un segmento que enfrenta mayores riesgos al transitar solo, dificultad para acceder a servicios abiertos en el horario de sus desplazamientos, y aislamiento de su círculo social por las diferencias entre sus horarios de trabajo y descanso.
+**Misión:** Queremos ofrecer soluciones tecnológicas que devuelvan seguridad, comunidad y bienestar a quienes trabajan de día y de noche, adaptando servicios y herramientas a la realidad de los distintos turnos laborales.
+**Visión:** Ser la startup líder en seguridad y bienestar para trabajadores de turnos diurnos y nocturnos en el mercado peruano, comenzando por consolidar nuestra posición en Lima, para luego expandirnos a otras ciudades y sectores del país.
 
 ### 1.1.2. Perfiles de integrantes del equipo 
 
@@ -243,30 +250,30 @@ Como startup, buscamos posicionarnos como un referente en soluciones de segurida
 ### 1.2.1 Antecedentes y problemática 
 | 5w & 2H | Descripcion                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 |---------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **What: ¿Cuál es el problema?**|Los trabajadores de turno nocturno (seguridad, delivery, salud, call centers, limpieza, etc) se enfrentan a una ciudad y a unos servicios diseñados casi exclusivamente para el horario diurno. Esto se traduce en mayor riesgo al transitar solos por la noche, dificultad para encontrar comida o servicios abiertos, aislamiento de su círculo social por dormir cuando otros están despiertos, y nula capacidad de organizarse colectivamente debido a horarios dispersos.|
-| **When: ¿Cuándo sucede este problema?**|El problema ocurre de manera constante durante las horas nocturnas y de madrugada, siendo más crítico en los trayectos de ida o vuelta del trabajo, cuando el transporte público es escaso, las calles están poco iluminadas y hay menor presencia de otras personas o autoridades.|
-| **Where: ¿Dónde se produce este suceso?** |El problema está presente en las principales ciudades del país, pero es particularmente crítico en zonas urbanas de Lima con alta incidencia delictiva, poca iluminación pública y escasa oferta de servicios nocturnos, donde miles de trabajadores transitan diariamente sin herramientas que respalden su seguridad.|
-| **Who: ¿Quiénes están involucrados?** |Están involucrados directamente los trabajadores de turno nocturno de distintos rubros (seguridad, delivery, enfermería, call centers, limpieza, etc), así como sus familiares, parejas y contactos de confianza, quienes también viven con incertidumbre y preocupación mientras el trabajador está en tránsito o en su jornada nocturna, sin ninguna forma de saber si llegó bien a su destino.|
-| **Why: ¿Cuál es la causa del problema?** |La causa principal es que las ciudades, los servicios comerciales y las herramientas tecnológicas de seguridad y comunidad están mayoritariamente diseñados en función del horario diurno, dejando un vacío de soluciones específicas para quienes trabajan de noche. |
-| **How: ¿Qué llevó a la persona a llegar a esta situación?** |La situación actual es resultado de una economía que exige servicios ininterrumpidos las 24 horas (seguridad, salud, delivery, atención al cliente, etc), sin que exista una infraestructura de apoyo equivalente para quienes sostienen esa operación nocturna, generando desprotección, desgaste físico y aislamiento social progresivo.|
-| **How Much: ¿Cuánto es el impacto financiero?** |El impacto es tanto humano como económico: mayor exposición a asaltos y accidentes en el trayecto, deterioro de la salud por falta de descanso adecuado, pérdida de vínculos sociales y familiares, y un desgaste emocional constante en los contactos de confianza que viven con incertidumbre mientras el trabajador está en su turno nocturno. |
+| **What: ¿Cuál es el problema?**|Los trabajadores de turnos diurnos y nocturnos (seguridad, delivery, salud, call centers, limpieza, etc) se enfrentan a una ciudad y a unos servicios que no siempre se ajustan a sus horarios laborales. Esto se traduce en mayor riesgo al transitar solos durante sus desplazamientos, dificultad para encontrar comida o servicios abiertos, aislamiento de su círculo social por las diferencias entre sus horarios de trabajo y descanso, y nula capacidad de organizarse colectivamente debido a horarios dispersos.|
+| **When: ¿Cuándo sucede este problema?**|El problema ocurre de manera constante durante el día y la noche, siendo más crítico en los trayectos de ida o vuelta del trabajo, según la disponibilidad de transporte público, la iluminación y la presencia de otras personas o autoridades.|
+| **Where: ¿Dónde se produce este suceso?** |El problema está presente en las principales ciudades del país, pero es particularmente crítico en zonas urbanas de Lima con alta incidencia delictiva, poca iluminación pública y disponibilidad variable de servicios según el horario, donde miles de trabajadores transitan diariamente sin herramientas que respalden su seguridad.|
+| **Who: ¿Quiénes están involucrados?** |Están involucrados directamente los trabajadores de turnos diurnos y nocturnos de distintos rubros (seguridad, delivery, enfermería, call centers, limpieza, etc), así como sus familiares, parejas y contactos de confianza, quienes también viven con incertidumbre y preocupación mientras el trabajador está en tránsito o en su jornada laboral, sin ninguna forma de saber si llegó bien a su destino.|
+| **Why: ¿Cuál es la causa del problema?** |La causa principal es que las ciudades, los servicios comerciales y las herramientas tecnológicas de seguridad y comunidad no siempre se ajustan a los distintos horarios laborales, sin atender de forma integrada las necesidades de quienes trabajan en distintos horarios. |
+| **How: ¿Qué llevó a la persona a llegar a esta situación?** |La situación actual es resultado de una economía que exige servicios ininterrumpidos las 24 horas (seguridad, salud, delivery, atención al cliente, etc), sin que exista una infraestructura de apoyo equivalente para quienes sostienen esa operación diurna y nocturna, generando desprotección, desgaste físico y aislamiento social progresivo.|
+| **How Much: ¿Cuánto es el impacto financiero?** |El impacto es tanto humano como económico: mayor exposición a asaltos y accidentes en el trayecto, deterioro de la salud por falta de descanso adecuado, pérdida de vínculos sociales y familiares, y un desgaste emocional constante en los contactos de confianza que viven con incertidumbre mientras el trabajador está en su turno laboral. |
 
 ### 1.2.2 Lean UX Process.
 #### 1.2.2.1. Lean UX Problem Statements.
 
-El estado actual de **la seguridad y el bienestar de los trabajadores del turno nocturno en zonas urbanas del Perú** se ha enfocado principalmente en **los trabajadores del horario diurno**, dejando de lado a **guardias de seguridad, repartidores (delivery), personal de salud, agentes de call center, personal de limpieza, entre otros, que laboran en turno nocturno**, junto con sus puntos de dolor tales como **el riesgo constante al transitar solos de noche, la dificultad para encontrar servicios abiertos y confiables, el aislamiento de su círculo social debido a que duermen mientras otros están despiertos, y la nula capacidad de organizarse colectivamente debido a sus horarios dispersos**.
+El estado actual de **la seguridad y el bienestar de los trabajadores de turnos diurnos y nocturnos en zonas urbanas del Perú** requiere considerar las necesidades de **los trabajadores de distintos horarios**, incluyendo a **guardias de seguridad, repartidores (delivery), personal de salud, agentes de call center, personal de limpieza, entre otros, que laboran en turnos diurnos y nocturnos**, junto con sus puntos de dolor tales como **el riesgo constante al transitar solos de día o de noche, la dificultad para encontrar servicios abiertos y confiables, el aislamiento de su círculo social debido a que tienen distintos horarios de trabajo y descanso, y la nula capacidad de organizarse colectivamente debido a sus horarios dispersos**.
 
-Lo que los productos/servicios existentes de seguridad personal y de compartición de ubicación no logran abordar es **una plataforma especializada que combine seguridad activa durante los trayectos, información confiable generada por la comunidad sobre la seguridad de las rutas y el entorno nocturno, y un espacio de comunidad y beneficios colectivos diseñado específicamente para la realidad del trabajo en turno nocturno**.
+Lo que los productos/servicios existentes de seguridad personal y de compartición de ubicación no logran abordar es **una plataforma especializada que combine seguridad activa durante los trayectos, información confiable generada por la comunidad sobre la seguridad de las rutas y el entorno del trayecto, y un espacio de comunidad y beneficios colectivos diseñado específicamente para la realidad del trabajo en turnos diurnos y nocturnos**.
 
-**Noxway** abordará esta brecha **ofreciendo un check-in de trayecto seguro con alertas automáticas a contactos de confianza, un sistema de calificación y reporte de seguridad de rutas alimentado por la comunidad, un mapa comunitario de servicios abiertos durante la noche, un sistema automático de alerta ante posibles incidentes cuando un trayecto no es confirmado, una bitácora de descanso y salud del sueño, y una comunidad con beneficios colectivos negociados mediante una suscripción mensual**.
+**Noxway** abordará esta brecha **ofreciendo un check-in de trayecto seguro con alertas automáticas a contactos de confianza, un sistema de calificación y reporte de seguridad de rutas alimentado por la comunidad, un mapa comunitario de servicios abiertos según el horario de consulta, un sistema automático de alerta ante posibles incidentes cuando un trayecto no es confirmado, una bitácora de descanso y salud del sueño, y una comunidad con beneficios colectivos negociados mediante una suscripción mensual**.
 
-Nuestro enfoque inicial serán **los trabajadores de turno nocturno de los rubros de seguridad, delivery, salud, call center, entre otros, en Lima Metropolitana, junto con sus contactos de confianza (familiares y parejas) que comparten la carga emocional de su seguridad durante estos trayectos**.
+Nuestro enfoque inicial serán **los trabajadores de turnos diurnos y nocturnos de los rubros de seguridad, delivery, salud, call center, entre otros, en Lima Metropolitana, junto con sus contactos de confianza (familiares y parejas) que comparten la carga emocional de su seguridad durante estos trayectos**.
 
 Sabremos que hemos tenido éxito cuando veamos **una reducción de los incidentes de seguridad reportados por nuestros usuarios, un uso recurrente y sostenido de la función de check-in de trayecto seguro, un volumen creciente de calificaciones de seguridad de rutas enviadas por la comunidad, un crecimiento orgánico de la comunidad de usuarios, y una tasa de conversión relevante de usuarios de prueba gratuita a suscriptores de pago**.
 
 #### 1.2.2.2. Lean UX Assumptions.
 **Business Assumptions**
-* Creemos que existe un mercado desatendido de trabajadores nocturnos dispuestos a utilizar una plataforma dedicada a su bienestar.
+* Creemos que existe un mercado desatendido de trabajadores de turnos diurnos y nocturnos dispuestos a utilizar una plataforma dedicada a su bienestar.
 * Creemos que un modelo de crecimiento basado en referidos entre el trabajador y sus contactos de confianza (familiares, parejas) reducirá el costo de adquisición de usuarios y acelerará el crecimiento orgánico de la plataforma.
 * Creemos que un modelo de monetización mediante suscripción mensual con beneficios como seguro básico, descuentos negociados colectivamente y alertas de seguridad prioritarias es viable y sostenible para este segmento, gracias a la posibilidad de negociar estos beneficios con terceros.
 
@@ -282,36 +289,36 @@ Sabremos que hemos tenido éxito cuando veamos **una reducción de los incidente
 * Creemos que lograremos una mediana de 5 minutos o menos entre el vencimiento del margen de tolerancia y la primera acción del contacto de confianza, con no más de 15 % de incidentes cerrados como falso positivo, durante un piloto de 8 semanas.
 
 **User Assumptions**
-1. Nuestros usuarios principales son trabajadores de turno nocturno entre 20 y 45 años, residentes en zonas urbanas de Lima, pertenecientes a los rubros de seguridad, delivery, salud y call centers, etc.
-2. Nuestros usuarios secundarios son los contactos de confianza (familiares, parejas o amigos) de los trabajadores nocturnos, quienes reciben notificaciones automáticas sobre el estado de su trayecto.
-3. Existen usuarios con rol de moderación dentro de la comunidad, encargados de validar reportes de incidentes y de información sobre servicios nocturnos.
+1. Nuestros usuarios principales son trabajadores de turnos diurnos y nocturnos entre 20 y 45 años, residentes en zonas urbanas de Lima, pertenecientes a los rubros de seguridad, delivery, salud y call centers, etc.
+2. Nuestros usuarios secundarios son los contactos de confianza (familiares, parejas o amigos) de los trabajadores de turnos diurnos y nocturnos, quienes reciben notificaciones automáticas sobre el estado de su trayecto.
+3. Existen usuarios con rol de moderación dentro de la comunidad, encargados de validar reportes de incidentes y de información sobre servicios cercanos.
 
 **User Outcome and Benefit Assumptions**
-1. Los trabajadores nocturnos desean sentirse acompañados y seguros durante sus trayectos, y obtienen tranquilidad al saber que un contacto de confianza será notificado automáticamente ante cualquier eventualidad.
-2. Los trabajadores nocturnos desean encontrar rápidamente servicios abiertos y confiables durante la noche, y obtienen ahorro de tiempo y menor exposición a situaciones de riesgo.
-3. Los trabajadores nocturnos desean sentirse parte de una comunidad que comprenda su realidad laboral, y obtienen acceso a información relevante y beneficios negociados colectivamente.
-4. Los contactos de confianza desean tener certeza y tranquilidad sobre la seguridad de su familiar o pareja durante su trayecto nocturno, y obtienen visibilidad del estado del check-in y de la llegada segura, sin necesidad de estar llamando o preguntando constantemente.
-5. Los trabajadores nocturnos desean saber qué tan segura es una ruta específica antes de tomarla, y obtienen información sobre la seguridad de la ruta gracias a las calificaciones y reportes dejados por otros usuarios que la transitaron recientemente.
-6. Los trabajadores nocturnos desean comprender cómo su horario afecta su descanso, y obtienen visibilidad de sus patrones de sueño y alertas ante descanso insuficiente.
+1. Los trabajadores de turnos diurnos y nocturnos desean sentirse acompañados y seguros durante sus trayectos, y obtienen tranquilidad al saber que un contacto de confianza será notificado automáticamente ante cualquier eventualidad.
+2. Los trabajadores de turnos diurnos y nocturnos desean encontrar rápidamente servicios abiertos y confiables durante el día y la noche, y obtienen ahorro de tiempo y menor exposición a situaciones de riesgo.
+3. Los trabajadores de turnos diurnos y nocturnos desean sentirse parte de una comunidad que comprenda su realidad laboral, y obtienen acceso a información relevante y beneficios negociados colectivamente.
+4. Los contactos de confianza desean tener certeza y tranquilidad sobre la seguridad de su familiar o pareja durante su trayecto, y obtienen visibilidad del estado del check-in y de la llegada segura, sin necesidad de estar llamando o preguntando constantemente.
+5. Los trabajadores de turnos diurnos y nocturnos desean saber qué tan segura es una ruta específica antes de tomarla, y obtienen información sobre la seguridad de la ruta gracias a las calificaciones y reportes dejados por otros usuarios que la transitaron recientemente.
+6. Los trabajadores de turnos diurnos y nocturnos desean comprender cómo su horario afecta su descanso, y obtienen visibilidad de sus patrones de sueño y alertas ante descanso insuficiente.
 7. Los contactos de confianza desean enterarse a tiempo cuando el trayecto de su familiar o pareja presenta una situación anómala, y obtienen una alerta temprana y verificada sobre un posible incidente en el trayecto.
 
 **Feature Assumptions**
 
-1. Un check-in de trayecto seguro con aviso automático a contactos de confianza satisfará la necesidad de seguridad activa durante los desplazamientos nocturnos.
-2. Un mapa comunitario de servicios activos de noche, validado por los propios usuarios, satisfará la necesidad de información confiable sobre el entorno.
+1. Un check-in de trayecto seguro con aviso automático a contactos de confianza satisfará la necesidad de seguridad activa durante los desplazamientos diurnos y nocturnos.
+2. Un mapa comunitario de servicios activos según el horario de consulta, validado por los propios usuarios, satisfará la necesidad de información confiable sobre el entorno.
 3. Un sistema de reporte comunitario de incidentes y zonas de riesgo satisfará la necesidad de anticipar y evitar situaciones peligrosas.
-4. Una bitácora de descanso y salud del sueño satisfará la necesidad de visibilizar y cuidar el bienestar físico del trabajador nocturno.
-5. Una comunidad con beneficios colectivos negociados a través de la suscripción mensual satisfará la necesidad de pertenencia, ahorro y valor añadido para el trabajador nocturno.
+4. Una bitácora de descanso y salud del sueño satisfará la necesidad de visibilizar y cuidar el bienestar físico del trabajador de turno diurno o nocturno.
+5. Una comunidad con beneficios colectivos negociados a través de la suscripción mensual satisfará la necesidad de pertenencia, ahorro y valor añadido para el trabajador de turno diurno o nocturno.
 6. Un sistema de calificación y reporte de ruta al finalizar cada trayecto (indicando si el usuario se sintió seguro o marcando un punto específico como sospechoso) satisfará la necesidad de contar con información colectiva y confiable sobre qué tan seguras son las rutas realmente transitadas.
 7. Una función de marcado automático de "posible incidente" cuando el usuario no confirma su llegada dentro del tiempo estimado, con validación posterior del propio usuario, satisfará la necesidad de identificar rápidamente situaciones de riesgo reales y alimentar el mapa comunitario con datos verificados.
-8. Un panel de seguimiento para contactos de confianza, que les permita ver en tiempo real el estado del trayecto y del check-in de la persona que los designó, satisfará la necesidad de tranquilidad y monitoreo sin invadir la privacidad del trabajador nocturno.
+8. Un panel de seguimiento para contactos de confianza, que les permita ver en tiempo real el estado del trayecto y del check-in de la persona que los designó, satisfará la necesidad de tranquilidad y monitoreo sin invadir la privacidad del trabajador de turno diurno o nocturno.
 
 #### 1.2.2.3. Lean UX Hypothesis Statements.
 
 **Hipótesis 1**
 
 Creemos que lograremos **una retención a 30 días (usuarios con al menos un check-in en el mes 2 sobre usuarios con check-in en el mes 1) de al menos 60 %, durante los 3 meses posteriores al lanzamiento**  
-Si **los trabajadores de turno nocturno en Lima**  
+Si **los trabajadores de turnos diurnos y nocturnos en Lima**  
 Alcanzan **tranquilidad al saber que un contacto de confianza será notificado automáticamente ante cualquier eventualidad**  
 Con **la función de check-in de trayecto seguro con alertas automáticas a contactos de confianza**.
 
@@ -320,16 +327,16 @@ Con **la función de check-in de trayecto seguro con alertas automáticas a cont
 **Hipótesis 2**
 
 Creemos que lograremos **un promedio de al menos 4 sesiones semanales por usuario activo y 3 búsquedas de servicios por semana, durante los 3 meses posteriores al lanzamiento**  
-Si **los trabajadores de turno nocturno**  
+Si **los trabajadores de turnos diurnos y nocturnos**  
 Alcanzan **ahorro de tiempo y menor exposición a situaciones de riesgo**  
-Con **el mapa comunitario de servicios activos durante la noche**.
+Con **el mapa comunitario de servicios activos según el horario de consulta**.
 
 ---
 
 **Hipótesis 3**
 
 Creemos que lograremos **que al menos 80 % de los reportes de riesgo sean aprobados por moderación y que 70 % de las zonas de riesgo tengan 2 o más confirmaciones independientes, durante los 3 meses posteriores al lanzamiento**  
-Si **los trabajadores de turno nocturno**  
+Si **los trabajadores de turnos diurnos y nocturnos**  
 Alcanzan **información sobre la seguridad de la ruta gracias a las calificaciones y reportes dejados por otros usuarios que la transitaron recientemente**  
 Con **el sistema de reporte comunitario de incidentes**.
 
@@ -338,7 +345,7 @@ Con **el sistema de reporte comunitario de incidentes**.
 **Hipótesis 4**
 
 Creemos que lograremos **una retención a 30 días (usuarios con al menos un check-in en el mes 2 sobre usuarios con check-in en el mes 1) de al menos 60 %, durante los 3 meses posteriores al lanzamiento**  
-Si **los trabajadores de turno nocturno**  
+Si **los trabajadores de turnos diurnos y nocturnos**  
 Alcanzan **visibilidad de sus patrones de sueño y alertas ante descanso insuficiente**  
 Con **la bitácora de descanso y salud del sueño**.
 
@@ -347,7 +354,7 @@ Con **la bitácora de descanso y salud del sueño**.
 **Hipótesis 5**
 
 Creemos que lograremos **una tasa de renovación de suscripción de al menos 70 % al tercer mes y que al menos 20 % de los nuevos registros llegue por recomendación, durante los 6 meses posteriores al lanzamiento**  
-Si **los trabajadores de turno nocturno**  
+Si **los trabajadores de turnos diurnos y nocturnos**  
 Alcanzan **acceso a información relevante y beneficios negociados colectivamente**  
 Con **la comunidad y sus beneficios colectivos negociados a través de la suscripción mensual**.
 
@@ -356,7 +363,7 @@ Con **la comunidad y sus beneficios colectivos negociados a través de la suscri
 **Hipótesis 6**
 
 Creemos que lograremos **que al menos 40 % de los trayectos finalizados reciba una calificación de ruta, durante los 3 meses posteriores al lanzamiento**  
-Si **los trabajadores de turno nocturno**  
+Si **los trabajadores de turnos diurnos y nocturnos**  
 Alcanzan **información sobre la seguridad de la ruta gracias a las calificaciones y reportes dejados por otros usuarios que la transitaron recientemente**  
 Con **el sistema de calificación y reporte de rutas**.
 
@@ -374,7 +381,7 @@ Con **la función de marcado automático de "posible incidente" cuando la llegad
 **Hipótesis 8**
 
 Creemos que lograremos **que al menos 30 % de los nuevos registros provenga de invitaciones de contactos de confianza y que el costo de adquisición por usuario sea 25 % menor al de canales pagados, durante los 6 meses posteriores al lanzamiento**  
-Si **los contactos de confianza (familiares y parejas de los trabajadores de turno nocturno)**  
+Si **los contactos de confianza (familiares y parejas de los trabajadores de turnos diurnos y nocturnos)**  
 Alcanzan **visibilidad del estado del check-in y de la llegada segura, sin necesidad de estar llamando o preguntando constantemente**  
 Con **un panel de seguimiento dedicado para contactos de confianza**.
 
@@ -386,20 +393,20 @@ Lean UX Canvas — Noxway
 ![Lean UX Canvas](resources/imgs/Lean_UX_Canvas.png)
 
 ## 1.3. Segmentos objetivo. 
-**Segmento Objetivo 1: Trabajadores de turno nocturno**
+**Segmento Objetivo 1: Trabajadores de turnos diurnos y nocturnos**
 **Aspectos demográficos:**
 - **Edad:** 18 - 55 años.
 - **Nivel socioeconómico:** Media - Baja.
 - **Tipo de trabajador:** Personal de primera línea, trabajadores empleos temporales y servicios esenciales.
 - **Rubro:** Seguridad privada, salud, delivery, call centers, limpieza y transporte.
-- **Nivel de necesidad:** Alta dependencia de herramientas que garanticen su seguridad en rutas desoladas y faciliten encontrar servicios básicos abiertos de madrugada.
+- **Nivel de necesidad:** Alta dependencia de herramientas que garanticen su seguridad en rutas desoladas y faciliten encontrar servicios básicos abiertos según el horario de sus desplazamientos.
 
 **Aspectos geográficos:**
 - **Nacionalidad:** Peruana.
 - **Zona geográfica:** Urbana y metropolitana (Lima).
 
 **Aspectos psicográficos:**
-- **Motivación:** Llegar sanos y salvos a sus hogares y lugares de trabajo, cuidar su salud del sueño, optimizar su tiempo y reducir sus gastos nocturnos.
+- **Motivación:** Llegar sanos y salvos a sus hogares y lugares de trabajo, cuidar su salud del sueño, optimizar su tiempo y reducir sus gastos durante sus turnos.
 - **Valores:** La seguridad personal, el bienestar físico y el respaldo de una comunidad.
 - **Intereses:** Adopción de tecnología rápida y colaborativa que les permita evitar zonas de riesgo y acceder a beneficios o alertas en tiempo real.
 
@@ -409,9 +416,9 @@ Lean UX Canvas — Noxway
 **Aspectos demográficos:**
 - **Edad:** 18 - 60 años.
 - **Nivel socioeconómico:** Media - Baja.
-- **Vínculo:** Familiares directos (padres, hermanos), parejas o amigos cercanos del trabajador de turno nocturno.
+- **Vínculo:** Familiares directos (padres, hermanos), parejas o amigos cercanos del trabajador de turno diurno o nocturno.
 - **Rubro:** Ocupaciones diversas.
-- **Nivel de necesidad:** Alta necesidad de información y certeza sobre el estado y ubicación de su ser querido para mitigar la angustia durante la noche.
+- **Nivel de necesidad:** Alta necesidad de información y certeza sobre el estado y ubicación de su ser querido para mitigar la angustia durante el día y la noche.
 
 **Aspectos geográficos:**
 - **Nacionalidad:** Peruana.
@@ -445,12 +452,12 @@ Safetipin es una aplicación originada en India que genera "puntajes de segurida
   </tr>
   <tr>
     <td colspan="2" rowspan="2">¿Por qué llevar a cabo este análisis?</td>
-    <td colspan="5"> Con el objetivo de evaluar y comparar funcionalidades, tecnología, precios y estrategias de marketing de los principales competidores en seguridad personal y trayectos, para identificar nuestras fortalezas y debilidades, detectar oportunidades de negocio y definir los puntos que nos diferencian de la competencia frente al segmento específico de trabajadores de turno nocturno y sus contactos de confianza. </td>
+    <td colspan="5"> Con el objetivo de evaluar y comparar funcionalidades, tecnología, precios y estrategias de marketing de los principales competidores en seguridad personal y trayectos, para identificar nuestras fortalezas y debilidades, detectar oportunidades de negocio y definir los puntos que nos diferencian de la competencia frente al segmento específico de trabajadores de turnos diurnos y nocturnos y sus contactos de confianza. </td>
   </tr>
   <tr></tr>
   <tr>
     <td colspan="2"></td>
-    <td> Noxway <br> <img src="resources/imgs/chapter_ii/logo-noctiva.jpg" alt="Noxway" width="110" height="100"></img> </td>
+    <td> Noxway <br> <img src="resources/imgs/chapter_ii/logo-noxway-day-night.png" alt="Noxway" width="110" height="100"></img> </td>
     <td> bSafe <br> <img src="resources/imgs/chapter_ii/logo-bsafe.png" alt="bSafe" width="110" height="100"></img> </td>
     <td> Noonlight <br> <img src="resources/imgs/chapter_ii/logo-noonlight.png" alt="Noonlight" width="140" height="100"></img> </td>
     <td> Safetipin <br> <img src="resources/imgs/chapter_ii/logo-safetipin.png" alt="Safetipin" width="150" height="100"></img> </td>
@@ -458,14 +465,14 @@ Safetipin es una aplicación originada en India que genera "puntajes de segurida
   <tr>
     <td rowspan="2">Perfil</td>
     <td>Overview</td>
-    <td> Noxway es una plataforma integral de seguridad, información y comunidad diseñada específicamente para trabajadores de turno nocturno y sus contactos de confianza, que combina check-in de trayecto seguro, calificación y reporte comunitario de rutas, mapa de servicios activos de noche y una comunidad con beneficios colectivos. </td>
+    <td> Noxway es una plataforma integral de seguridad, información y comunidad diseñada específicamente para trabajadores de turnos diurnos y nocturnos y sus contactos de confianza, que combina check-in de trayecto seguro, calificación y reporte comunitario de rutas, mapa de servicios activos según el horario de consulta y una comunidad con beneficios colectivos. </td>
     <td> bSafe es una app de seguridad personal que previene y documenta situaciones de riesgo mediante alarma SOS, grabación automática y una red de contactos "Guardians" que monitorean al usuario en tiempo real. </td>
     <td> Noonlight es una plataforma de seguridad conectada que permite pedir ayuda de forma silenciosa, enviando la ubicación exacta del usuario a despachadores profesionales que pueden movilizar servicios de emergencia. </td>
     <td> Safetipin es una app que genera puntajes de seguridad de calles y rutas a partir de auditorías y calificaciones de la comunidad, recomendando la ruta más segura y permitiendo compartir ubicación con contactos de confianza. </td>
   </tr>
   <tr>
     <td>Ventaja competitiva ¿Qué valor ofrece a los clientes?</td>
-    <td> Ofrece una solución especializada para la realidad del trabajo nocturno; seguridad activa en el trayecto, calificación de rutas por la propia comunidad de trabajadores, e información confiable sobre servicios abiertos de noche. </td>
+    <td> Ofrece una solución especializada para la realidad del trabajo en turnos diurnos y nocturnos; seguridad activa en el trayecto, calificación de rutas por la propia comunidad de trabajadores, e información confiable sobre servicios abiertos en el horario de sus desplazamientos. </td>
     <td> Ofrece prevención y evidencia documentada ante situaciones de riesgo mediante grabación automática y una red de contactos de confianza. </td>
     <td> Ofrece conexión directa y silenciosa con servicios de emergencia profesionales, sin depender de contactos personales. </td>
     <td> Ofrece información colectiva y verificada sobre qué tan segura es una calle o ruta específica, permitiendo decisiones de trayecto basadas en datos reales de la comunidad. </td>
@@ -473,14 +480,14 @@ Safetipin es una aplicación originada en India que genera "puntajes de segurida
   <tr>
     <td rowspan="2">Perfil de Marketing</td>
     <td> Mercado Objetivo </td>
-    <td> Trabajadores de turno nocturno (seguridad, delivery, salud, call centers, limpieza, etc) y sus contactos de confianza (familiares, parejas), en zonas urbanas de Lima. </td>
+    <td> Trabajadores de turnos diurnos y nocturnos (seguridad, delivery, salud, call centers, limpieza, etc) y sus contactos de confianza (familiares, parejas), en zonas urbanas de Lima. </td>
     <td> Personas en general que buscan seguridad personal, con fuerte enfoque en mujeres y estudiantes universitarios. </td>
     <td> Usuarios individuales, estudiantes, y empresas que integran la app a dispositivos IoT y sistemas de seguridad residencial. </td>
     <td> Mujeres, jóvenes y comunidades urbanas en general, así como gobiernos locales y planificadores urbanos interesados en datos de seguridad de sus ciudades. </td>
   </tr>
   <tr>
     <td> Estrategias de Marketing </td>
-    <td> Marketing de nicho dirigido a comunidades y grupos de trabajadores nocturnos en redes sociales, programa de referidos entre trabajadores y sus contactos de confianza. </td>
+    <td> Marketing de nicho dirigido a comunidades y grupos de trabajadores de turnos diurnos y nocturnos en redes sociales, programa de referidos entre trabajadores y sus contactos de confianza. </td>
     <td> Testimonios de figuras públicas, presencia en medios internacionales, alianzas con instituciones educativas y comunidades. </td>
     <td> Alianzas B2B con marcas de seguridad del hogar e IoT (Wyze, Sabre, Roku), relaciones públicas con medios especializados en seguridad. </td>
     <td> Alianzas con ONGs, gobiernos locales y organizaciones de mujeres; presencia en medios enfocados en urbanismo y seguridad de género. </td>
@@ -488,7 +495,7 @@ Safetipin es una aplicación originada en India que genera "puntajes de segurida
   <tr>
     <td rowspan="3">Perfil de Producto</td>
     <td> Productos & Servicios </td>
-    <td> Check-in de trayecto seguro, calificación y reporte de ruta, marcado automático de posible incidente, mapa comunitario de servicios nocturnos, bitácora de descanso y salud del sueño, comunidad con beneficios colectivos, panel de seguimiento para contactos de confianza. </td>
+    <td> Check-in de trayecto seguro, calificación y reporte de ruta, marcado automático de posible incidente, mapa comunitario de servicios cercanos, bitácora de descanso y salud del sueño, comunidad con beneficios colectivos, panel de seguimiento para contactos de confianza. </td>
     <td> Botón SOS por voz o táctil, transmisión en vivo, grabación automática de audio/video, llamadas falsas, red de contactos "Guardians". </td>
     <td> Botón de pánico silencioso, conexión directa con despachadores profesionales, monitoreo 24/7 opcional, integración con dispositivos IoT. </td>
     <td> Auditorías de seguridad por parámetros (iluminación, visibilidad, transporte, gente en la calle), puntaje de seguridad por zona/ruta, recomendación de ruta más segura, seguimiento de ubicación con contactos. </td>
@@ -510,7 +517,7 @@ Safetipin es una aplicación originada en India que genera "puntajes de segurida
   <tr>
     <td rowspan="4"> Análisis SWOT </td>
     <td> Fortalezas </td>
-    <td> Especialización total en la realidad del trabajo nocturno, combinación única de check-in + calificación de rutas + comunidad, modelo de suscripción con beneficios tangibles adicionales. </td>
+    <td> Especialización total en la realidad del trabajo en turnos diurnos y nocturnos, combinación única de check-in + calificación de rutas + comunidad, modelo de suscripción con beneficios tangibles adicionales. </td>
     <td> Reconocimiento internacional, tecnología robusta de grabación y evidencia, alianzas mediáticas de alto perfil. </td>
     <td> Conexión directa y profesional con servicios de emergencia, integración amplia con dispositivos IoT. </td>
     <td> Metodología de auditoría de seguridad probada y validada en 16 países, gran volumen de datos históricos, reconocimiento internacional en temas de seguridad urbana. </td>
@@ -518,13 +525,13 @@ Safetipin es una aplicación originada en India que genera "puntajes de segurida
   <tr>
     <td> Debilidades </td>
     <td> Dependencia de la adopción inicial y de la masa crítica de usuarios para que la calificación de rutas sea confiable. </td>
-    <td> No está enfocada en las necesidades específicas de trabajadores nocturnos ni ofrece información comunitaria del entorno. </td>
+    <td> No está enfocada en las necesidades específicas de trabajadores de turnos diurnos y nocturnos ni ofrece información comunitaria del entorno. </td>
     <td> Costo elevado del monitoreo profesional continuo; no ofrece funciones de comunidad ni calificación de rutas. </td>
     <td> No cuenta con check-in de trayecto ni aviso automático a contactos de confianza; su enfoque está más en datos para políticas públicas que en la experiencia diaria del usuario individual. </td>
   </tr>
   <tr>
     <td> Oportunidades </td>
-    <td> Expansión hacia distintos rubros de trabajo nocturno y hacia otras ciudades del Perú. </td>
+    <td> Expansión hacia distintos rubros de trabajo en turnos diurnos y nocturnos y hacia otras ciudades del Perú. </td>
     <td> Expansión hacia nuevos segmentos corporativos y de seguridad comunitaria. </td>
     <td> Expansión de alianzas B2B con más fabricantes de dispositivos de seguridad. </td>
     <td> Expansión hacia nuevos países de Latinoamérica y alianzas con más gobiernos locales. </td>
@@ -543,7 +550,7 @@ A partir del análisis competitivo, se han identificado las siguientes estrategi
 
 1. **Estrategias de Diferenciación:**
 
-**Especialización en el trabajo nocturno:** A diferencia de bSafe, Noonlight y Safetipin, que ofrecen seguridad personal o auditoría urbana de forma genérica, **Noxway** se enfoca exclusivamente en la realidad de quienes trabajan de noche, combinando check-in de trayecto seguro, calificación de rutas, información comunitaria del entorno y bitácora de descanso, algo que ningún competidor ofrece de forma integrada.
+**Especialización en el trabajo en turnos diurnos y nocturnos:** A diferencia de bSafe, Noonlight y Safetipin, que ofrecen seguridad personal o auditoría urbana de forma genérica, **Noxway** se enfoca exclusivamente en la realidad de quienes trabajan de día y de noche, combinando check-in de trayecto seguro, calificación de rutas, información comunitaria del entorno y bitácora de descanso, algo que ningún competidor ofrece de forma integrada.
 
 **Calificación de rutas orientada a la acción, no solo al dato:** A diferencia de Safetipin, cuyo enfoque principal es generar datos para gobiernos y planificadores urbanos, **Noxway** utiliza la calificación de rutas directamente para beneficio inmediato del propio usuario (elegir una ruta más segura, recibir alertas de zonas de riesgo cerca de su ubicación en tiempo real).
 
@@ -551,7 +558,7 @@ A partir del análisis competitivo, se han identificado las siguientes estrategi
 
 2. **Tácticas de Marketing:**
 
-**Marketing de nicho y comunidades existentes:** Se realizarán campañas dirigidas específicamente a comunidades y grupos de trabajadores nocturnos en redes sociales, diferenciándonos del marketing masivo y genérico de bSafe y Noonlight.
+**Marketing de nicho y comunidades existentes:** Se realizarán campañas dirigidas específicamente a comunidades y grupos de trabajadores de turnos diurnos y nocturnos en redes sociales, diferenciándonos del marketing masivo y genérico de bSafe y Noonlight.
 
 **Programa de referidos entre trabajador y contacto de confianza:** A diferencia de los competidores, que no explotan este vínculo, **Noxway** incentivará que cada trabajador invite a sus contactos de confianza a la plataforma, generando crecimiento orgánico natural.
 
@@ -563,7 +570,7 @@ A partir del análisis competitivo, se han identificado las siguientes estrategi
 
 **Enfoque regional inicial y expansión nacional:** **Noxway** comenzará en Lima, adaptándose a las necesidades específicas del contexto urbano peruano, antes de expandirse a otros departamentos del pais, a diferencia de competidores como Noonlight y Safetipin, que operan con un enfoque global desde su origen.
 
-**Ecosistema local de servicios nocturnos:** Se buscarán alianzas con negocios y proveedores locales (farmacias, restaurantes, grifos) que deseen aparecer destacados en el mapa comunitario de servicios nocturnos, generando un ecosistema local que ningún competidor internacional replica.
+**Ecosistema local de servicios cercanos:** Se buscarán alianzas con negocios y proveedores locales (farmacias, restaurantes, grifos) que deseen aparecer destacados en el mapa comunitario de servicios cercanos, generando un ecosistema local que ningún competidor internacional replica.
 
 ### 2.2.2. Registro de entrevistas
 
@@ -696,7 +703,7 @@ A partir del análisis competitivo, se han identificado las siguientes estrategi
 
 En esta sección se presentan las fichas de User Personas construidas a partir de los datos recolectados del análisis de entrevistas a nuestros segmentos objetivos. Estas fichas permiten representar de forma clara y estratégica los perfiles de cada segmento objetivo, considerando sus metas, habilidades, motivaciones y dificultades. De esta manera se integra la perspectiva del usuario y tendencias del sector para identificar oportunidades en el mercado y ofrecer una solución alineada a lo que el usuario necesita.
 
-#### Segmento Objetivo 1: Trabajador de Turno Nocturno
+#### Segmento Objetivo 1: Trabajador de Turno Diurno o Nocturno
 ![User Persona - Jorge Luis Huamán](resources/imgs/up-Jorge%20Luis%20Huaman.png)
 
 #### Segmento Objetivo 2: Contacto de Confianza
@@ -705,16 +712,16 @@ En esta sección se presentan las fichas de User Personas construidas a partir d
 
 ### 2.3.2. User Task Matrix. 
 En esta sección se presenta el User Task Matrix, construido a partir de los User Persona que representan a los dos segmentos clave identificados:
-* **Segmento Objetivo 1:** Trabajador de Turno Nocturno
+* **Segmento Objetivo 1:** Trabajador de Turno Diurno o Nocturno
 * **Segmento Objetivo 2:** Contacto de Confianza
 
 Las tareas fueron identificadas a partir del análisis cualitativo de entrevistas, y cada una fue evaluada según su frecuencia y nivel de importancia para los respectivos perfiles.
 
-| Tarea / Actividad | Trabajador de Turno Nocturno (Frecuencia) | Trabajador de Turno Nocturno (Importancia) | Contacto de Confianza (Frecuencia) | Contacto de Confianza (Importancia) |
+| Tarea / Actividad | Trabajador de Turno Diurno o Nocturno (Frecuencia) | Trabajador de Turno Diurno o Nocturno (Importancia) | Contacto de Confianza (Frecuencia) | Contacto de Confianza (Importancia) |
 | :--- | :--- | :--- | :--- | :--- |
 | Activar monitoreo o check-in de trayecto seguro al salir de casa o trabajo | Alta | Alta | Baja | Media |
 | Consultar mapa colaborativo de zonas de riesgo y rutas seguras | Media | Alta | Baja | Baja |
-| Buscar establecimientos nocturnos abiertos 24h (farmacias, comida, grifos) | Media | Media | Baja | Baja |
+| Buscar establecimientos abiertos según el horario del trayecto (farmacias, comida, grifos) | Media | Media | Baja | Baja |
 | Recibir notificación pasiva de salida y llegada segura del trabajador | Baja | Baja | Alta | Alta |
 | Recibir alerta automática ante retraso excesivo o posible incidente | Baja | Alta | Baja | Alta |
 | Calificar la seguridad de la ruta al completar el desplazamiento | Media | Media | Nunca | Baja |
@@ -722,9 +729,9 @@ Las tareas fueron identificadas a partir del análisis cualitativo de entrevista
 | Acceder a beneficios grupales y coberturas de seguro mediante membresía | Baja | Media | Baja | Baja |
 
 ### 2.3.3. User Journey Mapping. 
-En esta sección se presentan los mapas de viaje de usuario, reflejando la experiencia integral de nuestros segmentos objetivos en el contexto actual: un entorno urbano carente de herramientas digitales especializadas para la dinámica del trabajo nocturno. Se analizan los puntos de fricción, canales y emociones que experimentan tanto el trabajador nocturno durante sus trayectos y jornadas, como su contacto de confianza desde el hogar.
+En esta sección se presentan los mapas de viaje de usuario, reflejando la experiencia integral de nuestros segmentos objetivos en el contexto actual: un entorno urbano carente de herramientas digitales especializadas para la dinámica del trabajo en turnos diurnos y nocturnos. Se analizan los puntos de fricción, canales y emociones que experimentan tanto el trabajador de turno diurno o nocturno durante sus trayectos y jornadas, como su contacto de confianza desde el hogar.
 
-#### Segmento Objetivo 1: Trabajador de Turno Nocturno
+#### Segmento Objetivo 1: Trabajador de Turno Diurno o Nocturno
 
 ![User Journey Map - Jorge Luis Huamán](resources/imgs/jm-Jorge%20Luis%20Huaman.png)
 
@@ -735,56 +742,56 @@ En esta sección se presentan los mapas de viaje de usuario, reflejando la exper
 ### 2.3.4. Empathy Mapping.
 En esta sección se presentan los Empathy Maps. Estos nos ayudarán a comprender las experiencias, emociones y pensamientos que expresan los usuarios de cada segmento objetivo.
 
-#### Segmento Objetivo 1: Trabajador de Turno Nocturno
+#### Segmento Objetivo 1: Trabajador de Turno Diurno o Nocturno
 ![Empathy Map - Jorge Luis Huamán](resources/imgs/em-Jorge%20Luis%20Huaman.png)
 
 #### Segmento Objetivo 2: Contacto de Confianza
 ![Empathy Map - Valeria Ríos](resources/imgs/em-Valeria%20R%C3%ADos.png)
 
 ## 2.4. Big Picture EventStorming.
-En esta sección, el equipo presenta el modelado integral del dominio del negocio mediante la técnica de Big Picture EventStorming. A través de un espacio colaborativo virtual (Miro / Mural), exploramos de extremo a extremo el flujo operativo de nuestra solución: desde el registro y vinculación de contactos, la ejecución de trayectos seguros nocturnos y la gestión de alertas, hasta la colaboración comunitaria en mapas de servicios y la administración de beneficios por suscripción. Este ejercicio permite alinear el lenguaje ubicuo, identificar cuellos de botella y delimitar los subdominios del sistema. 
+En esta sección, el equipo presenta el modelado integral del dominio del negocio mediante la técnica de Big Picture EventStorming. A través de un espacio colaborativo virtual (Miro / Mural), exploramos de extremo a extremo el flujo operativo de nuestra solución: desde el registro y vinculación de contactos, la ejecución de trayectos seguros diurnos y nocturnos y la gestión de alertas, hasta la colaboración comunitaria en mapas de servicios y la administración de beneficios por suscripción. Este ejercicio permite alinear el lenguaje ubicuo, identificar cuellos de botella y delimitar los subdominios del sistema. 
 
 ![Event Storming](resources/imgs/eventStorming.png)
 
 ## 2.5. Ubiquitous Language.
-* **Night-Shift Worker (Trabajador de Turno Nocturno):** Usuario principal del sistema cuya jornada laboral se desarrolla durante horas nocturnas o de madrugada en rubros esenciales (seguridad privada, salud, delivery, call center, limpieza, etc.) y que enfrenta riesgos específicos de movilidad y aislamiento.
-* **Trusted Contact (Contacto de Confianza):** Familiar directo, pareja o allegado designado por el trabajador nocturno para recibir notificaciones automáticas sobre el estado, inicio y término de sus trayectos sin invadir su privacidad.
+* **Worker (Trabajador de Turno Diurno o Nocturno):** Usuario principal del sistema cuya jornada laboral se desarrolla durante horas diurnas o nocturnas en rubros esenciales (seguridad privada, salud, delivery, call center, limpieza, etc.) y que enfrenta riesgos específicos de movilidad y aislamiento.
+* **Trusted Contact (Contacto de Confianza):** Familiar directo, pareja o allegado designado por el trabajador de turno diurno o nocturno para recibir notificaciones automáticas sobre el estado, inicio y término de sus trayectos sin invadir su privacidad.
 * **Safe-Trip Check-In (Check-In de Trayecto Seguro):** Acción explícita mediante la cual el trabajador confirma el inicio o la llegada exitosa a su destino, activando o cerrando el protocolo de acompañamiento pasivo del sistema.
-* **Safe Commute / Night Commute (Trayecto Seguro / Desplazamiento Nocturno):** Recorrido físico realizado por el trabajador entre su hogar y su lugar de trabajo (o viceversa) durante horarios nocturnos donde el transporte es limitado y el entorno urbano presenta mayor vulnerabilidad.
+* **Safe Commute (Trayecto Seguro / Desplazamiento Diurno o Nocturno):** Recorrido físico realizado por el trabajador entre su hogar y su lugar de trabajo (o viceversa) durante horarios diurnos o nocturnos, con condiciones de transporte y del entorno urbano que varían según el momento del desplazamiento.
 * **Possible Incident (Posible Incidente):** Estado de alerta temprana que se activa automáticamente cuando un trabajador no confirma su llegada dentro del tiempo estimado más el margen de tolerancia establecido, notificando al contacto de confianza.
 * **Route Safety Rating (Calificación de Seguridad de Ruta):** Valoración colaborativa y cualitativa que realiza un trabajador al culminar su desplazamiento, calificando factores del entorno como iluminación, presencia de sospechosos, patrullaje o transitabilidad.
 * **Risk Zone / Danger Spot (Zona de Riesgo / Punto de Peligro):** Ubicación geográfica o tramo vial reportado por la comunidad de trabajadores como inseguro debido a antecedentes de robos, escasa visibilidad o falta de resguardo ciudadano.
-* **Night-Time Services Map (Mapa de Servicios Nocturnos):** Directorio georreferenciado y colaborativo de establecimientos que operan formalmente durante la madrugada (farmacias, grifos, locales de comida, talleres) y que han sido verificados por los usuarios.
-* **Sleep & Rest Log (Bitácora de Descanso y Salud del Sueño):** Registro personal donde el trabajador documenta sus ciclos de sueño diurno y hábitos de reposo para monitorear su desgaste físico y recibir sugerencias de higiene del sueño.
+* **Nearby Services Map (Mapa de Servicios Cercanos):** Directorio georreferenciado y colaborativo de establecimientos que operan formalmente en horarios diurnos, nocturnos o continuos (farmacias, grifos, locales de comida, talleres) y que han sido verificados por los usuarios.
+* **Sleep & Rest Log (Bitácora de Descanso y Salud del Sueño):** Registro personal donde el trabajador documenta sus ciclos de sueño diurno o nocturno y hábitos de reposo para monitorear su desgaste físico y recibir sugerencias de higiene del sueño.
 * **Collective Benefits (Beneficios Colectivos):** Conjunto de ventajas comerciales, seguros básicos de accidentes y descuentos negociados en grupo para los usuarios que cuentan con una membresía activa.
 * **Monthly Subscription (Suscripción Mensual):** Modelo de membresía recurrente que otorga acceso a coberturas complementarias de seguridad, seguros y beneficios exclusivos dentro de la plataforma.
 * **Companion View (Panel de Seguimiento del Acompañante):** Interfaz simplificada y pasiva diseñada para el contacto de confianza, donde consulta el estado general del viaje y recibe alertas sin necesidad de realizar configuraciones complejas.
-* **Community Moderator (Moderador de la Comunidad):** Rol asignado a usuarios verificados o miembros del equipo encargados de revisar, aprobar o desestimar reportes de nuevos servicios nocturnos o incidentes en el mapa.
+* **Community Moderator (Moderador de la Comunidad):** Rol asignado a usuarios verificados o miembros del equipo encargados de revisar, aprobar o desestimar reportes de nuevos servicios cercanos o incidentes en el mapa.
 * **Grace Period (Margen de Tolerancia de Arribo):** Ventana de tiempo prudencial añadida a la hora estimada de llegada que permite absorber retrasos de tráfico habituales antes de disparar un estado de posible incidente. 
 
 # Capítulo III: Requirements Specification 
 
 ## 3.1. User Stories. 
 
-Las historias de usuario para este proyecto se crearon en colaboración con el equipo de desarrollo, enfocándose en las necesidades principales de dos tipos de usuarios: los trabajadores nocturnos y los contactos de confianza.
+Las historias de usuario para este proyecto se crearon en colaboración con el equipo de desarrollo, enfocándose en las necesidades principales de dos tipos de usuarios: los trabajadores de turnos diurnos y nocturnos y los contactos de confianza.
 
 Para mantener la organización, las historias se agruparon en épicas según sus funcionalidades. Los criterios de aceptación de cada historia se definieron utilizando la sintaxis Gherkin, asegurando que el equipo comprendiera el problema desde la perspectiva del usuario final.
 
 **Epics**:
-A continuación se presentan las Epics identificadas para el proyecto, que agrupan las principales funcionalidades de la plataforma orientada a la seguridad y el bienestar de los trabajadores de turno nocturno y sus contactos de confianza.
+A continuación se presentan las Epics identificadas para el proyecto, que agrupan las principales funcionalidades de la plataforma orientada a la seguridad y el bienestar de los trabajadores de turnos diurnos y nocturnos y sus contactos de confianza.
 
 | Epic ID | Título | Descripción |
 | :--- | :--- | :--- |
-| **EP-01** | Gestión de Cuentas de Usuario | Esta epica se centra en todo lo necesario para que los usuarios (trabajadores de turno nocturno y contactos de confianza) puedan registrarse, iniciar sesión, recuperar su acceso y administrar su perfil de forma segura en la plataforma. |
-| **EP-02** | Gestión de Contactos de Confianza | Esta epica abarca la funcionalidad que permite a los trabajadores nocturnos invitar, vincular y administrar a sus contactos de confianza, quienes recibirán información sobre el estado de sus trayectos. |
-| **EP-03** | Check-In de Trayecto Seguro | Esta epica cubre el ciclo completo del check-in de trayecto: desde que el trabajador nocturno inicia un desplazamiento hasta que confirma su llegada o lo cancela. |
+| **EP-01** | Gestión de Cuentas de Usuario | Esta epica se centra en todo lo necesario para que los usuarios (trabajadores de turnos diurnos y nocturnos y contactos de confianza) puedan registrarse, iniciar sesión, recuperar su acceso y administrar su perfil de forma segura en la plataforma. |
+| **EP-02** | Gestión de Contactos de Confianza | Esta epica abarca la funcionalidad que permite a los trabajadores de turnos diurnos y nocturnos invitar, vincular y administrar a sus contactos de confianza, quienes recibirán información sobre el estado de sus trayectos. |
+| **EP-03** | Check-In de Trayecto Seguro | Esta epica cubre el ciclo completo del check-in de trayecto: desde que el trabajador de turno diurno o nocturno inicia un desplazamiento hasta que confirma su llegada o lo cancela. |
 | **EP-04** | Detección y Gestión de Posibles Incidentes | Esta epica se encarga de la detección automática de posibles incidentes cuando un trayecto no es confirmado a tiempo, así como de su validación posterior y la notificación a los contactos de confianza. |
-| **EP-05** | Mapa Comunitario de Servicios Nocturnos | Esta epica abarca la funcionalidad para que los trabajadores nocturnos busquen, reporten y validen colaborativamente los servicios y establecimientos abiertos durante la madrugada. |
-| **EP-06** | Calificación y Reporte de Seguridad de Rutas | Esta epica cubre las funcionalidades que permiten a los trabajadores nocturnos calificar la seguridad de las rutas transitadas y reportar puntos específicos de riesgo, alimentando un mapa comunitario de zonas seguras e inseguras. |
-| **EP-07** | Bitácora de Descanso y Salud del Sueño | Esta epica se centra en el registro y seguimiento de los hábitos de descanso del trabajador nocturno, brindando visibilidad y sugerencias sobre su salud del sueño. |
+| **EP-05** | Mapa Comunitario de Servicios Cercanos | Esta epica abarca la funcionalidad para que los trabajadores de turnos diurnos y nocturnos busquen, reporten y validen colaborativamente los servicios y establecimientos abiertos según el horario de consulta. |
+| **EP-06** | Calificación y Reporte de Seguridad de Rutas | Esta epica cubre las funcionalidades que permiten a los trabajadores de turnos diurnos y nocturnos calificar la seguridad de las rutas transitadas y reportar puntos específicos de riesgo, alimentando un mapa comunitario de zonas seguras e inseguras. |
+| **EP-07** | Bitácora de Descanso y Salud del Sueño | Esta epica se centra en el registro y seguimiento de los hábitos de descanso del trabajador de turno diurno o nocturno, brindando visibilidad y sugerencias sobre su salud del sueño. |
 | **EP-08** | Comunidad y Beneficios Colectivos | Esta epica abarca la gestión de la suscripción mensual, el acceso a beneficios colectivos negociados (seguros básicos, descuentos) y el programa de referidos entre trabajadores y contactos de confianza. |
 | **EP-09** | Panel de Seguimiento del Contacto de Confianza | Esta epica cubre la experiencia del contacto de confianza dentro de la plataforma, permitiéndole visualizar en tiempo real el estado del trayecto de su trabajador vinculado y configurar sus notificaciones. |
-| **EP-10** | Moderación de la Comunidad | Esta epica se encarga de las funcionalidades que permiten a los moderadores de la comunidad revisar, aprobar o rechazar los reportes de servicios nocturnos e incidentes enviados por los usuarios, garantizando la calidad de la información colaborativa. |
+| **EP-10** | Moderación de la Comunidad | Esta epica se encarga de las funcionalidades que permiten a los moderadores de la comunidad revisar, aprobar o rechazar los reportes de servicios cercanos e incidentes enviados por los usuarios, garantizando la calidad de la información colaborativa. |
 
 ---
 
@@ -795,7 +802,7 @@ Requisitos definidos junto con el conjunto de User Stories y Epics para los requ
 
 | Epic / Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
 | :--- | :--- | :--- | :--- | :--- |
-| **US-01** | Registro de usuario | Como nuevo usuario, quiero registrarme indicando mi rol (trabajador o contacto) para integrarme a la red de soporte nocturno, contribuyendo a la meta de alcanzar 2,500 usuarios activos verificados. | **Escenario 1:** Dado que el nuevo usuario ingresa datos correctos, Cuando envía el formulario, Entonces su cuenta es creada y se le asigna el rol.<br><br>**Escenario 2:** Dado que el usuario omite campos o usa un correo ya registrado, Cuando envía el formulario, Entonces el sistema bloquea el registro y resalta el error. | EP-01 |
+| **US-01** | Registro de usuario | Como nuevo usuario, quiero registrarme indicando mi rol (trabajador o contacto) para integrarme a la red de soporte para distintos turnos, contribuyendo a la meta de alcanzar 2,500 usuarios activos verificados. | **Escenario 1:** Dado que el nuevo usuario ingresa datos correctos, Cuando envía el formulario, Entonces su cuenta es creada y se le asigna el rol.<br><br>**Escenario 2:** Dado que el usuario omite campos o usa un correo ya registrado, Cuando envía el formulario, Entonces el sistema bloquea el registro y resalta el error. | EP-01 |
 | **US-02** | Inicio de sesión | Como usuario registrado, quiero iniciar sesión de forma segura para acceder rápidamente a mis herramientas de protección, garantizando la meta de 75% de uso semanal de la plataforma. | **Escenario 1:** Dado que el usuario ingresa credenciales correctas, Cuando inicia sesión, Entonces el sistema concede el acceso a su panel.<br><br>**Escenario 2:** Dado que el usuario ingresa una contraseña errónea, Cuando intenta iniciar sesión, Entonces el sistema deniega el acceso con un mensaje de error. | EP-01 |
 | **US-03** | Recuperación de contraseña | Como usuario, quiero solicitar la recuperación de mi contraseña para restablecer mi acceso sin fricciones, reduciendo la tasa de abandono temporal de la plataforma. | **Escenario 1:** Dado que el usuario ingresa un correo registrado, Cuando solicita la recuperación, Entonces se envía un enlace de restablecimiento.<br><br>**Escenario 2:** Dado que ingresa un correo no registrado, Cuando lo solicita, Entonces el sistema notifica que la cuenta no existe. | EP-01 |
 | **US-04** | Edición de perfil | Como usuario, quiero editar mis datos para mantener mis métodos de contacto actualizados, asegurando que las alertas de emergencia lleguen al destino correcto sin retrasos. | **Escenario 1:** Dado que el usuario modifica sus datos, Cuando guarda los cambios, Entonces el perfil se actualiza.<br><br>**Escenario 2:** Dado que el usuario ingresa un teléfono con formato inválido, Cuando intenta guardar, Entonces el sistema rechaza la acción. | EP-01 |
@@ -804,33 +811,33 @@ Requisitos definidos junto con el conjunto de User Stories y Epics para los requ
 | **US-32** | Consultar testimonios | Como visitante, quiero leer testimonios de colegas para sentir respaldo y empatía, reduciendo la fricción emocional antes de comprometerme a usar la aplicación. | **Escenario 1:** Dado que el visitante ve el carrusel, Cuando desliza entre opciones, Entonces el sistema muestra testimonios diferentes.<br><br>**Escenario 2:** Dado que intenta interactuar en una pantalla táctil sin responder, Cuando hace swipe, Entonces el sistema asegura que la lectura del testimonio actual permanezca estática y legible. | EP-01 |
 | **US-33** | Desplegar FAQ (Landing) | Como visitante, quiero expandir las preguntas frecuentes para resolver mis dudas de privacidad y costos, derribando objeciones e incentivando la creación de una cuenta. | **Escenario 1:** Dado que el visitante ve una pregunta colapsada, Cuando hace clic, Entonces la respuesta se expande.<br><br>**Escenario 2:** Dado que una respuesta ya está abierta, Cuando hace clic en otra, Entonces la anterior se repliega automáticamente para no saturar la pantalla. | EP-01 |
 | **US-34** | Formulario de contacto | Como visitante, quiero enviar preguntas directas al equipo para resolver inquietudes técnicas, capturando "leads" interesados que contribuyan al crecimiento corporativo. | **Escenario 1:** Dado que completa todos los campos válidos, Cuando envía el formulario, Entonces recibe un mensaje de éxito.<br><br>**Escenario 2:** Dado que omite el correo electrónico, Cuando envía, Entonces el sistema bloquea el envío resaltando el campo requerido. | EP-01 |
-| **US-35** | Cambiar idioma y tema | Como visitante, quiero alternar a "Modo Oscuro" o idioma para adaptar la visibilidad a mi turno nocturno, demostrando empatía con el usuario desde el primer contacto. | **Escenario 1:** Dado que el visitante acciona el interruptor de tema, Cuando se activa el modo oscuro, Entonces la paleta de colores cambia a contrastes aptos para la noche.<br><br>**Escenario 2:** Dado que el dispositivo no soporta el cambio dinámico, Cuando hace clic, Entonces se respeta el tema configurado a nivel de sistema por defecto. | EP-01 |
+| **US-35** | Cambiar idioma y tema | Como visitante, quiero alternar a "Modo Oscuro" o idioma para adaptar la visibilidad a las condiciones de iluminación de mi turno, demostrando empatía con el usuario desde el primer contacto. | **Escenario 1:** Dado que el visitante acciona el interruptor de tema, Cuando se activa el modo oscuro, Entonces la paleta de colores cambia a contrastes aptos para condiciones de poca luz.<br><br>**Escenario 2:** Dado que el dispositivo no soporta el cambio dinámico, Cuando hace clic, Entonces se respeta el tema configurado a nivel de sistema por defecto. | EP-01 |
 | **US-36** | Consultar Términos y Código Ético | Como visitante, quiero acceder a los Términos de Servicio y Código Ético desde el Footer para validar el tratamiento seguro de mi geolocalización, impulsando la confianza para registrarme. | **Escenario 1:** Dado que el visitante se desplaza al footer, Cuando hace clic en "Términos de Servicio", Entonces se despliega una ventana modal con las políticas (ACM/IEEE).<br><br>**Escenario 2:** Dado que hay una interrupción de carga, Cuando intenta abrir el enlace, Entonces se descarga una versión PDF de respaldo. | EP-01 |
 | **US-37** |  Accesos Institucionales (Redes) | Como visitante, quiero poder ir a las redes sociales oficiales desde la Landing Page para validar que la comunidad está activa, reforzando la credibilidad institucional. | **Escenario 1:** Dado que el usuario visualiza los íconos de redes, Cuando hace clic en uno, Entonces se abre la página oficial en una pestaña nueva.<br><br>**Escenario 2:** Dado que el enlace de red social se encuentre temporalmente roto, Cuando se hace clic, Entonces el usuario se mantiene en la página sin errores 404 intrusivos. | EP-01 |
 | **US-38** | Validar Zonas de Cobertura | Como visitante, quiero verificar el indicador de "Cobertura en Lima y Callao" para cerciorarme de que el servicio opera en mi distrito, mitigando el riesgo de suscribirme y no poder usarlo. | **Escenario 1:** Dado que el visitante localiza el bloque de Cobertura, Cuando lee la información, Entonces verifica el estado operativo (Ej. 24h Services Operational).<br><br>**Escenario 2:** Dado que el servicio sufra una caída regional, Cuando carga la sección, Entonces el indicador debe reflejar de forma transparente "Degradado" o "En mantenimiento". | EP-01 |
 | **US-39** | Navegación Anclada (Smooth Scroll) | Como visitante, quiero utilizar los enlaces del header (Protocolo, Ecosistema, Planes) para desplazarme velozmente a mi área de interés, optimizando mi tiempo antes del turno. | **Escenario 1:** Dado que el visitante está en el Hero, Cuando hace clic en "Planes" en el header, Entonces la página hace scroll suave hasta la sección de suscripción.<br><br>**Escenario 2:** Dado que JavaScript esté desactivado en el navegador, Cuando hace clic en el enlace, Entonces la página salta de forma nativa a la sección (Fallback anchor link). | EP-01 |
-| **US-06** | Invitar contacto de confianza | Como trabajador nocturno, quiero invitar a un contacto para integrarlo a mi monitoreo, contribuyendo directamente al objetivo estratégico de 60% de contactos vinculados. | **Escenario 1:** Dado que el trabajador ingresa un número válido, Cuando envía invitación, Entonces el sistema envía el enlace.<br><br>**Escenario 2:** Dado que intenta invitar a alguien ya vinculado, Cuando envía, Entonces el sistema informa la duplicidad y aborta el proceso. | EP-02 |
+| **US-06** | Invitar contacto de confianza | Como trabajador de turno diurno o nocturno, quiero invitar a un contacto para integrarlo a mi monitoreo, contribuyendo directamente al objetivo estratégico de 60% de contactos vinculados. | **Escenario 1:** Dado que el trabajador ingresa un número válido, Cuando envía invitación, Entonces el sistema envía el enlace.<br><br>**Escenario 2:** Dado que intenta invitar a alguien ya vinculado, Cuando envía, Entonces el sistema informa la duplicidad y aborta el proceso. | EP-02 |
 | **US-07** | Aceptar invitación de contacto | Como contacto de confianza, quiero aceptar una invitación para establecer el vínculo oficial de protección mutua, sumando al KPI de crecimiento de red de soporte activo. | **Escenario 1:** Dado que el contacto recibe la solicitud, Cuando hace clic en aceptar, Entonces el vínculo se formaliza en la base de datos.<br><br>**Escenario 2:** Dado que el contacto recibe la solicitud, Cuando hace clic en rechazar, Entonces el vínculo no se establece y el trabajador es notificado. | EP-02 |
-| **US-08** | Remover contacto | Como trabajador nocturno, quiero eliminar un contacto obsoleto para resguardar la privacidad de mi geolocalización, evitando el envío de alertas erróneas a personas equivocadas. | **Escenario 1:** Dado que el trabajador confirma la eliminación, Cuando acciona el borrado, Entonces el contacto deja de recibir alertas.<br><br>**Escenario 2:** Dado que el trabajador presiona eliminar por error, Cuando el sistema solicita confirmación y este cancela, Entonces el contacto se mantiene vinculado. | EP-02 |
-| **US-09** | Iniciar check-in seguro | Como trabajador nocturno, quiero iniciar mi trayecto con tiempo estimado para activar el seguimiento pasivo, garantizando el cumplimiento de la meta del 75% de uso semanal. | **Escenario 1:** Dado que el usuario fija destino y tiempo, Cuando inicia check-in, Entonces el sistema activa telemetría y avisa a contactos.<br><br>**Escenario 2:** Dado que intenta iniciar otro trayecto con uno ya en curso, Cuando pulsa iniciar, Entonces el sistema exige finalizar el anterior. | EP-03 |
-| **US-10** | Confirmar llegada segura | Como trabajador nocturno, quiero marcar mi llegada para desactivar el rastreo y dar tranquilidad, evitando detenciones y falsas alarmas antes de la intervención de terceros. | **Escenario 1:** Dado que el trayecto está en curso, Cuando confirma llegada, Entonces se cierra el trayecto y se avisa a contactos.<br><br>**Escenario 2:** Dado que el trabajador pierde conexión a red, Cuando confirma llegada, Entonces la app guarda el estado localmente y sincroniza en cuanto vuelve el internet. | EP-03 |
-| **US-11** | Cancelar check-in | Como trabajador nocturno, quiero cancelar un viaje activo por cambio de planes para mantener limpios mis registros, evitando el disparo de alertas de seguridad injustificadas. | **Escenario 1:** Dado que el trayecto está activo, Cuando se cancela, Entonces el monitoreo cesa sin alarmas.<br><br>**Escenario 2:** Dado que el viaje se encuentra en estado de "Posible Incidente", Cuando intenta cancelar sin justificar, Entonces el sistema exige un PIN o validación para descartar secuestro. | EP-03 |
-| **US-12** | Marcado automático de incidente | Como trabajador nocturno, quiero que la app genere un posible incidente automático al vencer el tiempo, asegurando una intervención inmediata que reduzca un 30% los incidentes sin atender. | **Escenario 1:** Dado que el tiempo límite y tolerancia expiran, Cuando el cronómetro evalúa, Entonces dispara la alerta a contactos.<br><br>**Escenario 2:** Dado que el usuario se encuentra dentro del margen de tolerancia (ej. +10m por tráfico), Cuando el sistema evalúa, Entonces no se dispara aún el incidente. | EP-04 |
-| **US-13** | Validar posible incidente | Como trabajador nocturno, quiero poder descartar un incidente marcado por el sistema para detener el pánico familiar, cumpliendo la meta de filtrar falsas alarmas efectivamente. | **Escenario 1:** Dado que se marca posible incidente, Cuando el usuario pulsa "Estoy Bien", Entonces se cierra la alerta como falso positivo.<br><br>**Escenario 2:** Dado que se marca posible incidente, Cuando el usuario no responde en 5 minutos, Entonces el sistema escala la severidad y muestra la ficha de rescate al contacto. | EP-04 |
+| **US-08** | Remover contacto | Como trabajador de turno diurno o nocturno, quiero eliminar un contacto obsoleto para resguardar la privacidad de mi geolocalización, evitando el envío de alertas erróneas a personas equivocadas. | **Escenario 1:** Dado que el trabajador confirma la eliminación, Cuando acciona el borrado, Entonces el contacto deja de recibir alertas.<br><br>**Escenario 2:** Dado que el trabajador presiona eliminar por error, Cuando el sistema solicita confirmación y este cancela, Entonces el contacto se mantiene vinculado. | EP-02 |
+| **US-09** | Iniciar check-in seguro | Como trabajador de turno diurno o nocturno, quiero iniciar mi trayecto con tiempo estimado para activar el seguimiento pasivo, garantizando el cumplimiento de la meta del 75% de uso semanal. | **Escenario 1:** Dado que el usuario fija destino y tiempo, Cuando inicia check-in, Entonces el sistema activa telemetría y avisa a contactos.<br><br>**Escenario 2:** Dado que intenta iniciar otro trayecto con uno ya en curso, Cuando pulsa iniciar, Entonces el sistema exige finalizar el anterior. | EP-03 |
+| **US-10** | Confirmar llegada segura | Como trabajador de turno diurno o nocturno, quiero marcar mi llegada para desactivar el rastreo y dar tranquilidad, evitando detenciones y falsas alarmas antes de la intervención de terceros. | **Escenario 1:** Dado que el trayecto está en curso, Cuando confirma llegada, Entonces se cierra el trayecto y se avisa a contactos.<br><br>**Escenario 2:** Dado que el trabajador pierde conexión a red, Cuando confirma llegada, Entonces la app guarda el estado localmente y sincroniza en cuanto vuelve el internet. | EP-03 |
+| **US-11** | Cancelar check-in | Como trabajador de turno diurno o nocturno, quiero cancelar un viaje activo por cambio de planes para mantener limpios mis registros, evitando el disparo de alertas de seguridad injustificadas. | **Escenario 1:** Dado que el trayecto está activo, Cuando se cancela, Entonces el monitoreo cesa sin alarmas.<br><br>**Escenario 2:** Dado que el viaje se encuentra en estado de "Posible Incidente", Cuando intenta cancelar sin justificar, Entonces el sistema exige un PIN o validación para descartar secuestro. | EP-03 |
+| **US-12** | Marcado automático de incidente | Como trabajador de turno diurno o nocturno, quiero que la app genere un posible incidente automático al vencer el tiempo, asegurando una intervención inmediata que reduzca un 30% los incidentes sin atender. | **Escenario 1:** Dado que el tiempo límite y tolerancia expiran, Cuando el cronómetro evalúa, Entonces dispara la alerta a contactos.<br><br>**Escenario 2:** Dado que el usuario se encuentra dentro del margen de tolerancia (ej. +10m por tráfico), Cuando el sistema evalúa, Entonces no se dispara aún el incidente. | EP-04 |
+| **US-13** | Validar posible incidente | Como trabajador de turno diurno o nocturno, quiero poder descartar un incidente marcado por el sistema para detener el pánico familiar, cumpliendo la meta de filtrar falsas alarmas efectivamente. | **Escenario 1:** Dado que se marca posible incidente, Cuando el usuario pulsa "Estoy Bien", Entonces se cierra la alerta como falso positivo.<br><br>**Escenario 2:** Dado que se marca posible incidente, Cuando el usuario no responde en 5 minutos, Entonces el sistema escala la severidad y muestra la ficha de rescate al contacto. | EP-04 |
 | **US-14** | Recibir alerta en tiempo real | Como contacto de confianza, quiero recibir una notificación inmediata de emergencia para accionar directorios policiales, reduciendo tiempos de respuesta a incidentes críticos. | **Escenario 1:** Dado que se genera un incidente, Cuando se procesa en el backend, Entonces el contacto recibe SMS y push.<br><br>**Escenario 2:** Dado que el celular del contacto no tenga datos, Cuando el push falle, Entonces el sistema envía automáticamente un SMS tradicional (fallback). | EP-04 |
-| **US-15** | Buscar servicios cercanos | Como trabajador nocturno, quiero ubicar farmacias/grifos abiertos de noche para evitar exponerme en calles vacías, incentivando la adopción y utilidad diaria de la plataforma. | **Escenario 1:** Dado que busca locales cerca, Cuando ejecuta, Entonces ve un mapa con servicios validados.<br><br>**Escenario 2:** Dado que no existan locales reportados en 5km, Cuando busca, Entonces se muestra un mensaje de área vacía sugiriendo reportar lugares conocidos. | EP-05 |
-| **US-16** | Reportar servicio nuevo | Como trabajador nocturno, quiero añadir un comercio 24h al mapa para nutrir el ecosistema, contribuyendo a la meta de alcanzar 1,000 puntos nocturnos validados. | **Escenario 1:** Dado que ingresa datos válidos del comercio, Cuando envía, Entonces pasa a estado "Pendiente de validación".<br><br>**Escenario 2:** Dado que reporta una ubicación ya existente, Cuando envía, Entonces el sistema fusiona o alerta de la duplicidad. | EP-05 |
-| **US-17** | Calificar servicio reportado | Como trabajador nocturno, quiero auditar y calificar servicios ajenos para mantener la veracidad del mapa, garantizando información segura para la comunidad activa. | **Escenario 1:** Dado que evalúa un servicio existente, Cuando vota positivo, Entonces sube el score de confiabilidad.<br><br>**Escenario 2:** Dado que un servicio recibe múltiples votos negativos, Cuando cruza el umbral bajo, Entonces es ocultado y mandado a moderación. | EP-05 |
-| **US-18** | Calificar seguridad de ruta | Como trabajador nocturno, quiero calificar qué tan segura fue mi ruta al finalizar para crear mapas de calor, ayudando a lograr la métrica del 40% de viajes calificados. | **Escenario 1:** Dado que finaliza su viaje, Cuando califica con estrellas, Entonces se asocia el puntaje a esa vía.<br><br>**Escenario 2:** Dado que descarta la pantalla de calificación, Cuando lo hace, Entonces la ruta queda "sin calificar" pero no se bloquea la app. | EP-06 |
-| **US-19** | Reportar punto de riesgo | Como trabajador nocturno, quiero marcar un cruce peligroso para prevenir asaltos a colegas, impactando en la reducción de incidentes reportados a nivel global. | **Escenario 1:** Dado que señala un punto con descripción, Cuando envía, Entonces aparece un marcador de peligro comunitario.<br><br>**Escenario 2:** Dado que marca un punto sin texto explicativo, Cuando envía, Entonces el sistema rechaza obligando a escribir un motivo corto. | EP-06 |
-| **US-20** | Ver zonas de riesgo en mapa | Como trabajador nocturno, quiero visualizar las alertas de riesgo antes de arrancar mi moto/caminata para planificar desvíos seguros, materializando el valor de inteligencia comunitaria. | **Escenario 1:** Dado que consulta el mapa, Cuando navega, Entonces visualiza perímetros sombreados por riesgo.<br><br>**Escenario 2:** Dado que apaga su geolocalización, Cuando abre el mapa, Entonces el sistema pide permiso para ubicarlo antes de mostrar riesgos locales. | EP-06 |
-| **US-21** | Registrar descanso | Como trabajador nocturno, quiero anotar mis horas de sueño diurno para monitorear desgaste crónico, incrementando la retención de usuarios preocupados por su salud. | **Escenario 1:** Dado que ingresa hora de dormir y despertar lógicas, Cuando guarda, Entonces se suman al acumulado semanal.<br><br>**Escenario 2:** Dado que pone hora final anterior a la inicial, Cuando guarda, Entonces arroja error de incongruencia horaria. | EP-07 |
-| **US-22** | Historial de descanso | Como trabajador nocturno, quiero revisar mis gráficos semanales de descanso para demostrar mis patrones de higiene del sueño, justificando el valor de los módulos de bienestar. | **Escenario 1:** Dado que tiene datos históricos, Cuando abre la vista, Entonces ve gráficos estadísticos claros.<br><br>**Escenario 2:** Dado que no tiene registros previos, Cuando entra a la sección, Entonces se le presenta un "Estado vacío" amigable invitando a empezar. | EP-07 |
-| **US-23** | Alerta por déficit de sueño | Como trabajador nocturno, quiero recibir advertencias si mi promedio de sueño baja drásticamente, previniendo accidentes laborales u operativos graves. | **Escenario 1:** Dado que el promedio baja de 5 horas semanales, Cuando el motor evalúa, Entonces lanza sugerencia de fatiga aguda.<br><br>**Escenario 2:** Dado que sus horas están estables, Cuando evalúa, Entonces no genera notificaciones intrusivas. | EP-07 |
+| **US-15** | Buscar servicios cercanos | Como trabajador de turno diurno o nocturno, quiero ubicar farmacias/grifos abiertos según el horario de consulta para evitar exponerme en calles vacías, incentivando la adopción y utilidad diaria de la plataforma. | **Escenario 1:** Dado que busca locales cerca, Cuando ejecuta, Entonces ve un mapa con servicios validados.<br><br>**Escenario 2:** Dado que no existan locales reportados en 5km, Cuando busca, Entonces se muestra un mensaje de área vacía sugiriendo reportar lugares conocidos. | EP-05 |
+| **US-16** | Reportar servicio nuevo | Como trabajador de turno diurno o nocturno, quiero añadir un comercio con su horario de atención al mapa para nutrir el ecosistema, contribuyendo a la meta de alcanzar 1,000 servicios cercanos validados. | **Escenario 1:** Dado que ingresa datos válidos del comercio, Cuando envía, Entonces pasa a estado "Pendiente de validación".<br><br>**Escenario 2:** Dado que reporta una ubicación ya existente, Cuando envía, Entonces el sistema fusiona o alerta de la duplicidad. | EP-05 |
+| **US-17** | Calificar servicio reportado | Como trabajador de turno diurno o nocturno, quiero auditar y calificar servicios ajenos para mantener la veracidad del mapa, garantizando información segura para la comunidad activa. | **Escenario 1:** Dado que evalúa un servicio existente, Cuando vota positivo, Entonces sube el score de confiabilidad.<br><br>**Escenario 2:** Dado que un servicio recibe múltiples votos negativos, Cuando cruza el umbral bajo, Entonces es ocultado y mandado a moderación. | EP-05 |
+| **US-18** | Calificar seguridad de ruta | Como trabajador de turno diurno o nocturno, quiero calificar qué tan segura fue mi ruta al finalizar para crear mapas de calor, ayudando a lograr la métrica del 40% de viajes calificados. | **Escenario 1:** Dado que finaliza su viaje, Cuando califica con estrellas, Entonces se asocia el puntaje a esa vía.<br><br>**Escenario 2:** Dado que descarta la pantalla de calificación, Cuando lo hace, Entonces la ruta queda "sin calificar" pero no se bloquea la app. | EP-06 |
+| **US-19** | Reportar punto de riesgo | Como trabajador de turno diurno o nocturno, quiero marcar un cruce peligroso para prevenir asaltos a colegas, impactando en la reducción de incidentes reportados a nivel global. | **Escenario 1:** Dado que señala un punto con descripción, Cuando envía, Entonces aparece un marcador de peligro comunitario.<br><br>**Escenario 2:** Dado que marca un punto sin texto explicativo, Cuando envía, Entonces el sistema rechaza obligando a escribir un motivo corto. | EP-06 |
+| **US-20** | Ver zonas de riesgo en mapa | Como trabajador de turno diurno o nocturno, quiero visualizar las alertas de riesgo antes de arrancar mi moto/caminata para planificar desvíos seguros, materializando el valor de inteligencia comunitaria. | **Escenario 1:** Dado que consulta el mapa, Cuando navega, Entonces visualiza perímetros sombreados por riesgo.<br><br>**Escenario 2:** Dado que apaga su geolocalización, Cuando abre el mapa, Entonces el sistema pide permiso para ubicarlo antes de mostrar riesgos locales. | EP-06 |
+| **US-21** | Registrar descanso | Como trabajador de turno diurno o nocturno, quiero anotar mis horas de sueño diurno o nocturno para monitorear desgaste crónico, incrementando la retención de usuarios preocupados por su salud. | **Escenario 1:** Dado que ingresa hora de dormir y despertar lógicas, Cuando guarda, Entonces se suman al acumulado semanal.<br><br>**Escenario 2:** Dado que pone hora final anterior a la inicial, Cuando guarda, Entonces arroja error de incongruencia horaria. | EP-07 |
+| **US-22** | Historial de descanso | Como trabajador de turno diurno o nocturno, quiero revisar mis gráficos semanales de descanso para demostrar mis patrones de higiene del sueño, justificando el valor de los módulos de bienestar. | **Escenario 1:** Dado que tiene datos históricos, Cuando abre la vista, Entonces ve gráficos estadísticos claros.<br><br>**Escenario 2:** Dado que no tiene registros previos, Cuando entra a la sección, Entonces se le presenta un "Estado vacío" amigable invitando a empezar. | EP-07 |
+| **US-23** | Alerta por déficit de sueño | Como trabajador de turno diurno o nocturno, quiero recibir advertencias si mi promedio de sueño baja drásticamente, previniendo accidentes laborales u operativos graves. | **Escenario 1:** Dado que el promedio baja de 5 horas semanales, Cuando el motor evalúa, Entonces lanza sugerencia de fatiga aguda.<br><br>**Escenario 2:** Dado que sus horas están estables, Cuando evalúa, Entonces no genera notificaciones intrusivas. | EP-07 |
 | **US-24** | Consultar planes (Landing) | Como visitante, quiero comparar los planes (Esencial vs Centinela Pro) para visualizar beneficios y seguros, facilitando la conversión hacia la meta de 600 suscriptores de pago. | **Escenario 1:** Dado que mira los planes, Cuando hace clic en suscribir a "Centinela Pro", Entonces el checkout pre-selecciona el plan.<br><br>**Escenario 2:** Dado que la API de precios falla, Cuando carga la web, Entonces se muestran precios base almacenados en caché para no perder la venta. | EP-08 |
-| **US-25** | Suscribirse (Pago) | Como trabajador nocturno, quiero ejecutar el pago de mi suscripción para desbloquear el monitoreo avanzado, garantizando el flujo de monetización de la plataforma. | **Escenario 1:** Dado que ingresa un método de pago válido, Cuando se procesa, Entonces se activa la membresía premium.<br><br>**Escenario 2:** Dado que la tarjeta no tiene fondos, Cuando se procesa, Entonces el sistema rechaza y mantiene al usuario en la capa Esencial gratuita. | EP-08 |
+| **US-25** | Suscribirse (Pago) | Como trabajador de turno diurno o nocturno, quiero ejecutar el pago de mi suscripción para desbloquear el monitoreo avanzado, garantizando el flujo de monetización de la plataforma. | **Escenario 1:** Dado que ingresa un método de pago válido, Cuando se procesa, Entonces se activa la membresía premium.<br><br>**Escenario 2:** Dado que la tarjeta no tiene fondos, Cuando se procesa, Entonces el sistema rechaza y mantiene al usuario en la capa Esencial gratuita. | EP-08 |
 | **US-26** | Acceder a beneficios | Como suscriptor activo, quiero usar mi seguro y cupones de descuento (grifos/boticas) para obtener retorno de mi inversión mensual, asegurando una retención del 70%. | **Escenario 1:** Dado que tiene cuenta pro, Cuando entra a beneficios, Entonces genera códigos QR válidos para descuentos.<br><br>**Escenario 2:** Dado que es usuario gratuito, Cuando intenta acceder a seguros, Entonces la app le invita a hacer "Upgrade" mostrando el candado. | EP-08 |
-| **US-27** | Referir contacto (Beneficio) | Como trabajador nocturno, quiero dar un código de invitación a un compañero para ganar meses gratis, acelerando la meta de adquisición y bajando el costo de marketing (CAC). | **Escenario 1:** Dado que un referido usa su código al registrarse, Cuando finaliza, Entonces el referidor gana su bonificación.<br><br>**Escenario 2:** Dado que el código ingresado es falso o expirado, Cuando se evalúa, Entonces arroja "Código inválido" pero deja que el registro fluya sin bono. | EP-08 |
+| **US-27** | Referir contacto (Beneficio) | Como trabajador de turno diurno o nocturno, quiero dar un código de invitación a un compañero para ganar meses gratis, acelerando la meta de adquisición y bajando el costo de marketing (CAC). | **Escenario 1:** Dado que un referido usa su código al registrarse, Cuando finaliza, Entonces el referidor gana su bonificación.<br><br>**Escenario 2:** Dado que el código ingresado es falso o expirado, Cuando se evalúa, Entonces arroja "Código inválido" pero deja que el registro fluya sin bono. | EP-08 |
 | **US-28** | Companion View (Panel) | Como contacto de confianza, quiero ver el mapa satelital del viaje de mi familiar en tiempo real para no tener que llamarlo, cumpliendo la promesa de paz mental pasiva de la app. | **Escenario 1:** Dado que el viaje está activo, Cuando abre el enlace, Entonces ve un vehículo moviéndose en el mapa web.<br><br>**Escenario 2:** Dado que el viaje terminó hace horas, Cuando abre el enlace, Entonces se muestra estado "Llegada Confirmada" en lugar del mapa en vivo. | EP-09 |
 | **US-29** | Configurar Notificaciones | Como contacto, quiero elegir solo alertas de inicio y emergencia (silenciando las de rutina) para no hartarme de la app, manteniendo mi cuenta vinculada permanentemente. | **Escenario 1:** Dado que apaga las alertas "SMS rutina", Cuando guarda, Entonces solo recibe emergencias.<br><br>**Escenario 2:** Dado que intenta apagar las "Alertas SOS", Cuando guarda, Entonces el sistema bloquea y advierte que las alertas críticas no se pueden apagar. | EP-09 |
 | **US-30** | Moderar comunidad | Como moderador (Noxway), quiero auditar zonas y servicios reportados para evitar spam o "trolls", manteniendo el prestigio de los datos comunitarios frente a nuevos usuarios. | **Escenario 1:** Dado que ve un reporte pendiente, Cuando pulsa "Aprobar", Entonces el punto se publica a todos.<br><br>**Escenario 2:** Dado que es un reporte vacío o de broma, Cuando pulsa "Rechazar", Entonces desaparece y el usuario generador pierde "Trust Score". | EP-10 |
@@ -845,7 +852,7 @@ Las Technical Stories consideran el rol Developer en la redacción de la descrip
 | **TS-02** | API de gestión de contactos de confianza | Como desarrollador, busco exponer endpoints RESTful para invitar, aceptar, listar y eliminar contactos de confianza, para que el sistema pueda gestionar los vínculos entre usuarios. | **Escenario 1: Creación de invitación vía API**<br>Dado que se envía una solicitud POST con el identificador del trabajador y el contacto a invitar,<br>Cuando el endpoint procesa la solicitud,<br>Entonces se crea el registro de invitación con estado pendiente.<br><br>**Escenario 2: Eliminación de vínculo inexistente**<br>Dado que se envía una solicitud DELETE con un identificador de vínculo que no existe,<br>Cuando el endpoint procesa la solicitud,<br>Entonces se retorna un error indicando que el recurso no fue encontrado. | EP-02 |
 | **TS-03** | API de check-in de trayecto seguro | Como desarrollador, busco implementar endpoints RESTful para iniciar, confirmar y cancelar check-ins de trayecto, para que la aplicación móvil pueda gestionar el estado de los desplazamientos en tiempo real. | **Escenario 1: Inicio de check-in vía API**<br>Dado que se envía una solicitud POST con el destino y el tiempo estimado de llegada,<br>Cuando el endpoint procesa la solicitud,<br>Entonces se crea el check-in con estado activo y se retorna su identificador.<br><br>**Escenario 2: Confirmación de check-in inexistente**<br>Dado que se envía una solicitud PATCH para confirmar un check-in con un identificador inválido,<br>Cuando el endpoint procesa la solicitud,<br>Entonces se retorna un error indicando que el check-in no existe. | EP-03 |
 | **TS-04** | API de detección y gestión de incidentes | Como desarrollador, busco implementar un mecanismo que evalúe periódicamente los check-ins activos y exponga endpoints para validar posibles incidentes, con el fin de activar notificaciones automáticas a los contactos de confianza. | **Escenario 1: Generación automática de incidente por timeout**<br>Dado que un check-in activo supera el tiempo estimado más el margen de tolerancia configurado,<br>Cuando el proceso de evaluación se ejecuta,<br>Entonces se genera un registro de posible incidente y se dispara la notificación correspondiente.<br><br>**Escenario 2: Validación de incidente vía API**<br>Dado que se envía una solicitud PATCH indicando que el usuario se encuentra bien,<br>Cuando el endpoint procesa la solicitud,<br>Entonces el incidente se marca como resuelto y se registra en el historial. | EP-04 |
-| **TS-05** | API del mapa comunitario de servicios nocturnos | Como desarrollador, busco implementar endpoints RESTful para crear, consultar y calificar servicios nocturnos, incluyendo búsqueda geoespacial, para alimentar el mapa comunitario. | **Escenario 1: Búsqueda geoespacial de servicios**<br>Dado que se envía una solicitud GET con coordenadas y un radio de búsqueda,<br>Cuando el endpoint procesa la solicitud,<br>Entonces se retorna la lista de servicios validados dentro del radio especificado.<br><br>**Escenario 2: Registro de un nuevo servicio**<br>Dado que se envía una solicitud POST con los datos de un nuevo servicio nocturno,<br>Cuando el endpoint procesa la solicitud,<br>Entonces el servicio se almacena con estado pendiente de validación. | EP-05 |
+| **TS-05** | API del mapa comunitario de servicios cercanos | Como desarrollador, busco implementar endpoints RESTful para crear, consultar y calificar servicios cercanos, incluyendo búsqueda geoespacial, para alimentar el mapa comunitario. | **Escenario 1: Búsqueda geoespacial de servicios**<br>Dado que se envía una solicitud GET con coordenadas y un radio de búsqueda,<br>Cuando el endpoint procesa la solicitud,<br>Entonces se retorna la lista de servicios validados dentro del radio especificado.<br><br>**Escenario 2: Registro de un nuevo servicio**<br>Dado que se envía una solicitud POST con los datos de un nuevo servicio cercano,<br>Cuando el endpoint procesa la solicitud,<br>Entonces el servicio se almacena con estado pendiente de validación. | EP-05 |
 | **TS-06** | API de calificación y reporte de rutas | Como desarrollador, busco exponer endpoints RESTful para registrar calificaciones de seguridad de rutas y puntos de riesgo, permitiendo consultar un mapa de calor de zonas seguras e inseguras. | **Escenario 1: Registro de calificación de ruta**<br>Dado que se envía una solicitud POST con el identificador del trayecto y la calificación de seguridad,<br>Cuando el endpoint procesa la solicitud,<br>Entonces la calificación se almacena y se asocia a la ruta correspondiente.<br><br>**Escenario 2: Consulta de zonas de riesgo por área**<br>Dado que se envía una solicitud GET con los límites geográficos de un área,<br>Cuando el endpoint procesa la solicitud,<br>Entonces se retorna la lista de puntos de riesgo validados dentro de esa área. | EP-06 |
 | **TS-07** | API de bitácora de descanso y salud del sueño | Como desarrollador, busco implementar endpoints RESTful para registrar y consultar horas de descanso, y un servicio que calcule sugerencias de higiene del sueño según los patrones registrados. | **Escenario 1: Registro de horas de descanso vía API**<br>Dado que se envía una solicitud POST con la hora de inicio y fin del descanso,<br>Cuando el endpoint procesa la solicitud,<br>Entonces el registro se almacena en la bitácora del usuario.<br><br>**Escenario 2: Cálculo de sugerencia por descanso insuficiente**<br>Dado que el promedio de horas de sueño de los últimos registros está por debajo del umbral configurado,<br>Cuando el servicio de análisis evalúa la bitácora,<br>Entonces se genera una sugerencia de higiene del sueño para el usuario. | EP-07 |
 | **TS-08** | API de suscripciones y beneficios colectivos | Como desarrollador, busco integrar una pasarela de pagos y exponer endpoints RESTful para gestionar suscripciones, beneficios y códigos de referido, permitiendo automatizar el ciclo de vida de la membresía. | **Escenario 1: Activación de suscripción tras pago exitoso**<br>Dado que se recibe una confirmación de pago exitoso desde la pasarela de pagos,<br>Cuando el sistema procesa la notificación,<br>Entonces la suscripción del usuario se activa y se habilitan sus beneficios.<br><br>**Escenario 2: Aplicación de código de referido inválido**<br>Dado que se envía una solicitud POST con un código de referido inexistente,<br>Cuando el endpoint procesa la solicitud,<br>Entonces se retorna un error indicando que el código no es válido. | EP-08 |
@@ -868,36 +875,36 @@ En esta sección se presenta el Impact Mapping de la solución, técnica que per
 | 1 | **US-05** | Conocer la propuesta de valor (Landing Page) | Como visitante del sitio web, quiero conocer la propuesta de valor y las funcionalidades principales de la plataforma en la landing page para decidir si deseo registrarme. | 2 |
 | 2 | **US-24** | Consultar planes de suscripción (Landing Page) | Como visitante del sitio web, quiero consultar los planes de suscripción disponibles y sus beneficios para decidir si deseo registrarme en la plataforma. | 2 |
 | 3 |**US-31** | Visualizar video de demostración y equipo en la Landing Page | Como visitante del sitio web, quiero reproducir el video explicativo sobre la plataforma y el equipo para comprender mejor el funcionamiento del servicio antes de crear una cuenta. | 2 |
-| 4 |**US-32** | Consultar testimonios y casos de éxito en la Landing Page | Como visitante del sitio web, quiero explorar las experiencias y testimonios de otros trabajadores nocturnos para verificar la credibilidad y efectividad de la plataforma. | 2 |
+| 4 |**US-32** | Consultar testimonios y casos de éxito en la Landing Page | Como visitante del sitio web, quiero explorar las experiencias y testimonios de otros trabajadores de turnos diurnos y nocturnos para verificar la credibilidad y efectividad de la plataforma. | 2 |
 | 5 | **US-33** | Desplegar preguntas frecuentes (FAQ) en la Landing Page | Como visitante del sitio web, quiero expandir y colapsar preguntas frecuentes para resolver dudas clave sobre el funcionamiento, privacidad y costos de la plataforma de manera inmediata. | 1 |
 | 6 |**US-34** | Enviar formulario de contacto o soporte desde la Landing Page | Como visitante del sitio web, quiero enviar mis consultas a través del formulario de contacto para recibir asistencia o información personalizada por parte del equipo. | 2 |
 | 7 |**US-35** | Cambiar idioma y tema visual en la Landing Page | Como visitante del sitio web, quiero alternar entre los idiomas disponibles (español e inglés) y ajustar el modo de visualización para adaptar la lectura a mis preferencias. | 3 |
-| 8 | **US-09** | Iniciar check-in de trayecto seguro | Como trabajador nocturno, quiero iniciar un check-in de trayecto indicando mi destino y tiempo estimado de llegada para activar el acompañamiento pasivo del sistema. | 5 |
-| 9 | **US-10** | Confirmar llegada segura | Como trabajador nocturno, quiero confirmar mi llegada al finalizar el trayecto para cerrar el check-in y notificar a mis contactos de confianza que llegué bien. | 3 |
-| 10 | **US-12** | Marcado automático de posible incidente | Como trabajador nocturno, quiero que el sistema marque automáticamente un posible incidente cuando no confirmo mi llegada dentro del margen de tolerancia, para que mis contactos de confianza sean alertados. | 5 |
+| 8 | **US-09** | Iniciar check-in de trayecto seguro | Como trabajador de turno diurno o nocturno, quiero iniciar un check-in de trayecto indicando mi destino y tiempo estimado de llegada para activar el acompañamiento pasivo del sistema. | 5 |
+| 9 | **US-10** | Confirmar llegada segura | Como trabajador de turno diurno o nocturno, quiero confirmar mi llegada al finalizar el trayecto para cerrar el check-in y notificar a mis contactos de confianza que llegué bien. | 3 |
+| 10 | **US-12** | Marcado automático de posible incidente | Como trabajador de turno diurno o nocturno, quiero que el sistema marque automáticamente un posible incidente cuando no confirmo mi llegada dentro del margen de tolerancia, para que mis contactos de confianza sean alertados. | 5 |
 | 11 | **US-14** | Recibir alerta de posible incidente | Como contacto de confianza, quiero recibir una alerta inmediata cuando se detecte un posible incidente en el trayecto de mi trabajador vinculado para poder actuar rápidamente. | 3 |
 | 12 | **US-28** | Visualizar estado de trayecto en tiempo real | Como contacto de confianza, quiero visualizar el estado actual del trayecto de mi trabajador vinculado para tener tranquilidad sin necesidad de llamarlo. | 5 |
-| 13 | **US-06** | Invitar contacto de confianza | Como trabajador nocturno, quiero invitar a un contacto de confianza mediante su correo o número de teléfono para que pueda recibir notificaciones sobre mis trayectos. | 3 |
-| 14 | **US-07** | Aceptar o rechazar invitación | Como contacto de confianza, quiero aceptar o rechazar una invitación recibida para decidir si deseo vincularme a un trabajador nocturno. | 2 |
-| 15 | **US-13** | Validar posible incidente | Como trabajador nocturno, quiero validar o descartar un posible incidente marcado por el sistema para confirmar mi estado real ante mis contactos de confianza. | 3 |
-| 16 | **US-11** | Cancelar check-in activo | Como trabajador nocturno, quiero cancelar un check-in en curso en caso de un cambio de planes para evitar que se generen alertas innecesarias. | 2 |
-| 17 | **US-01** | Registro de usuario | Como nuevo usuario, quiero registrarme indicando mi rol (trabajador de turno nocturno o contacto de confianza) para poder acceder a la plataforma y sus funcionalidades. | 3 |
+| 13 | **US-06** | Invitar contacto de confianza | Como trabajador de turno diurno o nocturno, quiero invitar a un contacto de confianza mediante su correo o número de teléfono para que pueda recibir notificaciones sobre mis trayectos. | 3 |
+| 14 | **US-07** | Aceptar o rechazar invitación | Como contacto de confianza, quiero aceptar o rechazar una invitación recibida para decidir si deseo vincularme a un trabajador de turno diurno o nocturno. | 2 |
+| 15 | **US-13** | Validar posible incidente | Como trabajador de turno diurno o nocturno, quiero validar o descartar un posible incidente marcado por el sistema para confirmar mi estado real ante mis contactos de confianza. | 3 |
+| 16 | **US-11** | Cancelar check-in activo | Como trabajador de turno diurno o nocturno, quiero cancelar un check-in en curso en caso de un cambio de planes para evitar que se generen alertas innecesarias. | 2 |
+| 17 | **US-01** | Registro de usuario | Como nuevo usuario, quiero registrarme indicando mi rol (trabajador de turno diurno o nocturno o contacto de confianza) para poder acceder a la plataforma y sus funcionalidades. | 3 |
 | 18 | **US-02** | Inicio de sesión | Como usuario registrado, quiero iniciar sesión con mi correo y contraseña para acceder a mi cuenta y a las funcionalidades correspondientes a mi rol. | 2 |
-| 19 | **US-15** | Buscar servicios nocturnos cercanos | Como trabajador nocturno, quiero buscar en el mapa comunitario los servicios abiertos cerca de mi ubicación para encontrar rápidamente lo que necesito durante mi turno. | 5 |
-| 20 | **US-20** | Visualizar mapa de zonas de riesgo | Como trabajador nocturno, quiero visualizar en el mapa las zonas calificadas como riesgosas por la comunidad para evitarlas antes de iniciar mi trayecto. | 5 |
-| 21 | **US-18** | Calificar seguridad de ruta | Como trabajador nocturno, quiero calificar qué tan segura se sintió una ruta al finalizar mi trayecto para aportar información a la comunidad de trabajadores. | 3 |
-| 22 | **US-19** | Reportar punto de riesgo específico | Como trabajador nocturno, quiero marcar un punto específico de la ruta como sospechoso o peligroso para alertar a otros usuarios sobre esa zona. | 3 |
-| 23 | **US-16** | Reportar nuevo servicio nocturno | Como trabajador nocturno, quiero reportar un nuevo establecimiento abierto de madrugada para contribuir con información útil a la comunidad. | 3 |
-| 24 | **US-17** | Calificar un servicio nocturno reportado | Como trabajador nocturno, quiero calificar la veracidad de un servicio reportado por otro usuario para ayudar a mantener el mapa comunitario actualizado y confiable. | 2 |
-| 25 | **US-25** | Suscribirse al plan mensual | Como trabajador nocturno, quiero suscribirme al plan mensual de la plataforma para acceder a los beneficios colectivos negociados. | 5 |
-| 26 | **US-26** | Acceder a beneficios y descuentos | Como trabajador nocturno con suscripción activa, quiero visualizar y acceder a los descuentos y beneficios negociados colectivamente para aprovecharlos. | 3 |
+| 19 | **US-15** | Buscar servicios cercanos cercanos | Como trabajador de turno diurno o nocturno, quiero buscar en el mapa comunitario los servicios abiertos cerca de mi ubicación para encontrar rápidamente lo que necesito durante mi turno. | 5 |
+| 20 | **US-20** | Visualizar mapa de zonas de riesgo | Como trabajador de turno diurno o nocturno, quiero visualizar en el mapa las zonas calificadas como riesgosas por la comunidad para evitarlas antes de iniciar mi trayecto. | 5 |
+| 21 | **US-18** | Calificar seguridad de ruta | Como trabajador de turno diurno o nocturno, quiero calificar qué tan segura se sintió una ruta al finalizar mi trayecto para aportar información a la comunidad de trabajadores. | 3 |
+| 22 | **US-19** | Reportar punto de riesgo específico | Como trabajador de turno diurno o nocturno, quiero marcar un punto específico de la ruta como sospechoso o peligroso para alertar a otros usuarios sobre esa zona. | 3 |
+| 23 | **US-16** | Reportar nuevo servicio cercano | Como trabajador de turno diurno o nocturno, quiero reportar un nuevo establecimiento abierto según el horario de consulta para contribuir con información útil a la comunidad. | 3 |
+| 24 | **US-17** | Calificar un servicio cercano reportado | Como trabajador de turno diurno o nocturno, quiero calificar la veracidad de un servicio reportado por otro usuario para ayudar a mantener el mapa comunitario actualizado y confiable. | 2 |
+| 25 | **US-25** | Suscribirse al plan mensual | Como trabajador de turno diurno o nocturno, quiero suscribirme al plan mensual de la plataforma para acceder a los beneficios colectivos negociados. | 5 |
+| 26 | **US-26** | Acceder a beneficios y descuentos | Como trabajador de turno diurno o nocturno con suscripción activa, quiero visualizar y acceder a los descuentos y beneficios negociados colectivamente para aprovecharlos. | 3 |
 | 27 | **US-29** | Configurar preferencias de notificación | Como contacto de confianza, quiero configurar qué tipo de notificaciones deseo recibir (inicio de trayecto, llegada, posibles incidentes) para adaptar la app a mis necesidades. | 2 |
-| 28 | **US-08** | Remover contacto de confianza | Como trabajador nocturno, quiero eliminar un contacto de confianza vinculado para dejar de compartir información sobre mis trayectos con él. | 2 |
-| 29 | **US-21** | Registrar horas de descanso | Como trabajador nocturno, quiero registrar mis horas de sueño diurno para llevar un control de mi descanso y bienestar físico. | 3 |
-| 30 | **US-22** | Visualizar historial de descanso | Como trabajador nocturno, quiero visualizar el historial de mis registros de sueño para identificar patrones en mi descanso a lo largo del tiempo. | 3 |
-| 31 | **US-23** | Recibir sugerencia de higiene del sueño | Como trabajador nocturno, quiero recibir sugerencias cuando mi descanso ha sido insuficiente durante un periodo determinado para cuidar mi bienestar físico. | 3 |
+| 28 | **US-08** | Remover contacto de confianza | Como trabajador de turno diurno o nocturno, quiero eliminar un contacto de confianza vinculado para dejar de compartir información sobre mis trayectos con él. | 2 |
+| 29 | **US-21** | Registrar horas de descanso | Como trabajador de turno diurno o nocturno, quiero registrar mis horas de sueño diurno o nocturno para llevar un control de mi descanso y bienestar físico. | 3 |
+| 30 | **US-22** | Visualizar historial de descanso | Como trabajador de turno diurno o nocturno, quiero visualizar el historial de mis registros de sueño para identificar patrones en mi descanso a lo largo del tiempo. | 3 |
+| 31 | **US-23** | Recibir sugerencia de higiene del sueño | Como trabajador de turno diurno o nocturno, quiero recibir sugerencias cuando mi descanso ha sido insuficiente durante un periodo determinado para cuidar mi bienestar físico. | 3 |
 | 32 | **US-30** | Revisar y aprobar reportes de la comunidad | Como moderador de la comunidad, quiero revisar los reportes de nuevos servicios e incidentes enviados por los usuarios para aprobarlos o rechazarlos antes de que sean visibles públicamente. | 5 |
-| 33 | **US-27** | Referir a un contacto para obtener beneficio | Como trabajador nocturno, quiero invitar a otro trabajador mediante un código de referido para obtener un beneficio en mi suscripción cuando este se registre. | 3 |
+| 33 | **US-27** | Referir a un contacto para obtener beneficio | Como trabajador de turno diurno o nocturno, quiero invitar a otro trabajador mediante un código de referido para obtener un beneficio en mi suscripción cuando este se registre. | 3 |
 | 34 | **US-04** | Edición de perfil | Como usuario, quiero editar mis datos personales y de contacto para mantener mi información actualizada dentro de la plataforma. | 2 |
 | 35 | **US-03** | Recuperación de contraseña | Como usuario, quiero solicitar la recuperación de mi contraseña olvidada para poder restablecer el acceso a mi cuenta. | 3 |
 
@@ -915,9 +922,9 @@ En esta sección se presenta el Impact Mapping de la solución, técnica que per
 
 **El estilo visual de la startup**
 
-El estilo visual de la startup se fundamenta en los principios de seguridad, confianza, bienestar, accesibilidad y claridad visual, considerando que los usuarios principales son trabajadores que desarrollan sus actividades durante la noche, así como familiares, parejas y contactos de confianza que necesitan conocer su estado durante sus desplazamientos.
+El estilo visual de la startup se fundamenta en los principios de seguridad, confianza, bienestar, accesibilidad y claridad visual, considerando que los usuarios principales son trabajadores que desarrollan sus actividades en horarios diurnos o nocturnos, así como familiares, parejas y contactos de confianza que necesitan conocer su estado durante sus desplazamientos.
 
-La interfaz está diseñada para funcionar en contextos nocturnos, donde la iluminación puede ser reducida y el usuario puede encontrarse realizando actividades laborales o desplazándose. Por ello, se prioriza una experiencia simple, intuitiva y de rápida comprensión, reduciendo la cantidad de elementos innecesarios y destacando únicamente la información relevante.
+La interfaz está diseñada para funcionar en contextos diurnos y nocturnos, donde la iluminación puede variar y el usuario puede encontrarse realizando actividades laborales o desplazándose. Por ello, se prioriza una experiencia simple, intuitiva y de rápida comprensión, reduciendo la cantidad de elementos innecesarios y destacando únicamente la información relevante.
 
 Asimismo, la solución está dirigida a usuarios con distintos niveles de alfabetización digital, por lo que se evita el uso de tecnicismos y se emplean componentes visuales familiares, mensajes directos e iconografía universal.
 
@@ -939,7 +946,7 @@ Asimismo, la solución está dirigida a usuarios con distintos niveles de alfabe
 
 **Paleta de colores**
 
-La selección de colores de la startup busca transmitir seguridad, confianza, tranquilidad y bienestar, utilizando una combinación que funcione correctamente tanto en ambientes nocturnos como en situaciones donde el usuario necesita identificar rápidamente una alerta.
+La selección de colores de la startup busca transmitir seguridad, confianza, tranquilidad y bienestar, utilizando una combinación que funcione correctamente tanto en ambientes diurnos y nocturnos como en situaciones donde el usuario necesita identificar rápidamente una alerta.
 
 Se propone utilizar una paleta basada en tonos oscuros y colores de acento:
 
@@ -1022,7 +1029,7 @@ El contenido se organiza mediante tarjetas y secciones claramente diferenciadas,
 
 Las funciones críticas, como iniciar trayecto, confirmar llegada o reportar una emergencia, deben encontrarse disponibles con el menor número posible de pasos.
 
-**Justificación:** Esta estructura permite que los trabajadores nocturnos puedan utilizar la aplicación rápidamente mientras se encuentran trabajando o desplazándose.
+**Justificación:** Esta estructura permite que los trabajadores de turnos diurnos y nocturnos puedan utilizar la aplicación rápidamente mientras se encuentran trabajando o desplazándose.
 
 **2. Sistema de grillas**
 
@@ -1172,7 +1179,7 @@ Esto permite que tanto el trabajador como su contacto de confianza comprendan r�
 
 **5. Diseño adaptable**
 
-La startup está diseñada principalmente para dispositivos móviles, debido a que los trabajadores utilizarán la plataforma durante sus desplazamientos nocturnos.
+La startup está diseñada principalmente para dispositivos móviles, debido a que los trabajadores utilizarán la plataforma durante sus desplazamientos diurnos y nocturnos.
 
 También se contempla su uso en:
 
@@ -1191,7 +1198,7 @@ La versión móvil prioriza:
 - Mapa y ubicación.
 - Estado del trayecto.
 - Notificaciones.
-- Lectura clara en ambientes con poca iluminación.
+- Lectura clara tanto bajo luz diurna intensa como en ambientes con poca iluminación, con contraste y tema visual ajustables.
 
 **Tablet y escritorio**
 
@@ -1222,7 +1229,7 @@ Se utiliza una barra lateral persistente con las principales secciones:
 
 - Inicio.
 - Mis trayectos.
-- Mapa nocturno.
+- Mapa de servicios cercanos.
 - Comunidad.
 - Bienestar.
 - Beneficios.
@@ -1256,7 +1263,7 @@ Los iconos deberán utilizarse como complemento del texto y no como único mecan
 
 **8. Componentes específicos de la solución**
 
-Debido a que la plataforma está orientada específicamente a trabajadores nocturnos, se establecen algunos componentes propios del sistema.
+Debido a que la plataforma está orientada específicamente a trabajadores de turnos diurnos y nocturnos, se establecen algunos componentes propios del sistema.
 
 **Registro de trayecto seguro**
 
@@ -1266,11 +1273,11 @@ Permite iniciar un trayecto, seleccionar un destino y compartir el estado con lo
 
 Permite registrar familiares, parejas o amigos que recibirán notificaciones relacionadas con el trayecto.
 
-**Mapa nocturno**
+**Mapa de servicios cercanos**
 
 Permite visualizar:
 
-- Servicios abiertos durante la noche.
+- Servicios abiertos según la fecha y hora de consulta, con horarios diurnos, nocturnos o de atención continua.
 - Zonas reportadas como inseguras.
 - Incidentes registrados.
 - Información proporcionada por la comunidad.
@@ -1293,15 +1300,15 @@ Permite registrar información relacionada con:
 - Horas de sueño.
 - Descanso.
 - Fatiga.
-- Hábitos relacionados con el turno nocturno.
+- Hábitos relacionados con el turno diurno o nocturno.
 
 **Comunidad**
 
-Permite a los trabajadores compartir información, experiencias y recomendaciones relacionadas con el trabajo nocturno.
+Permite a los trabajadores compartir información, experiencias y recomendaciones relacionadas con el trabajo en turnos diurnos y nocturnos.
 
 **Beneficios**
 
-Permite consultar descuentos, servicios y beneficios negociados para los trabajadores nocturnos mediante la suscripción a la plataforma.
+Permite consultar descuentos, servicios y beneficios negociados para los trabajadores de turnos diurnos y nocturnos mediante la suscripción a la plataforma.
 ## 4.2. Information Architecture.
 
 ### 4.2.1. Organization Systems.
@@ -1309,13 +1316,13 @@ Permite consultar descuentos, servicios y beneficios negociados para los trabaja
 
 Se utilizarán diversos métodos para organizar la información según su relevancia, contexto y frecuencia de uso. La presentación visual de la información se realizará mediante los siguientes sistemas de organización:
 
-**Organización Jerárquica:** Se utilizará principalmente en el tablero principal, donde se priorizará la información relacionada con la seguridad del trabajador. Primero se mostrarán alertas críticas, estado del trayecto y notificaciones importantes; posteriormente se presentarán servicios nocturnos disponibles, información de la comunidad y datos relacionados con el bienestar.
+**Organización Jerárquica:** Se utilizará principalmente en el tablero principal, donde se priorizará la información relacionada con la seguridad del trabajador. Primero se mostrarán alertas críticas, estado del trayecto y notificaciones importantes; posteriormente se presentarán servicios cercanos disponibles, información de la comunidad y datos relacionados con el bienestar.
 
 **Organización Secuencial:** Se utilizará en los flujos de interacción que requieren seguir una serie de pasos, como el registro de un nuevo usuario, configuración de contactos de confianza, inicio de un trayecto seguro, confirmación de llegada, registro de descanso y reporte de un incidente.
 
-**Organización Matricial:** Se utilizará para comparar información relacionada con servicios nocturnos, zonas de riesgo, reportes comunitarios y beneficios disponibles. Este sistema permitirá al usuario visualizar diferentes alternativas y tomar decisiones según criterios como distancia, horario de atención, nivel de seguridad o valoración de otros usuarios.
+**Organización Matricial:** Se utilizará para comparar información relacionada con servicios cercanos, zonas de riesgo, reportes comunitarios y beneficios disponibles. Este sistema permitirá al usuario visualizar diferentes alternativas y tomar decisiones según criterios como distancia, horario de atención, nivel de seguridad o valoración de otros usuarios.
 
-**Organización por categorías:** Se empleará para agrupar funcionalidades y contenidos relacionados. Por ejemplo, las opciones de seguridad incluirán trayectos, contactos de confianza y reportes de incidentes; mientras que las opciones de bienestar incluirán descanso, sueño y recomendaciones.ará para agrupar funcionalidades y contenidos relacionados. Por ejemplo, las opciones de seguridad incluirán trayectos, contactos de confianza y reportes de incidentes; mientras que las opciones de bienestar incluirán descanso, sueño y recomendaciones.
+**Organización por categorías:** Se empleará para agrupar funcionalidades y contenidos relacionados. Por ejemplo, las opciones de seguridad incluirán trayectos, contactos de confianza y reportes de incidentes; mientras que las opciones de bienestar incluirán descanso, sueño y recomendaciones.
 
 
 ### 4.2.2. Labeling Systems.
@@ -1323,7 +1330,7 @@ Se utilizarán diversos métodos para organizar la información según su releva
 
 En la startup, el sistema de etiquetado ha sido diseñado para maximizar la claridad y reducir la carga cognitiva de los usuarios. Todas las etiquetas utilizadas en la navegación, trayectos, mapas, comunidad, bienestar y configuración priorizarán la simplicidad, consistencia semántica y un lenguaje directo, claro y fácil de comprender.
 
-El sistema de etiquetado considera que los usuarios principales pueden tener diferentes niveles de alfabetización digital. Por ello, se evitarán términos técnicos innecesarios y se utilizarán expresiones familiares para los trabajadores nocturnos y sus contactos de confianza.
+El sistema de etiquetado considera que los usuarios principales pueden tener diferentes niveles de alfabetización digital. Por ello, se evitarán términos técnicos innecesarios y se utilizarán expresiones familiares para los trabajadores de turnos diurnos y nocturnos y sus contactos de confianza.
 
 **Principios clave del sistema de etiquetado:**
 
@@ -1343,7 +1350,7 @@ Las etiquetas relacionadas con situaciones de seguridad tendrán un mayor peso v
 
 **Seguridad y trayectos:** Iniciar trayecto, Finalizar trayecto, Confirmar llegada, Contactos de confianza, Compartir trayecto, Historial.
 
-**Mapa nocturno:** Servicios abiertos, Zonas de riesgo, Incidentes, Rutas, Cerca de mí.
+**Mapa de servicios cercanos:** Servicios abiertos, Zonas de riesgo, Incidentes, Rutas, Cerca de mí.
 
 **Comunidad:** Publicaciones, Reportes, Recomendaciones, Experiencias, Comentarios.
 
@@ -1368,26 +1375,26 @@ Algunas etiquetas se utilizarán en conjunto para facilitar la comprensión del 
 - "Reporte verificado"
 ### 4.2.3. SEO Tags and Meta Tags
 **Página de inicio**
-**Título:** Seguridad y bienestar para trabajadores nocturnos.
+**Título:** Seguridad y bienestar para trabajadores de turnos diurnos y nocturnos.
 
-**Meta Descripción:** Plataforma digital para trabajadores nocturnos que ofrece seguimiento de trayectos, contactos de confianza, información sobre servicios abiertos, reportes comunitarios y herramientas de bienestar.
+**Meta Descripción:** Plataforma digital para trabajadores de turnos diurnos y nocturnos que ofrece seguimiento de trayectos, contactos de confianza, información sobre servicios abiertos, reportes comunitarios y herramientas de bienestar.
 
-**Meta Palabras clave:** trabajadores nocturnos, seguridad nocturna, bienestar laboral, seguridad personal, trayecto seguro, servicios nocturnos, comunidad nocturna, Lima.
+**Meta Palabras clave:** trabajadores de turnos diurnos y nocturnos, seguridad diurna y nocturna, bienestar laboral, seguridad personal, trayecto seguro, servicios cercanos, comunidad de trabajadores, Lima.
 
 **Autor de la metaetiqueta:** [Noxway]
 
 **Aplicación web**
 
-**Título:** Seguridad y bienestar durante tu jornada nocturna.
+**Título:** Seguridad y bienestar durante tu jornada laboral.
 
-**Meta Descripción:** Gestiona tus trayectos nocturnos, comparte tu estado con contactos de confianza, consulta zonas de riesgo y encuentra servicios disponibles durante la noche desde una sola plataforma.
+**Meta Descripción:** Gestiona tus trayectos diurnos y nocturnos, comparte tu estado con contactos de confianza, consulta zonas de riesgo y encuentra servicios disponibles durante el día y la noche desde una sola plataforma.
 
-**Meta Palabras clave:** seguridad para trabajadores nocturnos, seguimiento de trayectos, contactos de confianza, mapa nocturno, zonas de riesgo, servicios abiertos, bienestar nocturno.
+**Meta Palabras clave:** seguridad para trabajadores de turnos diurnos y nocturnos, seguimiento de trayectos, contactos de confianza, mapa de servicios cercanos, zonas de riesgo, servicios abiertos, bienestar laboral.
 
 **Autor de la metaetiqueta:** [Noxway]
 
 ### 4.2.4. Searching Systems.
-Las decisiones de búsqueda en Noxway están orientadas a garantizar que los usuarios encuentren rápidamente información relevante sobre servicios nocturnos, zonas de riesgo, rutas, reportes comunitarios y beneficios, evitando que tengan que revisar grandes cantidades de información.
+Las decisiones de búsqueda en Noxway están orientadas a garantizar que los usuarios encuentren rápidamente información relevante sobre servicios cercanos, zonas de riesgo, rutas, reportes comunitarios y beneficios, evitando que tengan que revisar grandes cantidades de información.
 
 **Opciones de búsqueda**
 
@@ -1420,11 +1427,11 @@ Los resultados podrán actualizarse conforme el usuario escribe, mostrando las o
 
 **Filtros disponibles**
 
-**Por tipo de servicio:** Restaurantes, farmacias, tiendas, centros de salud, transporte y otros servicios disponibles durante la noche.
+**Por tipo de servicio:** Restaurantes, farmacias, tiendas, centros de salud, transporte y otros servicios disponibles durante el día y la noche.
 
 **Por distancia:** Cerca de mí, menos de 1 km, menos de 3 km, menos de 5 km.
 
-**Por horario:** Abierto ahora, abierto toda la noche, apertura próxima.
+**Por horario:** Abierto ahora, atención 24 horas, apertura próxima. La disponibilidad se determina según el horario de atención y la zona horaria del establecimiento; un servicio no necesita operar las 24 horas para aparecer en el mapa. Los intervalos que cruzan medianoche se consideran hasta su cierre del día siguiente.
 
 **Por seguridad:** Ruta recomendada, zona segura, zona de precaución, zona de riesgo.
 
@@ -1440,14 +1447,14 @@ Los resultados podrán actualizarse conforme el usuario escribe, mostrando las o
 
 **Ordenación y filtros aplicados:** El usuario podrá ordenar los resultados por cercanía, relevancia, valoración o fecha. Los filtros activos se mostrarán claramente en la parte superior de los resultados.
 
-**Información comunitaria:** Los resultados relacionados con seguridad podrán incluir reportes y valoraciones realizadas por otros trabajadores nocturnos, permitiendo conocer experiencias recientes de la zona.
+**Información comunitaria:** Los resultados relacionados con seguridad podrán incluir reportes y valoraciones realizadas por otros trabajadores de turnos diurnos y nocturnos, permitiendo conocer experiencias recientes de la zona.
 
 **Ubicación:** Los resultados podrán visualizarse tanto en formato de lista como en el mapa, facilitando la identificación de servicios y zonas relevantes cercanas al usuario.
 
 ### 4.2.5. Navigation Systems.
 La estructura de navegación de la startup está diseñada para ofrecer una experiencia de usuario fluida y sencilla, asegurando un acceso rápido a las funcionalidades relacionadas con seguridad, trayectos, comunidad y bienestar.
 
-La navegación prioriza especialmente las funciones que pueden ser utilizadas durante un desplazamiento nocturno, reduciendo la cantidad de pasos necesarios para acceder a información importante.
+La navegación prioriza especialmente las funciones que pueden ser utilizadas durante un desplazamiento diurno o nocturno, reduciendo la cantidad de pasos necesarios para acceder a información importante.
 
 **Páginas principales**
 
@@ -1455,11 +1462,11 @@ La navegación prioriza especialmente las funciones que pueden ser utilizadas du
 
 **Mi trayecto:** Permite iniciar, consultar y finalizar trayectos, además de gestionar la información compartida con los contactos de confianza.
 
-**Mapa:** Permite visualizar servicios abiertos durante la noche, zonas de riesgo, incidentes reportados y otros puntos relevantes.
+**Mapa:** Permite visualizar servicios abiertos según el horario de consulta, zonas de riesgo, incidentes reportados y otros puntos relevantes.
 
-**Comunidad:** Espacio donde los trabajadores pueden consultar y compartir experiencias, reportes, recomendaciones e información relacionada con el trabajo nocturno.
+**Comunidad:** Espacio donde los trabajadores pueden consultar y compartir experiencias, reportes, recomendaciones e información relacionada con el trabajo en turnos diurnos y nocturnos.
 
-**Bienestar:** Sección destinada al registro de descanso, sueño y otros indicadores relacionados con el bienestar del trabajador nocturno.
+**Bienestar:** Sección destinada al registro de descanso, sueño y otros indicadores relacionados con el bienestar del trabajador de turno diurno o nocturno.
 
 **Beneficios:** Permite consultar descuentos, servicios y beneficios disponibles para los usuarios suscritos.
 
@@ -1487,7 +1494,7 @@ La navegación prioriza especialmente las funciones que pueden ser utilizadas du
 
 **Explorar:** Facilita el acceso a módulos principales como Mapa, Comunidad, Bienestar y Beneficios.
 
-**Mapa:** Permite navegar visualmente por la ubicación del usuario y consultar información relevante del entorno nocturno.
+**Mapa:** Permite navegar visualmente por la ubicación del usuario y consultar información relevante del entorno del trayecto.
 
 **Navegación de seguridad**
 
@@ -1523,13 +1530,13 @@ La estructura alámbrica de la página está organizada en diez secciones contin
 **Header:** Contiene el logotipo de la marca (Noxway by Noctiva), un menú de navegación principal con enlaces de anclaje rápido a los bloques clave, un selector de idioma bilingüe (EN/ES) y una llamada a la acción principal de registro orientada al ingreso directo a la plataforma. 
 
 
-**Hero Section:** Presenta la propuesta de valor principal de forma contundente mediante un titular de alto impacto y un subtítulo explicativo enfocado en el acompañamiento y seguridad de trayectos nocturnos. Integra un llamado a la acción dual segmentado (Protect My Commute para el trabajador nocturno e I'm a Trusted Contact para acompañantes o familiares), complementado por un indicador visual de desplazamiento. 
+**Hero Section:** Presenta la propuesta de valor principal de forma contundente mediante un titular de alto impacto y un subtítulo explicativo enfocado en el acompañamiento y seguridad de trayectos diurnos y nocturnos. Integra un llamado a la acción dual segmentado (Protect My Commute para el trabajador de turno diurno o nocturno e I'm a Trusted Contact para acompañantes o familiares), complementado por un indicador visual de desplazamiento. 
 
 
-**Protocolo:** Desglosa visualmente el flujo de funcionamiento operativo de la solución en cuatro fases consecutivas y numeradas: vinculación del círculo de confianza, inicio y estimación del trayecto de salida de turno, monitoreo pasivo de anomalías en segundo plano y confirmación unificada de llegada segura. 
+**Protocolo:** Desglosa visualmente el flujo de funcionamiento operativo de la solución en cuatro fases consecutivas y numeradas: vinculación del círculo de confianza, inicio y estimación del trayecto de ida o regreso del trabajo, en horario diurno o nocturno, monitoreo pasivo de anomalías en segundo plano y confirmación unificada de llegada segura.
 
 
-**Ecosistema:** Organiza en una cuadrícula modular las cuatro capacidades tecnológicas y de bienestar clave que componen el servicio: Route & Commute Check-In (monitoreo de trayecto), 24-Hour Community Map (geolocalización de farmacias, grifos y puntos seguros abiertos de madrugada), Smart Alerts & Companion View (detección de desvíos y enlaces cifrados para familiares) y Rest Log & Collective Benefits (higiene del sueño circadiano y convenios). 
+**Ecosistema:** Organiza en una cuadrícula modular las cuatro capacidades tecnológicas y de bienestar clave que componen el servicio: Route & Commute Check-In (monitoreo de trayecto), Community Services Map (geolocalización de farmacias, grifos y puntos de atención disponibles según la fecha y hora de consulta), Smart Alerts & Companion View (detección de desvíos y enlaces cifrados para familiares) y Rest Log & Collective Benefits (higiene del sueño circadiano y convenios).
 
 
 **Testimonios:** Dispone de una interfaz basada en pestañas interactivas para reproducir dos piezas audiovisuales estratégicas: el recorrido demostrativo funcional del producto (About the Product) y el video de sustentación de ingeniería, retrospectiva ágil y equipo (About the Team) 
@@ -1560,7 +1567,7 @@ Elaborado en: https://www.figma.com/design/kARtlqhljeRK63rGx1Dmea/Sin-t%C3%ADtul
 ## 4.4. Web Applications UX/UI Design. 
 
 ### 4.4.1. Web Applications Wireframes.
-Los wireframes de las aplicaciones web de **Noxway** muestran cómo se estructuran las pantallas y dónde se ubican los elementos de navegación para cada uno de los roles clave del sistema: el **trabajador nocturno** y su **contacto de confianza**. Estos esquemas visuales, que se centran en la funcionalidad, la accesibilidad en entornos con poca luz y la facilidad de uso bajo condiciones de fatiga o urgencia, guían el diseño final. Su objetivo es asegurar que la aplicación sea intuitiva y que la interacción del usuario —desde iniciar un trayecto seguro y consultar el mapa 24 horas hasta monitorear un desplazamiento en vivo o coordinar auxilio distrital— sea fluida, rápida y eficiente, lo que ayuda a diseñadores y desarrolladores a optimizar la disposición de cada componente. 
+Los wireframes de las aplicaciones web de **Noxway** muestran cómo se estructuran las pantallas y dónde se ubican los elementos de navegación para cada uno de los roles clave del sistema: el **trabajador de turno diurno o nocturno** y su **contacto de confianza**. Estos esquemas visuales, que se centran en la funcionalidad, la accesibilidad con iluminación diurna o nocturna y la facilidad de uso bajo condiciones de fatiga o urgencia, guían el diseño final. Su objetivo es asegurar que la aplicación sea intuitiva y que la interacción del usuario —desde iniciar un trayecto seguro y consultar el mapa de servicios cercanos según su horario de atención hasta monitorear un desplazamiento en vivo o coordinar auxilio distrital— sea fluida, rápida y eficiente, lo que ayuda a diseñadores y desarrolladores a optimizar la disposición de cada componente.
 
 <img src="resources/imgs/AppWeb-Wireframe1.png"
      alt="AppWeb-Wireframe1"
@@ -1719,7 +1726,7 @@ Elaborado en: https://www.figma.com/design/kARtlqhljeRK63rGx1Dmea/Sin-t%C3%ADtul
 
 
 ### 4.4.4. Web Applications User Flow Diagrams. 
-El diagrama de flujo de usuario (User Flow Diagram) es una representación visual de los pasos que un usuario sigue al interactuar con una aplicación o sitio web. Muestra la secuencia de acciones que el usuario realiza para completar una tarea o meta específica (User Goal), lo que permite identificar posibles puntos de fricción, reducir la carga cognitiva en horarios nocturnos de alta fatiga y optimizar la experiencia integral del usuario.
+El diagrama de flujo de usuario (User Flow Diagram) es una representación visual de los pasos que un usuario sigue al interactuar con una aplicación o sitio web. Muestra la secuencia de acciones que el usuario realiza para completar una tarea o meta específica (User Goal), lo que permite identificar posibles puntos de fricción, reducir la carga cognitiva en distintos horarios y condiciones de fatiga y optimizar la experiencia integral del usuario.
 Para la versión móvil de Noxway, los flujos de usuario fueron derivados directamente de la arquitectura de pantallas de la aplicación web, adaptando los componentes a un factor de forma compacto de una sola columna y áreas táctiles ergonómicas. A continuación, se detallan y grafican los tres User Goals principales del sistema:
 
 <img src="resources/imgs/User-Flow-Diagrams-1.png"
@@ -1748,7 +1755,7 @@ Video del flujo del prototipo: [FLUJO PROTOTIPO NOXWAY](https://upcedupe-my.shar
 
 ## 4.6. Domain-Driven Software Architecture
 ### 4.6.1. Design-Level EventStorming
-En esta sección se presenta la arquitectura de software de Noxway desde el enfoque de Domain-Driven Design, tomando como base el Big Picture Event Storming desarrollado previamente.
+En esta sección se presenta la arquitectura de software de Noxway desde el enfoque de Domain-Driven Design, tomando como base el Big Picture Event Storming desarrollado previamente. El actor `Worker` representa al trabajador de turno diurno o nocturno; ambos utilizan los mismos contextos de dominio para gestionar trayectos, contactos, servicios, descanso y beneficios.
 
 **Identity & Network Management**
 <br>
@@ -1801,7 +1808,7 @@ Miro: https://miro.com/app/board/uXjVGa9f9SI=/?share_link_id=254891487404
 
 ## 4.6.2. Software Architecture Context Diagram
 
-El Context Diagram representa a Noxway como un único sistema de software y muestra a los principales actores y sistemas externos con los que interactúa. Los actores considerados son Night-Shift Worker, Trusted Contact y Community Moderator, de acuerdo con las interacciones principales representadas en la solución. Esta separación permite reflejar las responsabilidades relacionadas con el monitoreo de trayectos, la supervisión en vivo mediante el Companion View y la moderación del mapa comunitario.
+El Context Diagram representa a Noxway como un único sistema de software y muestra a los principales actores y sistemas externos con los que interactúa. Los actores considerados son Worker, Trusted Contact y Community Moderator, de acuerdo con las interacciones principales representadas en la solución. Esta separación permite reflejar las responsabilidades relacionadas con el monitoreo de trayectos, la supervisión en vivo mediante el Companion View y la moderación del mapa comunitario.
 
 Como sistemas externos se consideran Payment Gateway, Email Service, Push & SMS Service y Mapping & Geolocation Service. El Payment Gateway procesa los pagos asociados a las suscripciones de los planes (Centinela Pro, Cuadrilla Familiar); el Email Service soporta recuperación de contraseña y comunicaciones transaccionales; el Push & SMS Service suministra la infraestructura crítica para el envío de alertas de emergencia; y el Mapping Service provee la telemetría y geocodificación utilizada durante el monitoreo del trabajador.
 
@@ -1813,7 +1820,7 @@ C4 System Context Diagram de Noxway.
 
 ## 4.6.3. Software Architecture Container Diagrams
 
-La solución se distribuye en cinco containers principales: Landing Page, Mobile Application, Web Application, RESTful API y Relational Database. La Landing Page utiliza React y Next.js para presentar el modelo de negocio, el protocolo nocturno y captar registros. La Mobile Application, construida con Flutter y Dart, proporciona la experiencia principal en ruta para el trabajador nocturno. La Web Application utiliza React y TypeScript para proporcionar las experiencias autenticadas del Companion Portal y el panel de moderación. El RESTful API utiliza Node.js y Express para exponer servicios, aplicar reglas de negocio automáticas de incidentes y coordinar persistencia e integraciones. La información relacional y espacial se almacena en PostgreSQL.
+La solución se distribuye en cinco containers principales: Landing Page, Mobile Application, Web Application, RESTful API y Relational Database. La Landing Page utiliza React y Next.js para presentar el modelo de negocio, el protocolo de acompañamiento y captar registros. La Mobile Application, construida con Flutter y Dart, proporciona la experiencia principal en ruta para el trabajador de turno diurno o nocturno. La Web Application utiliza React y TypeScript para proporcionar las experiencias autenticadas del Companion Portal y el panel de moderación. El RESTful API utiliza Node.js y Express para exponer servicios, aplicar reglas de negocio automáticas de incidentes y coordinar persistencia e integraciones. La información relacional y espacial se almacena en PostgreSQL.
 
 Los CTA de la Landing Page redirigen hacia el flujo de registro centralizado. Tanto la Mobile App como la Web Application se comunican con el RESTful API mediante HTTPS y JSON. El RESTful API es el único container que accede a la base de datos y a los servicios externos.
 
@@ -1836,7 +1843,7 @@ C4 Component Diagram - Landing Page.
      
      **Web Application Components**
 
-La Web Application separa el Auth & Onboarding Module, Worker Portal, Companion Portal, Active Commute Tracker, 24h Community Map, Sleep & Wellness Log y Benefits & Subscriptions. Todas estas experiencias utilizan llamadas centralizadas y comparten componentes interactivos, manteniendo una única vía de comunicación con el RESTful API para garantizar la sincronización en tiempo real del estado de los trayectos.
+La Web Application separa el Auth & Onboarding Module, Worker Portal, Companion Portal, Active Commute Tracker, Community Services Map, Sleep & Wellness Log y Benefits & Subscriptions. Todas estas experiencias utilizan llamadas centralizadas y comparten componentes interactivos, manteniendo una única vía de comunicación con el RESTful API para garantizar la sincronización en tiempo real del estado de los trayectos.
 
 C4 Component Diagram - Web Application.
 
@@ -1848,7 +1855,7 @@ C4 Component Diagram - Web Application.
 
 El RESTful API organiza sus componentes principales de acuerdo con los Bounded Contexts identificados en el Design-Level EventStorming: Account & Auth Controller, Trust Network Controller, Commute & Check-In Controller, Incident & Alert Manager, Community Map Service, Sleep Wellness Service, Subscription Controller y Moderation Controller.
 
-Account & Auth Controller y Trust Network API concentran el registro, autenticación y gestión de vínculos. Commute Controller y el Incident Manager en segundo plano gestionan la telemetría, evaluación de tolerancia y disparo de alertas. Community Map Service procesa consultas espaciales de locales y zonas de riesgo. Sleep Wellness Service administra los registros de descanso diurno y sugerencias de fatiga. Subscription Controller gestiona planes, pagos y convenios colectivos.
+Account & Auth Controller y Trust Network API concentran el registro, autenticación y gestión de vínculos. Commute Controller y el Incident Manager en segundo plano gestionan la telemetría, evaluación de tolerancia y disparo de alertas. Community Map Service procesa consultas espaciales de locales y zonas de riesgo, considerando la fecha, hora y zona horaria al consultar la disponibilidad de los establecimientos. Sleep Wellness Service administra los registros de descanso diurno o nocturno y sugerencias de fatiga. Subscription Controller gestiona planes, pagos y convenios colectivos.
 
 Persistence Layer concentra el acceso hacia PostgreSQL y External Integrations encapsula la comunicación con Payment Gateway, Email Service, SMS/Push Service y Map APIs.
 
@@ -1878,7 +1885,7 @@ El diseño orientado a objetos se organiza de acuerdo con los Bounded Contexts i
 
 **Identity & Network Management**
 
-El modelo concentra la abstracción `User`, de la cual heredan los roles específicos `NightWorker` y `TrustedContact`. `TrustLink` modela la clase de asociación que representa el vínculo de acompañamiento seguro entre un trabajador y su contacto de confianza, encapsulando su estado y vigencia.
+El modelo concentra la abstracción `User`, de la cual heredan los roles específicos `Worker` y `TrustedContact`. `TrustLink` modela la clase de asociación que representa el vínculo de acompañamiento seguro entre un trabajador y su contacto de confianza, encapsulando su estado y vigencia.
 
 Class Diagram - Identity & Network Management.
 
@@ -1887,25 +1894,122 @@ Class Diagram - Identity & Network Management.
 
 **Safe Commute & Incident Management**
 
-`Commute` representa el núcleo del ciclo de vida del trayecto y se relaciona fuertemente con `TelemetryPing` mediante composición para registrar la ubicación y velocidad. `SafetyIncident` modela las situaciones de riesgo o demoras generadas durante el trayecto, interactuando con `NotificationPreference` para escalar las alertas a los canales correspondientes.
+`Commute` representa el núcleo del ciclo de vida del trayecto y se relaciona fuertemente con `TelemetryPing` mediante composición para registrar la ubicación y velocidad. `SafetyIncident` modela las situaciones de riesgo o demoras generadas durante el trayecto, interactuando con `NotificationPreference` para escalar las alertas a los canales correspondientes. `startTime` y `estimatedArrivalTime` incluyen fecha y hora: el trayecto puede iniciarse de día o de noche y continuar al día siguiente sin cerrarse a medianoche. La evaluación del margen de tolerancia depende del tiempo transcurrido y del estado del trayecto, no del turno laboral.
 
 Class Diagram - Safe Commute Incident Management.
 
-<img src="resources/imgs/management.png"
+<img src="resources/imgs/incide.png"
+     alt="Class Diagram - Safe Commute and Incident Management"
      style="">
 
 **Community Intelligence**
 
-`CommunityMap` actúa como la entidad agregadora para la consulta espacial. `NightServicePoint` representa los servicios verificados que operan en la madrugada y `RiskZone` modela los puntos de peligro reportados. `RouteRating` registra la calificación de seguridad asignada a las rutas una vez finalizado el desplazamiento.
+`CommunityMap` actúa como la entidad agregadora para la consulta espacial. `ServicePoint` representa los servicios verificados con atención diurna, nocturna o continua, sin restringirlos a establecimientos de 24 horas. Cada servicio conserva su zona horaria y sus intervalos semanales de atención mediante el objeto de valor `ServiceOpeningInterval`, para determinar si está abierto en el momento consultado. `RiskZone` modela los puntos de peligro reportados y `RouteRating` registra la calificación de seguridad asignada a las rutas una vez finalizado el desplazamiento.
 
 Class Diagram - Community Intelligence.
 
-<img src="resources/imgs/com.png"
-     style="">
+```mermaid
+classDiagram
+    direction TB
+    class CommunityMap {
+        <<AggregateRoot>>
+        -UUID mapId
+        -String currentRegion
+        +loadActiveServices(Float radius, DateTime referenceTime) List~ServicePoint~
+        +loadRiskZones(Float radius) List~RiskZone~
+        +registerServicePoint(ServicePoint newService) void
+        +reportRiskZone(RiskZone newZone) void
+    }
+    class ServicePoint {
+        <<Entity>>
+        -UUID serviceId
+        -String name
+        -ServiceType type
+        -Float latitude
+        -Float longitude
+        -Integer trustScore
+        -Boolean isVerified
+        -String timeZone
+        +upvote() void
+        +downvote() void
+        +verifyStatus() Boolean
+        +isOpenAt(DateTime referenceTime) Boolean
+    }
+    class ServiceOpeningInterval {
+        <<ValueObject>>
+        -Integer dayOfWeek
+        -LocalTime opensAt
+        -LocalTime closesAt
+        -Boolean closesNextDay
+        -Boolean is24Hours
+    }
+    class RiskZone {
+        <<Entity>>
+        -UUID zoneId
+        -String description
+        -RiskLevel riskLevel
+        -Float latitude
+        -Float longitude
+        -DateTime reportedAt
+        +confirmRisk() void
+        +resolveRisk() void
+    }
+    class RouteRating {
+        <<Entity>>
+        -UUID ratingId
+        -UUID commuteId
+        -Integer score
+        -String comments
+        -DateTime createdAt
+        +submitRating() void
+    }
+    class ServiceType {
+        <<enumeration>>
+        PHARMACY
+        GAS_STATION
+        HOSPITAL
+        POLICE_STATION
+    }
+    class RiskLevel {
+        <<enumeration>>
+        LOW
+        MEDIUM
+        HIGH
+    }
+    class ServicePointReported {
+        <<DomainEvent>>
+        +UUID serviceId
+        +UUID reportedBy
+        +DateTime timestamp
+    }
+    class DangerSpotReported {
+        <<DomainEvent>>
+        +UUID zoneId
+        +String riskLevel
+        +DateTime timestamp
+    }
+    class RouteSafetyRated {
+        <<DomainEvent>>
+        +UUID commuteId
+        +Integer score
+        +DateTime timestamp
+    }
+    CommunityMap "1" --> "0..*" ServicePoint : displays
+    CommunityMap "1" --> "0..*" RiskZone : displays
+    CommunityMap "1" o-- "0..*" RouteRating : aggregates
+    ServicePoint "1" *-- "1..*" ServiceOpeningInterval : opening hours
+    ServicePoint --> ServiceType : type
+    RiskZone --> RiskLevel : risk level
+    CommunityMap ..> ServicePointReported : generates
+    CommunityMap ..> DangerSpotReported : generates
+    CommunityMap ..> RouteSafetyRated : generates
+```
+
+Los horarios se expresan en la zona horaria del establecimiento, inicialmente `America/Lima`. `dayOfWeek` identifica el día de apertura (1 = lunes, 7 = domingo); se admiten varios intervalos por día y la ausencia de intervalos indica cierre. `closesNextDay` permite representar, por ejemplo, una apertura del lunes a las 22:00 con cierre el martes a las 06:00. `is24Hours` identifica atención continua durante ese día. Las consultas consideran también los intervalos iniciados el día anterior; no se deduce disponibilidad únicamente de la categoría o del turno del trabajador.
 
 **Sleep Health & Wellness**
 
-`SleepLog` representa el registro agregado diario de metas y déficits de sueño, mientras que `RestSession` registra periodos individuales de descanso fragmentado. `HygieneSuggestion` modela las recomendaciones emitidas por el sistema en función del nivel de fatiga detectado en el trabajador nocturno.
+`SleepLog` representa el registro agregado diario de metas y déficits de sueño, mientras que `RestSession` registra periodos individuales de descanso diurno o nocturno, continuos o fragmentados. Sus valores `startTime` y `endTime` incluyen fecha y hora y permiten que una sesión termine al día siguiente; la duración se calcula entre ambos instantes y no se reinicia a medianoche. `HygieneSuggestion` modela las recomendaciones emitidas por el sistema en función del nivel de fatiga detectado en el trabajador de turno diurno o nocturno.
 
 Class Diagram - Sleep Health Wellness.
 
@@ -1953,7 +2057,7 @@ Database Diagram - Identity & Network Management.
 
 **Safe Commute & Incident Management**
 
-El modelo persiste los trayectos en la tabla `commutes`, complementada por `commute_checkpoints` para trazar los hitos de la ruta. La telemetría de alto volumen se aísla en `telemetry_pings`. Las anomalías generan registros en `safety_incidents`, los cuales mantienen su ciclo de vida y disparan registros de auditoría de notificaciones en `incident_alerts`.
+El modelo persiste los trayectos en la tabla `commutes`, complementada por `commute_checkpoints` para trazar los hitos de la ruta. `start_time` y `estimated_arrival` conservan la fecha y hora completas para desplazamientos diurnos o nocturnos que pueden cruzar medianoche; la llegada estimada debe ser posterior al inicio. La telemetría de alto volumen se aísla en `telemetry_pings`. Las anomalías generan registros en `safety_incidents`, los cuales mantienen su ciclo de vida y disparan registros de auditoría de notificaciones en `incident_alerts`.
 
 Database Diagram - Safe Commute Incident Management.
 
@@ -1962,16 +2066,80 @@ Database Diagram - Safe Commute Incident Management.
 
 **Community Intelligence**
 
-El modelo persiste ubicaciones geoespaciales como `night_services` y `risk_zones`. Para garantizar la confiabilidad comunitaria, se emplean las tablas transaccionales `service_validations` y `risk_zone_confirmations`, que evitan votos duplicados por parte del mismo trabajador. Las encuestas de los desplazamientos se almacenan en `route_ratings`.
+El modelo persiste ubicaciones geoespaciales como `services` y `risk_zones`. `services.time_zone` y la tabla `service_opening_intervals` permiten consultar la disponibilidad de establecimientos con atención diurna, nocturna o continua. Para garantizar la confiabilidad comunitaria, se emplean las tablas transaccionales `service_validations` y `risk_zone_confirmations`, que evitan votos duplicados por parte del mismo trabajador. Las encuestas de los desplazamientos se almacenan en `route_ratings`. Esta ampliación corresponde al diseño de persistencia propuesto; su implementación se documentará con las evidencias del desarrollo.
 
 Database Diagram - Community Intelligence.
 
-<img src="resources/imgs/commu.png"
-     style="">
+```mermaid
+erDiagram
+    services ||--|{ service_opening_intervals : defines
+    services ||--o{ service_validations : receives
+    risk_zones ||--o{ risk_zone_confirmations : receives
+    services {
+        uuid id PK
+        uuid reported_by
+        varchar name
+        varchar category
+        numeric latitude
+        numeric longitude
+        int verification_score
+        varchar status
+        varchar time_zone
+        timestamptz created_at
+        timestamptz updated_at
+    }
+    service_opening_intervals {
+        uuid id PK
+        uuid service_id FK
+        smallint day_of_week
+        time opens_at
+        time closes_at
+        boolean closes_next_day
+        boolean is_24_hours
+    }
+    service_validations {
+        uuid id PK
+        uuid service_id FK
+        uuid worker_id
+        boolean is_positive
+        timestamptz created_at
+    }
+    risk_zones {
+        uuid id PK
+        uuid reported_by
+        varchar risk_category
+        text description
+        numeric latitude
+        numeric longitude
+        varchar status
+        timestamptz reported_at
+        timestamptz expires_at "nullable"
+    }
+    risk_zone_confirmations {
+        uuid id PK
+        uuid risk_zone_id FK
+        uuid worker_id
+        boolean is_confirmed
+        timestamptz created_at
+    }
+    route_ratings {
+        uuid id PK
+        uuid commute_id
+        uuid worker_id
+        int safety_score
+        varchar lighting_quality "nullable"
+        text comments "nullable"
+        timestamptz created_at
+    }
+```
+
+`service_opening_intervals` traduce el objeto de valor `ServiceOpeningInterval` a persistencia. Sus columnas son obligatorias; `day_of_week` está entre 1 y 7 y `service_id` referencia a `services.id`. Un intervalo normal exige `closes_at > opens_at`; uno que cruza medianoche exige `closes_next_day = true` y `closes_at < opens_at`. Para atención continua se utiliza `is_24_hours = true`, con ambas horas en `00:00` y `closes_next_day = true`. No se admiten intervalos superpuestos del mismo servicio, incluso al cruzar el límite semanal, ni intervalos adicionales en un día cubierto por atención continua. `time_zone` es obligatoria y contiene una zona IANA válida, inicialmente `America/Lima`.
+
+Se mantienen las restricciones `UNIQUE(service_id, worker_id)` en `service_validations` y `UNIQUE(risk_zone_id, worker_id)` en `risk_zone_confirmations`. Los identificadores de trabajadores y trayectos son referencias lógicas a otros contextos. La búsqueda “Abierto ahora” combina el horario semanal con la fecha y hora consultadas en la zona del servicio, incluyendo intervalos iniciados el día anterior.
 
 **Sleep Health & Wellness**
 
-El modelo organiza la higiene del sueño separando el consolidado diario (`daily_sleep_logs`) de los periodos de descanso fraccionado (`sleep_sessions`). El sistema almacena en `hygiene_suggestions` las alertas emitidas por déficit de horas, las cuales se vinculan lógicamente al usuario que las recibe.
+El modelo organiza la higiene del sueño separando el consolidado diario (`daily_sleep_logs`) de los periodos de descanso diurno o nocturno, continuos o fraccionados (`sleep_sessions`). Los campos `start_time` y `end_time` incluyen fecha y hora y admiten fechas distintas, siempre que el fin sea posterior al inicio. Para evitar duplicar minutos al cruzar medianoche, el consolidado asigna cada sesión a la fecha local de inicio y conserva su duración completa. El sistema almacena en `hygiene_suggestions` las alertas emitidas por déficit de horas, las cuales se vinculan lógicamente al usuario que las recibe.
 
 Database Diagram - Sleep Health Wellness.
 
@@ -2534,7 +2702,7 @@ La siguiente tabla resume los aportes identificados en el historial de commits r
 *Figura 2. Historial de commits que registra aportes e integración de las funcionalidades desarrolladas durante el Sprint 2.*
 
 # Conclusiones 
-Identificación de un nicho desatendido y vulnerable: El proyecto identifica y atiende a un segmento de mercado que ha sido históricamente ignorado por las soluciones tecnológicas: los trabajadores de turno nocturno y sus contactos de confianza. El análisis y las entrevistas demuestran que las aplicaciones genéricas diseñadas para el horario diurno no logran resolver los riesgos de transitar de madrugada ni el aislamiento social que sufren estos trabajadores.
+Identificación de un nicho desatendido y vulnerable: El proyecto identifica y atiende a un segmento de mercado que ha sido históricamente ignorado por las soluciones tecnológicas: los trabajadores de turnos diurnos y nocturnos y sus contactos de confianza. El análisis y las entrevistas iniciales recogen los riesgos de transitar de madrugada y el aislamiento social de los trabajadores nocturnos; estos hallazgos orientan la propuesta para distintos horarios laborales.
 
 Solución integral y multifacética: Noxway no se limita a ser un simple botón de pánico, sino que propone un ecosistema tecnológico completo que aborda los principales puntos de dolor del usuario. Integra herramientas de seguridad activa (check-in de trayectos y alertas automáticas de posibles incidentes), inteligencia comunitaria (mapas de servicios 24h y reporte de zonas de riesgo) y monitoreo de la salud (bitácora de descanso y sueño).
 
