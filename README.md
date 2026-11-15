@@ -156,8 +156,21 @@ Se organizaron los aportes del equipo mediante ramas de funcionalidades y Pull R
   - [4.6.4. Software Architecture Components Diagrams](#464-software-architecture-components-diagrams)
   - [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
   - [4.7.1. Class Diagrams](#471-class-diagrams)
+    - [1. Identity \& Access Management (IAM) y Profiles \& Trust Network](#1-identity--access-management-iam-y-profiles--trust-network)
+    - [2. Safe Commute \& Incident Management](#2-safe-commute--incident-management)
+    - [3. Community Intelligence \& 24h Map](#3-community-intelligence--24h-map)
+    - [4. Sleep Health \& Wellness](#4-sleep-health--wellness)
+    - [5. Subscriptions, Offline Payments \& Referrals](#5-subscriptions-offline-payments--referrals)
+    - [6. Moderation \& Governance](#6-moderation--governance)
+    - [7. Integración entre Contextos mediante Fachadas ACL](#7-integración-entre-contextos-mediante-fachadas-acl)
   - [4.8. Database Design](#48-database-design)
     - [4.8.1. Database Diagrams](#481-database-diagrams)
+      - [1. Esquema Identidad, Cuentas y Red de Confianza](#1-esquema-identidad-cuentas-y-red-de-confianza)
+      - [2. Esquema Trayectos, Telemetría GPS y Alertas](#2-esquema-trayectos-telemetría-gps-y-alertas)
+      - [3. Esquema Puntos de Servicio 24h, Zonas de Riesgo y Avisos](#3-esquema-puntos-de-servicio-24h-zonas-de-riesgo-y-avisos)
+      - [4. Esquema Bitácora de Descanso e Higiene del Sueño](#4-esquema-bitácora-de-descanso-e-higiene-del-sueño)
+      - [5. Esquema Planes, Pagos Offline, Miembros y Referidos](#5-esquema-planes-pagos-offline-miembros-y-referidos)
+      - [6. Esquema Moderación y Gobernanza Comunitaria](#6-esquema-moderación-y-gobernanza-comunitaria)
 - [Capítulo V: Product Implementation, Validation \& Deployment](#capítulo-v-product-implementation-validation--deployment)
   - [5.1. Software Configuration Management.](#51-software-configuration-management)
     - [5.1.1. Software Development Environment Configuration.](#511-software-development-environment-configuration)
@@ -1942,287 +1955,126 @@ El diseño orientado a objetos se organiza de acuerdo con los Bounded Contexts i
 
 ## 4.7.1. Class Diagrams
 
-**Identity & Network Management**
+A continuación se presentan los diagramas de clases correspondientes a la arquitectura integral del sistema y a cada uno de los Bounded Contexts implementados en el platform backend de Noxway.
 
-El modelo concentra la abstracción `User`, de la cual heredan los roles específicos `Worker` y `TrustedContact`. `TrustLink` modela la clase de asociación que representa el vínculo de acompañamiento seguro entre un trabajador y su contacto de confianza, encapsulando su estado y vigencia.
 
-Class Diagram - Identity & Network Management.
+### 1. Identity & Access Management (IAM) y Profiles & Trust Network
 
-<img src="resources/imgs/ia-m.png"
-     style="">
+En el backend, este ámbito se descompone en dos contextos altamente cohesivos:
+- **`com.noctiva.noxway.iam`**: Gestiona las credenciales criptográficas, la creación y revocación de tokens y sesiones (`AuthSession`), los tokens de restablecimiento de contraseña (`PasswordResetToken`) y la resolución del contexto del actor activo (`Actor`) mediante la fachada `IamContextFacade`.
+- **`com.noctiva.noxway.profiles`**: Modela a los usuarios del sistema a través del agregado `UserAccount`, gestionando sus datos demográficos, rol (`WORKER`, `TRUSTED_CONTACT`, `MODERATOR`, `ADMIN`), horario de turno laboral (`DAY`, `NIGHT`, `ROTATING`), horas de inicio y fin de turno, y zona horaria IANA. La red de confianza de acompañamiento seguro se gestiona mediante `TrustLink`, un agregado con máquina de estados finita (`PENDING`, `ACCEPTED`, `REJECTED`, `REVOKED`) que impide auto-invitaciones (`workerId <> contactId`). Además, `NotificationPreference` administra la configuración de alertas por canal (`EMAIL`, `SMS`, `WHATSAPP`) y ventana de horario prioritario.
 
-**Safe Commute & Incident Management**
+![Diagrama de clase](resources/imgs/iamdc.png)
 
-`Commute` representa el núcleo del ciclo de vida del trayecto y se relaciona fuertemente con `TelemetryPing` mediante composición para registrar la ubicación y velocidad. `SafetyIncident` modela las situaciones de riesgo o demoras generadas durante el trayecto, interactuando con `NotificationPreference` para escalar las alertas a los canales correspondientes. `startTime` y `estimatedArrivalTime` incluyen fecha y hora: el trayecto puede iniciarse de día o de noche y continuar al día siguiente sin cerrarse a medianoche. La evaluación del margen de tolerancia depende del tiempo transcurrido y del estado del trayecto, no del turno laboral.
+![Diagrama de clase](resources/imgs/profilesdc.png)
 
-Class Diagram - Safe Commute Incident Management.
+### 2. Safe Commute & Incident Management 
 
-<img src="resources/imgs/incide.png"
-     alt="Class Diagram - Safe Commute and Incident Management"
-     style="">
+El contexto de trayectos y acompañamiento administra el ciclo de vida del desplazamiento del trabajador nocturno o diurno:
+- `Commute` actúa como agregado raíz principal. Registra origen, destino, modo de transporte (`BUS`, `WALKING`, `TAXI`, etc.), hora de inicio (`startTime`) y hora estimada de llegada (`estimatedArrivalTime`), las cuales incluyen fecha y hora para garantizar el soporte de trayectos que cruzan la medianoche. Administra una tolerancia en minutos (`toleranceMinutes`, entre 0 y 120) y transita entre estados (`IN_PROGRESS`, `ARRIVED`, `OVERDUE`, `CANCELLED`).
+- `TelemetryPing` almacena la telemetría periódica GPS (latitud, longitud, velocidad y marca de tiempo).
+- `SafetyIncident` modela incidentes de emergencia reportados por el usuario o detectados por vencimiento de tolerancia (`OVERDUE`), manteniendo su ciclo de vida (`OPEN`, `RESOLVED`).
+- `AlertNotification` gestiona la cola de despacho de alertas hacia los contactos de confianza vinculados (`TrustLink`), registrando canal, intentos y confirmación de entrega.
 
-**Community Intelligence**
+![Diagrama de clase](resources/imgs/commutingdc.png)
 
-`CommunityMap` actúa como la entidad agregadora para la consulta espacial. `ServicePoint` representa los servicios verificados con atención diurna, nocturna o continua, sin restringirlos a establecimientos de 24 horas. Cada servicio conserva su zona horaria y sus intervalos semanales de atención mediante el objeto de valor `ServiceOpeningInterval`, para determinar si está abierto en el momento consultado. `RiskZone` modela los puntos de peligro reportados y `RouteRating` registra la calificación de seguridad asignada a las rutas una vez finalizado el desplazamiento.
+### 3. Community Intelligence & 24h Map
 
-Class Diagram - Community Intelligence.
+El contexto comunitario proporciona inteligencia ciudadana y georreferenciación de soporte nocturno:
+- `ServicePoint`: Representa establecimientos y puntos de asistencia (farmacias, gasolineras, hospitales, comisarías, talleres). Modela su ubicación geoespacial (`latitude`, `longitude`), zona horaria IANA (`America/Lima`), estado de moderación (`PENDING`, `APPROVED`, `REJECTED`) y puntaje de confianza (`trustScore`).
+- `ServiceOpeningInterval`: Modela los horarios semanales por día (`dayOfWeek` de 1 a 7), admitiendo atención continua (`open24Hours = true`) e intervalos que cierran al día siguiente (`closesNextDay = true`).
+- `ServiceVote`: Registra las votaciones ciudadanas positivas (+1) o negativas (-1), imponiendo restricción única por cuenta de usuario y establecimiento.
+- `RiskZone`: Modela puntos y tramos inseguros reportados por la comunidad, categorizados por nivel de riesgo (`LOW`, `MEDIUM`, `HIGH`).
+- `RouteRating`: Permite a los trabajadores calificar la seguridad de su ruta (puntaje de 1 a 5, calidad de iluminación y comentarios) únicamente una vez completado el trayecto (`ARRIVED`), validado mediante `CommuteVerificationFacade`.
+- `CommunityPost`: Permite emitir avisos y alertas públicas geoetiquetadas con categoría, distrito, coordenadas y contenido descriptivo.
 
-```mermaid
-classDiagram
-    direction TB
-    class CommunityMap {
-        <<AggregateRoot>>
-        -UUID mapId
-        -String currentRegion
-        +loadActiveServices(Float radius, DateTime referenceTime) List~ServicePoint~
-        +loadRiskZones(Float radius) List~RiskZone~
-        +registerServicePoint(ServicePoint newService) void
-        +reportRiskZone(RiskZone newZone) void
-    }
-    class ServicePoint {
-        <<Entity>>
-        -UUID serviceId
-        -String name
-        -ServiceType type
-        -Float latitude
-        -Float longitude
-        -Integer trustScore
-        -Boolean isVerified
-        -String timeZone
-        +upvote() void
-        +downvote() void
-        +verifyStatus() Boolean
-        +isOpenAt(DateTime referenceTime) Boolean
-    }
-    class ServiceOpeningInterval {
-        <<ValueObject>>
-        -Integer dayOfWeek
-        -LocalTime opensAt
-        -LocalTime closesAt
-        -Boolean closesNextDay
-        -Boolean is24Hours
-    }
-    class RiskZone {
-        <<Entity>>
-        -UUID zoneId
-        -String description
-        -RiskLevel riskLevel
-        -Float latitude
-        -Float longitude
-        -DateTime reportedAt
-        +confirmRisk() void
-        +resolveRisk() void
-    }
-    class RouteRating {
-        <<Entity>>
-        -UUID ratingId
-        -UUID commuteId
-        -Integer score
-        -String comments
-        -DateTime createdAt
-        +submitRating() void
-    }
-    class ServiceType {
-        <<enumeration>>
-        PHARMACY
-        GAS_STATION
-        HOSPITAL
-        POLICE_STATION
-    }
-    class RiskLevel {
-        <<enumeration>>
-        LOW
-        MEDIUM
-        HIGH
-    }
-    class ServicePointReported {
-        <<DomainEvent>>
-        +UUID serviceId
-        +UUID reportedBy
-        +DateTime timestamp
-    }
-    class DangerSpotReported {
-        <<DomainEvent>>
-        +UUID zoneId
-        +String riskLevel
-        +DateTime timestamp
-    }
-    class RouteSafetyRated {
-        <<DomainEvent>>
-        +UUID commuteId
-        +Integer score
-        +DateTime timestamp
-    }
-    CommunityMap "1" --> "0..*" ServicePoint : displays
-    CommunityMap "1" --> "0..*" RiskZone : displays
-    CommunityMap "1" o-- "0..*" RouteRating : aggregates
-    ServicePoint "1" *-- "1..*" ServiceOpeningInterval : opening hours
-    ServicePoint --> ServiceType : type
-    RiskZone --> RiskLevel : risk level
-    CommunityMap ..> ServicePointReported : generates
-    CommunityMap ..> DangerSpotReported : generates
-    CommunityMap ..> RouteSafetyRated : generates
-```
+![Diagrama de clase](resources/imgs/communitydc.png)
 
-Los horarios se expresan en la zona horaria del establecimiento, inicialmente `America/Lima`. `dayOfWeek` identifica el día de apertura (1 = lunes, 7 = domingo); se admiten varios intervalos por día y la ausencia de intervalos indica cierre. `closesNextDay` permite representar, por ejemplo, una apertura del lunes a las 22:00 con cierre el martes a las 06:00. `is24Hours` identifica atención continua durante ese día. Las consultas consideran también los intervalos iniciados el día anterior; no se deduce disponibilidad únicamente de la categoría o del turno del trabajador.
+### 4. Sleep Health & Wellness 
 
-**Sleep Health & Wellness**
+El contexto de bienestar atiende la higiene del sueño del trabajador diurno, nocturno o de turnos rotativos:
+- `RestSession`: Agregado que registra sesiones individuales de descanso. Sus atributos `startTime` y `endTime` conservan la fecha y hora completas, admitiendo sesiones transnocturnas que cruzan la medianoche. El modelo valida estrictamente la regla invariante de no solapamiento temporal (`end_time > start_time`) y no permite registrar descansos en instantes futuros. Incluye calificación de calidad percibida (1 a 5) y notas de fatiga.
+- `SleepGoal`: Agregado que almacena la meta diaria personalizada de sueño del trabajador (entre 60 y 1440 minutos / 1 a 24 horas). Permite proyectar en las consultas el déficit o superávit acumulado frente a las sesiones registradas en la semana.
 
-`SleepLog` representa el registro agregado diario de metas y déficits de sueño, mientras que `RestSession` registra periodos individuales de descanso diurno o nocturno, continuos o fragmentados. Sus valores `startTime` y `endTime` incluyen fecha y hora y permiten que una sesión termine al día siguiente; la duración se calcula entre ambos instantes y no se reinicia a medianoche. `HygieneSuggestion` modela las recomendaciones emitidas por el sistema en función del nivel de fatiga detectado en el trabajador de turno diurno o nocturno.
+![Diagrama de clase](resources/imgs/wellnessdc.png)
 
-Class Diagram - Sleep Health Wellness.
+### 5. Subscriptions, Offline Payments & Referrals 
 
-<img src="resources/imgs/sleep.png"
-     style="">
+Gestiona el modelo de negocio freemium, monetización, pagos offline y crecimiento viral:
+- `SubscriptionPlan` (`Plan`): Catálogo de planes de suscripción (`ESSENTIAL`, `SENTINEL_PRO`, `FAMILY_CREW`) con tarifa mensual, límite de contactos de confianza permitidos (`maxContacts`: 1 para Esencial, 5 para Pro/Familiar) y límite de trabajadores en cuadrilla (`maxWorkers`).
+- `Subscription`: Membresía activa del usuario, controlando su estado (`ACTIVE`, `PENDING_PAYMENT`, `CANCELLED`, `EXPIRED`) y ventana de vigencia (`startsAt`, `endsAt`).
+- `SubscriptionMember`: Permite a trabajadores unirse a una membresía corporativa o familiar (`FAMILY_CREW`) gestionando invitaciones y cupos.
+- `SubscriptionPayment` (`PaymentTransaction`): Registro auditable de pagos offline (Yape, Plin, transferencia bancaria) con número de operación/referencia único, validado y conciliado por un administrador (`confirmOffline`, `reject`).
+- `CollectiveBenefit` & `BenefitClaim`: Catálogo de beneficios y convenios de seguros/descuentos asociados al plan del usuario, con generación de códigos canjeables.
+- `ReferralCode`, `ReferralUse` & `ReferralReward`: Motor de recomendación y crecimiento por referidos. Otorga días adicionales de membresía gratuita tanto al usuario que invita como al invitado al concretar una suscripción.
 
-**Subscriptions & Collective Benefits**
+![Diagrama de clase](resources/imgs/subscriptionsdc.png)
 
-`Subscription` representa el plan (Esencial, Centinela Pro, etc.) activo de un trabajador, el cual genera registros en `PaymentTransaction` por su facturación recurrente. `CollectiveBenefit` modela los seguros y convenios habilitados, mientras que `ReferralCode` administra la lógica del programa de crecimiento por referidos.
+### 6. Moderation & Governance 
 
-Class Diagram - Subscriptions Collective Benefits.
+Garantiza la seguridad y confiabilidad del ecosistema Noxway mediante moderación humana:
+- `ModerationReport` (`CommunityReport`): Cola de reportes sobre puntos de servicio o zonas de riesgo reportadas por los usuarios. Almacena el tipo de entidad objetivo (`SERVICE_POINT`, `RISK_ZONE`), el identificador del objetivo, el motivo y el estado (`PENDING`, `APPROVED`, `REJECTED`).
+- `ModerationAction`: Registro auditable inmutable de las decisiones administrativas emitidas por los moderadores (`APPROVE`, `REJECT`), notas justificatorias, identificador del moderador y marca de tiempo (`decidedAt`). Comunica el veredicto hacia el contexto comunitario mediante `CommunityTargetGovernanceFacade`.
 
-<img src="resources/imgs/subs.png"
-     style="">
+![Diagrama de clase](resources/imgs/moderationdc.png)
 
-**Moderation & Governance**
+### 7. Integración entre Contextos mediante Fachadas ACL
 
-`ModerationQueue` representa la bandeja de tareas de los moderadores del sistema. `CommunityReport` modela de forma abstracta los elementos enviados por los usuarios y `ModerationAction` mantiene el registro auditable de las decisiones (aprobación o rechazo) aplicadas sobre dichos reportes.
+Para evitar dependencias directas de persistencia o llamadas acopladas entre dominios, la comunicación entre Bounded Contexts se rige exclusivamente por interfaces ACL (`interfaces.acl`):
 
-Class Diagram - Moderation Governance.
-
-<img src="resources/imgs/moderation.png"
-     style="">
-
----
+| Facade Expuesta (`interfaces.acl`) | Contexto Proveedor | Contextos Consumidores | Responsabilidad Arquitectónica |
+|---|---|---|---|
+| `IamContextFacade` | `iam` | Todos los contextos | Resuelve el `Actor(id, role)` autenticado desde la cabecera `X-Actor-Id` o token JWT de sesión. |
+| `ProfileDirectoryFacade` | `profiles` | `commuting`, `community`, `subscriptions` | Consulta nombres, correos y la lista de IDs de contactos de confianza activos (`TrustLink`). |
+| `SubscriptionAllowanceFacade` | `subscriptions` | `profiles` | Valida el límite máximo de contactos de confianza permitidos según el plan contratado (`ESSENTIAL`: 1, `SENTINEL_PRO` / `FAMILY_CREW`: 5). |
+| `CommuteVerificationFacade` | `commuting` | `community` | Valida que un trayecto exista, pertenezca al trabajador y se encuentre en estado `ARRIVED` antes de admitir su calificación en `RouteRating`. |
+| `ModerationQueueFacade` | `moderation` | `community` | Encola de forma asíncrona nuevos `ServicePoint` y `RiskZone` para su evaluación por moderadores. |
+| `CommunityTargetGovernanceFacade` | `community` | `moderation` | Aplica formalmente la decisión de aprobación o rechazo del moderador sobre el punto o zona evaluada. |
 
 ## 4.8. Database Design
 
-El diseño de base de datos utiliza PostgreSQL como DBMS relacional y conserva la separación lógica establecida por los Bounded Contexts identificados en el Design-Level EventStorming. Se ha considerado el soporte de PostGIS para los esquemas que requieren consultas espaciales (latitud y longitud).
+El diseño de persistencia de Noxway utiliza **PostgreSQL** como sistema de gestión de base de datos relacional (RDBMS), configurado para alta disponibilidad y preparado para indexación espacial mediante PostGIS. La estructura física de la base de datos se gestiona de manera automatizada y reproducible mediante migraciones versionadas de **Flyway** (`V1__bounded_context_schemas.sql` a `V5__community_post_category_location.sql`), alcanzando un total de **29 tablas** físicas (28 tablas de negocio distribuidas en 6 esquemas más la tabla de historial de migraciones en `public`).
 
-Se utiliza lowercase_snake_case para tablas y columnas, UUID para identificadores, TIMESTAMPTZ para instantes que representan un momento real en el tiempo, DATE para fechas sin componente horario y NUMERIC para valores exactos. Los diagramas especifican claves primarias, claves foráneas internas, restricciones de unicidad, nulabilidad y reglas CHECK necesarias para mantener la integridad de los datos.
-
-Las relaciones internas de cada Bounded Context se representan mediante claves foráneas. Cuando una entidad necesita identificar información administrada por otro contexto, se conserva únicamente el identificador como referencia lógica, evitando introducir dependencias de persistencia que mezclen responsabilidades de dominio.
 
 ### 4.8.1. Database Diagrams
 
-**Identity & Network Management**
+A continuación se presentan los diagramas entidad-relación detallados por cada esquema de base de datos implementado en la plataforma:
 
-El modelo persiste las cuentas en `users` y su información demográfica en `user_profiles`. El control de acceso se maneja a través de `roles` y `user_roles`. Los dispositivos móviles se registran en `user_devices` para posibilitar el envío de notificaciones push. La creación de la red de acompañamiento utiliza `trust_invitations` para gestionar los tokens enviados externamente y `trust_links` para consolidar el vínculo aceptado.
+#### 1. Esquema Identidad, Cuentas y Red de Confianza
 
-Database Diagram - Identity & Network Management.
+Persiste la identidad de los usuarios, las sesiones de autenticación, la red de contactos de confianza y las preferencias de canales de notificación:
 
-<img src="resources/imgs/iden.png"
-     style="">
+![Diagrama de base de datos](resources/imgs/iamdb.png)
 
-**Safe Commute & Incident Management**
+#### 2. Esquema Trayectos, Telemetría GPS y Alertas
 
-El modelo persiste los trayectos en la tabla `commutes`, complementada por `commute_checkpoints` para trazar los hitos de la ruta. `start_time` y `estimated_arrival` conservan la fecha y hora completas para desplazamientos diurnos o nocturnos que pueden cruzar medianoche; la llegada estimada debe ser posterior al inicio. La telemetría de alto volumen se aísla en `telemetry_pings`. Las anomalías generan registros en `safety_incidents`, los cuales mantienen su ciclo de vida y disparan registros de auditoría de notificaciones en `incident_alerts`.
+Almacena la ejecución de trayectos de ida o retorno laboral, el flujo continuo de pings de telemetría GPS a alta velocidad, incidentes SOS y el despacho de notificaciones a los contactos de confianza:
 
-Database Diagram - Safe Commute Incident Management.
+![Diagrama de base de datos](resources/imgs/commutedb.png)
 
-<img src="resources/imgs/comu.png"
-     style="">
+#### 3. Esquema Puntos de Servicio 24h, Zonas de Riesgo y Avisos
 
-**Community Intelligence**
+Persiste la infraestructura comunitaria georreferenciada para acompañamiento nocturno, horarios semanales, votos de confianza ciudadana, advertencias de riesgo, valoraciones de rutas y avisos por distrito:
 
-El modelo persiste ubicaciones geoespaciales como `services` y `risk_zones`. `services.time_zone` y la tabla `service_opening_intervals` permiten consultar la disponibilidad de establecimientos con atención diurna, nocturna o continua. Para garantizar la confiabilidad comunitaria, se emplean las tablas transaccionales `service_validations` y `risk_zone_confirmations`, que evitan votos duplicados por parte del mismo trabajador. Las encuestas de los desplazamientos se almacenan en `route_ratings`. Esta ampliación corresponde al diseño de persistencia propuesto; su implementación se documentará con las evidencias del desarrollo.
+![Diagrama de base de datos](resources/imgs/communitydb.png)
 
-Database Diagram - Community Intelligence.
+#### 4. Esquema Bitácora de Descanso e Higiene del Sueño
 
-```mermaid
-erDiagram
-    services ||--|{ service_opening_intervals : defines
-    services ||--o{ service_validations : receives
-    risk_zones ||--o{ risk_zone_confirmations : receives
-    services {
-        uuid id PK
-        uuid reported_by
-        varchar name
-        varchar category
-        numeric latitude
-        numeric longitude
-        int verification_score
-        varchar status
-        varchar time_zone
-        timestamptz created_at
-        timestamptz updated_at
-    }
-    service_opening_intervals {
-        uuid id PK
-        uuid service_id FK
-        smallint day_of_week
-        time opens_at
-        time closes_at
-        boolean closes_next_day
-        boolean is_24_hours
-    }
-    service_validations {
-        uuid id PK
-        uuid service_id FK
-        uuid worker_id
-        boolean is_positive
-        timestamptz created_at
-    }
-    risk_zones {
-        uuid id PK
-        uuid reported_by
-        varchar risk_category
-        text description
-        numeric latitude
-        numeric longitude
-        varchar status
-        timestamptz reported_at
-        timestamptz expires_at "nullable"
-    }
-    risk_zone_confirmations {
-        uuid id PK
-        uuid risk_zone_id FK
-        uuid worker_id
-        boolean is_confirmed
-        timestamptz created_at
-    }
-    route_ratings {
-        uuid id PK
-        uuid commute_id
-        uuid worker_id
-        int safety_score
-        varchar lighting_quality "nullable"
-        text comments "nullable"
-        timestamptz created_at
-    }
-```
+Persiste el seguimiento temporal de descanso individual y los objetivos de reposo de los trabajadores:
 
-`service_opening_intervals` traduce el objeto de valor `ServiceOpeningInterval` a persistencia. Sus columnas son obligatorias; `day_of_week` está entre 1 y 7 y `service_id` referencia a `services.id`. Un intervalo normal exige `closes_at > opens_at`; uno que cruza medianoche exige `closes_next_day = true` y `closes_at < opens_at`. Para atención continua se utiliza `is_24_hours = true`, con ambas horas en `00:00` y `closes_next_day = true`. No se admiten intervalos superpuestos del mismo servicio, incluso al cruzar el límite semanal, ni intervalos adicionales en un día cubierto por atención continua. `time_zone` es obligatoria y contiene una zona IANA válida, inicialmente `America/Lima`.
+![Diagrama de base de datos](resources/imgs/wellnessdb.png)
 
-Se mantienen las restricciones `UNIQUE(service_id, worker_id)` en `service_validations` y `UNIQUE(risk_zone_id, worker_id)` en `risk_zone_confirmations`. Los identificadores de trabajadores y trayectos son referencias lógicas a otros contextos. La búsqueda “Abierto ahora” combina el horario semanal con la fecha y hora consultadas en la zona del servicio, incluyendo intervalos iniciados el día anterior.
+#### 5. Esquema Planes, Pagos Offline, Miembros y Referidos
 
-**Sleep Health & Wellness**
+Gestiona las membresías comerciales, los miembros de cuadrilla (`FAMILY_CREW`), transacciones de pago offline con recibos únicos, beneficios institucionales y el programa viral de recompensas por referidos:
 
-El modelo organiza la higiene del sueño separando el consolidado diario (`daily_sleep_logs`) de los periodos de descanso diurno o nocturno, continuos o fraccionados (`sleep_sessions`). Los campos `start_time` y `end_time` incluyen fecha y hora y admiten fechas distintas, siempre que el fin sea posterior al inicio. Para evitar duplicar minutos al cruzar medianoche, el consolidado asigna cada sesión a la fecha local de inicio y conserva su duración completa. El sistema almacena en `hygiene_suggestions` las alertas emitidas por déficit de horas, las cuales se vinculan lógicamente al usuario que las recibe.
+![Diagrama de base de datos](resources/imgs/subscriptiondb.png)
 
-Database Diagram - Sleep Health Wellness.
+#### 6. Esquema Moderación y Gobernanza Comunitaria
 
-<img src="resources/imgs/health.png"
-     style="">
+Administra la cola de reportes ciudadanos y la auditoría de revisiones administrativas sobre puntos de servicio y zonas de riesgo:
 
-**Subscriptions & Collective Benefits**
-
-El modelo persiste el catálogo de servicios en `subscription_plans`. La tabla `subscriptions` mantiene el estado de membresía del usuario, apoyándose en `payment_transactions` para el historial de facturación. Los convenios de seguros y descuentos se guardan en `collective_benefits`. El esquema de fidelización emplea `referral_codes` y audita sus canjes mediante `referral_usages`.
-
-Database Diagram - Subscriptions Payment Management.
-
-<img src="resources/imgs/sub.png"
-     style="">
-
-**Moderation & Governance**
-
-El modelo implementa un diseño polimórfico en `moderation_tasks` (`entity_type` y `entity_id`) para centralizar en una sola cola los reportes de distintos orígenes. Las decisiones tomadas por los moderadores generan una pista de auditoría inmutable en `moderation_logs` para sustentar cualquier aprobación o rechazo.
-
-Database Diagram - Moderation Governance.
-
-<img src="resources/imgs/mode.png"
-     style="">
-
+![Diagrama de base de datos](resources/imgs/moderationdb.png)
 
 # Capítulo V: Product Implementation, Validation & Deployment  
 
