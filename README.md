@@ -3079,18 +3079,18 @@ A continuación, se presenta el consolidado en video y el registro detallado de 
 
 ##### Entrevista de Validación #1 – Segmento 1
 
-| Campo | Detalle |
-| :--- | :--- |
-| **Nombres y Apellidos** | Luis Mendoza Miranda |
-| **Edad** | 32 años |
-| **Distrito** | San Martín de Porres |
+| Campo | Detalle                                                                                               |
+| :--- |:------------------------------------------------------------------------------------------------------|
+| **Nombres y Apellidos** | Luis Mendoza Miranda                                                                                  |
+| **Edad** | 32 años                                                                                               |
+| **Distrito** | San Martín de Porres                                                                                  |
 | **Segmento Objetivo** | Trabajadores de Turno Nocturno (Agente de seguridad privada – ruta San Isidro a San Martín de Porres) |
-| **Fecha de entrevista** | 14/11/2026 |
-| **URL del Video (Stream)** | `[Colocar URL de Microsoft Stream]` |
-| **Timing de Inicio** | `00:00` |
-| **Duración** | `04:15` |
+| **Fecha de entrevista** | 14/11/2026                                                                                            |
+| **URL del Video (Stream)** | https://shorturl.at/F0VOy                                                                             |
+| **Timing de Inicio** | `00:00`                                                                                               |
+| **Duración** | `03:58`                                                                                               |
 
-![Captura Entrevista 1 - Luis Mendoza Miranda](path/to/screenshot-validation-1.png)
+![Captura Entrevista 1 - Luis Mendoza Miranda](resources/imgs/S1-entrevistaNoxway.png)
 
 **Resumen descriptivo de apreciaciones:**
 Durante la sesión de validación, Luis Mendoza Miranda interactuó inicialmente con el **Landing Page**, señalando que desde el primer vistazo se comprende que la plataforma está pensada para quienes trabajan de madrugada y que las tarjetas informativas junto con los precios en soles (como el plan *Centinela Pro*) permiten ingresar de forma directa a la aplicación web mediante el botón principal. Al ejecutar el flujo de inicio de ruta en la vista `Mi Trayecto`, destacó la rapidez para registrar su punto de partida en San Isidro hacia su domicilio en San Martín de Porres al salir cansado de su turno de seguridad privada, resaltando además que el botón rojo de `Estado SOS` permanece visible en todo momento en la esquina inferior izquierda, lo que brinda tranquilidad en recorridos largos. En la prueba del `Mapa 24h` y `Comunidad`, calificó como excelente el filtro de establecimientos abiertos las 24 horas para ubicar grifos o locales seguros en ruta, así como el filtrado por distritos (San Isidro y San Martín de Porres) para revisar avisos sobre calles oscuras o patrullaje activo. Respecto a `Bienestar & Sueño` y `Beneficios & Planes`, valoró el gráfico semanal para organizar su descanso tras las guardias nocturnas, las opciones de descuentos y la rapidez para invitar a un familiar por correo en `Contactos Confianza`. Finalmente, destacó el alivio visual del modo `Noche` y la respuesta inmediata del cambio de idioma (`ES`/`EN`), sugiriendo como mejora poder guardar rutas habituales (como "San Isidro - San Martín de Porres") para activarlas con un solo toque al salir del trabajo.
