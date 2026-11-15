@@ -91,6 +91,9 @@ Se organizaron los aportes del equipo mediante ramas de funcionalidades y Pull R
   - [1.1. Startup Profile](#11-startup-profile)
     - [1.1.1 Descripción de la Startup](#111-descripción-de-la-startup)
     - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+  - [| **Foto** |                             |](#-foto------------------------------)
+  - [| **Foto** | |](#-foto--)
+  - [| **Foto** |                              |](#-foto-------------------------------)
   - [1.2. Solution Profile](#12-solution-profile)
     - [1.2.1 Antecedentes y problemática](#121-antecedentes-y-problemática)
     - [1.2.2 Lean UX Process.](#122-lean-ux-process)
@@ -119,8 +122,12 @@ Se organizaron los aportes del equipo mediante ramas de funcionalidades y Pull R
   - [2.5. Ubiquitous Language.](#25-ubiquitous-language)
 - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
   - [3.1. User Stories.](#31-user-stories)
+  - [| **EP-16** | **Suscripciones, Conciliación de Pagos Offline y Beneficios (`subscriptions`)** | Como Developer, deseo habilitar endpoints RESTful para gestionar suscripciones a planes, conciliar órdenes de pago offline sin duplicidad y registrar el canje de cupones colectivos, para soportar la monetización y fidelización del modelo de negocio. | **Escenario 1: Activación de planes y control de referencias de pago****Dado** que un trabajador solicita un plan o beneficio en `/api/v1/subscriptions` o `/api/v1/benefits`, **cuando** se procesa el pago o reclamo de cupón, **entonces** el API garantiza la unicidad del comprobante y actualiza las coberturas del usuario. | - |](#-ep-16--suscripciones-conciliación-de-pagos-offline-y-beneficios-subscriptions--como-developer-deseo-habilitar-endpoints-restful-para-gestionar-suscripciones-a-planes-conciliar-órdenes-de-pago-offline-sin-duplicidad-y-registrar-el-canje-de-cupones-colectivos-para-soportar-la-monetización-y-fidelización-del-modelo-de-negocio--escenario-1-activación-de-planes-y-control-de-referencias-de-pagodado-que-un-trabajador-solicita-un-plan-o-beneficio-en-apiv1subscriptions-o-apiv1benefits-cuando-se-procesa-el-pago-o-reclamo-de-cupón-entonces-el-api-garantiza-la-unicidad-del-comprobante-y-actualiza-las-coberturas-del-usuario----)
+- [Historias de Usuario - Noxway](#historias-de-usuario---noxway)
+  - [| **US-30** | Moderar comunidad | Como moderador (Noxway), quiero auditar zonas y servicios reportados para evitar spam o "trolls", manteniendo el prestigio de los datos comunitarios frente a nuevos usuarios. | **Escenario 1:** Dado que ve un reporte pendiente, Cuando pulsa "Aprobar", Entonces el punto se publica a todos.**Escenario 2:** Dado que es un reporte vacío o de broma, Cuando pulsa "Rechazar", Entonces desaparece y el usuario generador pierde "Trust Score". | EP-10 |](#-us-30--moderar-comunidad--como-moderador-noxway-quiero-auditar-zonas-y-servicios-reportados-para-evitar-spam-o-trolls-manteniendo-el-prestigio-de-los-datos-comunitarios-frente-a-nuevos-usuarios--escenario-1-dado-que-ve-un-reporte-pendiente-cuando-pulsa-aprobar-entonces-el-punto-se-publica-a-todosescenario-2-dado-que-es-un-reporte-vacío-o-de-broma-cuando-pulsa-rechazar-entonces-desaparece-y-el-usuario-generador-pierde-trust-score--ep-10-)
   - [3.2. Impact Mapping.](#32-impact-mapping)
   - [3.3. Product Backlog.](#33-product-backlog)
+  - [| 50 | US-03 | Recuperación de contraseña | Como usuario, quiero solicitar la recuperación de mi contraseña para restablecer mi acceso sin fricciones, reduciendo la tasa de abandono temporal de la plataforma. | 2 |](#-50--us-03--recuperación-de-contraseña--como-usuario-quiero-solicitar-la-recuperación-de-mi-contraseña-para-restablecer-mi-acceso-sin-fricciones-reduciendo-la-tasa-de-abandono-temporal-de-la-plataforma--2-)
 - [Capítulo IV: Product Design](#capítulo-iv-product-design)
   - [4.1. Style Guidelines.](#41-style-guidelines)
     - [4.1.1. General Style Guidelines.](#411-general-style-guidelines)
@@ -175,7 +182,39 @@ Se organizaron los aportes del equipo mediante ramas de funcionalidades y Pull R
       - [5.2.2.6.Services Documentation Evidence for Sprint Review.](#5226services-documentation-evidence-for-sprint-review)
       - [5.2.2.7.Software Deployment Evidence for Sprint Review.](#5227software-deployment-evidence-for-sprint-review)
       - [5.2.2.8.Team Collaboration Insights during Sprint.](#5228team-collaboration-insights-during-sprint)
+    - [5.2.3. Sprint 3](#523-sprint-3)
+      - [5.2.3.1. Sprint Planning 3.](#5231-sprint-planning-3)
+      - [5.2.3.2. Aspect Leaders and Collaborators.](#5232-aspect-leaders-and-collaborators)
+      - [5.2.3.3. Sprint Backlog 3.](#5233-sprint-backlog-3)
+      - [5.2.3.4. Development Evidence for Sprint Review.](#5234-development-evidence-for-sprint-review)
+      - [5.2.3.5. Execution Evidence for Sprint Review.](#5235-execution-evidence-for-sprint-review)
+      - [5.2.3.6. Services Documentation Evidence for Sprint Review.](#5236-services-documentation-evidence-for-sprint-review)
+      - [5.2.3.7. Software Deployment Evidence for Sprint Review.](#5237-software-deployment-evidence-for-sprint-review)
+      - [5.2.3.8. Team Collaboration Insights during Sprint.](#5238-team-collaboration-insights-during-sprint)
+  - [5.3. Validation Interviews](#53-validation-interviews)
+    - [5.3.1. Diseño de entrevistas](#531-diseño-de-entrevistas)
+      - [Estructura de la sesión de validación](#estructura-de-la-sesión-de-validación)
+      - [Segmento Objetivo 1: Trabajadores de Turno Nocturno y Rotativo (*Night \& Rotating Shift Workers*)](#segmento-objetivo-1-trabajadores-de-turno-nocturno-y-rotativo-night--rotating-shift-workers)
+      - [Segmento Objetivo 2: Contactos de Confianza y Familiares (*Trusted Contacts / Family Companions*)](#segmento-objetivo-2-contactos-de-confianza-y-familiares-trusted-contacts--family-companions)
+    - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
+      - [Segmento Objetivo 1: Trabajadores de Turno Nocturno](#segmento-objetivo-1-trabajadores-de-turno-nocturno)
+        - [Entrevista de Validación #1 – Segmento 1](#entrevista-de-validación-1--segmento-1)
+        - [Entrevista de Validación #2 – Segmento 1](#entrevista-de-validación-2--segmento-1)
+        - [Entrevista de Validación #3 – Segmento 1](#entrevista-de-validación-3--segmento-1)
+      - [Segmento Objetivo 2: Contactos de Confianza](#segmento-objetivo-2-contactos-de-confianza)
+        - [Entrevista de Validación #4 – Segmento 2](#entrevista-de-validación-4--segmento-2)
+        - [Entrevista de Validación #5 – Segmento 2](#entrevista-de-validación-5--segmento-2)
+        - [Entrevista de Validación #6 – Segmento 2](#entrevista-de-validación-6--segmento-2)
+    - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
+      - [UX Heuristics \& Principles Evaluation: Usability - Inclusive Design - Information Architecture](#ux-heuristics--principles-evaluation-usability---inclusive-design---information-architecture)
+        - [PROBLEMA #1: Ausencia de atajos de rutas habituales al iniciar un desplazamiento en `Mi Trayecto`](#problema-1-ausencia-de-atajos-de-rutas-habituales-al-iniciar-un-desplazamiento-en-mi-trayecto)
+        - [PROBLEMA #2: Imposibilidad de adjuntar evidencia fotográfica al publicar un aviso en `Comunidad`](#problema-2-imposibilidad-de-adjuntar-evidencia-fotográfica-al-publicar-un-aviso-en-comunidad)
+        - [PROBLEMA #3: Falta de alertas sonoras distintivas en el Companion Portal ante eventos de ruta o llegada segura](#problema-3-falta-de-alertas-sonoras-distintivas-en-el-companion-portal-ante-eventos-de-ruta-o-llegada-segura)
+        - [PROBLEMA #4: Falta de un mapa desplegable dentro de las tarjetas de `Monitoreo en Vivo`](#problema-4-falta-de-un-mapa-desplegable-dentro-de-las-tarjetas-de-monitoreo-en-vivo)
+        - [PROBLEMA #5: Etiquetas de enumeraciones en inglés (`DELIVERED`, `FAILED`, `MOTORCYCLE`) y subtítulos HTTP visibles en español](#problema-5-etiquetas-de-enumeraciones-en-inglés-delivered-failed-motorcycle-y-subtítulos-http-visibles-en-español)
+  - [5.4. Video About-the-Product](#54-video-about-the-product)
 - [Conclusiones](#conclusiones)
+- [Video About-the-Team](#video-about-the-team)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
 
@@ -2720,6 +2759,263 @@ La siguiente tabla resume los aportes identificados en el historial de commits r
 ![Commits e integración del Sprint 2](resources/imgs/chapter_v/Noxway-colaboracion-commits.png)
 
 *Figura 2. Historial de commits que registra aportes e integración de las funcionalidades desarrolladas durante el Sprint 2.*
+
+### 5.2.3. Sprint 3
+
+#### 5.2.3.1. Sprint Planning 3.
+
+El Sprint Planning 3 se llevó a cabo el 25 de octubre de 2026 y marcó el inicio formal de la fase de implementación del backend transaccional de Noxway. Durante esta reunión, el equipo planificó la transición desde los servicios simulados (JSON Server y Beeceptor utilizados durante el Sprint 2) hacia un RESTful API desarrollado en el lenguaje de programación Java 21 sobre el framework Spring Boot 3, adoptando los principios de Domain-Driven Design (DDD), segregación de comandos y consultas (CQRS), Arquitectura Hexagonal (puertos y adaptadores) y persistencia relacional con PostgreSQL.
+
+El objetivo principal de la iteración fue materializar los cinco Bounded Contexts del sistema (Identity/Profiles, Commuting & Telemetry, Community & Moderation, Sleep Wellness y Subscriptions), asegurando el soporte para las historias técnicas transversales (resolución de actor mediante la cabecera `X-Actor-Id` y manejo estructurado de errores conforme a RFC 9457 Problem Details) y las historias de usuario de negocio asociadas a los trayectos seguros, mapa comunitario 24h, bitácora de descanso y suscripciones con pagos fuera de línea.
+
+| Sprint # | Sprint 3 |
+| :--- | :--- |
+| **Sprint Planning Background** | |
+| **Date** | 2026-10-25 |
+| **Time** | 10:00 PM |
+| **Location** | Reunión virtual mediante Discord |
+| **Prepared By** | Patricio Farias, Ana Camila |
+| **Attendees (to planning meeting)** | Patricio Farias, Ana Camila; Cano Gomez, Yam Antony; Dextre Flores, Leonardo Felix; Ramirez Rodriguez, Mauricio Joao; Salcedo Correa, Carlos Matthew |
+| **Sprint 2 Review Summary** | Durante el Sprint 2 se concluyó y desplegó la primera versión del Frontend Web en Angular 18 sobre Firebase Hosting, integrando las interfaces del Portal del Trabajador y del Companion Portal con datos simulados vía JSON Server y Beeceptor. Los evaluadores y el Product Owner validaron favorablemente el diseño visual adaptativo y el cumplimiento de las guías de estilo basadas en Material Design, estableciendo como requisito prioritario para el Sprint 3 sustituir los servicios mock por un backend RESTful transaccional con persistencia real en PostgreSQL, que soporte el flujo completo de telemetría de trayectos, mapa de locales 24h, bitácora de descanso y órdenes de suscripción. |
+| **Sprint 2 Retrospective Summary** | En la retrospectiva del Sprint 2, el equipo identificó una sólida sinergia en el diseño de interfaces y componentes Angular, pero reconoció la necesidad de coordinar estrictamente los contratos de datos y la arquitectura técnica antes de codificar la lógica del servidor. Se acordó adoptar Domain-Driven Design (DDD) con 4 capas bien delimitadas (Domain, Application, Infrastructure, Interfaces), aislamiento de Bounded Contexts mediante puertos y adaptadores (Arquitectura Hexagonal), estandarizar los códigos de respuesta y detalle de problemas bajo RFC 9457, emplear ramas de funcionalidad (`feature/`) integradas mediante Pull Requests revisados para evitar conflictos de integración, y definir la configuración de despliegue cloud desde etapas tempranas del sprint. |
+| **Sprint Goal & User Stories** | |
+| **Sprint 3 Goal** | Nuestro enfoque está en diseñar, implementar, documentar y desplegar el RESTful API de backend para la plataforma Noxway utilizando Java 21, Spring Boot y Domain-Driven Design con CQRS, dando soporte integral a los Bounded Contexts de Identity/Profiles, Commuting & Telemetry, Community & Moderation, Sleep Wellness y Subscriptions. Creemos que esto proporciona a los trabajadores nocturnos y a sus contactos de confianza una persistencia segura, telemetría de trayectos en tiempo real, registro de sueño y catálogo de servicios 24h, sustituyendo los servicios simulados por un backend transaccional de alta disponibilidad. Esto se confirmará cuando todos los endpoints RESTful respondan satisfactoriamente con persistencia en base de datos PostgreSQL, se manejen excepciones con el estándar RFC 9457 Problem Details, la documentación interactiva OpenAPI/Swagger esté operativa y el servicio se encuentre desplegado y accesible en la nube mediante Docker.<br><br> |
+| **Sprint 3 Velocity** | 26 Story Points |
+| **Sum of Story Points** | 25 Story Points |
+
+#### 5.2.3.2. Aspect Leaders and Collaborators.
+
+Para optimizar la comunicación técnica y asegurar una clara distribución de responsabilidades en la construcción del backend, se elaboró la matriz de liderazgo y colaboración (LACX, *Leadership-and-Collaboration Matrix*). En este sprint, cada aspecto corresponde a un Bounded Context o componente estructural crítico de la arquitectura DDD multicapa. Cada integrante asumió el rol de líder (L) en el contexto de su especialidad, encargándose del diseño del modelo de dominio, entidades JPA, mappers, servicios de aplicación y controladores REST, actuando simultáneamente como colaborador (C) en las tareas transversales y de integración.
+
+| Team Member (Last Name, First Name) | GitHub Username | Architecture, IAM & Shared Kernel<br>Leader (L) / Collaborator (C) | Commuting & Telemetry GPS<br>Leader (L) / Collaborator (C) | Community & Moderation 24h<br>Leader (L) / Collaborator (C) | Sleep Wellness<br>Leader (L) / Collaborator (C) | Subscriptions & Payments<br>Leader (L) / Collaborator (C) | Cloud Deployment, Docker & DB<br>Leader (L) / Collaborator (C) |
+| :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+| Cano Gomez, Yam Antony | Yam-1CG | L | C | C | C | C | C |
+| Patricio Farias, Ana Camila | anc-f4 | C | L | C | C | C | C |
+| Dextre Flores, Leonardo Felix | leo-dex45 | C | C | C | C | C | C |
+| Ramirez Rodriguez, Mauricio Joao | MauRicio1321m | C | C | C | C | C | C |
+| Salcedo Correa, Carlos Matthew | Matthewnhfe | C | C | C | C | L | L |
+
+La organización de la matriz LACX guarda estricta relación con la asignación de tareas en el Sprint Backlog y con el historial de commits verificado en el repositorio del backend:
+* **Yam Antony Cano Gomez** lideró la arquitectura base del proyecto, la configuración transversal de seguridad estructurada (IAM), el Shared Kernel y la integración de ramas en develop.
+* **Ana Camila Patricio Farias** lideró el Bounded Context de Commuting, abarcando el ciclo de vida de trayectos seguros, telemetría GPS continua y el portal de acompañamiento en vivo (Companion View).
+* **Leonardo Felix Dextre Flores** lideró el Bounded Context de Community & Moderation, implementando la cartografía de locales 24h, zonas de riesgo, publicaciones geolocalizadas con OpenStreetMap y moderación administrativa.
+* **Mauricio Joao Ramirez Rodriguez** lideró el Bounded Context de Sleep Wellness, diseñando la bitácora de descanso diurno/nocturno, el validador de invariantes contra solapamiento de horarios y el cálculo de déficit de sueño semanal.
+* **Carlos Matthew Salcedo Correa** lideró el Bounded Context de Subscriptions & Payments, la conciliación de órdenes de pago offline con verificación de unicidad, el catálogo de beneficios, el manejo global de excepciones RFC 9457, la sincronización de contratos OpenAPI y el empaquetado multi-stage Docker para despliegue en Render y Clever Cloud.
+
+#### 5.2.3.3. Sprint Backlog 3.
+
+El Sprint Backlog 3 reúne las historias técnicas de arquitectura y las historias de usuario de negocio priorizadas para la construcción del backend de Noxway. Cada historia fue descompuesta en tareas técnicas específicas categorizadas por capa arquitectónica (Dominio, Persistencia/Infraestructura, Aplicación/CQRS e Interfaces REST), asignadas a los integrantes según la matriz LACX y gestionadas a través del tablero interactivo del proyecto.
+
+**Tablero del Sprint Backlog en Trello:**
+* **URL pública del tablero:** https://trello.com/invite/b/6af8c429e9b2ba2d044ce0d4/ATTIf6dbb9fc0bfcb4a02a4cd4b9418e58f34A4908E7/noxway-sprint-3
+
+![Sprint 03 - Trello](resources/imgs/sprint03.png)
+
+| Sprint # | Sprint 3 | | | | | | |
+| :--- | :--- | :--- | :--- | :--- | :---: | :---: | :---: |
+| **Story Id** | **Story Title** | **Task Id** | **Task Title** | **Task Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
+| **TS-ARCH001** | Resolución de Actor y Estado Estructurado de IAM | TK-01 | Filtro de resolución de actor | Implementar filtro HTTP para extraer la cabecera `X-Actor-Id` y asignar el trabajador principal por defecto en modo desarrollo (`app.security.enabled=false`). | 4 | Yam Cano | Done |
+| **TS-ARCH001** | Resolución de Actor y Estado Estructurado de IAM | TK-02 | Endpoints de estado y fallback IAM | Crear endpoint `GET /api/v1/auth/status` y configurar respuestas `501 Not Implemented` localizadas para sign-in/sign-up diferidos. | 3 | Yam Cano | Done |
+| **TS-ARCH002** | Manejo Estandarizado de Errores con RFC 9457 | TK-03 | Manejador global de excepciones | Diseñar `GlobalExceptionHandler` que transforme excepciones de negocio y validación en esquemas `ProblemDetail` (RFC 9457). | 4 | Carlos Salcedo | Done |
+| **TS-ARCH002** | Manejo Estandarizado de Errores con RFC 9457 | TK-04 | Internacionalización de errores | Configurar soporte bilingüe (`Accept-Language: es/en`) en las descripciones y mensajes de error del manejador global. | 3 | Carlos Salcedo | Done |
+| **US-PRO001** | Gestión de Perfil y Turno Laboral | TK-05 | Modelo de dominio y persistencia de perfiles | Modelar agregado `WorkerProfile`, entidad de turno laboral (`WorkShift`), mapeos JPA y adaptador de persistencia. | 4 | Yam Cano | Done |
+| **US-PRO001** | Gestión de Perfil y Turno Laboral | TK-06 | Servicios y controladores de cuentas | Implementar servicio de aplicación y controladores REST para consultas y actualizaciones en `GET/PUT /api/v1/accounts/me`. | 4 | Yam Cano | Done |
+| **US-PRO002** | Invitación y Ciclo de Vida de Contactos (`TrustLink`) | TK-07 | Reglas de límite de contactos | Modelar agregado `TrustLink`, estados (`PENDING`, `ACTIVE`) e invariante de validación de cupo según plan de suscripción. | 5 | Yam Cano | Done |
+| **US-PRO002** | Invitación y Ciclo de Vida de Contactos (`TrustLink`) | TK-08 | Endpoints de vinculación de confianza | Desarrollar endpoints para enviar invitación, listar contactos activos y ejecutar aceptación vía `POST /api/v1/trust-links/{id}/accept`. | 4 | Yam Cano | Done |
+| **US-COM001** | Iniciar Trayecto, Registrar Ping GPS y Llegada | TK-09 | Agregado Commute y regla de trayecto único | Crear modelo `Commute`, estados (`ACTIVE`, `DELAYED`, `ARRIVED`) y validación de conflicto ante intentos de trayecto simultáneo. | 6 | Camila Patricio | Done |
+| **US-COM001** | Iniciar Trayecto, Registrar Ping GPS y Llegada | TK-10 | Telemetría GPS y ciclo de trayecto | Desarrollar endpoints para registrar pings GPS (`POST /commutes/{id}/telemetry`), reportar demora (`/delay`) y confirmar llegada (`/arrive`). | 5 | Camila Patricio | Done |
+| **US-COM002** | Emisión de SOS y Monitoreo Companion | TK-11 | Gestión de incidentes SOS | Implementar modelo de incidentes, despacho de alertas críticas y persistencia de estado de emergencia abierto. | 5 | Camila Patricio | Done |
+| **US-COM002** | Emisión de SOS y Monitoreo Companion | TK-12 | Endpoints Companion en vivo | Crear endpoints de consulta en tiempo real `GET /api/v1/companion/live` y `GET /api/v1/companion/alerts` con última coordenada registrada. | 4 | Camila Patricio | Done |
+| **US-MAP001** | Exploración de Locales 24h y Votación de Confianza | TK-13 | Entidades de servicio y zonas de riesgo | Modelar agregado `ServicePoint`, entidad `RiskZone`, repositorios JPA y adaptadores de persistencia espacial. | 5 | Leonardo Dextre | Done |
+| **US-MAP001** | Exploración de Locales 24h y Votación de Confianza | TK-14 | Algoritmo de trustScore y votación | Desarrollar lógica de cálculo de `trustScore` con votos `+1`, `-1` y retracción de voto (`0`) en `PUT /community/services/{id}/vote`. | 4 | Leonardo Dextre | Done |
+| **US-MAP002** | Publicación de Avisos Comunitarios con OpenStreetMap | TK-15 | Publicación de avisos con validación geográfica | Crear endpoint `POST /community/posts` con validación de invariante geográfica (latitud/longitud obligatoriamente en pareja). | 4 | Leonardo Dextre | Done |
+| **US-MAP002** | Publicación de Avisos Comunitarios con OpenStreetMap | TK-16 | Enriquecimiento de metadatos de autor | Implementar servicio para inyectar automáticamente el distrito predeterminado ("Lima") y los metadatos del autor activo. | 3 | Leonardo Dextre | Done |
+| **US-MOD001** | Moderación Administrativa de Puntos 24h | TK-17 | Cola de moderación y resoluciones | Desarrollar endpoints para listar reportes pendientes (`GET /moderation/reports`) y registrar decisiones (`APPROVED` / `REJECTED`). | 4 | Leonardo Dextre | Done |
+| **US-WEL001** | Bitácora de Descanso sin Solapamientos y Meta Diaria | TK-18 | Agregado RestSession y regla antisolapamiento | Modelar agregado `RestSession` con validador de invariante de no superposición horaria para descanso diurno o nocturno. | 5 | Mauricio Ramirez | Done |
+| **US-WEL001** | Bitácora de Descanso sin Solapamientos y Meta Diaria | TK-19 | Meta de descanso y resumen semanal | Implementar configuración de meta diaria (240 a 720 min) y cálculo automatizado del promedio semanal y déficit acumulado. | 4 | Mauricio Ramirez | Done |
+| **US-SUB001** | Suscripción a Planes, Pagos Offline y Cupones | TK-20 | Modelado de planes y órdenes de pago | Modelar agregado `Subscription`, planes (`ESSENTIAL`, `SENTINEL_PRO`, `FAMILY_CREW`) y ciclo de vida de pagos. | 5 | Carlos Salcedo | Done |
+| **US-SUB001** | Suscripción a Planes, Pagos Offline y Cupones | TK-21 | Conciliación de comprobante y beneficios | Implementar confirmación de pago offline con validación de unicidad de referencia bancaria y registro de reclamo de beneficios. | 5 | Carlos Salcedo | Done |
+| **TS-DEPL001** | Empaquetado Docker y Despliegue Cloud | TK-22 | Dockerfile multi-stage y pool HikariCP | Configurar Dockerfile multi-etapa (Maven + Temurin 21) y límites del pool HikariCP para bases de datos en Clever Cloud y Render. | 4 | Carlos Salcedo | Done |
+
+#### 5.2.3.4. Development Evidence for Sprint Review.
+
+Durante el transcurso del Sprint 3, el equipo completó la arquitectura y codificación del backend en el repositorio `Noxway-Backend` de la organización `upc-pre-202620-1asi0730-7793` en GitHub. Se aplicó estrictamente el flujo de trabajo GitFlow, ramificando desde `develop` mediante ramas de funcionalidad (`feature/`) y solicitudes de extracción (*Pull Requests*) revisadas.
+
+A continuación, se presenta una selección representativa con los commits más importantes y de mayor impacto arquitectónico registrados en el repositorio del backend durante la iteración, reflejando el progreso estructurado en cada uno de los Bounded Contexts y la integración continua del sistema:
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Noxway-Backend | main | 1471c0e | chore: initial commit | Initialize backend repository with root structure and base configuration | 05/11/2026 |
+| Noxway-Backend | develop | f53c999 | chore(project): import project structure and configuration | Initialize Spring Boot project structure, Maven dependencies and properties | 05/11/2026 |
+| Noxway-Backend | develop | 9a75f2d | chore(identity): import existing shared infrastructure and security | Import shared infrastructure, web configuration and security filters | 05/11/2026 |
+| Noxway-Backend | feature/identity-module | 82ed765 | chore(identity): import existing identity domain models | Import identity domain models, user account and credential rules | 05/11/2026 |
+| Noxway-Backend | feature/identity-module | 7ce9053 | chore(identity): import existing identity API and access contracts | Import identity REST controllers and security contracts | 05/11/2026 |
+| Noxway-Backend | develop | 0752e79 | chore(integration): merge existing identity module import | Merge pull request for identity and access module import | 05/11/2026 |
+| Noxway-Backend | feature/commuting-module | a083446 | chore(commuting): import existing first domain model group | Import initial domain aggregates and entities for commuting context | 05/11/2026 |
+| Noxway-Backend | feature/commuting-module | 8b16a3a | chore(commuting): import existing persistence adapters | Import persistence adapters implementing repository ports | 05/11/2026 |
+| Noxway-Backend | feature/commuting-module | 1abaeff | chore(commuting): import existing API contracts and infrastructure jobs | Import API contracts and infrastructure jobs for commuting context | 05/11/2026 |
+| Noxway-Backend | develop | d3d626b | chore(integration): merge existing commuting module import | Merge pull request for commuting module import | 05/11/2026 |
+| Noxway-Backend | feature/community-module | 7a0944e | chore(community): import existing first domain model group | Import initial domain models and aggregates for community context | 05/11/2026 |
+| Noxway-Backend | feature/community-module | 15ee61f | chore(community): import existing persistence adapters | Import persistence repository adapters for community bounded context | 05/11/2026 |
+| Noxway-Backend | feature/community-module | 050ec52 | chore(community): import existing API contracts and infrastructure jobs | Import community REST controllers, resource schemas and jobs | 05/11/2026 |
+| Noxway-Backend | develop | ba9fe7b | chore(integration): merge existing community module import | Merge pull request for community module import | 05/11/2026 |
+| Noxway-Backend | feature/subscriptions-module | c24c6f4 | chore(subscriptions): import existing first domain model group | Import first domain model group for subscriptions bounded context | 05/11/2026 |
+| Noxway-Backend | feature/subscriptions-module | e67d585 | chore(subscriptions): import existing persistence adapters | Import repository persistence adapters for subscriptions | 05/11/2026 |
+| Noxway-Backend | feature/subscriptions-module | 8674fe3 | chore(subscriptions): import existing API contracts and infrastructure jobs | Import API controllers and background jobs for subscriptions | 05/11/2026 |
+| Noxway-Backend | develop | c022989 | chore(integration): merge existing subscriptions module import | Merge pull request for subscriptions module import | 05/11/2026 |
+| Noxway-Backend | feature/wellness-import | 19735b4 | chore(wellness): import existing rest session model and rules | Import rest session domain model and overlap validation rules | 06/11/2026 |
+| Noxway-Backend | feature/wellness-import | 31cd0a0 | chore(wellness): import existing rest session repository adapter | Import repository adapter for rest session persistence | 06/11/2026 |
+| Noxway-Backend | feature/wellness-import | 8deb273 | chore(wellness): import existing REST controller | Import REST controller for sleep wellness endpoints | 06/11/2026 |
+| Noxway-Backend | develop | abbb4b9 | chore(integration): merge feature/wellness-import | Merge pull request for wellness module import into develop | 06/11/2026 |
+| Noxway-Backend | develop | 4d6f522 | feat(platform): complete 4-layer DDD, CQRS, ACL and structured IAM backend | Complete 4-layer DDD, CQRS, ACL and structured IAM backend architecture | 13/11/2026 |
+| Noxway-Backend | develop | 44ad639 | fix(platform): support vote retraction and disable smtp health check when unconfigured | Support vote retraction (0) and disable SMTP health check when unconfigured | 13/11/2026 |
+| Noxway-Backend | feature/global-platform-completion | ce14927 | feat(community): store optional category and coordinates on posts | Support optional category and geographic coordinates on community posts | 13/11/2026 |
+| Noxway-Backend | develop | e848a22 | Merge branch 'feature/global-platform-completion' into develop | Merge feature/global-platform-completion into develop branch | 13/11/2026 |
+| Noxway-Backend | develop | 498d475 | fix(community): default optional post district and enrich author metadata on creation | Default optional post district and enrich author metadata on post creation | 13/11/2026 |
+| Noxway-Backend | develop | cf056f1 | docs: add class diagram, C4 software architecture, user stories, ADRs, and enhanced README | Document class diagram, C4 architecture, user stories, ADRs and README | 13/11/2026 |
+| Noxway-Backend | feature/general-audit-and-osm-telemetry | 3e9438e | chore(deploy): add multi-stage Dockerfile and HikariCP pool limits for Render and Clever Cloud | Add multi-stage Dockerfile and configure HikariCP pool limits for deployment on Render and Clever Cloud | 14/11/2026 |
+| Noxway-Backend | develop | a6503c1 | Merge branch 'feature/general-audit-and-osm-telemetry' into develop | Merge feature/general-audit-and-osm-telemetry into develop branch | 14/11/2026 |
+
+
+#### 5.2.3.5. Execution Evidence for Sprint Review.
+
+En esta sección se presentan las evidencias de ejecución y comportamiento en tiempo de ejecución del backend de Noxway, demostrando la operatividad de los servicios RESTful en concordancia con los criterios de aceptación de las historias de usuario y técnicas desarrolladas en el Sprint 3.
+
+Las pruebas de ejecución fueron llevadas a cabo mediante solicitudes HTTP sobre Postman y la consola interactiva de Swagger UI, verificando la persistencia transaccional en la base de datos relacional PostgreSQL (instancia en Clever Cloud) y la adhesión al estándar RFC 9457 Problem Details en los escenarios de excepción.
+
+**1. Inicio de la aplicación Spring Boot y conexión de persistencia**
+El servidor inicia correctamente en el puerto 8080. El pool de conexiones HikariCP se inicializa apuntando a la base de datos PostgreSQL remota, validando los esquemas relacionales y mapeando las entidades JPA correspondientes a cada Bounded Context.
+
+
+**2. Resolución de Actor y Estado de Seguridad IAM**
+Al consultar el estado del módulo de autenticación mediante `GET /api/v1/auth/status`, el servicio responde con código `200 OK` indicando el modo estructurado y el identificador del trabajador asignado por defecto para el entorno de desarrollo. Asimismo, al invocar operaciones diferidas como `POST /api/v1/auth/sign-in`, el sistema emite un código `501 Not Implemented` con el estándar RFC 9457 localizado según la cabecera `Accept-Language: es`.
+
+
+**3. Gestión de Ficha Operativa y Turno Laboral**
+El trabajador nocturno actualiza su horario de jornada nocturna y datos de contacto mediante `PUT /api/v1/accounts/me`, recibiendo una confirmación `200 OK` con los datos actualizados y sincronizados con su cuenta.
+
+
+**4. Invitación y Ciclo de Vida de Contactos de Confianza**
+El trabajador invita a un contacto registrado mediante `POST /api/v1/trust-links`. Si el plan del trabajador supera el límite permitido (por ejemplo, más de 1 contacto en plan `ESSENTIAL`), el API rechaza la solicitud con `422 Unprocessable Entity`. Al recibir la invitación, el contacto destinatario la acepta invocando `POST /api/v1/trust-links/{id}/accept`.
+
+
+**5. Iniciar Trayecto Seguro y Telemetría GPS**
+El trabajador inicia un trayecto hacia su centro laboral. La regla de invariante previene la apertura simultánea de dos trayectos activos, respondiendo `409 Conflict` si existiera uno previo sin culminar. Una vez iniciado, la aplicación móvil envía pings periódicos de telemetría geolocalizada.
+
+
+**6. Monitoreo en Vivo de Companion y Alerta SOS**
+El contacto de confianza consulta el estado en tiempo real mediante `GET /api/v1/companion/live`. Cuando el trabajador dispara un evento de emergencia mediante `POST /api/v1/commutes/{id}/incidents` con `type: "SOS"`, el incidente se propaga de inmediato al canal de alertas del acompañante.
+
+
+**7. Exploración de Locales 24h y Votación de Confianza**
+Los usuarios consultan puntos de servicio nocturno aprobados y votan favorablemente (+1), desfavorablemente (-1) o retiran su voto (0), recalculando automáticamente el `trustScore` y reflejando las métricas consolidadas.
+
+
+**8. Publicación Comunitaria con Coordenadas OpenStreetMap**
+Un usuario publica un aviso de seguridad marcando la ubicación en el mapa. Si se proporciona una coordenada incompleta (latitud sin longitud), el API rechaza la petición con código `422 Unprocessable Entity` bajo el estándar RFC 9457.
+
+
+**9. Bitácora de Descanso y Validación contra Solapamiento**
+Un trabajador registra una sesión de descanso diurno. Al intentar registrar una segunda sesión que se solape con el mismo rango horario, el dominio bloquea el registro para preservar la coherencia biológica emitiendo un error `422 Unprocessable Entity`.
+
+
+**10. Suscripción y Conciliación de Pago Offline**
+Un trabajador suscribe el plan `SENTINEL_PRO` y genera una orden de pago. El administrador concilia el comprobante bancario vía `POST /api/v1/payments/{id}/confirm-offline`. Si otra orden intenta reutilizar el mismo número de recibo (`"YAPE-987654"`), el sistema responde `409 Conflict`.
+
+
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review.
+
+La documentación de los servicios web del backend de Noxway se generó automáticamente utilizando **OpenAPI Specification 3.0** mediante la biblioteca `springdoc-openapi-starter-webmvc-ui` (Swagger UI). Esta herramienta expone una consola interactiva donde es posible examinar la especificación de esquemas de datos, cabeceras requeridas (`X-Actor-Id`, `Accept-Language`), códigos de estado HTTP y ejecutar solicitudes de prueba en tiempo real.
+
+**Enlaces de acceso a la documentación OpenAPI / Swagger UI:**
+* **URL de documentación local:** http://localhost:8080/swagger-ui.html
+* **Especificación OpenAPI:** https://noxway-backend.onrender.com/swagger-ui.html
+* **Repositorio de Web Services:** https://github.com/upc-pre-202620-1asi0730-7793/Report.git
+
+A continuación, se detalla la matriz completa de endpoints expuestos por el backend, indicando las acciones, verbos HTTP, rutas, parámetros, esquemas de respuesta y códigos de estado conforme a la especificación implementada:
+
+| Acción | Método HTTP | Ruta del Endpoint | Parámetros / Cuerpo de Solicitud | Ejemplo de Respuesta (JSON) | Explicación y Códigos de Estado |
+| :--- | :---: | :--- | :--- | :--- | :--- |
+| Consultar estado IAM | GET | `/api/v1/auth/status` | Ninguno (Cabecera opcional `Accept-Language`) | `{"securityEnabled":false,"mode":"STRUCTURED_PENDING_IMPLEMENTATION","defaultWorkerId":"00000000-0000-0000-0000-000000000101"}` | Informa el estado del subsistema de autenticación y el actor predeterminado. `200 OK`. |
+| Autenticación diferida | POST | `/api/v1/auth/sign-in` | `{"email":"...","password":"..."}` | `{"type":"https://api.noxway.pe/problems/not-implemented","status":501,"title":"Not Implemented"}` | Endpoint de inicio de sesión diferido. Responde `501 Not Implemented` con esquema RFC 9457. |
+| Consultar cuenta de usuario | GET | `/api/v1/accounts/me` | Cabecera obligatoria `X-Actor-Id` | `{"id":"...","fullName":"Jorge Huamán","shiftType":"NIGHT","timeZone":"America/Lima"}` | Recupera el perfil operativo y preferencias de turno del trabajador autenticado. `200 OK`, `404 Not Found`. |
+| Actualizar turno y perfil | PUT | `/api/v1/accounts/me` | `{"fullName":"...","phone":"...","shiftType":"NIGHT","shiftStart":"22:00:00","shiftEnd":"06:00:00","timeZone":"America/Lima"}` | `{"id":"...","fullName":"...","shiftType":"NIGHT","updatedAt":"..."}` | Actualiza la información operativa y de contacto del trabajador. `200 OK`, `400 Bad Request`. |
+| Listar contactos de confianza | GET | `/api/v1/trust-links` | Cabecera obligatoria `X-Actor-Id` | `[{"id":"...","contactEmail":"rosa@noxway.pe","status":"ACTIVE","relationship":"FAMILY"}]` | Retorna los vínculos de confianza creados por el trabajador. `200 OK`. |
+| Invitar contacto de confianza | POST | `/api/v1/trust-links` | `{"contactEmail":"rosa.paredes@noxway.pe","relationship":"FAMILY"}` | `{"id":"...","contactEmail":"rosa.paredes@noxway.pe","status":"PENDING"}` | Crea una invitación de confianza validando cupos del plan. `201 Created`, `422 Unprocessable Entity` (límite superado). |
+| Aceptar vínculo de confianza | POST | `/api/v1/trust-links/{id}/accept` | Parámetro de ruta: `id` (UUID del vínculo) | `{"id":"...","status":"ACTIVE","acceptedAt":"2026-11-14T..."}` | El contacto acepta la invitación y habilita el monitoreo. `200 OK`, `404 Not Found`. |
+| Eliminar vínculo de confianza | DELETE | `/api/v1/trust-links/{id}` | Parámetro de ruta: `id` (UUID del vínculo) | Ninguno (Cuerpo vacío) | Revoca el enlace de supervisión mutua. `204 No Content`, `404 Not Found`. |
+| Iniciar trayecto seguro | POST | `/api/v1/commutes` | `{"origin":"Sede Central","destination":"Av. Javier Prado 1200","estimatedMinutes":35}` | `{"id":"...","status":"ACTIVE","startedAt":"...","estimatedArrival":"..."}` | Registra el inicio de un desplazamiento. Rechaza con `409 Conflict` si ya existe un trayecto en curso. `201 Created`. |
+| Consultar trayecto activo | GET | `/api/v1/commutes/active` | Cabecera obligatoria `X-Actor-Id` | `{"id":"...","status":"ACTIVE","lastPing":{"latitude":-12.086,"longitude":-77.034}}` | Recupera el trayecto abierto del trabajador. `200 OK`, `404 Not Found`. |
+| Registrar telemetría GPS | POST | `/api/v1/commutes/{id}/telemetry` | `{"latitude":-12.086432,"longitude":-77.034521,"speed":24.5,"batteryLevel":88,"recordedAt":"..."}` | `{"id":"...","latitude":-12.086432,"longitude":-77.034521,"recordedAt":"..."}` | Persiste las coordenadas GPS y métricas de desplazamiento del trayecto. `201 Created`, `404 Not Found`. |
+| Reportar demora en trayecto | POST | `/api/v1/commutes/{id}/delay` | `{"extraMinutes":15,"reason":"Congestión vehicular nocturna"}` | `{"id":"...","status":"DELAYED","newEstimatedArrival":"..."}` | Modifica el tiempo estimado de llegada y notifica a los contactos. `200 OK`. |
+| Confirmar llegada segura | POST | `/api/v1/commutes/{id}/arrive` | `{"arrivedAt":"2026-11-14T23:40:00Z","rating":5}` | `{"id":"...","status":"ARRIVED","completedAt":"..."}` | Finaliza el trayecto seguro con confirmación de éxito. `200 OK`. |
+| Emitir incidente SOS | POST | `/api/v1/commutes/{id}/incidents` | `{"type":"SOS","latitude":-12.086432,"longitude":-77.034521,"notes":"Alerta de pánico"}` | `{"id":"...","type":"SOS","status":"OPEN","reportedAt":"..."}` | Abre un incidente crítico y dispara alertas inmediatas al Companion Portal. `201 Created`. |
+| Consultar seguimiento Companion | GET | `/api/v1/companion/live` | Cabecera obligatoria `X-Actor-Id` (contacto de confianza) | `{"workerName":"Jorge Huamán","commuteStatus":"ACTIVE","lastPing":{"lat":-12.086,"lng":-77.034}}` | Provee al contacto de confianza la posición GPS en vivo del trabajador vinculado. `200 OK`. |
+| Consultar alertas de acompañante | GET | `/api/v1/companion/alerts` | Cabecera obligatoria `X-Actor-Id` | `[{"id":"...","type":"SOS","workerName":"Jorge Huamán","status":"OPEN","createdAt":"..."}]` | Retorna los eventos e incidentes generados durante los trayectos supervisados. `200 OK`. |
+| Listar servicios 24h del mapa | GET | `/api/v1/community/services` | Parámetros opcionales: `category`, `district`, `openOnly` | `[{"id":"...","name":"Mifarma 24h","category":"PHARMACY","trustScore":92.5,"lat":-12.08,"lng":-77.03}]` | Retorna los locales nocturnos verificados y su puntuación comunitaria. `200 OK`. |
+| Calificar servicio (voto) | PUT | `/api/v1/community/services/{id}/vote` | `{"direction":1}` (Valores permitidos: `1`, `-1`, `0`) | `{"serviceId":"...","trustScore":92.5,"upvotes":38,"downvotes":3,"myVote":1}` | Registra o retira el voto de veracidad comunitaria. `200 OK`, `400 Bad Request`. |
+| Listar zonas de riesgo | GET | `/api/v1/community/risk-zones` | Parámetros opcionales: `district` | `[{"id":"...","title":"Zona con poca iluminación","severity":"HIGH","lat":-12.09,"lng":-77.04}]` | Consulta las zonas de alerta reportadas por la comunidad. `200 OK`. |
+| Listar avisos comunitarios | GET | `/api/v1/community/posts` | Parámetros opcionales: `category`, `district`, `page`, `size` | `[{"id":"...","title":"Aviso de patrullaje","category":"SEGURIDAD","authorName":"Jorge H.","upvotes":14}]` | Consulta las publicaciones del tablón vecinal y alertas nocturnas. `200 OK`. |
+| Publicar aviso geolocalizado | POST | `/api/v1/community/posts` | `{"title":"...","content":"...","category":"Zona de riesgo","latitude":-12.0789,"longitude":-77.034}` | `{"id":"...","title":"...","authorName":"...","latitude":-12.0789,"longitude":-77.034,"createdAt":"..."}` | Publica un aviso en el mapa. Rechaza con `422 Unprocessable Entity` si las coordenadas están incompletas. `201 Created`. |
+| Listar reportes de moderación | GET | `/api/v1/moderation/reports` | Parámetros opcionales: `status=PENDING` | `[{"id":"...","targetType":"SERVICE_POINT","reason":"Local clausurado","status":"PENDING"}]` | Permite a administradores revisar la cola de denuncias o solicitudes pendientes. `200 OK`, `403 Forbidden`. |
+| Decidir reporte de moderación | POST | `/api/v1/moderation/reports/{id}/decision` | `{"decision":"APPROVED","comment":"Verificación en campo efectuada"}` | `{"id":"...","status":"RESOLVED","decision":"APPROVED","decidedAt":"..."}` | Aplica una resolución administrativa (`APPROVED` o `REJECTED`). `200 OK`. |
+| Registrar sesión de descanso | POST | `/api/v1/wellness/rest-sessions` | `{"startTime":"...","endTime":"...","qualityRating":4,"notes":"..."}` | `{"id":"...","durationMinutes":360,"efficiencyPercentage":85}` | Registra un bloque de descanso. Rechaza con `422 Unprocessable Entity` ante solapamiento de horarios. `201 Created`. |
+| Listar descansos del usuario | GET | `/api/v1/wellness/rest-sessions` | Cabecera obligatoria `X-Actor-Id` | `[{"id":"...","startTime":"...","endTime":"...","durationMinutes":360}]` | Obtiene el historial de registros de sueño del trabajador. `200 OK`. |
+| Configurar meta de sueño | PUT | `/api/v1/wellness/goal` | `{"dailyTargetMinutes":480}` (Rango válido: 240 a 720 min) | `{"dailyTargetMinutes":480,"weeklyTargetMinutes":3360,"updatedAt":"..."}` | Actualiza la meta diaria de sueño del trabajador. `200 OK`, `400 Bad Request`. |
+| Consultar resumen semanal | GET | `/api/v1/wellness/summary` | Cabecera obligatoria `X-Actor-Id` | `{"weeklyAverageMinutes":410,"accumulatedDeficitMinutes":70,"suggestedHabits":["...", "..."]}` | Calcula métricas consolidadas de sueño y sugerencias de higiene del descanso. `200 OK`. |
+| Listar planes de suscripción | GET | `/api/v1/subscriptions/plans` | Ninguno | `[{"id":"SENTINEL_PRO","name":"Centinela Pro","price":19.90,"maxTrustContacts":5}]` | Retorna el catálogo de planes comerciales disponibles. `200 OK`. |
+| Crear orden de suscripción | POST | `/api/v1/subscriptions` | `{"planId":"SENTINEL_PRO","referralCode":"CARLOS-REF1"}` | `{"id":"...","planId":"SENTINEL_PRO","status":"PENDING_PAYMENT","amount":19.90}` | Inicia el proceso de suscripción a un plan. `201 Created`. |
+| Generar orden de pago offline | POST | `/api/v1/subscriptions/{id}/payments` | `{"paymentMethod":"YAPE_OFFLINE","amount":19.90}` | `{"id":"...","subscriptionId":"...","status":"PENDING","instructions":"Transferir a..."}` | Genera una orden de abono bancario/billetera digital fuera de línea. `201 Created`. |
+| Confirmar pago offline | POST | `/api/v1/payments/{id}/confirm-offline` | `{"reference":"YAPE-987654"}` | `{"id":"...","status":"CONFIRMED","subscriptionStatus":"ACTIVE","confirmedAt":"..."}` | Valida el comprobante bancario garantizando unicidad de referencia (`409 Conflict` ante duplicados) y activa la suscripción. `200 OK`. |
+| Listar catálogo de beneficios | GET | `/api/v1/benefits` | Cabecera opcional `X-Actor-Id` | `[{"id":"...","partnerName":"Grifo Primax 24h","discount":"15% en cafetería nocturna"}]` | Consulta los convenios y recompensas activas para suscriptores. `200 OK`. |
+| Canjear beneficio de suscripción | POST | `/api/v1/benefits/{id}/claims` | Cabecera obligatoria `X-Actor-Id` | `{"id":"...","benefitId":"...","claimCode":"NOX-PRIMAX-8821","expiresAt":"..."}` | Emite un cupón o código de descuento exclusivo según el plan activo. `201 Created`, `422 Unprocessable Entity`. |
+
+#### 5.2.3.7. Software Deployment Evidence for Sprint Review.
+
+El despliegue de los servicios del backend se diseñó bajo una infraestructura basada en la nube de alta disponibilidad, empleando contenedores Linux y servicios gestionados para garantizar escalabilidad, seguridad y persistencia transaccional.
+
+**1. Plataformas en la nube utilizadas:**
+* **Base de datos relacional:** **Clever Cloud**, alojando una instancia dedicada de **PostgreSQL 16**. Proporciona respaldo automático, cifrado en reposo y métricas de salud en tiempo real.
+* **Plataforma de despliegue de aplicaciones:** **Render Cloud Platform**, alojando el servicio web containerizado a partir de una imagen Docker construida mediante integración continua conectada al repositorio de GitHub.
+
+**2. Empaquetado mediante Dockerfile multi-etapa (*Multi-stage build*):**
+Para optimizar el tamaño de la imagen final y garantizar que las herramientas del compilador no se expongan en el entorno de ejecución, se configuró un archivo `Dockerfile` en dos etapas:
+* **Etapa 1 (Builder):** Emplea la imagen `maven:3.9.6-eclipse-temurin-21-alpine` para descargar dependencias, compilar el código fuente Java 21 y generar el archivo binario empaquetado (`noxway-platform-1.0.0.jar`), omitiendo pruebas unitarias pesadas durante la etapa de empaquetado final (`-DskipTests`).
+* **Etapa 2 (Runtime):** Utiliza una imagen ligera `eclipse-temurin:21-jre-alpine`, asigna un usuario de sistema sin privilegios de administrador (`appuser:appgroup`), expone el puerto estándar `8080` y ejecuta la aplicación mediante el comando de inicio optimizado para contenedores.
+
+
+**3. Configuración de variables de entorno y límites de conexión HikariCP:**
+En el panel de administración de Render se definieron las variables de entorno seguras para la conexión hacia la base de datos remota, incluyendo el perfil activo (`SPRING_PROFILES_ACTIVE=prod`), la URL JDBC de conexión, credenciales de acceso seguras, el puerto de escucha (`SERVER_PORT=8080`) y el límite máximo del pool HikariCP (`SPRING_DATASOURCE_HIKARI_MAXIMUM_POOL_SIZE=5`) implementado en el commit `3e9438e` para preservar los descriptores de conexión en los entornos sandbox de Clever Cloud y Render.
+
+**4. Evidencias del despliegue en la nube:**
+
+![Backend](resources/imgs/backendsprint3.png)
+
+![Frontend](resources/imgs/firebasesprint3.png)
+
+
+**5. Direcciones públicas de acceso:**
+* **API Base URL:** https://noxway-backend.onrender.com/swagger-ui.html
+  
+
+
+#### 5.2.3.8. Team Collaboration Insights during Sprint.
+
+Durante el Sprint 3, la dinámica de trabajo colaborativo se concentró en la construcción coordinada de la solución de backend, garantizando que cada miembro del equipo asumiera la responsabilidad de un Bounded Context y de los contratos de interacción correspondientes. Se implementó una política estricta de branches bajo el modelo GitFlow, donde ninguna modificación fue incorporada directamente sobre la rama `main` ni sobre `develop` sin pasar previamente por revisión de código y validación de compatibilidad con los demás módulos.
+
+La siguiente tabla resume los aportes específicos de cada integrante registrados en el repositorio `Noxway-Backend` a lo largo de la iteración:
+
+| Integrante | Usuario de GitHub | Aportes Registrados en el Backend |
+| :--- | :--- | :--- |
+| **Cano Gomez, Yam Antony** | `Yam-1CG` | Inicialización del proyecto Spring Boot y configuración base de dependencias Maven; modelado de dominio, entidades JPA, mappers y adaptadores de persistencia de Identity; configuración transversal de seguridad estructurada (IAM) y Shared Kernel; gestión de integración de ramas en develop mediante Pull Requests (merges de identity, community, commuting, subscriptions y wellness). |
+| **Patricio Farias, Ana Camila** | `anc-f4` | Diseño e implementación completa del Bounded Context de Commuting; modelos de agregados de trayectos (`Commute`) y pings de telemetría GPS; contratos de repositorio y servicios de dominio; entidades JPA y repositorios Spring Data; mappers y adaptadores de persistencia; comandos y servicios de aplicación CQRS; controladores REST y contratos de API para inicio, seguimiento, demoras, llegadas y monitoreo en vivo de Companion. |
+| **Dextre Flores, Leonardo Felix** | `leo-dex45` | Diseño e implementación del Bounded Context de Community & Moderation; modelos de dominio para puntos de servicio 24h, zonas de riesgo y publicaciones comunitarias; entidades JPA, repositorios y adaptadores de persistencia; servicios de aplicación para cálculo de `trustScore` y votación ciudadana; controladores REST y contratos de API con integración espacial de coordenadas para OpenStreetMap y OpenFreeMap. |
+| **Ramirez Rodriguez, Mauricio Joao** | `MauRicio1321m` | Diseño e implementación del Bounded Context de Sleep Wellness; modelos de dominio de sesiones de descanso diurno/nocturno con reglas invariantes contra solapamiento temporal y metas diarias de descanso; entidades JPA, repositorios Spring Data y mappers; comandos y servicios de aplicación CQRS; controlador REST para registro de descanso, metas y resumen de déficit semanal. |
+| **Salcedo Correa, Carlos Matthew** | `Matthewnhfe` | Diseño e implementación del Bounded Context de Subscriptions & Payments (órdenes de pago offline, activación de membresías Centinela Pro y cupones de beneficios); consolidación de la arquitectura 4-capas DDD, CQRS y ACL; manejo estandarizado de excepciones RFC 9457 Problem Details; documentación integral OpenAPI/Swagger; configuración de Dockerfile multi-stage y límites HikariCP para el despliegue en Render y Clever Cloud. |
+
+**Evidencias de analíticos de colaboración en GitHub:**
+
+![Insight](resources/imgs/insightsprint3.png)
 
 ## 5.3. Validation Interviews
 
