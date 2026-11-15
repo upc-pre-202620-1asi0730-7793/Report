@@ -3073,10 +3073,6 @@ Para estructurar las sesiones de validación de manera consistente y objetiva, e
 ### 5.3.2. Registro de Entrevistas
 
 A continuación, se presenta el consolidado en video y el registro detallado de las 6 entrevistas de validación realizadas.
-
-* **Enlace al video consolidado de Validation Interviews (Microsoft Stream):** `[Colocar aquí URL de Microsoft Stream]`
-* **Nomenclatura del archivo:** `upc-pre-202620-1asi0729-<NRC>-<startup>-validation-sprint-3.mp4`
-
 ---
 
 #### Segmento Objetivo 1: Trabajadores de Turno Nocturno
@@ -3192,11 +3188,11 @@ Ronald Ramírez señaló que el **Landing Page** va directo al grano y explica c
 | **Distrito** | San Juan de Lurigancho |
 | **Segmento Objetivo** | Contactos de Confianza (Profesional freelance, casado y supervisor de grupo familiar) |
 | **Fecha de entrevista** | 14/11/2026 |
-| **URL del Video (Stream)** | `[Colocar URL de Microsoft Stream]` |
-| **Timing de Inicio** | `20:50` |
-| **Duración** | `04:00` |
+| **URL del Video (Stream)** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241i469_upc_edu_pe/IQDjrpuFsu3xTqU67M1gfmZhAZ2aJCbQQMdsG9X1SITMOv4?e=Xnngtc |
+| **Timing de Inicio** | `00:02` |
+| **Duración** | `05:12` |
 
-![Captura Entrevista 6 - Roberto Carlos Fernández](path/to/screenshot-validation-6.png)
+![Captura Entrevista 6 - Roberto Carlos Fernández](resources/imgs/VI-Roberto.png)
 
 **Resumen descriptivo de apreciaciones:**
 Roberto Carlos Fernández validó el **Landing Page** destacando la claridad de los videos demostrativos y la tabla comparativa de planes familiares. Dentro del **Companion Portal**, recorrió la vista `Invitaciones` comprobando la facilidad para aceptar o rechazar tanto vínculos de confianza como invitaciones a planes grupales. En la vista `Monitoreo en Vivo`, resaltó la ventaja de supervisar simultáneamente a más de un familiar en pantalla, diferenciando rápidamente quién está en ruta activa con su hora estimada de llegada y quién se encuentra en reposo, además de utilizar los botones superiores en `Historial de Rutas` para filtrar alertas entre todos los canales, WhatsApp o correo. Al evaluar `Avisos & Alertas`, destacó la división lógica de la pantalla entre el listado de alertas recibidas a la izquierda y la configuración de canales y cola de entregas a la derecha, valorando especialmente el botón `Despachar Pendientes` para destrabar avisos retenidos con un solo clic. También calificó como sumamente útil la vista `Auxilio & Serenazgo` por presentar en tarjetas grandes los números del 105, SAMU, Bomberos, Serenazgo y Línea 100 junto al monitor SOS, y la rapidez de `Mi Perfil de Contacto` y del botón para alternar entre portales. Como mejora, propuso incluir un pequeño mapa desplegable dentro de la tarjeta del trabajador en `Monitoreo en Vivo` para visualizar el punto exacto en el mapa además de la dirección escrita.
