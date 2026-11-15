@@ -3110,11 +3110,11 @@ Durante la sesión de validación, Luis Mendoza Miranda interactuó inicialmente
 | **Distrito** | Chorrillos |
 | **Segmento Objetivo** | Trabajadores de Turno Nocturno (Trabajador de turno de madrugada en tienda Tambo – Chorrillos) |
 | **Fecha de entrevista** | 14/11/2026 |
-| **URL del Video (Stream)** | `[Colocar URL de Microsoft Stream]` |
-| **Timing de Inicio** | `04:16` |
-| **Duración** | `04:10` |
+| **URL del Video (Stream)** | https://www.youtube.com/watch?v=feB3KrqfYXc |
+| **Timing de Inicio** | 0:00 |
+| **Duración** | 10:00 |
 
-![Captura Entrevista 2 - Drago Duarte](path/to/screenshot-validation-2.png)
+![Captura Entrevista 2 - Drago Duarte](resources/imgs/dragoduarte.png)
 
 **Resumen descriptivo de apreciaciones:**
 Drago Duarte evaluó el **Landing Page** resaltando el orden con el que se presenta el proceso desde la salida del turno hasta la llegada segura a casa, así como la claridad de las preguntas frecuentes y el atractivo del plan *Cuadrilla Familiar* para compartirlo con compañeros de trabajo. Al interactuar con el **Portal del Trabajador**, indicó que el `Dashboard` ofrece un resumen claro de su estado y que la vista `Mi Trayecto` le permitió registrar su salida desde la tienda Tambo en Chorrillos en pocos segundos, brindándole confianza que el historial guarde la hora exacta de salida y llegada junto al botón `Estado SOS` siempre visible sobre el fondo oscuro. Durante la validación de las vistas `Mapa 24h` y `Comunidad`, enfatizó la utilidad de publicar y leer reportes filtrados por distrito cuando sale de madrugada en Chorrillos para identificar calles peligrosas o desiertas con hora exacta y ubicación en el mapa. En cuanto a `Bienestar & Sueño`, destacó la facilidad para ajustar su meta diaria a 7.5 horas y registrar su descanso post-turno ante los cambios constantes de horario, además de valorar la rapidez para agregar a un familiar en `Contactos Confianza` y el soporte de pagos mediante Yape o Plin en `Beneficios & Planes`. Finalmente, aprobó el contraste de las letras blancas y azules en el modo `Noche` y los selectores de idioma y tema, sugiriendo permitir subir una fotografía rápida del lugar al publicar un aviso en `Comunidad` para complementar el reporte.
@@ -3130,11 +3130,11 @@ Drago Duarte evaluó el **Landing Page** resaltando el orden con el que se prese
 | **Distrito** | San Martín de Porres |
 | **Segmento Objetivo** | Trabajadores de Turno Nocturno (Agente de seguridad en almacén logístico en el Callao) |
 | **Fecha de entrevista** | 14/11/2026 |
-| **URL del Video (Stream)** | `[Colocar URL de Microsoft Stream]` |
-| **Timing de Inicio** | `08:27` |
-| **Duración** | `03:55` |
+| **URL del Video (Stream)** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202421823_upc_edu_pe/IQA5WXdo5JSwQaqSeeKQT1u6AR-uhaoefldLChuJvnWBJwU?e=NVNJuU |
+| **Timing de Inicio** | 0:05 |
+| **Duración** | 6:00 |
 
-![Captura Entrevista 3 - Marco Antonio Quispe](path/to/screenshot-validation-3.png)
+![Captura Entrevista 3 - Marco Antonio](resources/imgs/marcoantonio.png)
 
 **Resumen descriptivo de apreciaciones:**
 Marco Antonio Quispe manifestó que la presentación del **Landing Page** es directa y aborda acertadamente los riesgos de movilizarse de madrugada desde zonas como el Callao, destacando que el precio de 12 soles mensuales del plan *Sentinel Pro* resulta muy razonable y que el acceso a la aplicación web es inmediato. Durante las pruebas en el **Portal del Trabajador**, señaló que al salir de guardia a las 6:00 a. m. o en cambios de turno de medianoche requiere rapidez, logrando registrar en `Mi Trayecto` su salida desde el almacén en el Callao hacia su casa en San Martín de Porres en segundos, respaldado por el botón rojo de `Estado SOS` en la parte inferior izquierda. Al explorar `Mapa 24h` y `Comunidad`, resaltó el valor de filtrar grifos y farmacias abiertas las 24 horas ordenadas por cercanía cuando transita por zonas industriales poco concurridas, así como leer alertas de otros compañeros sobre calles oscuras o patrullaje activo. De igual manera, calificó como muy intuitivo el flujo para agregar a su esposa en `Contactos Confianza`, consultar los descuentos en `Beneficios & Planes` y registrar su sueño en `Bienestar & Sueño`. Respecto al diseño visual e inclusivo, destacó que el modo `Noche` evita la fatiga visual tras una jornada de vigilancia y sugirió que, al iniciar una ruta, el sistema envíe automáticamente un mensaje de confirmación por WhatsApp al contacto de confianza sin necesidad de abrir la web.
@@ -3152,11 +3152,11 @@ Marco Antonio Quispe manifestó que la presentación del **Landing Page** es dir
 | **Distrito** | San Juan de Miraflores |
 | **Segmento Objetivo** | Contactos de Confianza (Estudiante universitario y contacto de confianza de su hermano menor) |
 | **Fecha de entrevista** | 14/11/2026 |
-| **URL del Video (Stream)** | `[Colocar URL de Microsoft Stream]` |
-| **Timing de Inicio** | `12:23` |
-| **Duración** | `04:20` |
+| **URL del Video (Stream)** | https://www.youtube.com/watch?v=FUaV13-r20E |
+| **Timing de Inicio** | 0:00 |
+| **Duración** | 7:12 |
 
-![Captura Entrevista 4 - Juan Gutiérrez](path/to/screenshot-validation-4.png)
+![Captura Entrevista 4 - Juan Gutiérrez](resources/imgs/juaninterview.png)
 
 **Resumen descriptivo de apreciaciones:**
 Juan Gutiérrez inició la validación en el **Landing Page**, señalando que la información permite comprender con rapidez el valor del sistema para las familias. Al ingresar al **Companion Portal** y dirigirse a la vista `Invitaciones`, visualizó de inmediato la solicitud enviada por su hermano menor y completó el vínculo con un solo clic en el botón "Aceptar". En la vista `Monitoreo en Vivo`, identificó con claridad la tarjeta de su hermano indicando que se encontraba en trayecto hacia San Juan de Miraflores, su medio de transporte y la hora estimada de llegada (ETA), además de consultar sin dificultad la constancia de sus recorridos previos en `Historial de Rutas`. Respecto a la vista `Avisos & Alertas`, destacó la claridad de las etiquetas que especifican el canal de envío (`WHATSAPP`, `EMAIL`, `IN_APP`) junto con los indicadores de estado en verde o rojo, resultándole muy práctico configurar WhatsApp como canal principal mientras estudia de noche. Asimismo, calificó como indispensable el directorio de `Auxilio & Serenazgo` con accesos directos a la Policía (105), SAMU (106), Bomberos (116) y Serenazgo para reaccionar sin perder tiempo ante cualquier imprevisto de madrugada. Finalmente, aprobó la fluidez del menú lateral y el selector `Día`/`Noche`, sugiriendo incorporar una alerta sonora distintiva para identificar al instante cuando su hermano llega a salvo a su destino.
