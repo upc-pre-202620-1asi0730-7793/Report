@@ -3302,6 +3302,25 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 
 ## 5.4. Video About-the-Product
 
+En esta sección se presenta y describe el **Video About-the-Product** de **Noxway**, elaborado con una orientación promocional y demostrativa dirigida tanto a los visitantes del **Landing Page** —interesados en conocer la propuesta de valor, el modelo de negocio de suscripción escalable y los beneficios colectivos— como a los usuarios finales de la **Web Application** (**Portal del Trabajador** y **Companion Portal**), quienes buscan comprender cómo la solución respalda sus procesos de traslado nocturno, monitoreo familiar en tiempo real, consulta cartográfica 24h y gestión del descanso.
+
+### Pauta de Secuencias y Contenido del Video
+
+1. **Introducción al problema y propuesta de valor (`00:00 - 00:30`):** Contextualización de los riesgos que enfrentan los trabajadores de turnos nocturnos y rotativos en Lima y Callao durante sus desplazamientos de madrugada, presentando el **Landing Page** de **Noxway** y su enfoque de protección integral desde la salida del turno hasta el retorno seguro al hogar.
+2. **Demostración para el Segmento 1 – Portal del Trabajador (`00:30 - 01:15`):** Recorrido por los flujos principales del trabajador: registro rápido de origen, destino y medio de transporte en `Mi Trayecto`, activación de telemetría GPS y visibilidad permanente del botón `Estado SOS`; búsqueda de farmacias, grifos y locales seguros en `Mapa 24h`; publicación de alertas por distrito en `Comunidad`; control de horas de recuperación en `Bienestar & Sueño`; y suscripción a planes (*Essential*, *Centinela Pro*, *Cuadrilla Familiar*) con pagos offline (`Yape`/`Plin`) y canje de descuentos en `Beneficios & Planes`.
+3. **Demostración para el Segmento 2 – Portal del Contacto de Confianza (`01:15 - 01:50`):** Recorrido por la experiencia del familiar acompañante en el **Companion Portal**: aceptación de solicitudes en `Invitaciones`, supervisión de traslados activos con hora estimada de llegada (ETA) en `Monitoreo en Vivo`, auditoría de viajes previos en `Historial de Rutas`, configuración de alertas multicanal (`WHATSAPP`, `EMAIL`, `IN_APP`) con ventana horaria y reintento de despacho en `Avisos & Alertas`, y acceso inmediato a líneas de respuesta oficial (Policía 105, SAMU 106, Bomberos 116 y Serenazgo) en `Auxilio & Serenazgo`.
+4. **Testimonios de validación por segmento objetivo (`01:50 - 02:15`):** Inclusión de las apreciaciones reales de **Luis Mendoza Miranda** (Segmento 1: Trabajador de turno nocturno en seguridad privada) y **Ronald Ramírez** (Segmento 2: Contacto de confianza familiar), quienes destacan la rapidez del check-in de ruta, la utilidad del mapa 24 horas y la tranquilidad que brinda el monitoreo en vivo sin exponer al trabajador en la vía pública.
+5. **Cierre y Call-to-Action (`02:15 - 02:30`):** Resumen de los atributos de diseño inclusivo (accesibilidad en modo oscuro e interfaz bilingüe) e invitación a registrarse y explorar la plataforma desde el **Landing Page** oficial de **Noxway**.
+
+### Información y Enlaces del Video About-the-Product
+
+| Atributo | Detalle |
+| :--- | :--- |
+| **Duración (Timing total)** | `02:30` |
+| **URL en Microsoft Stream** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241i469_upc_edu_pe/IQDK5el_0bgmQINN3hWW4TghAeWnJiiVNPsG6m_-Gggdv5E?e=bEsscG |
+| **URL en YouTube (Incrustado en el Landing Page)** | https://youtu.be/wU7YELBSmYM |
+
+![about-the-product](resources/imgs/about-the-product.png)
 
 # Conclusiones 
 Identificación de un nicho desatendido y vulnerable: El proyecto identifica y atiende a un segmento de mercado que ha sido históricamente ignorado por las soluciones tecnológicas: los trabajadores de turnos diurnos y nocturnos y sus contactos de confianza. El análisis y las entrevistas iniciales recogen los riesgos de transitar de madrugada y el aislamiento social de los trabajadores nocturnos; estos hallazgos orientan la propuesta para distintos horarios laborales.
