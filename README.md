@@ -2789,10 +2789,10 @@ Para optimizar la comunicación técnica y asegurar una clara distribución de r
 
 | Team Member (Last Name, First Name) | GitHub Username | Architecture, IAM & Shared Kernel<br>Leader (L) / Collaborator (C) | Commuting & Telemetry GPS<br>Leader (L) / Collaborator (C) | Community & Moderation 24h<br>Leader (L) / Collaborator (C) | Sleep Wellness<br>Leader (L) / Collaborator (C) | Subscriptions & Payments<br>Leader (L) / Collaborator (C) | Cloud Deployment, Docker & DB<br>Leader (L) / Collaborator (C) |
 | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| Cano Gomez, Yam Antony | Yam-1CG | L | C | C | C | C | C |
+| Cano Gomez, Yam Antony | Yam-1CG | L | C | L | C | C | C |
 | Patricio Farias, Ana Camila | anc-f4 | C | L | C | C | C | C |
-| Dextre Flores, Leonardo Felix | leo-dex45 | C | C | C | C | C | C |
-| Ramirez Rodriguez, Mauricio Joao | MauRicio1321m | C | C | C | C | C | C |
+| Dextre Flores, Leonardo Felix | leo-dex45 | C | C | C | C | L | C |
+| Ramirez Rodriguez, Mauricio Joao | MauRicio1321m | C | C | C | L | C | C |
 | Salcedo Correa, Carlos Matthew | Matthewnhfe | C | C | C | C | L | L |
 
 La organización de la matriz LACX guarda estricta relación con la asignación de tareas en el Sprint Backlog y con el historial de commits verificado en el repositorio del backend:
@@ -3079,18 +3079,18 @@ A continuación, se presenta el consolidado en video y el registro detallado de 
 
 ##### Entrevista de Validación #1 – Segmento 1
 
-| Campo | Detalle |
-| :--- | :--- |
-| **Nombres y Apellidos** | Luis Mendoza Miranda |
-| **Edad** | 32 años |
-| **Distrito** | San Martín de Porres |
+| Campo | Detalle                                                                                               |
+| :--- |:------------------------------------------------------------------------------------------------------|
+| **Nombres y Apellidos** | Luis Mendoza Miranda                                                                                  |
+| **Edad** | 32 años                                                                                               |
+| **Distrito** | San Martín de Porres                                                                                  |
 | **Segmento Objetivo** | Trabajadores de Turno Nocturno (Agente de seguridad privada – ruta San Isidro a San Martín de Porres) |
-| **Fecha de entrevista** | 14/11/2026 |
-| **URL del Video (Stream)** | `[Colocar URL de Microsoft Stream]` |
-| **Timing de Inicio** | `00:00` |
-| **Duración** | `04:15` |
+| **Fecha de entrevista** | 14/11/2026                                                                                            |
+| **URL del Video (Stream)** | https://shorturl.at/F0VOy                                                                             |
+| **Timing de Inicio** | `00:00`                                                                                               |
+| **Duración** | `03:58`                                                                                               |
 
-![Captura Entrevista 1 - Luis Mendoza Miranda](path/to/screenshot-validation-1.png)
+![Captura Entrevista 1 - Luis Mendoza Miranda](resources/imgs/S1-entrevistaNoxway.png)
 
 **Resumen descriptivo de apreciaciones:**
 Durante la sesión de validación, Luis Mendoza Miranda interactuó inicialmente con el **Landing Page**, señalando que desde el primer vistazo se comprende que la plataforma está pensada para quienes trabajan de madrugada y que las tarjetas informativas junto con los precios en soles (como el plan *Centinela Pro*) permiten ingresar de forma directa a la aplicación web mediante el botón principal. Al ejecutar el flujo de inicio de ruta en la vista `Mi Trayecto`, destacó la rapidez para registrar su punto de partida en San Isidro hacia su domicilio en San Martín de Porres al salir cansado de su turno de seguridad privada, resaltando además que el botón rojo de `Estado SOS` permanece visible en todo momento en la esquina inferior izquierda, lo que brinda tranquilidad en recorridos largos. En la prueba del `Mapa 24h` y `Comunidad`, calificó como excelente el filtro de establecimientos abiertos las 24 horas para ubicar grifos o locales seguros en ruta, así como el filtrado por distritos (San Isidro y San Martín de Porres) para revisar avisos sobre calles oscuras o patrullaje activo. Respecto a `Bienestar & Sueño` y `Beneficios & Planes`, valoró el gráfico semanal para organizar su descanso tras las guardias nocturnas, las opciones de descuentos y la rapidez para invitar a un familiar por correo en `Contactos Confianza`. Finalmente, destacó el alivio visual del modo `Noche` y la respuesta inmediata del cambio de idioma (`ES`/`EN`), sugiriendo como mejora poder guardar rutas habituales (como "San Isidro - San Martín de Porres") para activarlas con un solo toque al salir del trabajo.
@@ -3168,11 +3168,11 @@ Juan Gutiérrez inició la validación en el **Landing Page**, señalando que la
 | **Distrito** | Bellavista, Callao |
 | **Segmento Objetivo** | Contactos de Confianza (Esposo de trabajadora en turno nocturno) |
 | **Fecha de entrevista** | 14/11/2026 |
-| **URL del Video (Stream)** | `[Colocar URL de Microsoft Stream]` |
-| **Timing de Inicio** | `16:44` |
-| **Duración** | `04:05` |
+| **URL del Video (Stream)** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218235_upc_edu_pe/IQBQLBYmf-PTSoUTj-tlAQcoASW-cv5cecSmw5pLSEfc09M?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=qOUTUa |
+| **Timing de Inicio** | 0:00 |
+| **Duración** | 07:03 |
 
-![Captura Entrevista 5 - Ronald Ramírez](path/to/screenshot-validation-5.png)
+![Captura Entrevista 5 - Ronald Ramírez](resources/imgs/ronaldinterview.png)
 
 **Resumen descriptivo de apreciaciones:**
 Ronald Ramírez señaló que el **Landing Page** va directo al grano y explica con claridad cómo conecta al trabajador nocturno con su familia. Al interactuar con la vista `Invitaciones` del **Companion Portal**, destacó la limpieza visual para mostrar las solicitudes de vínculo y el tipo de turno, logrando aceptar la invitación de su esposa en apenas cinco segundos. Durante la prueba de `Monitoreo en Vivo` e `Historial de Rutas`, comentó que visualizar directamente el punto de partida, el destino hacia Bellavista (Callao) y la hora estimada de llegada evita que su esposa tenga que exponerse sacando el teléfono en plena calle para mandar mensajes a cada rato. En la vista `Avisos & Alertas`, valoró el indicador numérico rojo en el menú lateral que avisa sobre las 6 alertas registradas, permitiendo distinguir cuáles llegaron por la aplicación, WhatsApp o correo, así como activar el canal de SMS y programar el horario nocturno. Igualmente, afirmó que `Auxilio & Serenazgo` brinda un gran respaldo al centralizar los teléfonos oficiales de la Policía, SAMU y Serenazgo junto al estado de incidentes SOS activos del familiar monitoreado. Por último, elogió la fluidez de la navegación y el contraste del modo `Noche` para revisar la pantalla a las 5:00 a. m. con la luz apagada, recomendando que la página emita un sonido corto de notificación cuando ingrese una alerta de inicio de ruta o demora mientras la pestaña está abierta en la computadora.
