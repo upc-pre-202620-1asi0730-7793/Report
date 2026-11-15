@@ -2789,10 +2789,10 @@ Para optimizar la comunicación técnica y asegurar una clara distribución de r
 
 | Team Member (Last Name, First Name) | GitHub Username | Architecture, IAM & Shared Kernel<br>Leader (L) / Collaborator (C) | Commuting & Telemetry GPS<br>Leader (L) / Collaborator (C) | Community & Moderation 24h<br>Leader (L) / Collaborator (C) | Sleep Wellness<br>Leader (L) / Collaborator (C) | Subscriptions & Payments<br>Leader (L) / Collaborator (C) | Cloud Deployment, Docker & DB<br>Leader (L) / Collaborator (C) |
 | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| Cano Gomez, Yam Antony | Yam-1CG | L | C | C | C | C | C |
+| Cano Gomez, Yam Antony | Yam-1CG | L | C | L | C | C | C |
 | Patricio Farias, Ana Camila | anc-f4 | C | L | C | C | C | C |
-| Dextre Flores, Leonardo Felix | leo-dex45 | C | C | C | C | C | C |
-| Ramirez Rodriguez, Mauricio Joao | MauRicio1321m | C | C | C | C | C | C |
+| Dextre Flores, Leonardo Felix | leo-dex45 | C | C | C | C | L | C |
+| Ramirez Rodriguez, Mauricio Joao | MauRicio1321m | C | C | C | L | C | C |
 | Salcedo Correa, Carlos Matthew | Matthewnhfe | C | C | C | C | L | L |
 
 La organización de la matriz LACX guarda estricta relación con la asignación de tareas en el Sprint Backlog y con el historial de commits verificado en el repositorio del backend:
