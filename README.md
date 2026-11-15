@@ -3168,11 +3168,11 @@ Juan Gutiérrez inició la validación en el **Landing Page**, señalando que la
 | **Distrito** | Bellavista, Callao |
 | **Segmento Objetivo** | Contactos de Confianza (Esposo de trabajadora en turno nocturno) |
 | **Fecha de entrevista** | 14/11/2026 |
-| **URL del Video (Stream)** | `[Colocar URL de Microsoft Stream]` |
-| **Timing de Inicio** | `16:44` |
-| **Duración** | `04:05` |
+| **URL del Video (Stream)** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218235_upc_edu_pe/IQBQLBYmf-PTSoUTj-tlAQcoASW-cv5cecSmw5pLSEfc09M?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=qOUTUa |
+| **Timing de Inicio** | 0:00 |
+| **Duración** | 07:03 |
 
-![Captura Entrevista 5 - Ronald Ramírez](path/to/screenshot-validation-5.png)
+![Captura Entrevista 5 - Ronald Ramírez](resources/imgs/ronaldinterview.png)
 
 **Resumen descriptivo de apreciaciones:**
 Ronald Ramírez señaló que el **Landing Page** va directo al grano y explica con claridad cómo conecta al trabajador nocturno con su familia. Al interactuar con la vista `Invitaciones` del **Companion Portal**, destacó la limpieza visual para mostrar las solicitudes de vínculo y el tipo de turno, logrando aceptar la invitación de su esposa en apenas cinco segundos. Durante la prueba de `Monitoreo en Vivo` e `Historial de Rutas`, comentó que visualizar directamente el punto de partida, el destino hacia Bellavista (Callao) y la hora estimada de llegada evita que su esposa tenga que exponerse sacando el teléfono en plena calle para mandar mensajes a cada rato. En la vista `Avisos & Alertas`, valoró el indicador numérico rojo en el menú lateral que avisa sobre las 6 alertas registradas, permitiendo distinguir cuáles llegaron por la aplicación, WhatsApp o correo, así como activar el canal de SMS y programar el horario nocturno. Igualmente, afirmó que `Auxilio & Serenazgo` brinda un gran respaldo al centralizar los teléfonos oficiales de la Policía, SAMU y Serenazgo junto al estado de incidentes SOS activos del familiar monitoreado. Por último, elogió la fluidez de la navegación y el contraste del modo `Noche` para revisar la pantalla a las 5:00 a. m. con la luz apagada, recomendando que la página emita un sonido corto de notificación cuando ingrese una alerta de inicio de ruta o demora mientras la pestaña está abierta en la computadora.
