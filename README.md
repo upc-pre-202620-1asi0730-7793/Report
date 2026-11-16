@@ -46,6 +46,7 @@
 | 1.0 | 2026-09-19 | Noctiva | Desarrollo del Capítulo I, Capítulo II, Capítulo III, Capítulo IV y el Sprint 1 del Capítulo V |
 | 2.1 | 2026-11-04 | Noctiva | Adaptación de los textos del informe para trabajadores de turnos diurnos y nocturnos. |
 | 2.0 | 2026-10-08 | Noctiva | Implementación de mejoras según el feedback de evaluación en los Capítulos I al IV, y desarrollo del Sprint 2 del Capítulo V |
+| 3.0 | 2026-11-15 | Noctiva | Documentación del Sprint 3 en el Capítulo V, incluida la implementación de la API REST de Noxway con Spring Boot, la persistencia en PostgreSQL y el despliegue del backend con Docker en Render. |
 
 # Project Report Collaboration Insights 
 | Recurso | URL |
